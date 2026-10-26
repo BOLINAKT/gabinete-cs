@@ -153,9 +153,8 @@ def html_jogo(j) -> str:
                 .format(classe, nome, cab, "".join(linhas)))
     html += '<div class="colunas">' + coluna("c-mod", "Modelo — odd justa", mod) \
         + coluna("c-pin", "Pinnacle — odd paga", pin) + "</div>"
-    if j.get("qualificatoria"):
-        html += ('<div class="aviso">Qualificatória: aqui o modelo é mais fraco (times com pouco dado; '
-                 'logloss 0,675 nas qualificatórias S de 2026-1, contra ~0,62 nos eventos principais).</div>')
+    # (26/10 a noite) o aviso "qualificatoria: modelo mais fraco" saiu: com os tiers
+    # corrigidos, qualificatoria nao e pior (B: 0,639 x 0,653 no evento principal).
     for f, nome in zip(j["fichas"], (j["casa"], j["fora"])):
         novos = [x["jogador"] for x in f["jogadores"] if x["novo"]]
         if novos:
