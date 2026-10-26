@@ -20,7 +20,9 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
+import base_elo as be
 import liquipedia as lq
+import placar_pinnacle as plp
 import precos_core as pc
 import rondas as rd
 import tela_cs as tl
@@ -91,6 +93,39 @@ def _odds_mais_nova():
 
 def _dia(j) -> str:
     return tl.hora_br(j["inicio_utc"])[:5] or "?"
+
+
+@st.cache_data(ttl=600, show_spinner=False)
+def _placar_pinnacle(_versao: tuple) -> dict:
+    return plp.placar(be.carregar(incluir_c=True), plp.carregar_registros())
+
+
+def _aba_modelo_pinnacle() -> None:
+    """A regua de verdade: previsao gravada a cada leitura (robo) x fechamento."""
+    versao = tuple(f.stat().st_mtime for f in (RAIZ / "mapas_cs.csv", plp.PREV) if f.exists())
+    pl = _placar_pinnacle(versao)
+    st.caption("A cada leitura de odds (de 3 em 3 h) o robô grava a chance do modelo NAQUELE momento. Aqui: "
+               "a última antes do jogo × a Pinnacle sem margem, nos jogos que já têm resultado.")
+    if not pl["n"]:
+        regs = plp.carregar_registros()
+        st.info(f"Ainda sem jogo com resultado. Previsões gravadas até agora: {len(regs)}. "
+                "O placar aparece conforme os jogos acontecem e o robô de dados traz os resultados.")
+        return
+    lo, hi = pl["ic_dif"]
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Mercados com resultado", pl["n"])
+    c2.metric("Logloss modelo", f"{pl['ll_modelo']:.4f}")
+    c3.metric("Logloss Pinnacle", f"{pl['ll_pinnacle']:.4f}")
+    c4.metric("Apostas (vantagem 1–20%)", pl["apostas"],
+              None if pl["roi"] is None else f"ROI {100 * pl['roi']:+.1f}% · {pl['lucro']:+.2f} u")
+    st.caption(f"Vantagem do modelo sobre a Pinnacle no logloss: IC95 [{lo:+.4f}; {hi:+.4f}] — "
+               "se o intervalo cruza o zero, ainda é sorte. Leva centenas de jogos para dizer algo.")
+    df = pd.DataFrame([{"jogo": f"{l['casa']} × {l['fora']}", "mercado": l["mercado"],
+                        "modelo (casa)": f"{l['p_modelo_casa']:.0%}", "Pinnacle (casa)": f"{l['p_pinnacle_casa']:.0%}",
+                        "venceu": l["casa"] if l["venceu_casa"] else l["fora"],
+                        "aposta": l["apostou"] or "", "lucro": round(l["lucro"], 2)}
+                       for l in sorted(pl["linhas"], key=lambda l: l["inicio_utc"], reverse=True)])
+    st.dataframe(df, hide_index=True, width="stretch")
 
 
 def _bloco_rounds(j, odds) -> None:
@@ -172,8 +207,8 @@ def main() -> None:
             jogos=len(jogos), precificados=sum(j["precificado"] for j in jogos), com_valor=len(melhores),
             idade_odds=idade, dados_ate=est.fim.strftime("%d/%m %H:%M"), odds_velhas=velha)), height=34)
 
-    aba_jogos, aba_melhores, aba_placar, aba_como = st.tabs(
-        ["Jogos", "Melhores apostas", "Placar dos mapas", "Como ler"])
+    aba_jogos, aba_melhores, aba_pin, aba_placar, aba_como = st.tabs(
+        ["Jogos", "Melhores apostas", "Modelo × Pinnacle", "Placar dos mapas", "Como ler"])
     with aba_jogos:
         encerrados = [j for j in jogos if j["situacao"] == "encerrado"]
         if encerrados and not st.toggle(f"Mostrar {len(encerrados)} jogo(s) já encerrado(s)", value=False):
@@ -211,6 +246,8 @@ def main() -> None:
                     st.write(f"**{nome}** → {t or 'nada'} ({como})")
     with aba_melhores:
         components.html(tl.pagina(tl.html_melhores(melhores)), height=tl.altura_melhores(len(melhores)))
+    with aba_pin:
+        _aba_modelo_pinnacle()
     with aba_placar:
         pl = vc.placar(est.d)
         n = min(len(pl.get("linhas", [])), 40)
