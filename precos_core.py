@@ -227,6 +227,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
         jogo["veto"] = veto_provavel(*jogo["mapas"])
         if not avisos:
             pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
+            jogo["p_mapa"] = pm
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)
             ps = be.p_serie(cal.ajusta(pm, C_SERIE), precisa) if precisa > 1 else pm
             pin = justas(odds["linhas"], j["id"])
@@ -242,6 +243,61 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                                   "vantagem": (pmod * odd - 1) * 100 if odd else None})
                 jogo["mercados"].append({"mercado": nome, "periodo": per, "lados": lados})
         fora.append(jogo)
+    return fora
+
+
+KAPPA_ROUNDS = 25   # rondas.py, validacao 26/10/2026
+
+
+def p_linha_rounds(dist: dict, tipo: str, lado: str, pontos: float, time: str | None) -> float | None:
+    """Chance do modelo para UMA linha de rounds (A = casa). dist = {(rounds A, rounds B): p}."""
+    def pr(f):
+        return sum(v for (a, b), v in dist.items() if f(a, b))
+    if pontos is None:
+        return None
+    if tipo == "total":
+        acima = pr(lambda a, b: a + b > pontos)
+        return acima if lado == "over" else 1 - acima if lado == "under" else None
+    if tipo == "spread":     # pontos = handicap do lado: casa -2,5 => vence por 3+
+        if lado == "home":
+            return pr(lambda a, b: a - b + pontos > 0)
+        if lado == "away":
+            return pr(lambda a, b: b - a + pontos > 0)
+    if tipo == "team_total" and time in ("home", "away"):
+        acima = pr(lambda a, b: (a if time == "home" else b) > pontos)
+        return acima if lado == "over" else 1 - acima if lado == "under" else None
+    return None
+
+
+def rounds_do_jogo(jogo: dict, linhas: list, tabela) -> list:
+    """Cada linha de rounds da Pinnacle (por mapa) com a chance do modelo e a vantagem.
+
+    A distribuicao do placar vem da chance do mapa (o modelo oficial) via rondas.Tabela.
+    Validado 26/10: handicap e rounds de um time PASSAM; total e prorrogacao empatam
+    com a frequencia historica (o modelo nao sabe prever total melhor que a media)."""
+    if not jogo["precificado"] or jogo.get("p_mapa") is None:
+        return []
+    dist = tabela.dist(jogo["p_mapa"])
+    grupos = defaultdict(list)
+    for l in linhas:
+        if l["matchup"] == jogo["id"] and l["tipo"] in ("total", "spread", "team_total")                 and l["periodo"] in (1, 2, 3) and l["odd"]:
+            # par = as duas pontas da MESMA linha: no handicap, casa h com visitante -h
+            # ("casa -2,5 / fora +2,5" nao se mistura com a alternativa "casa +2,5 / fora -2,5")
+            h = (l["pontos"] or 0) * (-1 if (l["tipo"] == "spread" and l["lado"] == "away") else 1)
+            grupos[(l["periodo"], l["tipo"], l.get("time"), h, l["alternativa"])].append(l)
+    fora = []
+    for (per, tipo, time, _, _), ls in sorted(grupos.items(), key=lambda x: (x[0][0], x[0][1], str(x[0][2]), x[0][3])):
+        if len(ls) != 2:
+            continue
+        s = sum(1 / l["odd"] for l in ls)
+        for l in ls:
+            pm = p_linha_rounds(dist, tipo, l["lado"], l["pontos"], time)
+            if pm is None:
+                continue
+            fora.append({"mapa": per, "tipo": tipo, "time": time, "lado": l["lado"], "pontos": l["pontos"],
+                         "alternativa": l["alternativa"], "odd": l["odd"], "p_pinnacle": (1 / l["odd"]) / s,
+                         "p_modelo": pm, "vantagem": (pm * l["odd"] - 1) * 100,
+                         "validado": tipo in ("spread", "team_total")})
     return fora
 
 

@@ -22,6 +22,7 @@ import streamlit.components.v1 as components
 
 import liquipedia as lq
 import precos_core as pc
+import rondas as rd
 import tela_cs as tl
 import veto_cs as vc
 
@@ -52,6 +53,11 @@ def _versao_dados() -> tuple:
     # precos_core.py entra: codigo novo do Estado com cache velho = atributo faltando
     return tuple((RAIZ / n).stat().st_mtime
                  for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py"))
+
+
+@st.cache_resource
+def tabela_rounds() -> rd.Tabela:
+    return rd.Tabela(pc.KAPPA_ROUNDS)
 
 
 @st.cache_resource(show_spinner="Treinando o modelo nos mapas coletados...")
@@ -85,6 +91,20 @@ def _odds_mais_nova():
 
 def _dia(j) -> str:
     return tl.hora_br(j["inicio_utc"])[:5] or "?"
+
+
+def _bloco_rounds(j, odds) -> None:
+    linhas = pc.rounds_do_jogo(j, odds["linhas"], tabela_rounds())
+    if not linhas:
+        return
+    st.markdown("##### Rounds por mapa")
+    princ = [l for l in linhas if not l["alternativa"]]
+    alt = [l for l in linhas if l["alternativa"]]
+    components.html(tl.pagina(tl.html_rounds(j, princ) + tl.NOTA_ROUNDS),
+                    height=tl.altura_rounds(princ) + 80, scrolling=False)
+    if alt:
+        with st.expander(f"Linhas alternativas ({len(alt) // 2})"):
+            components.html(tl.pagina(tl.html_rounds(j, alt)), height=tl.altura_rounds(alt), scrolling=False)
 
 
 def _bloco_veto(est, j) -> None:
@@ -179,6 +199,7 @@ def main() -> None:
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            _bloco_rounds(j, odds)
             _bloco_veto(est, j)
             st.markdown("##### Mapas")
             components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)

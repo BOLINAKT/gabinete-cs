@@ -354,6 +354,58 @@ def altura_mapas(j) -> int:
     return 64 + 44 * max(n, 1) + 62
 
 
+def _par_rounds(linhas):
+    """Junta as duas pontas de cada linha (over/under, casa/fora) numa linha da tabela."""
+    pares = {}
+    for l in linhas:
+        h = l["pontos"] * (-1 if (l["tipo"] == "spread" and l["lado"] == "away") else 1)
+        pares.setdefault((l["mapa"], l["tipo"], str(l["time"]), h), []).append(l)
+    ordem = {"spread": 0, "team_total": 1, "total": 2}
+    return [sorted(v, key=lambda l: l["lado"] in ("under", "away")) for k, v in
+            sorted(pares.items(), key=lambda kv: (kv[0][0], ordem[kv[0][1]], kv[0][2], kv[0][3])) if len(v) == 2]
+
+
+def html_rounds(j, linhas) -> str:
+    """Mercados de rounds por mapa: Pinnacle x modelo, com a vantagem do modelo."""
+    if not linhas:
+        return '<div class="nada">Sem linhas de rounds da Pinnacle para este jogo (ou jogo sem preço do modelo).</div>'
+    casa, fora = escape(j["casa"]), escape(j["fora"])
+
+    def nome(l):
+        if l["tipo"] == "spread":
+            return "Handicap de rounds", f"{casa} {l['pontos']:+.1f}".replace(".", ","),                 f"{fora} {-l['pontos']:+.1f}".replace(".", ",")
+        if l["tipo"] == "team_total":
+            quem = casa if l["time"] == "home" else fora
+            return f"Rounds de {quem}", f"+{l['pontos']:.1f}".replace(".", ","), f"−{l['pontos']:.1f}".replace(".", ",")
+        return "Total de rounds", f"+{l['pontos']:.1f}".replace(".", ","), f"−{l['pontos']:.1f}".replace(".", ",")
+
+    def cel(l):
+        v = l["vantagem"]
+        cls = "alto" if (v > 0 and l["validado"]) else ""
+        return ('<td class="{}"><span class="p o-pin">{:.2f}</span><span class="q">modelo {:.2f} · {}</span></td>'
+                .format(cls, l["odd"], 1 / max(l["p_modelo"], 1e-6), f"{v:+.1f}%".replace(".", ",")))
+    corpo = []
+    for a, b in _par_rounds(linhas):
+        merc, ra, rb = nome(a)
+        aviso = "" if a["validado"] else ' <span class="pk ban" title="o modelo empata com a média histórica">média</span>'
+        corpo.append('<tr><td>{}</td><td class="mapa" style="text-align:left">{}{}</td><td>{}</td>{}<td>{}</td>{}</tr>'.format(
+            a["mapa"], merc, aviso, ra, cel(a), rb, cel(b)))
+    return (CSS_MAPAS + '<div class="mapas"><table class="mt"><tr><th>Mapa</th><th>Mercado</th><th>Lado</th>'
+            '<th>Pinnacle (modelo · vantagem)</th><th>Lado</th><th>Pinnacle (modelo · vantagem)</th></tr>'
+            + "".join(corpo) + '</table></div>')
+
+
+NOTA_ROUNDS = ('<div class="nota">Do placar exato pelas regras do CS2 (MR12, prorrogação MR3), a partir da chance do '
+               'mapa. Teste 2024-07+ (11 mil mapas): <b>handicap e rounds de um time passam</b> na régua (+0,03 a '
+               '+0,04 sobre a média histórica); <b>total de rounds e prorrogação não</b> (marcados "média": o modelo '
+               'só repete a frequência histórica — ~45% dos mapas passam de 21,5). Verde só no que passou. A '
+               'vantagem herda o modelo do mapa: se a força do time estiver errada (dado velho), ela também está.</div>')
+
+
+def altura_rounds(linhas) -> int:
+    return 50 + 47 * max(1, len(_par_rounds(linhas)))
+
+
 def altura_melhores(n, limite=15) -> int:
     return 34 + 47 * max(1, min(n, limite)) + 70
 

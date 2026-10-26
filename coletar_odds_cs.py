@@ -79,6 +79,9 @@ def jogos_e_linhas(matchups: list, mercados: list) -> tuple:
             lado = preco.get("designation") or preco.get("participantId")
             linhas.append({"jogo": jogo, "matchup": mid, "tipo": k.get("type"),
                            "periodo": k.get("period"), "alternativa": bool(k.get("isAlternate")),
+                           # team_total: DE QUAL time e a linha (home/away). Sem isso as
+                           # duas linhas "acima de 12,5" ficavam iguais (26/10/2026).
+                           "time": k.get("side"),
                            "unidade": (k.get("units") or ""),
                            "lado": lado, "pontos": preco.get("points"), "americana": preco.get("price"),
                            "odd": _decimal(preco.get("price"))})

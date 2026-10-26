@@ -294,6 +294,33 @@ PC (`coletar_odds_cs.py --local`, 2 chamadas, `odds_cs2_local.json` fora do git)
 ao abrir se a leitura tiver mais de 30 min, e no botão; jogo que acabou some da
 Pinnacle. O histórico continua só do robô.
 
+## Modelo de ROUNDS (26/10/2026) — `rondas.py` — handicap e rounds de time ACEITOS
+
+Placar exato pelas regras do CS2 (MR12; prorrogação MR3, primeiro a 4 de 6), a
+partir da chance do mapa (Elo por jogador): chance por round q ~ Beta(média, κ),
+κ=25 na validação (CS2 10/2023–06/2024). Teste 07/2024+ (11.441 mapas S/A), contra
+a frequência histórica (que ignora quem joga):
+
+| mercado | ganho | régua |
+|---|---|---|
+| handicap ±2,5/3,5/4,5 (os dois lados) | +0,031 a +0,042 | passa |
+| rounds de um time >11,5 / >12,5 | +0,033 / +0,035 | passa |
+| total >19,5…23,5 | −0,001 a +0,001 | não |
+| prorrogação | −0,0004 | não |
+
+O total quase não depende do confronto nem do mapa (média 21,4 Nuke → 21,6 Anubis;
+~45% dos mapas passam de 21,5). No app o total aparece marcado "média". Dados CS2:
+99,8% dos placares válidos MR12; 11,5% com prorrogação.
+
+Coletor: `team_total` agora grava DE QUAL time é a linha (`time` = home/away).
+Defeito achado pelo teste: a tabela p→placar pegava sempre o ponto de cima da
+grade (puxava ~0,5–1 pp para o time A); agora o mais próximo, grade 0,0025.
+
+Stats de JOGADOR: a Liquipedia não tem (76 mil blocos {{Map}} conferidos: só rounds
+por lado, links). HLTV tem, mas bloqueia robô (não contornamos). Caminhos: GRID Open
+Access (inscrição dele) e o dataset do Kaggle "Counter Strike 2 Match Data/Status
+for Betting" (HLTV, 11/2023–12/2024; conferir licença e colunas, exige login).
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
