@@ -37,14 +37,23 @@ jobs:
             exit 0
           fi
           exit "$rc"
+      # A PREVISAO do modelo naquele momento, com o dado de entao (26/10/2026):
+      # e o que faz o placar modelo x Pinnacle no fechamento ser honesto.
+      - name: Gravar a previsao do modelo
+        if: steps.coleta.outputs.rc == '0'
+        continue-on-error: true
+        run: |
+          pip install --quiet pandas
+          python registrar_previsoes.py
       - name: Commitar
         if: steps.coleta.outputs.rc == '0'
         run: |
           git config user.name "Robo GabineteCS"
           git config user.email "robo@gabinete.local"
           git add odds_cs2.json odds_cs2_historico.jsonl odds_cs2_partidas.jsonl
+          [ -f previsoes_cs2.jsonl ] && git add previsoes_cs2.jsonl
           git diff --cached --quiet && exit 0
-          git commit -m "Robô: odds de CS2 da Pinnacle"
+          git commit -m "Robô: odds de CS2 da Pinnacle (e a previsão do modelo)"
           for i in 1 2 3; do
             if git push; then exit 0; fi
             git pull --rebase --autostash || exit 1
