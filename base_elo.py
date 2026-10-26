@@ -45,8 +45,12 @@ def canonico(nome: str, mapa: dict) -> str:
     return c
 
 
-def carregar() -> pd.DataFrame:
+def carregar(incluir_c: bool = False) -> pd.DataFrame:
+    """Mapas para o modelo. Tier C (coleta aos poucos desde 26/10/2026) fica FORA
+    por padrao: so entra no oficial se passar na regua (teste com/sem)."""
     d = pd.read_csv(RAIZ / "mapas_cs.csv")
+    if not incluir_c:
+        d = d[d["tier"] != "C"]
     arq = RAIZ / "times_canonicos.json"
     if arq.exists():
         mapa = json.loads(arq.read_text(encoding="utf-8"))

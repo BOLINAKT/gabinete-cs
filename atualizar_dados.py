@@ -41,6 +41,12 @@ TIERS = (("S", "Category:S-Tier Tournaments"), ("A", "Category:A-Tier Tournament
          ("B", "Category:B-Tier Tournaments"))
 ANO_MINIMO = 2020
 DIAS_ELENCO = 7
+# TIER C (26/10/2026, hipotese): MIBR/Astralis/fnatic/HOTU "parados" ha semanas e o
+# "STK Ranked" deles fora das categorias S/A/B. Coleta AOS POUCOS (o que sobrar do
+# orcamento diario), so 2025+, e entra so no TREINO -- a regua continua S/A/B.
+CAT_C = "Category:C-Tier Tournaments"
+ANO_MINIMO_C = 2025
+RESERVA = 40     # chamadas guardadas para nomes e elencos depois do tier C
 RC_PAUSA = 75
 
 
@@ -141,6 +147,52 @@ def _reler_ativos(cli, indice: dict, hoje: date) -> tuple:
     return linhas, relidas, ativos
 
 
+def _listar_c(cli, indice: dict) -> int:
+    """Uma vez: todos os torneios C de 2025+ entram no indice como 'pendente'."""
+    if indice.get("_c_listado"):
+        return 0
+    cont, novos = {}, 0
+    while True:
+        d = cli(action="query", list="categorymembers", cmtitle=CAT_C, cmlimit=500, cmnamespace=0, **cont)
+        for x in (d.get("query") or {}).get("categorymembers", []):
+            t = x["title"]
+            anos = [int(a) for a in re.findall(r"(?<!\d)(20\d\d)(?!\d)", t)]
+            if t in indice or not anos or max(anos) < ANO_MINIMO_C:
+                continue
+            indice[t] = {"tier": "C", "inicio": None, "fim": None, "pendente": True}
+            novos += 1
+        if "continue" not in d:
+            break
+        cont = dict(d["continue"])
+    indice["_c_listado"] = {"tier": "-", "inicio": None, "fim": None}
+    return novos
+
+
+def _coletar_pendentes(cli, indice: dict, linhas: list, relidas: set) -> tuple:
+    """Torneios 'pendente' (tier C), do mais recente no nome para o mais antigo.
+    linhas/relidas vem de fora e sao preenchidas no lugar: o que foi lido antes de
+    acabar o orcamento NAO se perde."""
+    pend = sorted((t for t, v in indice.items() if v.get("pendente")),
+                  key=lambda t: max(re.findall(r"20\d\d", t) or ["0"]), reverse=True)
+    feitos = 0
+    for t in pend:
+        d = cli(action="query", list="allpages", apprefix=t + "/", aplimit=100, apnamespace=0)
+        subs = [p["title"] for p in (d.get("query") or {}).get("allpages", [])]
+        paginas = []
+        for pg in [t, *subs]:
+            txt = cli.texto(pg)
+            if pg == t:
+                ini, fim = datas_infobox(txt)
+                indice[t].update(inicio=ini, fim=fim)
+            if "{{Match" in txt:
+                paginas.extend(ex.mapas_da_pagina(txt, pagina=pg, tier="C"))
+        linhas.extend(paginas)
+        relidas.update([t, *subs])
+        indice[t]["pendente"] = False
+        feitos += 1
+    return linhas, relidas, feitos
+
+
 def _nomes_novos(cli, nomes: set) -> int:
     canon = json.loads(CANON.read_text(encoding="utf-8")) if CANON.exists() else {}
     pags = json.loads(PAGINAS.read_text(encoding="utf-8")) if PAGINAS.exists() else {}
@@ -224,10 +276,33 @@ def main() -> int:
         print(f"[dados] {len(ativos)} torneios ativos, {len(relidas)} paginas relidas, "
               f"mapas {len(antigas)} -> {len(tudo)} (+{len(tudo) - len(antigas)})")
     print(f"[dados] torneios novos no indice: {novos}")
-    if rc == 0 and linhas:
-        times = {l["time1"] for l in linhas} | {l["time2"] for l in linhas}
+    # TIER C com o que sobrou do orcamento (fora da regua; so treino)
+    lc, rc_c, feitos_c = [], set(), 0
+    if rc == 0 and not a.so_cache:
+        limite_total = cli.limite
+        cli.limite = max(cli.usadas, limite_total - RESERVA)
         try:
-            print(f"[dados] nomes novos resolvidos: {_nomes_novos(cli, times)}")
+            print(f"[dados] torneios C listados: {_listar_c(cli, indice)}")
+            lc, rc_c, feitos_c = _coletar_pendentes(cli, indice, lc, rc_c)
+        except (lq.Pausado, Orcamento) as e:
+            print(f"[dados] tier C parou: {type(e).__name__}")
+            rc = RC_PAUSA if isinstance(e, lq.Pausado) else 0
+        finally:
+            cli.limite = limite_total
+            INDICE.write_text(json.dumps(indice, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    if lc or rc_c:
+        base = pd.read_csv(MAPAS, dtype=str)
+        tudo = substituir_paginas(base, [{k: str(v) if v is not None else "" for k, v in l.items()} for l in lc], rc_c)
+        tudo.to_csv(MAPAS, index=False)
+        linhas = linhas + lc
+        pend = sum(1 for v in indice.values() if v.get("pendente"))
+        print(f"[dados] tier C: {feitos_c} torneios coletados, +{len(tudo) - len(base)} mapas; faltam {pend}")
+    if rc == 0:
+        times = {l["time1"] for l in linhas} | {l["time2"] for l in linhas}
+        todos = pd.read_csv(MAPAS, dtype=str, usecols=["time1", "time2"])
+        try:
+            # nomes: TODOS os do arquivo sem resolucao (nao so os desta corrida)
+            print(f"[dados] nomes novos resolvidos: {_nomes_novos(cli, set(todos.time1) | set(todos.time2))}")
             print(f"[dados] elencos relidos: {_elencos(cli, times, hoje)}")
         except (lq.Pausado, Orcamento) as e:
             print(f"[dados] parou nos nomes/elencos: {type(e).__name__} {e}")
