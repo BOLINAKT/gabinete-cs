@@ -68,6 +68,18 @@ class TestMapas(unittest.TestCase):
         v = pc.veto_provavel(a, b)
         self.assertEqual((v["ban_a"], v["pick_a"], v["ban_b"], v["pick_b"]), ("Nuke", "Mirage", "Mirage", "Nuke"))
 
+    def test_situacao_pelo_relogio_de_agora(self):
+        import pandas as pd
+        ini = "2026-10-26T14:15:00Z"
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 14:00")), "a jogar")
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 15:00")), "ao vivo")
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 17:30")), "encerrado")
+
+    def test_melhores_ignora_jogo_ao_vivo(self):
+        j = _jogo()
+        j["situacao"] = "ao vivo"
+        self.assertEqual(pc.melhores([j]), [])
+
     def test_qualificatoria_pelo_nome_da_liga(self):
         self.assertTrue(pc.e_qualificatoria("BLAST Open Qualifier"))
         self.assertFalse(pc.e_qualificatoria("PGL Masters Bucharest"))

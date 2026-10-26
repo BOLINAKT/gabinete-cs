@@ -29,6 +29,10 @@ APELIDOS = {"bb team": "BetBoom Team"}
 MIN_MAPAS_ANO, MAX_DIAS_PARADO = 30, 120
 C_SERIE = 0.9   # validacao 26/10/2026; no mapa a calibracao nao passou
 DIAS_TROCA_RECENTE = 60
+# Tabela de MAPAS so com CS2 (26/10/2026, pergunta dele): mapas refeitos no CS2 e
+# rounds do CS:GO (MR15) nao comparam com MR12. O Elo segue com o historico todo:
+# treinar so com CS2 piorou o teste 2024+ em -0,014 (habilidade atravessa a troca).
+INICIO_CS2 = pd.Timestamp("2023-09-27")
 
 
 def _n(s) -> str:
@@ -63,11 +67,15 @@ class Estado:
         rec = self.d[self.d.dt >= self.fim - pd.Timedelta(days=120)]
         freq = rec.mapa.value_counts(normalize=True)
         self.pool = list(freq[freq >= 0.05].index)
+        # por_mapa: historico todo (o ajuste "sabendo o mapa" foi validado assim);
+        # por_mapa_cs2: so CS2, para a TABELA que ele le.
         self.por_mapa = defaultdict(list)          # (time, mapa) -> [(dt, venceu, rounds +/-)]
+        self.por_mapa_cs2 = defaultdict(list)
         for x in self.d.itertuples(index=False):
             v1 = 1 if x.vencedor == 1 else 0
-            self.por_mapa[(x.time1, x.mapa)].append((x.dt, v1, x.rounds1 - x.rounds2))
-            self.por_mapa[(x.time2, x.mapa)].append((x.dt, 1 - v1, x.rounds2 - x.rounds1))
+            for alvo in ((self.por_mapa, self.por_mapa_cs2) if x.dt >= INICIO_CS2 else (self.por_mapa,)):
+                alvo[(x.time1, x.mapa)].append((x.dt, v1, x.rounds1 - x.rounds2))
+                alvo[(x.time2, x.mapa)].append((x.dt, 1 - v1, x.rounds2 - x.rounds1))
 
     def casar(self, nome):
         nome = APELIDOS.get(str(nome).lower(), nome)
@@ -105,17 +113,18 @@ JANELAS = (5, 10, 20)
 
 
 def mapas_do_time(est: Estado, t, hoje) -> dict:
-    """{mapa: {'w5': (vit, jogos), 'w10', 'w20', 'ano', 'saldo10', 'ultimo', 'parte'}} no pool atual.
+    """{mapa: {'w5': (vit, jogos), 'w10', 'w20', 'ano', 'saldo10', 'ultimo', 'parte'}} no pool atual,
+    SO jogos de CS2.
 
     'parte' = fracao dos mapas do time nos ultimos 180 dias que foram ESTE mapa:
     muito alta sugere pick; zero com o time ativo sugere ban permanente."""
     if not t:
         return {}
     meio_ano = hoje - pd.Timedelta(days=180)
-    tot6 = sum(1 for m in est.pool for dt, _, _ in est.por_mapa.get((t, m), []) if dt >= meio_ano)
+    tot6 = sum(1 for m in est.pool for dt, _, _ in est.por_mapa_cs2.get((t, m), []) if dt >= meio_ano)
     fora = {}
     for m in est.pool:
-        h = est.por_mapa.get((t, m), [])
+        h = est.por_mapa_cs2.get((t, m), [])
         f = {}
         for n in JANELAS:
             u = h[-n:]
@@ -160,7 +169,21 @@ def justas(linhas, jogo):
     return fora
 
 
-def calcular(est: Estado, odds: dict, hoje=None) -> list:
+HORAS_DE_JOGO = 3    # depois disso o jogo conta como encerrado (BO3 longo ~2h30)
+
+
+def situacao(inicio_utc, agora=None) -> str:
+    """'a jogar' | 'ao vivo' | 'encerrado', pelo relogio de AGORA (nao o da leitura)."""
+    if not inicio_utc:
+        return "a jogar"
+    agora = agora if agora is not None else pd.Timestamp.utcnow().tz_localize(None)
+    ini = pd.Timestamp(inicio_utc).tz_localize(None)
+    if agora < ini:
+        return "a jogar"
+    return "ao vivo" if agora < ini + pd.Timedelta(hours=HORAS_DE_JOGO) else "encerrado"
+
+
+def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
     """Pura sobre o Estado: um dict por jogo, com mercados e fichas dos dois times."""
     hoje = hoje if hoje is not None else pd.Timestamp.now().normalize()
     lido = pd.Timestamp(odds["lido_em"]).tz_localize(None)
@@ -179,6 +202,7 @@ def calcular(est: Estado, odds: dict, hoje=None) -> list:
         jogo = {"id": j["id"], "liga": (j.get("liga") or "").replace("CS2 - ", ""), "casa": j["casa"],
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
+                "situacao": situacao(j.get("inicio_utc"), agora),
                 "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": [],
                 "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
                 "qualificatoria": e_qualificatoria(j.get("liga") or "")}
@@ -208,7 +232,7 @@ def melhores(jogos, minimo=1.0, maximo=20.0) -> list:
     maximo e quase sempre dado errado (time trocado, elenco novo), nao presente."""
     fora = []
     for j in jogos:
-        if j["ja_comecou"]:
+        if j["ja_comecou"] or j.get("situacao", "a jogar") != "a jogar":
             continue
         for m in j["mercados"]:
             for l in m["lados"]:

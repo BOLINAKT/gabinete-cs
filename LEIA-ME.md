@@ -282,6 +282,18 @@ times, no máximo 4, sem cache. **26/10 a Liquipedia respondeu 429** (depois de
 nomes + elencos + veto no mesmo dia): `liquipedia.chamar` agora para TUDO por 1 h
 (ou o Retry-After) e o app mostra a pausa — nunca insiste.
 
+## Só CS2? (26/10/2026)
+
+Odds: só ligas "CS2" da Pinnacle. Elo: histórico TODO (CS:GO 2020–09/2023 + CS2) —
+treinar só com CS2 piorou o teste 2024+ em −0,014 (2025+: −0,0055): habilidade
+atravessa a troca. TABELA de mapas: só CS2 (mapas refeitos, MR12 × MR15).
+
+Odds frescas: o cron do robô (3 em 3 h) não tinha disparado nenhuma vez até 16:50
+UTC (repo novo) e a tela mostrou jogo já encerrado. Agora o app lê a Pinnacle do
+PC (`coletar_odds_cs.py --local`, 2 chamadas, `odds_cs2_local.json` fora do git)
+ao abrir se a leitura tiver mais de 30 min, e no botão; jogo que acabou some da
+Pinnacle. O histórico continua só do robô.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)

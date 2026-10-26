@@ -4,13 +4,15 @@
 Rodar:  streamlit run app_cs.py   (na pasta C:\\Gabinetes\\GabineteCS)
 
 As odds chegam pelo robo do GitHub (odds_cs2.yml, de 3 em 3 h); o botao
-"Atualizar odds" so faz `git pull --ff-only` desta pasta. O modelo treina uma
+"Atualizar odds" faz `git pull` (historico do robo) e le a Pinnacle NA HORA
+(coletar_odds_cs.py --local, 2 chamadas); a tela usa a leitura mais nova. O modelo treina uma
 vez por versao dos dados (cache) -- os mapas vem do coletor.py.
 """
 from __future__ import annotations
 
 import json
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -25,7 +27,9 @@ import veto_cs as vc
 
 RAIZ = Path(__file__).resolve().parent
 ODDS = RAIZ / "odds_cs2.json"
+ODDS_LOCAL = RAIZ / "odds_cs2_local.json"
 HORAS_VELHA = 6
+MIN_RELER = 30   # ao abrir, odds mais velhas que isto: le a Pinnacle sozinho (2 chamadas)
 
 st.set_page_config(page_title="Gabinete CS2", page_icon="🎯", layout="wide")
 st.markdown("""
@@ -59,7 +63,24 @@ def _idade(iso: str) -> tuple:
     dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
     h = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
     txt = f"há {h:.0f} h" if h >= 1 else f"há {h * 60:.0f} min"
-    return f"{tl.hora_br(iso)} ({txt})", h > HORAS_VELHA
+    return f"{tl.hora_br(iso)} ({txt})", h > HORAS_VELHA, h
+
+
+def _ler_pinnacle_agora() -> bool:
+    r = subprocess.run([sys.executable, "coletar_odds_cs.py", "--local"], cwd=RAIZ,
+                       capture_output=True, text=True, timeout=90)
+    return r.returncode == 0
+
+
+def _odds_mais_nova():
+    """A leitura mais nova entre a do robo (git) e a local (botao)."""
+    lidas = []
+    for arq in (ODDS, ODDS_LOCAL):
+        try:
+            lidas.append(json.loads(arq.read_text(encoding="utf-8")))
+        except (OSError, ValueError):
+            continue
+    return max(lidas, key=lambda o: o.get("lido_em", "")) if lidas else None
 
 
 def _dia(j) -> str:
@@ -106,17 +127,26 @@ def main() -> None:
     st.title("Gabinete CS2")
     c1, c2 = st.columns([5, 1])
     with c2:
-        if st.button("Atualizar odds", help="Puxa do GitHub o que o robô coletou (git pull)"):
-            r = subprocess.run(["git", "pull", "--ff-only", "-q"], cwd=RAIZ, capture_output=True, text=True)
-            st.toast("Odds atualizadas" if r.returncode == 0 else f"git pull falhou: {r.stderr.strip()[:200]}")
-    if not ODDS.exists():
-        st.warning("Ainda não há odds coletadas (odds_cs2.json). Clique em Atualizar odds.")
+        if st.button("Atualizar odds", help="Lê a Pinnacle agora (2 chamadas) e puxa o histórico do robô"):
+            subprocess.run(["git", "pull", "--ff-only", "-q"], cwd=RAIZ, capture_output=True, text=True)
+            st.toast("Odds lidas agora" if _ler_pinnacle_agora() else
+                     "A Pinnacle não respondeu (sem insistir) — usando a última leitura")
+    odds = _odds_mais_nova()
+    # Jogo que acabou SOME da Pinnacle: com leitura fresca, encerrado nao aparece.
+    # Ao abrir com leitura velha, le sozinho -- uma vez por MIN_RELER, nao a cada clique.
+    if odds is None or _idade(odds["lido_em"])[2] > MIN_RELER / 60:
+        if st.session_state.get("_releu_em", 0) < datetime.now().timestamp() - MIN_RELER * 60:
+            st.session_state["_releu_em"] = datetime.now().timestamp()
+            with st.spinner("Lendo a Pinnacle..."):
+                if _ler_pinnacle_agora():
+                    odds = _odds_mais_nova()
+    if odds is None:
+        st.warning("Ainda não há odds coletadas. Clique em Atualizar odds.")
         return
-    odds = json.loads(ODDS.read_text(encoding="utf-8"))
     est = estado(_versao_dados())
     jogos = pc.calcular(est, odds)
     melhores = pc.melhores(jogos)
-    idade, velha = _idade(odds["lido_em"])
+    idade, velha, _ = _idade(odds["lido_em"])
     with c1:
         components.html(tl.pagina(tl.html_status(
             jogos=len(jogos), precificados=sum(j["precificado"] for j in jogos), com_valor=len(melhores),
@@ -125,15 +155,20 @@ def main() -> None:
     aba_jogos, aba_melhores, aba_placar, aba_como = st.tabs(
         ["Jogos", "Melhores apostas", "Placar dos mapas", "Como ler"])
     with aba_jogos:
+        encerrados = [j for j in jogos if j["situacao"] == "encerrado"]
+        if encerrados and not st.toggle(f"Mostrar {len(encerrados)} jogo(s) já encerrado(s)", value=False):
+            jogos = [j for j in jogos if j["situacao"] != "encerrado"]
         if not jogos:
-            st.info("A Pinnacle não tem jogo de CS2 nesta leitura.")
+            st.info("Nenhum jogo de CS2 por vir nesta leitura. Clique em Atualizar odds.")
         else:
             dias = list(dict.fromkeys(_dia(j) for j in jogos))
             with st.container(key="gaveta_dia"):
                 dia = st.radio("Dia", dias, horizontal=True, label_visibility="collapsed")
             do_dia = [j for j in jogos if _dia(j) == dia]
-            rot = {j["id"]: "{} × {} · {}{}".format(j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
-                                                     "" if j["precificado"] else " · sem preço")
+            rot = {j["id"]: "{} × {} · {}{}{}".format(
+                j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
+                {"ao vivo": " · AO VIVO", "encerrado": " · encerrado"}.get(j["situacao"], ""),
+                "" if j["precificado"] else " · sem preço")
                    for j in do_dia}
             with st.container(key="gaveta_jogo"):
                 jid = st.radio("Jogo", list(rot), format_func=rot.get, horizontal=True,

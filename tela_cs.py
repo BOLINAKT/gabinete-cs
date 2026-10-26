@@ -111,7 +111,8 @@ def html_status(*, jogos, precificados, com_valor, idade_odds, dados_ate, odds_v
 def html_jogo(j) -> str:
     """Topo + Modelo | Pinnacle (serie e mapa a mapa) + avisos."""
     meta = "{} · BO{} · {}{}".format(j["liga"], j["bo"], hora_br(j["inicio_utc"]),
-                                       " · já tinha começado na leitura" if j["ja_comecou"] else "")
+                                       {"ao vivo": " · AO VIVO — odds de antes do jogo",
+                                        "encerrado": " · ENCERRADO"}.get(j.get("situacao"), ""))
     html = '<div class="topo"><span class="times">{} × {}</span><span class="meta">{}</span></div>'.format(
         escape(j["casa"]), escape(j["fora"]), escape(meta))
     if not j["precificado"]:
@@ -267,7 +268,7 @@ def html_mapas(j) -> str:
             else '<td colspan="5" class="vazio">-</td>'
         linhas.append(f'<tr>{esq}<td class="mapa">{escape(m)}</td>{dir_}</tr>')
     return (CSS_MAPAS + '<div class="mapas"><table class="mt">' + cab + "".join(linhas) + "</table></div>"
-            '<div class="nota"><b>5 / 10 / 20</b>: vitórias nos últimos 5, 10 e 20 jogos do time NAQUELE mapa; '
+            '<div class="nota"><b>Só jogos de CS2</b> (desde 27/09/2023). <b>5 / 10 / 20</b>: vitórias nos últimos 5, 10 e 20 jogos do time NAQUELE mapa; '
             '<b>ano</b>: últimos 365 dias. Verde ≥ 60%, vermelho ≤ 40% (com 3+ jogos). <b>joga</b>: quanto dos '
             'mapas do time nos últimos 6 meses foi esse — o que mais joga costuma ser o pick (<b>pick?</b>), o '
             'que menos joga o ban (<b>ban?</b>); embaixo, o saldo médio de rounds nos últimos 10. O veto real '

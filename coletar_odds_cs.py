@@ -38,6 +38,11 @@ AGENTE = ("GabineteCS/0.1 (modelo pessoal de previsao de CS2; 2 chamadas a cada 
 RAIZ = Path(__file__).resolve().parent
 ATUAL, HIST, PARTIDAS = RAIZ / "odds_cs2.json", RAIZ / "odds_cs2_historico.jsonl", RAIZ / "odds_cs2_partidas.jsonl"
 RC_BLOQUEIO = 75
+# --local (26/10/2026): o botao "Atualizar odds" do app le a Pinnacle NA HORA, do
+# PC dele (o cron do GitHub demorou a disparar e a tela ficou com odds de 3 h).
+# Grava so o retrato em odds_cs2_local.json (fora do git); o HISTORICO continua
+# sendo so do robo, para nao haver duas fontes brigando no git.
+LOCAL = RAIZ / "odds_cs2_local.json"
 
 
 def _get(caminho: str):
@@ -89,6 +94,7 @@ def _decimal(americana):
 
 
 def main() -> int:
+    local = "--local" in sys.argv
     agora = datetime.now(timezone.utc).isoformat(timespec="seconds")
     try:
         matchups = _get(f"sports/{ESPORTE}/matchups")
@@ -102,6 +108,11 @@ def main() -> int:
         print(f"[odds cs2] rede: {type(e).__name__}")
         return RC_BLOQUEIO
     jogos, linhas = jogos_e_linhas(matchups, mercados)
+    if local:
+        LOCAL.write_text(json.dumps({"lido_em": agora, "jogos": jogos, "linhas": linhas}, ensure_ascii=False),
+                         encoding="utf-8")
+        print(f"[odds cs2] local: {len(jogos)} jogos, {len(linhas)} linhas")
+        return 0
     anterior = {}
     if ATUAL.exists():
         try:
