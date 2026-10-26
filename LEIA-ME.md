@@ -224,6 +224,28 @@ trocar para melhor — o que informa é QUEM chegou, e a nota dele vem junto.
 Calibração (antes do c=0,9): série BO3 favorito 70-80% previsto 0,748 → real
 0,686; 80-90% 0,847 → 0,776. Mapas não são independentes.
 
+## Rodada 5: ranking da Valve (VRS) — `vrs.py`, `vrs_teste.py` (26/10/2026) — NÃO PASSA
+
+Fonte: github.com/ValveSoftware/counter-strike_regional_standings (público), 47
+classificações globais de 06/08/2024 a 05/10/2026, ~260 times cada, com pontos e
+ELENCO. Time casado pelo elenco (3+ jogadores em comum), classificação publicada
+antes do dia do jogo. Só existe desde 08/2024 → escolha em 08/2024–06/2025, teste
+07/2025+ (n=5.802 mapas S/A, 2.864 séries).
+
+| comparação (teste 07/2025+) | mapa S/A | série S/A |
+|---|---|---|
+| + pontos da Valve (sobre calibrar) | +0,0001 (p=0,30) | 0,0000 |
+| recalibrar com janela recente (a=0,9) | +0,0012 (p=0,001) | −0,0001 |
+
+O ranking acerta o favorito quase tanto quanto o modelo (60% × 61%), mas
+correlação 0,65 com ele: é redundante — o Elo por jogador já sabe o que a Valve
+sabe. Serve como CONFERÊNCIA de elenco (lista o elenco atual de cada time).
+
+**Contexto da pergunta sobre o HLTV:** acesso automático bloqueado (Cloudflare);
+não contornamos. O que ele teria de útil foi tirado de fontes abertas: mapa
+(Liquipedia), elenco (Liquipedia), ranking (Valve). Só o rating de jogador fica
+sem substituto.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
