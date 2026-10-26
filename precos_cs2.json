@@ -5,144 +5,144 @@
    "jogo": 1639275605,
    "casa": "Liquid",
    "fora": "Legacy",
-   "mercado": "serie",
-   "p_modelo_casa": 0.381,
+   "mercado": "Série",
+   "p_modelo_casa": 0.3797,
    "p_pinnacle_casa": 0.3473
   },
   {
    "jogo": 1639275605,
    "casa": "Liquid",
    "fora": "Legacy",
-   "mercado": "mapa 1",
-   "p_modelo_casa": 0.4113,
+   "mercado": "Mapa 1",
+   "p_modelo_casa": 0.4103,
    "p_pinnacle_casa": 0.3443
   },
   {
    "jogo": 1639275605,
    "casa": "Liquid",
    "fora": "Legacy",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.4113,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.4103,
    "p_pinnacle_casa": 0.4355
   },
   {
    "jogo": 1639275275,
    "casa": "Spirit",
    "fora": "FURIA",
-   "mercado": "serie",
-   "p_modelo_casa": 0.7634,
+   "mercado": "Série",
+   "p_modelo_casa": 0.7635,
    "p_pinnacle_casa": null
   },
   {
    "jogo": 1639275275,
    "casa": "Spirit",
    "fora": "FURIA",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.7021,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.7022,
    "p_pinnacle_casa": 0.6465
   },
   {
    "jogo": 1639275275,
    "casa": "Spirit",
    "fora": "FURIA",
-   "mercado": "mapa 3",
-   "p_modelo_casa": 0.7021,
+   "mercado": "Mapa 3",
+   "p_modelo_casa": 0.7022,
    "p_pinnacle_casa": 0.6008
   },
   {
    "jogo": 1639275606,
    "casa": "G2",
    "fora": "DENDELE",
-   "mercado": "serie",
-   "p_modelo_casa": 0.7345,
+   "mercado": "Série",
+   "p_modelo_casa": 0.7333,
    "p_pinnacle_casa": 0.7356
   },
   {
    "jogo": 1639275606,
    "casa": "G2",
    "fora": "DENDELE",
-   "mercado": "mapa 1",
-   "p_modelo_casa": 0.6785,
+   "mercado": "Mapa 1",
+   "p_modelo_casa": 0.6776,
    "p_pinnacle_casa": 0.6291
   },
   {
    "jogo": 1639275606,
    "casa": "G2",
    "fora": "DENDELE",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.6785,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.6776,
    "p_pinnacle_casa": 0.7116
   },
   {
    "jogo": 1639273740,
    "casa": "BB Team",
    "fora": "Natus Vincere",
-   "mercado": "serie",
-   "p_modelo_casa": 0.5053,
+   "mercado": "Série",
+   "p_modelo_casa": 0.5058,
    "p_pinnacle_casa": 0.3845
   },
   {
    "jogo": 1639273740,
    "casa": "BB Team",
    "fora": "Natus Vincere",
-   "mercado": "mapa 1",
-   "p_modelo_casa": 0.5039,
+   "mercado": "Mapa 1",
+   "p_modelo_casa": 0.5043,
    "p_pinnacle_casa": 0.3803
   },
   {
    "jogo": 1639273740,
    "casa": "BB Team",
    "fora": "Natus Vincere",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.5039,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.5043,
    "p_pinnacle_casa": 0.4617
   },
   {
    "jogo": 1639017675,
    "casa": "Astralis",
    "fora": "fnatic",
-   "mercado": "serie",
-   "p_modelo_casa": 0.6845,
+   "mercado": "Série",
+   "p_modelo_casa": 0.686,
    "p_pinnacle_casa": 0.5924
   },
   {
    "jogo": 1639017675,
    "casa": "Astralis",
    "fora": "fnatic",
-   "mercado": "mapa 1",
-   "p_modelo_casa": 0.6389,
+   "mercado": "Mapa 1",
+   "p_modelo_casa": 0.6401,
    "p_pinnacle_casa": 0.5663
   },
   {
    "jogo": 1639017675,
    "casa": "Astralis",
    "fora": "fnatic",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.6389,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.6401,
    "p_pinnacle_casa": 0.5734
   },
   {
    "jogo": 1639017676,
    "casa": "MIBR",
    "fora": "Eternal Fire",
-   "mercado": "serie",
-   "p_modelo_casa": 0.7947,
+   "mercado": "Série",
+   "p_modelo_casa": 0.7954,
    "p_pinnacle_casa": 0.6568
   },
   {
    "jogo": 1639017676,
    "casa": "MIBR",
    "fora": "Eternal Fire",
-   "mercado": "mapa 1",
-   "p_modelo_casa": 0.7286,
+   "mercado": "Mapa 1",
+   "p_modelo_casa": 0.7291,
    "p_pinnacle_casa": 0.6058
   },
   {
    "jogo": 1639017676,
    "casa": "MIBR",
    "fora": "Eternal Fire",
-   "mercado": "mapa 2",
-   "p_modelo_casa": 0.7286,
+   "mercado": "Mapa 2",
+   "p_modelo_casa": 0.7291,
    "p_pinnacle_casa": 0.6229
   }
  ]
