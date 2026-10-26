@@ -20,7 +20,13 @@ def _jogo(precificado=True, novo=False):
     return {"id": 1, "liga": "STK", "casa": "MIBR", "fora": "EF", "bo": 3, "inicio_utc": "2026-10-27T18:45:00Z",
             "ja_comecou": False, "casou": [], "fichas": [_ficha("MIBR", novo), _ficha("EF")],
             "precificado": precificado, "avisos": [] if precificado else ["EF: sem dado recente"],
-            "mercados": [{"mercado": "Série", "periodo": 0, "lados": lados}] if precificado else []}
+            "mercados": [{"mercado": "Série", "periodo": 0, "lados": lados}] if precificado else [],
+            "mapas": [{"Mirage": _mapa(4, 5, 0.4)}, {"Mirage": _mapa(1, 5, 0.0)}],
+            "veto": {"pick_a": "Mirage", "ban_b": "Mirage"}, "qualificatoria": False}
+
+
+def _mapa(v, n, parte):
+    return {"w5": (v, n), "w10": (v, n), "w20": (v, n), "ano": (v, n), "saldo10": 1.5, "ultimo": "", "parte": parte}
 
 
 class TestTela(unittest.TestCase):
@@ -46,6 +52,25 @@ class TestTela(unittest.TestCase):
         lst = pc.melhores([_jogo()])
         self.assertEqual([x["lado"] for x in lst], ["MIBR"])
         self.assertIn("MIBR", tl.html_melhores(lst))
+
+
+class TestMapas(unittest.TestCase):
+    def test_tabela_pinta_alto_e_baixo_e_marca_pick_ban(self):
+        h = tl.html_mapas(_jogo())
+        self.assertIn('class="alto"', h)   # 4/5
+        self.assertIn('class="baixo"', h)  # 1/5
+        self.assertIn("pick?", h)
+        self.assertIn("ban?", h)
+
+    def test_veto_provavel_bane_o_menos_jogado(self):
+        a = {"Mirage": _mapa(1, 1, 0.5), "Nuke": _mapa(1, 1, 0.0)}
+        b = {"Mirage": _mapa(1, 1, 0.1), "Nuke": _mapa(1, 1, 0.6)}
+        v = pc.veto_provavel(a, b)
+        self.assertEqual((v["ban_a"], v["pick_a"], v["ban_b"], v["pick_b"]), ("Nuke", "Mirage", "Mirage", "Nuke"))
+
+    def test_qualificatoria_pelo_nome_da_liga(self):
+        self.assertTrue(pc.e_qualificatoria("BLAST Open Qualifier"))
+        self.assertFalse(pc.e_qualificatoria("PGL Masters Bucharest"))
 
 
 if __name__ == "__main__":

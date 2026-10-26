@@ -58,6 +58,16 @@ class Estado:
         for t in self.ult:
             self.idx[_n(t)] = t
         self.elencos = pd.read_csv(RAIZ / "elencos.csv", dtype=str).fillna("")
+        # mapas: o POOL sai dos dados (>= 5% dos mapas dos ultimos 120 dias), nao
+        # de lista fixa -- acompanha a proxima troca de mapa da Valve sozinho.
+        rec = self.d[self.d.dt >= self.fim - pd.Timedelta(days=120)]
+        freq = rec.mapa.value_counts(normalize=True)
+        self.pool = list(freq[freq >= 0.05].index)
+        self.por_mapa = defaultdict(list)          # (time, mapa) -> [(dt, venceu, rounds +/-)]
+        for x in self.d.itertuples(index=False):
+            v1 = 1 if x.vencedor == 1 else 0
+            self.por_mapa[(x.time1, x.mapa)].append((x.dt, v1, x.rounds1 - x.rounds2))
+            self.por_mapa[(x.time2, x.mapa)].append((x.dt, 1 - v1, x.rounds2 - x.rounds1))
 
     def casar(self, nome):
         nome = APELIDOS.get(str(nome).lower(), nome)
@@ -89,6 +99,51 @@ class Estado:
                 "ultimo": self.ult[t].strftime("%d/%m/%y") if t in self.ult else "",
                 "dias_parado": parado, "jogadores": jogs,
                 "elenco_conhecido": 3 <= len(e) <= 7}
+
+
+JANELAS = (5, 10, 20)
+
+
+def mapas_do_time(est: Estado, t, hoje) -> dict:
+    """{mapa: {'w5': (vit, jogos), 'w10', 'w20', 'ano', 'saldo10', 'ultimo', 'parte'}} no pool atual.
+
+    'parte' = fracao dos mapas do time nos ultimos 180 dias que foram ESTE mapa:
+    muito alta sugere pick; zero com o time ativo sugere ban permanente."""
+    if not t:
+        return {}
+    meio_ano = hoje - pd.Timedelta(days=180)
+    tot6 = sum(1 for m in est.pool for dt, _, _ in est.por_mapa.get((t, m), []) if dt >= meio_ano)
+    fora = {}
+    for m in est.pool:
+        h = est.por_mapa.get((t, m), [])
+        f = {}
+        for n in JANELAS:
+            u = h[-n:]
+            f[f"w{n}"] = (sum(v for _, v, _ in u), len(u))
+        ano = [v for dt, v, _ in h if dt >= hoje - pd.Timedelta(days=365)]
+        f["ano"] = (sum(ano), len(ano))
+        u10 = h[-10:]
+        f["saldo10"] = sum(s for _, _, s in u10) / len(u10) if u10 else None
+        f["ultimo"] = h[-1][0].strftime("%d/%m/%y") if h else ""
+        f["parte"] = (sum(1 for dt, _, _ in h if dt >= meio_ano) / tot6) if tot6 else 0.0
+        fora[m] = f
+    return fora
+
+
+def veto_provavel(ma: dict, mb: dict) -> dict:
+    """Leitura simples do veto: cada time tende a BANIR o que menos joga e a
+    PICKAR o que mais joga (ultimos 180 dias). So um palpite para olhar a
+    tabela -- o veto real sai minutos antes do jogo."""
+    def ordem(mx):
+        return sorted(mx, key=lambda m: mx[m]["parte"])
+    if not ma or not mb:
+        return {}
+    oa, ob = ordem(ma), ordem(mb)
+    return {"ban_a": oa[0], "ban_b": ob[0], "pick_a": oa[-1], "pick_b": ob[-1]}
+
+
+def e_qualificatoria(jogo_liga: str) -> bool:
+    return any(p in (jogo_liga or "").lower() for p in ("qualifier", "qualif", "open", "closed"))
 
 
 def justas(linhas, jogo):
@@ -124,7 +179,10 @@ def calcular(est: Estado, odds: dict, hoje=None) -> list:
         jogo = {"id": j["id"], "liga": (j.get("liga") or "").replace("CS2 - ", ""), "casa": j["casa"],
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
-                "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": []}
+                "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": [],
+                "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
+                "qualificatoria": e_qualificatoria(j.get("liga") or "")}
+        jogo["veto"] = veto_provavel(*jogo["mapas"])
         if not avisos:
             pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)

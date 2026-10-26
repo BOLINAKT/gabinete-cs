@@ -246,6 +246,28 @@ não contornamos. O que ele teria de útil foi tirado de fontes abertas: mapa
 (Liquipedia), elenco (Liquipedia), ranking (Valve). Só o rating de jogador fica
 sem substituto.
 
+## "Piorou nos últimos 6 meses?" (26/10/2026) — NÃO: era mistura de qualificatória
+
+Série S/A por semestre: 0,653 · 0,651 · 0,652 · 0,643 · 0,627 · 0,636 · **0,584 (2025-1)** ·
+0,636 · 0,636 · 0,645. A média 2024+ (0,624) era puxada por 2025-1. Sem duplicatas
+(0 exatas, 5 quase-iguais em 53.783 mapas) — não é vazamento.
+
+Causa: o coletor herda o TIER do torneio-mãe, então a qualificatória aberta de um
+evento S conta como "S". S-tier SEM qualificatória, por semestre: 0,660 · 0,633 ·
+0,583 · 0,623 · 0,618 · **0,617 (2026-2)** — o semestre atual está entre os melhores.
+Qualificatórias S: 0,622 · 0,614 · 0,607 · 0,547 · **0,675** · 0,633 — oscilam com quem
+aparece (2026 com muito time novo). Leitura para apostar: confiável no evento
+principal, mais fraco em qualificatória (aviso no app). Pendente: tier próprio
+"Q" para subpágina de qualificatória, para a régua não misturar os dois.
+
+## App (`app_cs.py`, `ABRIR_GABINETE_CS.bat`) — 26/10/2026
+
+Gaveta por dia; Modelo × Pinnacle por série e mapa; avisos (jogador novo, time
+parado, qualificatória); tabela de MAPAS (winrate 5/10/20/ano por mapa do pool,
+quanto joga = pick/ban provável, saldo de rounds); elencos com nota por jogador;
+melhores apostas (vantagem 1–20%). Pool de mapas sai dos dados (≥5% dos últimos
+120 dias). A tabela de mapas é INFORMAÇÃO: o modelo de odd não usa o mapa.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)

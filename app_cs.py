@@ -43,7 +43,9 @@ st.markdown("""
 
 
 def _versao_dados() -> tuple:
-    return tuple((RAIZ / n).stat().st_mtime for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json"))
+    # precos_core.py entra: codigo novo do Estado com cache velho = atributo faltando
+    return tuple((RAIZ / n).stat().st_mtime
+                 for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py"))
 
 
 @st.cache_resource(show_spinner="Treinando o modelo nos mapas coletados...")
@@ -100,9 +102,11 @@ def main() -> None:
             j = next(x for x in do_dia if x["id"] == jid)
             n_av = len(j["avisos"]) + sum(
                 bool([x for x in f["jogadores"] if x["novo"]]) + (not f["elenco_conhecido"])
-                + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f)
+                + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            st.markdown("##### Mapas")
+            components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
             n_j = max([len(f["jogadores"]) for f in j["fichas"] if f] or [1])
             components.html(tl.pagina(tl.html_fichas(j)), height=110 + 34 * n_j, scrolling=False)
             with st.expander("Como o time foi achado nos dados"):

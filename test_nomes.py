@@ -3,7 +3,7 @@
 import unittest
 
 import base_elo as be
-import precificar_cs as pc
+import precos_core as pc
 import resolver_times as rt
 
 
@@ -25,8 +25,10 @@ class TestNomes(unittest.TestCase):
     def test_justas_tira_a_margem_por_proporcao(self):
         linhas = [{"matchup": 1, "tipo": "moneyline", "alternativa": False, "periodo": 0, "lado": "home", "odd": 1.8},
                   {"matchup": 1, "tipo": "moneyline", "alternativa": False, "periodo": 0, "lado": "away", "odd": 2.0}]
-        pc_, pf = pc.justas(linhas, 1)[0]
+        j = pc.justas(linhas, 1)[0]
+        pc_, pf = j["home"][0], j["away"][0]
         assert abs(pc_ + pf - 1) < 1e-9 and pc_ > pf
+        assert j["home"][1] == 1.8
 
 
 if __name__ == "__main__":

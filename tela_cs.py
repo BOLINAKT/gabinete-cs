@@ -143,6 +143,9 @@ def html_jogo(j) -> str:
                 .format(classe, nome, cab, "".join(linhas)))
     html += '<div class="colunas">' + coluna("c-mod", "Modelo — odd justa", mod) \
         + coluna("c-pin", "Pinnacle — odd paga", pin) + "</div>"
+    if j.get("qualificatoria"):
+        html += ('<div class="aviso">Qualificatória: aqui o modelo é mais fraco (times com pouco dado; '
+                 'logloss 0,675 nas qualificatórias S de 2026-1, contra ~0,62 nos eventos principais).</div>')
     for f, nome in zip(j["fichas"], (j["casa"], j["fora"])):
         novos = [x["jogador"] for x in f["jogadores"] if x["novo"]]
         if novos:
@@ -195,6 +198,86 @@ def html_melhores(lista, limite=15) -> str:
         for x in lista[:limite])
     return ('<div class="lista">' + cab + corpo + '</div><div class="nota">Vantagem acima de 20% fica de fora: '
             'quase sempre é dado errado (elenco novo, time trocado), não presente. Jogo já começado também.</div>')
+
+
+CSS_MAPAS = """
+<style>
+  .mapas { background:var(--painel); border:1px solid var(--borda); border-top:3px solid var(--modelo);
+           border-radius:12px; overflow-x:auto; margin-top:14px; }
+  .mt { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; min-width:760px; }
+  .mt th { background:var(--cab); font-size:11.5px; font-weight:700; padding:7px 4px; opacity:0.9; }
+  .mt th.time { font-size:12.5px; letter-spacing:0.02em; }
+  .mt td { border-top:1px solid var(--linha); text-align:center; padding:5px 4px; height:44px; }
+  .mt td.mapa { font-weight:800; font-size:13.5px; border-left:1px solid var(--linha);
+                border-right:1px solid var(--linha); min-width:96px; }
+  .mt .p { font-weight:800; font-size:13.5px; display:block; }
+  .mt .q { color:var(--fraco); font-size:10.5px; display:block; }
+  .mt .alto { background:var(--verde-fundo); } .mt .alto .p { color:var(--boa); }
+  .mt .baixo { background:rgba(201,115,106,0.12); } .mt .baixo .p { color:var(--ruim); }
+  .mt .vazio .p { color:var(--fraco); font-weight:600; }
+  .pk { font-size:10px; font-weight:800; border-radius:6px; padding:1px 5px; margin-left:4px; }
+  .pk.pick { color:var(--boa); border:1px solid var(--verde-borda); }
+  .pk.ban { color:var(--ruim); border:1px solid rgba(201,115,106,0.55); }
+</style>
+"""
+
+_COLS = (("w5", "5"), ("w10", "10"), ("w20", "20"), ("ano", "ano"))
+
+
+def _cel_wr(v, n) -> str:
+    if not n:
+        return '<td class="vazio"><span class="p">-</span><span class="q">0 jogos</span></td>'
+    p = v / n
+    cls = "" if n < 3 else ("alto" if p >= 0.6 else "baixo" if p <= 0.4 else "")
+    return '<td class="{}"><span class="p">{:.0f}%</span><span class="q">{}/{}</span></td>'.format(cls, 100 * p, v, n)
+
+
+def _cel_joga(f, tag) -> str:
+    s = f["saldo10"]
+    saldo = "" if s is None else "{:+.1f} rd".format(s).replace(".", ",")
+    return '<td><span class="p">{:.0f}%{}</span><span class="q">{}</span></td>'.format(
+        100 * f["parte"], tag, saldo)
+
+
+def html_mapas(j) -> str:
+    """Winrate de cada time em cada mapa do pool: ultimos 5/10/20 e no ano, quanto
+    joga o mapa (pick/ban provavel) e o saldo medio de rounds nos ultimos 10."""
+    ma, mb = j["mapas"]
+    if not ma and not mb:
+        return '<div class="nada">Sem dados de mapa destes times.</div>'
+    pool = list(ma or mb)
+    vt = j.get("veto") or {}
+
+    def tag(m, lado):
+        if vt.get("pick_" + lado) == m:
+            return '<span class="pk pick">pick?</span>'
+        if vt.get("ban_" + lado) == m:
+            return '<span class="pk ban">ban?</span>'
+        return ""
+    sub = "".join("<th>{}</th>".format(r) for _, r in _COLS)
+    cab = ('<tr><th class="time" colspan="5">{}</th><th></th><th class="time" colspan="5">{}</th></tr>'
+           '<tr><th>joga</th>{}<th>Mapa</th>{}<th>joga</th></tr>').format(
+        escape(j["casa"]), escape(j["fora"]), "".join(reversed([f"<th>{r}</th>" for _, r in _COLS])), sub)
+    linhas = []
+    for m in pool:
+        fa, fb = (ma or {}).get(m), (mb or {}).get(m)
+        esq = (_cel_joga(fa, tag(m, "a")) + "".join(_cel_wr(*fa[k]) for k, _ in reversed(_COLS))) if fa \
+            else '<td colspan="5" class="vazio">-</td>'
+        dir_ = ("".join(_cel_wr(*fb[k]) for k, _ in _COLS) + _cel_joga(fb, tag(m, "b"))) if fb \
+            else '<td colspan="5" class="vazio">-</td>'
+        linhas.append(f'<tr>{esq}<td class="mapa">{escape(m)}</td>{dir_}</tr>')
+    return (CSS_MAPAS + '<div class="mapas"><table class="mt">' + cab + "".join(linhas) + "</table></div>"
+            '<div class="nota"><b>5 / 10 / 20</b>: vitórias nos últimos 5, 10 e 20 jogos do time NAQUELE mapa; '
+            '<b>ano</b>: últimos 365 dias. Verde ≥ 60%, vermelho ≤ 40% (com 3+ jogos). <b>joga</b>: quanto dos '
+            'mapas do time nos últimos 6 meses foi esse — o que mais joga costuma ser o pick (<b>pick?</b>), o '
+            'que menos joga o ban (<b>ban?</b>); embaixo, o saldo médio de rounds nos últimos 10. O veto real '
+            'sai minutos antes do jogo: isto é palpite para ler a tabela. O modelo de odd NÃO usa o mapa (o '
+            'ganho medido foi pequeno demais).</div>')
+
+
+def altura_mapas(j) -> int:
+    n = len(j["mapas"][0] or j["mapas"][1] or {})
+    return 64 + 44 * max(n, 1) + 62
 
 
 def altura_melhores(n, limite=15) -> int:
