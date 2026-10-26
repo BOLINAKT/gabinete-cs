@@ -1,0 +1,8 @@
+# App do CS2 (26/10/2026): sem a pergunta de e-mail do 1o uso, que travava o
+# ABRIR_GABINETE_CS.bat esperando um Enter; porta propria, ao lado do LoL.
+[server]
+showEmailPrompt = false
+port = 8520
+
+[browser]
+gatherUsageStats = false
