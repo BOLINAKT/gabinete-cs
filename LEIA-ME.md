@@ -268,6 +268,20 @@ quanto joga = pick/ban provável, saldo de rounds); elencos com nota por jogador
 melhores apostas (vantagem 1–20%). Pool de mapas sai dos dados (≥5% dos últimos
 120 dias). A tabela de mapas é INFORMAÇÃO: o modelo de odd não usa o mapa.
 
+## Mapa do veto (26/10/2026) — `mapa_sobre_jogador.py`, `veto_cs.py`
+
+Sobre o Elo por jogador, saber o mapa (taxa do time no mapa, encolhida): validação
+escolheu m=40, peso 0,1 → teste 2024+ **+0,0003** [+0,0002; +0,0005] p<0,001: real,
+abaixo da régua. MAS nos extremos o base subestima quem tem vantagem de mapa:
+diferença ≥0,5 logit (3.259 mapas) dava 57,4% → ganhou 60,2%; ≥1,0 (296) 60,8% →
+63,2%. Por isso o app mostra "sabendo o mapa" ao lado do base e GRAVA cada
+previsão (`previsoes_mapas.jsonl`) para o placar ao vivo (`resultados_mapas.jsonl`).
+
+Busca do veto SOB DEMANDA (botão): páginas de torneio dos últimos 21 dias dos dois
+times, no máximo 4, sem cache. **26/10 a Liquipedia respondeu 429** (depois de
+nomes + elencos + veto no mesmo dia): `liquipedia.chamar` agora para TUDO por 1 h
+(ou o Retry-After) e o app mostra a pausa — nunca insiste.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)

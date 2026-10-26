@@ -275,6 +275,59 @@ def html_mapas(j) -> str:
             'ganho medido foi pequeno demais).</div>')
 
 
+def html_veto(j, linhas, pagina) -> str:
+    """Os mapas do veto: base | sabendo o mapa | Pinnacle, por time, e o resultado."""
+    if not linhas:
+        return '<div class="nada">Os mapas ainda não estão na Liquipedia (o veto sai minutos antes do jogo).</div>'
+    cab = ('<tr><th>#</th><th>Mapa</th><th colspan="2">Modelo base</th><th colspan="2">Sabendo o mapa</th>'
+           '<th colspan="2">Pinnacle (vantagem c/ mapa)</th><th>Resultado</th></tr>'
+           '<tr><th></th><th></th>' + ('<th>{}</th><th>{}</th>'.format(escape(j["casa"]), escape(j["fora"])) * 3)
+           + '<th></th></tr>')
+
+    def pin(odd, v):
+        if odd is None:
+            return '<td class="vazio"><span class="p">-</span><span class="q">sem linha</span></td>'
+        cls = "alto" if v > 0 else ""
+        return '<td class="{}"><span class="p">{:.2f}</span><span class="q">{}</span></td>'.format(
+            cls, odd, f"{v:+.1f}%".replace(".", ","))
+    corpo = []
+    for l in linhas:
+        pb, pm = l["p_base"], l["p_mapa"]
+        res = "" if not l["terminado"] else (escape(j["casa"]) if l["vencedor_a"] == 1 else escape(j["fora"]))
+        corpo.append(
+            '<tr><td>{}</td><td class="mapa">{}</td>'.format(l["n"], escape(l["mapa"]))
+            + "".join('<td><span class="p o-mod">{:.2f}</span><span class="q">{:.0f}%</span></td>'.format(1 / p, 100 * p)
+                      for p in (pb, 1 - pb, pm, 1 - pm))
+            + pin(l["odd_a"], l["vant_mapa_a"]) + pin(l["odd_b"], l["vant_mapa_b"])
+            + '<td>{}</td></tr>'.format(f"<b>{res}</b>" if res else '<span class="q">a jogar</span>'))
+    return (CSS_MAPAS + '<div class="mapas"><table class="mt">' + cab + "".join(corpo) + '</table></div>'
+            '<div class="nota">Fonte: Liquipedia ({}). <b>Sabendo o mapa</b>: a chance base ajustada pela taxa de cada '
+            'time NAQUELE mapa (ajuste da validação, fraco de propósito). Na média ele quase não muda o número, '
+            'mas com vantagem clara de mapa o base subestimou o time em ~3 pp no teste. Cada previsão é gravada '
+            'antes do mapa e vai para o <b>Placar dos mapas</b>.</div>'.format(escape(pagina or "")))
+
+
+def html_placar(pl) -> str:
+    if not pl.get("n"):
+        return ('<div class="nada">Ainda sem mapa com resultado ({} previsão(ões) esperando). Busque o veto antes '
+                'do jogo e de novo depois que acabar — ou rode o coletor.</div>').format(pl.get("pendentes", 0))
+    melhor = "sabendo o mapa" if pl["ll_mapa"] < pl["ll_base"] else "base"
+    topo = ('<div class="status"><span><b>{}</b> mapas com resultado</span><span><b>{}</b> esperando</span>'
+            '<span>logloss base <b>{:.4f}</b> · com mapa <b>{:.4f}</b></span><span>acerto base <b>{:.0%}</b> · '
+            'com mapa <b>{:.0%}</b></span><span>à frente: <b>{}</b></span></div>').format(
+        pl["n"], pl["pendentes"], pl["ll_base"], pl["ll_mapa"], pl["acerto_base"], pl["acerto_mapa"], melhor)
+    linhas = "".join(
+        '<tr><td>{}</td><td>{} × {}</td><td class="mapa">{}</td><td>{:.0%}</td><td>{:.0%}</td><td><b>{}</b></td></tr>'.format(
+            hora_br(l.get("inicio_utc")), escape(l["time_a"]), escape(l["time_b"]), escape(l["mapa"]),
+            l["p_base"], l["p_mapa"], escape(l["time_a"] if l["venceu_a"] else l["time_b"]))
+        for l in sorted(pl["linhas"], key=lambda l: l.get("inicio_utc") or "", reverse=True)[:40])
+    return (CSS_MAPAS + topo + '<div class="mapas"><table class="mt"><tr><th>Quando</th><th>Jogo</th><th>Mapa</th>'
+            '<th>Base (casa)</th><th>C/ mapa (casa)</th><th>Venceu</th></tr>' + linhas + '</table></div>'
+            '<div class="nota">Com poucos mapas, a diferença é sorte: o teste histórico (15 mil mapas) deu +0,0003 '
+            'para o "sabendo o mapa". Este placar serve para ver se, ao vivo, a história se repete — leva '
+            'centenas de mapas para dizer algo.</div>')
+
+
 def altura_mapas(j) -> int:
     n = len(j["mapas"][0] or j["mapas"][1] or {})
     return 64 + 44 * max(n, 1) + 62

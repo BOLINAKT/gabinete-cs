@@ -21,6 +21,7 @@ import gzip
 import hashlib
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -33,19 +34,57 @@ CACHE = Path(__file__).resolve().parent / "cache" / "liquipedia"
 _ultima = [0.0]
 
 
-def chamar(**params) -> dict:
-    """Uma chamada a API, com cache em disco e ritmo garantido."""
+BLOQUEIO = CACHE.parent / "liquipedia_429.txt"
+PAUSA_PADRAO_S = 3600
+
+
+class Pausado(RuntimeError):
+    """A Liquipedia pediu para esperar (429): nenhuma chamada ate o fim da pausa."""
+
+
+def pausa_restante() -> float:
+    """Segundos que ainda faltam da pausa pedida pelo site (0 = liberado)."""
+    try:
+        ate = float(BLOQUEIO.read_text(encoding="utf-8").strip())
+    except (OSError, ValueError):
+        return 0.0
+    return max(0.0, ate - time.time())
+
+
+def chamar(fresco: bool = False, **params) -> dict:
+    """Uma chamada a API, com cache em disco e ritmo garantido.
+
+    fresco=True (26/10/2026, so para o VETO de um jogo que vai comecar): ignora o
+    cache na leitura -- a pagina muda minutos antes do jogo -- mas mantem o ritmo
+    de 1 chamada a cada 2,1 s e regrava o cache."""
     params = {"format": "json", "formatversion": "2", **params}
     chave = hashlib.sha1(json.dumps(params, sort_keys=True).encode()).hexdigest()[:20]
     arq = CACHE / f"{chave}.json"
-    if arq.exists():
+    if arq.exists() and not fresco:
         return json.loads(arq.read_text(encoding="utf-8"))
+    # 429 (26/10/2026): o site pediu para parar. Uma hora (ou o Retry-After dele)
+    # sem NENHUMA chamada -- insistir e o que leva a bloqueio de IP.
+    if pausa_restante() > 0:
+        raise Pausado(f"Liquipedia pediu pausa: faltam {pausa_restante() / 60:.0f} min")
     espera = INTERVALO_S - (time.monotonic() - _ultima[0])
     if espera > 0:
         time.sleep(espera)
     url = API + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "gzip"})
-    with urllib.request.urlopen(req, timeout=40) as r:
+    try:
+        r = urllib.request.urlopen(req, timeout=40)
+    except urllib.error.HTTPError as e:
+        _ultima[0] = time.monotonic()
+        if e.code == 429:
+            try:
+                seg = float(e.headers.get("Retry-After") or PAUSA_PADRAO_S)
+            except ValueError:
+                seg = PAUSA_PADRAO_S
+            BLOQUEIO.parent.mkdir(parents=True, exist_ok=True)
+            BLOQUEIO.write_text(str(time.time() + max(seg, PAUSA_PADRAO_S)), encoding="utf-8")
+            raise Pausado(f"Liquipedia respondeu 429: pausa de {max(seg, PAUSA_PADRAO_S) / 60:.0f} min") from e
+        raise
+    with r:
         corpo = r.read()
         if r.headers.get("Content-Encoding") == "gzip":
             corpo = gzip.decompress(corpo)
@@ -56,8 +95,8 @@ def chamar(**params) -> dict:
     return dados
 
 
-def wikitexto(pagina: str) -> str:
-    d = chamar(action="query", prop="revisions", rvprop="content", rvslots="main", titles=pagina)
+def wikitexto(pagina: str, fresco: bool = False) -> str:
+    d = chamar(fresco=fresco, action="query", prop="revisions", rvprop="content", rvslots="main", titles=pagina)
     paginas = (d.get("query") or {}).get("pages") or []
     if not paginas or "revisions" not in paginas[0]:
         return ""

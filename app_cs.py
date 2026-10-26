@@ -18,8 +18,10 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
+import liquipedia as lq
 import precos_core as pc
 import tela_cs as tl
+import veto_cs as vc
 
 RAIZ = Path(__file__).resolve().parent
 ODDS = RAIZ / "odds_cs2.json"
@@ -64,6 +66,42 @@ def _dia(j) -> str:
     return tl.hora_br(j["inicio_utc"])[:5] or "?"
 
 
+def _bloco_veto(est, j) -> None:
+    """Mapas do veto, sob demanda (botao): 1 a 4 leituras da Liquipedia sem cache."""
+    st.markdown("##### Mapas do veto")
+    chave = f"veto_{j['id']}"
+    pausa = lq.pausa_restante()
+    c1, c2 = st.columns([1, 4])
+    with c1:
+        clicou = st.button("Buscar mapas do veto", key=f"b_{chave}", disabled=pausa > 0 or not j["precificado"],
+                           help="Lê a página do torneio na Liquipedia agora (o veto sai minutos antes do jogo)")
+    with c2:
+        if pausa > 0:
+            st.caption(f"A Liquipedia pediu pausa (429): liberado em {pausa / 60:.0f} min. Não insistimos.")
+        elif not j["precificado"]:
+            st.caption("Jogo sem preço do modelo: nada para comparar mapa a mapa.")
+        else:
+            st.caption("Clique perto do horário do jogo; de novo depois que acabar, para o placar.")
+    if clicou:
+        try:
+            with st.spinner("Lendo a Liquipedia..."):
+                v = vc.buscar_veto(est, j["casou"][0][0], j["casou"][1][0])
+            linhas = vc.linhas_do_veto(est, j, v)
+            novos = vc.registrar(j, linhas, v["pagina"]) if linhas else 0
+            vc.registrar_resultados(j, linhas)
+            st.session_state[chave] = (linhas, v["pagina"])
+            if novos:
+                st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
+        except lq.Pausado as e:
+            st.warning(str(e))
+        except Exception as e:  # rede: aviso, nunca derruba a tela
+            st.warning(f"Não consegui ler a Liquipedia agora ({type(e).__name__}).")
+    if chave in st.session_state:
+        linhas, pagina = st.session_state[chave]
+        components.html(tl.pagina(tl.html_veto(j, linhas, pagina)),
+                        height=110 + 46 * max(1, len(linhas)) + 70, scrolling=False)
+
+
 def main() -> None:
     st.title("Gabinete CS2")
     c1, c2 = st.columns([5, 1])
@@ -84,7 +122,8 @@ def main() -> None:
             jogos=len(jogos), precificados=sum(j["precificado"] for j in jogos), com_valor=len(melhores),
             idade_odds=idade, dados_ate=est.fim.strftime("%d/%m %H:%M"), odds_velhas=velha)), height=34)
 
-    aba_jogos, aba_melhores, aba_como = st.tabs(["Jogos", "Melhores apostas", "Como ler"])
+    aba_jogos, aba_melhores, aba_placar, aba_como = st.tabs(
+        ["Jogos", "Melhores apostas", "Placar dos mapas", "Como ler"])
     with aba_jogos:
         if not jogos:
             st.info("A Pinnacle não tem jogo de CS2 nesta leitura.")
@@ -105,6 +144,7 @@ def main() -> None:
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            _bloco_veto(est, j)
             st.markdown("##### Mapas")
             components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
             n_j = max([len(f["jogadores"]) for f in j["fichas"] if f] or [1])
@@ -114,6 +154,10 @@ def main() -> None:
                     st.write(f"**{nome}** → {t or 'nada'} ({como})")
     with aba_melhores:
         components.html(tl.pagina(tl.html_melhores(melhores)), height=tl.altura_melhores(len(melhores)))
+    with aba_placar:
+        pl = vc.placar(est.d)
+        n = min(len(pl.get("linhas", [])), 40)
+        components.html(tl.pagina(tl.html_placar(pl)), height=150 + 45 * n + (40 if n else 0))
     with aba_como:
         st.markdown("""
 **Modelo** — Elo por jogador: cada jogador tem uma nota que leva de time em time; a força do time é a
