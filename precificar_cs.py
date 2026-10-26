@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """Odd justa do modelo x Pinnacle sem margem, para os jogos que o robo coletou (26/10/2026).
 
-Modelo oficial: Elo por mapa, K=24, nomes canonicos (base_elo.carregar), treinado
-em TODOS os mapas ate o ultimo dado. Serie: be.p_serie (mapas independentes).
+Modelo oficial: Elo POR JOGADOR (elo_jogador.py, aceito 26/10/2026), nomes canonicos,
+treinado em TODOS os mapas ate o ultimo dado; forca = media do elenco de HOJE.
+Serie: p do mapa encolhido (C_SERIE, calibra_serie.py) antes de p_serie -- os
+mapas nao sao independentes e a serie sem isso sai otimista com o favorito. Serie: be.p_serie (mapas independentes).
 Pinnacle: moneyline do jogo principal, periodo 0 = serie, 1..3 = mapa; margem
 tirada por proporcao (1/odd normalizado).
 
@@ -23,12 +25,16 @@ from pathlib import Path
 import pandas as pd
 
 import base_elo as be
+import calibra_serie as cal
+import elo_jogador as ej
+import troca_elenco as te
 
 K = 24
 RAIZ = Path(__file__).resolve().parent
 # Sem isso o Elo de um time e o de 1500 da estreia (ou o de um elenco antigo de
 # mesmo nome): numero sem base. Abaixo disso o lado NAO e precificado.
 MIN_MAPAS_ANO, MAX_DIAS_PARADO = 30, 120
+C_SERIE = 0.9   # validacao 26/10/2026; no mapa a calibracao nao passou
 APELIDOS = {"bb team": "BetBoom Team"}
 
 
@@ -92,7 +98,10 @@ def justas(linhas, jogo):
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     d = be.carregar()
-    r, n, ult = treinar(d)
+    _, n, ult = treinar(d)
+    el = te.carregar_elencos()
+    r_t, pr = ej.rodar(d, el, ej.W_OFICIAL, ej.KJ_OFICIAL, estado=True)
+    hoje = pd.Timestamp.now().normalize()
     idx = indice(d, ult)
     desde = d.dt.max() - pd.Timedelta(days=365)
     rec = d[d.dt >= desde]
@@ -117,9 +126,10 @@ def main() -> int:
             print(f"   NAO PRECIFICADO: sem dado recente de {', '.join(fracos)} "
                   f"(precisa de {MIN_MAPAS_ANO}+ mapas no ano e jogo nos ultimos {MAX_DIAS_PARADO} dias)\n")
             continue
-        pm = 1 / (1 + 10 ** (-(r[tc] - r[tf]) / 400))
+        fc, ff = ej.forca(tc, hoje, r_t, pr, el), ej.forca(tf, hoje, r_t, pr, el)
+        pm = 1 / (1 + 10 ** (-(fc - ff) / 400))
         precisa = {1: 1, 3: 2, 5: 3}.get(j["bo"] or 3, 2)
-        ps = be.p_serie(pm, precisa)
+        ps = be.p_serie(cal.ajusta(pm, C_SERIE), precisa)
         pin = justas(od["linhas"], j["id"])
         lin = [("serie", ps, pin.get(0))] + [(f"mapa {k}", pm, pin.get(k)) for k in (1, 2, 3) if k in pin]
         for nome, p, pp in lin:

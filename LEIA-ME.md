@@ -200,10 +200,34 @@ leitura (26/10): 6 de 9 jogos precificados; o modelo foi mais "favorito" que a
 Pinnacle em quase todos (MIBR +10 pp, Astralis +10 pp) — anotar para conferir
 com os resultados.
 
+## Rodada 4: ELENCO (26/10/2026) — `elencos.py`, `troca_elenco.py`, `elo_jogador.py` — ACEITA
+
+Elencos com datas das páginas de time da Liquipedia (`{{Squad}}`/`{{Person}}`,
+joindate/leavedate/inactivedate; blocos `type=staff` fora — o "Presidente do
+Conselho" do MIBR contava como jogador desde 2021). 16 chamadas de 50 páginas;
+12.990 passagens de jogador em 440 times; 79% das aparições S/A com elenco.
+
+| ideia | escolhido na validação | mapa S/A | série S | série S/A | régua |
+|---|---|---|---|---|---|
+| encolher o time na troca | nada (f=0) — encolher piora | 0 | 0 | 0 | não |
+| **Elo por jogador** (leva a nota ao mudar de time) | w=0, kj=32 | +0,0058 [+0,0036; +0,0082] | +0,0073 [+0,0025; +0,0119] | +0,0084 [+0,0039; +0,0128] | **passa** |
+| + calibração da série (c·logit do mapa) | c=0,9 | — | +0,0021 [+0,0011; +0,0031] | +0,0022 [+0,0013; +0,0031] | **passa** (só série) |
+| calibração do mapa | c=0,95 | +0,0004 | — | — | não |
+
+**Modelo oficial agora:** força do time = média das notas dos jogadores do elenco
+atual (sem elenco conhecido: Elo do time, K=24); série com c=0,9. Teste 2024+:
+**mapa 0,6468 · série S 0,6253 · série S/A 0,6272** (régua externa 0,645 → abaixo).
+
+Por que encolher na troca piora e o Elo por jogador ganha: quem troca costuma
+trocar para melhor — o que informa é QUEM chegou, e a nota dele vem junto.
+
+Calibração (antes do c=0,9): série BO3 favorito 70-80% previsto 0,748 → real
+0,686; 80-90% 0,847 → 0,776. Mapas não são independentes.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
 3. ✘ LAN × online; ✘ pausa/estreia
-4. escalação (Liquipedia lista os jogadores; troca de jogador = time "novo")
+4. ✔ elenco: Elo por jogador (aceito) + calibração da série (aceita)
 5. ✔ robô de odds da Pinnacle coletando de 3 em 3 h
 6. ✘ calibração simétrica; seed/ordem = próximo candidato; comparar com a Pinnacle quando houver odds

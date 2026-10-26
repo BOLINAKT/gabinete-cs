@@ -6,7 +6,7 @@
    "casa": "Liquid",
    "fora": "Legacy",
    "mercado": "serie",
-   "p_modelo_casa": 0.3068,
+   "p_modelo_casa": 0.381,
    "p_pinnacle_casa": 0.3473
   },
   {
@@ -14,7 +14,7 @@
    "casa": "Liquid",
    "fora": "Legacy",
    "mercado": "mapa 1",
-   "p_modelo_casa": 0.3682,
+   "p_modelo_casa": 0.4113,
    "p_pinnacle_casa": 0.3443
   },
   {
@@ -22,7 +22,7 @@
    "casa": "Liquid",
    "fora": "Legacy",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.3682,
+   "p_modelo_casa": 0.4113,
    "p_pinnacle_casa": 0.4355
   },
   {
@@ -30,7 +30,7 @@
    "casa": "Spirit",
    "fora": "FURIA",
    "mercado": "serie",
-   "p_modelo_casa": 0.7679,
+   "p_modelo_casa": 0.7634,
    "p_pinnacle_casa": null
   },
   {
@@ -38,7 +38,7 @@
    "casa": "Spirit",
    "fora": "FURIA",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.6874,
+   "p_modelo_casa": 0.7021,
    "p_pinnacle_casa": 0.6465
   },
   {
@@ -46,7 +46,7 @@
    "casa": "Spirit",
    "fora": "FURIA",
    "mercado": "mapa 3",
-   "p_modelo_casa": 0.6874,
+   "p_modelo_casa": 0.7021,
    "p_pinnacle_casa": 0.6008
   },
   {
@@ -54,7 +54,7 @@
    "casa": "G2",
    "fora": "DENDELE",
    "mercado": "serie",
-   "p_modelo_casa": 0.7527,
+   "p_modelo_casa": 0.7345,
    "p_pinnacle_casa": 0.7356
   },
   {
@@ -62,7 +62,7 @@
    "casa": "G2",
    "fora": "DENDELE",
    "mercado": "mapa 1",
-   "p_modelo_casa": 0.6757,
+   "p_modelo_casa": 0.6785,
    "p_pinnacle_casa": 0.6291
   },
   {
@@ -70,7 +70,7 @@
    "casa": "G2",
    "fora": "DENDELE",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.6757,
+   "p_modelo_casa": 0.6785,
    "p_pinnacle_casa": 0.7116
   },
   {
@@ -78,7 +78,7 @@
    "casa": "BB Team",
    "fora": "Natus Vincere",
    "mercado": "serie",
-   "p_modelo_casa": 0.4263,
+   "p_modelo_casa": 0.5053,
    "p_pinnacle_casa": 0.3845
   },
   {
@@ -86,7 +86,7 @@
    "casa": "BB Team",
    "fora": "Natus Vincere",
    "mercado": "mapa 1",
-   "p_modelo_casa": 0.4507,
+   "p_modelo_casa": 0.5039,
    "p_pinnacle_casa": 0.3803
   },
   {
@@ -94,7 +94,7 @@
    "casa": "BB Team",
    "fora": "Natus Vincere",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.4507,
+   "p_modelo_casa": 0.5039,
    "p_pinnacle_casa": 0.4617
   },
   {
@@ -102,7 +102,7 @@
    "casa": "Astralis",
    "fora": "fnatic",
    "mercado": "serie",
-   "p_modelo_casa": 0.6948,
+   "p_modelo_casa": 0.6845,
    "p_pinnacle_casa": 0.5924
   },
   {
@@ -110,7 +110,7 @@
    "casa": "Astralis",
    "fora": "fnatic",
    "mercado": "mapa 1",
-   "p_modelo_casa": 0.633,
+   "p_modelo_casa": 0.6389,
    "p_pinnacle_casa": 0.5663
   },
   {
@@ -118,7 +118,7 @@
    "casa": "Astralis",
    "fora": "fnatic",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.633,
+   "p_modelo_casa": 0.6389,
    "p_pinnacle_casa": 0.5734
   },
   {
@@ -126,7 +126,7 @@
    "casa": "MIBR",
    "fora": "Eternal Fire",
    "mercado": "serie",
-   "p_modelo_casa": 0.7555,
+   "p_modelo_casa": 0.7947,
    "p_pinnacle_casa": 0.6568
   },
   {
@@ -134,7 +134,7 @@
    "casa": "MIBR",
    "fora": "Eternal Fire",
    "mercado": "mapa 1",
-   "p_modelo_casa": 0.6779,
+   "p_modelo_casa": 0.7286,
    "p_pinnacle_casa": 0.6058
   },
   {
@@ -142,7 +142,7 @@
    "casa": "MIBR",
    "fora": "Eternal Fire",
    "mercado": "mapa 2",
-   "p_modelo_casa": 0.6779,
+   "p_modelo_casa": 0.7286,
    "p_pinnacle_casa": 0.6229
   }
  ]

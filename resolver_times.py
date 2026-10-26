@@ -24,9 +24,23 @@ import liquipedia as lq
 
 RAIZ = Path(__file__).resolve().parent
 SAIDA = RAIZ / "times_canonicos.json"
+PAGINAS = RAIZ / "times_paginas.json"
 LOTE = 80
 _ROT = re.compile(r"@@(.*?)@@(.*)")
 _CLASSE = re.compile(r'data-highlighting-class="([^"]+)"')
+_LINK = re.compile(r'team-template-text">\[\[([^|\]]+)')
+
+
+def ler_paginas(texto: str) -> dict:
+    """Pura: {nome canonico: titulo da pagina do time} (o link do modelo)."""
+    fora = {}
+    for linha in texto.splitlines():
+        m = _ROT.match(linha)
+        if m:
+            c, l = _CLASSE.search(m.group(2)), _LINK.search(m.group(2))
+            if c and l:
+                fora.setdefault(c.group(1), l.group(1).strip())
+    return fora
 
 
 def ler_lote(texto: str) -> dict:
@@ -45,14 +59,17 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     d = pd.read_csv(RAIZ / "mapas_cs.csv", usecols=["time1", "time2"])
     nomes = sorted(set(d.time1.dropna().astype(str)) | set(d.time2.dropna().astype(str)))
-    mapa = {}
+    mapa, paginas = {}, {}
     for i in range(0, len(nomes), LOTE):
         lote = [n for n in nomes[i:i + LOTE] if "@" not in n and "}" not in n and "|" not in n]
         txt = "\n".join(f"@@{n}@@{{{{Team|{n}}}}}" for n in lote)
         r = lq.chamar(action="expandtemplates", text=txt, prop="wikitext")
         mapa.update(ler_lote(r["expandtemplates"]["wikitext"]))
+        for c, pg in ler_paginas(r["expandtemplates"]["wikitext"]).items():
+            paginas.setdefault(c, pg)
         print(f"  {min(i + LOTE, len(nomes))}/{len(nomes)}", flush=True)
     SAIDA.write_text(json.dumps(mapa, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    PAGINAS.write_text(json.dumps(paginas, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
     juntos = len(nomes) - len(set(mapa.get(n, n) for n in nomes))
     print(f"{len(mapa)} de {len(nomes)} nomes resolvidos; {juntos} nomes viraram o mesmo time de outro")
     return 0
