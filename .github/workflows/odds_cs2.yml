@@ -1,0 +1,52 @@
+# ODDS DE CS2 DA PINNACLE (26/10/2026): guardar o movimento dos precos desde ja,
+# porque sem historico nunca da para comparar o modelo com a casa. Mesmo
+# arranjo e mesmas regras do robo de odds do LoL (ver coletar_odds_cs.py).
+name: Odds CS2 (Pinnacle)
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: odds-cs2
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Ler as odds
+        id: coleta
+        run: |
+          set +e
+          python coletar_odds_cs.py
+          rc=$?
+          set -e
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          if [ "$rc" -eq 75 ]; then
+            echo "::notice::A casa barrou ou a rede caiu. Nada escrito; tenta na proxima janela."
+            exit 0
+          fi
+          exit "$rc"
+      - name: Commitar
+        if: steps.coleta.outputs.rc == '0'
+        run: |
+          git config user.name "Robo GabineteCS"
+          git config user.email "robo@gabinete.local"
+          git add odds_cs2.json odds_cs2_historico.jsonl odds_cs2_partidas.jsonl
+          git diff --cached --quiet && exit 0
+          git commit -m "Robô: odds de CS2 da Pinnacle"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash || exit 1
+          done
+          git push

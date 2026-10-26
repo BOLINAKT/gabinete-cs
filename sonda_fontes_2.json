@@ -1,0 +1,206 @@
+{
+ "bo3_mais_antigas": {
+  "status": 200,
+  "dados": {
+   "total": {
+    "count": 76512,
+    "pages": 38256,
+    "offset": 0,
+    "limit": 2
+   },
+   "results": [
+    {
+     "id": 176,
+     "slug": "g2-vs-vitality-cs-go-15-06-2020",
+     "round_id": 56,
+     "team1_id": 793,
+     "team2_id": 667,
+     "winner_team_id": 667,
+     "loser_team_id": 793,
+     "tournament_id": 16,
+     "team1_score": 0,
+     "team2_score": 2,
+     "status": "finished",
+     "bo_type": 3,
+     "start_date": "2020-06-15T14:35:21.000+00:00",
+     "end_date": "2020-06-15T17:03:06.000+00:00",
+     "stage_id": 18,
+     "maps_score": [
+      true,
+      true,
+      false
+     ],
+     "parsed_status": "done",
+     "tier": "s",
+     "tier_rank": 1,
+     "position": 1,
+     "points": null,
+     "rating": null,
+     "stars": null,
+     "team1_last_game_score": null,
+     "team2_last_game_score": null,
+     "live_updates": null,
+     "live_coverage": false,
+     "live_coverage_advantage": false,
+     "live_coverage_source": null,
+     "discipline_id": 1,
+     "prev_match1_winner": false,
+     "prev_match2_winner": false,
+     "prev_match1_id": null,
+     "prev_match2_id": null,
+     "game_version": 1,
+     "team1_new_participant": false,
+     "team2_new_participant": false,
+     "comments_count": 0,
+     "bet_updates": null,
+     "comments": []
+    },
+    {
+     "id": 177,
+     "slug": "faze-vs-ence-15-06-2020",
+     "round_id": 56,
+     "team1_id": 791,
+     "team2_id": 754,
+     "winner_team_id": 791,
+     "loser_team_id": 754,
+     "tournament_id": 16,
+     "team1_score": 2,
+     "team2_score": 1,
+     "status": "finished",
+     "bo_type": 3,
+     "start_date": "2020-06-15T17:21:35.000+00:00",
+     "end_date": "2020-06-15T21:08:02.000+00:00",
+     "stage_id": 18,
+     "maps_score": [
+      true,
+      false,
+      true
+     ],
+     "parsed_status": "done",
+     "tier": "s",
+     "tier_rank": 1,
+     "position": 2,
+     "points": null,
+     "rating": null,
+     "stars": null,
+     "team1_last_game_score": null,
+     "team2_last_game_score": null,
+     "live_updates": null,
+     "live_coverage": false,
+     "live_coverage_advantage": false,
+     "live_coverage_source": null,
+     "discipline_id": 1,
+     "prev_match1_winner": false,
+     "prev_match2_winner": false,
+     "prev_match1_id": null,
+     "prev_match2_id": null,
+     "game_version": 1,
+     "team1_new_participant": false,
+     "team2_new_participant": false,
+     "comments_count": 0,
+     "bet_updates": null,
+     "comments": []
+    }
+   ],
+   "links": {
+    "self": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D=2&sort=start_date",
+    "next": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D=2&page%5Boffset%5D=2&sort=start_date",
+    "last": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D=2&page%5Boffset%5D=76510&sort=start_date"
+   }
+  }
+ },
+ "bo3_uma_partida": {
+  "status": 404,
+  "dados": "{\"status\":\"record_not_found\",\"message\":\"Record not found\"}"
+ },
+ "bo3_mapas_da_partida": {
+  "status": 200,
+  "dados": {
+   "total": {
+    "count": 2,
+    "pages": 1,
+    "offset": 0,
+    "limit": 10
+   },
+   "results": [
+    {
+     "id": 191333,
+     "match_id": 132707,
+     "begin_at": "2026-10-25T19:13:52.000+00:00",
+     "state": "done",
+     "map_name": "de_anubis",
+     "duration": 2717390733312,
+     "demo_header": {
+      "_id": "6ade64bca7f830ea6cfc2378",
+      "map_name": "de_anubis",
+      "filestamp": "PBDEMS2",
+      "tick_rate": -1.0,
+      "frame_rate": 128.0,
+      "server_name": "unknown",
+      "real_game_id": 191333
+     },
+     "ov_index": 0,
+     "winner_clan_score": 13,
+     "loser_clan_score": 10,
+     "winner_clan_name": "Tropa do KinGui",
+     "loser_clan_name": "Yawara",
+     "ps_id": null,
+     "number": 2,
+     "demo_url": "demos/manually_uploaded/1792959638_tropa-do-kingui-vs-yawara-m2-anubis.dem",
+     "demo_data": null,
+     "code": null,
+     "status": "finished",
+     "rounds_count": 23,
+     "created_at": "2026-10-23T14:01:07.579+00:00",
+     "updated_at": "2026-10-25T20:22:40.230+00:00",
+     "partially_state": null,
+     "game_version": 2
+    },
+    {
+     "id": 191334,
+     "match_id": 132707,
+     "begin_at": "2026-10-25T18:24:42.000+00:00",
+     "state": "done",
+     "map_name": "de_ancient",
+     "duration": 1974500065280,
+     "demo_header": {
+      "_id": "6ade6494a7f830ea6cfc0179",
+      "map_name": "de_ancient",
+      "filestamp": "PBDEMS2",
+      "tick_rate": -1.0,
+      "frame_rate": 128.0,
+      "server_name": "unknown",
+      "real_game_id": 191334
+     },
+     "ov_index": 0,
+     "winner_clan_score": 13,
+     "loser_clan_score": 6,
+     "winner_clan_name": "Tropa do KinGui",
+     "loser_clan_name": "Yawara",
+     "ps_id": null,
+     "number": 1,
+     "demo_url": "demos/manually_uploaded/1792959614_tropa-do-kingui-vs-yawara-m1-ancient.dem",
+     "demo_data": null,
+     "code": null,
+     "status": "finished",
+     "rounds_count": 19,
+     "created_at": "2026-10-23T14:01:07.684+00:00",
+     "updated_at": "2026-10-25T20:21:43.874+00:00",
+     "partially_state": null,
+     "game_version": 2
+    }
+   ],
+   "links": {
+    "self": "/api/v1/games?filter%5Bgames.match_id%5D%5Beq%5D=132707&page%5Blimit%5D=10"
+   }
+  }
+ },
+ "bo3_termos": {
+  "status": 200,
+  "dados": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preconnect\" href=\"https://image-proxy.bo3.gg\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><script type=\"importmap\">{\"imports\":{\"#entry\":\"/_nuxt/NGspzK-7.js\"}}</script><script src=\"https://accounts.google.com/gsi/client\" async></script><script src=\"https://connect.facebook.net/en_US/sdk.js\" async></script><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap\" media=\"print\" onload=\"this.media='all'\"><link rel=\"stylesheet\" href=\"/_nuxt/entry.CKCg_Nx7.css\" crossorigin><link rel=\"stylesheet\" href=\"/_nuxt/Time.Q4qsv4ZA.css\" crossorigin><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/NGspzK-7.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/BNNRdYrd.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/BRgT8ZJY.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/nwN9AJnn.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/7wTULw_s.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CDYo7OFA.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/ByzVl-2e.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/Dz2m38k7.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DGzg3kjl.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/B42H9Ngf.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DP0tjmOE.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/BiNvWV8I.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/Dz7kNLm3.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/D-Wl7i8v.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/uJGquWJ2.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/K9rsuiWd.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/bBjnEd2A.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DAfypM8l.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DutRnWYs.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DuXCmqQl.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CdcbhUla.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/BhrT5yPq.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/h8HVBBo1.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DEiwoSho.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/B4b0Lnlr.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/bZj8uLBA.js\"><link rel=\"modulepreload\" as=\"script\" crossorigin href="
+ },
+ "liquipedia_api_gzip": {
+  "status": 200,
+  "dados": "{'batchcomplete': '', 'query': {'general': {'mainpage': 'Main Page', 'base': 'https://liquipedia.net/counterstrike/Main_Page', 'sitename': 'Liquipedia Counter-Strike Wiki', 'logo': 'https://liquipedia.net/commons/extensions/TeamLiquidIntegration/resources/pagelogo/liquipedia_icon_menu.png', 'generator': 'MediaWiki 1.43.11', 'phpversion': '8.2.35', 'phpsapi': 'fpm-fcgi', 'dbtype': 'mysql', 'dbversion': '11.8.9-MariaDB-deb13-log', 'langconversion': '', 'linkconversion': '', 'titleconversion': '', 'linkprefixcharset': '', 'linkprefix': '', 'linktrail': '/^([a-z]+)(.*)$/sD', 'legaltitlechars': ' %!\"$&\\'()*,\\\\-.\\\\/0-9:;=?@A-Z\\\\\\\\^_`a-z~\\\\x80-\\\\xFF+', 'invalidusernamechars': '@:>=', 'fixarabicunicode': '', 'fixmalayalamunicode': '', 'case': 'first-letter', 'lang': 'en', 'fallback': [], 'fallback8bitEncoding': 'windows-1252', 'writeapi': '', 'maxarticlesize': 4194304, 'timezone': 'UTC', 'timeoffset': 0, 'articlepath': '/counterstrike/$1', 'scriptpath': '/counterstrike', 'script': '/counterstrike/index.php', 'variantarticlepath': False, 'server': 'https://liquipedia.net', 'servername': 'liquipedia.net', 'wikiid': 'liquipedia-wikics_', 'time': '2026-10-25T21:26:47Z', 'misermode': '', 'maxuploadsize': 10485760, 'minuploadchunksize': 1024, 'galleryoptions': {'imagesPerRow': 0, 'imageWidth': 120, 'imageHeight': 120, 'captionLength': '', 'showBytes': '', 'showDimensions': '', 'mode': 'traditional'}, 'thumblimits': [120, 150, 180, 200, 250, 300], 'imagelimits': [{'width': 320, 'height': 24"
+ }
+}

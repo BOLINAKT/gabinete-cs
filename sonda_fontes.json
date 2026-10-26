@@ -1,0 +1,122 @@
+{
+ "quando": "2026-10-25T21:25:51+00:00",
+ "fontes": [
+  {
+   "fonte": "pinnacle_esports",
+   "url": "https://guest.api.arcadia.pinnacle.com/0.1/sports/12/matchups",
+   "status": 200,
+   "tipo": "application/json",
+   "bytes": 400000,
+   "cloudflare": false,
+   "texto": "[\n  {\n    \"ageLimit\": 0,\n    \"altTeaser\": false,\n    \"featureOrder\": -1,\n    \"hasAltSpread\": false,\n    \"hasAltTotal\": false,\n    \"hasBetshare\": false,\n    \"hasLive\": true,\n    \"hasMarkets\": true,\n    \"id\": 1639279737,\n    \"isBetshareEnabled\": false,\n    \"isFeatured\": false,\n    \"isHighlighted\": false,\n    \"isLive\": false,\n    \"isPromoted\": false,\n    \"league\": {\n      \"ageLimit\": 0,\n      \"featureOrder\": 1,\n      \"group\": \"Europe\",\n      \"id\": 258576,\n      \"isFeatured\": true,\n      \"isHidden\": false,\n      \"isPromoted\": false,\n      \"isSticky\": false,\n      \"matchupCount\": 7,\n      \"matchupC",
+   "cs2": {
+    "jogos_cs2": 154,
+    "ligas": {
+     "CS2 - PGL Masters Bucharest": 98,
+     "CS2 - STK Ranked": 31,
+     "CS2 - Circuit X Curitiba": 20,
+     "CS2 - RLG Tesla Cup": 4,
+     "CS2 - DACH CS Masters": 1
+    }
+   }
+  },
+  {
+   "fonte": "hltv_resultados",
+   "url": "https://www.hltv.org/results",
+   "status": 200,
+   "tipo": "text/html; charset=UTF-8",
+   "bytes": 326719,
+   "cloudflare": true,
+   "texto": "<!DOCTYPE html> <html lang=\"en\" data-client-country-iso=\"CL\" data-impression-tracking-endpoint=\"https://ncuxt.hltv.org\" data-ad-tag-allowed-cookies=\"mobile-bottom-ad,desktop-bottom-ad\" data-bc-content-allowed=\"true\"><!-- --Worker debug info-- Ads API URL from origin: https://www.hltv.org/api/ads/rendered/[%7B%22key%22:%7B%22id%22:%22page%22%7D,%22value%22:%7B%22id%22:%22Unspecified%22%7D%7D] Modified Ads API URL: https://www.hltv.org/api/ads/rendered/%5B%7B%22key%22%3A%7B%22id%22%3A%22page%22%7D%2C%22value%22%3A%7B%22id%22%3A%22Unspecified%22%7D%7D%2C%7B%22key%22%3A%7B%22id%22%3A%22device%22%7D%2C%22value%22%3A%7B%22id%22%3A%22desktop%22%7D%7D%5D ISO Code: CL Device-type: desktop --><!--Active rewriter version: 2--><head><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('set', 'developer_id.dNzMyY2', true); gtag('consent', 'default', { '"
+  },
+  {
+   "fonte": "hltv_robots",
+   "url": "https://www.hltv.org/robots.txt",
+   "status": 200,
+   "tipo": "text/plain",
+   "bytes": 1646,
+   "cloudflare": false,
+   "texto": "User-agent: * Disallow: /stats?maps* Disallow: /results?*startDate* Disallow: /results?*content* Disallow: /results?*gameType* Disallow: /results?*requireAllPlayers* Disallow: /results?*requireAllTeams* Disallow: /results?*stars* Disallow: /results?*map* Disallow: /results?*matchType* Disallow: /stats?*matchType* Disallow: /stats?*startDate* Disallow: /stats?*rankingFilter* Disallow: /stats?*bestOf* Disallow: /stats*?*matchType* Disallow: /stats*?*startDate* Disallow: /stats*?*endDate* Disallow: /stats*?*contextIds* Disallow: /stats*?*contextTypes* Disallow: /stats*?*rankingFilter* Disallow: /stats*?*bestOf* Disallow: /stats*?*maps* Disallow: /stats*?*lineup* Disallow: /stats*?*gender* Disallow: /stats*?*minAge* Disallow: /stats*?*maxAge* Disallow: /stats*?*event* Disallow: /stats/players/career/*? Disallow: /stats/players/clutches/* Disallow: /blog/* Disallow: /download/demo* Disallow: "
+  },
+  {
+   "fonte": "liquipedia_api",
+   "url": "https://liquipedia.net/counterstrike/api.php?action=query&meta=siteinfo&format=json",
+   "status": 406,
+   "tipo": "text/html; charset=utf-8",
+   "bytes": 463,
+   "cloudflare": false,
+   "texto": "<!DOCTYPE html> <html> <head> <title>406 Gzip encoding is required for API requests. See liquipedia.net/api-terms-of-use</title> </head> <body> <h1>Error 406 Gzip encoding is required for API requests. See liquipedia.net/api-terms-of-use</h1> <p>Gzip encoding is required for API requests. See liquipedia.net/api-terms-of-use</p> <h3>Guru Meditation:</h3> <p>XID: 494936348</p> <hr> <p>Varnish cache server</p> </body> </html>"
+  },
+  {
+   "fonte": "liquipedia_termos",
+   "url": "https://liquipedia.net/api-terms-of-use",
+   "status": 200,
+   "tipo": "text/html",
+   "bytes": 3544,
+   "cloudflare": false,
+   "texto": "<!DOCTYPE HTML> <title>Liquipedia API</title> <meta charset=utf-8> <meta name=viewport content=\"width=device-width,initial-scale=1\"> <style type=text/css>body{margin:40px auto;max-width:800px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1{line-height:1.2}li{margin-bottom:1em}</style> <h1>Liquipedia API Terms of Use</h1> <h2>General</h2> <p>The following terms of use apply to both the MediaWiki API as well as the LiquipediaDB API:</p> <ul> <li>Re-use / cache your API results for as long as possible - do not issue repeated requests which return the same data.</li> <li>Liquipedia content is licensed under CC-BY-SA 3.0, <b>which requires that you attribute Liquipedia as the source of your data.</b> See Liquipedia:Copyrights for more information.</li> <li>Automated access to non-API endpoints (ie, generated HTML pages) is not permitted.</li> <li>Liquipedia reserves the right to d"
+  },
+  {
+   "fonte": "bo3gg_partidas",
+   "url": "https://api.bo3.gg/api/v1/matches?page[limit]=3&sort=-start_date&filter[matches.status][in]=finished",
+   "status": 200,
+   "tipo": "application/json; charset=utf-8",
+   "bytes": 3674,
+   "cloudflare": false,
+   "json_amostra": {
+    "total": {
+     "count": 76512,
+     "pages": 25504,
+     "offset": 0,
+     "limit": 3
+    },
+    "results": {
+     "_lista_de": 3,
+     "_primeiro": {
+      "id": 132707,
+      "slug": "tropa-do-kingui-vs-yawara-esports-25-10-2026",
+      "round_id": 41266,
+      "team1_id": 19919,
+      "team2_id": 3625,
+      "winner_team_id": 19919,
+      "loser_team_id": 3625,
+      "tournament_id": 5623,
+      "team1_score": 2,
+      "team2_score": 0,
+      "status": "finished",
+      "bo_type": 3
+     }
+    },
+    "links": {
+     "self": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D=",
+     "next": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D=",
+     "last": "/api/v1/matches?filter%5Bmatches.discipline_id%5D%5Beq%5D=1&filter%5Bmatches.status%5D%5Bin%5D=finished&page%5Blimit%5D="
+    }
+   }
+  },
+  {
+   "fonte": "csapi_de",
+   "url": "https://csapi.de/",
+   "status": 0,
+   "erro": "URLError: <urlopen error [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto>"
+  },
+  {
+   "fonte": "cs2_api_org",
+   "url": "https://cs2-api.org/",
+   "status": 200,
+   "tipo": "text/html; charset=utf-8",
+   "bytes": 276678,
+   "cloudflare": false,
+   "texto": "<!DOCTYPE html><!--w5OssSAeAHC4v3n78Waq7--><html data-emd=\"cs2api\" lang=\"en\" class=\"dark\"><head><meta charSet=\"utf-8\"/><meta name=\"google-site-verification\" content=\"RFXGVxz_tUvs19EEGaQf-rcUkfXGEkwdzwpIt-dHTTM\"/><meta name=\"yandex-verification\" content=\"ad3d79c8f5d15b62\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/8203b30568aaf341.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/102a67e358ac219f.js\"/><script src=\"/_next/static/chunks/d598f1f652e2d146.js\" async=\"\"></script><script src=\"/_next/static/chunks/3ada7750def22cb5.js\" async=\"\"></script><script src=\"/_next/static/chunks/897bfbb5cedea519.js\" async=\"\"></script><script src=\"/_next/static/chunks/e754df991d54dc0c.js\" async=\"\"></script><script src=\"/_next/static/chunks/4cf4ec0cd719ee93.js\" async=\"\"></scr"
+  },
+  {
+   "fonte": "ggscore",
+   "url": "https://ggscore.net/",
+   "status": 200,
+   "tipo": "text/html; charset=utf-8",
+   "bytes": 170546,
+   "cloudflare": false,
+   "texto": "<!DOCTYPE html><html lang=\"en\"><head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)}) (window,'GTM-TX5ZBZSW','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dY2E1Nz', true); var f=d.getElementsByTagName(s)[0], j=d.createElement(s);j.async=true;j.src='/ss1n/'; f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer');</script><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/5fe5f57ee794eff4-s.p.8aa04263.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"/_next/static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"/_next/image?url=%2Fscoreboard%2Fmaps%2Fdust2"
+  }
+ ]
+}
