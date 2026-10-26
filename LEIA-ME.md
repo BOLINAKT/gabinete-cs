@@ -141,10 +141,37 @@ abaixo do mínimo da casa. Caso extremo (time com ≥75% no mapa, ≥15 jogos, m
 mapa: 86 jogos, ganhou 63%. Efeito real nos extremos, pequeno na média. Retestar
 SOBRE o modelo com margem, só para o mercado de mapa pós-veto.
 
+## Rodada 3 (26/10/2026, tarde) — tudo SOBRE o modelo de margem, mapa S/A, teste 2024+
+
+| ideia | script | escolhido na validação | ganho pareado | régua |
+|---|---|---|---|---|
+| desvio do time por mapa | `mapa_sobre_margem.py` | K_mapa=10 | +0,0005 [−0,0001; +0,0012] | não |
+| taxa por mapa encolhida | `mapa_sobre_margem.py` | m=20, peso 0,2 | +0,0007 [+0,0003; +0,0011] p=0,001 | não (real, pequeno) |
+| K próprio para LAN/online | `lan_online.py` | K igual (72/72) | 0 | não |
+| desvio do time LAN/online | `lan_online.py --desvio` | K_d=20 | −0,0002 | não |
+| encolher após pausa longa | `pausa_e_estreia.py` | meia-vida 120 d, 20% | −0,0048 | não (piora) |
+| nota de estreia por tier | `pausa_e_estreia.py` | 0 em todos | 0 | não |
+| calibração simétrica c·logit | `calibracao.py` | c=1,2 | mapa +0,0013; série −0,0007 | não |
+
+Tipo LAN/online lido do cache (infobox `type=`), sem chamada nova: 10.517 mapas LAN, 43.266 online.
+
+**Achado (não adotado): a ORDEM da Liquipedia carrega informação.** No teste, o time1
+ganha 56,2% dos mapas e o modelo dava 52,9%; uma calibração com intercepto (b=0,1)
+passa na régua (+0,0029), mas o ganho é quase todo o intercepto. O time1 da
+Liquipedia costuma ser o cabeça de chave / quem vem da chave de cima — dado de
+antes do jogo, mas só utilizável se soubermos essa ordem para o jogo que formos
+precificar (a Pinnacle tem casa/fora próprios). Caminho: virar uma variável
+explícita (seed / chave de cima) quando houver a lista de próximos jogos da
+Liquipedia; não usar a ordem crua.
+
+Robô de odds (`odds_cs2.yml`): primeira corrida 26/10 14:21 UTC — 9 jogos, 1.385 linhas
+(moneyline, spread, total, team_total, série e mapa a mapa). Daqui a semanas: comparar
+o modelo com a Pinnacle no fechamento.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
-2. taxa por mapa pós-veto, por cima da margem (só mercado de mapa)
-3. LAN × online (a infobox do torneio na Liquipedia tem `type=`), formato da série
+2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
+3. ✘ LAN × online; ✘ pausa/estreia
 4. escalação (Liquipedia lista os jogadores; troca de jogador = time "novo")
-5. **odds da Pinnacle de CS2**: começar a COLETAR já (sem histórico não há comparação)
-6. depois: calibrar (Platt) e comparar com a Pinnacle no fechamento
+5. ✔ robô de odds da Pinnacle coletando de 3 em 3 h
+6. ✘ calibração simétrica; seed/ordem = próximo candidato; comparar com a Pinnacle quando houver odds
