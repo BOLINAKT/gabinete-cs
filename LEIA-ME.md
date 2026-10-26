@@ -168,6 +168,38 @@ Robô de odds (`odds_cs2.yml`): primeira corrida 26/10 14:21 UTC — 9 jogos, 1.
 (moneyline, spread, total, team_total, série e mapa a mapa). Daqui a semanas: comparar
 o modelo com a Pinnacle no fechamento.
 
+## BUG DOS NOMES corrigido (26/10/2026) — `resolver_times.py`, `times_canonicos.json`
+
+A Liquipedia escreve o time pelo nome curto do modelo, e ele mudou com o tempo:
+"liquid" → "tl", "vitality" → "vit", "gamerlegion" → "gl", "eternal fire" → "ef",
+"fnatic" → "fnc". O Elo tratava cada troca como time NOVO e jogava fora o histórico.
+Cura: `{{Team|nome}}` da própria Liquipedia diz a página do time (expandtemplates,
+lotes de 80, 75 chamadas). 702 nomes fundidos. NÃO fundidos (de propósito):
+"Orgless", elencos femininos, sub-elencos de seleção (`base_elo.canonico`).
+
+**Tudo antes desta seção foi medido com o bug.** Com os nomes certos (teste 2024+):
+
+| modelo | série S | série S e A | mapa S e A |
+|---|---|---|---|
+| Elo K=24, nomes crus (antes) | 0,6418 | 0,6438 | 0,6566 |
+| Elo K=24, nomes certos | 0,6348 | 0,6378 | 0,6526 |
+| margem K=72 a=0,3, nomes certos | 0,6344 | 0,6351 | 0,6510 |
+
+A correção dos nomes valeu mais que qualquer ideia testada (série −0,006). A
+margem, com nomes certos, ganha +0,0016 no mapa (p=0,088) e +0,0027 na série S/A
+(p=0,10): **não passa mais na régua → modelo oficial volta a ser o Elo K=24** (K de
+novo o melhor na validação). As rodadas 2 e 3 precisam ser medidas de novo sobre
+os nomes certos (pendente).
+
+## Preços do dia — `precificar_cs.py` → `precos_cs2.json`
+
+Odd justa do modelo (série e mapa) × Pinnacle sem margem, para os jogos do robô.
+Casamento de nomes aparece na tela para conferir. Lado sem 30+ mapas no último
+ano ou parado há mais de 120 dias: NÃO precificado (Elo sem base). Primeira
+leitura (26/10): 6 de 9 jogos precificados; o modelo foi mais "favorito" que a
+Pinnacle em quase todos (MIBR +10 pp, Astralis +10 pp) — anotar para conferir
+com os resultados.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)

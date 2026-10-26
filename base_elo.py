@@ -20,6 +20,7 @@ Fonte dos dados: Liquipedia (CC-BY-SA 3.0).
 """
 from __future__ import annotations
 
+import json
 import math
 import sys
 from collections import defaultdict
@@ -32,8 +33,25 @@ INICIO_TESTE = pd.Timestamp("2024-01-01")
 KS = (16, 24, 32, 40, 48)
 
 
+def canonico(nome: str, mapa: dict) -> str:
+    """Nome curto -> pagina do time (resolver_times.py). Fica o nome cru quando a
+    fusao seria errada: sem organizacao ("Orgless"), elenco feminino, ou sub-elenco
+    de selecao ("france.3dmax" -> "Team France")."""
+    c = mapa.get(nome)
+    if not c or c == "Orgless" or "female" in nome or nome.endswith(".fe"):
+        return nome
+    if c.startswith("Team ") and "." in nome:
+        return nome
+    return c
+
+
 def carregar() -> pd.DataFrame:
     d = pd.read_csv(RAIZ / "mapas_cs.csv")
+    arq = RAIZ / "times_canonicos.json"
+    if arq.exists():
+        mapa = json.loads(arq.read_text(encoding="utf-8"))
+        for col in ("time1", "time2"):
+            d[col] = [canonico(str(n), mapa) for n in d[col]]
     d["dt"] = pd.to_datetime(d["data"], errors="coerce")
     d = d[d["dt"].notna() & ~d["mapa"].isin(["Default", "Unknown"])].copy()
     return d.sort_values(["dt", "pagina", "mapa_n"]).reset_index(drop=True)
