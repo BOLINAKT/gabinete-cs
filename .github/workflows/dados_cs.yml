@@ -7,6 +7,7 @@ name: Dados CS2 (Liquipedia)
 on:
   schedule:
     - cron: "41 9 * * *"
+    - cron: "41 21 * * *"   # 2a corrida enquanto o tier C esta sendo coletado
   workflow_dispatch: {}
 
 permissions:

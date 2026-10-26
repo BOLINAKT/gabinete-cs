@@ -278,6 +278,7 @@ def main() -> int:
     print(f"[dados] torneios novos no indice: {novos}")
     # TIER C com o que sobrou do orcamento (fora da regua; so treino)
     lc, rc_c, feitos_c = [], set(), 0
+    pend_antes = sum(1 for v in indice.values() if isinstance(v, dict) and v.get("pendente"))
     if rc == 0 and not a.so_cache:
         limite_total = cli.limite
         cli.limite = max(cli.usadas, limite_total - RESERVA)
@@ -295,8 +296,9 @@ def main() -> int:
         tudo = substituir_paginas(base, [{k: str(v) if v is not None else "" for k, v in l.items()} for l in lc], rc_c)
         tudo.to_csv(MAPAS, index=False)
         linhas = linhas + lc
-        pend = sum(1 for v in indice.values() if v.get("pendente"))
-        print(f"[dados] tier C: {feitos_c} torneios coletados, +{len(tudo) - len(base)} mapas; faltam {pend}")
+        pend = sum(1 for v in indice.values() if isinstance(v, dict) and v.get("pendente"))
+        # conta pelo indice: o orcamento corta no meio e o retorno nao chega
+        print(f"[dados] tier C: {pend_antes - pend} torneios coletados, +{len(tudo) - len(base)} mapas; faltam {pend}")
     if rc == 0:
         times = {l["time1"] for l in linhas} | {l["time2"] for l in linhas}
         todos = pd.read_csv(MAPAS, dtype=str, usecols=["time1", "time2"])
