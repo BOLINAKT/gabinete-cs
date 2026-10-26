@@ -2,7 +2,7 @@
 """O CALCULO dos precos do dia, sem tela (26/10/2026): o app e o precificar_cs usam este.
 
 Modelo oficial: Elo POR JOGADOR (elo_jogador.py) com nomes canonicos; forca =
-media do elenco de hoje; serie com o p do mapa encolhido (C_SERIE). Pinnacle:
+media do elenco de hoje; serie com o p do mapa encolhido (c movel, calibra_movel). Pinnacle:
 moneyline do jogo principal, periodo 0 = serie, 1..3 = mapa, margem tirada por
 proporcao. Lado sem dado recente NAO e precificado.
 """
@@ -18,6 +18,7 @@ from pathlib import Path
 import pandas as pd
 
 import base_elo as be
+import calibra_movel as cm
 import calibra_serie as cal
 import elo_jogador as ej
 import troca_elenco as te
@@ -27,7 +28,8 @@ APELIDOS = {"bb team": "BetBoom Team"}
 # Sem isso o Elo de um time e o de 1500 da estreia (ou o de um elenco antigo de
 # mesmo nome): numero sem base. Abaixo disso o lado NAO e precificado.
 MIN_MAPAS_ANO, MAX_DIAS_PARADO = 30, 120
-C_SERIE = 0.9   # validacao 26/10/2026; no mapa a calibracao nao passou
+# Serie: c MOVEL (calibra_movel.py, aceito 26/10/2026 a noite): o melhor nos 12
+# meses anteriores; o fixo (0,9) foi escolhido com a regua de tiers misturados.
 DIAS_TROCA_RECENTE = 60
 # Tabela de MAPAS so com CS2 (26/10/2026, pergunta dele): mapas refeitos no CS2 e
 # rounds do CS:GO (MR15) nao comparam com MR12. O Elo segue com o historico todo:
@@ -47,6 +49,8 @@ class Estado:
         self.d = be.carregar()
         self.el = te.carregar_elencos()
         self.r, self.pr = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL, estado=True)
+        _, series = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL)
+        self.c_serie = cm.c_serie_atual(series, self.d.dt.max() + pd.Timedelta(days=1))
         self.ult = {}
         for x in self.d.itertuples(index=False):
             self.ult[x.time1] = x.dt
@@ -229,7 +233,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
             jogo["p_mapa"] = pm
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)
-            ps = be.p_serie(cal.ajusta(pm, C_SERIE), precisa) if precisa > 1 else pm
+            ps = be.p_serie(cal.ajusta(pm, est.c_serie), precisa) if precisa > 1 else pm
             pin = justas(odds["linhas"], j["id"])
             merc = [("Série" if precisa > 1 else "Vencedor", 0, ps)]
             merc += [(f"Mapa {k}", k, pm) for k in (1, 2, 3) if k in pin]

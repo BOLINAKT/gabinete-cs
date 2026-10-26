@@ -321,6 +321,49 @@ por lado, links). HLTV tem, mas bloqueia robô (não contornamos). Caminhos: GRI
 Access (inscrição dele) e o dataset do Kaggle "Counter Strike 2 Match Data/Status
 for Betting" (HLTV, 11/2023–12/2024; conferir licença e colunas, exige login).
 
+## Noite de 26/10/2026 — foco no ML (pedido dele: "melhorar o máximo possível a de ML")
+
+**TIERS CORRIGIDOS (muda a régua).** O coletor dava a uma subpágina o tier do
+evento-mãe: a qualificatória "PGL/2027/Bucharest/Qualifier" (B na Liquipedia)
+contava como S. Regra nova: tier do torneio MAIS ESPECÍFICO que contém a página
+(`atualizar_dados.tier_da_pagina`). 16.583 mapas desceram (S→B 9.365, A→B 4.353,
+S→A 2.855). Agora: S 6.186 · A 8.857 · B 38.891. **Régua da casa passa a ser S/A/B**
+(o universo com odd na Pinnacle: Tesla Cup é B).
+
+Elo por jogador × Elo de time, teste 2024+, por tier (série com c=0,85):
+
+| tier | mapa | série |
+|---|---|---|
+| S | −0,0012 (empate) | −0,0029 (empate) |
+| A | −0,0020 (empate) | −0,0040 (empate) |
+| B | **+0,0076** | **+0,0122** |
+| S/A/B | **+0,0050** | **+0,0082** |
+
+O ganho do jogador vem dos jogos menores (elenco muda muito). Mistura por tier
+(w escolhido por tier na validação): +0,0002, não passa. Oficial segue w=0, kj=32.
+
+**Rodada 6** (sobre o oficial): margem em rounds a=0,8 → mapa +0,0013 (p=0,001),
+série +0,0017 — real, ABAIXO da régua; peso por tier: não melhora nem a validação;
+incerteza por jogador: −0,0003. Sinal da ordem (time1): ainda 1,5–3 pp, mas quase
+todo em qualificatória/A; nos S principais 54,2% × 53,7%; intercepto da validação
+não melhora o teste. Regressão à média das notas: piora a validação (0,6484 → 0,6498+).
+
+**Calibração MÓVEL da série (aceita)** — `calibra_movel.py`: o c de cada mês vem só
+dos 12 meses anteriores. Teste S/A/B: +0,0021 [+0,0005; +0,0038] p=0,005. Mapa móvel
++0,0004 (não). O c caiu com o tempo (série 0,85 em 2025 → **0,70 hoje**): o modelo
+está mais confiante do que deveria nos dados recentes. A validação fixa (2021-2023)
+escolhia c=1,0 — por isso o móvel, que não espia o teste.
+
+**Robô diário de dados** (`atualizar_dados.py`, `dados_cs.yml`, 09:41 UTC): torneios
+novos (3 chamadas), reler os ATIVOS sem cache (substitui as linhas), nomes novos
+(chamada pesada a 31 s), elencos com 7+ dias; orçamento 80 chamadas; para no 429 e
+grava o que leu. Índice dos torneios versionado (`torneios_cs.json`, 1.023).
+
+**429 da Liquipedia**: provável causa nossa — 75 `expandtemplates` a 2,1 s, quando as
+regras pedem 1 a cada 30 s para chamada que monta página. Agora: pesadas a 31 s e
+pausa CRESCENTE (1 h, 2 h, 4 h… 24 h). Torneios S de 2026 com 0 mapas: páginas
+vazias na própria Liquipedia em 25/10 (PGL Summer etc.) — não é falha do extrator.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)

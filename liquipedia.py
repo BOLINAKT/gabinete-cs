@@ -36,19 +36,40 @@ _ultima = [0.0]
 
 BLOQUEIO = CACHE.parent / "liquipedia_429.txt"
 PAUSA_PADRAO_S = 3600
+PAUSA_MAX_S = 24 * 3600
+# Chamadas PESADAS (montam a pagina): as regras da Liquipedia pedem 1 a cada 30 s.
+# 26/10/2026: 75 expandtemplates a 2,1 s (resolver_times.py) foram o provavel
+# motivo do 429 -- erro nosso. Agora o ritmo depende do tipo de chamada.
+PESADAS = {"parse", "expandtemplates"}
+INTERVALO_PESADA_S = 31.0
 
 
 class Pausado(RuntimeError):
     """A Liquipedia pediu para esperar (429): nenhuma chamada ate o fim da pausa."""
 
 
+def _pausa_anterior() -> tuple:
+    """(fim da ultima pausa em epoch, duracao dela em s) -- (0, 0) se nunca houve."""
+    try:
+        partes = BLOQUEIO.read_text(encoding="utf-8").split()
+        ate = float(partes[0])
+        return ate, float(partes[1]) if len(partes) > 1 else PAUSA_PADRAO_S
+    except (OSError, ValueError, IndexError):
+        return 0.0, 0.0
+
+
 def pausa_restante() -> float:
     """Segundos que ainda faltam da pausa pedida pelo site (0 = liberado)."""
-    try:
-        ate = float(BLOQUEIO.read_text(encoding="utf-8").strip())
-    except (OSError, ValueError):
-        return 0.0
+    ate, _ = _pausa_anterior()
     return max(0.0, ate - time.time())
+
+
+def do_cache(**params):
+    """O que o cache tem para estes parametros, sem rede (None se nao tem)."""
+    params = {"format": "json", "formatversion": "2", **params}
+    chave = hashlib.sha1(json.dumps(params, sort_keys=True).encode()).hexdigest()[:20]
+    arq = CACHE / f"{chave}.json"
+    return json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else None
 
 
 def chamar(fresco: bool = False, **params) -> dict:
@@ -66,7 +87,8 @@ def chamar(fresco: bool = False, **params) -> dict:
     # sem NENHUMA chamada -- insistir e o que leva a bloqueio de IP.
     if pausa_restante() > 0:
         raise Pausado(f"Liquipedia pediu pausa: faltam {pausa_restante() / 60:.0f} min")
-    espera = INTERVALO_S - (time.monotonic() - _ultima[0])
+    intervalo = INTERVALO_PESADA_S if params.get("action") in PESADAS else INTERVALO_S
+    espera = intervalo - (time.monotonic() - _ultima[0])
     if espera > 0:
         time.sleep(espera)
     url = API + "?" + urllib.parse.urlencode(params)
@@ -80,9 +102,15 @@ def chamar(fresco: bool = False, **params) -> dict:
                 seg = float(e.headers.get("Retry-After") or PAUSA_PADRAO_S)
             except ValueError:
                 seg = PAUSA_PADRAO_S
+            # PAUSA CRESCENTE: 429 logo depois de uma pausa = o bloqueio e mais
+            # longo; dobra (1 h, 2 h, 4 h... ate 24 h) em vez de bater de novo.
+            ate_antes, pausa_antes = _pausa_anterior()
+            pausa = max(seg, PAUSA_PADRAO_S)
+            if ate_antes and time.time() - ate_antes < 3 * 3600:
+                pausa = min(max(pausa, 2 * pausa_antes), PAUSA_MAX_S)
             BLOQUEIO.parent.mkdir(parents=True, exist_ok=True)
-            BLOQUEIO.write_text(str(time.time() + max(seg, PAUSA_PADRAO_S)), encoding="utf-8")
-            raise Pausado(f"Liquipedia respondeu 429: pausa de {max(seg, PAUSA_PADRAO_S) / 60:.0f} min") from e
+            BLOQUEIO.write_text(f"{time.time() + pausa} {pausa}", encoding="utf-8")
+            raise Pausado(f"Liquipedia respondeu 429: pausa de {pausa / 60:.0f} min") from e
         raise
     with r:
         corpo = r.read()

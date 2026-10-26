@@ -1,0 +1,5117 @@
+{
+"500/Christmas Cup/2024": {
+"fim": "2024-12-17",
+"inicio": "2024-12-09",
+"tier": "B"
+},
+"5E Arena/Asia Cup/2022": {
+"fim": "2022-08-14",
+"inicio": "2022-08-12",
+"tier": "B"
+},
+"AGS CUP/2023": {
+"fim": "2023-10-16",
+"inicio": "2023-10-13",
+"tier": "B"
+},
+"AGS CUP/2025": {
+"fim": "2025-10-12",
+"inicio": "2025-10-10",
+"tier": "B"
+},
+"Assembly/2020/Winter": {
+"fim": "2020-02-22",
+"inicio": "2020-02-20",
+"tier": "B"
+},
+"Assembly/2022/Summer": {
+"fim": "2022-08-06",
+"inicio": "2022-08-04",
+"tier": "B"
+},
+"Austin LAN/2026": {
+"fim": "2026-11-15",
+"inicio": "2026-11-13",
+"tier": "B"
+},
+"BLAST/Bounty/2025/Fall": {
+"fim": "2025-08-17",
+"inicio": "2025-08-14",
+"tier": "S"
+},
+"BLAST/Bounty/2025/Fall/Qualifier": {
+"fim": "2025-08-10",
+"inicio": "2025-08-05",
+"tier": "A"
+},
+"BLAST/Bounty/2025/Spring": {
+"fim": "2025-01-26",
+"inicio": "2025-01-23",
+"tier": "S"
+},
+"BLAST/Bounty/2025/Spring/Qualifier": {
+"fim": "2025-01-19",
+"inicio": "2025-01-14",
+"tier": "A"
+},
+"BLAST/Bounty/2026/Summer": {
+"fim": "2026-08-02",
+"inicio": "2026-07-30",
+"tier": "S"
+},
+"BLAST/Bounty/2026/Summer/Qualifier": {
+"fim": "2026-07-26",
+"inicio": "2026-07-21",
+"tier": "A"
+},
+"BLAST/Bounty/2026/Winter": {
+"fim": "2026-01-25",
+"inicio": "2026-01-22",
+"tier": "S"
+},
+"BLAST/Bounty/2026/Winter/Qualifier": {
+"fim": "2026-01-18",
+"inicio": "2026-01-13",
+"tier": "A"
+},
+"BLAST/Bounty/2027/Summer": {
+"fim": "2027-09-12",
+"inicio": "2027-08-30",
+"tier": "S"
+},
+"BLAST/Bounty/2027/Winter": {
+"fim": "2027-01-24",
+"inicio": "2027-01-13",
+"tier": "S"
+},
+"BLAST/Major/2023/Paris": {
+"fim": "2023-05-21",
+"inicio": "2023-05-08",
+"tier": "S"
+},
+"BLAST/Major/2023/Paris/Americas": {
+"fim": "2023-04-09",
+"inicio": "2023-04-06",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Americas/North America": {
+"fim": "2023-02-19",
+"inicio": "2023-02-17",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Americas/South America": {
+"fim": "2023-02-19",
+"inicio": "2023-02-17",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Asia-Pacific": {
+"fim": "2023-04-09",
+"inicio": "2023-04-06",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Asia-Pacific/Asia": {
+"fim": "2023-02-19",
+"inicio": "2023-02-17",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Asia-Pacific/China": {
+"fim": "2023-02-19",
+"inicio": "2023-02-17",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Asia-Pacific/Middle East": {
+"fim": "2023-02-26",
+"inicio": "2023-02-24",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Asia-Pacific/Oceania": {
+"fim": "2023-02-19",
+"inicio": "2023-02-17",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Europe A": {
+"fim": "2023-04-09",
+"inicio": "2023-04-06",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Europe B": {
+"fim": "2023-04-15",
+"inicio": "2023-04-11",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Europe/Decider": {
+"fim": "2023-04-15",
+"inicio": "2023-04-14",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Europe/Qualifier A": {
+"fim": "2023-02-18",
+"inicio": "2023-02-16",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Europe/Qualifier B": {
+"fim": "2023-02-18",
+"inicio": "2023-02-16",
+"tier": "A"
+},
+"BLAST/Major/2023/Paris/Europe/Qualifier/Decider": {
+"fim": "2023-02-19",
+"inicio": "2023-02-19",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Europe/Qualifier/Open/1": {
+"fim": "2023-02-14",
+"inicio": "2023-02-13",
+"tier": "B"
+},
+"BLAST/Major/2023/Paris/Europe/Qualifier/Open/2": {
+"fim": "2023-02-15",
+"inicio": "2023-02-14",
+"tier": "B"
+},
+"BLAST/Major/2025/Austin": {
+"fim": "2025-06-22",
+"inicio": "2025-06-03",
+"tier": "S"
+},
+"BLAST/Major/2025/Austin/China": {
+"fim": "2025-04-17",
+"inicio": "2025-04-15",
+"tier": "B"
+},
+"BLAST/Major/2025/Austin/Europe": {
+"fim": "2025-04-17",
+"inicio": "2025-04-14",
+"tier": "A"
+},
+"BLAST/Major/2025/Austin/Mongolia and West Asia": {
+"fim": "2025-04-17",
+"inicio": "2025-04-15",
+"tier": "B"
+},
+"BLAST/Major/2025/Austin/North America": {
+"fim": "2025-04-17",
+"inicio": "2025-04-15",
+"tier": "B"
+},
+"BLAST/Major/2025/Austin/Oceania and Southeast Asia": {
+"fim": "2025-04-17",
+"inicio": "2025-04-15",
+"tier": "B"
+},
+"BLAST/Major/2025/Austin/South America": {
+"fim": "2025-04-17",
+"inicio": "2025-04-15",
+"tier": "B"
+},
+"BLAST/Open/2025/Fall": {
+"fim": "2025-09-07",
+"inicio": "2025-09-05",
+"tier": "S"
+},
+"BLAST/Open/2025/Fall/Qualifier": {
+"fim": "2025-09-01",
+"inicio": "2025-08-27",
+"tier": "S"
+},
+"BLAST/Open/2025/Spring": {
+"fim": "2025-03-30",
+"inicio": "2025-03-19",
+"tier": "S"
+},
+"BLAST/Open/2026/Fall": {
+"fim": "2026-09-06",
+"inicio": "2026-08-26",
+"tier": "S"
+},
+"BLAST/Open/2026/Fall/North America": {
+"fim": "2026-07-11",
+"inicio": "2026-07-09",
+"tier": "B"
+},
+"BLAST/Open/2026/Spring": {
+"fim": "2026-03-29",
+"inicio": "2026-03-18",
+"tier": "S"
+},
+"BLAST/Open/2027/Fall": {
+"fim": "2027-10-17",
+"inicio": "2027-10-04",
+"tier": "S"
+},
+"BLAST/Open/2027/Spring": {
+"fim": "2027-03-28",
+"inicio": "2027-03-19",
+"tier": "S"
+},
+"BLAST/Open/2027/Summer": {
+"fim": "2027-05-23",
+"inicio": "2027-05-10",
+"tier": "S"
+},
+"BLAST/Premier/2020/Circuit": {
+"fim": "2020-12-20",
+"inicio": "2020-01-31",
+"tier": "S"
+},
+"BLAST/Premier/2020/Fall": {
+"fim": "2020-12-13",
+"inicio": "2020-12-08",
+"tier": "S"
+},
+"BLAST/Premier/2020/Fall/Regular Season": {
+"fim": "2020-11-04",
+"inicio": "2020-10-26",
+"tier": "S"
+},
+"BLAST/Premier/2020/Fall/Showdown": {
+"fim": "2020-11-29",
+"inicio": "2020-11-24",
+"tier": "A"
+},
+"BLAST/Premier/2020/Global Final": {
+"fim": "2021-01-24",
+"inicio": "2021-01-19",
+"tier": "S"
+},
+"BLAST/Premier/2020/Spring": {
+"fim": "2020-06-21",
+"inicio": "2020-06-16",
+"tier": "S"
+},
+"BLAST/Premier/2020/Spring/Americas": {
+"fim": "2020-06-21",
+"inicio": "2020-06-16",
+"tier": "S"
+},
+"BLAST/Premier/2020/Spring/Europe": {
+"fim": "2020-06-21",
+"inicio": "2020-06-15",
+"tier": "S"
+},
+"BLAST/Premier/2020/Spring/Regular Season": {
+"fim": "2020-02-16",
+"inicio": "2020-01-31",
+"tier": "S"
+},
+"BLAST/Premier/2020/Spring/Showdown": {
+"fim": "2020-06-07",
+"inicio": "2020-06-02",
+"tier": "A"
+},
+"BLAST/Premier/2020/Spring/Showdown/Americas": {
+"fim": "2020-06-07",
+"inicio": "2020-06-01",
+"tier": "A"
+},
+"BLAST/Premier/2020/Spring/Showdown/CIS Cup": {
+"fim": "2020-05-30",
+"inicio": "2020-05-25",
+"tier": "B"
+},
+"BLAST/Premier/2020/Spring/Showdown/Europe": {
+"fim": "2020-06-15",
+"inicio": "2020-06-01",
+"tier": "A"
+},
+"BLAST/Premier/2021/Fall": {
+"fim": "2021-11-28",
+"inicio": "2021-11-24",
+"tier": "S"
+},
+"BLAST/Premier/2021/Fall/Groups": {
+"fim": "2021-09-26",
+"inicio": "2021-09-16",
+"tier": "S"
+},
+"BLAST/Premier/2021/Fall/Showdown": {
+"fim": "2021-10-17",
+"inicio": "2021-10-12",
+"tier": "A"
+},
+"BLAST/Premier/2021/Fall/Showdown/Nordic Masters": {
+"fim": "2021-09-05",
+"inicio": "2021-09-03",
+"tier": "B"
+},
+"BLAST/Premier/2021/Leaderboard": {
+"fim": "2021-11-29",
+"inicio": "2021-02-04",
+"tier": "S"
+},
+"BLAST/Premier/2021/Spring": {
+"fim": "2021-06-20",
+"inicio": "2021-06-15",
+"tier": "S"
+},
+"BLAST/Premier/2021/Spring/Groups": {
+"fim": "2021-02-14",
+"inicio": "2021-02-04",
+"tier": "S"
+},
+"BLAST/Premier/2021/Spring/Showdown": {
+"fim": "2021-04-18",
+"inicio": "2021-04-13",
+"tier": "A"
+},
+"BLAST/Premier/2021/Spring/Showdown/Nordic Masters": {
+"fim": "2021-03-28",
+"inicio": "2021-03-26",
+"tier": "B"
+},
+"BLAST/Premier/2021/World Final": {
+"fim": "2021-12-19",
+"inicio": "2021-12-14",
+"tier": "S"
+},
+"BLAST/Premier/2022/Fall": {
+"fim": "2022-11-27",
+"inicio": "2022-11-23",
+"tier": "S"
+},
+"BLAST/Premier/2022/Fall/Groups": {
+"fim": "2022-08-28",
+"inicio": "2022-08-19",
+"tier": "S"
+},
+"BLAST/Premier/2022/Fall/Showdown/Americas": {
+"fim": "2022-10-23",
+"inicio": "2022-10-19",
+"tier": "A"
+},
+"BLAST/Premier/2022/Fall/Showdown/Europe": {
+"fim": "2022-10-23",
+"inicio": "2022-10-19",
+"tier": "A"
+},
+"BLAST/Premier/2022/Leaderboard": {
+"fim": "2022-11-27",
+"inicio": "2022-01-28",
+"tier": "S"
+},
+"BLAST/Premier/2022/Spring": {
+"fim": "2022-06-19",
+"inicio": "2022-06-15",
+"tier": "S"
+},
+"BLAST/Premier/2022/Spring/Groups": {
+"fim": "2022-02-06",
+"inicio": "2022-01-28",
+"tier": "S"
+},
+"BLAST/Premier/2022/Spring/Showdown/Americas": {
+"fim": "2022-05-01",
+"inicio": "2022-04-27",
+"tier": "A"
+},
+"BLAST/Premier/2022/Spring/Showdown/Europe": {
+"fim": "2022-05-01",
+"inicio": "2022-04-27",
+"tier": "A"
+},
+"BLAST/Premier/2022/World Final": {
+"fim": "2022-12-18",
+"inicio": "2022-12-14",
+"tier": "S"
+},
+"BLAST/Premier/2023/Fall": {
+"fim": "2023-11-26",
+"inicio": "2023-11-22",
+"tier": "S"
+},
+"BLAST/Premier/2023/Fall/Groups": {
+"fim": "2023-07-23",
+"inicio": "2023-07-13",
+"tier": "S"
+},
+"BLAST/Premier/2023/Fall/Showdown/Americas": {
+"fim": "2023-10-08",
+"inicio": "2023-10-04",
+"tier": "A"
+},
+"BLAST/Premier/2023/Fall/Showdown/Europe": {
+"fim": "2023-10-08",
+"inicio": "2023-10-04",
+"tier": "A"
+},
+"BLAST/Premier/2023/Leaderboard": {
+"fim": "2023-11-26",
+"inicio": "2023-01-19",
+"tier": "S"
+},
+"BLAST/Premier/2023/Spring": {
+"fim": "2023-06-11",
+"inicio": "2023-06-07",
+"tier": "S"
+},
+"BLAST/Premier/2023/Spring/Groups": {
+"fim": "2023-01-29",
+"inicio": "2023-01-19",
+"tier": "S"
+},
+"BLAST/Premier/2023/Spring/Showdown/Americas": {
+"fim": "2023-04-02",
+"inicio": "2023-03-29",
+"tier": "A"
+},
+"BLAST/Premier/2023/Spring/Showdown/Europe": {
+"fim": "2023-04-02",
+"inicio": "2023-03-29",
+"tier": "A"
+},
+"BLAST/Premier/2023/World Final": {
+"fim": "2023-12-17",
+"inicio": "2023-12-13",
+"tier": "S"
+},
+"BLAST/Premier/2024/Fall": {
+"fim": "2024-09-29",
+"inicio": "2024-09-25",
+"tier": "S"
+},
+"BLAST/Premier/2024/Fall/Groups": {
+"fim": "2024-08-04",
+"inicio": "2024-07-29",
+"tier": "S"
+},
+"BLAST/Premier/2024/Fall/Showdown": {
+"fim": "2024-08-25",
+"inicio": "2024-08-21",
+"tier": "A"
+},
+"BLAST/Premier/2024/Leaderboard": {
+"fim": "2024-09-29",
+"inicio": "2024-01-22",
+"tier": "S"
+},
+"BLAST/Premier/2024/Spring": {
+"fim": "2024-06-16",
+"inicio": "2024-06-12",
+"tier": "S"
+},
+"BLAST/Premier/2024/Spring/Groups": {
+"fim": "2024-01-28",
+"inicio": "2024-01-22",
+"tier": "S"
+},
+"BLAST/Premier/2024/Spring/Showdown": {
+"fim": "2024-03-10",
+"inicio": "2024-03-06",
+"tier": "A"
+},
+"BLAST/Premier/2024/World Final": {
+"fim": "2024-11-03",
+"inicio": "2024-10-30",
+"tier": "S"
+},
+"BLAST/Premier/2025/Frequent Flyers": {
+"fim": "2025-11-16",
+"inicio": "2025-01-23",
+"tier": "S"
+},
+"BLAST/Premier/2026/Frequent Flyers": {
+"fim": "2026-12-31",
+"inicio": "2026-01-01",
+"tier": "S"
+},
+"BLAST/Rising/2020": {
+"fim": "2020-05-22",
+"inicio": "2020-05-04",
+"tier": "B"
+},
+"BLAST/Rising/2021": {
+"fim": "2021-05-23",
+"inicio": "2021-05-03",
+"tier": "B"
+},
+"BLAST/Rising/2021/LATAM": {
+"fim": "2021-12-12",
+"inicio": "2021-11-30",
+"tier": "B"
+},
+"BLAST/Rising/2025/Fall/Asia": {
+"fim": "2025-08-03",
+"inicio": "2025-08-01",
+"tier": "B"
+},
+"BLAST/Rising/2025/Spring/Asia": {
+"fim": "2025-02-13",
+"inicio": "2025-02-11",
+"tier": "B"
+},
+"BLAST/Rivals/2025/Fall": {
+"fim": "2025-11-16",
+"inicio": "2025-11-12",
+"tier": "S"
+},
+"BLAST/Rivals/2025/Spring": {
+"fim": "2025-05-04",
+"inicio": "2025-04-30",
+"tier": "S"
+},
+"BLAST/Rivals/2026/Fall": {
+"fim": "2026-11-15",
+"inicio": "2026-11-11",
+"tier": "S"
+},
+"BLAST/Rivals/2026/Spring": {
+"fim": "2026-05-03",
+"inicio": "2026-04-29",
+"tier": "S"
+},
+"BLAST/Rivals/2027": {
+"fim": "2027-11-14",
+"inicio": "2027-11-08",
+"tier": "S"
+},
+"BetBoom Dacha/2023/Dubai": {
+"fim": "2023-12-10",
+"inicio": "2023-12-05",
+"tier": "A"
+},
+"BetBoom Dacha/2023/Dubai/Qualifier": {
+"fim": "2023-11-21",
+"inicio": "2023-11-11",
+"tier": "A"
+},
+"BetBoom Dacha/2024/Belgrade/1": {
+"fim": "2024-05-19",
+"inicio": "2024-05-14",
+"tier": "S"
+},
+"BetBoom Dacha/2024/Belgrade/1/Europe": {
+"fim": "2024-04-12",
+"inicio": "2024-04-02",
+"tier": "B"
+},
+"BetBoom Dacha/2024/Belgrade/1/South America": {
+"fim": "2024-04-11",
+"inicio": "2024-04-04",
+"tier": "B"
+},
+"BetBoom Dacha/2024/Belgrade/2": {
+"fim": "2024-09-01",
+"inicio": "2024-08-24",
+"tier": "S"
+},
+"BetBoom Dacha/2024/Belgrade/2/Europe": {
+"fim": "2024-08-05",
+"inicio": "2024-07-28",
+"tier": "B"
+},
+"BetBoom Dacha/2024/Belgrade/2/South America": {
+"fim": "2024-08-03",
+"inicio": "2024-07-28",
+"tier": "B"
+},
+"BetBoom/RUSH B! Summit/2026": {
+"fim": "2026-01-18",
+"inicio": "2026-01-14",
+"tier": "B"
+},
+"BetBoom/RUSH B! Summit/2026/Part Deux": {
+"fim": "2026-03-01",
+"inicio": "2026-02-25",
+"tier": "B"
+},
+"Birch Cup/2025": {
+"fim": "2025-09-28",
+"inicio": "2025-09-26",
+"tier": "B"
+},
+"Born To Be Brave/2022": {
+"fim": "2022-12-22",
+"inicio": "2022-12-22",
+"tier": "A"
+},
+"CCT/2026/Europe/Series 1": {
+"fim": "2026-05-15",
+"inicio": "2026-05-03",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 10": {
+"fim": "2026-10-10",
+"inicio": "2026-09-28",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 11": {
+"fim": "2026-10-25",
+"inicio": "2026-10-13",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 12": {
+"fim": "2026-11-01",
+"inicio": "2026-10-20",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 13": {
+"fim": "2026-11-16",
+"inicio": "2026-11-04",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 14": {
+"fim": "2026-11-22",
+"inicio": "2026-11-10",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 15": {
+"fim": "2026-12-07",
+"inicio": "2026-11-25",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 16": {
+"fim": "2026-12-13",
+"inicio": "2026-12-01",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 2": {
+"fim": "2026-05-30",
+"inicio": "2026-05-18",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 3": {
+"fim": "2026-06-06",
+"inicio": "2026-05-25",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 4": {
+"fim": "2026-06-21",
+"inicio": "2026-06-09",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 5": {
+"fim": "2026-08-02",
+"inicio": "2026-07-21",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 6": {
+"fim": "2026-08-08",
+"inicio": "2026-07-27",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 7": {
+"fim": "2026-08-30",
+"inicio": "2026-08-18",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 8": {
+"fim": "2026-09-14",
+"inicio": "2026-09-02",
+"tier": "B"
+},
+"CCT/2026/Europe/Series 9": {
+"fim": "2026-09-27",
+"inicio": "2026-09-15",
+"tier": "B"
+},
+"CCT/2026/South America/Series 1": {
+"fim": "2026-05-10",
+"inicio": "2026-04-28",
+"tier": "B"
+},
+"CCT/2026/South America/Series 2": {
+"fim": "2026-05-24",
+"inicio": "2026-05-12",
+"tier": "B"
+},
+"CCT/2026/South America/Series 3": {
+"fim": "2026-07-09",
+"inicio": "2026-06-27",
+"tier": "B"
+},
+"CCT/2026/South America/Series 4": {
+"fim": "2026-07-26",
+"inicio": "2026-07-14",
+"tier": "B"
+},
+"CCT/2026/South America/Series 5": {
+"fim": "2026-09-06",
+"inicio": "2026-08-25",
+"tier": "B"
+},
+"CCT/2026/South America/Series 6": {
+"fim": "2026-10-04",
+"inicio": "2026-09-22",
+"tier": "B"
+},
+"CCT/2026/South America/Series 8": {
+"fim": "2026-11-15",
+"inicio": "2026-11-03",
+"tier": "B"
+},
+"CS Asia Championships/2023": {
+"fim": "2023-11-12",
+"inicio": "2023-11-08",
+"tier": "S"
+},
+"CS Asia Championships/2025": {
+"fim": "2025-10-19",
+"inicio": "2025-10-14",
+"tier": "A"
+},
+"CS Asia Championships/2025/Americas": {
+"fim": "2025-08-17",
+"inicio": "2025-08-16",
+"tier": "B"
+},
+"CS Asia Championships/2025/Asia": {
+"fim": "2025-09-16",
+"inicio": "2025-09-15",
+"tier": "B"
+},
+"CS Asia Championships/2025/Europe": {
+"fim": "2025-08-11",
+"inicio": "2025-08-10",
+"tier": "B"
+},
+"CS Asia Championships/2026": {
+"fim": "2026-05-24",
+"inicio": "2026-05-20",
+"tier": "S"
+},
+"CS Asia Championships/2026/Qualifier": {
+"fim": "2026-03-12",
+"inicio": "2026-03-09",
+"tier": "B"
+},
+"CS Asia Championships/2027": {
+"fim": "2027-08-29",
+"inicio": "2027-08-17",
+"tier": "S"
+},
+"Circuito Brasileiro de Counter-Strike/2021": {
+"fim": "2021-11-15",
+"inicio": "2021-04-22",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2021/Finals": {
+"fim": "2021-12-21",
+"inicio": "2021-12-17",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2022/Invitational": {
+"fim": "2022-12-03",
+"inicio": "2022-12-02",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2023/Invitational": {
+"fim": "2023-11-26",
+"inicio": "2023-11-23",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2023/Masters": {
+"fim": "2023-08-27",
+"inicio": "2023-08-17",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2024/Invitational": {
+"fim": "2024-10-27",
+"inicio": "2024-10-26",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2024/Masters": {
+"fim": "2024-10-05",
+"inicio": "2024-09-23",
+"tier": "B"
+},
+"Circuito Brasileiro de Counter-Strike/2025/Masters/Xeque Mate": {
+"fim": "2025-11-16",
+"inicio": "2025-11-15",
+"tier": "B"
+},
+"Circuito FERJEE/2025": {
+"fim": "2025-08-15",
+"inicio": "2025-08-13",
+"tier": "B"
+},
+"ComicCon Bulgaria/2020": {
+"fim": "2020-09-13",
+"inicio": "2020-09-12",
+"tier": "B"
+},
+"Copa BetBoom/2023": {
+"fim": "2023-11-04",
+"inicio": "2023-10-21",
+"tier": "B"
+},
+"Copenhagen Games/2020": {
+"fim": "2020-04-11",
+"inicio": "2020-04-10",
+"tier": "A"
+},
+"Copenhagen Games/2020/Female Tournament": {
+"fim": "2020-04-11",
+"inicio": "2020-04-09",
+"tier": "B"
+},
+"Copenhagen Games/2022": {
+"fim": "2022-04-16",
+"inicio": "2022-04-14",
+"tier": "A"
+},
+"Copenhagen Gaming Week/2024": {
+"fim": "2024-01-14",
+"inicio": "2024-01-13",
+"tier": "A"
+},
+"Copenhagen Gaming Week/2024/Qualifier": {
+"fim": "2024-01-11",
+"inicio": "2024-01-11",
+"tier": "B"
+},
+"DFRAG/Invitational/2025": {
+"fim": "2025-03-23",
+"inicio": "2025-03-20",
+"tier": "B"
+},
+"DFRAG/Invitational/2026": {
+"fim": "2026-11-01",
+"inicio": "2026-10-26",
+"tier": "B"
+},
+"Desafio Brasileiro de Esports/2024": {
+"fim": "2024-11-24",
+"inicio": "2024-11-22",
+"tier": "B"
+},
+"DreamHack/2020/Anaheim": {
+"fim": "2020-02-23",
+"inicio": "2020-02-21",
+"tier": "A"
+},
+"DreamHack/2020/Anaheim/Europe": {
+"fim": "2020-01-19",
+"inicio": "2020-01-19",
+"tier": "B"
+},
+"DreamHack/2020/Anaheim/Europe/Open": {
+"fim": "2020-01-18",
+"inicio": "2020-01-17",
+"tier": "B"
+},
+"DreamHack/2020/December": {
+"fim": "2020-12-13",
+"inicio": "2020-12-10",
+"tier": "A"
+},
+"DreamHack/2020/Fall/Europe": {
+"fim": "2020-10-25",
+"inicio": "2020-10-15",
+"tier": "A"
+},
+"DreamHack/2020/Fall/Europe/Qualifier": {
+"fim": "2020-09-25",
+"inicio": "2020-09-22",
+"tier": "A"
+},
+"DreamHack/2020/Fall/Europe/Qualifier/Open": {
+"fim": "2020-09-19",
+"inicio": "2020-09-18",
+"tier": "B"
+},
+"DreamHack/2020/Hyderabad": {
+"fim": "2020-11-01",
+"inicio": "2020-10-30",
+"tier": "A"
+},
+"DreamHack/2020/Leipzig": {
+"fim": "2020-01-26",
+"inicio": "2020-01-24",
+"tier": "A"
+},
+"DreamHack/2020/Leipzig/Europe": {
+"fim": "2020-01-12",
+"inicio": "2020-01-12",
+"tier": "B"
+},
+"DreamHack/2020/Leipzig/Europe/Open": {
+"fim": "2020-01-11",
+"inicio": "2020-01-10",
+"tier": "B"
+},
+"DreamHack/2020/Madrid": {
+"fim": "2020-12-13",
+"inicio": "2020-12-11",
+"tier": "A"
+},
+"DreamHack/2020/Montreal": {
+"fim": "2020-09-13",
+"inicio": "2020-09-11",
+"tier": "A"
+},
+"DreamHack/2020/November": {
+"fim": "2020-11-29",
+"inicio": "2020-11-26",
+"tier": "A"
+},
+"DreamHack/2020/November/Europe": {
+"fim": "2020-11-15",
+"inicio": "2020-11-14",
+"tier": "B"
+},
+"DreamHack/2020/Rotterdam": {
+"fim": "2020-10-18",
+"inicio": "2020-10-16",
+"tier": "A"
+},
+"DreamHack/2020/Spring/Asia": {
+"fim": "2020-06-07",
+"inicio": "2020-06-02",
+"tier": "B"
+},
+"DreamHack/2020/Spring/Europe": {
+"fim": "2020-06-14",
+"inicio": "2020-05-19",
+"tier": "S"
+},
+"DreamHack/2020/Spring/Europe/Qualifier": {
+"fim": "2020-04-20",
+"inicio": "2020-04-18",
+"tier": "B"
+},
+"DreamHack/2020/Spring/Europe/Qualifier/Open": {
+"fim": "2020-04-17",
+"inicio": "2020-04-16",
+"tier": "B"
+},
+"DreamHack/2020/Spring/North America": {
+"fim": "2020-06-14",
+"inicio": "2020-05-19",
+"tier": "A"
+},
+"DreamHack/2020/Spring/Oceania": {
+"fim": "2020-06-07",
+"inicio": "2020-06-03",
+"tier": "B"
+},
+"DreamHack/2020/Summer": {
+"fim": "2020-06-14",
+"inicio": "2020-06-09",
+"tier": "S"
+},
+"DreamHack/2020/Summer/Asia": {
+"fim": "2020-08-16",
+"inicio": "2020-08-14",
+"tier": "B"
+},
+"DreamHack/2020/Summer/Europe": {
+"fim": "2020-08-16",
+"inicio": "2020-08-08",
+"tier": "A"
+},
+"DreamHack/2020/Summer/North America": {
+"fim": "2020-08-16",
+"inicio": "2020-08-08",
+"tier": "A"
+},
+"DreamHack/2020/Summer/Oceania": {
+"fim": "2020-08-09",
+"inicio": "2020-08-07",
+"tier": "B"
+},
+"DreamHack/2020/Summer/Showdown/Europe": {
+"fim": "2020-07-19",
+"inicio": "2020-07-17",
+"tier": "B"
+},
+"DreamHack/2020/Summer/Showdown/North America": {
+"fim": "2020-07-26",
+"inicio": "2020-07-24",
+"tier": "B"
+},
+"DreamHack/2020/Valencia": {
+"fim": "2020-07-05",
+"inicio": "2020-07-03",
+"tier": "A"
+},
+"DreamHack/2020/Winter": {
+"fim": "2020-11-29",
+"inicio": "2020-11-27",
+"tier": "A"
+},
+"DreamHack/2020/Winter/Asia": {
+"fim": "2020-12-06",
+"inicio": "2020-12-01",
+"tier": "B"
+},
+"DreamHack/2020/Winter/Europe": {
+"fim": "2020-12-06",
+"inicio": "2020-11-30",
+"tier": "S"
+},
+"DreamHack/2020/Winter/Europe/Qualifier": {
+"fim": "2020-11-05",
+"inicio": "2020-11-05",
+"tier": "B"
+},
+"DreamHack/2020/Winter/Europe/Qualifier/Open": {
+"fim": "2020-11-04",
+"inicio": "2020-11-03",
+"tier": "B"
+},
+"DreamHack/2020/Winter/North America": {
+"fim": "2020-12-06",
+"inicio": "2020-11-30",
+"tier": "A"
+},
+"DreamHack/2020/Winter/Oceania": {
+"fim": "2020-12-06",
+"inicio": "2020-12-01",
+"tier": "B"
+},
+"DreamHack/2020/Winter/Showdown/Europe": {
+"fim": "2020-12-20",
+"inicio": "2020-12-15",
+"tier": "B"
+},
+"DreamHack/2020/Winter/Showdown/North America": {
+"fim": "2020-12-20",
+"inicio": "2020-12-15",
+"tier": "B"
+},
+"DreamHack/2021/Atlanta": {
+"fim": "2021-11-14",
+"inicio": "2021-11-12",
+"tier": "A"
+},
+"DreamHack/2021/January/Europe": {
+"fim": "2021-01-31",
+"inicio": "2021-01-27",
+"tier": "A"
+},
+"DreamHack/2021/January/Europe/Qualifier": {
+"fim": "2021-01-23",
+"inicio": "2021-01-22",
+"tier": "B"
+},
+"DreamHack/2021/January/Europe/Qualifier/Open": {
+"fim": "2021-01-21",
+"inicio": "2021-01-20",
+"tier": "B"
+},
+"DreamHack/2021/January/North America": {
+"fim": "2021-01-31",
+"inicio": "2021-01-27",
+"tier": "B"
+},
+"DreamHack/2021/June/Asia": {
+"fim": "2021-07-03",
+"inicio": "2021-06-30",
+"tier": "B"
+},
+"DreamHack/2021/June/North America": {
+"fim": "2021-07-03",
+"inicio": "2021-06-29",
+"tier": "B"
+},
+"DreamHack/2021/March/North America": {
+"fim": "2021-03-14",
+"inicio": "2021-03-10",
+"tier": "A"
+},
+"DreamHack/2021/March/South America": {
+"fim": "2021-03-14",
+"inicio": "2021-03-10",
+"tier": "B"
+},
+"DreamHack/2021/November": {
+"fim": "2021-11-14",
+"inicio": "2021-11-10",
+"tier": "A"
+},
+"DreamHack/2021/September/North America": {
+"fim": "2021-09-26",
+"inicio": "2021-09-22",
+"tier": "B"
+},
+"DreamHack/2021/September/Oceania": {
+"fim": "2021-09-26",
+"inicio": "2021-09-22",
+"tier": "B"
+},
+"DreamHack/2021/September/South America": {
+"fim": "2021-09-26",
+"inicio": "2021-09-22",
+"tier": "B"
+},
+"DreamHack/2021/Spring": {
+"fim": "2021-05-09",
+"inicio": "2021-04-29",
+"tier": "S"
+},
+"DreamHack/2021/Spring/Europe": {
+"fim": "2021-03-07",
+"inicio": "2021-03-06",
+"tier": "A"
+},
+"DreamHack/2021/Spring/Europe/Open": {
+"fim": "2021-03-05",
+"inicio": "2021-03-04",
+"tier": "B"
+},
+"DreamHack/2021/Spring/North America": {
+"fim": "2021-03-07",
+"inicio": "2021-03-06",
+"tier": "B"
+},
+"DreamHack/2021/Winter": {
+"fim": "2021-11-28",
+"inicio": "2021-11-26",
+"tier": "A"
+},
+"EPIC League/2021/Spring/CIS": {
+"fim": "2021-05-30",
+"inicio": "2021-05-12",
+"tier": "A"
+},
+"EPIC League/2021/Spring/Oceania": {
+"fim": "2021-05-30",
+"inicio": "2021-05-24",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2020/Winter/3": {
+"fim": "2021-01-24",
+"inicio": "2021-01-23",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2020/Winter/4": {
+"fim": "2021-01-31",
+"inicio": "2021-01-30",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2020/Winter/5": {
+"fim": "2021-02-15",
+"inicio": "2021-02-13",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2020/Winter/6": {
+"fim": "2021-02-28",
+"inicio": "2021-02-27",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Autumn/1": {
+"fim": "2021-09-26",
+"inicio": "2021-09-25",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Autumn/2": {
+"fim": "2021-10-17",
+"inicio": "2021-10-16",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Autumn/3": {
+"fim": "2021-10-24",
+"inicio": "2021-10-23",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Autumn/4": {
+"fim": "2021-11-07",
+"inicio": "2021-11-06",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Autumn/5": {
+"fim": "2021-11-14",
+"inicio": "2021-11-13",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Spring/1": {
+"fim": "2021-03-21",
+"inicio": "2021-03-20",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Spring/2": {
+"fim": "2021-03-28",
+"inicio": "2021-03-27",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Spring/3": {
+"fim": "2021-04-04",
+"inicio": "2021-04-03",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Spring/4": {
+"fim": "2021-04-11",
+"inicio": "2021-04-10",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Spring/6": {
+"fim": "2021-05-30",
+"inicio": "2021-05-29",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Summer/1": {
+"fim": "2021-06-06",
+"inicio": "2021-06-05",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Summer/2": {
+"fim": "2021-06-27",
+"inicio": "2021-06-26",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Summer/5": {
+"fim": "2021-08-08",
+"inicio": "2021-08-07",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Summer/6": {
+"fim": "2021-08-15",
+"inicio": "2021-08-14",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2021/Summer/7": {
+"fim": "2021-09-19",
+"inicio": "2021-09-18",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/1": {
+"fim": "2022-09-25",
+"inicio": "2022-09-24",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/2": {
+"fim": "2022-10-16",
+"inicio": "2022-10-15",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/3": {
+"fim": "2022-10-30",
+"inicio": "2022-10-29",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/4": {
+"fim": "2022-11-27",
+"inicio": "2022-11-26",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/5": {
+"fim": "2022-12-04",
+"inicio": "2022-12-03",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Autumn/7": {
+"fim": "2022-12-18",
+"inicio": "2022-12-17",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Spring/1": {
+"fim": "2022-03-27",
+"inicio": "2022-03-26",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Spring/3": {
+"fim": "2022-05-01",
+"inicio": "2022-04-30",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Spring/4": {
+"fim": "2022-05-08",
+"inicio": "2022-05-07",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Spring/5": {
+"fim": "2022-05-29",
+"inicio": "2022-05-28",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Summer/6": {
+"fim": "2022-09-18",
+"inicio": "2022-09-17",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Winter/5": {
+"fim": "2022-02-27",
+"inicio": "2022-02-26",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2022/Winter/6": {
+"fim": "2022-03-20",
+"inicio": "2022-03-19",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2023/Circuit/Final": {
+"fim": "2023-06-09",
+"inicio": "2023-06-06",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2023/Summer/1": {
+"fim": "2023-09-17",
+"inicio": "2023-09-16",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2023/Winter/1": {
+"fim": "2023-01-22",
+"inicio": "2023-01-21",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2023/Winter/2": {
+"fim": "2023-01-29",
+"inicio": "2023-01-28",
+"tier": "B"
+},
+"ESEA/Cash Cup/North America/2023/Winter/3": {
+"fim": "2023-02-19",
+"inicio": "2023-02-18",
+"tier": "B"
+},
+"ESEA/Pre-Season Circuit/North America/2023": {
+"fim": "2023-07-31",
+"inicio": "2023-07-30",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/April": {
+"fim": "2020-04-30",
+"inicio": "2020-04-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/August": {
+"fim": "2020-08-31",
+"inicio": "2020-08-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/December": {
+"fim": "2020-12-31",
+"inicio": "2020-12-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/February": {
+"fim": "2020-02-28",
+"inicio": "2020-02-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/January": {
+"fim": "2020-01-31",
+"inicio": "2020-01-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/July": {
+"fim": "2020-07-31",
+"inicio": "2020-07-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/June": {
+"fim": "2020-06-30",
+"inicio": "2020-06-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/March": {
+"fim": "2020-03-31",
+"inicio": "2020-03-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/May": {
+"fim": "2020-05-31",
+"inicio": "2020-05-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/November": {
+"fim": "2020-11-30",
+"inicio": "2020-11-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/October": {
+"fim": "2020-10-31",
+"inicio": "2020-10-01",
+"tier": "B"
+},
+"ESEA/Rank S/2020/Europe/September": {
+"fim": "2020-09-30",
+"inicio": "2020-09-01",
+"tier": "B"
+},
+"ESEA/Rank S/2021/Europe/January": {
+"fim": "2021-01-09",
+"inicio": "2021-01-01",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/Europe": {
+"fim": "2021-12-13",
+"inicio": "2021-12-11",
+"tier": "A"
+},
+"ESL/Challenger/2022/Anaheim/Europe/Open/1": {
+"fim": "2021-11-30",
+"inicio": "2021-11-29",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/Europe/Open/2": {
+"fim": "2021-12-02",
+"inicio": "2021-12-01",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/North America": {
+"fim": "2021-12-12",
+"inicio": "2021-12-11",
+"tier": "A"
+},
+"ESL/Challenger/2022/Anaheim/North America/Open/1": {
+"fim": "2021-11-30",
+"inicio": "2021-11-29",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/North America/Open/2": {
+"fim": "2021-12-02",
+"inicio": "2021-12-01",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/Oceania": {
+"fim": "2021-12-10",
+"inicio": "2021-12-09",
+"tier": "B"
+},
+"ESL/Challenger/2022/Anaheim/South America": {
+"fim": "2021-12-10",
+"inicio": "2021-12-09",
+"tier": "B"
+},
+"ESL/Challenger/2022/Melbourne": {
+"fim": "2022-09-04",
+"inicio": "2022-09-02",
+"tier": "A"
+},
+"ESL/Challenger/2022/Melbourne/Europe": {
+"fim": "2022-07-14",
+"inicio": "2022-07-12",
+"tier": "B"
+},
+"ESL/Challenger/2022/Melbourne/Europe/Open/1": {
+"fim": "2022-07-08",
+"inicio": "2022-07-07",
+"tier": "B"
+},
+"ESL/Challenger/2022/Melbourne/Europe/Open/2": {
+"fim": "2022-07-10",
+"inicio": "2022-07-09",
+"tier": "B"
+},
+"ESL/Challenger/2022/Rotterdam": {
+"fim": "2022-10-16",
+"inicio": "2022-10-14",
+"tier": "A"
+},
+"ESL/Challenger/2022/Rotterdam/Europe": {
+"fim": "2022-09-18",
+"inicio": "2022-09-16",
+"tier": "B"
+},
+"ESL/Challenger/2022/Rotterdam/Europe/Open/1": {
+"fim": "2022-09-09",
+"inicio": "2022-09-08",
+"tier": "B"
+},
+"ESL/Challenger/2022/Rotterdam/Europe/Open/2": {
+"fim": "2022-09-11",
+"inicio": "2022-09-10",
+"tier": "B"
+},
+"ESL/Challenger/2022/Valencia": {
+"fim": "2022-07-03",
+"inicio": "2022-07-01",
+"tier": "A"
+},
+"ESL/Challenger/2022/Valencia/Europe": {
+"fim": "2022-05-27",
+"inicio": "2022-05-25",
+"tier": "B"
+},
+"ESL/Challenger/2022/Valencia/Europe/Open/1": {
+"fim": "2022-05-20",
+"inicio": "2022-05-19",
+"tier": "B"
+},
+"ESL/Challenger/2022/Valencia/Europe/Open/2": {
+"fim": "2022-05-22",
+"inicio": "2022-05-21",
+"tier": "B"
+},
+"ESL/Challenger/2023/Atlanta": {
+"fim": "2023-12-17",
+"inicio": "2023-12-15",
+"tier": "A"
+},
+"ESL/Challenger/2023/Atlanta/Europe": {
+"fim": "2023-11-18",
+"inicio": "2023-11-16",
+"tier": "B"
+},
+"ESL/Challenger/2023/Atlanta/Europe/Open": {
+"fim": "2023-11-15",
+"inicio": "2023-11-14",
+"tier": "B"
+},
+"ESL/Challenger/2023/Jönköping": {
+"fim": "2023-11-26",
+"inicio": "2023-11-24",
+"tier": "A"
+},
+"ESL/Challenger/2023/Jönköping/Europe": {
+"fim": "2023-10-11",
+"inicio": "2023-10-09",
+"tier": "B"
+},
+"ESL/Challenger/2023/Jönköping/Europe/Open": {
+"fim": "2023-10-04",
+"inicio": "2023-10-03",
+"tier": "B"
+},
+"ESL/Challenger/2023/Katowice": {
+"fim": "2023-06-11",
+"inicio": "2023-06-09",
+"tier": "A"
+},
+"ESL/Challenger/2023/Katowice/Europe": {
+"fim": "2023-05-22",
+"inicio": "2023-05-20",
+"tier": "B"
+},
+"ESL/Challenger/2023/Katowice/Europe/Open": {
+"fim": "2023-05-04",
+"inicio": "2023-05-03",
+"tier": "B"
+},
+"ESL/Challenger/2023/Melbourne": {
+"fim": "2023-04-30",
+"inicio": "2023-04-28",
+"tier": "A"
+},
+"ESL/Challenger/2023/Melbourne/Europe": {
+"fim": "2023-03-10",
+"inicio": "2023-03-08",
+"tier": "B"
+},
+"ESL/Challenger/2023/Melbourne/Europe/Open": {
+"fim": "2023-02-26",
+"inicio": "2023-02-25",
+"tier": "B"
+},
+"ESL/Challenger/2024/Atlanta": {
+"fim": "2024-10-06",
+"inicio": "2024-10-04",
+"tier": "A"
+},
+"ESL/Challenger/2024/Atlanta/Europe": {
+"fim": "2024-08-31",
+"inicio": "2024-08-29",
+"tier": "B"
+},
+"ESL/Challenger/2024/Atlanta/Europe/Open": {
+"fim": "2024-08-17",
+"inicio": "2024-08-16",
+"tier": "B"
+},
+"ESL/Challenger/2024/Jönköping": {
+"fim": "2024-06-16",
+"inicio": "2024-06-14",
+"tier": "A"
+},
+"ESL/Challenger/2024/Jönköping/Europe": {
+"fim": "2024-04-04",
+"inicio": "2024-04-02",
+"tier": "B"
+},
+"ESL/Challenger/2024/Jönköping/Europe/Open": {
+"fim": "2024-03-27",
+"inicio": "2024-03-26",
+"tier": "B"
+},
+"ESL/Challenger/2024/Katowice": {
+"fim": "2024-10-27",
+"inicio": "2024-10-25",
+"tier": "A"
+},
+"ESL/Challenger/2024/Katowice/Europe": {
+"fim": "2024-09-29",
+"inicio": "2024-09-27",
+"tier": "B"
+},
+"ESL/Challenger/2024/Katowice/Europe/Open": {
+"fim": "2024-09-26",
+"inicio": "2024-09-25",
+"tier": "B"
+},
+"ESL/Challenger/2024/Melbourne": {
+"fim": "2024-04-28",
+"inicio": "2024-04-26",
+"tier": "A"
+},
+"ESL/Challenger/2024/Melbourne/Europe": {
+"fim": "2024-03-01",
+"inicio": "2024-02-28",
+"tier": "B"
+},
+"ESL/Challenger/2024/Melbourne/Europe/Open": {
+"fim": "2024-02-27",
+"inicio": "2024-02-26",
+"tier": "B"
+},
+"ESL/Championnat National/2020/Summer": {
+"fim": "2020-05-23",
+"inicio": "2020-04-08",
+"tier": "B"
+},
+"ESL/Championnat National/2020/Winter": {
+"fim": "2020-11-18",
+"inicio": "2020-09-14",
+"tier": "B"
+},
+"ESL/Championnat National/2021/Autumn": {
+"fim": "2021-10-24",
+"inicio": "2021-08-30",
+"tier": "B"
+},
+"ESL/Championnat National/2021/Spring": {
+"fim": "2021-04-28",
+"inicio": "2021-03-02",
+"tier": "B"
+},
+"ESL/Championnat National/2022/Autumn": {
+"fim": "2022-10-26",
+"inicio": "2022-08-29",
+"tier": "B"
+},
+"ESL/Championnat National/2022/Spring": {
+"fim": "2022-04-29",
+"inicio": "2022-01-31",
+"tier": "B"
+},
+"ESL/Championnat National/2023/Spring": {
+"fim": "2023-06-07",
+"inicio": "2023-03-13",
+"tier": "B"
+},
+"ESL/Impact/2022/Valencia": {
+"fim": "2022-07-03",
+"inicio": "2022-07-01",
+"tier": "B"
+},
+"ESL/Impact/2023/Katowice": {
+"fim": "2023-02-12",
+"inicio": "2023-02-10",
+"tier": "B"
+},
+"ESL/Meisterschaft/2020/Autumn": {
+"fim": "2021-01-17",
+"inicio": "2020-09-15",
+"tier": "B"
+},
+"ESL/Meisterschaft/2020/Spring": {
+"fim": "2020-05-31",
+"inicio": "2020-03-03",
+"tier": "B"
+},
+"ESL/Meisterschaft/2021/Autumn": {
+"fim": "2021-11-13",
+"inicio": "2021-08-16",
+"tier": "B"
+},
+"ESL/Meisterschaft/2021/Spring": {
+"fim": "2021-05-15",
+"inicio": "2021-03-01",
+"tier": "B"
+},
+"ESL/Meisterschaft/2022/Autumn": {
+"fim": "2022-12-18",
+"inicio": "2022-08-29",
+"tier": "B"
+},
+"ESL/Meisterschaft/2022/Spring": {
+"fim": "2022-04-30",
+"inicio": "2022-01-17",
+"tier": "B"
+},
+"ESL/Meisterschaft/2023/Autumn": {
+"fim": "2023-12-16",
+"inicio": "2023-08-21",
+"tier": "B"
+},
+"ESL/Meisterschaft/2023/Spring": {
+"fim": "2023-06-11",
+"inicio": "2023-03-06",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2020/Fall": {
+"fim": "2020-11-22",
+"inicio": "2020-09-07",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2020/Spring": {
+"fim": "2020-05-31",
+"inicio": "2020-04-27",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2021/Autumn": {
+"fim": "2021-11-09",
+"inicio": "2021-11-08",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2021/Spring": {
+"fim": "2021-05-16",
+"inicio": "2021-03-08",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2022/Autumn": {
+"fim": "2022-12-11",
+"inicio": "2022-08-29",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2022/Spring": {
+"fim": "2022-05-08",
+"inicio": "2022-02-22",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2023/Autumn": {
+"fim": "2023-11-26",
+"inicio": "2023-11-20",
+"tier": "B"
+},
+"ESL/Mistrzostwa Polski/2023/Spring": {
+"fim": "2023-06-11",
+"inicio": "2023-05-23",
+"tier": "B"
+},
+"ESL/One/2020/Cologne": {
+"fim": "2020-08-30",
+"inicio": "2020-08-21",
+"tier": "S"
+},
+"ESL/One/2020/Cologne/Asia": {
+"fim": "2020-08-30",
+"inicio": "2020-08-25",
+"tier": "B"
+},
+"ESL/One/2020/Cologne/Europe": {
+"fim": "2020-08-30",
+"inicio": "2020-08-18",
+"tier": "S"
+},
+"ESL/One/2020/Cologne/North America": {
+"fim": "2020-08-29",
+"inicio": "2020-08-18",
+"tier": "S"
+},
+"ESL/One/2020/Cologne/Oceania": {
+"fim": "2020-08-30",
+"inicio": "2020-08-25",
+"tier": "B"
+},
+"ESL/One/2020/Rio": {
+"fim": "2020-11-22",
+"inicio": "2020-11-09",
+"tier": "S"
+},
+"ESL/One/2020/Rio/Minor Qualifier": {
+"fim": "2020-05-03",
+"inicio": "2020-05-03",
+"tier": "B"
+},
+"ESL/Premiership/2020/Autumn": {
+"fim": "2020-11-07",
+"inicio": "2020-09-07",
+"tier": "B"
+},
+"ESL/Premiership/2020/Spring": {
+"fim": "2020-05-09",
+"inicio": "2020-04-06",
+"tier": "B"
+},
+"ESL/Premiership/2021/Autumn": {
+"fim": "2021-10-10",
+"inicio": "2021-08-30",
+"tier": "B"
+},
+"ESL/Premiership/2021/Spring": {
+"fim": "2021-05-02",
+"inicio": "2021-03-01",
+"tier": "B"
+},
+"ESL/Premiership/2022/Autumn": {
+"fim": "2022-12-04",
+"inicio": "2022-10-24",
+"tier": "B"
+},
+"ESL/Premiership/2022/Spring": {
+"fim": "2022-04-10",
+"inicio": "2022-03-07",
+"tier": "B"
+},
+"ESL/Premiership/2023/Autumn": {
+"fim": "2023-09-08",
+"inicio": "2023-09-07",
+"tier": "B"
+},
+"ESL/Premiership/2023/Spring": {
+"fim": "2023-06-04",
+"inicio": "2023-05-01",
+"tier": "B"
+},
+"EXTREMESLAND/2021": {
+"fim": "2022-01-16",
+"inicio": "2022-01-15",
+"tier": "B"
+},
+"EXTREMESLAND/2022": {
+"fim": "2022-12-25",
+"inicio": "2022-12-24",
+"tier": "B"
+},
+"EXTREMESLAND/2023": {
+"fim": "2024-01-28",
+"inicio": "2024-01-26",
+"tier": "B"
+},
+"EXTREMESLAND/2024": {
+"fim": "2025-01-19",
+"inicio": "2025-01-14",
+"tier": "B"
+},
+"EXTREMESLAND/2025": {
+"fim": "2025-12-21",
+"inicio": "2025-12-18",
+"tier": "B"
+},
+"EXTREMESLAND/2026": {
+"fim": "2026-12-20",
+"inicio": "2026-12-16",
+"tier": "A"
+},
+"Elisa/Finnish Championship/2020": {
+"fim": "2020-09-27",
+"inicio": "2020-08-21",
+"tier": "B"
+},
+"Elisa/Invitational/2020/Fall": {
+"fim": "2020-11-01",
+"inicio": "2020-10-26",
+"tier": "B"
+},
+"Elisa/Invitational/2020/Spring": {
+"fim": "2020-05-03",
+"inicio": "2020-04-30",
+"tier": "B"
+},
+"Elisa/Invitational/2021/Fall": {
+"fim": "2021-10-15",
+"inicio": "2021-08-16",
+"tier": "A"
+},
+"Elisa/Invitational/2021/Spring": {
+"fim": "2021-04-18",
+"inicio": "2021-04-15",
+"tier": "B"
+},
+"Elisa/Invitational/2021/Summer": {
+"fim": "2021-07-04",
+"inicio": "2021-05-06",
+"tier": "A"
+},
+"Elisa/Invitational/2021/Winter": {
+"fim": "2022-03-06",
+"inicio": "2021-11-15",
+"tier": "A"
+},
+"Elisa/Invitational/2022/Fall": {
+"fim": "2022-10-26",
+"inicio": "2022-08-15",
+"tier": "B"
+},
+"Elisa/Invitational/2022/Spring": {
+"fim": "2022-07-02",
+"inicio": "2022-03-21",
+"tier": "B"
+},
+"Elisa/Invitational/2023/Spring": {
+"fim": "2023-06-10",
+"inicio": "2023-03-20",
+"tier": "B"
+},
+"Elisa/Invitational/2023/Winter": {
+"fim": "2023-03-11",
+"inicio": "2023-01-16",
+"tier": "B"
+},
+"Elisa/Invitational/2024/Fall": {
+"fim": "2024-09-14",
+"inicio": "2024-07-15",
+"tier": "B"
+},
+"Elisa/Invitational/2024/Spring": {
+"fim": "2024-05-18",
+"inicio": "2024-02-26",
+"tier": "B"
+},
+"Elisa/Masters/2022": {
+"fim": "2022-11-20",
+"inicio": "2022-11-16",
+"tier": "A"
+},
+"Elisa/Masters/2023": {
+"fim": "2023-12-03",
+"inicio": "2023-11-29",
+"tier": "A"
+},
+"Elisa/Masters/2024": {
+"fim": "2024-10-20",
+"inicio": "2024-10-16",
+"tier": "A"
+},
+"Elisa/Nordic Championship/2025": {
+"fim": "2025-05-24",
+"inicio": "2025-05-20",
+"tier": "B"
+},
+"Esports Nations Cup/2026": {
+"fim": "2026-11-15",
+"inicio": "2026-11-10",
+"tier": "A"
+},
+"Esports Nations Cup/2026/Eastern Europe": {
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"tier": "B"
+},
+"Esports Nations Cup/2026/Western Europe": {
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"tier": "B"
+},
+"Esports World Cup/2024": {
+"fim": "2024-07-21",
+"inicio": "2024-07-17",
+"tier": "S"
+},
+"Esports World Cup/2024/Europe": {
+"fim": "2024-04-20",
+"inicio": "2024-04-19",
+"tier": "B"
+},
+"Esports World Cup/2024/Europe/Open": {
+"fim": "2024-04-18",
+"inicio": "2024-04-17",
+"tier": "B"
+},
+"Esports World Cup/2025": {
+"fim": "2025-08-24",
+"inicio": "2025-08-20",
+"tier": "S"
+},
+"Esports World Cup/2026": {
+"fim": "2026-08-23",
+"inicio": "2026-08-12",
+"tier": "S"
+},
+"Esports World Cup/2026/Qualifier": {
+"fim": "2026-08-09",
+"inicio": "2026-08-07",
+"tier": "B"
+},
+"Esports World Cup/2027": {
+"fim": "2027-08-01",
+"inicio": "2027-07-20",
+"tier": "S"
+},
+"Esports World Cup/2027/Qualifier": {
+"fim": "2027-07-18",
+"inicio": "2027-07-16",
+"tier": "B"
+},
+"Esports World Cup/2028": {
+"fim": "2028-07-30",
+"inicio": "2028-07-14",
+"tier": "S"
+},
+"Evelone/2025/Duo Cup": {
+"fim": "2025-01-06",
+"inicio": "2025-01-05",
+"tier": "B"
+},
+"Evelone/2025/Duo Cup/2": {
+"fim": "2025-10-16",
+"inicio": "2025-10-15",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/April": {
+"fim": "2020-04-30",
+"inicio": "2020-04-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/August": {
+"fim": "2020-08-31",
+"inicio": "2020-08-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/December": {
+"fim": "2020-12-31",
+"inicio": "2020-12-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/February": {
+"fim": "2020-02-29",
+"inicio": "2020-02-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/January": {
+"fim": "2020-01-31",
+"inicio": "2020-01-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/July": {
+"fim": "2020-07-31",
+"inicio": "2020-07-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/June": {
+"fim": "2020-06-30",
+"inicio": "2020-06-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/March": {
+"fim": "2020-03-31",
+"inicio": "2020-03-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/May": {
+"fim": "2020-05-31",
+"inicio": "2020-05-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/November": {
+"fim": "2020-11-30",
+"inicio": "2020-11-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/October": {
+"fim": "2020-10-31",
+"inicio": "2020-10-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/Europe/September": {
+"fim": "2020-09-30",
+"inicio": "2020-09-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/April": {
+"fim": "2020-05-03",
+"inicio": "2020-03-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/August": {
+"fim": "2020-08-30",
+"inicio": "2020-08-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/December": {
+"fim": "2020-12-30",
+"inicio": "2020-11-26",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/July": {
+"fim": "2020-08-02",
+"inicio": "2020-06-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/June": {
+"fim": "2020-06-28",
+"inicio": "2020-06-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/March": {
+"fim": "2020-03-29",
+"inicio": "2020-03-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/May": {
+"fim": "2020-05-31",
+"inicio": "2020-05-04",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/November": {
+"fim": "2020-11-25",
+"inicio": "2020-10-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2020/North America/October": {
+"fim": "2020-10-28",
+"inicio": "2020-10-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/April": {
+"fim": "2021-04-30",
+"inicio": "2021-04-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/August": {
+"fim": "2021-08-31",
+"inicio": "2021-08-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/December": {
+"fim": "2021-12-31",
+"inicio": "2021-12-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/February": {
+"fim": "2021-02-28",
+"inicio": "2021-02-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/January": {
+"fim": "2021-01-31",
+"inicio": "2021-01-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/July": {
+"fim": "2021-07-31",
+"inicio": "2021-07-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/June": {
+"fim": "2021-06-30",
+"inicio": "2021-06-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/March": {
+"fim": "2021-03-31",
+"inicio": "2021-03-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/May": {
+"fim": "2021-05-31",
+"inicio": "2021-05-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/November": {
+"fim": "2021-11-30",
+"inicio": "2021-11-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/October": {
+"fim": "2021-10-31",
+"inicio": "2021-10-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/Europe/September": {
+"fim": "2021-09-30",
+"inicio": "2021-09-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/April": {
+"fim": "2021-04-28",
+"inicio": "2021-04-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/August": {
+"fim": "2021-09-01",
+"inicio": "2021-07-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/December": {
+"fim": "2021-12-29",
+"inicio": "2021-12-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/February": {
+"fim": "2021-03-03",
+"inicio": "2021-02-04",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/January": {
+"fim": "2021-02-03",
+"inicio": "2020-12-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/July": {
+"fim": "2021-07-28",
+"inicio": "2021-07-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/June": {
+"fim": "2021-06-30",
+"inicio": "2021-06-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/March": {
+"fim": "2021-03-31",
+"inicio": "2021-03-04",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/May": {
+"fim": "2021-06-02",
+"inicio": "2021-04-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/November": {
+"fim": "2021-12-01",
+"inicio": "2021-10-28",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/October": {
+"fim": "2021-10-27",
+"inicio": "2021-09-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2021/North America/September": {
+"fim": "2021-09-29",
+"inicio": "2021-09-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/April": {
+"fim": "2022-04-30",
+"inicio": "2022-04-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/August": {
+"fim": "2022-08-31",
+"inicio": "2022-08-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/December": {
+"fim": "2022-12-31",
+"inicio": "2022-12-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/February": {
+"fim": "2022-02-28",
+"inicio": "2022-02-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/January": {
+"fim": "2022-01-31",
+"inicio": "2022-01-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/July": {
+"fim": "2022-07-31",
+"inicio": "2022-07-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/June": {
+"fim": "2022-06-30",
+"inicio": "2022-05-28",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/March": {
+"fim": "2022-03-31",
+"inicio": "2022-03-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/May": {
+"fim": "2022-05-28",
+"inicio": "2022-05-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/November": {
+"fim": "2022-11-30",
+"inicio": "2022-11-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/October": {
+"fim": "2022-10-31",
+"inicio": "2022-10-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/Europe/September": {
+"fim": "2022-09-30",
+"inicio": "2022-09-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/April": {
+"fim": "2022-04-27",
+"inicio": "2022-03-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/August": {
+"fim": "2022-08-31",
+"inicio": "2022-08-04",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/December": {
+"fim": "2023-01-04",
+"inicio": "2022-12-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/February": {
+"fim": "2022-03-02",
+"inicio": "2022-02-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/January": {
+"fim": "2022-02-02",
+"inicio": "2021-12-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/July": {
+"fim": "2022-08-03",
+"inicio": "2022-06-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/June": {
+"fim": "2022-06-29",
+"inicio": "2022-06-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/March": {
+"fim": "2022-03-30",
+"inicio": "2022-03-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/May": {
+"fim": "2022-06-01",
+"inicio": "2022-04-28",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/November": {
+"fim": "2022-11-30",
+"inicio": "2022-11-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/October": {
+"fim": "2022-11-02",
+"inicio": "2022-09-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2022/North America/September": {
+"fim": "2022-09-28",
+"inicio": "2022-09-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/April": {
+"fim": "2023-04-30",
+"inicio": "2023-04-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/August": {
+"fim": "2023-08-31",
+"inicio": "2023-08-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/December": {
+"fim": "2023-12-31",
+"inicio": "2023-11-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/February": {
+"fim": "2023-02-28",
+"inicio": "2023-02-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/January": {
+"fim": "2023-01-31",
+"inicio": "2023-01-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/July": {
+"fim": "2023-07-31",
+"inicio": "2023-07-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/June": {
+"fim": "2023-06-30",
+"inicio": "2023-06-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/March": {
+"fim": "2023-03-31",
+"inicio": "2023-03-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/May": {
+"fim": "2023-05-31",
+"inicio": "2023-05-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/November": {
+"fim": "2023-11-30",
+"inicio": "2023-10-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/Europe/October": {
+"fim": "2023-10-31",
+"inicio": "2023-08-17",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/April": {
+"fim": "2023-05-03",
+"inicio": "2023-03-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/August": {
+"fim": "2023-08-30",
+"inicio": "2023-08-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/December": {
+"fim": "2024-01-03",
+"inicio": "2023-11-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/February": {
+"fim": "2023-03-01",
+"inicio": "2023-02-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/January": {
+"fim": "2023-02-01",
+"inicio": "2023-01-05",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/July": {
+"fim": "2023-08-02",
+"inicio": "2023-06-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/June": {
+"fim": "2023-06-28",
+"inicio": "2023-06-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/March": {
+"fim": "2023-03-29",
+"inicio": "2023-03-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/May": {
+"fim": "2023-05-31",
+"inicio": "2023-05-04",
+"tier": "B"
+},
+"FACEIT/Pro League/2023/North America/November": {
+"fim": "2023-11-29",
+"inicio": "2023-11-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/April": {
+"fim": "2024-04-30",
+"inicio": "2024-03-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/February": {
+"fim": "2024-02-29",
+"inicio": "2024-01-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/January": {
+"fim": "2024-01-31",
+"inicio": "2024-01-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/July": {
+"fim": "2024-07-31",
+"inicio": "2024-06-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/June": {
+"fim": "2024-06-30",
+"inicio": "2024-05-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/March": {
+"fim": "2024-03-31",
+"inicio": "2024-02-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/May": {
+"fim": "2024-05-31",
+"inicio": "2024-04-30",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/October": {
+"fim": "2024-10-27",
+"inicio": "2024-10-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/Europe/September": {
+"fim": "2024-09-29",
+"inicio": "2024-09-06",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/April": {
+"fim": "2024-05-01",
+"inicio": "2024-04-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/August": {
+"fim": "2024-09-02",
+"inicio": "2024-08-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/February": {
+"fim": "2024-02-28",
+"inicio": "2024-01-31",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/January": {
+"fim": "2024-01-31",
+"inicio": "2024-01-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/July": {
+"fim": "2024-07-29",
+"inicio": "2024-07-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/March": {
+"fim": "2024-04-03",
+"inicio": "2024-02-28",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/May": {
+"fim": "2024-05-30",
+"inicio": "2024-05-01",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/October": {
+"fim": "2024-10-27",
+"inicio": "2024-10-03",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/North America/September": {
+"fim": "2024-09-29",
+"inicio": "2024-09-10",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/South America/April": {
+"fim": "2024-05-01",
+"inicio": "2024-03-27",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/South America/July": {
+"fim": "2024-07-24",
+"inicio": "2024-07-02",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/South America/June": {
+"fim": "2024-07-01",
+"inicio": "2024-05-29",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/South America/March": {
+"fim": "2024-03-27",
+"inicio": "2024-02-28",
+"tier": "B"
+},
+"FACEIT/Pro League/2024/South America/May": {
+"fim": "2024-05-29",
+"inicio": "2024-05-01",
+"tier": "B"
+},
+"FERJEE/Circuito Estadual/2024": {
+"fim": "2024-08-16",
+"inicio": "2024-08-14",
+"tier": "B"
+},
+"FERJEE/In House/2026": {
+"fim": "2026-03-30",
+"inicio": "2026-03-26",
+"tier": "B"
+},
+"FERJEE/Rainhas do Clutch/2026": {
+"fim": "2026-06-26",
+"inicio": "2026-06-23",
+"tier": "B"
+},
+"FERJEE/Rush/2025": {
+"fim": "2025-09-30",
+"inicio": "2025-09-27",
+"tier": "B"
+},
+"FRAG/2025/Philadelphia/2": {
+"fim": "2025-10-05",
+"inicio": "2025-10-02",
+"tier": "B"
+},
+"Fantasyexpo Cup/2021/Spring": {
+"fim": "2021-03-25",
+"inicio": "2021-03-23",
+"tier": "B"
+},
+"Fantasyexpo/EU Champions/2021/Fall": {
+"fim": "2021-09-09",
+"inicio": "2021-09-07",
+"tier": "B"
+},
+"Fantasyexpo/EU Champions/2022/Spring": {
+"fim": "2022-03-27",
+"inicio": "2022-03-25",
+"tier": "B"
+},
+"FiReCONTER/2026/Season 1": {
+"fim": "2026-02-01",
+"inicio": "2026-01-29",
+"tier": "B"
+},
+"FiReLEAGUE/2020/Global Finals": {
+"fim": "2020-12-13",
+"inicio": "2020-12-13",
+"tier": "B"
+},
+"FiReLEAGUE/2020/Regional Finals": {
+"fim": "2020-12-13",
+"inicio": "2020-12-12",
+"tier": "B"
+},
+"FiReLEAGUE/2021": {
+"fim": "2021-11-21",
+"inicio": "2021-11-15",
+"tier": "B"
+},
+"FiReLEAGUE/2022": {
+"fim": "2022-10-16",
+"inicio": "2022-10-14",
+"tier": "A"
+},
+"FiReLEAGUE/2022/Argentina": {
+"fim": "2022-08-07",
+"inicio": "2022-07-06",
+"tier": "B"
+},
+"FiReLEAGUE/2023": {
+"fim": "2024-06-16",
+"inicio": "2024-06-14",
+"tier": "A"
+},
+"FiReLEAGUE/2023/Argentina": {
+"fim": "2023-07-08",
+"inicio": "2023-07-02",
+"tier": "B"
+},
+"FiReLEAGUE/2023/Battle": {
+"fim": "2023-07-08",
+"inicio": "2023-07-08",
+"tier": "A"
+},
+"FiReLEAGUE/2025/Buenos Aires": {
+"fim": "2025-05-02",
+"inicio": "2025-05-02",
+"tier": "B"
+},
+"FiReSPORTS/Last Chance/2026": {
+"fim": "2026-11-01",
+"inicio": "2026-10-29",
+"tier": "B"
+},
+"FiReSPORTS/Major/2027/Buenos Aires": {
+"fim": "2027-06-20",
+"inicio": "2027-05-31",
+"tier": "S"
+},
+"Forge of Legends/2026": {
+"fim": "2026-10-18",
+"inicio": "2026-10-13",
+"tier": "S"
+},
+"Fortress Melbourne/Masters/2022": {
+"fim": "2022-09-18",
+"inicio": "2022-09-17",
+"tier": "B"
+},
+"Fragadelphia/Invitational/2021/Fall": {
+"fim": "2021-09-15",
+"inicio": "2021-09-13",
+"tier": "B"
+},
+"Funspark/ULTI/2020": {
+"fim": "2021-04-26",
+"inicio": "2021-04-19",
+"tier": "A"
+},
+"Funspark/ULTI/2020/Asia": {
+"fim": "2020-10-14",
+"inicio": "2020-09-07",
+"tier": "B"
+},
+"Funspark/ULTI/2020/Europe": {
+"fim": "2020-08-21",
+"inicio": "2020-08-08",
+"tier": "B"
+},
+"Funspark/ULTI/2020/North America": {
+"fim": "2020-08-15",
+"inicio": "2020-08-08",
+"tier": "B"
+},
+"Funspark/ULTI/2021": {
+"fim": "2022-01-24",
+"inicio": "2022-01-18",
+"tier": "A"
+},
+"Funspark/ULTI/2021/Asia/Playoffs/1": {
+"fim": "2021-08-25",
+"inicio": "2021-08-19",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Asia/Playoffs/2": {
+"fim": "2022-01-03",
+"inicio": "2021-12-28",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Asia/Points": {
+"fim": "2022-01-03",
+"inicio": "2021-03-29",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Asia/Season 1": {
+"fim": "2021-04-11",
+"inicio": "2021-03-29",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Asia/Season 2": {
+"fim": "2021-07-16",
+"inicio": "2021-07-03",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Asia/Season 4": {
+"fim": "2022-01-06",
+"inicio": "2021-12-28",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Playoffs/1": {
+"fim": "2021-06-20",
+"inicio": "2021-06-14",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Playoffs/2": {
+"fim": "2021-12-19",
+"inicio": "2021-12-13",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Points": {
+"fim": "2021-12-19",
+"inicio": "2021-03-29",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Season 1": {
+"fim": "2021-04-11",
+"inicio": "2021-03-29",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Season 2": {
+"fim": "2021-06-06",
+"inicio": "2021-05-24",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Season 3": {
+"fim": "2021-09-26",
+"inicio": "2021-09-13",
+"tier": "B"
+},
+"Funspark/ULTI/2021/Europe/Season 4": {
+"fim": "2021-12-05",
+"inicio": "2021-11-22",
+"tier": "B"
+},
+"GAM3RS X/EU Champions/2022/Fall": {
+"fim": "2022-09-17",
+"inicio": "2022-09-15",
+"tier": "B"
+},
+"GOAT League/2023/Summer VACation": {
+"fim": "2023-06-20",
+"inicio": "2023-06-15",
+"tier": "A"
+},
+"Galaxy Battle/2025/Phase 1": {
+"fim": "2025-05-01",
+"inicio": "2025-04-11",
+"tier": "B"
+},
+"Galaxy Battle/2025/Phase 2": {
+"fim": "2025-05-31",
+"inicio": "2025-05-11",
+"tier": "B"
+},
+"Galaxy Battle/2025/Phase 3": {
+"fim": "2025-06-24",
+"inicio": "2025-06-11",
+"tier": "B"
+},
+"Galaxy Battle/2025/Phase 4": {
+"fim": "2025-10-12",
+"inicio": "2025-09-09",
+"tier": "B"
+},
+"Galaxy Battle/2025/Phase 5": {
+"fim": "2025-12-09",
+"inicio": "2025-11-11",
+"tier": "B"
+},
+"Galaxy Battle/2025/STARTER": {
+"fim": "2025-03-31",
+"inicio": "2025-03-11",
+"tier": "B"
+},
+"Gamers Without Borders/2020": {
+"fim": "2020-05-31",
+"inicio": "2020-05-29",
+"tier": "S"
+},
+"Gamers Without Borders/2021": {
+"fim": "2021-06-27",
+"inicio": "2021-06-22",
+"tier": "S"
+},
+"Gamers Without Borders/2023/Europe": {
+"fim": "2023-05-18",
+"inicio": "2023-05-17",
+"tier": "B"
+},
+"Gamers Without Borders/2023/North America": {
+"fim": "2023-05-17",
+"inicio": "2023-05-16",
+"tier": "B"
+},
+"Gamers8/2023": {
+"fim": "2023-08-20",
+"inicio": "2023-08-16",
+"tier": "S"
+},
+"Gamers8/2023/Qualifier": {
+"fim": "2023-07-12",
+"inicio": "2023-07-11",
+"tier": "B"
+},
+"Games Clash Arena/2020": {
+"fim": "2020-06-07",
+"inicio": "2020-06-05",
+"tier": "A"
+},
+"Games Clash Masters/2020": {
+"fim": "2020-09-13",
+"inicio": "2020-09-11",
+"tier": "A"
+},
+"Gdańsk Games/2021": {
+"fim": "2021-12-19",
+"inicio": "2021-12-18",
+"tier": "B"
+},
+"Glitched/2025/Masters": {
+"fim": "2025-06-15",
+"inicio": "2025-06-13",
+"tier": "B"
+},
+"Global Esports Tour/2022/Dubai": {
+"fim": "2022-06-11",
+"inicio": "2022-06-09",
+"tier": "A"
+},
+"Global Esports Tour/2024/Rio de Janeiro": {
+"fim": "2024-04-20",
+"inicio": "2024-04-18",
+"tier": "A"
+},
+"Good Game-ligaen/2023/Fall": {
+"fim": "2023-11-19",
+"inicio": "2023-08-21",
+"tier": "B"
+},
+"Hero Esports/Asian Champions League/2025": {
+"fim": "2025-05-16",
+"inicio": "2025-05-06",
+"tier": "A"
+},
+"Hero Esports/Asian Champions League/2025/Qualifier": {
+"fim": "2025-04-27",
+"inicio": "2025-04-17",
+"tier": "B"
+},
+"Hero Esports/Asian Champions League/2026": {
+"fim": "2026-05-17",
+"inicio": "2026-05-11",
+"tier": "A"
+},
+"Hero Esports/Asian Champions League/2026/Qualifier": {
+"fim": "2026-05-03",
+"inicio": "2026-04-30",
+"tier": "B"
+},
+"Hussar Cup/2023": {
+"fim": "2023-11-12",
+"inicio": "2023-11-08",
+"tier": "A"
+},
+"Hussar Cup/2023/Qualifier/1": {
+"fim": "2023-08-07",
+"inicio": "2023-08-06",
+"tier": "B"
+},
+"Hussar Cup/2023/Qualifier/2": {
+"fim": "2023-08-09",
+"inicio": "2023-08-08",
+"tier": "B"
+},
+"IBUYPOWER/Masters/2021/Winter": {
+"fim": "2021-11-14",
+"inicio": "2021-11-11",
+"tier": "B"
+},
+"IBUYPOWER/Masters/2026/Fl0m's Mythical LAN": {
+"fim": "2026-09-27",
+"inicio": "2026-09-25",
+"tier": "B"
+},
+"ICE Challenge/2020": {
+"fim": "2020-02-06",
+"inicio": "2020-02-01",
+"tier": "A"
+},
+"ICE Invitational/2025": {
+"fim": "2025-01-21",
+"inicio": "2025-01-20",
+"tier": "B"
+},
+"IESF/World Championships/2021": {
+"fim": "2021-11-18",
+"inicio": "2021-11-16",
+"tier": "B"
+},
+"IESF/World Esports Championships/2022": {
+"fim": "2022-12-11",
+"inicio": "2022-12-07",
+"tier": "B"
+},
+"IESF/World Esports Championships/2023": {
+"fim": "2023-09-03",
+"inicio": "2023-08-26",
+"tier": "B"
+},
+"IESF/World Esports Championships/2024": {
+"fim": "2024-11-17",
+"inicio": "2024-11-13",
+"tier": "B"
+},
+"Intel Extreme Masters/2022/Rio": {
+"fim": "2022-11-13",
+"inicio": "2022-10-31",
+"tier": "S"
+},
+"Intel Extreme Masters/2022/Rio/Americas": {
+"fim": "2022-10-09",
+"inicio": "2022-10-05",
+"tier": "A"
+},
+"Intel Extreme Masters/2022/Rio/Asia-Pacific": {
+"fim": "2022-10-09",
+"inicio": "2022-10-07",
+"tier": "B"
+},
+"Intel Extreme Masters/2022/Rio/Europe A": {
+"fim": "2022-10-09",
+"inicio": "2022-10-04",
+"tier": "A"
+},
+"Intel Extreme Masters/2022/Rio/Europe B": {
+"fim": "2022-10-09",
+"inicio": "2022-10-04",
+"tier": "A"
+},
+"Intel Extreme Masters/2022/Rio/Europe/Qualifier/1": {
+"fim": "2022-08-17",
+"inicio": "2022-08-15",
+"tier": "B"
+},
+"Intel Extreme Masters/2022/Rio/Europe/Qualifier/2": {
+"fim": "2022-08-22",
+"inicio": "2022-08-20",
+"tier": "B"
+},
+"Intel Extreme Masters/2022/Rio/Europe/Qualifier/3": {
+"fim": "2022-08-24",
+"inicio": "2022-08-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2022/Rio/Europe/Qualifier/4": {
+"fim": "2022-08-28",
+"inicio": "2022-08-26",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Cologne": {
+"fim": "2023-08-06",
+"inicio": "2023-07-26",
+"tier": "S"
+},
+"Intel Extreme Masters/2023/Dallas": {
+"fim": "2023-06-04",
+"inicio": "2023-05-29",
+"tier": "S"
+},
+"Intel Extreme Masters/2023/Dallas/Europe": {
+"fim": "2023-04-03",
+"inicio": "2023-03-31",
+"tier": "A"
+},
+"Intel Extreme Masters/2023/Dallas/Europe/Open/1": {
+"fim": "2023-03-23",
+"inicio": "2023-03-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Dallas/Europe/Open/2": {
+"fim": "2023-03-28",
+"inicio": "2023-03-27",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Dallas/North America": {
+"fim": "2023-03-05",
+"inicio": "2023-03-04",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Dallas/Oceania": {
+"fim": "2023-03-25",
+"inicio": "2023-03-24",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Dallas/South America": {
+"fim": "2023-04-13",
+"inicio": "2023-04-12",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Katowice": {
+"fim": "2023-02-12",
+"inicio": "2023-02-01",
+"tier": "S"
+},
+"Intel Extreme Masters/2023/Rio": {
+"fim": "2023-04-23",
+"inicio": "2023-04-17",
+"tier": "S"
+},
+"Intel Extreme Masters/2023/Rio/Asia": {
+"fim": "2023-01-27",
+"inicio": "2023-01-26",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Rio/Europe": {
+"fim": "2023-02-10",
+"inicio": "2023-02-08",
+"tier": "A"
+},
+"Intel Extreme Masters/2023/Rio/Europe/Open/1": {
+"fim": "2023-01-28",
+"inicio": "2023-01-27",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Rio/Europe/Open/2": {
+"fim": "2023-01-31",
+"inicio": "2023-01-30",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Rio/North America": {
+"fim": "2023-02-16",
+"inicio": "2023-02-15",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Rio/South America": {
+"fim": "2023-02-16",
+"inicio": "2023-02-15",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Sydney": {
+"fim": "2023-10-22",
+"inicio": "2023-10-16",
+"tier": "S"
+},
+"Intel Extreme Masters/2023/Sydney/Asia": {
+"fim": "2023-08-25",
+"inicio": "2023-08-24",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Sydney/Europe": {
+"fim": "2023-08-25",
+"inicio": "2023-08-23",
+"tier": "A"
+},
+"Intel Extreme Masters/2023/Sydney/Europe/Open/1": {
+"fim": "2023-08-10",
+"inicio": "2023-08-09",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Sydney/Europe/Open/2": {
+"fim": "2023-08-12",
+"inicio": "2023-08-11",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Sydney/North America": {
+"fim": "2023-08-25",
+"inicio": "2023-08-24",
+"tier": "B"
+},
+"Intel Extreme Masters/2023/Sydney/Oceania": {
+"fim": "2023-08-23",
+"inicio": "2023-08-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu": {
+"fim": "2024-04-14",
+"inicio": "2024-04-08",
+"tier": "S"
+},
+"Intel Extreme Masters/2024/Chengdu/Asia": {
+"fim": "2024-01-27",
+"inicio": "2024-01-26",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/China": {
+"fim": "2023-11-04",
+"inicio": "2023-11-03",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/Europe": {
+"fim": "2024-02-10",
+"inicio": "2024-02-08",
+"tier": "A"
+},
+"Intel Extreme Masters/2024/Chengdu/Europe/Open/1": {
+"fim": "2024-01-18",
+"inicio": "2024-01-17",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/Europe/Open/2": {
+"fim": "2024-01-30",
+"inicio": "2024-01-29",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/North America": {
+"fim": "2024-01-20",
+"inicio": "2024-01-19",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/Oceania": {
+"fim": "2024-01-23",
+"inicio": "2024-01-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Chengdu/South America": {
+"fim": "2024-01-18",
+"inicio": "2024-01-17",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Cologne": {
+"fim": "2024-08-18",
+"inicio": "2024-08-07",
+"tier": "S"
+},
+"Intel Extreme Masters/2024/Dallas": {
+"fim": "2024-06-02",
+"inicio": "2024-05-27",
+"tier": "S"
+},
+"Intel Extreme Masters/2024/Dallas/Europe": {
+"fim": "2024-03-13",
+"inicio": "2024-03-11",
+"tier": "A"
+},
+"Intel Extreme Masters/2024/Dallas/Europe/Open/1": {
+"fim": "2024-03-03",
+"inicio": "2024-03-02",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Dallas/Europe/Open/2": {
+"fim": "2024-03-05",
+"inicio": "2024-03-04",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Dallas/North America": {
+"fim": "2024-02-26",
+"inicio": "2024-02-25",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Dallas/Oceania": {
+"fim": "2024-02-23",
+"inicio": "2024-02-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Dallas/South America": {
+"fim": "2024-02-23",
+"inicio": "2024-02-22",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Katowice": {
+"fim": "2024-02-11",
+"inicio": "2024-01-31",
+"tier": "S"
+},
+"Intel Extreme Masters/2024/Rio": {
+"fim": "2024-10-13",
+"inicio": "2024-10-07",
+"tier": "S"
+},
+"Intel Extreme Masters/2024/Rio/Asia": {
+"fim": "2024-08-02",
+"inicio": "2024-08-01",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Rio/Europe": {
+"fim": "2024-08-28",
+"inicio": "2024-08-26",
+"tier": "A"
+},
+"Intel Extreme Masters/2024/Rio/Europe/Open/1": {
+"fim": "2024-08-15",
+"inicio": "2024-08-14",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Rio/Europe/Open/2": {
+"fim": "2024-08-19",
+"inicio": "2024-08-18",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Rio/North America": {
+"fim": "2024-09-01",
+"inicio": "2024-08-31",
+"tier": "B"
+},
+"Intel Extreme Masters/2024/Rio/South America": {
+"fim": "2024-07-29",
+"inicio": "2024-07-28",
+"tier": "B"
+},
+"Intel Extreme Masters/2025/Chengdu": {
+"fim": "2025-11-09",
+"inicio": "2025-11-03",
+"tier": "S"
+},
+"Intel Extreme Masters/2025/Cologne": {
+"fim": "2025-08-03",
+"inicio": "2025-07-23",
+"tier": "S"
+},
+"Intel Extreme Masters/2025/Dallas": {
+"fim": "2025-05-25",
+"inicio": "2025-05-19",
+"tier": "S"
+},
+"Intel Extreme Masters/2025/Dallas/Asia": {
+"fim": "2025-02-12",
+"inicio": "2025-02-11",
+"tier": "B"
+},
+"Intel Extreme Masters/2025/Dallas/Europe": {
+"fim": "2025-02-20",
+"inicio": "2025-02-10",
+"tier": "A"
+},
+"Intel Extreme Masters/2025/Dallas/Europe/Open": {
+"fim": "2025-02-08",
+"inicio": "2025-02-07",
+"tier": "B"
+},
+"Intel Extreme Masters/2025/Dallas/North America": {
+"fim": "2025-02-12",
+"inicio": "2025-02-11",
+"tier": "B"
+},
+"Intel Extreme Masters/2025/Dallas/South America": {
+"fim": "2025-02-12",
+"inicio": "2025-02-11",
+"tier": "B"
+},
+"Intel Extreme Masters/2025/Katowice": {
+"fim": "2025-02-09",
+"inicio": "2025-01-29",
+"tier": "S"
+},
+"Intel Extreme Masters/2025/Melbourne": {
+"fim": "2025-04-27",
+"inicio": "2025-04-21",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Atlanta": {
+"fim": "2026-05-17",
+"inicio": "2026-05-11",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Atlanta/Qualifier/Americas": {
+"fim": "2026-02-12",
+"inicio": "2026-02-10",
+"tier": "B"
+},
+"Intel Extreme Masters/2026/Atlanta/Qualifier/Global": {
+"fim": "2026-02-12",
+"inicio": "2026-02-10",
+"tier": "A"
+},
+"Intel Extreme Masters/2026/Atlanta/Qualifier/Global/Open": {
+"fim": "2026-02-08",
+"inicio": "2026-02-07",
+"tier": "B"
+},
+"Intel Extreme Masters/2026/Beijing": {
+"fim": "2026-11-08",
+"inicio": "2026-11-02",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Beijing/Qualifier/Asia": {
+"fim": "2026-09-04",
+"inicio": "2026-09-02",
+"tier": "B"
+},
+"Intel Extreme Masters/2026/Beijing/Qualifier/Global": {
+"fim": "2026-09-04",
+"inicio": "2026-09-02",
+"tier": "A"
+},
+"Intel Extreme Masters/2026/Beijing/Qualifier/Global/Open": {
+"fim": "2026-08-24",
+"inicio": "2026-08-23",
+"tier": "B"
+},
+"Intel Extreme Masters/2026/Cologne": {
+"fim": "2026-06-21",
+"inicio": "2026-06-02",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Kraków": {
+"fim": "2026-02-08",
+"inicio": "2026-01-28",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Rio": {
+"fim": "2026-04-19",
+"inicio": "2026-04-13",
+"tier": "S"
+},
+"Intel Extreme Masters/2026/Rio/Qualifier/Americas": {
+"fim": "2026-01-23",
+"inicio": "2026-01-21",
+"tier": "B"
+},
+"Intel Extreme Masters/2026/Rio/Qualifier/Global": {
+"fim": "2026-01-23",
+"inicio": "2026-01-21",
+"tier": "A"
+},
+"Intel Extreme Masters/2026/Rio/Qualifier/Global/Open": {
+"fim": "2026-01-17",
+"inicio": "2026-01-16",
+"tier": "B"
+},
+"Intel Extreme Masters/2027/Brazil": {
+"fim": "2027-05-09",
+"inicio": "2027-05-03",
+"tier": "S"
+},
+"Intel Extreme Masters/2027/Cologne": {
+"fim": "2027-08-15",
+"inicio": "2027-08-04",
+"tier": "S"
+},
+"Intel Extreme Masters/2027/Kraków": {
+"fim": "2027-02-07",
+"inicio": "2027-01-27",
+"tier": "S"
+},
+"Intel Extreme Masters/2027/United States": {
+"fim": "2027-04-11",
+"inicio": "2027-04-05",
+"tier": "S"
+},
+"JBL Quantum Cup/2021": {
+"fim": "2021-12-18",
+"inicio": "2021-12-18",
+"tier": "B"
+},
+"Journey/2026/Autumn": {
+"fim": "2026-10-03",
+"inicio": "2026-10-02",
+"tier": "B"
+},
+"Journey/2026/Spring": {
+"fim": "2026-03-28",
+"inicio": "2026-03-23",
+"tier": "B"
+},
+"KaBuM! Legends/2023": {
+"fim": "2023-07-22",
+"inicio": "2023-07-21",
+"tier": "B"
+},
+"Liga Ace Esports/North American Masters/2025/Fall": {
+"fim": "2025-08-03",
+"inicio": "2025-08-01",
+"tier": "B"
+},
+"Liga Ace Esports/North American Masters/2025/Spring": {
+"fim": "2025-02-14",
+"inicio": "2025-02-13",
+"tier": "B"
+},
+"Liga Ace Esports/North American Masters/2026/Spring": {
+"fim": "2026-02-08",
+"inicio": "2026-02-06",
+"tier": "B"
+},
+"Liga Ace Esports/South American Masters/2025/Fall": {
+"fim": "2025-08-03",
+"inicio": "2025-08-01",
+"tier": "B"
+},
+"Liga Ace Esports/South American Masters/2025/Spring": {
+"fim": "2025-02-09",
+"inicio": "2025-02-08",
+"tier": "B"
+},
+"Liga Ace Esports/South American Masters/2026/Spring": {
+"fim": "2026-02-08",
+"inicio": "2026-02-06",
+"tier": "B"
+},
+"Liga de Videojuegos Profesional/Unity Cup/2021": {
+"fim": "2021-03-24",
+"inicio": "2021-03-22",
+"tier": "B"
+},
+"Logitech G Play Connect/2026": {
+"fim": "2026-09-23",
+"inicio": "2026-09-17",
+"tier": "A"
+},
+"Logitech G Play Connect/2026/Qualifier": {
+"fim": "2026-09-05",
+"inicio": "2026-08-27",
+"tier": "B"
+},
+"Logitech G Play Connect/2026/Qualifier/Open": {
+"fim": "2026-08-23",
+"inicio": "2026-08-22",
+"tier": "B"
+},
+"Logitech G Pro Series/2026": {
+"fim": "2026-10-18",
+"inicio": "2026-10-15",
+"tier": "B"
+},
+"MEG/2022": {
+"fim": "2022-10-23",
+"inicio": "2022-09-24",
+"tier": "B"
+},
+"MESA/Asian Masters/2025": {
+"fim": "2025-03-09",
+"inicio": "2025-03-06",
+"tier": "B"
+},
+"MESA/Nomadic Masters/2024/Spring": {
+"fim": "2024-06-02",
+"inicio": "2024-05-28",
+"tier": "A"
+},
+"MESA/Nomadic Masters/2025/Fall": {
+"fim": "2025-10-19",
+"inicio": "2025-10-15",
+"tier": "A"
+},
+"MESA/Nomadic Masters/2025/Spring": {
+"fim": "2025-05-04",
+"inicio": "2025-04-30",
+"tier": "A"
+},
+"MESA/Nomadic Masters/2025/Spring/Europe": {
+"fim": "2025-04-02",
+"inicio": "2025-04-01",
+"tier": "B"
+},
+"Majors/2028/Summer": {
+"fim": "2028-06-18",
+"inicio": "2028-05-29",
+"tier": "S"
+},
+"Majors/2028/Winter": {
+"fim": "2028-12-10",
+"inicio": "2028-11-20",
+"tier": "S"
+},
+"Minor Championship/2020/Rio/Americas": {
+"fim": "2020-05-02",
+"inicio": "2020-04-26",
+"tier": "A"
+},
+"Minor Championship/2020/Rio/Asia": {
+"fim": "2020-05-02",
+"inicio": "2020-04-26",
+"tier": "A"
+},
+"Minor Championship/2020/Rio/CIS": {
+"fim": "2020-05-02",
+"inicio": "2020-04-26",
+"tier": "A"
+},
+"Minor Championship/2020/Rio/Europe": {
+"fim": "2020-05-02",
+"inicio": "2020-04-26",
+"tier": "A"
+},
+"Minor Championship/2020/Rio/Europe/Qualifier": {
+"fim": "2020-03-08",
+"inicio": "2020-03-07",
+"tier": "A"
+},
+"Minor Championship/2020/Rio/Europe/Qualifier/1": {
+"fim": "2020-02-01",
+"inicio": "2020-01-31",
+"tier": "B"
+},
+"Minor Championship/2020/Rio/Europe/Qualifier/2": {
+"fim": "2020-02-05",
+"inicio": "2020-02-04",
+"tier": "B"
+},
+"Minor Championship/2020/Rio/Europe/Qualifier/3": {
+"fim": "2020-02-09",
+"inicio": "2020-02-08",
+"tier": "B"
+},
+"Minor Championship/2020/Rio/Europe/Qualifier/4": {
+"fim": "2020-02-13",
+"inicio": "2020-02-12",
+"tier": "B"
+},
+"Moche XL Esports/2020": {
+"fim": "2020-06-28",
+"inicio": "2020-06-27",
+"tier": "A"
+},
+"Moscow Cyber Games/2026": {
+"fim": "2026-11-01",
+"inicio": "2026-10-31",
+"tier": "B"
+},
+"Na`Vi 2010 vs NAVI 2020 Showmatch": {
+"fim": "2020-08-01",
+"inicio": "2020-08-01",
+"tier": "B"
+},
+"OMEN WGR European Challenge/2021": {
+"fim": "2021-01-31",
+"inicio": "2021-01-30",
+"tier": "B"
+},
+"OMEN WGR European Challenge/2022": {
+"fim": "2022-03-27",
+"inicio": "2022-03-24",
+"tier": "B"
+},
+"OMEN WGR European Challenge/2023": {
+"fim": "2023-02-11",
+"inicio": "2023-01-22",
+"tier": "B"
+},
+"Odyssey Cup Asia/2025": {
+"fim": "2025-12-14",
+"inicio": "2025-12-12",
+"tier": "B"
+},
+"Odyssey Cup/2025/Brazil": {
+"fim": "2025-06-14",
+"inicio": "2025-05-13",
+"tier": "B"
+},
+"Odyssey Cup/2026/Brazil": {
+"fim": "2026-05-30",
+"inicio": "2026-04-24",
+"tier": "B"
+},
+"PGL/2021/Stockholm": {
+"fim": "2021-11-07",
+"inicio": "2021-10-26",
+"tier": "S"
+},
+"PGL/2022/Antwerp": {
+"fim": "2022-05-22",
+"inicio": "2022-05-09",
+"tier": "S"
+},
+"PGL/2022/Antwerp/Americas": {
+"fim": "2022-04-15",
+"inicio": "2022-04-11",
+"tier": "A"
+},
+"PGL/2022/Antwerp/Asia-Pacific": {
+"fim": "2022-04-16",
+"inicio": "2022-04-15",
+"tier": "B"
+},
+"PGL/2022/Antwerp/Europe A": {
+"fim": "2022-04-20",
+"inicio": "2022-04-17",
+"tier": "A"
+},
+"PGL/2022/Antwerp/Europe B": {
+"fim": "2022-04-24",
+"inicio": "2022-04-21",
+"tier": "A"
+},
+"PGL/2022/Antwerp/Europe/Qualifier/1": {
+"fim": "2022-02-23",
+"inicio": "2022-02-22",
+"tier": "B"
+},
+"PGL/2022/Antwerp/Europe/Qualifier/2": {
+"fim": "2022-03-02",
+"inicio": "2022-03-01",
+"tier": "B"
+},
+"PGL/2022/Antwerp/Europe/Qualifier/3": {
+"fim": "2022-03-04",
+"inicio": "2022-03-03",
+"tier": "B"
+},
+"PGL/2022/Antwerp/Europe/Qualifier/4": {
+"fim": "2022-03-06",
+"inicio": "2022-03-05",
+"tier": "B"
+},
+"PGL/2022/Antwerp/Europe/Qualifier/Far East Russia": {
+"fim": "2022-03-06",
+"inicio": "2022-03-05",
+"tier": "B"
+},
+"PGL/2024/Copenhagen": {
+"fim": "2024-03-31",
+"inicio": "2024-03-17",
+"tier": "S"
+},
+"PGL/2024/Copenhagen/Americas": {
+"fim": "2024-03-04",
+"inicio": "2024-03-01",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Americas/North America": {
+"fim": "2024-01-14",
+"inicio": "2024-01-12",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Americas/South America": {
+"fim": "2024-01-21",
+"inicio": "2024-01-19",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Asia-Pacific": {
+"fim": "2024-02-28",
+"inicio": "2024-02-26",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Asia-Pacific/China": {
+"fim": "2024-01-21",
+"inicio": "2024-01-19",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Asia-Pacific/East Asia": {
+"fim": "2024-01-21",
+"inicio": "2024-01-19",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Asia-Pacific/Oceania": {
+"fim": "2024-01-21",
+"inicio": "2024-01-19",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Europe A": {
+"fim": "2024-02-17",
+"inicio": "2024-02-14",
+"tier": "A"
+},
+"PGL/2024/Copenhagen/Europe B": {
+"fim": "2024-02-22",
+"inicio": "2024-02-19",
+"tier": "A"
+},
+"PGL/2024/Copenhagen/Europe/Decider": {
+"fim": "2024-02-24",
+"inicio": "2024-02-23",
+"tier": "A"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier A": {
+"fim": "2024-01-20",
+"inicio": "2024-01-18",
+"tier": "A"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier B": {
+"fim": "2024-01-20",
+"inicio": "2024-01-18",
+"tier": "A"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier/Decider": {
+"fim": "2024-01-21",
+"inicio": "2024-01-21",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier/Open/1": {
+"fim": "2024-01-09",
+"inicio": "2024-01-08",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier/Open/2": {
+"fim": "2024-01-11",
+"inicio": "2024-01-10",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier/Open/3": {
+"fim": "2024-01-13",
+"inicio": "2024-01-12",
+"tier": "B"
+},
+"PGL/2024/Copenhagen/Europe/Qualifier/Open/4": {
+"fim": "2024-01-16",
+"inicio": "2024-01-14",
+"tier": "B"
+},
+"PGL/2025/Astana": {
+"fim": "2025-05-18",
+"inicio": "2025-05-10",
+"tier": "S"
+},
+"PGL/2025/Astana/Asia": {
+"fim": "2025-04-01",
+"inicio": "2025-03-31",
+"tier": "B"
+},
+"PGL/2025/Astana/Europe": {
+"fim": "2025-04-01",
+"inicio": "2025-03-27",
+"tier": "B"
+},
+"PGL/2025/Astana/Europe/Open/1": {
+"fim": "2025-03-15",
+"inicio": "2025-03-14",
+"tier": "B"
+},
+"PGL/2025/Astana/Europe/Open/2": {
+"fim": "2025-03-17",
+"inicio": "2025-03-16",
+"tier": "B"
+},
+"PGL/2025/Astana/Europe/Open/3": {
+"fim": "2025-03-22",
+"inicio": "2025-03-21",
+"tier": "B"
+},
+"PGL/2025/Astana/Europe/Open/4": {
+"fim": "2025-03-24",
+"inicio": "2025-03-23",
+"tier": "B"
+},
+"PGL/2025/Astana/North America": {
+"fim": "2025-04-01",
+"inicio": "2025-03-27",
+"tier": "B"
+},
+"PGL/2025/Astana/South America": {
+"fim": "2025-04-01",
+"inicio": "2025-03-27",
+"tier": "B"
+},
+"PGL/2025/Belgrade/Asia": {
+"fim": "2025-04-12",
+"inicio": "2025-04-12",
+"tier": "B"
+},
+"PGL/2025/Belgrade/Europe": {
+"fim": "2025-04-12",
+"inicio": "2025-04-12",
+"tier": "B"
+},
+"PGL/2025/Belgrade/North America": {
+"fim": "2025-04-12",
+"inicio": "2025-04-12",
+"tier": "B"
+},
+"PGL/2025/Belgrade/South America": {
+"fim": "2025-04-12",
+"inicio": "2025-04-12",
+"tier": "B"
+},
+"PGL/2025/Bucharest": {
+"fim": "2025-04-13",
+"inicio": "2025-04-06",
+"tier": "S"
+},
+"PGL/2025/Bucharest/Europe": {
+"fim": "2025-03-12",
+"inicio": "2025-03-07",
+"tier": "B"
+},
+"PGL/2025/Bucharest/Europe/Open/1": {
+"fim": "2025-02-15",
+"inicio": "2025-02-14",
+"tier": "B"
+},
+"PGL/2025/Bucharest/Europe/Open/2": {
+"fim": "2025-02-17",
+"inicio": "2025-02-16",
+"tier": "B"
+},
+"PGL/2025/Bucharest/Europe/Open/3": {
+"fim": "2025-02-21",
+"inicio": "2025-02-20",
+"tier": "B"
+},
+"PGL/2025/Bucharest/Europe/Open/4": {
+"fim": "2025-02-23",
+"inicio": "2025-02-22",
+"tier": "B"
+},
+"PGL/2025/Bucharest/North America": {
+"fim": "2025-03-10",
+"inicio": "2025-03-05",
+"tier": "B"
+},
+"PGL/2025/Bucharest/South America": {
+"fim": "2025-03-12",
+"inicio": "2025-03-07",
+"tier": "B"
+},
+"PGL/2025/Cluj-Napoca": {
+"fim": "2025-02-23",
+"inicio": "2025-02-14",
+"tier": "S"
+},
+"PGL/2025/Masters": {
+"fim": "2025-11-01",
+"inicio": "2025-10-26",
+"tier": "A"
+},
+"PGL/2026/Astana": {
+"fim": "2026-05-17",
+"inicio": "2026-05-09",
+"tier": "S"
+},
+"PGL/2026/Astana/Asia": {
+"fim": "2026-04-02",
+"inicio": "2026-04-02",
+"tier": "B"
+},
+"PGL/2026/Astana/Europe": {
+"fim": "2026-04-03",
+"inicio": "2026-03-31",
+"tier": "B"
+},
+"PGL/2026/Astana/Europe/Open/1": {
+"fim": "2026-03-23",
+"inicio": "2026-03-22",
+"tier": "B"
+},
+"PGL/2026/Astana/Europe/Open/2": {
+"fim": "2026-03-25",
+"inicio": "2026-03-24",
+"tier": "B"
+},
+"PGL/2026/Astana/North America": {
+"fim": "2026-04-03",
+"inicio": "2026-03-31",
+"tier": "B"
+},
+"PGL/2026/Astana/South America": {
+"fim": "2026-04-03",
+"inicio": "2026-03-31",
+"tier": "B"
+},
+"PGL/2026/Bucharest": {
+"fim": "2026-04-11",
+"inicio": "2026-04-04",
+"tier": "A"
+},
+"PGL/2026/Bucharest/Asia": {
+"fim": "2026-03-01",
+"inicio": "2026-02-28",
+"tier": "B"
+},
+"PGL/2026/Bucharest/Europe": {
+"fim": "2026-03-01",
+"inicio": "2026-02-26",
+"tier": "B"
+},
+"PGL/2026/Bucharest/Europe/Open/1": {
+"fim": "2026-02-15",
+"inicio": "2026-02-14",
+"tier": "B"
+},
+"PGL/2026/Bucharest/Europe/Open/2": {
+"fim": "2026-02-17",
+"inicio": "2026-02-16",
+"tier": "B"
+},
+"PGL/2026/Bucharest/North America": {
+"fim": "2026-03-01",
+"inicio": "2026-02-26",
+"tier": "B"
+},
+"PGL/2026/Bucharest/South America": {
+"fim": "2026-03-01",
+"inicio": "2026-02-26",
+"tier": "B"
+},
+"PGL/2026/Cluj-Napoca": {
+"fim": "2026-02-22",
+"inicio": "2026-02-14",
+"tier": "S"
+},
+"PGL/2026/Fall": {
+"fim": "2026-10-11",
+"inicio": "2026-10-01",
+"tier": "S"
+},
+"PGL/2026/Fall/Asia": {
+"fim": "2025-11-19",
+"inicio": "2025-11-19",
+"tier": "B"
+},
+"PGL/2026/Fall/Europe": {
+"fim": "2025-11-19",
+"inicio": "2025-11-19",
+"tier": "B"
+},
+"PGL/2026/Fall/North America": {
+"fim": "2025-11-19",
+"inicio": "2025-11-19",
+"tier": "B"
+},
+"PGL/2026/Fall/South America": {
+"fim": "2025-11-19",
+"inicio": "2025-11-19",
+"tier": "B"
+},
+"PGL/2026/Masters": {
+"fim": "2026-10-31",
+"inicio": "2026-10-24",
+"tier": "S"
+},
+"PGL/2026/Masters/Asia": {
+"fim": "2026-09-13",
+"inicio": "2026-09-13",
+"tier": "B"
+},
+"PGL/2026/Masters/Europe": {
+"fim": "2026-09-12",
+"inicio": "2026-09-09",
+"tier": "B"
+},
+"PGL/2026/Masters/Europe/Open/1": {
+"fim": "2026-09-04",
+"inicio": "2026-09-03",
+"tier": "B"
+},
+"PGL/2026/Masters/Europe/Open/2": {
+"fim": "2026-09-06",
+"inicio": "2026-09-05",
+"tier": "B"
+},
+"PGL/2026/Masters/North America": {
+"fim": "2026-09-12",
+"inicio": "2026-09-09",
+"tier": "B"
+},
+"PGL/2026/Masters/South America": {
+"fim": "2026-09-12",
+"inicio": "2026-09-09",
+"tier": "B"
+},
+"PGL/2026/Singapore": {
+"fim": "2026-12-13",
+"inicio": "2026-11-24",
+"tier": "S"
+},
+"PGL/2026/Summer": {
+"fim": "2026-08-16",
+"inicio": "2026-08-06",
+"tier": "S"
+},
+"PGL/2026/Summer/Asia": {
+"fim": "2025-10-11",
+"inicio": "2025-10-11",
+"tier": "B"
+},
+"PGL/2026/Summer/Europe": {
+"fim": "2025-10-11",
+"inicio": "2025-10-11",
+"tier": "B"
+},
+"PGL/2026/Summer/North America": {
+"fim": "2025-10-11",
+"inicio": "2025-10-11",
+"tier": "B"
+},
+"PGL/2026/Summer/South America": {
+"fim": "2025-10-11",
+"inicio": "2025-10-11",
+"tier": "B"
+},
+"PGL/2027/Bucharest": {
+"fim": "2027-01-24",
+"inicio": "2027-01-17",
+"tier": "S"
+},
+"PGL/2027/Bucharest/Qualifier": {
+"fim": "2026-10-20",
+"inicio": "2026-10-16",
+"tier": "B"
+},
+"PGL/2027/Bucharest/Qualifier/Open/1": {
+"fim": "2026-10-12",
+"inicio": "2026-10-11",
+"tier": "B"
+},
+"PGL/2027/Bucharest/Qualifier/Open/2": {
+"fim": "2026-10-14",
+"inicio": "2026-10-13",
+"tier": "B"
+},
+"PGL/2027/China": {
+"fim": "2027-04-25",
+"inicio": "2027-04-16",
+"tier": "S"
+},
+"PGL/2027/China/Asia": {
+"fim": null,
+"inicio": null,
+"tier": "B"
+},
+"PGL/2027/China/Europe": {
+"fim": "2027-02-04",
+"inicio": "2027-02-01",
+"tier": "B"
+},
+"PGL/2027/China/Europe/Open/1": {
+"fim": "2027-01-28",
+"inicio": "2027-01-27",
+"tier": "B"
+},
+"PGL/2027/China/Europe/Open/2": {
+"fim": "2027-01-30",
+"inicio": "2027-01-29",
+"tier": "B"
+},
+"PGL/2027/Cluj-Napoca": {
+"fim": "2027-02-21",
+"inicio": "2027-02-11",
+"tier": "S"
+},
+"PGL/2027/Cluj-Napoca/Qualifier": {
+"fim": "2026-11-18",
+"inicio": "2026-11-15",
+"tier": "B"
+},
+"PGL/2027/Cluj-Napoca/Qualifier/Open/1": {
+"fim": "2026-11-11",
+"inicio": "2026-11-10",
+"tier": "B"
+},
+"PGL/2027/Cluj-Napoca/Qualifier/Open/2": {
+"fim": "2026-11-13",
+"inicio": "2026-11-12",
+"tier": "B"
+},
+"PGL/2027/October": {
+"fim": "2027-10-17",
+"inicio": "2027-10-08",
+"tier": "S"
+},
+"PGL/2027/September": {
+"fim": "2027-09-12",
+"inicio": "2027-09-03",
+"tier": "S"
+},
+"PGL/2027/Łódź": {
+"fim": "2027-03-28",
+"inicio": "2027-03-18",
+"tier": "S"
+},
+"PGL/2027/Łódź/Qualifier": {
+"fim": "2027-01-12",
+"inicio": "2027-01-09",
+"tier": "B"
+},
+"PGL/2027/Łódź/Qualifier/Open/1": {
+"fim": "2027-01-05",
+"inicio": "2027-01-04",
+"tier": "B"
+},
+"PGL/2027/Łódź/Qualifier/Open/2": {
+"fim": "2027-01-07",
+"inicio": "2027-01-06",
+"tier": "B"
+},
+"PGL/2028/February": {
+"fim": "2028-02-21",
+"inicio": "2028-02-09",
+"tier": "S"
+},
+"PGL/2028/January": {
+"fim": "2028-01-24",
+"inicio": "2028-01-14",
+"tier": "S"
+},
+"PGL/2028/March": {
+"fim": "2028-04-03",
+"inicio": "2028-03-23",
+"tier": "S"
+},
+"PLAYzone/Conquest of Prague/2025": {
+"fim": "2025-06-01",
+"inicio": "2025-05-30",
+"tier": "B"
+},
+"PLAYzone/Conquest of Prague/2026": {
+"fim": "2026-05-24",
+"inicio": "2026-05-22",
+"tier": "B"
+},
+"PLAYzone/Mistrovství ČR/2021": {
+"fim": "2021-11-28",
+"inicio": "2021-11-24",
+"tier": "B"
+},
+"PLAYzone/MČR/2022": {
+"fim": "2022-11-06",
+"inicio": "2022-11-02",
+"tier": "B"
+},
+"PLAYzone/MČR/2023": {
+"fim": "2023-11-25",
+"inicio": "2023-11-09",
+"tier": "B"
+},
+"PLAYzone/MČR/2024": {
+"fim": "2024-11-24",
+"inicio": "2024-11-22",
+"tier": "B"
+},
+"PLAYzone/MČR/2025": {
+"fim": "2025-11-29",
+"inicio": "2025-11-28",
+"tier": "B"
+},
+"PLAYzone/RUSH Brno/2026": {
+"fim": "2026-11-22",
+"inicio": "2026-11-17",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2022/Fall": {
+"fim": "2022-09-25",
+"inicio": "2022-09-23",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2022/Spring": {
+"fim": "2022-03-20",
+"inicio": "2022-03-18",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2023/Fall": {
+"fim": "2023-09-17",
+"inicio": "2023-09-15",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2023/Spring": {
+"fim": "2023-03-19",
+"inicio": "2023-03-17",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2024/Fall": {
+"fim": "2024-08-07",
+"inicio": "2024-08-05",
+"tier": "B"
+},
+"Pelaajat.com/Nordic Masters/2024/Spring": {
+"fim": "2024-02-11",
+"inicio": "2024-02-09",
+"tier": "B"
+},
+"Pelaajat.com/Series/2021/Fall": {
+"fim": "2021-08-29",
+"inicio": "2021-08-27",
+"tier": "B"
+},
+"Pelaajat.com/Series/2021/Fall/Showoff": {
+"fim": "2021-08-22",
+"inicio": "2021-08-22",
+"tier": "B"
+},
+"Pelaajat.com/Series/2021/Spring/Showoff": {
+"fim": "2021-03-12",
+"inicio": "2021-03-12",
+"tier": "B"
+},
+"Perfect World/Asia League/2020/Fall": {
+"fim": "2020-10-11",
+"inicio": "2020-09-16",
+"tier": "B"
+},
+"Perfect World/Asia League/2020/Summer": {
+"fim": "2020-07-19",
+"inicio": "2020-06-24",
+"tier": "B"
+},
+"Perfect World/Major/2024/Shanghai": {
+"fim": "2024-12-15",
+"inicio": "2024-11-30",
+"tier": "S"
+},
+"Perfect World/Major/2024/Shanghai/Americas": {
+"fim": "2024-11-15",
+"inicio": "2024-11-12",
+"tier": "A"
+},
+"Perfect World/Major/2024/Shanghai/Americas/North America": {
+"fim": "2024-08-28",
+"inicio": "2024-08-26",
+"tier": "B"
+},
+"Perfect World/Major/2024/Shanghai/Americas/South America": {
+"fim": "2024-08-28",
+"inicio": "2024-08-26",
+"tier": "B"
+},
+"Perfect World/Major/2024/Shanghai/Asia-Pacific": {
+"fim": "2024-11-13",
+"inicio": "2024-11-11",
+"tier": "B"
+},
+"Perfect World/Major/2024/Shanghai/Europe A": {
+"fim": "2024-11-20",
+"inicio": "2024-11-17",
+"tier": "A"
+},
+"Perfect World/Major/2024/Shanghai/Europe B": {
+"fim": "2024-11-24",
+"inicio": "2024-11-21",
+"tier": "A"
+},
+"Perfect World/Major/2024/Shanghai/Europe/Qualifier A": {
+"fim": "2024-08-23",
+"inicio": "2024-08-21",
+"tier": "A"
+},
+"Perfect World/Major/2024/Shanghai/Europe/Qualifier B": {
+"fim": "2024-08-23",
+"inicio": "2024-08-21",
+"tier": "A"
+},
+"Perfect World/Major/2027/Shanghai": {
+"fim": "2027-12-12",
+"inicio": "2027-11-22",
+"tier": "S"
+},
+"Perfect World/Oceania League/2020/Fall": {
+"fim": "2020-09-06",
+"inicio": "2020-09-02",
+"tier": "B"
+},
+"Polska Liga Esportowa/2021/Autumn/Mistrzowska": {
+"fim": "2021-12-04",
+"inicio": "2021-12-02",
+"tier": "B"
+},
+"Polska Liga Esportowa/2022/Mistrzowska": {
+"fim": "2022-12-03",
+"inicio": "2022-11-17",
+"tier": "B"
+},
+"Polska Liga Esportowa/2022/Superpuchar": {
+"fim": "2022-07-09",
+"inicio": "2022-07-08",
+"tier": "B"
+},
+"Polska Liga Esportowa/2023": {
+"fim": "2023-12-02",
+"inicio": "2023-11-14",
+"tier": "B"
+},
+"Polska Liga Esportowa/2023/Superpuchar": {
+"fim": "2023-08-27",
+"inicio": "2023-08-26",
+"tier": "B"
+},
+"RLG/RES/Eastern European Masters/2024/Spring": {
+"fim": "2024-02-18",
+"inicio": "2024-02-16",
+"tier": "B"
+},
+"RLG/RES/European Masters/2024/Fall": {
+"fim": "2024-06-09",
+"inicio": "2024-05-31",
+"tier": "B"
+},
+"RLG/RES/Showdown/2025/Fall": {
+"fim": "2025-08-03",
+"inicio": "2025-08-01",
+"tier": "B"
+},
+"RLG/RES/Showdown/2025/Fall/Qualifier": {
+"fim": "2025-07-31",
+"inicio": "2025-07-29",
+"tier": "B"
+},
+"RLG/RES/Showdown/2025/Spring": {
+"fim": "2025-02-09",
+"inicio": "2025-02-08",
+"tier": "B"
+},
+"RLG/RES/Showdown/2025/Spring/Qualifier": {
+"fim": "2025-02-07",
+"inicio": "2025-02-05",
+"tier": "B"
+},
+"RLG/RES/Showdown/2026/Fall/Europe": {
+"fim": "2026-07-11",
+"inicio": "2026-07-09",
+"tier": "B"
+},
+"RLG/RES/Showdown/2026/Fall/South America": {
+"fim": "2026-07-11",
+"inicio": "2026-07-09",
+"tier": "B"
+},
+"RLG/RES/Showdown/2026/Spring": {
+"fim": "2026-02-08",
+"inicio": "2026-02-06",
+"tier": "B"
+},
+"RLG/RES/Western European Masters/2024/Spring": {
+"fim": "2024-02-11",
+"inicio": "2024-02-09",
+"tier": "B"
+},
+"RTP Arena Cup/2021": {
+"fim": "2021-07-11",
+"inicio": "2021-07-09",
+"tier": "B"
+},
+"RTP Arena Cup/2022": {
+"fim": "2022-03-20",
+"inicio": "2022-03-18",
+"tier": "B"
+},
+"RTP Arena Cup/2023": {
+"fim": "2023-09-10",
+"inicio": "2023-09-07",
+"tier": "B"
+},
+"RTP Arena Cup/2024": {
+"fim": "2024-02-04",
+"inicio": "2024-02-01",
+"tier": "B"
+},
+"Red Bull Flick/2020": {
+"fim": "2020-08-09",
+"inicio": "2020-08-09",
+"tier": "B"
+},
+"Red Bull Flick/2021/Helsinki": {
+"fim": "2021-11-21",
+"inicio": "2021-11-20",
+"tier": "B"
+},
+"Red Bull Flick/2022/Copenhagen": {
+"fim": "2022-11-20",
+"inicio": "2022-11-20",
+"tier": "B"
+},
+"Regional Major Rankings/2020/Rio/Asia": {
+"fim": "2020-10-11",
+"inicio": "2020-05-06",
+"tier": "B"
+},
+"Regional Major Rankings/2020/Rio/CIS": {
+"fim": "2020-10-25",
+"inicio": "2020-04-30",
+"tier": "A"
+},
+"Regional Major Rankings/2020/Rio/Europe": {
+"fim": "2020-10-25",
+"inicio": "2020-04-22",
+"tier": "S"
+},
+"Regional Major Rankings/2020/Rio/North America": {
+"fim": "2020-10-18",
+"inicio": "2020-04-22",
+"tier": "A"
+},
+"Regional Major Rankings/2020/Rio/Oceania": {
+"fim": "2020-09-06",
+"inicio": "2020-05-06",
+"tier": "B"
+},
+"Regional Major Rankings/2020/Rio/South America": {
+"fim": "2020-10-12",
+"inicio": "2020-04-22",
+"tier": "B"
+},
+"Regional Major Rankings/2021/Asia": {
+"fim": "2021-10-10",
+"inicio": "2021-01-01",
+"tier": "B"
+},
+"Regional Major Rankings/2021/CIS": {
+"fim": "2021-10-03",
+"inicio": "2021-01-01",
+"tier": "A"
+},
+"Regional Major Rankings/2021/Europe": {
+"fim": "2021-10-10",
+"inicio": "2021-01-01",
+"tier": "S"
+},
+"Regional Major Rankings/2021/North America": {
+"fim": "2021-10-10",
+"inicio": "2021-01-01",
+"tier": "A"
+},
+"Regional Major Rankings/2021/Oceania": {
+"fim": "2021-10-03",
+"inicio": "2021-01-01",
+"tier": "B"
+},
+"Regional Major Rankings/2021/South America": {
+"fim": "2021-10-03",
+"inicio": "2021-01-01",
+"tier": "B"
+},
+"Relog Media/RES/Eastern European Masters/2023/Fall": {
+"fim": "2023-09-17",
+"inicio": "2023-09-15",
+"tier": "B"
+},
+"Relog Media/RES/Eastern European Masters/2023/Spring": {
+"fim": "2023-03-12",
+"inicio": "2023-03-10",
+"tier": "B"
+},
+"Relog Media/RES/Western European Masters/2023/Fall": {
+"fim": "2023-09-10",
+"inicio": "2023-09-08",
+"tier": "B"
+},
+"Relog Media/RES/Western European Masters/2023/Spring": {
+"fim": "2023-03-05",
+"inicio": "2023-03-03",
+"tier": "B"
+},
+"Roobet Cup/2022": {
+"fim": "2022-06-30",
+"inicio": "2022-06-22",
+"tier": "S"
+},
+"Roobet Cup/2023": {
+"fim": "2023-11-02",
+"inicio": "2023-10-25",
+"tier": "S"
+},
+"Roobet Cup/2025": {
+"fim": "2025-10-22",
+"inicio": "2025-10-13",
+"tier": "A"
+},
+"Russian Cybersport League/2023": {
+"fim": "2023-08-13",
+"inicio": "2023-08-12",
+"tier": "B"
+},
+"Sazka eLEAGUE/2020/Fall": {
+"fim": "2020-10-18",
+"inicio": "2020-10-15",
+"tier": "B"
+},
+"Sazka eLEAGUE/2021/Fall": {
+"fim": "2021-10-23",
+"inicio": "2021-10-22",
+"tier": "B"
+},
+"Sazka eLEAGUE/2022/Fall": {
+"fim": "2022-10-08",
+"inicio": "2022-10-07",
+"tier": "B"
+},
+"Skin.Club/Christmas Cup/2024": {
+"fim": "2024-12-22",
+"inicio": "2024-12-18",
+"tier": "B"
+},
+"Skin.Club/Summer Cup/2024": {
+"fim": "2024-07-13",
+"inicio": "2024-07-08",
+"tier": "B"
+},
+"Skyesports/Championship/2023": {
+"fim": "2023-12-03",
+"inicio": "2023-12-01",
+"tier": "B"
+},
+"Skyesports/Championship/2023/Europe": {
+"fim": "2023-10-26",
+"inicio": "2023-10-23",
+"tier": "B"
+},
+"Skyesports/Championship/2024": {
+"fim": "2024-07-28",
+"inicio": "2024-07-23",
+"tier": "A"
+},
+"Skyesports/Championship/2024/Europe": {
+"fim": "2024-06-15",
+"inicio": "2024-06-12",
+"tier": "B"
+},
+"Skyesports/Championship/2025": {
+"fim": "2025-09-21",
+"inicio": "2025-09-15",
+"tier": "S"
+},
+"Skyesports/Grand Slam/2024": {
+"fim": "2024-03-16",
+"inicio": "2024-03-14",
+"tier": "B"
+},
+"Skyesports/Masters/2023": {
+"fim": "2023-08-27",
+"inicio": "2023-08-26",
+"tier": "B"
+},
+"Skyesports/Masters/2024": {
+"fim": "2024-04-14",
+"inicio": "2024-04-08",
+"tier": "A"
+},
+"Skyesports/Masters/2024/Europe": {
+"fim": "2024-03-24",
+"inicio": "2024-03-19",
+"tier": "B"
+},
+"Skyesports/Masters/2025": {
+"fim": "2025-06-01",
+"inicio": "2025-05-26",
+"tier": "B"
+},
+"Skyesports/Masters/2025/Qualifier": {
+"fim": "2025-10-07",
+"inicio": "2025-10-07",
+"tier": "B"
+},
+"Skyesports/Souvenir/2024": {
+"fim": null,
+"inicio": null,
+"tier": "A"
+},
+"Skyesports/Souvenir/2025": {
+"fim": "2025-03-01",
+"inicio": "2025-02-27",
+"tier": "A"
+},
+"Skyesports/Souvenir/2025/Qualifier": {
+"fim": "2025-01-26",
+"inicio": "2025-01-20",
+"tier": "B"
+},
+"Skyesports/World Tour/2025": {
+"fim": "2025-11-16",
+"inicio": "2025-11-10",
+"tier": "S"
+},
+"StarLadder/2025/Major": {
+"fim": "2025-12-14",
+"inicio": "2025-11-24",
+"tier": "S"
+},
+"StarLadder/RMR/2021": {
+"fim": "2021-07-04",
+"inicio": "2021-06-27",
+"tier": "A"
+},
+"StarLadder/StarSeries/2025/Fall": {
+"fim": "2025-09-21",
+"inicio": "2025-09-18",
+"tier": "A"
+},
+"StarLadder/StarSeries/2025/Fall/Europe": {
+"fim": "2025-08-17",
+"inicio": "2025-08-13",
+"tier": "B"
+},
+"StarLadder/StarSeries/2025/Fall/North America": {
+"fim": "2025-07-21",
+"inicio": "2025-07-15",
+"tier": "B"
+},
+"StarLadder/StarSeries/2026/Fall": {
+"fim": "2026-09-20",
+"inicio": "2026-09-17",
+"tier": "S"
+},
+"StarLadder/StarSeries/2026/Fall/Europe": {
+"fim": "2026-07-26",
+"inicio": "2026-07-21",
+"tier": "B"
+},
+"StarLadder/StarSeries/2027/Fall": {
+"fim": "2027-10-24",
+"inicio": "2027-10-21",
+"tier": "S"
+},
+"Super League/Arena/2021/Fall": {
+"fim": "2021-10-28",
+"inicio": "2021-10-17",
+"tier": "B"
+},
+"Super League/Arena/2022/Winter": {
+"fim": "2022-01-20",
+"inicio": "2022-01-10",
+"tier": "B"
+},
+"Svenska Cupen/2022": {
+"fim": "2022-10-16",
+"inicio": "2022-10-14",
+"tier": "B"
+},
+"Svenska Cupen/2023": {
+"fim": "2023-12-03",
+"inicio": "2023-12-01",
+"tier": "B"
+},
+"Svenska Cupen/2024": {
+"fim": "2024-11-09",
+"inicio": "2024-11-07",
+"tier": "B"
+},
+"Svenska Cupen/2025": {
+"fim": "2025-11-15",
+"inicio": "2025-11-12",
+"tier": "B"
+},
+"Svenska Cupen/2026": {
+"fim": "2026-12-19",
+"inicio": "2026-12-16",
+"tier": "B"
+},
+"Svenska Elitserien/2020/Fall": {
+"fim": "2020-12-05",
+"inicio": "2020-09-01",
+"tier": "B"
+},
+"Svenska Elitserien/2020/Spring": {
+"fim": "2020-05-31",
+"inicio": "2020-02-25",
+"tier": "B"
+},
+"Svenska Elitserien/2021/Fall": {
+"fim": "2021-12-12",
+"inicio": "2021-12-11",
+"tier": "B"
+},
+"Svenska Elitserien/2021/Spring": {
+"fim": "2021-05-29",
+"inicio": "2021-02-23",
+"tier": "B"
+},
+"Svenska Elitserien/2022/Fall": {
+"fim": "2022-11-26",
+"inicio": "2022-11-25",
+"tier": "B"
+},
+"Svenska Elitserien/2022/Spring": {
+"fim": "2022-06-11",
+"inicio": "2022-06-10",
+"tier": "B"
+},
+"Svenska Elitserien/2023/Spring": {
+"fim": "2023-06-18",
+"inicio": "2023-06-16",
+"tier": "B"
+},
+"Svenska Elitserien/2026/Fall": {
+"fim": "2026-12-05",
+"inicio": "2026-12-04",
+"tier": "B"
+},
+"TDJ/Supercopa de America/2022": {
+"fim": "2022-09-30",
+"inicio": "2022-09-19",
+"tier": "B"
+},
+"TDJ/Supercopa de America/2023": {
+"fim": "2023-09-24",
+"inicio": "2023-09-13",
+"tier": "B"
+},
+"Telialigaen/2020/Fall": {
+"fim": "2020-12-05",
+"inicio": "2020-12-05",
+"tier": "B"
+},
+"Telialigaen/2020/Spring": {
+"fim": "2020-05-09",
+"inicio": "2020-01-27",
+"tier": "B"
+},
+"Telialigaen/2021/Fall": {
+"fim": "2021-11-20",
+"inicio": "2021-11-20",
+"tier": "B"
+},
+"Telialigaen/2021/Spring": {
+"fim": "2021-04-24",
+"inicio": "2021-01-25",
+"tier": "B"
+},
+"Telialigaen/2022/Fall": {
+"fim": "2022-11-12",
+"inicio": "2022-11-11",
+"tier": "B"
+},
+"Telialigaen/2022/Spring": {
+"fim": "2022-05-29",
+"inicio": "2022-05-29",
+"tier": "B"
+},
+"Telialigaen/2023/Spring": {
+"fim": "2023-05-14",
+"inicio": "2023-05-13",
+"tier": "B"
+},
+"Tesla Cup/2026": {
+"fim": "2026-10-29",
+"inicio": "2026-10-27",
+"tier": "B"
+},
+"The War Room/Eastern European Masters/2021/Fall": {
+"fim": "2021-09-12",
+"inicio": "2021-09-10",
+"tier": "B"
+},
+"The War Room/Eastern European Masters/2022/Fall": {
+"fim": "2022-09-25",
+"inicio": "2022-09-23",
+"tier": "B"
+},
+"The War Room/Eastern European Masters/2022/Spring": {
+"fim": "2022-03-20",
+"inicio": "2022-03-18",
+"tier": "B"
+},
+"Thunderpick/World Championship/2023": {
+"fim": "2023-11-05",
+"inicio": "2023-10-27",
+"tier": "S"
+},
+"Thunderpick/World Championship/2023/Europe/1": {
+"fim": "2023-08-13",
+"inicio": "2023-07-27",
+"tier": "B"
+},
+"Thunderpick/World Championship/2023/Europe/2": {
+"fim": "2023-09-18",
+"inicio": "2023-09-04",
+"tier": "B"
+},
+"Thunderpick/World Championship/2023/North America/1": {
+"fim": "2023-07-18",
+"inicio": "2023-07-10",
+"tier": "B"
+},
+"Thunderpick/World Championship/2023/North America/2": {
+"fim": "2023-08-29",
+"inicio": "2023-08-21",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024": {
+"fim": "2024-11-03",
+"inicio": "2024-10-21",
+"tier": "A"
+},
+"Thunderpick/World Championship/2024/Europe/1": {
+"fim": "2024-04-22",
+"inicio": "2024-04-01",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024/Europe/2": {
+"fim": "2024-09-07",
+"inicio": "2024-08-26",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024/North America/1": {
+"fim": "2024-05-24",
+"inicio": "2024-05-19",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024/North America/2": {
+"fim": "2024-06-09",
+"inicio": "2024-06-04",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024/South America/1": {
+"fim": "2024-05-16",
+"inicio": "2024-05-11",
+"tier": "B"
+},
+"Thunderpick/World Championship/2024/South America/2": {
+"fim": "2024-07-22",
+"inicio": "2024-07-17",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025": {
+"fim": "2025-10-19",
+"inicio": "2025-10-15",
+"tier": "A"
+},
+"Thunderpick/World Championship/2025/Europe/1": {
+"fim": "2025-05-07",
+"inicio": "2025-04-28",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025/Europe/2": {
+"fim": "2025-08-14",
+"inicio": "2025-08-05",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025/North America/1": {
+"fim": "2025-05-16",
+"inicio": "2025-05-08",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025/North America/2": {
+"fim": "2025-08-01",
+"inicio": "2025-07-24",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025/Qualifier": {
+"fim": "2025-09-11",
+"inicio": "2025-09-09",
+"tier": "A"
+},
+"Thunderpick/World Championship/2025/South America/1": {
+"fim": "2025-07-02",
+"inicio": "2025-06-27",
+"tier": "B"
+},
+"Thunderpick/World Championship/2025/South America/2": {
+"fim": "2025-07-13",
+"inicio": "2025-07-08",
+"tier": "B"
+},
+"Thunderpick/World Championship/2026": {
+"fim": "2026-10-18",
+"inicio": "2026-10-14",
+"tier": "S"
+},
+"Thunderpick/World Championship/2026/Europe/1": {
+"fim": "2026-05-31",
+"inicio": "2026-05-23",
+"tier": "B"
+},
+"Thunderpick/World Championship/2026/Europe/2": {
+"fim": "2026-08-02",
+"inicio": "2026-07-25",
+"tier": "B"
+},
+"Thunderpick/World Championship/2026/North America": {
+"fim": "2026-05-03",
+"inicio": "2026-04-26",
+"tier": "B"
+},
+"Thunderpick/World Championship/2026/Qualifier": {
+"fim": "2026-09-13",
+"inicio": "2026-09-09",
+"tier": "A"
+},
+"Thunderpick/World Championship/2026/South America/2": {
+"fim": "2026-07-12",
+"inicio": "2026-07-08",
+"tier": "B"
+},
+"Tipsport Cup/2022/Bratislava": {
+"fim": "2022-04-03",
+"inicio": "2022-03-30",
+"tier": "B"
+},
+"Tipsport Cup/2022/Prague": {
+"fim": "2022-09-18",
+"inicio": "2022-09-03",
+"tier": "B"
+},
+"UNITED Pro Series/2020/Winter": {
+"fim": "2021-01-16",
+"inicio": "2021-01-11",
+"tier": "B"
+},
+"UNITED Pro Series/2021/Summer": {
+"fim": "2021-11-21",
+"inicio": "2021-11-15",
+"tier": "B"
+},
+"V4 Future Sports Festival/2021/Budapest": {
+"fim": "2021-11-21",
+"inicio": "2021-11-14",
+"tier": "A"
+},
+"V4 Future Sports Festival/2021/Budapest/International Cup": {
+"fim": "2021-10-21",
+"inicio": "2021-09-15",
+"tier": "B"
+},
+"VANYLO x SCL Cup/2022/Summer": {
+"fim": "2022-09-13",
+"inicio": "2022-09-01",
+"tier": "B"
+},
+"VENN Invitational/2021/Spring": {
+"fim": "2021-03-28",
+"inicio": "2021-03-26",
+"tier": "B"
+},
+"VS Gaming League/Masters/2020": {
+"fim": "2020-09-27",
+"inicio": "2020-09-07",
+"tier": "B"
+},
+"VS Gaming League/Masters/2021": {
+"fim": "2021-09-26",
+"inicio": "2021-07-22",
+"tier": "B"
+},
+"VS Gaming League/Masters/2022": {
+"fim": "2022-09-25",
+"inicio": "2022-09-22",
+"tier": "B"
+},
+"VS Gaming League/Masters/2023": {
+"fim": "2023-09-25",
+"inicio": "2023-09-22",
+"tier": "B"
+},
+"VS Gaming League/Masters/2024": {
+"fim": "2024-09-29",
+"inicio": "2024-09-27",
+"tier": "B"
+},
+"VS Gaming League/Masters/2025": {
+"fim": "2025-08-31",
+"inicio": "2025-08-29",
+"tier": "B"
+},
+"VS Gaming League/Masters/2026": {
+"fim": "2026-09-27",
+"inicio": "2026-09-25",
+"tier": "B"
+},
+"WDNMD Asia Invitational/2020": {
+"fim": "2020-09-02",
+"inicio": "2020-08-13",
+"tier": "B"
+},
+"WX Invitational/2020/Winter": {
+"fim": "2020-01-22",
+"inicio": "2020-01-18",
+"tier": "B"
+},
+"WePlay Esports/CIS Masters/2022/Spring": {
+"fim": "2022-03-27",
+"inicio": "2022-03-25",
+"tier": "B"
+},
+"Weibo Cup/2020/Asia Professional Championship": {
+"fim": "2020-05-25",
+"inicio": "2020-05-15",
+"tier": "B"
+},
+"Winstrike/CIS Cup/2021/Spring": {
+"fim": "2021-03-21",
+"inicio": "2021-03-19",
+"tier": "B"
+},
+"XSE Pro League/2023": {
+"fim": "2023-07-10",
+"inicio": "2023-07-09",
+"tier": "B"
+},
+"XSE Pro League/2026": {
+"fim": "2026-07-12",
+"inicio": "2026-07-01",
+"tier": "A"
+},
+"XSE Pro League/2026/Luoyang": {
+"fim": "2026-11-01",
+"inicio": "2026-10-29",
+"tier": "B"
+},
+"YaLLa Compass/2023/Fall": {
+"fim": "2023-12-13",
+"inicio": "2023-10-16",
+"tier": "B"
+},
+"YaLLa Compass/2024": {
+"fim": "2024-06-09",
+"inicio": "2024-06-05",
+"tier": "S"
+},
+"YaLLa Compass/2024/Fall": {
+"fim": "2024-11-12",
+"inicio": "2024-09-30",
+"tier": "B"
+},
+"YaLLa Compass/2024/Spring": {
+"fim": "2024-05-02",
+"inicio": "2024-01-29",
+"tier": "B"
+},
+"YaLLa Compass/2024/Summer": {
+"fim": "2024-09-26",
+"inicio": "2024-07-29",
+"tier": "B"
+},
+"YaLLa Compass/2025/Dubai": {
+"fim": "2025-11-23",
+"inicio": "2025-11-19",
+"tier": "S"
+},
+"YaLLa Compass/2025/Dubai/Qualifier": {
+"fim": "2025-10-23",
+"inicio": "2025-10-21",
+"tier": "B"
+},
+"YaLLa Compass/2025/Fall": {
+"fim": "2025-09-24",
+"inicio": "2025-08-25",
+"tier": "B"
+},
+"YaLLa Compass/2025/Qatar": {
+"fim": "2025-04-20",
+"inicio": "2025-04-17",
+"tier": "B"
+},
+"YaLLa Compass/2025/Qatar/Qualifier": {
+"fim": "2025-04-03",
+"inicio": "2025-04-02",
+"tier": "B"
+},
+"YaLLa Compass/2025/Spring": {
+"fim": "2025-05-27",
+"inicio": "2025-04-28",
+"tier": "B"
+},
+"YaLLa Compass/2025/Summer": {
+"fim": "2025-09-03",
+"inicio": "2025-07-21",
+"tier": "B"
+},
+"YaLLa Compass/2025/Winter": {
+"fim": "2025-03-12",
+"inicio": "2025-01-13",
+"tier": "B"
+},
+"YaLLa Compass/2026/Qatar": {
+"fim": "2026-04-26",
+"inicio": "2026-04-20",
+"tier": "S"
+},
+"YaLLa Compass/2026/Summer": {
+"fim": "2026-09-13",
+"inicio": "2026-09-07",
+"tier": "S"
+},
+"YaLLa Compass/2026/UAE": {
+"fim": "2026-11-22",
+"inicio": "2026-11-16",
+"tier": "S"
+},
+"Zhi-Tech Elite Masters/2026": {
+"fim": "2026-01-25",
+"inicio": "2026-01-23",
+"tier": "B"
+}
+}

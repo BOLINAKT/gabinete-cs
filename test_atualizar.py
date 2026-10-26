@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+"""Atualizador diario: tier pela pagina, torneio ativo, troca das linhas relidas."""
+import unittest
+from datetime import date
+
+import pandas as pd
+
+import atualizar_dados as ad
+
+IDX = {"PGL/2027/Bucharest": {"tier": "S"}, "PGL/2027/Bucharest/Qualifier": {"tier": "B"}}
+
+
+class TestAtualizar(unittest.TestCase):
+    def test_tier_do_torneio_mais_especifico(self):
+        self.assertEqual(ad.tier_da_pagina("PGL/2027/Bucharest/Qualifier/Open/1", IDX), "B")
+        self.assertEqual(ad.tier_da_pagina("PGL/2027/Bucharest/Playoffs", IDX), "S")
+        self.assertEqual(ad.tier_da_pagina("Outro/2026", IDX, "A"), "A")
+
+    def test_ativo(self):
+        hoje = date(2026, 10, 26)
+        self.assertTrue(ad.ativo({"inicio": "2026-10-24", "fim": "2026-10-31"}, hoje))
+        self.assertTrue(ad.ativo({"inicio": "2026-10-13", "fim": "2026-10-20"}, hoje))   # fim ha 6 dias
+        self.assertFalse(ad.ativo({"inicio": "2026-08-06", "fim": "2026-08-16"}, hoje))
+        self.assertFalse(ad.ativo({"inicio": "2026-11-11", "fim": "2026-11-15"}, hoje))
+        self.assertFalse(ad.ativo({"inicio": None, "fim": None}, hoje))
+
+    def test_substitui_so_as_paginas_relidas(self):
+        cols = ["pagina", "tier", "data", "time1", "time2", "mapa_n", "mapa", "rounds1", "rounds2",
+                "lado_inicial1", "vencedor", "prorrogacoes", "hltv"]
+        velho = pd.DataFrame([["A", "S", "d1", "x", "y", "1", "Nuke", "13", "5", "t", "1", "0", ""],
+                              ["B", "S", "d2", "x", "z", "1", "Nuke", "13", "5", "t", "1", "0", ""]], columns=cols)
+        novo = [dict(zip(cols, ["A", "S", "d1", "x", "y", "1", "Nuke", "13", "7", "t", "1", "0", ""]))]
+        out = ad.substituir_paginas(velho, novo, {"A"})
+        self.assertEqual(len(out), 2)
+        self.assertEqual(out[out.pagina == "A"].rounds2.tolist(), ["7"])   # placar corrigido
+
+
+if __name__ == "__main__":
+    unittest.main()

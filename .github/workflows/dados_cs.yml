@@ -1,0 +1,53 @@
+# DADOS DO MODELO DE CS2, TODO DIA (26/10/2026): sem isto os mapas param no dia
+# da coleta grande e a nota de todo time envelhece. atualizar_dados.py e
+# incremental e tem ORCAMENTO de chamadas a Liquipedia; para no primeiro 429
+# (rc 75) e o que ja leu e gravado mesmo assim.
+name: Dados CS2 (Liquipedia)
+
+on:
+  schedule:
+    - cron: "41 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados-cs2
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Dependencias
+        run: pip install --quiet pandas
+      - name: Atualizar mapas, nomes e elencos
+        run: |
+          set +e
+          python atualizar_dados.py --orcamento 80
+          rc=$?
+          set -e
+          if [ "$rc" -eq 75 ]; then
+            echo "::notice::A Liquipedia pediu pausa (429). O que foi lido ate ali fica gravado."
+            exit 0
+          fi
+          exit "$rc"
+      - name: Commitar
+        run: |
+          git config user.name "Robo GabineteCS"
+          git config user.email "robo@gabinete.local"
+          git add mapas_cs.csv torneios_cs.json times_canonicos.json times_paginas.json elencos.csv
+          [ -f elencos_lidos.json ] && git add elencos_lidos.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Robô: dados de CS2 da Liquipedia"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash || exit 1
+          done
+          git push
