@@ -10,6 +10,10 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 from html import escape
+from urllib.parse import quote
+
+LIQUI = "https://liquipedia.net/counterstrike/"
+HLTV = "https://www.hltv.org/matches/"
 
 CSS = """
 <style>
@@ -62,6 +66,11 @@ CSS = """
           padding:6px 12px; align-items:center; font-variant-numeric:tabular-nums; }
   .jrow .n { font-weight:800; color:var(--modelo); text-align:right; }
   .jrow .e { color:var(--fraco); font-size:11.5px; text-align:right; }
+  .sub2 { color:var(--fraco); font-size:11px; padding:10px 12px 4px; border-top:1px solid var(--borda); }
+  .rrow { display:grid; grid-template-columns:0.7fr 1.6fr 1fr; padding:4px 12px; font-size:12px;
+          border-top:1px solid var(--linha); align-items:center; }
+  .rrow .fonte { text-align:right; font-size:11.5px; }
+  a { color:var(--modelo); text-decoration:none; } a:hover { text-decoration:underline; }
   .tag { font-size:10.5px; font-weight:800; border-radius:6px; padding:1px 6px; margin-left:6px;
          color:var(--pin); border:1px solid rgba(217,164,65,0.55); }
   .lista { background:var(--painel); border:1px solid var(--borda); border-top:3px solid var(--modelo);
@@ -176,9 +185,20 @@ def html_fichas(j) -> str:
             '<div class="jrow"><div>{}{}</div><div class="n">{}</div><div class="e">desde {}</div></div>'.format(
                 escape(x["jogador"]), '<span class="tag">novo</span>' if x["novo"] else "",
                 x["nota"], escape(x["entrou"] or "?")) for x in f["jogadores"])
-        out.append('<div class="ficha"><h3>{} <span class="nada">({})</span></h3><div class="sub">{}</div>{}</div>'
+        rec = "".join(
+            '<div class="rrow"><div>{}</div><div>{} <b>{}</b></div><div class="fonte">{}{}</div></div>'.format(
+                escape(r["data"]), escape(r["adversario"]), escape(r["placar"]),
+                '<a href="{}" target="_blank" title="{}">Liquipedia</a>'.format(
+                    escape(LIQUI + quote(r["pagina"].replace(" ", "_"))), escape(r["pagina"])),
+                ' · <a href="{}{}/x" target="_blank">HLTV</a>'.format(HLTV, r["hltv"]) if r["hltv"] else "")
+            for r in f.get("recentes") or [])
+        link_time = '<a href="{}" target="_blank">página do time</a>'.format(escape(LIQUI + quote(f["time"].replace(" ", "_"))))
+        out.append(('<div class="ficha"><h3>{} <span class="nada">({})</span></h3><div class="sub">{}</div>{}'
+                    '<div class="sub2">Últimos jogos nos NOSSOS dados — confira no HLTV se falta algum mais '
+                    'recente · {}</div>{}</div>')
                    .format(escape(nome), escape(f["time"]), escape(sub), linhas or
-                           '<div class="jrow"><div class="nada">sem elenco</div></div>'))
+                           '<div class="jrow"><div class="nada">sem elenco</div></div>', link_time,
+                           rec or '<div class="rrow"><div class="nada">nenhum</div></div>'))
     return ('<div class="fichas">' + "".join(out) + '</div><div class="nota">Nota de cada jogador: o Elo '
             'que ele leva de time em time. A força do time é a média do elenco de hoje.</div>')
 

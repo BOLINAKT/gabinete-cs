@@ -106,7 +106,25 @@ class Estado:
                 "elo_time": round(self.r[t]), "mapas_ano": int(self.n_ano.get(t, 0)),
                 "ultimo": self.ult[t].strftime("%d/%m/%y") if t in self.ult else "",
                 "dias_parado": parado, "jogadores": jogs,
-                "elenco_conhecido": 3 <= len(e) <= 7}
+                "elenco_conhecido": 3 <= len(e) <= 7, "recentes": self.recentes(t)}
+
+    def recentes(self, t, n=5) -> list:
+        """As ultimas n SERIES do time nos nossos dados, com a fonte para conferir:
+        pagina da Liquipedia e partida no HLTV (numero que a propria Liquipedia guarda).
+        E a prova do "ultimo jogo" e do "parado ha X dias" (26/10/2026, pergunta dele)."""
+        g = self.d[(self.d.time1 == t) | (self.d.time2 == t)]
+        if g.empty:
+            return []
+        fora = []
+        for (pag, data, t1, t2), s in list(g.groupby(["pagina", "data", "time1", "time2"], sort=False))[-60:]:
+            eu1 = t1 == t
+            v = int(((s.vencedor == 1) == eu1).sum())
+            hl = str(s.hltv.iloc[0]).split(".")[0].strip()
+            fora.append({"dt": s.dt.iloc[0], "data": s.dt.iloc[0].strftime("%d/%m/%y"),
+                         "adversario": t2 if eu1 else t1, "placar": f"{v}-{len(s) - v}",
+                         "pagina": pag, "tier": s.tier.iloc[0],
+                         "hltv": hl if hl.isdigit() else ""})
+        return sorted(fora, key=lambda x: x["dt"], reverse=True)[:n]
 
 
 JANELAS = (5, 10, 20)

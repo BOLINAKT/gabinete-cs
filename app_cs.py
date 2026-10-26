@@ -183,7 +183,8 @@ def main() -> None:
             st.markdown("##### Mapas")
             components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
             n_j = max([len(f["jogadores"]) for f in j["fichas"] if f] or [1])
-            components.html(tl.pagina(tl.html_fichas(j)), height=110 + 34 * n_j, scrolling=False)
+            n_r = max([len(f.get("recentes") or []) for f in j["fichas"] if f] or [1])
+            components.html(tl.pagina(tl.html_fichas(j)), height=140 + 34 * n_j + 29 * n_r, scrolling=False)
             with st.expander("Como o time foi achado nos dados"):
                 for (t, como), nome in zip(j["casou"], (j["casa"], j["fora"])):
                     st.write(f"**{nome}** → {t or 'nada'} ({como})")
