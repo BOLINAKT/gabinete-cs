@@ -53143,6 +53143,12 @@ EXTREMESLAND/2026/Mongolia,A,2026-10-25 13:00,huns,5star,2,Ancient,13,8,t,1,0,
 EXTREMESLAND/2026/Mongolia,A,2026-10-25 15:45,the audacity,huns,1,Ancient,13,8,ct,1,0,
 EXTREMESLAND/2026/Mongolia,A,2026-10-25 15:45,the audacity,huns,2,Mirage,10,13,t,2,0,
 EXTREMESLAND/2026/Mongolia,A,2026-10-25 15:45,the audacity,huns,3,Cache,19,15,t,1,2,
+DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,1,Dust II,8,13,ct,2,0,2399888
+DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,2,Anubis,7,13,ct,2,0,2399888
+DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,1,Inferno,11,13,t,2,0,2399892
+DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,2,Ancient,3,13,ct,2,0,2399892
+DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,1,Ancient,11,13,ct,2,0,2399894
+DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,2,Anubis,8,13,t,2,0,2399894
 DFRAG/Invitational/2026/Qualifier,B,2026-09-07 18:00,alter ego,bgns orange,1,Mirage,11,13,t,2,0,
 DFRAG/Invitational/2026/Qualifier,B,2026-09-07 18:00,finishers,mglbros,1,Ancient,16,13,t,1,1,
 DFRAG/Invitational/2026/Qualifier,B,2026-09-07 18:00,abyssal,sunday school,1,Mirage,13,9,ct,1,0,
@@ -53234,6 +53240,21 @@ PGL/2026/Masters,S,2026-10-25 15:00,mouz,9z,1,Dust II,13,5,ct,1,0,2399732
 PGL/2026/Masters,S,2026-10-25 15:00,mouz,9z,2,Nuke,13,3,t,1,0,2399732
 PGL/2026/Masters,S,2026-10-25 16:50,legacy,dendele,1,Cache,13,9,ct,1,0,2399734
 PGL/2026/Masters,S,2026-10-25 16:50,legacy,dendele,2,Mirage,19,17,t,1,2,2399734
+PGL/2026/Masters,S,2026-10-26 12:20,vit,fut,1,Mirage,13,9,ct,1,0,2399737
+PGL/2026/Masters,S,2026-10-26 12:20,vit,fut,2,Dust II,9,13,t,2,0,2399737
+PGL/2026/Masters,S,2026-10-26 12:20,vit,fut,3,Anubis,10,13,ct,2,0,2399737
+PGL/2026/Masters,S,2026-10-26 10:00,mongolz,mouz,1,Nuke,11,13,ct,2,0,2399735
+PGL/2026/Masters,S,2026-10-26 10:00,mongolz,mouz,2,Mirage,9,13,t,2,0,2399735
+PGL/2026/Masters,S,2026-10-26 10:00,nemiga,aurora,1,Mirage,14,16,t,2,1,2399736
+PGL/2026/Masters,S,2026-10-26 10:00,nemiga,aurora,2,Anubis,4,13,t,2,0,2399736
+PGL/2026/Masters,S,2026-10-26 15:40,spirit,furia,1,Nuke,13,7,ct,1,0,2399739
+PGL/2026/Masters,S,2026-10-26 15:40,spirit,furia,2,Ancient,8,13,t,2,0,2399739
+PGL/2026/Masters,S,2026-10-26 15:40,spirit,furia,3,Mirage,13,11,ct,1,0,2399739
+PGL/2026/Masters,S,2026-10-26 15:55,tl,legacy,1,Ancient,13,10,ct,1,0,2399740
+PGL/2026/Masters,S,2026-10-26 15:55,tl,legacy,2,Inferno,13,8,t,1,0,2399740
+PGL/2026/Masters,S,2026-10-26 12:55,9z,tyloo,1,Inferno,13,11,ct,1,0,2399738
+PGL/2026/Masters,S,2026-10-26 12:55,9z,tyloo,2,Nuke,5,13,t,2,0,2399738
+PGL/2026/Masters,S,2026-10-26 12:55,9z,tyloo,3,Mirage,7,13,ct,2,0,2399738
 PGL/2026/Masters/Asia,B,2026-09-13 13:15,fq,depo,1,Ancient,9,13,ct,2,0,2398171
 PGL/2026/Masters/Asia,B,2026-09-13 13:15,fq,depo,2,Anubis,5,13,ct,2,0,2398171
 PGL/2026/Masters/Asia,B,2026-09-13 16:25,tyloo,depo,1,Ancient,13,4,ct,1,0,2398172
@@ -53608,6 +53629,9 @@ CCT/2026/Europe/Series 12,B,2026-10-25 13:00,spirit academy,sokerorg,1,Ancient,1
 CCT/2026/Europe/Series 12,B,2026-10-25 13:00,spirit academy,sokerorg,2,Dust II,13,9,t,1,0,2399506
 CCT/2026/Europe/Series 12,B,2026-10-24 13:00,havu,azuolas,1,Mirage,13,10,ct,1,0,2399502
 CCT/2026/Europe/Series 12,B,2026-10-24 13:00,havu,azuolas,2,Nuke,13,7,t,1,0,2399502
+CCT/2026/Europe/Series 12,B,2026-10-26 13:00,sokerorg,ex-6666,1,Ancient,13,8,t,1,0,2399509
+CCT/2026/Europe/Series 12,B,2026-10-26 13:00,sokerorg,ex-6666,2,Anubis,13,9,ct,1,0,2399509
+CCT/2026/Europe/Series 12,B,2026-10-26 16:00,havu,illyrians,1,Mirage,9,13,t,2,0,2399510
 CCT/2026/Europe/Series 12/Play-In,B,2026-10-14 10:00,enjoy,b8 academy,1,Mirage,4,13,ct,2,0,2399461
 CCT/2026/Europe/Series 12/Play-In,B,2026-10-14 10:00,enjoy,b8 academy,2,Ancient,13,5,t,1,0,2399461
 CCT/2026/Europe/Series 12/Play-In,B,2026-10-14 10:00,enjoy,b8 academy,3,Dust II,13,4,ct,1,0,2399461
