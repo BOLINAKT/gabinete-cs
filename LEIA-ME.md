@@ -364,6 +364,21 @@ regras pedem 1 a cada 30 s para chamada que monta página. Agora: pesadas a 31 s
 pausa CRESCENTE (1 h, 2 h, 4 h… 24 h). Torneios S de 2026 com 0 mapas: páginas
 vazias na própria Liquipedia em 25/10 (PGL Summer etc.) — não é falha do extrator.
 
+## Noite de 26/10/2026 — segunda leva
+
+- **K/kj na validação S/A/B**: a validação prefere notas mais rápidas (K=32, kj=40,
+  0,6470 × 0,6484), mas o teste piora (−0,0013 [−0,0018; −0,0008]). Validação e teste
+  divergem de novo (anos diferentes); fica o oficial K=24, kj=32.
+- **Entrosamento** (`entrosamento.py`): penalizar elenco com jogador recém-chegado
+  piora a validação em todas as combinações (30–120 dias, 25–100 pontos). Rejeitado.
+- **Tier C**: 908 torneios de 2025+ listados; coleta aos poucos pelo robô (2 corridas
+  por dia, ~300 chamadas cada). Fora do modelo até o teste com/sem.
+- **Placar modelo × Pinnacle** (`registrar_previsoes.py`, `placar_pinnacle.py`): o
+  robô de odds grava, a cada leitura, a chance do modelo NAQUELE momento; o placar
+  usa a última antes do jogo × Pinnacle sem margem, mais o ROI apostando onde a
+  vantagem fica entre 1% e 20%. Aba "Modelo × Pinnacle" no app. Primeiras 6
+  previsões gravadas em 26/10 18:5x UTC.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
