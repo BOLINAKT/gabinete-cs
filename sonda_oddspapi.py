@@ -65,6 +65,17 @@ def main() -> int:
             info["odds_exemplo"] = json.dumps(od, ensure_ascii=False)[:4000]
         out[nome] = info
         time.sleep(1)
+    # 2a sonda (27/10): o catalogo de CASAS (procurar Estrela Bet, Blaze, casas BR) e
+    # o de MERCADOS de cada esporte (os ids 171/172... viram nomes)
+    st, bk, _ = chamar("bookmakers", chave)
+    lista_bk = bk if isinstance(bk, list) else (bk.get("data") if isinstance(bk, dict) else []) or []
+    print(f"[sonda] bookmakers status {st} | {len(lista_bk)} casas")
+    out["bookmakers"] = lista_bk if st == 200 else {"status": st, "resposta": bk}
+    for nome, sid in ESPORTES.items():
+        time.sleep(1)
+        st, mk, _ = chamar("markets", chave, sportId=sid)
+        print(f"[sonda] markets {nome} status {st} | {len(mk) if isinstance(mk, list) else '?'}")
+        out[f"markets_{nome}"] = mk if st == 200 else {"status": st, "resposta": mk}
     Path("sonda_oddspapi.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return 0
 
