@@ -4807,85 +4807,85 @@
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier": {
 "fim": "2026-04-12",
 "inicio": "2026-04-10",
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-02",
+"inicio": "2026-04-02",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-02",
+"inicio": "2026-04-02",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-03",
+"inicio": "2026-04-03",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-03",
+"inicio": "2026-04-03",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/5": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-04",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/6": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-04",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/7": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-05",
+"inicio": "2026-04-05",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier/Open/8": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-05",
+"inicio": "2026-04-05",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-01",
+"inicio": "2026-01-30",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Winter/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-19",
+"inicio": "2026-01-19",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Winter/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-20",
+"inicio": "2026-01-20",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Winter/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-21",
+"inicio": "2026-01-21",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Winter/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-22",
+"inicio": "2026-01-22",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2025/Glassboro": {
@@ -4900,45 +4900,45 @@
 "tier": "B"
 },
 "FRAG/2026/Miami": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-04",
+"inicio": "2026-01-02",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2026/Philadelphia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-31",
+"inicio": "2026-05-29",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2026/St. Louis": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-30",
+"inicio": "2026-08-28",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2026/Syracuse/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-26",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2026/Syracuse/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-11",
+"inicio": "2026-10-09",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2026/Windsor": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-12",
+"inicio": "2026-07-11",
+"pendente": false,
 "tier": "C"
 },
 "FamilyX Masters Tour/2026/Stage 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-11",
+"inicio": "2026-10-08",
+"pendente": false,
 "tier": "C"
 },
 "Fantasyexpo Cup/2021/Spring": {
@@ -4962,27 +4962,27 @@
 "tier": "B"
 },
 "FiReCONTER/2026/Season 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-01",
+"inicio": "2026-02-27",
+"pendente": false,
 "tier": "C"
 },
 "FiReCONTER/2026/Season 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-05",
+"inicio": "2026-04-03",
+"pendente": false,
 "tier": "C"
 },
 "FiReCONTER/2026/Season 4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-03",
+"pendente": false,
 "tier": "C"
 },
 "FiReCONTER/2026/Season 6": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-04",
+"inicio": "2026-10-01",
+"pendente": false,
 "tier": "C"
 },
 "FiReLEAGUE/2020/Global Finals": {
@@ -5205,9 +5205,9 @@
 "tier": "C"
 },
 "GAMEON Productivity and Technology Tournament/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-19",
+"inicio": "2026-04-18",
+"pendente": false,
 "tier": "C"
 },
 "GAMESPHERE/2025/Students Edition": {
@@ -5223,9 +5223,9 @@
 "tier": "C"
 },
 "GFest/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-17",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "GG Arena/2025/Spring": {
@@ -5241,9 +5241,9 @@
 "tier": "C"
 },
 "GG Arena/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-18",
+"inicio": "2026-04-18",
+"pendente": false,
 "tier": "C"
 },
 "GG Vasara/2025": {
@@ -5295,117 +5295,117 @@
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-23",
+"inicio": "2026-05-22",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-26",
+"inicio": "2026-04-24",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1/Qualifier/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-09",
+"inicio": "2026-04-09",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1/Qualifier/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-10",
+"inicio": "2026-04-10",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1/Qualifier/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-11",
+"inicio": "2026-04-11",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1/Qualifier/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-12",
+"inicio": "2026-04-12",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-18",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-30",
+"inicio": "2026-06-26",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2/Qualifier/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-11",
+"inicio": "2026-06-11",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2/Qualifier/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-12",
+"inicio": "2026-06-12",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2/Qualifier/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-13",
+"inicio": "2026-06-13",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 2/Qualifier/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-14",
+"inicio": "2026-06-14",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-17",
+"inicio": "2026-10-16",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-20",
+"inicio": "2026-09-18",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3/Qualifier/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-27",
+"inicio": "2026-08-27",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3/Qualifier/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-28",
+"inicio": "2026-08-28",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3/Qualifier/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-29",
+"inicio": "2026-08-29",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 3/Qualifier/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-30",
+"inicio": "2026-08-30",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Wildcard LAN": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-21",
+"inicio": "2026-11-20",
+"pendente": false,
 "tier": "C"
 },
 "GOAT League/2023/Summer VACation": {
@@ -5498,15 +5498,15 @@
 "tier": "B"
 },
 "Galaxy Cup/2026/Season 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-10",
+"inicio": "2026-05-09",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Cup/2026/Season 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-16",
+"inicio": "2026-08-15",
+"pendente": false,
 "tier": "C"
 },
 "Game Zone/2025/Masters": {
@@ -5534,9 +5534,9 @@
 "tier": "C"
 },
 "Game in Tartu/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-22",
+"inicio": "2026-02-21",
+"pendente": false,
 "tier": "C"
 },
 "GameForce Rivals/2025": {
@@ -5564,15 +5564,15 @@
 "tier": "C"
 },
 "Gamebox/2026/Masters": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-26",
+"inicio": "2026-04-24",
+"pendente": false,
 "tier": "C"
 },
 "Gamebox/2026/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-25",
+"inicio": "2026-04-25",
+"pendente": false,
 "tier": "C"
 },
 "Gameinside.ua/ROG Cup/2025/Spring": {
@@ -5588,9 +5588,9 @@
 "tier": "C"
 },
 "Gamers Assembly/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-05",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/April": {
@@ -5714,63 +5714,63 @@
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/April": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-07",
+"inicio": "2026-04-16",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/August": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-28",
+"inicio": "2026-08-14",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/February": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-27",
+"inicio": "2026-02-13",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/January": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-06",
+"inicio": "2026-01-20",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/July": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-06",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/June": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-03",
+"inicio": "2026-06-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/March": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-03",
+"inicio": "2026-03-13",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/May": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-05",
+"inicio": "2026-05-15",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/October": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-08",
+"inicio": "2026-10-16",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/September": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-02",
+"inicio": "2026-09-15",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/April": {
@@ -5915,9 +5915,9 @@
 "tier": "B"
 },
 "Generation NSTLGA/Emerald Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-18",
+"inicio": "2026-10-16",
+"pendente": false,
 "tier": "C"
 },
 "Glitched/2025/Masters": {
@@ -5971,21 +5971,21 @@
 "tier": "C"
 },
 "Guangxi Esports Championship/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-12",
+"inicio": "2026-07-12",
+"pendente": false,
 "tier": "C"
 },
 "Halyk Cyber Games Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-12",
+"inicio": "2026-09-12",
+"pendente": false,
 "tier": "C"
 },
 "Hello!Nexen Championship/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-22",
+"inicio": "2026-03-21",
+"pendente": false,
 "tier": "C"
 },
 "Henan Championship League/2025": {
@@ -5995,9 +5995,9 @@
 "tier": "C"
 },
 "Henan Championship League/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-26",
+"inicio": "2026-09-26",
+"pendente": false,
 "tier": "C"
 },
 "Hero Esports/Asian Champions League/2025": {
@@ -6033,15 +6033,15 @@
 "tier": "B"
 },
 "HertzOne/Final Four LAN/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-19",
+"inicio": "2026-09-19",
+"pendente": false,
 "tier": "C"
 },
 "Hikari4ever Arrival Asia Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-30",
+"inicio": "2026-09-26",
+"pendente": false,
 "tier": "C"
 },
 "Hikari4ever Redhead Bounty/2026": {
