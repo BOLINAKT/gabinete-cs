@@ -1,0 +1,176 @@
+{
+ "lido_em": "2026-10-27T21:53:15Z",
+ "jogos": [
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-27T19:15:00Z",
+   "time1": "nemesis academy",
+   "time2": "spirit black",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-27T19:15:00Z",
+   "time1": "dimonix",
+   "time2": "monte",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "DFRAG/Invitational/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T03:00:00Z",
+   "time1": "off chops",
+   "time2": "nexvoid",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "DFRAG/Invitational/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T06:00:00Z",
+   "time1": "rooster",
+   "time2": "abyssal",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Tesla Cup/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T08:00:00Z",
+   "time1": "b8",
+   "time2": "alliance",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-28T11:00:00Z",
+   "time1": "mongolz",
+   "time2": "nemiga",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Tesla Cup/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T14:00:00Z",
+   "time1": "hotu",
+   "time2": "gl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-28T14:00:00Z",
+   "time1": "furia",
+   "time2": "tl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Tesla Cup/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T17:00:00Z",
+   "time1": "lg",
+   "time2": "envy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-28T17:00:00Z",
+   "time1": "spirit",
+   "time2": "navi",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T13:00:00Z",
+   "time1": "100t",
+   "time2": "arena pro team",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T13:00:00Z",
+   "time1": "barca esports",
+   "time2": "bounty",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T19:15:00Z",
+   "time1": "ducks",
+   "time2": "prodigy.ru",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T19:30:00Z",
+   "time1": "nrg",
+   "time2": "tactical chaos",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T19:30:00Z",
+   "time1": "galorys",
+   "time2": "procyon",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T13:00:00Z",
+   "time1": "fluxo",
+   "time2": "signatus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T13:00:00Z",
+   "time1": "shinden",
+   "time2": "isurus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T19:30:00Z",
+   "time1": "wildcard",
+   "time2": "hacha esports",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T19:30:00Z",
+   "time1": "bestia",
+   "time2": "bth e-sports",
+   "bo": 3,
+   "mapas_jogados": 0
+  }
+ ]
+}
