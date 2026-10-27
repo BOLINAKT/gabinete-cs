@@ -45,12 +45,28 @@ def canonico(nome: str, mapa: dict) -> str:
     return c
 
 
+def _c_dentro_de_evento_maior(pagina: str, indice: dict) -> bool:
+    """A pagina C esta DENTRO de um torneio S/A/B (fase online, qualificatoria)?"""
+    partes = str(pagina).split("/")
+    return any((indice.get("/".join(partes[:i])) or {}).get("tier") in ("S", "A", "B")
+               for i in range(1, len(partes)))
+
+
 def carregar(incluir_c: bool = False) -> pd.DataFrame:
-    """Mapas para o modelo. Tier C (coleta aos poucos desde 26/10/2026) fica FORA
-    por padrao: so entra no oficial se passar na regua (teste com/sem)."""
+    """Mapas para o modelo. Tier C "puro" (coleta aos poucos desde 26/10/2026) fica
+    FORA por padrao: so entra no oficial se passar na regua (teste com/sem).
+
+    27/10/2026: a coleta do C trouxe torneios C MAIS ESPECIFICOS que paginas antes
+    marcadas B/A/S (ex.: "PGL/2025/Astana/Asia") -- 4.214 mapas viraram C e sairiam
+    do treino em silencio. O C que fica dentro de um evento S/A/B continua no
+    treino (sempre esteve, e foi assim que o modelo foi validado)."""
     d = pd.read_csv(RAIZ / "mapas_cs.csv")
     if not incluir_c:
-        d = d[d["tier"] != "C"]
+        arq_idx = RAIZ / "torneios_cs.json"
+        indice = json.loads(arq_idx.read_text(encoding="utf-8")) if arq_idx.exists() else {}
+        e_c = d["tier"] == "C"
+        dentro = d.loc[e_c, "pagina"].map(lambda pg: _c_dentro_de_evento_maior(pg, indice))
+        d = d[~e_c | d.index.isin(dentro[dentro].index)]
     arq = RAIZ / "times_canonicos.json"
     if arq.exists():
         mapa = json.loads(arq.read_text(encoding="utf-8"))
