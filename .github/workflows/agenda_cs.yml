@@ -30,7 +30,7 @@ jobs:
       - name: Agenda e mapas dos torneios ativos
         run: |
           set +e
-          python atualizar_dados.py --orcamento 60 --so-agenda
+          python atualizar_dados.py --orcamento 120 --so-agenda
           rc=$?
           set -e
           if [ "$rc" -eq 75 ]; then
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "Robo GabineteCS"
           git config user.email "robo@gabinete.local"
-          git add agenda_cs.json mapas_cs.csv torneios_cs.json
+          for f in agenda_cs.json mapas_cs.csv torneios_cs.json; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet && exit 0
           git commit -m "Robô: agenda de CS2 (Liquipedia)"
           for i in 1 2 3; do

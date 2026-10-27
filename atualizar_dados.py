@@ -134,12 +134,19 @@ def _torneios_novos(cli, indice: dict) -> int:
     return novos
 
 
-def _reler_ativos(cli, indice: dict, hoje: date, agenda: list | None = None) -> tuple:
-    ativos = sorted((t for t, v in indice.items() if ativo(v, hoje)),
-                    key=lambda t: indice[t]["inicio"] or "", reverse=True)
-    linhas, relidas = [], set()
+def _reler_ativos(cli, indice: dict, hoje: date, agenda: list | None = None,
+                  linhas: list | None = None, relidas: set | None = None, ativos: list | None = None) -> tuple:
+    """linhas/relidas/agenda/ativos vem de fora e sao preenchidos no lugar: se o
+    orcamento acabar no meio, o que ja foi lido NAO se perde (27/10/2026: a 1a
+    corrida da agenda perdeu tudo assim)."""
+    lista = sorted((t for t, v in indice.items() if ativo(v, hoje)),
+                   key=lambda t: indice[t]["inicio"] or "", reverse=True)
+    linhas = linhas if linhas is not None else []
+    relidas = relidas if relidas is not None else set()
     agenda = agenda if agenda is not None else []
-    for t in ativos:
+    ativos = ativos if ativos is not None else []
+    ativos.extend(lista)
+    for t in lista:
         d = cli(action="query", list="allpages", apprefix=t + "/", aplimit=100, apnamespace=0)
         subs = [p["title"] for p in (d.get("query") or {}).get("allpages", [])]
         for pg in [t, *subs]:
@@ -150,7 +157,7 @@ def _reler_ativos(cli, indice: dict, hoje: date, agenda: list | None = None) -> 
             if "{{Match" in txt:
                 linhas.extend(ex.mapas_da_pagina(txt, pagina=pg, tier=indice[t]["tier"]))
                 agenda.extend(ex.proximos_da_pagina(txt, pagina=pg, tier=indice[t]["tier"]))
-            relidas.add(pg)
+            relidas.add(pg)   # so depois de ler: pagina pela metade nao conta
     return linhas, relidas, ativos
 
 
@@ -300,7 +307,7 @@ def main() -> int:
     try:
         if not a.so_cache:   # a lista "mais recentes" nunca esta no cache
             novos = _torneios_novos(cli, indice)
-        linhas, relidas, ativos = _reler_ativos(cli, indice, hoje, agenda)
+        _reler_ativos(cli, indice, hoje, agenda, linhas, relidas, ativos)
     except (lq.Pausado, Orcamento) as e:
         print(f"[dados] parou: {type(e).__name__} {e}")
         rc = RC_PAUSA if isinstance(e, lq.Pausado) else 0
