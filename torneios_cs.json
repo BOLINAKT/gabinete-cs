@@ -2382,15 +2382,15 @@
 "tier": "C"
 },
 "DFRAG/Invitational/2026/Qualifier/Last Chance": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-12",
+"inicio": "2026-10-12",
+"pendente": false,
 "tier": "C"
 },
 "DFRAG/Invitational/2026/Qualifier/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-01",
+"inicio": "2026-08-31",
+"pendente": false,
 "tier": "C"
 },
 "Desafio Brasileiro de Esports/2024": {
@@ -2417,9 +2417,9 @@
 "tier": "C"
 },
 "Digital Warriors/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-23",
+"inicio": "2026-05-23",
+"pendente": false,
 "tier": "C"
 },
 "DreamHack/2020/Anaheim": {
@@ -2726,15 +2726,15 @@
 "tier": "C"
 },
 "EDU ESPORTS/2025-2026/Uczelnie/Main League": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-21",
+"inicio": "2026-06-21",
+"pendente": false,
 "tier": "C"
 },
 "ENTiTY x ESPORTS.MK/LAN Showdown/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EPIC League/2021/Spring/CIS": {
@@ -2754,9 +2754,9 @@
 "tier": "C"
 },
 "EPICENTER Slovenia/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-13",
+"inicio": "2026-09-13",
+"pendente": false,
 "tier": "C"
 },
 "ESCAPE OPEN CUP/2025": {
@@ -3465,9 +3465,9 @@
 "tier": "C"
 },
 "ESN/2026/Fall/Showdown": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-04",
+"inicio": "2026-09-30",
+"pendente": false,
 "tier": "C"
 },
 "ESN/National Championship/2025": {
@@ -3477,9 +3477,9 @@
 "tier": "C"
 },
 "ESN/National Championship/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-20",
+"inicio": "2026-03-16",
+"pendente": false,
 "tier": "C"
 },
 "ESPTIGER/2025/Party": {
@@ -3525,21 +3525,21 @@
 "tier": "C"
 },
 "ESV/Latam Series/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-23",
+"inicio": "2026-04-06",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2026/Qualifier/Peru": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-29",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2026/Qualifier/Venezuela-Colombia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-29",
+"pendente": false,
 "tier": "C"
 },
 "EU Cyber League/2025/Spring": {
@@ -3549,9 +3549,9 @@
 "tier": "C"
 },
 "EXECLAN/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-16",
+"inicio": "2026-08-15",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2021": {
@@ -3657,123 +3657,123 @@
 "tier": "A"
 },
 "EXTREMESLAND/2026/Central Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-18",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Central Asia/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-05",
+"inicio": "2026-10-05",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Central Asia/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-06",
+"inicio": "2026-10-06",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Central Asia/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-07",
+"inicio": "2026-10-07",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Central Asia/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-08",
+"inicio": "2026-10-08",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-15",
+"inicio": "2026-11-14",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/China/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-18",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/China/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-01",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/City Championship": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-25",
+"inicio": "2026-07-25",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/City Championship/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-27",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Japan & South Korea": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Japan & South Korea/Japan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Japan & South Korea/South Korea": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Middle East": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-26",
+"inicio": "2026-09-25",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Mongolia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-18",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-04",
+"inicio": "2026-09-30",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Oceania/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-26",
+"inicio": "2026-09-26",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/South Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-26",
+"inicio": "2026-10-05",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Southeast Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-07",
+"inicio": "2026-11-07",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026/Southeast Asia/4th Place Decider": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "EZK/Summer Showdown/2025": {
@@ -3880,9 +3880,9 @@
 "tier": "C"
 },
 "Esports Kings/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-07",
+"inicio": "2026-06-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026": {
@@ -3896,207 +3896,207 @@
 "tier": "B"
 },
 "Esports Nations Cup/2026/Eastern Europe/Bulgaria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-10",
+"inicio": "2026-07-09",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Eastern Europe/Poland": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Eastern Europe/Romania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Eastern Europe/Ukraine": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Middle East & Central Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Middle East & Central Asia/Kazakhstan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Middle East & Central Asia/Kyrgyzstan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-06",
+"inicio": "2026-07-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Middle East & Central Asia/Turkey": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-11",
+"inicio": "2026-07-09",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Middle East & Central Asia/Uzbekistan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-09",
+"inicio": "2026-07-09",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/North Africa": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/North America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/North America/Canada": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-14",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/North America/United States": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-19",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Oceania/Australia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-06",
+"inicio": "2026-07-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-15",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/Hong Kong": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-08",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/India": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-09",
+"inicio": "2026-07-08",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/Mongolia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/Pakistan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-09",
+"inicio": "2026-07-08",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South & East Asia/Taiwan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-08",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South America/Argentina": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/South America/Chile": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Indonesia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-07",
+"inicio": "2026-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Malaysia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-07",
+"inicio": "2026-07-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Philippines": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-07",
+"inicio": "2026-07-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Singapore": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Thailand": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-07",
+"inicio": "2026-07-06",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Southeast Asia/Vietnam": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Sub-Saharan Africa": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Sub-Saharan Africa/South Africa": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-08",
+"inicio": "2026-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Western Europe": {
@@ -4105,15 +4105,15 @@
 "tier": "B"
 },
 "Esports Nations Cup/2026/Western Europe/Netherlands": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-10",
+"inicio": "2026-07-09",
+"pendente": false,
 "tier": "C"
 },
 "Esports Nations Cup/2026/Western Europe/United Kingdom": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-14",
+"inicio": "2026-07-14",
+"pendente": false,
 "tier": "C"
 },
 "Esports World Cup/2024": {
@@ -4178,9 +4178,9 @@
 "tier": "C"
 },
 "ExitLag ChampZ/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-28",
+"inicio": "2026-04-27",
+"pendente": false,
 "tier": "C"
 },
 "FACEIT/Pro League/2020/Europe/April": {
@@ -4776,21 +4776,21 @@
 "tier": "B"
 },
 "FERJEE/Rainhas do Clutch/2026/Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-20",
+"inicio": "2026-05-19",
+"pendente": false,
 "tier": "C"
 },
 "FERJEE/Rainhas do Clutch/2026/North America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-21",
+"inicio": "2026-05-21",
+"pendente": false,
 "tier": "C"
 },
 "FERJEE/Rainhas do Clutch/2026/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-24",
+"inicio": "2026-05-23",
+"pendente": false,
 "tier": "C"
 },
 "FERJEE/Rush/2025": {
@@ -4799,14 +4799,14 @@
 "tier": "B"
 },
 "FRAG.gg/Battle Cup/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-19",
+"inicio": "2026-04-18",
+"pendente": false,
 "tier": "C"
 },
 "FRAG.gg/Battle Cup/2026/Spring/Qualifier": {
-"fim": null,
-"inicio": null,
+"fim": "2026-04-12",
+"inicio": "2026-04-10",
 "pendente": true,
 "tier": "C"
 },
