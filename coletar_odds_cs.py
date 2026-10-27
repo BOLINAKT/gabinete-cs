@@ -43,6 +43,17 @@ RC_BLOQUEIO = 75
 # Grava so o retrato em odds_cs2_local.json (fora do git); o HISTORICO continua
 # sendo so do robo, para nao haver duas fontes brigando no git.
 LOCAL = RAIZ / "odds_cs2_local.json"
+# 27/10/2026: a Pinnacle respondeu 403 ao PC dele. Depois de um 403/429 no modo
+# LOCAL, o PC fica PAUSA_LOCAL_S sem tentar (o app usa as leituras do robo).
+PAUSA_LOCAL = RAIZ / "cache" / "pinnacle_pausa.txt"
+PAUSA_LOCAL_S = 6 * 3600
+
+
+def pausa_local_restante() -> float:
+    try:
+        return max(0.0, float(PAUSA_LOCAL.read_text(encoding="utf-8").strip()) - __import__("time").time())
+    except (OSError, ValueError):
+        return 0.0
 
 
 def _get(caminho: str):
@@ -99,12 +110,19 @@ def _decimal(americana):
 def main() -> int:
     local = "--local" in sys.argv
     agora = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    if local and pausa_local_restante() > 0:
+        print(f"[odds cs2] PC em pausa com a Pinnacle por mais {pausa_local_restante() / 3600:.1f} h (403 antes)")
+        return RC_BLOQUEIO
     try:
         matchups = _get(f"sports/{ESPORTE}/matchups")
         mercados = _get(f"sports/{ESPORTE}/markets/straight")
     except urllib.error.HTTPError as e:
         if e.code in (403, 429):
             print(f"[odds cs2] a casa respondeu {e.code}: parando sem insistir")
+            if local:
+                import time as _t
+                PAUSA_LOCAL.parent.mkdir(parents=True, exist_ok=True)
+                PAUSA_LOCAL.write_text(str(_t.time() + PAUSA_LOCAL_S), encoding="utf-8")
             return RC_BLOQUEIO
         raise
     except (urllib.error.URLError, OSError) as e:

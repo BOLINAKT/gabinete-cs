@@ -75,6 +75,9 @@ def _idade(iso: str) -> tuple:
 
 
 def _ler_pinnacle_agora() -> bool:
+    import coletar_odds_cs as co
+    if co.pausa_local_restante() > 0:      # 403 antes: nao bate de novo (usa o robo)
+        return False
     r = subprocess.run([sys.executable, "coletar_odds_cs.py", "--local"], cwd=RAIZ,
                        capture_output=True, text=True, timeout=90)
     return r.returncode == 0
@@ -185,7 +188,7 @@ def main() -> None:
         if st.button("Atualizar odds", help="Lê a Pinnacle agora (2 chamadas) e puxa o histórico do robô"):
             subprocess.run(["git", "pull", "--ff-only", "-q"], cwd=RAIZ, capture_output=True, text=True)
             st.toast("Odds lidas agora" if _ler_pinnacle_agora() else
-                     "A Pinnacle não respondeu (sem insistir) — usando a última leitura")
+                     "A Pinnacle recusou o seu PC (pausa de 6 h, sem insistir) — usando a leitura do robô")
     odds = _odds_mais_nova()
     # Jogo que acabou SOME da Pinnacle: com leitura fresca, encerrado nao aparece.
     # Ao abrir com leitura velha, le sozinho -- uma vez por MIN_RELER, nao a cada clique.
