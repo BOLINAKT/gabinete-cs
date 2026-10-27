@@ -1441,141 +1441,141 @@
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-15",
+"inicio": "2026-03-07",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 2/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-28",
+"inicio": "2026-02-28",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 2/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-01",
+"inicio": "2026-03-01",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-21",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 3/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-12",
+"inicio": "2026-03-12",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 3/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-13",
+"inicio": "2026-03-13",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-12",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 4/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-28",
+"inicio": "2026-03-28",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 4/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-29",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 5": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-17",
+"inicio": "2026-05-09",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 5/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-03",
+"inicio": "2026-05-02",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 6": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-12",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 6/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-27",
+"inicio": "2026-06-27",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 6/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-28",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 7": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-02",
+"inicio": "2026-07-25",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 7/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-16",
+"inicio": "2026-07-16",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 7/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-17",
+"inicio": "2026-07-17",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 8": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-23",
+"inicio": "2026-08-15",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 8/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-08",
+"inicio": "2026-08-08",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 8/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-09",
+"inicio": "2026-08-09",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 9": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-13",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 9/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-29",
+"inicio": "2026-08-29",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Contenders 9/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-30",
+"inicio": "2026-08-30",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 1": {
@@ -1584,9 +1584,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 1/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-02",
+"inicio": "2026-04-27",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 10": {
@@ -1595,9 +1595,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 10/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-27",
+"inicio": "2026-09-22",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 11": {
@@ -1606,9 +1606,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 11/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-12",
+"inicio": "2026-10-07",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 12": {
@@ -1617,9 +1617,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 12/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-19",
+"inicio": "2026-10-14",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 13": {
@@ -1628,9 +1628,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 13/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-03",
+"inicio": "2026-10-29",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 14": {
@@ -1639,9 +1639,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 14/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-09",
+"inicio": "2026-11-04",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 15": {
@@ -1650,9 +1650,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 15/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-24",
+"inicio": "2026-11-19",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 16": {
@@ -1661,9 +1661,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 16/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-30",
+"inicio": "2026-11-25",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 2": {
@@ -1672,9 +1672,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 2/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-17",
+"inicio": "2026-05-12",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 3": {
@@ -1683,9 +1683,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 3/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-24",
+"inicio": "2026-05-19",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 4": {
@@ -1694,9 +1694,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 4/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-08",
+"inicio": "2026-06-03",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 5": {
@@ -1705,9 +1705,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 5/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-20",
+"inicio": "2026-07-15",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 6": {
@@ -1716,9 +1716,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 6/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-26",
+"inicio": "2026-07-21",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 7": {
@@ -1727,9 +1727,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 7/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-17",
+"inicio": "2026-08-12",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 8": {
@@ -1738,9 +1738,9 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 8/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-01",
+"inicio": "2026-08-27",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/Europe/Series 9": {
@@ -1749,99 +1749,99 @@
 "tier": "B"
 },
 "CCT/2026/Europe/Series 9/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-14",
+"inicio": "2026-09-09",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/North America/Challengers 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-08",
+"inicio": "2026-11-07",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/North America/Challengers 1/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-17",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/North America/Challengers 1/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-18",
+"inicio": "2026-10-18",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/North America/Cup 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-19",
+"inicio": "2026-04-11",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 1/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-04",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-16",
+"inicio": "2026-08-08",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 2/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-01",
+"inicio": "2026-08-01",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 2/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-02",
+"inicio": "2026-08-02",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-20",
+"inicio": "2026-09-12",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 3/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-05",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 3/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-06",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-22",
+"inicio": "2026-11-14",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 4/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-07",
+"inicio": "2026-11-07",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Challengers 4/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-08",
+"inicio": "2026-11-08",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 1": {
@@ -1850,9 +1850,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 1/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-18",
+"inicio": "2026-04-18",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 2": {
@@ -1861,9 +1861,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 2/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-03",
+"inicio": "2026-05-02",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 3": {
@@ -1872,9 +1872,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 3/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-20",
+"inicio": "2026-06-20",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 4": {
@@ -1883,9 +1883,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 4/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-04",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 5": {
@@ -1894,9 +1894,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 5/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-15",
+"inicio": "2026-08-15",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 6": {
@@ -1905,21 +1905,21 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 6/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-12",
+"inicio": "2026-09-12",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 7": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-13",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 7/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-03",
+"inicio": "2026-10-03",
+"pendente": false,
 "tier": "C"
 },
 "CCT/2026/South America/Series 8": {
@@ -1928,9 +1928,9 @@
 "tier": "B"
 },
 "CCT/2026/South America/Series 8/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "COLIZEUM Atyrau/Birthday Cup/2025": {
@@ -1999,27 +1999,27 @@
 "tier": "B"
 },
 "CS Asia Championships/2026/Qualifier/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-08",
+"inicio": "2026-03-06",
+"pendente": false,
 "tier": "C"
 },
 "CS Asia Championships/2026/Qualifier/East Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-06",
+"inicio": "2026-03-06",
+"pendente": false,
 "tier": "C"
 },
 "CS Asia Championships/2026/Qualifier/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-06",
+"inicio": "2026-03-06",
+"pendente": false,
 "tier": "C"
 },
 "CS Asia Championships/2026/Qualifier/Rest of Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-06",
+"inicio": "2026-03-06",
+"pendente": false,
 "tier": "C"
 },
 "CS Asia Championships/2027": {
@@ -2034,9 +2034,9 @@
 "tier": "C"
 },
 "CTRLPOINT/2026/Pakistan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "CYBERLAND Cup/2025": {
@@ -2046,33 +2046,33 @@
 "tier": "C"
 },
 "CYBERLAND Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-15",
+"inicio": "2026-03-14",
+"pendente": false,
 "tier": "C"
 },
 "CYBERLAND Cup/2026/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-01",
+"inicio": "2026-03-01",
+"pendente": false,
 "tier": "C"
 },
 "CYBERLAND Cup/2026/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-02",
+"inicio": "2026-03-02",
+"pendente": false,
 "tier": "C"
 },
 "CYBERLAND Cup/2026/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-03",
+"inicio": "2026-03-03",
+"pendente": false,
 "tier": "C"
 },
 "CYBERLAND Cup/2026/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-04",
+"inicio": "2026-03-04",
+"pendente": false,
 "tier": "C"
 },
 "Caretos Cup/2025": {
@@ -2094,9 +2094,9 @@
 "tier": "C"
 },
 "Chaponost Tournament/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-26",
+"inicio": "2026-04-25",
+"pendente": false,
 "tier": "C"
 },
 "Chennai Esports Global Championship/2025": {
@@ -2207,19 +2207,19 @@
 "Circuito Retake/TAKEOFF/2026": {
 "fim": null,
 "inicio": null,
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "Circuito Retake/TAKEOFF/2026/Braga": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "Circuito Retake/TAKEOFF/2026/Lisbon": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-17",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "Comic Con Baltics/2025": {
@@ -2253,21 +2253,21 @@
 "tier": "C"
 },
 "Comic Con Baltics/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-23",
+"inicio": "2026-05-23",
+"pendente": false,
 "tier": "C"
 },
 "Comic Con Baltics/2026/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-25",
+"inicio": "2026-04-25",
+"pendente": false,
 "tier": "C"
 },
 "Comic Con Baltics/2026/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-02",
+"inicio": "2026-05-02",
+"pendente": false,
 "tier": "C"
 },
 "ComicCon Bulgaria/2020": {
@@ -2306,27 +2306,27 @@
 "tier": "B"
 },
 "Copenhagen Gaming Week/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-14",
+"inicio": "2026-02-12",
+"pendente": false,
 "tier": "C"
 },
 "Copenhagen Gaming Week/2026/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-14",
+"inicio": "2026-01-14",
+"pendente": false,
 "tier": "C"
 },
 "Copenhagen Gaming Week/2026/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-22",
+"inicio": "2026-01-22",
+"pendente": false,
 "tier": "C"
 },
 "Creator Showdown/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-12",
+"inicio": "2026-08-20",
+"pendente": false,
 "tier": "C"
 },
 "Cyber Games Arena/Hong Kong Masters/2025": {
@@ -2348,9 +2348,9 @@
 "tier": "C"
 },
 "Cybernauts/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-18",
+"inicio": "2026-06-17",
+"pendente": false,
 "tier": "C"
 },
 "DFRAG/Invitational/2025": {
@@ -2376,9 +2376,9 @@
 "tier": "B"
 },
 "DFRAG/Invitational/2026/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-08",
+"inicio": "2026-09-07",
+"pendente": false,
 "tier": "C"
 },
 "DFRAG/Invitational/2026/Qualifier/Last Chance": {
