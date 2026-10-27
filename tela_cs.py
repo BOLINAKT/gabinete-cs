@@ -111,7 +111,7 @@ def _pct(p) -> str:
 
 
 def html_status(*, jogos, precificados, com_valor, idade_odds, dados_ate, odds_velhas=False) -> str:
-    return ('<div class="status"><span><b>{}</b> jogos na Pinnacle</span><span><b>{}</b> precificados</span>'
+    return ('<div class="status"><span><b>{}</b> jogos (Liquipedia + Pinnacle)</span><span><b>{}</b> precificados</span>'
             '<span><b>{}</b> apostas com valor</span><span>odds lidas <b class="{}">{}</b></span>'
             '<span>mapas até <b>{}</b></span></div>').format(
         jogos, precificados, com_valor, "velho" if odds_velhas else "", escape(idade_odds), escape(dados_ate))

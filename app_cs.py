@@ -31,6 +31,7 @@ import veto_cs as vc
 RAIZ = Path(__file__).resolve().parent
 ODDS = RAIZ / "odds_cs2.json"
 ODDS_LOCAL = RAIZ / "odds_cs2_local.json"
+AGENDA = RAIZ / "agenda_cs.json"     # jogos da Liquipedia (robo, de 3 em 3 h)
 HORAS_VELHA = 6
 MIN_RELER = 30   # ao abrir, odds mais velhas que isto: le a Pinnacle sozinho (2 chamadas)
 
@@ -81,6 +82,10 @@ def _ler_pinnacle_agora() -> bool:
     r = subprocess.run([sys.executable, "coletar_odds_cs.py", "--local"], cwd=RAIZ,
                        capture_output=True, text=True, timeout=90)
     return r.returncode == 0
+
+
+def _tem_odd(j) -> bool:
+    return any(l["odd_pinnacle"] for m in j["mercados"] for l in m["lados"])
 
 
 def _odds_mais_nova():
@@ -202,7 +207,12 @@ def main() -> None:
         st.warning("Ainda não há odds coletadas. Clique em Atualizar odds.")
         return
     est = estado(_versao_dados())
-    jogos = pc.calcular(est, odds)
+    # Jogos da LIQUIPEDIA; odds da Pinnacle penduradas em quem ja tem mercado (27/10/2026)
+    try:
+        agenda = json.loads(AGENDA.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        agenda = {}
+    jogos = pc.calcular(est, pc.montar_jogos(est, agenda, odds))
     melhores = pc.melhores(jogos)
     idade, velha, _ = _idade(odds["lido_em"])
     with c1:
@@ -226,7 +236,8 @@ def main() -> None:
             rot = {j["id"]: "{} × {} · {}{}{}".format(
                 j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
                 {"ao vivo": " · AO VIVO", "encerrado": " · encerrado"}.get(j["situacao"], ""),
-                "" if j["precificado"] else " · sem preço")
+                "" if j["precificado"] else " · sem preço") + (
+                "" if _tem_odd(j) or not j["precificado"] else " · sem odd ainda")
                    for j in do_dia}
             with st.container(key="gaveta_jogo"):
                 jid = st.radio("Jogo", list(rot), format_func=rot.get, horizontal=True,

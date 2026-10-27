@@ -37,6 +37,11 @@ CANON = RAIZ / "times_canonicos.json"
 PAGINAS = RAIZ / "times_paginas.json"
 ELENCOS = RAIZ / "elencos.csv"
 ELENCOS_LIDOS = RAIZ / "elencos_lidos.json"
+# AGENDA (27/10/2026, pedido dele): os jogos vem da Liquipedia e as odds da
+# Pinnacle entram depois, quando ela abrir o mercado. Proximos jogos dos torneios
+# ativos, relidos junto com os mapas (as mesmas paginas, sem chamada a mais).
+AGENDA = RAIZ / "agenda_cs.json"
+AGENDA_DIAS = 10
 TIERS = (("S", "Category:S-Tier Tournaments"), ("A", "Category:A-Tier Tournaments"),
          ("B", "Category:B-Tier Tournaments"))
 ANO_MINIMO = 2020
@@ -129,10 +134,11 @@ def _torneios_novos(cli, indice: dict) -> int:
     return novos
 
 
-def _reler_ativos(cli, indice: dict, hoje: date) -> tuple:
+def _reler_ativos(cli, indice: dict, hoje: date, agenda: list | None = None) -> tuple:
     ativos = sorted((t for t, v in indice.items() if ativo(v, hoje)),
                     key=lambda t: indice[t]["inicio"] or "", reverse=True)
     linhas, relidas = [], set()
+    agenda = agenda if agenda is not None else []
     for t in ativos:
         d = cli(action="query", list="allpages", apprefix=t + "/", aplimit=100, apnamespace=0)
         subs = [p["title"] for p in (d.get("query") or {}).get("allpages", [])]
@@ -143,8 +149,33 @@ def _reler_ativos(cli, indice: dict, hoje: date) -> tuple:
                 indice[t].update(inicio=ini or indice[t]["inicio"], fim=fim or indice[t]["fim"])
             if "{{Match" in txt:
                 linhas.extend(ex.mapas_da_pagina(txt, pagina=pg, tier=indice[t]["tier"]))
+                agenda.extend(ex.proximos_da_pagina(txt, pagina=pg, tier=indice[t]["tier"]))
             relidas.add(pg)
     return linhas, relidas, ativos
+
+
+def gravar_agenda(novos: list, relidas: set, agora) -> int:
+    """Junta a agenda nova com a anterior (paginas NAO relidas desta vez ficam),
+    so jogos de agora-4 h ate agora+AGENDA_DIAS. Pura no calculo; grava AGENDA."""
+    ini = (agora - pd.Timedelta(hours=4)).strftime("%Y-%m-%dT%H:%M:00Z")
+    fim = (agora + pd.Timedelta(days=AGENDA_DIAS)).strftime("%Y-%m-%dT%H:%M:00Z")
+    velhos = []
+    if AGENDA.exists():
+        try:
+            velhos = [j for j in json.loads(AGENDA.read_text(encoding="utf-8")).get("jogos", [])
+                      if j.get("pagina") not in relidas]
+        except (OSError, ValueError):
+            velhos = []
+    vistos, jogos = set(), []
+    for j in sorted(novos + velhos, key=lambda j: j["inicio_utc"]):
+        k = (j["pagina"], j["time1"], j["time2"], j["inicio_utc"])
+        if k in vistos or not (ini <= j["inicio_utc"] <= fim):
+            continue
+        vistos.add(k)
+        jogos.append(j)
+    AGENDA.write_text(json.dumps({"lido_em": agora.strftime("%Y-%m-%dT%H:%M:%SZ"), "jogos": jogos},
+                                 ensure_ascii=False, indent=1), encoding="utf-8")
+    return len(jogos)
 
 
 def _listar_c(cli, indice: dict) -> int:
@@ -258,20 +289,25 @@ def main() -> int:
     # (2,5 mil mapas, 2026 bem coberto): efeito zero na regua S/A/B, e nao achou os
     # jogos "sumidos" de MIBR/Astralis. Nao vale ~600 chamadas/dia da Liquipedia.
     ap.add_argument("--coletar-c", action="store_true", help="retoma a coleta aos poucos do tier C")
+    ap.add_argument("--so-agenda", action="store_true",
+                    help="corrida leve (3 em 3 h): so torneios novos e ativos; sem C, nomes e elencos")
     a = ap.parse_args()
     hoje = date.fromisoformat(a.hoje) if a.hoje else date.today()
     cli = Cliente(a.orcamento, a.so_cache)
     indice = json.loads(INDICE.read_text(encoding="utf-8")) if INDICE.exists() else {}
     antigas = pd.read_csv(MAPAS, dtype=str)
-    rc, linhas, relidas, ativos, novos = 0, [], set(), [], 0
+    rc, linhas, relidas, ativos, novos, agenda = 0, [], set(), [], 0, []
     try:
         if not a.so_cache:   # a lista "mais recentes" nunca esta no cache
             novos = _torneios_novos(cli, indice)
-        linhas, relidas, ativos = _reler_ativos(cli, indice, hoje)
+        linhas, relidas, ativos = _reler_ativos(cli, indice, hoje, agenda)
     except (lq.Pausado, Orcamento) as e:
         print(f"[dados] parou: {type(e).__name__} {e}")
         rc = RC_PAUSA if isinstance(e, lq.Pausado) else 0
     INDICE.write_text(json.dumps(indice, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    if relidas and not a.so_cache:
+        print(f"[dados] agenda: {gravar_agenda(agenda, relidas, pd.Timestamp.now(tz='UTC').tz_localize(None))} "
+              f"proximos jogos")
     if relidas:
         tudo = substituir_paginas(antigas, [{k: str(v) if v is not None else "" for k, v in l.items()}
                                             for l in linhas], relidas)
@@ -283,7 +319,7 @@ def main() -> int:
     # TIER C com o que sobrou do orcamento (fora da regua; so treino)
     lc, rc_c, feitos_c = [], set(), 0
     pend_antes = sum(1 for v in indice.values() if isinstance(v, dict) and v.get("pendente"))
-    if rc == 0 and not a.so_cache and a.coletar_c:
+    if rc == 0 and not a.so_cache and a.coletar_c and not a.so_agenda:
         limite_total = cli.limite
         cli.limite = max(cli.usadas, limite_total - RESERVA)
         try:
@@ -303,7 +339,7 @@ def main() -> int:
         pend = sum(1 for v in indice.values() if isinstance(v, dict) and v.get("pendente"))
         # conta pelo indice: o orcamento corta no meio e o retorno nao chega
         print(f"[dados] tier C: {pend_antes - pend} torneios coletados, +{len(tudo) - len(base)} mapas; faltam {pend}")
-    if rc == 0:
+    if rc == 0 and not a.so_agenda:
         times = {l["time1"] for l in linhas} | {l["time2"] for l in linhas}
         todos = pd.read_csv(MAPAS, dtype=str, usecols=["time1", "time2"])
         try:

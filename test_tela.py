@@ -87,3 +87,23 @@ class TestMapas(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMontarJogos(unittest.TestCase):
+    def test_agenda_com_e_sem_pinnacle(self):
+        import pandas as pd
+
+        class E:   # Estado minimo: casa os nomes da Pinnacle pelo canonico
+            def casar(self, nome):
+                return ({"Liquid": "Team Liquid", "FURIA": "FURIA", "X": "X", "Y": "Y"}.get(nome), "exato")
+        agenda = {"jogos": [
+            {"pagina": "PGL/2026/Masters", "time1": "furia", "time2": "tl", "inicio_utc": "2026-10-28T14:00:00Z", "bo": 3},
+            {"pagina": "PGL/2026/Masters", "time1": "mongolz", "time2": "nemiga", "inicio_utc": "2026-10-28T11:00:00Z", "bo": 3}]}
+        odds = {"lido_em": "2026-10-28T08:00:00Z", "linhas": [], "jogos": [
+            {"id": 7, "casa": "Liquid", "fora": "FURIA", "liga": "CS2 - PGL", "bo": 3, "inicio_utc": "2026-10-28T14:15:00Z"},
+            {"id": 8, "casa": "X", "fora": "Y", "liga": "CS2 - STK", "bo": 3, "inicio_utc": "2026-10-28T15:00:00Z"}]}
+        m = pc.montar_jogos(E(), agenda, odds, agora=pd.Timestamp("2026-10-28 08:00"))
+        fontes = {(j["casa"], j["fonte"]) for j in m["jogos"]}
+        self.assertIn(("Liquid", "liquipedia+pinnacle"), fontes)   # casou: usa o jogo da Pinnacle
+        self.assertIn(("X", "pinnacle"), fontes)                   # so na Pinnacle: continua
+        self.assertEqual(len(m["jogos"]), 3)                        # MongolZ x Nemiga entra sem odd

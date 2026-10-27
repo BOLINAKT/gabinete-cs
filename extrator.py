@@ -15,7 +15,7 @@ Fonte dos dados: Liquipedia (CC-BY-SA 3.0) -- citar ao publicar qualquer coisa.
 from __future__ import annotations
 
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, Iterator, List, Optional
 
 
@@ -138,3 +138,58 @@ def mapas_da_pagina(texto: str, *, pagina: str, tier: str) -> List[dict]:
                 "hltv": c.get("hltv", ""),
             })
     return linhas
+
+
+# ---- AGENDA (27/10/2026): os PROXIMOS jogos, com hora em UTC ---------------------
+# Pedido dele: "pegar os jogos pela liquipedia e depois so adicionar as odds".
+# A Liquipedia escreve a hora no fuso do torneio ("13:00 {{Abbr/EET}}"); o _data
+# acima ignora o fuso (serve para ordenar mapas), a agenda precisa de UTC.
+FUSOS_H = {"UTC": 0, "GMT": 0, "WET": 0, "WEST": 1, "BST": 1, "CET": 1, "CEST": 2, "EET": 2, "EEST": 3,
+           "SAST": 2, "MSK": 3, "AST": 3, "GST": 4, "ALMT": 5, "UZT": 5, "IST": 5.5, "ICT": 7,
+           "SGT": 8, "HKT": 8, "MYT": 8, "WITA": 8, "ULAT": 8, "KST": 9, "AEST": 10, "AEDT": 11,
+           "BRT": -3, "ART": -3, "EDT": -4, "EST": -5, "CDT": -5, "PET": -5, "PDT": -7, "PST": -8}
+_ASIA = ("asia", "china", "chinese", "cn", "east", "oceania", "mongolia", "japan", "korea")
+
+
+def data_utc(v: str, pagina: str = "") -> Optional[str]:
+    """'October 28, 2026 - 13:00 {{Abbr/EET}}' -> '2026-10-28T11:00:00Z'. Sem fuso: UTC.
+    CST/CT e ambiguo (China +8 x EUA -6): decide pelo nome da pagina."""
+    s = _data(v)
+    if not s:
+        return None
+    m = re.search(r"Abbr/([A-Za-z]+)", v or "")
+    ab = (m.group(1).upper() if m else "UTC")
+    if ab in ("CST", "CT"):
+        h = 8 if any(k in str(pagina).lower() for k in _ASIA) else -6
+    else:
+        h = FUSOS_H.get(ab, 0)
+    dt = datetime.strptime(s, "%Y-%m-%d %H:%M") - timedelta(hours=h)
+    return dt.strftime("%Y-%m-%dT%H:%M:00Z")
+
+
+def proximos_da_pagina(texto: str, *, pagina: str, tier: str) -> List[dict]:
+    """Os {{Match}} AINDA NAO decididos com os dois times definidos."""
+    fora = []
+    for bloco in blocos(texto, "Match"):
+        c = campos(bloco)
+        t1, t2 = _time(c.get("opponent1", "")), _time(c.get("opponent2", ""))
+        if not (t1 and t2) or "tbd" in (t1, t2) or t1 == t2:
+            continue
+        if str(c.get("finished", "")).lower() == "true" or c.get("winner") in ("1", "2"):
+            continue
+        quando = data_utc(c.get("date", ""), pagina)
+        if not quando:
+            continue
+        mapas = [k for k in c if re.fullmatch(r"map\d+", k)]
+        try:
+            bo = int(str(c.get("bestof", "")).strip() or len(mapas) or 1)
+        except ValueError:
+            bo = len(mapas) or 1
+        terminados = 0
+        for k in mapas:
+            mb = next(blocos(c[k], "Map"), None)
+            if mb and str(campos(mb).get("finished", "")).lower() == "true":
+                terminados += 1
+        fora.append({"pagina": pagina, "tier": tier, "inicio_utc": quando, "time1": t1, "time2": t2,
+                     "bo": bo, "mapas_jogados": terminados})
+    return fora

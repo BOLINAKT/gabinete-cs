@@ -1,0 +1,52 @@
+# AGENDA DE CS2 (27/10/2026, pedido dele: "pegar os jogos pela liquipedia e depois
+# so adicionar as odds"). A cada 3 h: torneios novos + reler os ATIVOS (mapas
+# novos e PROXIMOS jogos -> agenda_cs.json). Sem tier C, nomes e elencos (isso e
+# do robo diario). Mesma fila do robo de dados: os dois nunca gravam juntos.
+name: Agenda CS2 (Liquipedia)
+
+on:
+  schedule:
+    - cron: "33 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados-cs2
+  cancel-in-progress: false
+
+jobs:
+  agenda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Dependencias
+        run: pip install --quiet pandas
+      - name: Agenda e mapas dos torneios ativos
+        run: |
+          set +e
+          python atualizar_dados.py --orcamento 60 --so-agenda
+          rc=$?
+          set -e
+          if [ "$rc" -eq 75 ]; then
+            echo "::notice::A Liquipedia pediu pausa (429). O que foi lido ate ali fica gravado."
+            exit 0
+          fi
+          exit "$rc"
+      - name: Commitar
+        run: |
+          git config user.name "Robo GabineteCS"
+          git config user.email "robo@gabinete.local"
+          git add agenda_cs.json mapas_cs.csv torneios_cs.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Robô: agenda de CS2 (Liquipedia)"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash || exit 1
+          done
+          git push

@@ -37,3 +37,21 @@ class TestAtualizar(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestAgenda(unittest.TestCase):
+    def test_proximos_so_os_nao_decididos_e_hora_em_utc(self):
+        import extrator as ex
+        txt = ("{{Match|opponent1={{TeamOpponent|mongolz}}|opponent2={{TeamOpponent|nemiga}}"
+               "|date=October 28, 2026 - 13:00 {{Abbr/EET}}|map1={{Map|map=|finished=}}|map2={{Map|map=}}|map3={{Map|map=}}}}"
+               "{{Match|opponent1={{TeamOpponent|tl}}|opponent2={{TeamOpponent|legacy}}|finished=true"
+               "|date=October 26, 2026 - 13:00 {{Abbr/EET}}}}"
+               "{{Match|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|navi}}|date=October 29, 2026 - 13:00}}")
+        p = ex.proximos_da_pagina(txt, pagina="PGL/2026/Masters", tier="S")
+        self.assertEqual([(j["time1"], j["time2"], j["inicio_utc"], j["bo"]) for j in p],
+                         [("mongolz", "nemiga", "2026-10-28T11:00:00Z", 3)])
+
+    def test_cst_pelo_contexto_da_pagina(self):
+        import extrator as ex
+        self.assertEqual(ex.data_utc("July 5, 2026 - 20:00 {{Abbr/CST}}", "IEM/2026/China"), "2026-07-05T12:00:00Z")
+        self.assertEqual(ex.data_utc("July 5, 2026 - 20:00 {{Abbr/CST}}", "IEM/2026/Dallas"), "2026-07-06T02:00:00Z")

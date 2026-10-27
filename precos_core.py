@@ -205,6 +205,47 @@ def situacao(inicio_utc, agora=None) -> str:
     return "ao vivo" if agora < ini + pd.Timedelta(hours=HORAS_DE_JOGO) else "encerrado"
 
 
+JANELA_CASAR_H = 8   # Pinnacle x Liquipedia: mesma dupla, inicio a ate 8 h (fuso/atraso)
+
+
+def _nome_torneio(pagina: str) -> str:
+    return str(pagina).replace("_", " ").replace("/", " · ")
+
+
+def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 3) -> dict:
+    """Os jogos VEM DA LIQUIPEDIA e as odds da Pinnacle entram quando ela abrir o
+    mercado (27/10/2026, pedido dele). Devolve no formato das odds ({lido_em, jogos,
+    linhas}) para o calcular() de sempre:
+      - jogo da agenda COM jogo da Pinnacle (mesma dupla, ate JANELA_CASAR_H): usa o
+        da Pinnacle (id e casa/fora dela -- e assim que as odds batem);
+      - jogo da agenda SEM Pinnacle: entra sem odd ("lp-..."), so com o preco do modelo;
+      - jogo da Pinnacle fora da agenda (ex.: torneio tier C): entra como antes."""
+    agora = agora if agora is not None else pd.Timestamp.utcnow().tz_localize(None)
+    mapa = json.loads((RAIZ / "times_canonicos.json").read_text(encoding="utf-8"))
+    pin = list(odds.get("jogos") or [])
+    casados = {pg["id"]: frozenset(t for t, _ in (est.casar(pg["casa"]), est.casar(pg["fora"])) if t) for pg in pin}
+    usados, fora = set(), []
+    for a in (agenda or {}).get("jogos", []):
+        ini = pd.Timestamp(a["inicio_utc"]).tz_localize(None)
+        if not (agora - pd.Timedelta(hours=4) <= ini <= agora + pd.Timedelta(days=dias)):
+            continue
+        ta, tb = be.canonico(a["time1"], mapa), be.canonico(a["time2"], mapa)
+        par = frozenset((ta, tb))
+        g = next((pg for pg in pin if pg["id"] not in usados and casados[pg["id"]] == par and pg.get("inicio_utc")
+                  and abs(pd.Timestamp(pg["inicio_utc"]).tz_localize(None) - ini) <= pd.Timedelta(hours=JANELA_CASAR_H)),
+                 None)
+        if g:
+            usados.add(g["id"])
+            fora.append({**g, "fonte": "liquipedia+pinnacle"})
+        else:
+            fora.append({"id": f"lp-{a['pagina']}-{a['time1']}-{a['time2']}-{a['inicio_utc']}",
+                         "liga": _nome_torneio(a["pagina"]), "casa": ta, "fora": tb, "bo": a.get("bo") or 3,
+                         "inicio_utc": a["inicio_utc"], "fonte": "liquipedia"})
+    fora += [{**pg, "fonte": "pinnacle"} for pg in pin if pg["id"] not in usados]
+    return {"lido_em": odds.get("lido_em") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "jogos": fora, "linhas": odds.get("linhas") or []}
+
+
 def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
     """Pura sobre o Estado: um dict por jogo, com mercados e fichas dos dois times."""
     hoje = hoje if hoje is not None else pd.Timestamp.now().normalize()
@@ -225,6 +266,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
                 "situacao": situacao(j.get("inicio_utc"), agora),
+                "fonte": j.get("fonte", "pinnacle"),
                 "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": [],
                 "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
                 "qualificatoria": e_qualificatoria(j.get("liga") or "")}
