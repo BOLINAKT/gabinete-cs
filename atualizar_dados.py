@@ -254,6 +254,10 @@ def main() -> int:
     ap.add_argument("--orcamento", type=int, default=80)
     ap.add_argument("--hoje", default=None)
     ap.add_argument("--so-cache", action="store_true", help="teste: so o cache, sem rede")
+    # 27/10/2026: coleta do tier C DESLIGADA por padrao -- previa com 237 torneios
+    # (2,5 mil mapas, 2026 bem coberto): efeito zero na regua S/A/B, e nao achou os
+    # jogos "sumidos" de MIBR/Astralis. Nao vale ~600 chamadas/dia da Liquipedia.
+    ap.add_argument("--coletar-c", action="store_true", help="retoma a coleta aos poucos do tier C")
     a = ap.parse_args()
     hoje = date.fromisoformat(a.hoje) if a.hoje else date.today()
     cli = Cliente(a.orcamento, a.so_cache)
@@ -279,7 +283,7 @@ def main() -> int:
     # TIER C com o que sobrou do orcamento (fora da regua; so treino)
     lc, rc_c, feitos_c = [], set(), 0
     pend_antes = sum(1 for v in indice.values() if isinstance(v, dict) and v.get("pendente"))
-    if rc == 0 and not a.so_cache:
+    if rc == 0 and not a.so_cache and a.coletar_c:
         limite_total = cli.limite
         cli.limite = max(cli.usadas, limite_total - RESERVA)
         try:

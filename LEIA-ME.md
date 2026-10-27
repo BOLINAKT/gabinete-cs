@@ -379,6 +379,16 @@ vazias na própria Liquipedia em 25/10 (PGL Summer etc.) — não é falha do ex
   vantagem fica entre 1% e 20%. Aba "Modelo × Pinnacle" no app. Primeiras 6
   previsões gravadas em 26/10 18:5x UTC.
 
+## Tier C: prévia e decisão (27/10/2026)
+
+237 de 908 torneios C coletados (2,5 mil mapas de C "puro", do mais recente para o
+mais antigo — 2026 bem coberto). Treino com × sem C, régua S/A/B: desde 07/2025
+mapa −0,0000 [−0,0012; +0,0012], série −0,0007; desde 2026 igual. E não achou os
+jogos "sumidos": MIBR (19/09) e Astralis (19/08) seguem com o mesmo último jogo.
+**Coleta do C desligada** (opção `--coletar-c` para retomar); robô de dados volta a 1
+corrida/dia, 120 chamadas. O C "dentro de evento S/A/B" (4.212 mapas, fases online
+e qualificatórias que a Liquipedia classifica C) continua no treino, como sempre.
+
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
 1. ✔ margem em rounds
 2. ✘ taxa por mapa pós-veto (real, +0,0007, abaixo da régua)
