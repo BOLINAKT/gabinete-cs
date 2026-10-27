@@ -360,3 +360,67 @@ def melhores(jogos, minimo=1.0, maximo=20.0) -> list:
                 if v is not None and minimo <= v <= maximo:
                     fora.append({**l, "mercado": m["mercado"], "jogo": j})
     return sorted(fora, key=lambda x: -x["vantagem"])
+
+
+# ---- OUTRAS CASAS (OddsPapi, 27/10/2026) -----------------------------------------
+# A Pinnacle e a REGUA (preco justo); o valor esta nas casas moles. Para cada casa
+# DELE, a versao brasileira (".bet.br") se existir, senao a principal.
+MARCAS = (("pinnacle", "Pinnacle"), ("bet365", "bet365"), ("superbet", "Superbet"),
+          ("polymarket", "Polymarket"), ("estrelabet", "Estrela Bet"), ("blaze", "Blaze"),
+          ("betano", "Betano"), ("stake", "Stake"))
+MERCADO_PERIODO = {"171": 0, "1747": 1, "1749": 2, "1751": 3}
+
+
+def _versao_da_marca(casas: dict, marca: str):
+    for slug in (f"{marca}.bet.br", marca):
+        if slug in casas:
+            return slug
+    return None
+
+
+def outras_casas(jogo: dict, casas_jogos: list, est: Estado) -> list:
+    """Linhas {mercado, periodo, casa, odd_casa, odd_fora, valor_pin_*, valor_mod_*} do
+    jogo do app (orientacao casa/fora DELE), casando o jogo da OddsPapi pela dupla e hora."""
+    if not jogo.get("inicio_utc"):
+        return []
+    ini = pd.Timestamp(jogo["inicio_utc"]).tz_localize(None)
+    ta, tb = jogo["casou"][0][0], jogo["casou"][1][0]
+    if not (ta and tb):
+        return []
+    alvo = None
+    for g in casas_jogos:
+        if not g.get("inicio_utc"):
+            continue
+        t1, t2 = est.casar(g["time1"])[0], est.casar(g["time2"])[0]
+        if {t1, t2} == {ta, tb} and abs(pd.Timestamp(g["inicio_utc"]).tz_localize(None) - ini) <= pd.Timedelta(hours=8):
+            alvo, invertido = g, (t1 == tb)
+            break
+    if alvo is None:
+        return []
+    merc = {m["periodo"]: m for m in jogo["mercados"]}
+    fora = []
+    for mid, per in MERCADO_PERIODO.items():
+        # preco justo da Pinnacle DO MESMO INSTANTE das outras casas (a da propria
+        # OddsPapi); a do nosso robo so na falta -- momentos diferentes inventam valor
+        m = merc.get(per)
+        p_pin = None
+        if "pinnacle" in alvo["casas"] and mid in alvo["casas"]["pinnacle"]:
+            o1, o2 = alvo["casas"]["pinnacle"][mid][::-1] if invertido else alvo["casas"]["pinnacle"][mid]
+            p_pin = (1 / o1) / (1 / o1 + 1 / o2)
+        elif m:
+            p_pin = m["lados"][0]["p_pinnacle"]
+        p_mod = m["lados"][0]["p_modelo"] if m else None
+        for marca, nome in MARCAS:
+            slug = _versao_da_marca(alvo["casas"], marca)
+            if not slug or mid not in alvo["casas"][slug]:
+                continue
+            o1, o2 = alvo["casas"][slug][mid][::-1] if invertido else alvo["casas"][slug][mid]
+            lin = {"mercado": "Série" if per == 0 else f"Mapa {per}", "periodo": per, "casa": nome, "slug": slug,
+                   "odd_casa": o1, "odd_fora": o2}
+            for lado, odd, p_pin_l, p_mod_l in (("casa", o1, p_pin, p_mod),
+                                               ("fora", o2, None if p_pin is None else 1 - p_pin,
+                                                None if p_mod is None else 1 - p_mod)):
+                lin[f"valor_pin_{lado}"] = None if p_pin_l is None else (p_pin_l * odd - 1) * 100
+                lin[f"valor_mod_{lado}"] = None if p_mod_l is None else (p_mod_l * odd - 1) * 100
+            fora.append(lin)
+    return fora

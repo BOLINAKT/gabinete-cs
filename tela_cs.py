@@ -405,6 +405,31 @@ def altura_rounds(linhas) -> int:
     return 50 + 47 * max(1, len(_par_rounds(linhas)))
 
 
+def html_outras_casas(j, linhas) -> str:
+    """As casas DELE x o preco justo da Pinnacle (e o modelo). Verde: paga mais que o
+    justo da Pinnacle; estrela: o modelo TAMBEM ve valor."""
+    if not linhas:
+        return '<div class="nada">Nenhuma das suas casas tem este jogo na leitura atual (OddsPapi).</div>'
+
+    def cel(odd, vp, vm):
+        cls = "alto" if (vp is not None and vp > 0) else ""
+        est = " ★" if (vp is not None and vp > 0 and vm is not None and vm > 0) else ""
+        vp_txt = "-" if vp is None else f"{vp:+.1f}%".replace(".", ",")
+        return ('<td class="{}"><span class="p">{:.2f}{}</span><span class="q">vs Pinnacle {}</span></td>'
+                .format(cls, odd, est, vp_txt))
+    corpo = "".join(
+        '<tr><td>{}</td><td class="mapa" style="text-align:left">{}</td>{}{}</tr>'.format(
+            escape(l["mercado"]), escape(l["casa"]),
+            cel(l["odd_casa"], l["valor_pin_casa"], l["valor_mod_casa"]),
+            cel(l["odd_fora"], l["valor_pin_fora"], l["valor_mod_fora"]))
+        for l in sorted(linhas, key=lambda l: (l["periodo"], l["casa"] != "Pinnacle", l["casa"])))
+    return (CSS_MAPAS + '<div class="mapas"><table class="mt"><tr><th>Mercado</th><th>Casa</th>'
+            '<th>{}</th><th>{}</th></tr>'.format(escape(j["casa"]), escape(j["fora"])) + corpo + '</table></div>'
+            '<div class="nota">Odds das suas casas (OddsPapi, de 3 em 3 h). <b>Verde</b>: a casa paga MAIS que o '
+            'preço justo da Pinnacle (sem margem) — é aposta de valor pela régua do mercado. <b>★</b>: o modelo '
+            'também vê valor nesse preço. A medição de qual dos dois acerta mais vem com os resultados.</div>')
+
+
 def altura_melhores(n, limite=15) -> int:
     return 34 + 47 * max(1, min(n, limite)) + 70
 

@@ -32,6 +32,7 @@ RAIZ = Path(__file__).resolve().parent
 ODDS = RAIZ / "odds_cs2.json"
 ODDS_LOCAL = RAIZ / "odds_cs2_local.json"
 AGENDA = RAIZ / "agenda_cs.json"     # jogos da Liquipedia (robo, de 3 em 3 h)
+CASAS = RAIZ / "odds_casas_cs2.json"  # outras casas (OddsPapi, robo de 3 em 3 h)
 HORAS_VELHA = 6
 MIN_RELER = 30   # ao abrir, odds mais velhas que isto: le a Pinnacle sozinho (2 chamadas)
 
@@ -134,6 +135,17 @@ def _aba_modelo_pinnacle() -> None:
                         "aposta": l["apostou"] or "", "lucro": round(l["lucro"], 2)}
                        for l in sorted(pl["linhas"], key=lambda l: l["inicio_utc"], reverse=True)])
     st.dataframe(df, hide_index=True, width="stretch")
+
+
+def _bloco_outras_casas(est, j) -> None:
+    try:
+        casas = json.loads(CASAS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return
+    linhas = pc.outras_casas(j, casas.get("jogos", []), est)
+    st.markdown("##### Suas casas × Pinnacle")
+    components.html(tl.pagina(tl.html_outras_casas(j, linhas)),
+                    height=60 + 46 * max(1, len(linhas)) + 70, scrolling=False)
 
 
 def _bloco_rounds(j, odds) -> None:
@@ -248,6 +260,7 @@ def main() -> None:
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            _bloco_outras_casas(est, j)
             _bloco_rounds(j, odds)
             _bloco_veto(est, j)
             st.markdown("##### Mapas")
