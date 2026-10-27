@@ -7,6 +7,7 @@ name: Dados CS2 (Liquipedia)
 on:
   schedule:
     - cron: "41 9 * * *"
+    - cron: "41 21 * * *"   # 2a corrida enquanto o tier C e coletado (27/10: ele pediu completar)
   workflow_dispatch: {}
 
 permissions:
@@ -30,7 +31,7 @@ jobs:
       - name: Atualizar mapas, nomes e elencos
         run: |
           set +e
-          python atualizar_dados.py --orcamento 120
+          python atualizar_dados.py --orcamento 300 --coletar-c
           rc=$?
           set -e
           if [ "$rc" -eq 75 ]; then

@@ -386,7 +386,7 @@ mais antigo — 2026 bem coberto). Treino com × sem C, régua S/A/B: desde 07/2
 mapa −0,0000 [−0,0012; +0,0012], série −0,0007; desde 2026 igual. E não achou os
 jogos "sumidos": MIBR (19/09) e Astralis (19/08) seguem com o mesmo último jogo.
 **Coleta do C desligada** (opção `--coletar-c` para retomar); robô de dados volta a 1
-corrida/dia, 120 chamadas. O C "dentro de evento S/A/B" (4.212 mapas, fases online
+corrida/dia, 120 chamadas. **Religada no mesmo dia a pedido dele** (completar os 908 para fechar o teste com tudo): 2 corridas/dia, 300 chamadas, `--coletar-c`. O C "dentro de evento S/A/B" (4.212 mapas, fases online
 e qualificatórias que a Liquipedia classifica C) continua no treino, como sempre.
 
 ## Plano (autonomia dada por ele em 26/10: "a odd mais precisa possível")
