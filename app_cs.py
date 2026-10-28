@@ -144,6 +144,12 @@ def _bloco_outras_casas(est, j) -> None:
         return
     linhas = pc.outras_casas(j, casas.get("jogos", []), est)
     st.markdown("##### Suas casas × Pinnacle")
+    # 28/10/2026, ele: "so estou usando basicamente a stake e polymarket". A Pinnacle fica
+    # sempre, como regua.
+    nomes = [n for _, n in pc.MARCAS if n != "Pinnacle"]
+    escolhidas = st.multiselect("Casas que você usa (a Pinnacle entra sempre, como régua)", nomes,
+                                default=["Stake", "Polymarket"], key="cs_casas_escolhidas")
+    linhas = [l for l in linhas if l["casa"] == "Pinnacle" or l["casa"] in escolhidas]
     components.html(tl.pagina(tl.html_outras_casas(j, linhas)),
                     height=60 + 46 * max(1, len(linhas)) + 70, scrolling=False)
 

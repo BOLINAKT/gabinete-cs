@@ -107,3 +107,13 @@ class TestMontarJogos(unittest.TestCase):
         self.assertIn(("Liquid", "liquipedia+pinnacle"), fontes)   # casou: usa o jogo da Pinnacle
         self.assertIn(("X", "pinnacle"), fontes)                   # so na Pinnacle: continua
         self.assertEqual(len(m["jogos"]), 3)                        # MongolZ x Nemiga entra sem odd
+
+
+class TestMelhorOddDasCasas(unittest.TestCase):
+    def test_selo_melhor_na_maior_odd_de_cada_lado(self):
+        import tela_cs as tl
+        L = [{"mercado": "Série", "periodo": 0, "casa": c, "odd_casa": a, "odd_fora": b, "valor_pin_casa": 0.0,
+              "valor_pin_fora": 0.0, "valor_mod_casa": None, "valor_mod_fora": None}
+             for c, a, b in (("Pinnacle", 1.60, 2.70), ("Stake", 1.55, 2.50), ("Polymarket", 1.52, 2.62))]
+        h = tl.html_outras_casas({"casa": "A", "fora": "B"}, L)
+        self.assertEqual(h.count('class="top"'), 2)      # Stake 1,55 e Polymarket 2,62; Pinnacle nao conta
