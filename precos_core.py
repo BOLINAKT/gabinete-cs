@@ -415,6 +415,10 @@ def outras_casas(jogo: dict, casas_jogos: list, est: Estado) -> list:
             if not slug or mid not in alvo["casas"][slug]:
                 continue
             o1, o2 = alvo["casas"][slug][mid][::-1] if invertido else alvo["casas"][slug][mid]
+            if 1 / o1 + 1 / o2 > 1.15:
+                # cotacao furada (28/10/2026: Polymarket 1,85 x 1,04 = 150%, livro vazio de
+                # um lado); casa de verdade fica em 100-108%
+                continue
             lin = {"mercado": "Série" if per == 0 else f"Mapa {per}", "periodo": per, "casa": nome, "slug": slug,
                    "odd_casa": o1, "odd_fora": o2}
             for lado, odd, p_pin_l, p_mod_l in (("casa", o1, p_pin, p_mod),
