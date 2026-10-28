@@ -212,14 +212,17 @@ def _nome_torneio(pagina: str) -> str:
     return str(pagina).replace("_", " ").replace("/", " · ")
 
 
-def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 3) -> dict:
+def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 3, poly: dict = None) -> dict:
     """Os jogos VEM DA LIQUIPEDIA e as odds da Pinnacle entram quando ela abrir o
     mercado (27/10/2026, pedido dele). Devolve no formato das odds ({lido_em, jogos,
     linhas}) para o calcular() de sempre:
       - jogo da agenda COM jogo da Pinnacle (mesma dupla, ate JANELA_CASAR_H): usa o
         da Pinnacle (id e casa/fora dela -- e assim que as odds batem);
       - jogo da agenda SEM Pinnacle: entra sem odd ("lp-..."), so com o preco do modelo;
-      - jogo da Pinnacle fora da agenda (ex.: torneio tier C): entra como antes."""
+      - jogo da Pinnacle fora da agenda (ex.: torneio tier C): entra como antes;
+      - jogo SO da Polymarket (29/10/2026, ele: "talvez pegar os jogos da polymarket? ja que
+        ela pega todos os jogos" -- ex.: Aurora Young Blud x DimoniX): entra com o preco
+        dela; se o modelo nao conhece os times, aparece sem preco do modelo e avisa."""
     agora = agora if agora is not None else pd.Timestamp.utcnow().tz_localize(None)
     mapa = json.loads((RAIZ / "times_canonicos.json").read_text(encoding="utf-8"))
     pin = list(odds.get("jogos") or [])
@@ -242,6 +245,35 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
                          "liga": _nome_torneio(a["pagina"]), "casa": ta, "fora": tb, "bo": a.get("bo") or 3,
                          "inicio_utc": a["inicio_utc"], "fonte": "liquipedia"})
     fora += [{**pg, "fonte": "pinnacle"} for pg in pin if pg["id"] not in usados]
+
+    def _chave(nome):
+        t = est.casar(nome)[0]
+        return t or be.canonico(nome, mapa) or str(nome).strip().lower()
+
+    def _ts(x):
+        t = pd.Timestamp(x)
+        return t.tz_convert(None) if t.tzinfo is not None else t
+    for p in (poly or {}).get("partidas", []):
+        if not p.get("inicio_utc"):
+            continue
+        ini = _ts(p["inicio_utc"])
+        if not (agora - pd.Timedelta(hours=4) <= ini <= agora + pd.Timedelta(days=dias)):
+            continue
+        par = frozenset((_chave(p["time_a"]), _chave(p["time_b"])))
+        dono = next((j for j in fora if j.get("inicio_utc")
+                     and frozenset((_chave(j["casa"]), _chave(j["fora"]))) == par
+                     and abs(_ts(j["inicio_utc"]) - ini) <= pd.Timedelta(hours=JANELA_CASAR_H)), None)
+        info = {"p_a": p.get("p_a"), "p_b": p.get("p_b"), "time_a": p["time_a"], "time_b": p["time_b"],
+                "spread": p.get("spread"), "liquidez": p.get("liquidez")}
+        if dono is not None:
+            # a orientacao: o time_a da Polymarket e a casa ou a fora deste jogo?
+            dono.setdefault("poly", dict(info, invertido=_chave(p["time_a"]) != _chave(dono["casa"])))
+            continue
+        info["invertido"] = False
+        ta, tb = est.casar(p["time_a"])[0] or p["time_a"], est.casar(p["time_b"])[0] or p["time_b"]
+        fora.append({"id": f"pm-{p.get('evento') or (p['time_a'] + '-' + p['time_b'])}",
+                     "liga": p.get("torneio") or "", "casa": ta, "fora": tb, "bo": p.get("bo") or 3,
+                     "inicio_utc": p["inicio_utc"], "fonte": "polymarket", "poly": info})
     return {"lido_em": odds.get("lido_em") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "jogos": fora, "linhas": odds.get("linhas") or []}
 
@@ -266,7 +298,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
                 "situacao": situacao(j.get("inicio_utc"), agora),
-                "fonte": j.get("fonte", "pinnacle"),
+                "fonte": j.get("fonte", "pinnacle"), "poly": j.get("poly"),
                 "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": [],
                 "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
                 "qualificatoria": e_qualificatoria(j.get("liga") or "")}

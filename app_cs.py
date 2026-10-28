@@ -33,6 +33,7 @@ ODDS = RAIZ / "odds_cs2.json"
 ODDS_LOCAL = RAIZ / "odds_cs2_local.json"
 AGENDA = RAIZ / "agenda_cs.json"     # jogos da Liquipedia (robo, de 3 em 3 h)
 CASAS = RAIZ / "odds_casas_cs2.json"  # outras casas (OddsPapi, robo de 3 em 3 h)
+POLY = RAIZ / "polymarket_cs.json"    # jogos e precos da Polymarket (robo, de hora em hora)
 HORAS_VELHA = 6
 MIN_RELER = 30   # ao abrir, odds mais velhas que isto: le a Pinnacle sozinho (2 chamadas)
 
@@ -137,6 +138,22 @@ def _aba_modelo_pinnacle() -> None:
     st.dataframe(df, hide_index=True, width="stretch")
 
 
+def _bloco_polymarket(j) -> None:
+    """O preco da Polymarket do jogo (do robo polymarket_cs.yml), na orientacao casa/fora."""
+    pm = j.get("poly")
+    if not pm or pm.get("p_a") is None:
+        return
+    pa, pb = (pm["p_b"], pm["p_a"]) if pm.get("invertido") else (pm["p_a"], pm["p_b"])
+    if not (pa and pb):
+        return
+    liq = pm.get("liquidez")
+    st.caption("**Polymarket (vencedor):** {} {:.2f} · {} {:.2f}{}{}".format(
+        j["casa"], 1 / pa, j["fora"], 1 / pb,
+        "" if pm.get("spread") is None else " · spread {:.0f} pontos".format(100 * pm["spread"]),
+        "" if liq is None else " · liquidez US$ {:,.0f}".format(liq).replace(",", ".")
+    ) + ("" if j.get("precificado") else " — o modelo não tem dados destes times: sem fair."))
+
+
 def _bloco_outras_casas(est, j) -> None:
     try:
         casas = json.loads(CASAS.read_text(encoding="utf-8"))
@@ -230,7 +247,12 @@ def main() -> None:
         agenda = json.loads(AGENDA.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         agenda = {}
-    jogos = pc.calcular(est, pc.montar_jogos(est, agenda, odds))
+    # 29/10/2026: jogos que SO a Polymarket tem (o robo polymarket_cs.yml, de hora em hora)
+    try:
+        poly = json.loads(POLY.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        poly = {}
+    jogos = pc.calcular(est, pc.montar_jogos(est, agenda, odds, poly=poly))
     melhores = pc.melhores(jogos)
     idade, velha, _ = _idade(odds["lido_em"])
     with c1:
@@ -266,6 +288,7 @@ def main() -> None:
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            _bloco_polymarket(j)
             _bloco_outras_casas(est, j)
             _bloco_rounds(j, odds)
             _bloco_veto(est, j)

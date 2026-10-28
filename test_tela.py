@@ -108,6 +108,28 @@ class TestMontarJogos(unittest.TestCase):
         self.assertIn(("X", "pinnacle"), fontes)                   # so na Pinnacle: continua
         self.assertEqual(len(m["jogos"]), 3)                        # MongolZ x Nemiga entra sem odd
 
+    def test_jogo_so_da_polymarket_entra(self):
+        # 29/10/2026: Aurora Young Blud x DimoniX so existia na Polymarket
+        import pandas as pd
+
+        class E:
+            def casar(self, nome):
+                return ({"Liquid": "Team Liquid", "FURIA": "FURIA"}.get(nome), "exato")
+        odds = {"lido_em": "2026-10-28T08:00:00Z", "linhas": [], "jogos": [
+            {"id": 7, "casa": "Liquid", "fora": "FURIA", "liga": "CS2 - PGL", "bo": 3, "inicio_utc": "2026-10-28T14:15:00Z"}]}
+        poly = {"partidas": [
+            {"time_a": "Aurora Young Blud", "time_b": "DimoniX", "p_a": 0.68, "p_b": 0.32, "bo": 3,
+             "torneio": "European Pro League", "inicio_utc": "2026-10-28T16:00:00Z", "evento": "cs2-ayb-dmx"},
+            {"time_a": "FURIA", "time_b": "Liquid", "p_a": 0.55, "p_b": 0.45, "bo": 3,
+             "torneio": "PGL", "inicio_utc": "2026-10-28T14:00:00Z", "evento": "cs2-fur-liq"}]}
+        m = pc.montar_jogos(E(), {}, odds, agora=pd.Timestamp("2026-10-28 08:00"), poly=poly)
+        self.assertEqual(len(m["jogos"]), 2)                        # FURIA x Liquid nao duplica
+        so_poly = next(j for j in m["jogos"] if j["fonte"] == "polymarket")
+        self.assertEqual(so_poly["casa"], "Aurora Young Blud")
+        self.assertEqual(so_poly["poly"]["p_a"], 0.68)
+        pin = next(j for j in m["jogos"] if j["fonte"] == "pinnacle")
+        self.assertEqual(pin["poly"]["p_a"], 0.55)                  # o preco da Polymarket pendura no jogo
+
 
 class TestMelhorOddDasCasas(unittest.TestCase):
     def test_selo_melhor_na_maior_odd_de_cada_lado(self):
