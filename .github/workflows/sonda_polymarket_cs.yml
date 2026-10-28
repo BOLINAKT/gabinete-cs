@@ -1,0 +1,33 @@
+# SONDA da Polymarket para CS2 (29/10/2026): so manual. Descobre a tag e o formato
+# dos titulos antes do coletor de verdade.
+name: Sonda Polymarket CS2
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Sondar
+        run: python sonda_polymarket_cs.py
+      - name: Commitar o resultado
+        run: |
+          git config user.name "Robo GabineteCS"
+          git config user.email "robo@gabinete.local"
+          [ -f sonda_polymarket_cs.json ] && git add sonda_polymarket_cs.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Robô: sonda da Polymarket (CS2)"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash || exit 1
+          done
+          git push
