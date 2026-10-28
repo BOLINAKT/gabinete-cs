@@ -1,59 +1,23 @@
 {
- "lido_em": "2026-10-27T21:53:15Z",
+ "lido_em": "2026-10-28T13:31:14Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-27T19:15:00Z",
-   "time1": "nemesis academy",
-   "time2": "spirit black",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-27T19:15:00Z",
-   "time1": "dimonix",
-   "time2": "monte",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "DFRAG/Invitational/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T03:00:00Z",
-   "time1": "off chops",
-   "time2": "nexvoid",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "DFRAG/Invitational/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T06:00:00Z",
-   "time1": "rooster",
-   "time2": "abyssal",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "Tesla Cup/2026",
    "tier": "B",
-   "inicio_utc": "2026-10-28T08:00:00Z",
-   "time1": "b8",
-   "time2": "alliance",
+   "inicio_utc": "2026-10-28T11:30:00Z",
+   "time1": "k27",
+   "time2": "b8",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
-   "pagina": "PGL/2026/Masters",
-   "tier": "S",
-   "inicio_utc": "2026-10-28T11:00:00Z",
-   "time1": "mongolz",
-   "time2": "nemiga",
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T12:00:00Z",
+   "time1": "ic academy",
+   "time2": "saint sinners",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "Tesla Cup/2026",
@@ -68,8 +32,17 @@
    "pagina": "PGL/2026/Masters",
    "tier": "S",
    "inicio_utc": "2026-10-28T14:00:00Z",
-   "time1": "furia",
-   "time2": "tl",
+   "time1": "tl",
+   "time2": "furia",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T15:00:00Z",
+   "time1": "6yubojlbl",
+   "time2": "sökerorg",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -88,6 +61,24 @@
    "inicio_utc": "2026-10-28T17:00:00Z",
    "time1": "spirit",
    "time2": "navi",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-28T18:00:00Z",
+   "time1": "ex-rustec",
+   "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "MESA/Pro Series/2026/Halloween Edition",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T03:00:00Z",
+   "time1": "chinggis",
+   "time2": "5star",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -119,6 +110,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T19:15:00Z",
+   "time1": "nemesis academy",
+   "time2": "monte",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
    "inicio_utc": "2026-10-29T19:30:00Z",
@@ -133,6 +133,15 @@
    "inicio_utc": "2026-10-29T19:30:00Z",
    "time1": "galorys",
    "time2": "procyon",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "DFRAG/Invitational/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T03:00:00Z",
+   "time1": "nexvoid",
+   "time2": "fq",
    "bo": 3,
    "mapas_jogados": 0
   },
