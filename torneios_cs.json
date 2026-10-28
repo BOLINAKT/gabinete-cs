@@ -8254,37 +8254,37 @@
 "PGL/2026/Masters/Asia/East Asia": {
 "fim": "2026-09-10",
 "inicio": "2026-09-09",
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Asia/East Asia/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Asia/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-10",
+"inicio": "2026-09-09",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Asia/Oceania/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-05",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Asia/West Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-10",
+"inicio": "2026-09-09",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Asia/West Asia/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/Europe": {
@@ -8308,15 +8308,15 @@
 "tier": "B"
 },
 "PGL/2026/Masters/North America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-04",
+"inicio": "2026-09-03",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/North America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/South America": {
@@ -8325,15 +8325,15 @@
 "tier": "B"
 },
 "PGL/2026/Masters/South America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-04",
+"inicio": "2026-09-03",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Masters/South America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-06",
+"inicio": "2026-09-05",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2026/Singapore": {
@@ -8477,9 +8477,9 @@
 "tier": "S"
 },
 "PIXEL CUP/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-20",
+"inicio": "2026-04-19",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2025": {
@@ -8511,33 +8511,33 @@
 "tier": "B"
 },
 "PLAYzone/Conquest of Prague/2026/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-29",
+"inicio": "2026-04-12",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2026/Online Stage/Qualifier/Czech Republic and Slovakia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-21",
+"inicio": "2026-03-21",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2026/Online Stage/Qualifier/Europe/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-22",
+"inicio": "2026-03-22",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2026/Online Stage/Qualifier/Europe/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-04",
+"inicio": "2026-04-04",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2026/Online Stage/Qualifier/Europe/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-05",
+"inicio": "2026-04-05",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Mistrovství ČR/2021": {
@@ -8572,9 +8572,9 @@
 "tier": "C"
 },
 "PLAYzone/MČR/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-22",
+"inicio": "2026-11-04",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/RUSH Brno/2026": {
@@ -8589,21 +8589,21 @@
 "tier": "C"
 },
 "Pavlodar Ertis Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-26",
+"inicio": "2026-07-25",
+"pendente": false,
 "tier": "C"
 },
 "Pavlodar Ertis Cup/2026/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-20",
+"inicio": "2026-07-20",
+"pendente": false,
 "tier": "C"
 },
 "Pavlodar Ertis Cup/2026/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-21",
+"inicio": "2026-07-21",
+"pendente": false,
 "tier": "C"
 },
 "Pelaajat.com/Nordic Masters/2022/Fall": {
@@ -8748,27 +8748,27 @@
 "tier": "C"
 },
 "Perfect World/National League/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-19",
+"inicio": "2026-07-11",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2026/Spring/Chongqing": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-16",
+"inicio": "2026-05-16",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2026/Spring/College Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-08",
+"inicio": "2026-05-17",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/College Series/Fall 2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-22",
+"inicio": "2026-11-22",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/Oceania League/2020/Fall": {
@@ -8777,9 +8777,9 @@
 "tier": "B"
 },
 "Pichau Arena/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-12",
+"inicio": "2026-09-06",
+"pendente": false,
 "tier": "C"
 },
 "Playfly/Tournament of Champions/2025": {
@@ -8814,39 +8814,39 @@
 "tier": "B"
 },
 "Poly Events/Esports Game Tournament/2026/Dongguan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-07",
+"inicio": "2026-06-07",
+"pendente": false,
 "tier": "C"
 },
 "Poly Events/Esports Game Tournament/2026/Foshan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-28",
+"pendente": false,
 "tier": "C"
 },
 "Poly Events/Esports Game Tournament/2026/Kunming": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-12",
+"inicio": "2026-07-12",
+"pendente": false,
 "tier": "C"
 },
 "Poly Events/Esports Game Tournament/2026/Suzhou": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-21",
+"inicio": "2026-06-21",
+"pendente": false,
 "tier": "C"
 },
 "Poly Events/Esports Game Tournament/2026/Wuhan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-14",
+"inicio": "2026-06-14",
+"pendente": false,
 "tier": "C"
 },
 "Poly Events/Esports Game Tournament/2026/Xi'an": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-27",
+"inicio": "2026-09-27",
+"pendente": false,
 "tier": "C"
 },
 "Pricempire League/2025": {
@@ -8874,9 +8874,9 @@
 "tier": "C"
 },
 "Punto Gamers Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-29",
+"inicio": "2026-08-10",
+"pendente": false,
 "tier": "C"
 },
 "Qazaqstan Respublikasynyŋ Kubogi/2025": {
@@ -8892,9 +8892,9 @@
 "tier": "C"
 },
 "RESF/National Student Esports League/2026/Super Cup": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-02",
+"inicio": "2026-03-01",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Open Cup/2025": {
@@ -8928,15 +8928,15 @@
 "tier": "C"
 },
 "RESF/Russian Esports Championship/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-26",
+"inicio": "2026-07-25",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Championship/2026/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-13",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Cup/2025": {
@@ -8958,15 +8958,15 @@
 "tier": "C"
 },
 "RESF/Sber Tournament/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-01",
+"inicio": "2026-10-31",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Sber Tournament/2026/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-11",
+"inicio": "2026-10-10",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Eastern European Masters/2024/Spring": {
@@ -9053,27 +9053,27 @@
 "tier": "B"
 },
 "RLG/RES/Showdown/2026/Fall/Europe/Adria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-04",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/Europe/Eastern Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-04",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/Europe/Nordics": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-05",
+"inicio": "2026-07-05",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/Europe/Western Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-05",
+"inicio": "2026-07-05",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/South America": {
@@ -9082,15 +9082,15 @@
 "tier": "B"
 },
 "RLG/RES/Showdown/2026/Fall/South America/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-04",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/South America/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-05",
+"inicio": "2026-07-05",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Spring": {
@@ -9099,27 +9099,27 @@
 "tier": "B"
 },
 "RLG/RES/Showdown/2026/Spring/Qualifier/Adria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-03",
+"inicio": "2026-02-03",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Spring/Qualifier/Eastern Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-03",
+"inicio": "2026-02-03",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Spring/Qualifier/Nordics": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-04",
+"inicio": "2026-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Spring/Qualifier/Western Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-02-04",
+"inicio": "2026-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Western European Masters/2024/Spring": {
@@ -9148,9 +9148,9 @@
 "tier": "B"
 },
 "Red Bull ClassiCS/2026/Ukraine": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-07",
+"inicio": "2026-06-06",
+"pendente": false,
 "tier": "C"
 },
 "Red Bull Flick/2020": {
@@ -9282,9 +9282,9 @@
 "tier": "C"
 },
 "Royal eSports Masters/2026/March": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-28",
+"pendente": false,
 "tier": "C"
 },
 "Russian Cybersport League/2023": {
@@ -9305,27 +9305,27 @@
 "tier": "C"
 },
 "SONAMGEN Esports/The Xizang Pro League/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-16",
+"inicio": "2026-08-15",
+"pendente": false,
 "tier": "C"
 },
 "Satpayev Esports Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-16",
+"inicio": "2026-08-09",
+"pendente": false,
 "tier": "C"
 },
 "Satpayev Esports Cup/2026/Qualifier/Offline": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-08",
+"inicio": "2026-08-08",
+"pendente": false,
 "tier": "C"
 },
 "Satpayev Esports Cup/2026/Qualifier/Online": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-08",
+"inicio": "2026-08-08",
+"pendente": false,
 "tier": "C"
 },
 "Saudi eLeague/2025/Championship": {
@@ -9335,9 +9335,9 @@
 "tier": "C"
 },
 "Saudi eLeague/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-16",
+"inicio": "2026-05-13",
+"pendente": false,
 "tier": "C"
 },
 "Sazka eLEAGUE/2020/Fall": {
@@ -9489,15 +9489,15 @@
 "tier": "C"
 },
 "Spanish Circuit/2026/Valencia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-04",
+"inicio": "2026-07-04",
+"pendente": false,
 "tier": "C"
 },
 "Spanish Circuit/2026/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-12-19",
+"inicio": "2026-12-19",
+"pendente": false,
 "tier": "C"
 },
 "StarLadder/2025/Major": {
@@ -9542,15 +9542,15 @@
 "tier": "B"
 },
 "StarLadder/StarSeries/2026/Fall/North America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-02",
+"inicio": "2026-07-28",
+"pendente": false,
 "tier": "C"
 },
 "StarLadder/StarSeries/2026/Fall/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-02",
+"inicio": "2026-07-28",
+"pendente": false,
 "tier": "C"
 },
 "StarLadder/StarSeries/2027/Fall": {
@@ -9605,39 +9605,39 @@
 "tier": "C"
 },
 "Svenska CS-Ligan/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-27",
+"inicio": "2026-06-26",
+"pendente": false,
 "tier": "C"
 },
 "Svenska CS-Ligan/2026/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-24",
+"inicio": "2026-05-25",
+"pendente": false,
 "tier": "C"
 },
 "Svenska CS-Ligan/2026/Online Stage/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-12",
+"inicio": "2026-05-12",
+"pendente": false,
 "tier": "C"
 },
 "Svenska CS-Ligan/2026/Online Stage/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-14",
+"inicio": "2026-05-14",
+"pendente": false,
 "tier": "C"
 },
 "Svenska CS-Ligan/2026/Online Stage/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-19",
+"inicio": "2026-05-19",
+"pendente": false,
 "tier": "C"
 },
 "Svenska CS-Ligan/2026/Online Stage/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-21",
+"inicio": "2026-05-21",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Cupen/2022": {
@@ -9696,33 +9696,33 @@
 "tier": "B"
 },
 "Svenska Cupen/2026/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-15",
+"inicio": "2026-11-06",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Cupen/2026/Qualifier/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-10",
+"inicio": "2026-10-10",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Cupen/2026/Qualifier/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-17",
+"inicio": "2026-10-17",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Cupen/2026/Qualifier/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Cupen/2026/Qualifier/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-31",
+"inicio": "2026-10-31",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Elitserien/2020/Fall": {
@@ -9784,15 +9784,15 @@
 "tier": "B"
 },
 "Svenska Elitserien/2026/Fall/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-19",
+"inicio": "2026-09-16",
+"pendente": false,
 "tier": "C"
 },
 "Svenska Skolligan/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-24",
+"inicio": "2026-05-23",
+"pendente": false,
 "tier": "C"
 },
 "SwitzerLAN/2025": {
@@ -9802,9 +9802,9 @@
 "tier": "C"
 },
 "SwitzerLAN/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-04",
+"inicio": "2026-10-02",
+"pendente": false,
 "tier": "C"
 },
 "TDJ/Supercopa de America/2022": {
@@ -9824,9 +9824,9 @@
 "tier": "C"
 },
 "Tatry Play/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-12",
+"inicio": "2026-04-11",
+"pendente": false,
 "tier": "C"
 },
 "Telialigaen/2020/Fall": {
@@ -9876,9 +9876,9 @@
 "tier": "C"
 },
 "Texas Collegiate Classic/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-07",
+"inicio": "2026-11-07",
+"pendente": false,
 "tier": "C"
 },
 "The Gathering/2025": {
