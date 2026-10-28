@@ -212,6 +212,22 @@ def _nome_torneio(pagina: str) -> str:
     return str(pagina).replace("_", " ").replace("/", " · ")
 
 
+def casar_estrito(est: Estado, nome: str, mapa: dict = None):
+    """So nome exato ou apelido/canonico conhecido -- nada de "parecido". 29/10/2026: na
+    Polymarket "DimoniX Esports" casava com "Diamant Esports" (difflib 0,75) e herdava o preco
+    de outro time. Para os times pequenos que so a Polymarket lista, na duvida: sem time."""
+    t, modo = est.casar(nome)
+    if t and modo == "exato":
+        return t
+    if mapa:
+        c = be.canonico(nome, mapa)
+        if c:
+            t2, modo2 = est.casar(c)
+            if t2 and modo2 == "exato":
+                return t2
+    return None
+
+
 def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 3, poly: dict = None) -> dict:
     """Os jogos VEM DA LIQUIPEDIA e as odds da Pinnacle entram quando ela abrir o
     mercado (27/10/2026, pedido dele). Devolve no formato das odds ({lido_em, jogos,
@@ -247,8 +263,7 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
     fora += [{**pg, "fonte": "pinnacle"} for pg in pin if pg["id"] not in usados]
 
     def _chave(nome):
-        t = est.casar(nome)[0]
-        return t or be.canonico(nome, mapa) or str(nome).strip().lower()
+        return casar_estrito(est, nome, mapa) or be.canonico(nome, mapa) or str(nome).strip().lower()
 
     def _ts(x):
         t = pd.Timestamp(x)
@@ -270,10 +285,11 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
             dono.setdefault("poly", dict(info, invertido=_chave(p["time_a"]) != _chave(dono["casa"])))
             continue
         info["invertido"] = False
-        ta, tb = est.casar(p["time_a"])[0] or p["time_a"], est.casar(p["time_b"])[0] or p["time_b"]
+        ta = casar_estrito(est, p["time_a"], mapa) or p["time_a"].strip()
+        tb = casar_estrito(est, p["time_b"], mapa) or p["time_b"].strip()
         fora.append({"id": f"pm-{p.get('evento') or (p['time_a'] + '-' + p['time_b'])}",
                      "liga": p.get("torneio") or "", "casa": ta, "fora": tb, "bo": p.get("bo") or 3,
-                     "inicio_utc": p["inicio_utc"], "fonte": "polymarket", "poly": info})
+                     "inicio_utc": p["inicio_utc"], "fonte": "polymarket", "poly": info, "estrito": True})
     return {"lido_em": odds.get("lido_em") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "jogos": fora, "linhas": odds.get("linhas") or []}
 
@@ -284,8 +300,13 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
     lido = pd.Timestamp(odds["lido_em"]).tz_localize(None)
     fora = []
     for j in sorted(odds["jogos"], key=lambda j: j.get("inicio_utc") or ""):
-        tc, mc = est.casar(j["casa"])
-        tf, mf = est.casar(j["fora"])
+        if j.get("estrito"):          # jogo so da Polymarket: sem casar por "parecido"
+            tc, tf = casar_estrito(est, j["casa"]), casar_estrito(est, j["fora"])
+            mc = "exato" if tc else "sem time"
+            mf = "exato" if tf else "sem time"
+        else:
+            tc, mc = est.casar(j["casa"])
+            tf, mf = est.casar(j["fora"])
         ini = pd.Timestamp(j["inicio_utc"]).tz_localize(None) if j.get("inicio_utc") else None
         fc, ff = est.time(tc, hoje), est.time(tf, hoje)
         avisos = []

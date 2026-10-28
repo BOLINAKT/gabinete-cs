@@ -127,8 +127,16 @@ class TestMontarJogos(unittest.TestCase):
         so_poly = next(j for j in m["jogos"] if j["fonte"] == "polymarket")
         self.assertEqual(so_poly["casa"], "Aurora Young Blud")
         self.assertEqual(so_poly["poly"]["p_a"], 0.68)
+        self.assertTrue(so_poly["estrito"])
         pin = next(j for j in m["jogos"] if j["fonte"] == "pinnacle")
         self.assertEqual(pin["poly"]["p_a"], 0.55)                  # o preco da Polymarket pendura no jogo
+
+
+    def test_nome_parecido_nao_casa_na_polymarket(self):
+        class E:
+            def casar(self, nome):
+                return ("Diamant Esports", "parecido") if "dimonix" in nome.lower() else (None, "sem time")
+        self.assertIsNone(pc.casar_estrito(E(), "DimoniX Esports"))
 
 
 class TestMelhorOddDasCasas(unittest.TestCase):
