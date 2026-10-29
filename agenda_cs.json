@@ -1,84 +1,66 @@
 {
- "lido_em": "2026-10-28T13:31:14Z",
+ "lido_em": "2026-10-29T01:15:08Z",
  "jogos": [
-  {
-   "pagina": "Tesla Cup/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T11:30:00Z",
-   "time1": "k27",
-   "time2": "b8",
-   "bo": 3,
-   "mapas_jogados": 2
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T12:00:00Z",
-   "time1": "ic academy",
-   "time2": "saint sinners",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Tesla Cup/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T14:00:00Z",
-   "time1": "hotu",
-   "time2": "gl",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Masters",
-   "tier": "S",
-   "inicio_utc": "2026-10-28T14:00:00Z",
-   "time1": "tl",
-   "time2": "furia",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T15:00:00Z",
-   "time1": "6yubojlbl",
-   "time2": "sökerorg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Tesla Cup/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T17:00:00Z",
-   "time1": "lg",
-   "time2": "envy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Masters",
-   "tier": "S",
-   "inicio_utc": "2026-10-28T17:00:00Z",
-   "time1": "spirit",
-   "time2": "navi",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-28T18:00:00Z",
-   "time1": "ex-rustec",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "MESA/Pro Series/2026/Halloween Edition",
    "tier": "C",
    "inicio_utc": "2026-10-29T03:00:00Z",
    "time1": "chinggis",
    "time2": "5star",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-29T08:00:00Z",
+   "time1": "fut",
+   "time2": "nemiga",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T09:00:00Z",
+   "time1": "leo team",
+   "time2": "maybe.ua",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Tesla Cup/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T09:00:00Z",
+   "time1": "b8",
+   "time2": "hotu",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-29T11:00:00Z",
+   "time1": "vit",
+   "time2": "navi",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T12:00:00Z",
+   "time1": "honved",
+   "time2": "morrow",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Tesla Cup/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T12:00:00Z",
+   "time1": "faze",
+   "time2": "gl",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -95,8 +77,71 @@
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
    "inicio_utc": "2026-10-29T13:00:00Z",
-   "time1": "barca esports",
-   "time2": "bounty",
+   "time1": "barca",
+   "time2": "bounty.br",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-29T14:00:00Z",
+   "time1": "aurora",
+   "time2": "mouz",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T15:00:00Z",
+   "time1": "spirit academy",
+   "time2": "megoshort",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T16:30:00Z",
+   "time1": "aurora yb",
+   "time2": "sparx.ru",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T16:30:00Z",
+   "time1": "x-city",
+   "time2": "ttg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-29T17:00:00Z",
+   "time1": "betboom",
+   "time2": "furia",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T18:00:00Z",
+   "time1": "mellren",
+   "time2": "falcons force",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-10-29T18:30:00Z",
+   "time1": "natverket",
+   "time2": "crown city",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -113,7 +158,7 @@
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
    "inicio_utc": "2026-10-29T19:15:00Z",
-   "time1": "nemesis academy",
+   "time1": "spirit black",
    "time2": "monte",
    "bo": 3,
    "mapas_jogados": 0
@@ -133,6 +178,15 @@
    "inicio_utc": "2026-10-29T19:30:00Z",
    "time1": "galorys",
    "time2": "procyon",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "DFRAG/Invitational/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T00:00:00Z",
+   "time1": "alter ego",
+   "time2": "abyssal",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -164,11 +218,20 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-10-30T18:00:00Z",
+   "time1": "xept",
+   "time2": "minkens finest",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
    "inicio_utc": "2026-10-30T19:30:00Z",
    "time1": "wildcard",
-   "time2": "hacha esports",
+   "time2": "hacha",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -177,7 +240,79 @@
    "tier": "B",
    "inicio_utc": "2026-10-30T19:30:00Z",
    "time1": "bestia",
-   "time2": "bth e-sports",
+   "time2": "bth",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "RESF/Sber Tournament/2026",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T07:00:00Z",
+   "time1": "33",
+   "time2": "trafficpills",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Moscow Cyber Games/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T09:00:00Z",
+   "time1": "hotu",
+   "time2": "huns",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T09:00:00Z",
+   "time1": "psychoface",
+   "time2": "donstu",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "RESF/Sber Tournament/2026",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T10:00:00Z",
+   "time1": "team aces",
+   "time2": "quazar",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T12:00:00Z",
+   "time1": "saint sinners",
+   "time2": "misa",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Moscow Cyber Games/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T13:00:00Z",
+   "time1": "1w",
+   "time2": "5star",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T15:00:00Z",
+   "time1": "sokerorg",
+   "time2": "fortress",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T18:00:00Z",
+   "time1": "azuolas",
+   "time2": "illyrians",
    "bo": 3,
    "mapas_jogados": 0
   }
