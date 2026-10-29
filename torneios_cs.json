@@ -16,21 +16,21 @@
 "tier": "C"
 },
 "5EPLAY/National Championship/2025/Summer": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-30",
+"inicio": "2025-08-29",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/National Championship/2025/Summer/College Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-03",
+"inicio": "2025-07-13",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/National Championship/2025/Summer/Open Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-27",
+"inicio": "2025-07-26",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League Asia/2026/Season 1": {
@@ -40,33 +40,33 @@
 "tier": "C"
 },
 "5EPLAY/Pro League/2025/Season 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-06",
+"inicio": "2025-02-24",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League/2025/Season 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-04",
+"inicio": "2025-04-14",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League/2025/Season 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-12",
+"inicio": "2025-06-28",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League/2025/Season 4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-25",
+"inicio": "2025-10-15",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League/2025/Season 5": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-28",
+"inicio": "2025-12-18",
+"pendente": false,
 "tier": "C"
 },
 "5EPLAY/Pro League/2026/Season 1": {
@@ -94,21 +94,21 @@
 "tier": "C"
 },
 "A1 Adria League/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-08",
+"inicio": "2025-06-06",
+"pendente": false,
 "tier": "C"
 },
 "A1 Student eChallenge/2025/Summer": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-05",
+"inicio": "2025-06-04",
+"pendente": false,
 "tier": "C"
 },
 "AGES/GO GAME Festival/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-19",
+"inicio": "2025-07-19",
+"pendente": false,
 "tier": "C"
 },
 "AGS CUP/2023": {
@@ -122,27 +122,27 @@
 "tier": "B"
 },
 "AGS CUP/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-21",
+"inicio": "2025-09-20",
+"pendente": false,
 "tier": "C"
 },
 "AMD/GameOn/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-02",
+"inicio": "2025-11-01",
+"pendente": false,
 "tier": "C"
 },
 "ANZ Circuit/Locals/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-30",
+"inicio": "2025-11-29",
+"pendente": false,
 "tier": "C"
 },
 "ANZ Circuit/Locals/2025/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-22",
+"inicio": "2025-06-21",
+"pendente": false,
 "tier": "C"
 },
 "ANZ Circuit/Locals/2026/Autumn": {
@@ -164,33 +164,33 @@
 "tier": "C"
 },
 "AOC Masters/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-07",
+"inicio": "2025-11-26",
+"pendente": false,
 "tier": "C"
 },
 "AORUS x AMD Community Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-07",
+"inicio": "2025-09-06",
+"pendente": false,
 "tier": "C"
 },
 "AORUS x AMD Community Cup/2025/Qualifier/France": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-03",
+"inicio": "2025-09-01",
+"pendente": false,
 "tier": "C"
 },
 "AORUS x AMD Community Cup/2025/Qualifier/Germany": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-26",
+"inicio": "2025-08-25",
+"pendente": false,
 "tier": "C"
 },
 "AORUS x AMD Community Cup/2025/Qualifier/Poland": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-21",
+"inicio": "2025-08-20",
+"pendente": false,
 "tier": "C"
 },
 "AORUS x AMD Community Cup/2026": {
@@ -224,27 +224,27 @@
 "tier": "C"
 },
 "Almaty Cyber Games/2025/Cup": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-24",
+"inicio": "2025-05-24",
+"pendente": false,
 "tier": "C"
 },
 "Almaty Cyber Games/2025/International": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-04",
+"inicio": "2025-09-13",
+"pendente": false,
 "tier": "C"
 },
 "Aorus League/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-25",
+"inicio": "2025-09-24",
+"pendente": false,
 "tier": "C"
 },
 "Aorus League/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-01",
+"inicio": "2025-08-30",
+"pendente": false,
 "tier": "C"
 },
 "Aorus League/2026": {
@@ -300,27 +300,27 @@
 "tier": "B"
 },
 "Atyrau CyberCup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-10",
+"inicio": "2025-09-28",
+"pendente": false,
 "tier": "C"
 },
 "Atyrau CyberCup/2025/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-19",
+"inicio": "2025-09-19",
+"pendente": false,
 "tier": "C"
 },
 "Atyrau CyberCup/2025/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-20",
+"inicio": "2025-09-20",
+"pendente": false,
 "tier": "C"
 },
 "Atyrau Jastar Fest/2025/eSports Cup": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-16",
+"inicio": "2025-08-16",
+"pendente": false,
 "tier": "C"
 },
 "Atyrau Jastar Fest/2026/eSports Cup": {
@@ -335,15 +335,15 @@
 "tier": "B"
 },
 "Azores Techfest/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-12",
+"pendente": false,
 "tier": "C"
 },
 "B27/Summer Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-24",
+"inicio": "2025-08-23",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Bounty/2025/Fall": {
@@ -859,33 +859,33 @@
 "tier": "B"
 },
 "BLAST/Rising/2025/Fall/Asia/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-31",
+"inicio": "2025-07-29",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Fall/Asia/Qualifier/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-15",
+"inicio": "2025-07-15",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Fall/Asia/Qualifier/Mongolia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-15",
+"inicio": "2025-07-15",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Fall/Asia/Qualifier/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-19",
+"inicio": "2025-07-19",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Fall/Asia/Qualifier/Rest of Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-15",
+"inicio": "2025-07-15",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Spring/Asia": {
@@ -894,33 +894,33 @@
 "tier": "B"
 },
 "BLAST/Rising/2025/Spring/Asia/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-10",
+"inicio": "2025-02-07",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Spring/Asia/Qualifier/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-02-05",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Spring/Asia/Qualifier/Mongolia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-02-05",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Spring/Asia/Qualifier/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-02-06",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rising/2025/Spring/Asia/Qualifier/Southeast Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-02-05",
+"pendente": false,
 "tier": "C"
 },
 "BLAST/Rivals/2025/Fall": {
@@ -949,9 +949,9 @@
 "tier": "S"
 },
 "BRO CYBER CUP/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-26",
+"inicio": "2025-10-25",
+"pendente": false,
 "tier": "C"
 },
 "BRO SPRING CUP/2026": {
@@ -9888,15 +9888,15 @@
 "tier": "C"
 },
 "The Gathering/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-04-03",
+"inicio": "2026-04-02",
+"pendente": false,
 "tier": "C"
 },
 "The Reality/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-20",
+"inicio": "2026-09-18",
+"pendente": false,
 "tier": "C"
 },
 "The War Room/Eastern European Masters/2021/Fall": {
@@ -10040,9 +10040,9 @@
 "tier": "A"
 },
 "Thunderpick/World Championship/2026/South America/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-24",
+"pendente": false,
 "tier": "C"
 },
 "Thunderpick/World Championship/2026/South America/2": {
@@ -10057,9 +10057,9 @@
 "tier": "C"
 },
 "TipiLAN/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-13",
+"inicio": "2026-09-11",
+"pendente": false,
 "tier": "C"
 },
 "Tipsport Cup/2022/Bratislava": {
@@ -10109,33 +10109,33 @@
 "tier": "C"
 },
 "UESF/Ukrainian Championship/2026/Stage 1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-15",
+"inicio": "2026-03-09",
+"pendente": false,
 "tier": "C"
 },
 "UESF/Ukrainian Championship/2026/Stage 2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-05-31",
+"inicio": "2026-05-25",
+"pendente": false,
 "tier": "C"
 },
 "UESF/Ukrainian Championship/2026/Stage 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-09",
+"inicio": "2026-08-03",
+"pendente": false,
 "tier": "C"
 },
 "UESF/Ukrainian Championship/2026/Stage 4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-04",
+"inicio": "2026-09-28",
+"pendente": false,
 "tier": "C"
 },
 "UESF/Ukrainian Championship/2026/Stage 5": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-11-22",
+"inicio": "2026-11-22",
+"pendente": false,
 "tier": "C"
 },
 "UNITED Pro Series/2020/Winter": {
@@ -10175,27 +10175,27 @@
 "tier": "B"
 },
 "VOID/Cup/2026/Autumn": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-24",
+"inicio": "2026-10-20",
+"pendente": false,
 "tier": "C"
 },
 "VOID/Cup/2026/Autumn/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-12",
+"inicio": "2026-10-11",
+"pendente": false,
 "tier": "C"
 },
 "VOID/Cup/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-26",
+"inicio": "2026-03-24",
+"pendente": false,
 "tier": "C"
 },
 "VOID/Cup/2026/Spring/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-20",
+"inicio": "2026-03-19",
+"pendente": false,
 "tier": "C"
 },
 "VOID/Masters/2025": {
@@ -10264,27 +10264,27 @@
 "tier": "C"
 },
 "Vodafone Talent League/2026/Fall": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-25",
+"inicio": "2026-10-24",
+"pendente": false,
 "tier": "C"
 },
 "Vodafone Talent League/2026/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-07",
+"inicio": "2026-06-06",
+"pendente": false,
 "tier": "C"
 },
 "Vodafone Talent League/2026/Summer": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-08-30",
+"inicio": "2026-08-29",
+"pendente": false,
 "tier": "C"
 },
 "Vodafone Talent League/2026/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-03-29",
+"inicio": "2026-03-28",
+"pendente": false,
 "tier": "C"
 },
 "VulkanLAN/2025": {
@@ -10299,9 +10299,9 @@
 "tier": "B"
 },
 "WIBR Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-18",
+"inicio": "2026-10-14",
+"pendente": false,
 "tier": "C"
 },
 "WX Invitational/2020/Winter": {
@@ -10364,9 +10364,9 @@
 "tier": "C"
 },
 "Xin Xin Esports/Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-28",
+"inicio": "2026-06-28",
+"pendente": false,
 "tier": "C"
 },
 "Xining Esports Championship/2025": {
@@ -10394,15 +10394,15 @@
 "tier": "C"
 },
 "YGames/Majstrovstvá SR/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-10-10",
+"inicio": "2026-10-09",
+"pendente": false,
 "tier": "C"
 },
 "YGames/Majstrovstvá SR/2026/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-09-12",
+"inicio": "2026-09-12",
+"pendente": false,
 "tier": "C"
 },
 "YGames/PRO Series/2025": {
@@ -10528,15 +10528,15 @@
 "tier": "C"
 },
 "Yuqilin/National College League/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-06-30",
+"inicio": "2026-06-30",
+"pendente": false,
 "tier": "C"
 },
 "ZHENHUO Esports Cup/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-27",
+"inicio": "2026-07-27",
+"pendente": false,
 "tier": "C"
 },
 "ZOWIE/University Esports League/2024-2025": {
@@ -10546,9 +10546,9 @@
 "tier": "C"
 },
 "ZOWIE/University Esports League/2026": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-07-28",
+"inicio": "2026-07-26",
+"pendente": false,
 "tier": "C"
 },
 "Zhi-Tech Elite Masters/2026": {
@@ -10557,9 +10557,9 @@
 "tier": "B"
 },
 "Zhi-Tech Elite Masters/2026/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-19",
+"inicio": "2026-01-17",
+"pendente": false,
 "tier": "C"
 },
 "_c_listado": {
