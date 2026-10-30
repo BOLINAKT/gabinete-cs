@@ -1,78 +1,6 @@
 {
- "lido_em": "2026-10-30T18:15:05Z",
+ "lido_em": "2026-10-30T22:41:13Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-10-30T15:00:00Z",
-   "time1": "leo team",
-   "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T15:00:00Z",
-   "time1": "apogee",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T15:35:00Z",
-   "time1": "fluxo",
-   "time2": "shinden",
-   "bo": 3,
-   "mapas_jogados": 2
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-30T16:30:00Z",
-   "time1": "ducks",
-   "time2": "aurora yb",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-10-30T18:00:00Z",
-   "time1": "spirit academy",
-   "time2": "falcons force",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T18:00:00Z",
-   "time1": "phantom",
-   "time2": "lavked",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
-   "tier": "C",
-   "inicio_utc": "2026-10-30T18:00:00Z",
-   "time1": "xept",
-   "time2": "minkens finest",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T18:15:00Z",
-   "time1": "wildcard",
-   "time2": "hacha",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
@@ -85,29 +13,20 @@
   {
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
-   "inicio_utc": "2026-10-30T19:30:00Z",
-   "time1": "bestia",
+   "inicio_utc": "2026-10-30T21:25:00Z",
+   "time1": "wildcard",
+   "time2": "bestia",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T21:25:00Z",
+   "time1": "hacha",
    "time2": "bth",
    "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T00:00:00Z",
-   "time1": "acend",
-   "time2": "butterfly",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T00:00:00Z",
-   "time1": "fokus",
-   "time2": "baks",
-   "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "DFRAG/Invitational/2026",
@@ -155,6 +74,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T09:00:00Z",
+   "time1": "spirit academy",
+   "time2": "phantom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Battle of Baltics/2026",
    "tier": "C",
    "inicio_utc": "2026-10-31T10:00:00Z",
@@ -187,6 +115,15 @@
    "inicio_utc": "2026-10-31T12:00:00Z",
    "time1": "saint sinners",
    "time2": "misa",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T12:00:00Z",
+   "time1": "apogee",
+   "time2": "9ine",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -236,6 +173,24 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T15:00:00Z",
+   "time1": "fokus",
+   "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T16:15:00Z",
+   "time1": "shinden",
+   "time2": "isurus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
    "inicio_utc": "2026-10-31T16:30:00Z",
@@ -250,6 +205,33 @@
    "inicio_utc": "2026-10-31T18:00:00Z",
    "time1": "azuolas",
    "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T18:00:00Z",
+   "time1": "acend",
+   "time2": "butterfly",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T09:00:00Z",
+   "time1": "honved",
+   "time2": "maybe.ua",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T12:00:00Z",
+   "time1": "falcons force",
+   "time2": "megoshort",
    "bo": 3,
    "mapas_jogados": 0
   }

@@ -58680,8 +58680,12 @@ RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 16:00,donstu,quazar,2,Inferno,1
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,1,Ancient,13,7,ct,1,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,2,Cache,6,13,t,2,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,3,Inferno,34,31,ct,1,7,2400012
+CCT/2026/Europe/Series 13/Play-In,C,2026-10-30 16:00,leo team,honved,1,Ancient,13,11,t,1,0,2400030
+CCT/2026/Europe/Series 13/Play-In,C,2026-10-30 16:00,leo team,honved,2,Mirage,13,11,ct,1,0,2400030
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 16:30,spirit academy,megoshort,1,Ancient,13,7,ct,1,0,2400014
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 16:30,spirit academy,megoshort,2,Dust II,13,7,t,1,0,2400014
+CCT/2026/Europe/Series 13/Play-In,C,2026-10-30 19:00,spirit academy,falcons force,1,Dust II,13,10,t,1,0,2400031
+CCT/2026/Europe/Series 13/Play-In,C,2026-10-30 19:00,spirit academy,falcons force,2,Mirage,13,5,ct,1,0,2400031
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,1,Mirage,13,1,ct,1,0,2399962
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,2,Dust II,13,2,t,1,0,2399962
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,1,Cache,13,10,ct,1,0,2399963
@@ -58701,14 +58705,21 @@ FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,2,Dust II,13,7,t,1,0,
 FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,3,Nuke,16,14,ct,1,1,2399968
 FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,1,Ancient,6,13,t,2,0,2399969
 FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,2,Nuke,2,13,ct,2,0,2399969
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo,signatus,1,Dust II,13,0,ct,1,0,2399970
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo,signatus,2,Cache,13,9,t,1,0,2399970
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,1,Dust II,13,0,ct,1,0,2399970
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,2,Cache,13,9,t,1,0,2399970
 FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,1,Cache,13,3,ct,1,0,2399971
 FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,2,Inferno,13,7,t,1,0,2399971
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo,shinden,1,Inferno,10,13,ct,2,0,2399972
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo,shinden,2,Mirage,13,7,t,1,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,1,Inferno,10,13,ct,2,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,2,Mirage,13,7,t,1,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,3,Dust II,13,6,t,1,0,2399972
 FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,1,Ancient,8,13,t,2,0,2399973
 FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,2,Nuke,3,13,ct,2,0,2399973
+FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,1,Nuke,13,6,ct,1,0,2399974
+FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,2,Inferno,13,10,t,1,0,2399974
+FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,1,Mirage,13,3,ct,1,0,2399975
+FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,2,Dust II,13,9,t,1,0,2399975
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,1,Inferno,8,13,ct,2,0,2399976
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,hacha,bth,1,Nuke,13,2,t,1,0,2399977
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 13:05,5star,the audacity,1,Ancient,11,13,ct,2,0,2399920
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 13:05,5star,the audacity,2,Cache,5,13,t,2,0,2399920
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 15:30,theone 1337,chinggis,1,Ancient,5,13,t,2,0,2399921
@@ -58897,6 +58908,8 @@ CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,2,Mirage,13,
 CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,3,Inferno,13,10,ct,1,0,
 CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,1,Nuke,4,13,t,2,0,
 CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,2,Dust II,5,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,1,Mirage,13,3,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,2,Ancient,11,13,ct,2,0,
 CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:15,four magic,csgopositive,1,Ancient,13,5,t,1,0,
 CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:20,dinero,x-city,1,Ancient,7,13,ct,2,0,
 CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:10,prodigy (russian team),next up,1,Mirage,16,13,t,1,1,
@@ -59459,11 +59472,15 @@ CCT/2026/Europe/Series 12,B,2026-10-28 16:00,6yubojlbl,sökerorg,2,Cache,4,13,ct
 CCT/2026/Europe/Series 12,B,2026-10-28 19:00,ex-rustec,illyrians,1,Anubis,5,13,ct,2,0,2399517
 CCT/2026/Europe/Series 12,B,2026-10-28 19:00,ex-rustec,illyrians,2,Dust II,16,14,ct,1,1,2399517
 CCT/2026/Europe/Series 12,B,2026-10-28 19:00,ex-rustec,illyrians,3,Ancient,5,13,t,2,0,2399517
+CCT/2026/Europe/Series 12,B,2026-10-30 16:00,apogee,illyrians,1,Ancient,13,7,t,1,0,2399524
+CCT/2026/Europe/Series 12,B,2026-10-30 16:00,apogee,illyrians,2,Mirage,13,11,ct,1,0,2399524
 CCT/2026/Europe/Series 12,B,2026-10-29 19:00,9ine,team aces,1,Dust II,8,13,ct,2,0,2399521
 CCT/2026/Europe/Series 12,B,2026-10-29 19:00,9ine,team aces,2,Nuke,13,7,t,1,0,2399521
 CCT/2026/Europe/Series 12,B,2026-10-29 19:00,9ine,team aces,3,Cache,22,20,t,1,3,2399521
 CCT/2026/Europe/Series 12,B,2026-10-29 13:40,inox,spirit academy,1,Nuke,17,19,t,2,2,2399519
 CCT/2026/Europe/Series 12,B,2026-10-29 13:40,inox,spirit academy,2,Ancient,6,13,ct,2,0,2399519
+CCT/2026/Europe/Series 12,B,2026-10-30 19:00,phantom,lavked,1,Mirage,13,8,ct,1,0,2399525
+CCT/2026/Europe/Series 12,B,2026-10-30 19:00,phantom,lavked,2,Nuke,13,6,t,1,0,2399525
 CCT/2026/Europe/Series 12,B,2026-10-29 16:30,acend,saint sinners,1,Inferno,13,11,t,1,0,2399520
 CCT/2026/Europe/Series 12,B,2026-10-29 16:30,acend,saint sinners,2,Dust II,13,9,ct,1,0,2399520
 CCT/2026/Europe/Series 12,B,2026-10-29 10:00,butterfly,forze reload,1,Nuke,13,11,t,1,0,2399518
