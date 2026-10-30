@@ -1,66 +1,12 @@
 {
- "lido_em": "2026-10-30T10:29:04Z",
+ "lido_em": "2026-10-30T18:15:05Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T09:00:00Z",
-   "time1": "genone",
-   "time2": "baks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Masters",
-   "tier": "S",
-   "inicio_utc": "2026-10-30T12:00:00Z",
-   "time1": "vit",
-   "time2": "nemiga",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T12:00:00Z",
-   "time1": "fokus",
-   "time2": "sokerorg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T13:00:00Z",
-   "time1": "fluxo",
-   "time2": "signatus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T13:00:00Z",
-   "time1": "shinden",
-   "time2": "isurus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
    "tier": "C",
    "inicio_utc": "2026-10-30T15:00:00Z",
    "time1": "leo team",
    "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Masters",
-   "tier": "S",
-   "inicio_utc": "2026-10-30T15:00:00Z",
-   "time1": "furia",
-   "time2": "mouz",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -72,6 +18,15 @@
    "time2": "illyrians",
    "bo": 3,
    "mapas_jogados": 0
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T15:35:00Z",
+   "time1": "fluxo",
+   "time2": "shinden",
+   "bo": 3,
+   "mapas_jogados": 2
   },
   {
    "pagina": "CCT/2026/Europe/Contenders 10",
@@ -110,20 +65,20 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-30T18:15:00Z",
+   "time1": "wildcard",
+   "time2": "hacha",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
    "inicio_utc": "2026-10-30T19:15:00Z",
    "time1": "spirit black",
    "time2": "ttg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T19:30:00Z",
-   "time1": "wildcard",
-   "time2": "hacha",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -146,6 +101,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T00:00:00Z",
+   "time1": "fokus",
+   "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "DFRAG/Invitational/2026",
    "tier": "B",
    "inicio_utc": "2026-10-31T03:00:00Z",
@@ -160,6 +124,15 @@
    "inicio_utc": "2026-10-31T07:00:00Z",
    "time1": "33",
    "time2": "trafficpills",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-31T08:00:00Z",
+   "time1": "mouz",
+   "time2": "vit",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -197,6 +170,15 @@
    "time1": "team aces",
    "time2": "quazar",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Masters",
+   "tier": "S",
+   "inicio_utc": "2026-10-31T11:00:00Z",
+   "time1": "furia",
+   "time2": "nemiga",
+   "bo": 5,
    "mapas_jogados": 0
   },
   {
