@@ -1,86 +1,23 @@
 {
- "lido_em": "2026-10-29T18:42:38Z",
+ "lido_em": "2026-10-30T01:23:25Z",
  "jogos": [
   {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-29T16:30:00Z",
-   "time1": "aurora yb",
-   "time2": "sparx.ru",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-29T16:30:00Z",
-   "time1": "x-city",
-   "time2": "ttg",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Tesla Cup/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-29T17:30:00Z",
-   "time1": "gl",
-   "time2": "hotu",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-29T18:00:00Z",
-   "time1": "9ine",
-   "time2": "team aces",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
-   "tier": "C",
-   "inicio_utc": "2026-10-29T18:30:00Z",
-   "time1": "natverket",
-   "time2": "crown city",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-29T19:15:00Z",
-   "time1": "ducks",
-   "time2": "prodigy.ru",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-29T19:15:00Z",
-   "time1": "spirit black",
-   "time2": "monte",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
-   "inicio_utc": "2026-10-29T19:30:00Z",
+   "inicio_utc": "2026-10-29T23:40:00Z",
    "time1": "nrg",
-   "time2": "tactical chaos",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-29T19:30:00Z",
-   "time1": "galorys",
    "time2": "procyon",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-29T23:40:00Z",
+   "time1": "tactical chaos",
+   "time2": "galorys",
+   "bo": 3,
+   "mapas_jogados": 1
   },
   {
    "pagina": "DFRAG/Invitational/2026",
