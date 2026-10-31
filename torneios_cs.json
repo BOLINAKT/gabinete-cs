@@ -5516,21 +5516,21 @@
 "tier": "C"
 },
 "Game Zone/2025/Masters/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-17",
+"inicio": "2025-10-07",
+"pendente": false,
 "tier": "C"
 },
 "Game Zone/2025/Masters/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-15",
+"inicio": "2025-10-14",
+"pendente": false,
 "tier": "C"
 },
 "Game Zone/2025/Masters/Qualifier/Poland": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-22",
+"inicio": "2025-10-22",
+"pendente": false,
 "tier": "C"
 },
 "Game in Tartu/2026": {
@@ -5540,27 +5540,27 @@
 "tier": "C"
 },
 "GameForce Rivals/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-18",
+"pendente": false,
 "tier": "C"
 },
 "GameZone Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-01",
+"inicio": "2025-10-31",
+"pendente": false,
 "tier": "C"
 },
 "Gamebox/2025/Masters": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-25",
+"pendente": false,
 "tier": "C"
 },
 "Gamebox/2025/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-26",
+"inicio": "2025-04-26",
+"pendente": false,
 "tier": "C"
 },
 "Gamebox/2026/Masters": {
@@ -5576,15 +5576,15 @@
 "tier": "C"
 },
 "Gameinside.ua/ROG Cup/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-26",
+"inicio": "2025-06-26",
+"pendente": false,
 "tier": "C"
 },
 "Gameinside.ua/ROG Cup/2025/Spring/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-31",
+"inicio": "2025-05-27",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Assembly/2026": {
@@ -5594,123 +5594,123 @@
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/April": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-25",
+"inicio": "2025-04-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/April/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-04",
+"inicio": "2025-04-03",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/August": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-29",
+"inicio": "2025-08-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/August/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-03",
+"inicio": "2025-08-02",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/December": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-19",
+"inicio": "2025-12-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/February": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-28",
+"inicio": "2025-02-12",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/February/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-10",
+"inicio": "2025-02-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/January": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-01",
+"inicio": "2025-01-21",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/January/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-01-19",
+"inicio": "2025-01-18",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/July": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-25",
+"inicio": "2025-07-07",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/July/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-29",
+"inicio": "2025-06-28",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/June": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-27",
+"inicio": "2025-06-05",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/June/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-01",
+"inicio": "2025-05-31",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/March": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-12",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/March/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-09",
+"inicio": "2025-03-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/May": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-31",
+"inicio": "2025-05-08",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/May/Relegation": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-02",
+"inicio": "2025-05-01",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/November": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-05",
+"inicio": "2025-11-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/October": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-31",
+"inicio": "2025-10-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2025/September": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-02",
+"inicio": "2025-09-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série A/2026/April": {
@@ -5774,87 +5774,87 @@
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/April": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-28",
+"inicio": "2025-04-09",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/February": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-24",
+"inicio": "2025-02-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/January": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-01-22",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/July": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-21",
+"inicio": "2025-07-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/June": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-23",
+"inicio": "2025-06-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/March": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-31",
+"inicio": "2025-03-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série B/2025/May": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-30",
+"inicio": "2025-05-07",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/April": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-28",
+"inicio": "2025-04-09",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/February": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-24",
+"inicio": "2025-02-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/January": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-03",
+"inicio": "2025-01-20",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/July": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-21",
+"inicio": "2025-07-11",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/June": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-23",
+"inicio": "2025-06-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/March": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-31",
+"inicio": "2025-03-10",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Club/Liga Série C/2025/May": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-26",
+"inicio": "2025-05-07",
+"pendente": false,
 "tier": "C"
 },
 "Gamers Without Borders/2020": {
@@ -5898,15 +5898,15 @@
 "tier": "A"
 },
 "Gamescom LAN/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-22",
+"inicio": "2025-02-21",
+"pendente": false,
 "tier": "C"
 },
 "Gansu Esports Championship/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-13",
+"inicio": "2025-12-13",
+"pendente": false,
 "tier": "C"
 },
 "Gdańsk Games/2021": {
@@ -5926,9 +5926,9 @@
 "tier": "B"
 },
 "Glitched/2025/Masters/B-Tournament": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-15",
+"inicio": "2025-06-14",
+"pendente": false,
 "tier": "C"
 },
 "Global Esports Tour/2022/Dubai": {
@@ -5947,27 +5947,27 @@
 "tier": "B"
 },
 "Good Game-ligaen/2025/Fall": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-08",
+"inicio": "2025-10-25",
+"pendente": false,
 "tier": "C"
 },
 "Good Game-ligaen/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-19",
+"inicio": "2025-03-31",
+"pendente": false,
 "tier": "C"
 },
 "Good Game-ligaen/2025/Spring Final": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-08",
+"inicio": "2025-05-30",
+"pendente": false,
 "tier": "C"
 },
 "Good Game-ligaen/2025/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-10",
+"inicio": "2025-01-27",
+"pendente": false,
 "tier": "C"
 },
 "Guangxi Esports Championship/2026": {
@@ -5989,9 +5989,9 @@
 "tier": "C"
 },
 "Henan Championship League/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-24",
+"inicio": "2025-08-23",
+"pendente": false,
 "tier": "C"
 },
 "Henan Championship League/2026": {
@@ -6011,15 +6011,15 @@
 "tier": "B"
 },
 "Hero Esports/Asian Champions League/2025/Qualifier/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-10",
+"pendente": false,
 "tier": "C"
 },
 "Hero Esports/Asian Champions League/2025/Qualifier/China/Closed": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-10",
+"pendente": false,
 "tier": "C"
 },
 "Hero Esports/Asian Champions League/2026": {
@@ -6057,9 +6057,9 @@
 "tier": "C"
 },
 "HopLan/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-20",
+"inicio": "2025-07-19",
+"pendente": false,
 "tier": "C"
 },
 "HopLan/2026": {
@@ -6128,27 +6128,27 @@
 "tier": "B"
 },
 "IESF/European Esports Championship/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-13",
+"inicio": "2025-07-09",
+"pendente": false,
 "tier": "C"
 },
 "IESF/European Esports Championship/2025/Female": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-12",
+"inicio": "2025-07-09",
+"pendente": false,
 "tier": "C"
 },
 "IESF/European Esports Championship/2025/Female/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-01",
+"inicio": "2025-05-28",
+"pendente": false,
 "tier": "C"
 },
 "IESF/European Esports Championship/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-27",
+"inicio": "2025-05-21",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Championships/2021": {
@@ -6172,33 +6172,33 @@
 "tier": "B"
 },
 "IESF/World Esports Championships/2025/Argentina": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-18",
+"inicio": "2025-05-16",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Australia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-13",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Austria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-08",
+"inicio": "2025-03-08",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Bangladesh": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-22",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Chile": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-24",
+"inicio": "2025-04-20",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Denmark": {
