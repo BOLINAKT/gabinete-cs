@@ -3471,9 +3471,9 @@
 "tier": "C"
 },
 "ESN/National Championship/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-26",
+"inicio": "2025-09-22",
+"pendente": false,
 "tier": "C"
 },
 "ESN/National Championship/2026": {
@@ -3483,45 +3483,45 @@
 "tier": "C"
 },
 "ESPTIGER/2025/Party": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-13",
+"inicio": "2025-07-12",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-07",
+"inicio": "2025-04-09",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025/Qualifier/Colombia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-28",
+"inicio": "2025-02-28",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025/Qualifier/Last Chance": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-21",
+"inicio": "2025-03-21",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025/Qualifier/North America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-14",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025/Qualifier/Peru": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-09",
+"inicio": "2025-03-08",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2025/Qualifier/Venezuela": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-22",
+"inicio": "2025-02-21",
+"pendente": false,
 "tier": "C"
 },
 "ESV/Latam Series/2026": {
@@ -3543,9 +3543,9 @@
 "tier": "C"
 },
 "EU Cyber League/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-03",
+"inicio": "2025-05-03",
+"pendente": false,
 "tier": "C"
 },
 "EXECLAN/2026": {
@@ -3580,75 +3580,75 @@
 "tier": "B"
 },
 "EXTREMESLAND/2025/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-01",
+"inicio": "2025-10-31",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/China/Offline": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-18",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/China/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-18",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/City Championship": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-27",
+"inicio": "2025-07-26",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Japan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-19",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Middle East": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-11",
+"inicio": "2025-10-10",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Mongolia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-28",
+"inicio": "2025-09-27",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-14",
+"inicio": "2025-09-13",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Oceania/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-24",
+"inicio": "2025-08-23",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Philippines": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-04",
+"inicio": "2025-10-04",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/Singapore & Malaysia & Thailand": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-21",
+"inicio": "2025-09-21",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2025/South Korea": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-18",
+"inicio": "2025-10-18",
+"pendente": false,
 "tier": "C"
 },
 "EXTREMESLAND/2026": {
@@ -3777,15 +3777,15 @@
 "tier": "C"
 },
 "EZK/Summer Showdown/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-27",
+"inicio": "2025-07-27",
+"pendente": false,
 "tier": "C"
 },
 "EZK/Summer Showdown/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-26",
+"inicio": "2025-07-26",
+"pendente": false,
 "tier": "C"
 },
 "Elisa/Finnish Championship/2020": {
@@ -3874,9 +3874,9 @@
 "tier": "B"
 },
 "Esports Kings/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-31",
+"inicio": "2025-05-30",
+"pendente": false,
 "tier": "C"
 },
 "Esports Kings/2026": {
@@ -4172,9 +4172,9 @@
 "tier": "B"
 },
 "ExitLag ChampZ/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-05",
+"inicio": "2025-10-04",
+"pendente": false,
 "tier": "C"
 },
 "ExitLag ChampZ/2026": {
@@ -4759,15 +4759,15 @@
 "tier": "B"
 },
 "FERJEE/Rainhas do Clutch/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-16",
+"inicio": "2025-11-13",
+"pendente": false,
 "tier": "C"
 },
 "FERJEE/Rainhas do Clutch/2025/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-16",
+"pendente": false,
 "tier": "C"
 },
 "FERJEE/Rainhas do Clutch/2026": {
@@ -4889,9 +4889,9 @@
 "tier": "C"
 },
 "FRAG/2025/Glassboro": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-09",
+"inicio": "2025-11-07",
+"pendente": false,
 "tier": "C"
 },
 "FRAG/2025/Philadelphia/2": {
@@ -5031,27 +5031,27 @@
 "tier": "B"
 },
 "FiReLEAGUE/2025/Buenos Aires/Brazil": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-06",
+"inicio": "2025-04-03",
+"pendente": false,
 "tier": "C"
 },
 "FiReLEAGUE/2025/Buenos Aires/Brazil/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-23",
+"inicio": "2025-03-22",
+"pendente": false,
 "tier": "C"
 },
 "FiReLEAGUE/2025/Buenos Aires/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-06",
+"inicio": "2025-04-03",
+"pendente": false,
 "tier": "C"
 },
 "FiReLEAGUE/2025/Buenos Aires/South America/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-23",
+"inicio": "2025-03-22",
+"pendente": false,
 "tier": "C"
 },
 "FiReSPORTS/Last Chance/2026": {
@@ -5065,9 +5065,9 @@
 "tier": "S"
 },
 "Fonbet Media Eleague/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-03",
+"inicio": "2025-08-25",
+"pendente": false,
 "tier": "C"
 },
 "Forge of Legends/2026": {
@@ -5081,21 +5081,21 @@
 "tier": "B"
 },
 "Fragadelphia/2025/Knoxville": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-07",
+"inicio": "2025-09-05",
+"pendente": false,
 "tier": "C"
 },
 "Fragadelphia/2025/Las Vegas": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-25",
+"pendente": false,
 "tier": "C"
 },
 "Fragadelphia/2025/Philadelphia/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-02",
+"inicio": "2025-02-28",
+"pendente": false,
 "tier": "C"
 },
 "Fragadelphia/Invitational/2021/Fall": {
@@ -5199,9 +5199,9 @@
 "tier": "B"
 },
 "GAMEON Productivity and Technology Tournament/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-26",
+"pendente": false,
 "tier": "C"
 },
 "GAMEON Productivity and Technology Tournament/2026": {
@@ -5211,15 +5211,15 @@
 "tier": "C"
 },
 "GAMESPHERE/2025/Students Edition": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-23",
+"inicio": "2025-04-20",
+"pendente": false,
 "tier": "C"
 },
 "GFest/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-21",
+"inicio": "2025-09-21",
+"pendente": false,
 "tier": "C"
 },
 "GFest/2026": {
@@ -5229,15 +5229,15 @@
 "tier": "C"
 },
 "GG Arena/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-26",
+"inicio": "2025-04-26",
+"pendente": false,
 "tier": "C"
 },
 "GG Arena/2025/Winter": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-06",
+"inicio": "2025-12-06",
+"pendente": false,
 "tier": "C"
 },
 "GG Arena/2026/Spring": {
@@ -5247,51 +5247,51 @@
 "tier": "C"
 },
 "GG Vasara/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-07",
+"inicio": "2025-09-07",
+"pendente": false,
 "tier": "C"
 },
 "GG Vasara/2025/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-10",
+"inicio": "2025-08-10",
+"pendente": false,
 "tier": "C"
 },
 "GG Vasara/2025/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-17",
+"inicio": "2025-08-17",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-22",
+"inicio": "2025-11-21",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2025/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-10",
+"inicio": "2025-11-10",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2025/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-11",
+"inicio": "2025-11-11",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2025/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-12",
+"inicio": "2025-11-12",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2025/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-13",
+"inicio": "2025-11-13",
+"pendente": false,
 "tier": "C"
 },
 "GLuck Yungstar/2026/Series 1": {
@@ -5414,21 +5414,21 @@
 "tier": "A"
 },
 "GPlay Premier/2025/Final": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-05",
+"inicio": "2025-09-27",
+"pendente": false,
 "tier": "C"
 },
 "GPlay Premier/2025/Hanoi": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-22",
+"inicio": "2025-06-15",
+"pendente": false,
 "tier": "C"
 },
 "Gainward/Cup Esports Arena Championship/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-27",
+"inicio": "2025-12-27",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 1": {
@@ -5437,9 +5437,9 @@
 "tier": "B"
 },
 "Galaxy Battle/2025/Phase 1/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-07",
+"inicio": "2025-04-06",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 2": {
@@ -5448,9 +5448,9 @@
 "tier": "B"
 },
 "Galaxy Battle/2025/Phase 2/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-07",
+"inicio": "2025-05-06",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 3": {
@@ -5459,9 +5459,9 @@
 "tier": "B"
 },
 "Galaxy Battle/2025/Phase 3/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-06",
+"inicio": "2025-06-05",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 4": {
@@ -5470,9 +5470,9 @@
 "tier": "B"
 },
 "Galaxy Battle/2025/Phase 4/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-01",
+"inicio": "2025-08-31",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 5": {
@@ -5481,15 +5481,15 @@
 "tier": "B"
 },
 "Galaxy Battle/2025/Phase 5/Play-In": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-05",
+"inicio": "2025-10-25",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/Phase 5/Play-In/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-20",
+"inicio": "2025-10-19",
+"pendente": false,
 "tier": "C"
 },
 "Galaxy Battle/2025/STARTER": {
@@ -5510,9 +5510,9 @@
 "tier": "C"
 },
 "Game Zone/2025/Masters": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-25",
+"inicio": "2025-10-24",
+"pendente": false,
 "tier": "C"
 },
 "Game Zone/2025/Masters/Qualifier/1": {
