@@ -1,33 +1,6 @@
 {
- "lido_em": "2026-10-30T22:41:13Z",
+ "lido_em": "2026-10-31T06:16:42Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-30T19:15:00Z",
-   "time1": "spirit black",
-   "time2": "ttg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T21:25:00Z",
-   "time1": "wildcard",
-   "time2": "bestia",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-30T21:25:00Z",
-   "time1": "hacha",
-   "time2": "bth",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
   {
    "pagina": "DFRAG/Invitational/2026",
    "tier": "B",
@@ -191,6 +164,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-10-31T16:15:00Z",
+   "time1": "wildcard",
+   "time2": "hacha",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
    "inicio_utc": "2026-10-31T16:30:00Z",
@@ -218,6 +200,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-10-31T19:15:00Z",
+   "time1": "ducks",
+   "time2": "ttg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-02T09:00:00Z",
@@ -232,6 +223,105 @@
    "inicio_utc": "2026-11-02T12:00:00Z",
    "time1": "falcons force",
    "time2": "megoshort",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T16:00:00Z",
+   "time1": "legacy",
+   "time2": "mongolz",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T16:00:00Z",
+   "time1": "heroic",
+   "time2": "b8",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T18:00:00Z",
+   "time1": "coinstep",
+   "time2": "xept",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T18:00:00Z",
+   "time1": "leo",
+   "time2": "natverket",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T18:30:00Z",
+   "time1": "aurora",
+   "time2": "tl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T18:30:00Z",
+   "time1": "parivision",
+   "time2": "g2",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T21:00:00Z",
+   "time1": "furia",
+   "time2": "faze",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T21:00:00Z",
+   "time1": "9z",
+   "time2": "betboom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T23:30:00Z",
+   "time1": "navi",
+   "time2": "falcons",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-02T23:30:00Z",
+   "time1": "mouz",
+   "time2": "tyloo",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-09T18:00:00Z",
+   "time1": "crown city",
+   "time2": "izzotrades",
    "bo": 3,
    "mapas_jogados": 0
   }
