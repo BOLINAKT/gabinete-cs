@@ -1,50 +1,23 @@
 {
- "lido_em": "2026-11-01T16:20:45Z",
+ "lido_em": "2026-11-01T22:21:04Z",
  "jogos": [
   {
-   "pagina": "CCT/2026/Europe/Series 12",
+   "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
-   "inicio_utc": "2026-11-01T14:30:00Z",
-   "time1": "acend",
-   "time2": "fokus",
+   "inicio_utc": "2026-11-01T20:15:00Z",
+   "time1": "bestia",
+   "time2": "barca",
    "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-01T15:00:00Z",
-   "time1": "donstu",
-   "time2": "misa",
-   "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
-   "inicio_utc": "2026-11-01T16:30:00Z",
-   "time1": "wildcard",
-   "time2": "barca",
+   "inicio_utc": "2026-11-01T20:30:00Z",
+   "time1": "100t",
+   "time2": "wildcard",
    "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-11-01T16:30:00Z",
-   "time1": "prodigy.ru",
-   "time2": "ducks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-01T18:00:00Z",
-   "time1": "sokerorg",
-   "time2": "azuolas",
-   "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
@@ -65,6 +38,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T15:00:00Z",
+   "time1": "misa",
+   "time2": "psychoface",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Intel Extreme Masters/2026/Beijing",
    "tier": "S",
    "inicio_utc": "2026-11-02T16:00:00Z",
@@ -79,6 +61,15 @@
    "inicio_utc": "2026-11-02T16:00:00Z",
    "time1": "heroic",
    "time2": "b8",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-02T18:00:00Z",
+   "time1": "sokerorg",
+   "time2": "illyrians",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -160,6 +151,15 @@
    "inicio_utc": "2026-11-09T18:00:00Z",
    "time1": "crown city",
    "time2": "izzotrades",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-11T18:00:00Z",
+   "time1": "minkens finest",
+   "time2": "vanir quick academy",
    "bo": 3,
    "mapas_jogados": 0
   }
