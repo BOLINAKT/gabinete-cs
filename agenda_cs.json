@@ -1,51 +1,6 @@
 {
- "lido_em": "2026-10-31T19:34:26Z",
+ "lido_em": "2026-11-01T00:26:32Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-10-31T18:00:00Z",
-   "time1": "azuolas",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 12",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T18:00:00Z",
-   "time1": "acend",
-   "time2": "butterfly",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T19:00:00Z",
-   "time1": "barca",
-   "time2": "fluxo w7m",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 10",
-   "tier": "C",
-   "inicio_utc": "2026-10-31T19:15:00Z",
-   "time1": "ducks",
-   "time2": "ttg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T19:30:00Z",
-   "time1": "procyon",
-   "time2": "bestia",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "RESF/Sber Tournament/2026",
    "tier": "C",
@@ -59,19 +14,10 @@
    "pagina": "FiReSPORTS/Last Chance/2026",
    "tier": "B",
    "inicio_utc": "2026-10-31T22:15:00Z",
-   "time1": "100t",
-   "time2": "isurus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-10-31T22:15:00Z",
    "time1": "nrg",
    "time2": "wildcard",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
    "pagina": "CCT/2026/Europe/Series 12",
@@ -79,6 +25,15 @@
    "inicio_utc": "2026-11-01T00:00:00Z",
    "time1": "apogee",
    "time2": "phantom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 12",
+   "tier": "B",
+   "inicio_utc": "2026-11-01T00:00:00Z",
+   "time1": "acend",
+   "time2": "fokus",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -110,6 +65,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-01T12:00:00Z",
+   "time1": "fortress",
+   "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Moscow Cyber Games/2026",
    "tier": "B",
    "inicio_utc": "2026-11-01T13:00:00Z",
@@ -119,11 +83,38 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-01T14:00:00Z",
+   "time1": "100t",
+   "time2": "bestia",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-01T15:00:00Z",
    "time1": "donstu",
    "time2": "misa",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Contenders 10",
+   "tier": "C",
+   "inicio_utc": "2026-11-01T16:30:00Z",
+   "time1": "prodigy.ru",
+   "time2": "ducks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-01T18:00:00Z",
+   "time1": "sokerorg",
+   "time2": "azuolas",
    "bo": 3,
    "mapas_jogados": 0
   },
