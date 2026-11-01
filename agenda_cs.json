@@ -1,59 +1,14 @@
 {
- "lido_em": "2026-11-01T06:48:07Z",
+ "lido_em": "2026-11-01T16:20:45Z",
  "jogos": [
   {
-   "pagina": "DFRAG/Invitational/2026",
+   "pagina": "CCT/2026/Europe/Series 12",
    "tier": "B",
-   "inicio_utc": "2026-11-01T03:00:00Z",
-   "time1": "fq",
-   "time2": "alter ego",
-   "bo": 5,
-   "mapas_jogados": 3
-  },
-  {
-   "pagina": "Moscow Cyber Games/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T09:00:00Z",
-   "time1": "huns",
-   "time2": "5star",
+   "inicio_utc": "2026-11-01T14:30:00Z",
+   "time1": "acend",
+   "time2": "fokus",
    "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-01T09:00:00Z",
-   "time1": "psychoface",
-   "time2": "saint sinners",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-01T12:00:00Z",
-   "time1": "fortress",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Moscow Cyber Games/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T13:00:00Z",
-   "time1": "hotu",
-   "time2": "1w",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T14:00:00Z",
-   "time1": "100t",
-   "time2": "bestia",
-   "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
@@ -65,20 +20,20 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "FiReSPORTS/Last Chance/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-01T16:30:00Z",
+   "time1": "wildcard",
+   "time2": "barca",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 10",
    "tier": "C",
    "inicio_utc": "2026-11-01T16:30:00Z",
    "time1": "prodigy.ru",
    "time2": "ducks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T17:00:00Z",
-   "time1": "wildcard",
-   "time2": "barca",
    "bo": 3,
    "mapas_jogados": 0
   },

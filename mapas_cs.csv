@@ -60682,6 +60682,11 @@ Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,1,Ancient,13,2,ct,1,0,23994
 Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,2,Cache,13,7,t,1,0,2399437
 Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,1,Inferno,13,9,ct,1,0,2399438
 Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,2,Mirage,13,4,ct,1,0,2399438
+Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,1,Anubis,9,13,t,2,0,2399440
+Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,2,Dust II,11,13,t,2,0,2399440
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,1,Inferno,9,13,ct,2,0,2399439
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,2,Ancient,13,10,t,1,0,2399439
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,3,Nuke,13,5,ct,1,0,2399439
 Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,1,Cache,0,13,ct,2,0,2397012
 Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,2,Mirage,3,13,t,2,0,2397012
 Moscow Cyber Games/2026/Asia,C,2026-08-22 14:00,chinggis,vitalem aerem,1,Dust II,6,13,ct,2,0,2397013
@@ -60966,11 +60971,17 @@ CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 10:00,psychoface,donstu,2,Nuke,14
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 13:00,saint sinners,misa,1,Dust II,11,13,t,2,0,2400017
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 13:00,saint sinners,misa,2,Inferno,13,9,ct,1,0,2400017
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 13:00,saint sinners,misa,3,Anubis,7,13,ct,2,0,2400017
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 10:00,psychoface,saint sinners,1,Dust II,4,13,ct,2,0,2400050
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 10:00,psychoface,saint sinners,2,Nuke,13,0,t,1,0,2400050
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 10:00,psychoface,saint sinners,3,Mirage,13,10,t,1,0,2400050
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 16:10,sokerorg,fortress,1,Cache,13,11,t,1,0,2400018
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 16:10,sokerorg,fortress,2,Anubis,13,7,ct,1,0,2400018
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 19:00,azuolas,illyrians,1,Cache,17,19,ct,2,2,2400019
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 19:00,azuolas,illyrians,2,Mirage,13,11,t,1,0,2400019
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-31 19:00,azuolas,illyrians,3,Ancient,13,5,ct,1,0,2400019
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 13:00,fortress,illyrians,1,Mirage,7,13,ct,2,0,2400051
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 13:00,fortress,illyrians,2,Inferno,13,4,t,1,0,2400051
+CCT/2026/Europe/Series 13/Play-In,C,2026-11-01 13:00,fortress,illyrians,3,Ancient,10,13,t,2,0,2400051
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,1,Mirage,13,1,ct,1,0,2399962
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,2,Dust II,13,2,t,1,0,2399962
 FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,1,Cache,13,10,ct,1,0,2399963
@@ -61028,6 +61039,8 @@ FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,2,Dust II,13,8,t,1,0
 FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,3,Cache,14,16,t,2,1,2399985
 FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,1,Inferno,19,17,t,1,2,2399983
 FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,2,Mirage,13,8,ct,1,0,2399983
+FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,1,Mirage,13,10,ct,1,0,2399986
+FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,2,Dust II,13,8,t,1,0,2399986
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 13:05,5star,the audacity,1,Ancient,11,13,ct,2,0,2399920
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 13:05,5star,the audacity,2,Cache,5,13,t,2,0,2399920
 MESA/Pro Series/2026/Halloween Edition,C,2026-10-27 15:30,theone 1337,chinggis,1,Ancient,5,13,t,2,0,2399921
@@ -61109,6 +61122,9 @@ DFRAG/Invitational/2026,B,2026-10-31 13:00,abyssal,nexvoid,2,Ancient,7,13,ct,2,0
 DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,1,Dust II,14,16,t,2,1,2399903
 DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,2,Inferno,13,9,ct,1,0,2399903
 DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,3,Ancient,16,14,t,1,1,2399903
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,1,Inferno,13,9,t,1,0,2399901
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,2,Ancient,16,14,ct,1,1,2399901
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,3,Anubis,13,8,ct,1,0,2399901
 DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,alter ego,bgns orange,1,Mirage,11,13,t,2,0,
 DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,finishers,mglbros,1,Ancient,16,13,t,1,1,
 DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,abyssal,sunday school,1,Mirage,13,9,ct,1,0,
@@ -61815,6 +61831,10 @@ CCT/2026/Europe/Series 12,B,2026-10-31 19:00,acend,butterfly,2,Inferno,6,13,t,2,
 CCT/2026/Europe/Series 12,B,2026-10-31 19:00,acend,butterfly,3,Ancient,13,11,t,1,0,2399529
 CCT/2026/Europe/Series 12,B,2026-10-31 16:00,fokus,baks,1,Mirage,13,8,ct,1,0,2399528
 CCT/2026/Europe/Series 12,B,2026-10-31 16:00,fokus,baks,2,Nuke,16,14,t,1,1,2399528
+CCT/2026/Europe/Series 12,B,2026-11-01 12:00,apogee,phantom,1,Ancient,13,10,ct,1,0,2399530
+CCT/2026/Europe/Series 12,B,2026-11-01 12:00,apogee,phantom,2,Nuke,17,19,t,2,2,2399530
+CCT/2026/Europe/Series 12,B,2026-11-01 12:00,apogee,phantom,3,Anubis,13,2,t,1,0,2399530
+CCT/2026/Europe/Series 12,B,2026-11-01 15:30,acend,fokus,1,Dust II,13,8,ct,1,0,2399531
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-14 10:00,enjoy,b8 academy,1,Mirage,4,13,ct,2,0,2399461
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-14 10:00,enjoy,b8 academy,2,Ancient,13,5,t,1,0,2399461
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-14 10:00,enjoy,b8 academy,3,Dust II,13,4,ct,1,0,2399461
