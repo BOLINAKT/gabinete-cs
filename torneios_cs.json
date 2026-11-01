@@ -6202,81 +6202,81 @@
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Denmark": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-20",
+"inicio": "2025-04-19",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/France": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-13",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Kyrgyzstan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-20",
+"inicio": "2025-04-10",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Latvia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-28",
+"inicio": "2025-04-27",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Moldova": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-29",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Poland": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-27",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Slovenia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-26",
+"inicio": "2025-04-26",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-14",
+"inicio": "2025-09-12",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Sweden": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-29",
+"inicio": "2025-04-29",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Switzerland": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-22",
+"inicio": "2025-03-22",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Syria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-07",
+"inicio": "2025-03-02",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Taiwan": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-18",
+"inicio": "2025-04-17",
+"pendente": false,
 "tier": "C"
 },
 "IESF/World Esports Championships/2025/Ukraine": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-05",
+"inicio": "2025-04-05",
+"pendente": false,
 "tier": "C"
 },
 "ITA Pro Series/2026": {
@@ -6603,9 +6603,9 @@
 "tier": "B"
 },
 "Intel Extreme Masters/2025/Dallas/Asia/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-08",
+"inicio": "2025-02-07",
+"pendente": false,
 "tier": "C"
 },
 "Intel Extreme Masters/2025/Dallas/Europe": {
@@ -6624,9 +6624,9 @@
 "tier": "B"
 },
 "Intel Extreme Masters/2025/Dallas/North America/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-08",
+"inicio": "2025-02-07",
+"pendente": false,
 "tier": "C"
 },
 "Intel Extreme Masters/2025/Dallas/South America": {
@@ -6635,9 +6635,9 @@
 "tier": "B"
 },
 "Intel Extreme Masters/2025/Dallas/South America/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-08",
+"inicio": "2025-02-07",
+"pendente": false,
 "tier": "C"
 },
 "Intel Extreme Masters/2025/Katowice": {
@@ -6874,21 +6874,21 @@
 "tier": "C"
 },
 "LDPR/Russia/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-21",
+"inicio": "2025-06-21",
+"pendente": false,
 "tier": "C"
 },
 "LDPR/Russia/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-18",
+"inicio": "2025-04-14",
+"pendente": false,
 "tier": "C"
 },
 "LEET OPEN/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-04",
+"inicio": "2025-05-03",
+"pendente": false,
 "tier": "C"
 },
 "LG UltraGear Tournament/2026": {
@@ -6904,9 +6904,9 @@
 "tier": "C"
 },
 "Lan Expérience/2025/On Se ReGeek": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-18",
+"pendente": false,
 "tier": "C"
 },
 "Lan Expérience/2026/On Se ReGeek": {
@@ -6916,15 +6916,15 @@
 "tier": "C"
 },
 "LanTrek/2025/BYOC": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-18",
+"inicio": "2025-10-17",
+"pendente": false,
 "tier": "C"
 },
 "Legion Regular Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-24",
+"inicio": "2025-08-23",
+"pendente": false,
 "tier": "C"
 },
 "Let's Play/2026/Burgas": {
@@ -6934,9 +6934,9 @@
 "tier": "C"
 },
 "Level Up LUND!/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-12",
+"pendente": false,
 "tier": "C"
 },
 "Level Up LUND!/2026": {
@@ -6951,15 +6951,15 @@
 "tier": "B"
 },
 "Liga Ace Esports/North American Masters/2025/Fall/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-31",
+"inicio": "2025-07-29",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/North American Masters/2025/Fall/Qualifier/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-28",
+"inicio": "2025-07-27",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/North American Masters/2025/Spring": {
@@ -6968,15 +6968,15 @@
 "tier": "B"
 },
 "Liga Ace Esports/North American Masters/2025/Spring/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-10",
+"inicio": "2025-02-08",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/North American Masters/2025/Spring/Qualifier/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-06",
+"inicio": "2025-02-06",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/North American Masters/2026/Spring": {
@@ -6996,21 +6996,21 @@
 "tier": "B"
 },
 "Liga Ace Esports/South American Masters/2025/Fall/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-31",
+"inicio": "2025-07-29",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/South American Masters/2025/Fall/Qualifier/Brazil": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-28",
+"inicio": "2025-07-27",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/South American Masters/2025/Fall/Qualifier/South America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-28",
+"inicio": "2025-07-27",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/South American Masters/2025/Spring": {
@@ -7019,15 +7019,15 @@
 "tier": "B"
 },
 "Liga Ace Esports/South American Masters/2025/Spring/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-07",
+"inicio": "2025-02-05",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/South American Masters/2025/Spring/Qualifier/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-04",
+"inicio": "2025-02-04",
+"pendente": false,
 "tier": "C"
 },
 "Liga Ace Esports/South American Masters/2026/Spring": {
@@ -7067,15 +7067,15 @@
 "tier": "B"
 },
 "Lótus Challenge/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-12",
+"inicio": "2025-07-16",
+"pendente": false,
 "tier": "C"
 },
 "MCL/2025/Season 3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-12",
+"inicio": "2025-10-02",
+"pendente": false,
 "tier": "C"
 },
 "MEG/2022": {
@@ -7089,87 +7089,87 @@
 "tier": "B"
 },
 "MESA/Asian Masters/2025/Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-27",
+"inicio": "2025-02-24",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Asia/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-14",
+"inicio": "2025-02-14",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Asia/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-16",
+"inicio": "2025-02-16",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Asia/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-21",
+"inicio": "2025-02-20",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Asia/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-23",
+"inicio": "2025-02-22",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-27",
+"inicio": "2025-02-24",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/China/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-15",
+"inicio": "2025-02-14",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/China/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-17",
+"inicio": "2025-02-16",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/China/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-21",
+"inicio": "2025-02-20",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/China/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-23",
+"inicio": "2025-02-22",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/MENA": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-26",
+"inicio": "2025-02-24",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-26",
+"inicio": "2025-02-24",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Oceania/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-14",
+"inicio": "2025-02-14",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Asian Masters/2025/Oceania/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-20",
+"inicio": "2025-02-20",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Nomadic Masters/2024/Spring": {
@@ -7188,21 +7188,21 @@
 "tier": "A"
 },
 "MESA/Nomadic Masters/2025/Spring/Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-02",
+"inicio": "2025-04-01",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Nomadic Masters/2025/Spring/Asia/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-10",
+"inicio": "2025-04-09",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Nomadic Masters/2025/Spring/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-08",
+"inicio": "2025-04-07",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Nomadic Masters/2025/Spring/Europe": {
@@ -7211,27 +7211,27 @@
 "tier": "B"
 },
 "MESA/Pro Series/2025/Fall": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-30",
+"inicio": "2025-08-26",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Pro Series/2025/Road to Nomadic Masters": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-06",
+"inicio": "2025-04-05",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Pro Series/2025/Road to eXTREMESLAND": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-06",
+"inicio": "2025-09-02",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Pro Series/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-03",
+"inicio": "2025-04-01",
+"pendente": false,
 "tier": "C"
 },
 "MESA/Pro Series/2026/Fall": {
@@ -7277,9 +7277,9 @@
 "tier": "C"
 },
 "META Esports Kazakhstan/2025/Grand Final Cup": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-08",
+"inicio": "2025-06-08",
+"pendente": false,
 "tier": "C"
 },
 "Majors/2028/Summer": {
@@ -7343,27 +7343,27 @@
 "tier": "A"
 },
 "Monsters Reloaded/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-14",
+"inicio": "2025-11-04",
+"pendente": false,
 "tier": "C"
 },
 "Monsters Reloaded/2025/Qualifier/Germany/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-10",
+"inicio": "2025-10-10",
+"pendente": false,
 "tier": "C"
 },
 "Monsters Reloaded/2025/Qualifier/Germany/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-19",
+"pendente": false,
 "tier": "C"
 },
 "Monsters Reloaded/2025/Qualifier/Turkey": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-25",
+"inicio": "2025-10-25",
+"pendente": false,
 "tier": "C"
 },
 "Monsters Reloaded/2026": {
@@ -7426,9 +7426,9 @@
 "tier": "C"
 },
 "Mustache Masters/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-22",
+"inicio": "2025-11-22",
+"pendente": false,
 "tier": "C"
 },
 "Mustache Masters/2026": {
@@ -7438,15 +7438,15 @@
 "tier": "C"
 },
 "NSB Cup/2025/Summer": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-14",
+"inicio": "2025-06-14",
+"pendente": false,
 "tier": "C"
 },
 "NVIDIA Reflex/iCafe Attack/2025/Indonesia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-19",
+"pendente": false,
 "tier": "C"
 },
 "Na`Vi 2010 vs NAVI 2020 Showmatch": {
@@ -7455,9 +7455,9 @@
 "tier": "B"
 },
 "Neptun Champions/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-27",
+"inicio": "2025-09-27",
+"pendente": false,
 "tier": "C"
 },
 "Neptun Champions/2026": {
@@ -7467,9 +7467,9 @@
 "tier": "C"
 },
 "Nordic Championship Women/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-08",
+"inicio": "2025-11-07",
+"pendente": false,
 "tier": "C"
 },
 "OMEN WGR European Challenge/2021": {
@@ -7498,9 +7498,9 @@
 "tier": "B"
 },
 "Odyssey Cup/2025/Brazil/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-06",
+"inicio": "2025-04-05",
+"pendente": false,
 "tier": "C"
 },
 "Odyssey Cup/2025/Brazil/Qualifier/2": {
