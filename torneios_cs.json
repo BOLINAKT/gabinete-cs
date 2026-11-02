@@ -7504,27 +7504,27 @@
 "tier": "C"
 },
 "Odyssey Cup/2025/Brazil/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-12",
+"pendente": false,
 "tier": "C"
 },
 "Odyssey Cup/2025/Brazil/Qualifier/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-20",
+"inicio": "2025-04-19",
+"pendente": false,
 "tier": "C"
 },
 "Odyssey Cup/2025/Brazil/Qualifier/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-04",
+"inicio": "2025-05-03",
+"pendente": false,
 "tier": "C"
 },
 "Odyssey Cup/2025/Champions": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-20",
+"inicio": "2025-09-19",
+"pendente": false,
 "tier": "C"
 },
 "Odyssey Cup/2026/Brazil": {
@@ -7563,15 +7563,15 @@
 "tier": "C"
 },
 "OldPlayer Tour Masters/2025/Lviv": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-31",
+"inicio": "2025-08-30",
+"pendente": false,
 "tier": "C"
 },
 "OldPlayer Tour Masters/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-29",
+"pendente": false,
 "tier": "C"
 },
 "OldPlayer Tour Masters/2026/Kyiv": {
@@ -7754,75 +7754,75 @@
 "tier": "B"
 },
 "PGL/2025/Astana/Asia/China": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-27",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/China/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-15",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/China/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-17",
+"inicio": "2025-03-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/China/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-22",
+"inicio": "2025-03-21",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/MENA": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-28",
+"inicio": "2025-03-27",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Oceania": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-27",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Oceania/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-14",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Oceania/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-16",
+"inicio": "2025-03-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Oceania/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-21",
+"inicio": "2025-03-21",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Oceania/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-24",
+"inicio": "2025-03-23",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Rest of Asia": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-30",
+"inicio": "2025-03-27",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Asia/Rest of Asia/Open": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-17",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/Europe": {
@@ -7856,27 +7856,27 @@
 "tier": "B"
 },
 "PGL/2025/Astana/North America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-14",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/North America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-17",
+"inicio": "2025-03-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/North America/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-22",
+"inicio": "2025-03-21",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/North America/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-24",
+"inicio": "2025-03-23",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/South America": {
@@ -7885,27 +7885,27 @@
 "tier": "B"
 },
 "PGL/2025/Astana/South America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-15",
+"inicio": "2025-03-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/South America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-17",
+"inicio": "2025-03-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/South America/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-22",
+"inicio": "2025-03-21",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Astana/South America/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-03-24",
+"inicio": "2025-03-23",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Belgrade/Asia": {
@@ -7964,27 +7964,27 @@
 "tier": "B"
 },
 "PGL/2025/Bucharest/North America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-15",
+"inicio": "2025-02-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/North America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-17",
+"inicio": "2025-02-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/North America/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-21",
+"inicio": "2025-02-20",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/North America/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-23",
+"inicio": "2025-02-22",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/South America": {
@@ -7993,27 +7993,27 @@
 "tier": "B"
 },
 "PGL/2025/Bucharest/South America/Open/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-15",
+"inicio": "2025-02-14",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/South America/Open/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-17",
+"inicio": "2025-02-16",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/South America/Open/3": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-21",
+"inicio": "2025-02-20",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Bucharest/South America/Open/4": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-23",
+"inicio": "2025-02-22",
+"pendente": false,
 "tier": "C"
 },
 "PGL/2025/Cluj-Napoca": {
@@ -8493,21 +8493,21 @@
 "tier": "B"
 },
 "PLAYzone/Conquest of Prague/2025/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-08",
+"inicio": "2025-04-22",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2025/Online Stage/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-12",
+"inicio": "2025-04-12",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2025/Online Stage/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-13",
+"inicio": "2025-04-13",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/Conquest of Prague/2026": {
@@ -8571,9 +8571,9 @@
 "tier": "B"
 },
 "PLAYzone/MČR/2025/Qualifier": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-19",
+"inicio": "2025-10-14",
+"pendente": false,
 "tier": "C"
 },
 "PLAYzone/MČR/2026": {
@@ -8588,9 +8588,9 @@
 "tier": "B"
 },
 "Pavaga/Summer Series/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-27",
+"inicio": "2025-07-26",
+"pendente": false,
 "tier": "C"
 },
 "Pavlodar Ertis Cup/2026": {
@@ -8717,39 +8717,39 @@
 "tier": "S"
 },
 "Perfect World/National League/2025/Fall": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-17",
+"inicio": "2025-12-20",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2025/Fall/Chengdu": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-23",
+"inicio": "2025-11-23",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2025/Fall/College Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-28",
+"inicio": "2025-11-15",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2025/Fall/Community Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2026-01-10",
+"inicio": "2026-01-10",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2025/Spring": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-14",
+"inicio": "2025-05-31",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2025/Spring/College Division": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-02",
+"inicio": "2025-05-17",
+"pendente": false,
 "tier": "C"
 },
 "Perfect World/National League/2026/Spring": {
@@ -8788,9 +8788,9 @@
 "tier": "C"
 },
 "Playfly/Tournament of Champions/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-04",
+"inicio": "2025-05-03",
+"pendente": false,
 "tier": "C"
 },
 "Polska Liga Esportowa/2021/Autumn/Mistrzowska": {
@@ -8855,27 +8855,27 @@
 "tier": "C"
 },
 "Pricempire League/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-10-25",
+"inicio": "2025-10-25",
+"pendente": false,
 "tier": "C"
 },
 "Project Night Shift/Invitational/2025/Asia-Pacific": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-14",
+"inicio": "2025-09-13",
+"pendente": false,
 "tier": "C"
 },
 "Project Night Shift/Invitational/2025/Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-09-07",
+"inicio": "2025-09-06",
+"pendente": false,
 "tier": "C"
 },
 "Project Night Shift/Invitational/2025/North America": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-31",
+"inicio": "2025-08-30",
+"pendente": false,
 "tier": "C"
 },
 "Punto Gamers Cup/2026": {
@@ -8885,15 +8885,15 @@
 "tier": "C"
 },
 "Qazaqstan Respublikasynyŋ Kubogi/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-28",
+"inicio": "2025-12-26",
+"pendente": false,
 "tier": "C"
 },
 "RESF/National Student Esports League/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-15",
+"inicio": "2025-06-14",
+"pendente": false,
 "tier": "C"
 },
 "RESF/National Student Esports League/2026/Super Cup": {
@@ -8903,33 +8903,33 @@
 "tier": "C"
 },
 "RESF/Open Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-12-07",
+"inicio": "2025-12-06",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Open Cup/2025/Qualifier/1": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-22",
+"inicio": "2025-11-22",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Open Cup/2025/Qualifier/2": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-23",
+"inicio": "2025-11-23",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Championship/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-06",
+"inicio": "2025-07-05",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Championship/2025/Regular Season": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-06-13",
+"inicio": "2025-05-17",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Championship/2026": {
@@ -8945,21 +8945,21 @@
 "tier": "C"
 },
 "RESF/Russian Esports Cup/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-24",
+"inicio": "2025-08-23",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Russian Esports Cup/2025/Online Stage": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-27",
+"inicio": "2025-07-26",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Sber Tournament/2025": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-08-30",
+"inicio": "2025-08-16",
+"pendente": false,
 "tier": "C"
 },
 "RESF/Sber Tournament/2026": {
@@ -8995,27 +8995,27 @@
 "tier": "B"
 },
 "RLG/RES/Showdown/2025/Fall/Qualifier/Adria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-21",
+"inicio": "2025-07-21",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Fall/Qualifier/Eastern Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-20",
+"inicio": "2025-07-20",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Fall/Qualifier/Nordics": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-21",
+"inicio": "2025-07-21",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Fall/Qualifier/Western Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-07-20",
+"inicio": "2025-07-20",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Spring": {
@@ -9029,27 +9029,27 @@
 "tier": "B"
 },
 "RLG/RES/Showdown/2025/Spring/Qualifier/Adria": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-04",
+"inicio": "2025-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Spring/Qualifier/Eastern Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-04",
+"inicio": "2025-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Spring/Qualifier/Nordics": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-04",
+"inicio": "2025-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2025/Spring/Qualifier/Western Europe": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-02-04",
+"inicio": "2025-02-04",
+"pendente": false,
 "tier": "C"
 },
 "RLG/RES/Showdown/2026/Fall/Europe": {
@@ -9174,9 +9174,9 @@
 "tier": "B"
 },
 "Red Bull GIBAWAY/2025/JOURNEY": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-08",
+"inicio": "2025-11-07",
+"pendente": false,
 "tier": "C"
 },
 "Regional Major Rankings/2020/Rio/Asia": {
@@ -9275,15 +9275,15 @@
 "tier": "A"
 },
 "Royal eSports Masters/2025/May": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-05-11",
+"inicio": "2025-05-10",
+"pendente": false,
 "tier": "C"
 },
 "Royal eSports Masters/2025/November": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-11-23",
+"inicio": "2025-11-22",
+"pendente": false,
 "tier": "C"
 },
 "Royal eSports Masters/2026/March": {
@@ -9298,9 +9298,9 @@
 "tier": "B"
 },
 "SAW/2025/Spring Cup": {
-"fim": null,
-"inicio": null,
-"pendente": true,
+"fim": "2025-04-27",
+"inicio": "2025-04-25",
+"pendente": false,
 "tier": "C"
 },
 "SONAMGEN Esports/The Xizang Pro League/2025": {
