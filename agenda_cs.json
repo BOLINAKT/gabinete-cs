@@ -1,27 +1,9 @@
 {
- "lido_em": "2026-11-01T22:21:04Z",
+ "lido_em": "2026-11-02T06:45:44Z",
  "jogos": [
   {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T20:15:00Z",
-   "time1": "bestia",
-   "time2": "barca",
-   "bo": 3,
-   "mapas_jogados": 2
-  },
-  {
-   "pagina": "FiReSPORTS/Last Chance/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-01T20:30:00Z",
-   "time1": "100t",
-   "time2": "wildcard",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
+   "tier": "B",
    "inicio_utc": "2026-11-02T09:00:00Z",
    "time1": "honved",
    "time2": "maybe.ua",
@@ -30,7 +12,7 @@
   },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
+   "tier": "B",
    "inicio_utc": "2026-11-02T12:00:00Z",
    "time1": "falcons force",
    "time2": "megoshort",
@@ -39,7 +21,7 @@
   },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
+   "tier": "B",
    "inicio_utc": "2026-11-02T15:00:00Z",
    "time1": "misa",
    "time2": "psychoface",
@@ -66,7 +48,7 @@
   },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "C",
+   "tier": "B",
    "inicio_utc": "2026-11-02T18:00:00Z",
    "time1": "sokerorg",
    "time2": "illyrians",
