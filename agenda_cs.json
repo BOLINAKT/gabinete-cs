@@ -1,33 +1,6 @@
 {
- "lido_em": "2026-11-03T11:19:54Z",
+ "lido_em": "2026-11-03T19:48:11Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T09:00:00Z",
-   "time1": "azuolas",
-   "time2": "maybe.ua",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T12:00:00Z",
-   "time1": "spirit academy",
-   "time2": "psychoface",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T15:00:00Z",
-   "time1": "leo team",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 13/Play-In",
    "tier": "B",
@@ -52,24 +25,6 @@
    "inicio_utc": "2026-11-03T22:00:00Z",
    "time1": "bestia academy",
    "time2": "alianza lima",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T00:15:00Z",
-   "time1": "furia",
-   "time2": "navi",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T01:00:00Z",
-   "time1": "legacy",
-   "time2": "b8",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -137,12 +92,30 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PLAYzone/MČR/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-04T17:00:00Z",
+   "time1": "sinners legacy",
+   "time2": "monkeys (czech team)",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-04T18:00:00Z",
    "time1": "prestige.dk",
    "time2": "maybe.ua",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/MČR/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-04T18:00:00Z",
+   "time1": "unity.sk",
+   "time2": "thousand",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
@@ -158,9 +131,27 @@
    "pagina": "Intel Extreme Masters/2026/Beijing",
    "tier": "S",
    "inicio_utc": "2026-11-04T18:30:00Z",
+   "time1": "navi",
+   "time2": "b8",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-04T18:30:00Z",
    "time1": "heroic",
    "time2": "falcons",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/MČR/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-04T19:00:00Z",
+   "time1": "eclot phoenix",
+   "time2": "esuba",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
@@ -170,6 +161,15 @@
    "time1": "borracheiros",
    "time2": "low cortisol",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/MČR/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-04T20:00:00Z",
+   "time1": "brute side quest",
+   "time2": "b.line",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
@@ -187,6 +187,15 @@
    "inicio_utc": "2026-11-04T22:00:00Z",
    "time1": "isurus",
    "time2": "underworld",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-04T23:30:00Z",
+   "time1": "mongolz",
+   "time2": "furia",
    "bo": 3,
    "mapas_jogados": 0
   },
