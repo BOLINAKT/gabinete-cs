@@ -1,5 +1,5 @@
 {
- "lido_em": "2026-11-04T01:40:51Z",
+ "lido_em": "2026-11-04T11:33:31Z",
  "jogos": [
   {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
@@ -47,24 +47,6 @@
    "mapas_jogados": 0
   },
   {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T16:00:00Z",
-   "time1": "tl",
-   "time2": "tyloo",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T16:00:00Z",
-   "time1": "betboom",
-   "time2": "aurora",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "PLAYzone/MČR/2026",
    "tier": "C",
    "inicio_utc": "2026-11-04T17:00:00Z",
@@ -101,24 +83,6 @@
    "mapas_jogados": 0
   },
   {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T18:30:00Z",
-   "time1": "navi",
-   "time2": "b8",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T18:30:00Z",
-   "time1": "heroic",
-   "time2": "falcons",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "PLAYzone/MČR/2026",
    "tier": "C",
    "inicio_utc": "2026-11-04T19:00:00Z",
@@ -146,15 +110,6 @@
    "mapas_jogados": 0
   },
   {
-   "pagina": "Intel Extreme Masters/2026/Beijing",
-   "tier": "S",
-   "inicio_utc": "2026-11-04T21:00:00Z",
-   "time1": "mouz",
-   "time2": "parivision",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-04T22:00:00Z",
@@ -170,7 +125,16 @@
    "time1": "mongolz",
    "time2": "furia",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "Intel Extreme Masters/2026/Beijing",
+   "tier": "S",
+   "inicio_utc": "2026-11-05T00:20:00Z",
+   "time1": "navi",
+   "time2": "falcons",
+   "bo": 3,
+   "mapas_jogados": 1
   },
   {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
