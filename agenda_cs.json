@@ -1,33 +1,6 @@
 {
- "lido_em": "2026-11-03T19:48:11Z",
+ "lido_em": "2026-11-04T01:40:51Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T18:00:00Z",
-   "time1": "donstu",
-   "time2": "megoshort",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T19:00:00Z",
-   "time1": "quintessencia",
-   "time2": "red canids academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-03T22:00:00Z",
-   "time1": "bestia academy",
-   "time2": "alianza lima",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
    "tier": "C",
@@ -227,12 +200,30 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-06T17:00:00Z",
+   "time1": "megoshort",
+   "time2": "xept",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-06T18:00:00Z",
    "time1": "saint sinners",
    "time2": "phantom academy",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-06T19:30:00Z",
+   "time1": "bakisochskakis",
+   "time2": "coinstep",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
@@ -251,6 +242,24 @@
    "time1": "minkens finest",
    "time2": "vanir quick academy",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-13T17:00:00Z",
+   "time1": "lilmix",
+   "time2": "converge (swedish team)",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-13T19:30:00Z",
+   "time1": "brandbergen shooters",
+   "time2": "talent factory",
+   "bo": 1,
    "mapas_jogados": 0
   }
  ]
