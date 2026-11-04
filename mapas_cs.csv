@@ -62151,10 +62151,19 @@ Svenska Cupen/2026/Qualifier/Open/6,C,2026-11-02 20:55,xept,vasteras,2,Ancient,1
 Svenska Cupen/2026/Qualifier/Open/6,C,2026-11-02 20:55,xept,vasteras,3,Anubis,13,10,t,1,0,
 CCT/2026/Europe/Series 13,B,2026-11-04 13:00,ex-z10,psychoface,1,Cache,13,2,t,1,0,2400121
 CCT/2026/Europe/Series 13,B,2026-11-04 13:00,ex-z10,psychoface,2,Mirage,13,10,ct,1,0,2400121
+CCT/2026/Europe/Series 13,B,2026-11-04 16:00,team aces,ic academy,1,Anubis,13,11,ct,1,0,2400122
+CCT/2026/Europe/Series 13,B,2026-11-04 16:00,team aces,ic academy,2,Dust II,13,10,t,1,0,2400122
+CCT/2026/Europe/Series 13,B,2026-11-04 19:00,nexus,tlr,1,Cache,13,8,t,1,0,2400123
+CCT/2026/Europe/Series 13,B,2026-11-04 19:00,nexus,tlr,2,Inferno,13,7,ct,1,0,2400123
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,1,Ancient,13,2,t,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,2,Dust II,13,10,ct,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 13:00,megoshort,honved,1,Mirage,5,13,ct,2,0,2400210
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 13:00,megoshort,honved,2,Ancient,11,13,t,2,0,2400210
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 16:00,noir verse,kuusamo,1,Mirage,6,13,t,2,0,2400211
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 16:00,noir verse,kuusamo,2,Nuke,13,11,ct,1,0,2400211
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 16:00,noir verse,kuusamo,3,Cache,11,13,t,2,0,2400211
+PLAYzone/MČR/2026,C,2026-11-04 18:00,sinners legacy,monkeys (czech team),1,Dust II,9,13,ct,2,0,
+PLAYzone/MČR/2026,C,2026-11-04 19:00,unity.sk,thousand,1,Ancient,13,9,ct,1,0,
 CCT/2026/South America/Series 8,B,2026-11-03 16:00,quintessencia,red canids academy,1,Cache,13,6,t,1,0,2400074
 CCT/2026/South America/Series 8,B,2026-11-03 16:00,quintessencia,red canids academy,2,Ancient,13,6,ct,1,0,2400074
 CCT/2026/South America/Series 8,B,2026-11-03 19:00,bestia academy,alianza lima,1,Ancient,13,5,ct,1,0,2400075
@@ -62162,6 +62171,9 @@ CCT/2026/South America/Series 8,B,2026-11-03 19:00,bestia academy,alianza lima,2
 CCT/2026/South America/Series 8,B,2026-11-03 19:00,bestia academy,alianza lima,3,Mirage,13,16,ct,2,1,2400075
 CCT/2026/South America/Series 8,B,2026-11-04 10:00,meia noite,damajuana,1,Inferno,13,3,ct,1,0,2400076
 CCT/2026/South America/Series 8,B,2026-11-04 10:00,meia noite,damajuana,2,Nuke,13,4,t,1,0,2400076
+CCT/2026/South America/Series 8,B,2026-11-04 13:00,gremio,your end,1,Cache,5,13,t,2,0,2400077
+CCT/2026/South America/Series 8,B,2026-11-04 13:00,gremio,your end,2,Dust II,13,10,ct,1,0,2400077
+CCT/2026/South America/Series 8,B,2026-11-04 13:00,gremio,your end,3,Inferno,9,13,ct,2,0,2400077
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
@@ -63658,3 +63670,5 @@ Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,3,Mirage,13,11,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,1,Cache,13,7,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,2,Ancient,13,8,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,1,Ancient,13,8,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,2,Dust II,13,4,t,1,0,
