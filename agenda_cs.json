@@ -1,51 +1,6 @@
 {
- "lido_em": "2026-11-05T20:18:15Z",
+ "lido_em": "2026-11-06T01:49:59Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-05T18:00:00Z",
-   "time1": "butterfly",
-   "time2": "megoshort",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-05T18:00:00Z",
-   "time1": "kuusamo",
-   "time2": "maybe.ua",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-05T19:00:00Z",
-   "time1": "damajuana",
-   "time2": "red canids academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/MČR/2026",
-   "tier": "C",
-   "inicio_utc": "2026-11-05T19:55:00Z",
-   "time1": "esuba",
-   "time2": "brute side quest",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-05T22:00:00Z",
-   "time1": "gremio",
-   "time2": "underworld",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
    "tier": "C",
@@ -126,6 +81,15 @@
    "time2": "low cortisol",
    "bo": 3,
    "mapas_jogados": 0
+  },
+  {
+   "pagina": "Gamers Club/Liga Série A/2026/October",
+   "tier": "C",
+   "inicio_utc": "2026-11-06T19:00:00Z",
+   "time1": "quintessencia",
+   "time2": "gremio",
+   "bo": 3,
+   "mapas_jogados": 1
   },
   {
    "pagina": "Svenska Cupen/2026/Qualifier",
@@ -232,6 +196,15 @@
    "inicio_utc": "2026-11-08T09:00:00Z",
    "time1": "illyrians",
    "time2": "bebop",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-08T12:00:00Z",
+   "time1": "kuusamo",
+   "time2": "prestige.dk",
    "bo": 3,
    "mapas_jogados": 0
   },
