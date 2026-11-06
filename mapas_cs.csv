@@ -62213,6 +62213,7 @@ CCT/2026/Europe/Series 13,B,2026-11-05 19:00,butterfly,megoshort,1,Ancient,8,13,
 CCT/2026/Europe/Series 13,B,2026-11-05 19:00,butterfly,megoshort,2,Dust II,16,13,t,1,1,2400127
 CCT/2026/Europe/Series 13,B,2026-11-05 19:00,butterfly,megoshort,3,Inferno,13,7,t,1,0,2400127
 CCT/2026/Europe/Series 13,B,2026-11-06 10:00,g2 ares,tlr,1,Cache,13,2,t,1,0,2400128
+CCT/2026/Europe/Series 13,B,2026-11-06 10:00,g2 ares,tlr,2,Ancient,13,9,ct,1,0,2400128
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,1,Ancient,13,2,t,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,2,Dust II,13,10,ct,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 13:00,megoshort,honved,1,Mirage,5,13,ct,2,0,2400210
@@ -62230,6 +62231,12 @@ CCT/2026/Europe/Series 14/Play-In,C,2026-11-05 13:00,noir verse,prestige.dk,2,Nu
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-05 19:00,kuusamo,maybe.ua,1,Mirage,10,13,ct,2,0,2400218
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-05 19:00,kuusamo,maybe.ua,2,Inferno,13,7,t,1,0,2400218
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-05 19:00,kuusamo,maybe.ua,3,Cache,3,13,t,2,0,2400218
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 10:00,saw youngsters,four magic,1,Mirage,8,13,ct,2,0,2400213
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 10:00,saw youngsters,four magic,2,Nuke,13,8,t,1,0,2400213
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 10:00,saw youngsters,four magic,3,Anubis,13,4,t,1,0,2400213
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 13:00,sokerorg,masonic,1,Mirage,22,18,t,1,3,2400214
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 13:00,sokerorg,masonic,2,Cache,10,13,ct,2,0,2400214
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 13:00,sokerorg,masonic,3,Ancient,13,7,t,1,0,2400214
 PLAYzone/MČR/2026,C,2026-11-04 18:00,sinners legacy,monkeys (czech team),1,Dust II,9,13,ct,2,0,
 PLAYzone/MČR/2026,C,2026-11-04 19:00,unity.sk,thousand,1,Ancient,13,9,ct,1,0,
 PLAYzone/MČR/2026,C,2026-11-05 18:00,monkeys (czech team),unity.sk,1,Anubis,13,10,t,1,0,
@@ -62255,6 +62262,8 @@ CCT/2026/South America/Series 8,B,2026-11-04 16:00,borracheiros,low cortisol,2,A
 CCT/2026/South America/Series 8,B,2026-11-04 19:00,isurus,underworld,1,Mirage,13,1,ct,1,0,2400079
 CCT/2026/South America/Series 8,B,2026-11-04 19:00,isurus,underworld,2,Inferno,10,13,t,2,0,2400079
 CCT/2026/South America/Series 8,B,2026-11-04 19:00,isurus,underworld,3,Dust II,13,4,ct,1,0,2400079
+CCT/2026/South America/Series 8,B,2026-11-06 10:00,isurus,alianza lima,1,Ancient,13,9,ct,1,0,2400084
+CCT/2026/South America/Series 8,B,2026-11-06 10:00,isurus,alianza lima,2,Inferno,13,6,t,1,0,2400084
 CCT/2026/South America/Series 8,B,2026-11-05 16:00,damajuana,red canids academy,1,Dust II,5,13,ct,2,0,2400082
 CCT/2026/South America/Series 8,B,2026-11-05 16:00,damajuana,red canids academy,2,Mirage,4,13,t,2,0,2400082
 CCT/2026/South America/Series 8,B,2026-11-05 19:00,gremio,underworld,1,Mirage,13,7,ct,1,0,2400083
@@ -62321,6 +62330,9 @@ Intel Extreme Masters/2026/Beijing,S,2026-11-04 15:00,tl,betboom,3,Mirage,11,13,
 Intel Extreme Masters/2026/Beijing,S,2026-11-06 14:30,parivision,navi,1,Mirage,16,14,ct,1,1,2400006
 Intel Extreme Masters/2026/Beijing,S,2026-11-06 14:30,parivision,navi,2,Inferno,9,13,t,2,0,2400006
 Intel Extreme Masters/2026/Beijing,S,2026-11-06 14:30,parivision,navi,3,Ancient,10,13,t,2,0,2400006
+Intel Extreme Masters/2026/Beijing,S,2026-11-06 19:00,furia,betboom,1,Ancient,5,13,ct,2,0,2400007
+Intel Extreme Masters/2026/Beijing,S,2026-11-06 19:00,furia,betboom,2,Dust II,13,10,t,1,0,2400007
+Intel Extreme Masters/2026/Beijing,S,2026-11-06 19:00,furia,betboom,3,Nuke,14,16,t,2,1,2400007
 Intel Extreme Masters/2026/Beijing/Qualifier/Asia,B,2026-09-02 14:10,tyloo,kaleido,1,Mirage,13,5,ct,1,0,2397293
 Intel Extreme Masters/2026/Beijing/Qualifier/Asia,B,2026-09-02 14:10,tyloo,kaleido,2,Inferno,13,9,t,1,0,2397293
 Intel Extreme Masters/2026/Beijing/Qualifier/Asia,B,2026-09-02 14:10,huns,depo,1,Inferno,6,13,ct,2,0,2397294
