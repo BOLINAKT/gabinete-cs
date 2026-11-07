@@ -1,69 +1,6 @@
 {
- "lido_em": "2026-11-07T17:55:21Z",
+ "lido_em": "2026-11-07T22:18:56Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-07T15:00:00Z",
-   "time1": "ex-z10",
-   "time2": "leo team",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-07T15:00:00Z",
-   "time1": "saw youngsters",
-   "time2": "sokerorg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Cupen/2026/Qualifier",
-   "tier": "C",
-   "inicio_utc": "2026-11-07T16:30:00Z",
-   "time1": "kappa bar",
-   "time2": "coinstep",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/MČR/2026",
-   "tier": "C",
-   "inicio_utc": "2026-11-07T17:00:00Z",
-   "time1": "monkeys (czech team)",
-   "time2": "sinners legacy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Texas Collegiate Classic/2026",
-   "tier": "C",
-   "inicio_utc": "2026-11-07T17:25:00Z",
-   "time1": "university of texas austin",
-   "time2": "university of texas san antonio",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-07T18:00:00Z",
-   "time1": "nexus",
-   "time2": "forze reload",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-07T18:00:00Z",
-   "time1": "drama.rs",
-   "time2": "phantom academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
@@ -71,7 +8,7 @@
    "time1": "quintessencia",
    "time2": "your end",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
    "pagina": "Gamers Club/Liga Série A/2026/October",
@@ -173,11 +110,29 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 14/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-08T15:00:00Z",
+   "time1": "saw youngsters",
+   "time2": "masonic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-08T16:00:00Z",
    "time1": "red canids academy",
    "time2": "bestia academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-08T18:00:00Z",
+   "time1": "drama.rs",
+   "time2": "ryvex",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -250,6 +205,15 @@
    "inicio_utc": "2026-11-13T19:30:00Z",
    "time1": "brandbergen shooters",
    "time2": "talent factory",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-15T14:00:00Z",
+   "time1": "coinstep",
+   "time2": "xept",
    "bo": 3,
    "mapas_jogados": 0
   }
