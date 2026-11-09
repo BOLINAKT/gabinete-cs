@@ -62400,33 +62400,528 @@ CCT/2026/Europe/Series 12/Play-In,C,2026-10-19 16:10,lilmix,saint sinners,2,Anci
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-19 20:00,mellren,los kogutos,1,Ancient,13,5,t,1,0,2399484
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-19 20:00,mellren,los kogutos,2,Nuke,8,13,ct,2,0,2399484
 CCT/2026/Europe/Series 12/Play-In,C,2026-10-19 20:00,mellren,los kogutos,3,Mirage,13,8,t,1,0,2399484
-Gamers Club/Liga Série A/2026/October,C,2026-11-04 16:00,red canids academy,underworld,1,Dust II,13,11,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-04 16:00,red canids academy,underworld,2,Ancient,13,10,t,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,1,Nuke,4,13,ct,2,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,2,Cache,16,14,t,1,1,
-Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,3,Dust II,13,7,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-05 16:00,quintessencia,gremio,1,Inferno,12,16,ct,2,1,
-Gamers Club/Liga Série A/2026/October,C,2026-11-05 16:00,quintessencia,gremio,2,Cache,10,13,t,2,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,1,Nuke,13,11,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,2,Ancient,5,13,t,2,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,3,Anubis,13,10,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,1,Nuke,13,8,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,2,Ancient,13,3,t,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,1,Mirage,13,1,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,2,Nuke,13,11,t,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,1,Inferno,13,9,ct,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,2,Dust II,13,10,t,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,1,Ancient,13,11,ct,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,2,Nuke,13,9,t,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-29 19:30,natverket,crown city,1,Cache,13,3,ct,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-29 19:30,natverket,crown city,2,Nuke,16,14,t,1,1,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,1,Inferno,16,13,ct,1,1,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,2,Ancient,9,13,t,2,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,3,Mirage,13,11,t,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,1,Cache,13,7,ct,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,2,Ancient,13,8,t,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,1,Ancient,13,8,ct,1,0,
-Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,2,Dust II,13,4,t,1,0,
+Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,1,Ancient,13,2,ct,1,0,2399437
+Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,2,Cache,13,7,t,1,0,2399437
+Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,1,Inferno,13,9,ct,1,0,2399438
+Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,2,Mirage,13,4,ct,1,0,2399438
+Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,1,Anubis,9,13,t,2,0,2399440
+Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,2,Dust II,11,13,t,2,0,2399440
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,1,Inferno,9,13,ct,2,0,2399439
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,2,Ancient,13,10,t,1,0,2399439
+Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,3,Nuke,13,5,ct,1,0,2399439
+Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,1,Cache,0,13,ct,2,0,2397012
+Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,2,Mirage,3,13,t,2,0,2397012
+Moscow Cyber Games/2026/Asia,C,2026-08-22 14:00,chinggis,vitalem aerem,1,Dust II,6,13,ct,2,0,2397013
+Moscow Cyber Games/2026/Asia,C,2026-08-22 14:00,chinggis,vitalem aerem,2,Inferno,8,13,t,2,0,2397013
+Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,1,Inferno,9,13,ct,2,0,2397016
+Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,2,Dust II,13,9,t,1,0,2397016
+Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,3,Nuke,13,11,ct,1,0,2397016
+Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,1,Inferno,13,3,t,1,0,2397017
+Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,2,Dust II,10,13,ct,2,0,2397017
+Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,3,Ancient,13,11,t,1,0,2397017
+Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,1,Dust II,13,9,t,1,0,2397020
+Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,2,Nuke,4,13,ct,2,0,2397020
+Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,3,Inferno,11,13,t,2,0,2397020
+Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,1,Ancient,7,13,ct,2,0,2397014
+Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,2,Cache,13,4,t,1,0,2397014
+Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,3,Inferno,13,9,ct,1,0,2397014
+Moscow Cyber Games/2026/Asia,C,2026-08-22 20:10,nexvoid,alter ego,1,Dust II,11,13,ct,2,0,2397015
+Moscow Cyber Games/2026/Asia,C,2026-08-22 20:10,nexvoid,alter ego,2,Inferno,11,13,t,2,0,2397015
+Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,1,Ancient,14,16,t,2,1,2397018
+Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,2,Inferno,13,9,ct,1,0,2397018
+Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,3,Dust II,13,1,t,1,0,2397018
+Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,1,Mirage,1,13,ct,2,0,2397019
+Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,2,Nuke,13,6,t,1,0,2397019
+Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,3,Inferno,16,19,ct,2,2,2397019
+Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,1,Ancient,8,13,ct,2,0,2397021
+Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,2,Nuke,13,7,t,1,0,2397021
+Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,3,Inferno,13,10,t,1,0,2397021
+Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,1,Inferno,8,13,ct,2,0,2397022
+Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,2,Cache,13,10,t,1,0,2397022
+Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,3,Ancient,11,13,t,2,0,2397022
+Moscow Cyber Games/2026/Asia,C,2026-08-26 17:10,huns,alter ego,1,Nuke,10,13,t,2,0,2397023
+Moscow Cyber Games/2026/Asia,C,2026-08-26 17:10,huns,alter ego,2,Dust II,0,13,ct,2,0,2397023
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:30,rare atom,team xdm,1,Cache,13,8,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:50,vitalem aerem,orgless.au,1,Ancient,13,1,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:00,js.cn,nas esports,1,Nuke,6,13,ct,2,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:00,morningstar,oasis gaming,1,Mirage,11,13,ct,2,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:20,kaleido gaming,staqued,1,Mirage,13,1,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:45,nirun,team godson313,1,Dust II,13,16,ct,2,1,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:45,alter ego,wept xyloid melancholy,1,Dust II,13,4,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:50,hikari,cosmic serpents gaming,1,Mirage,13,4,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:25,rare atom,vitalem aerem,1,Ancient,9,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:40,nas esports,oasis gaming,1,Mirage,13,7,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:55,kaleido gaming,team godson313,1,Mirage,6,13,ct,2,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:25,alter ego,hikari,1,Anubis,13,2,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:25,vitalem aerem,nas esports,1,Anubis,13,11,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:25,vitalem aerem,nas esports,2,Dust II,13,9,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:35,team godson313,alter ego,1,Anubis,3,13,ct,2,0,
+Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:35,team godson313,alter ego,2,Mirage,3,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:45,rare atom,restart gaming,1,Mirage,13,8,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:40,team zevs,bct squad,1,Anubis,13,5,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:20,js.cn,oasis gaming,1,Inferno,8,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:10,wept xyloid melancholy,chaos.pk,1,Ancient,13,2,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:40,rooster,lookingfororg (thai team),1,Mirage,4,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:00,nirun,needorc,1,Nuke,13,6,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:45,kaleido,bigfoot mercenary gaming,1,Ancient,13,3,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:25,dodep team,rebirth clan,1,Anubis,8,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:30,rare atom,team zevs,1,Cache,13,10,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:10,oasis gaming,wept xyloid melancholy,1,Mirage,13,7,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:40,lookingfororg (thai team),nirun,1,Nuke,6,13,t,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:15,kaleido,rebirth clan,1,Ancient,13,2,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:25,rare atom,oasis gaming,1,Dust II,13,8,t,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:25,rare atom,oasis gaming,2,Inferno,13,9,ct,1,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:20,nirun,kaleido,1,Ancient,10,13,ct,2,0,
+Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:20,nirun,kaleido,2,Cache,9,13,t,2,0,
+Moscow Cyber Games/2026/Europe,C,2026-08-22 11:00,nemesis,color,1,Dust II,13,11,ct,1,0,2397024
+Moscow Cyber Games/2026/Europe,C,2026-08-22 11:00,nemesis,color,2,Inferno,13,4,ct,1,0,2397024
+Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,1,Inferno,7,13,ct,2,0,2397025
+Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,2,Dust II,13,3,t,1,0,2397025
+Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,3,Ancient,16,14,t,1,1,2397025
+Moscow Cyber Games/2026/Europe,C,2026-08-22 17:30,nemiga,forze reload,1,Nuke,13,11,ct,1,0,2397026
+Moscow Cyber Games/2026/Europe,C,2026-08-22 17:30,nemiga,forze reload,2,Anubis,13,9,t,1,0,2397026
+Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,1,Cache,13,4,ct,1,0,2397027
+Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,2,Ancient,19,22,t,2,3,2397027
+Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,3,Nuke,10,13,ct,2,0,2397027
+Moscow Cyber Games/2026/Europe,C,2026-08-23 14:10,k27,rune eaters,1,Dust II,13,10,ct,1,0,2397029
+Moscow Cyber Games/2026/Europe,C,2026-08-23 14:10,k27,rune eaters,2,Ancient,13,5,t,1,0,2397029
+Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,1,Anubis,9,13,t,2,0,2397030
+Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,2,Nuke,13,8,t,1,0,2397030
+Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,3,Dust II,13,9,ct,1,0,2397030
+Moscow Cyber Games/2026/Europe,C,2026-08-23 22:40,ex-ruby,black phoenix,2,Mirage,13,9,t,1,0,2397031
+Moscow Cyber Games/2026/Europe,C,2026-08-23 22:40,ex-ruby,black phoenix,3,Nuke,7,13,t,2,0,2397031
+Moscow Cyber Games/2026/Europe,C,2026-08-24 14:00,hotu,black phoenix,1,Dust II,13,6,ct,1,0,2397033
+Moscow Cyber Games/2026/Europe,C,2026-08-24 14:00,hotu,black phoenix,2,Anubis,13,9,t,1,0,2397033
+Moscow Cyber Games/2026/Europe,C,2026-08-24 17:00,nemesis,x-city,1,Ancient,13,4,ct,1,0,2397035
+Moscow Cyber Games/2026/Europe,C,2026-08-24 17:00,nemesis,x-city,2,Inferno,13,6,t,1,0,2397035
+Moscow Cyber Games/2026/Europe,C,2026-08-25 14:00,1w,nemiga,1,Anubis,16,14,ct,1,1,2397037
+Moscow Cyber Games/2026/Europe,C,2026-08-25 14:00,1w,nemiga,2,Dust II,13,6,t,1,0,2397037
+Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,1,Nuke,13,10,ct,1,0,2397039
+Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,2,Mirage,10,13,t,2,0,2397039
+Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,3,Ancient,13,9,t,1,0,2397039
+Moscow Cyber Games/2026/Europe,C,2026-08-24 11:10,nuclear tigeres,forze reload,1,Dust II,9,13,ct,2,0,2397032
+Moscow Cyber Games/2026/Europe,C,2026-08-24 11:10,nuclear tigeres,forze reload,2,Anubis,3,13,t,2,0,2397032
+Moscow Cyber Games/2026/Europe,C,2026-08-25 11:10,color,cybershoke prospects,1,Ancient,13,5,t,1,0,2397036
+Moscow Cyber Games/2026/Europe,C,2026-08-25 11:10,color,cybershoke prospects,2,Dust II,13,8,t,1,0,2397036
+Moscow Cyber Games/2026/Europe,C,2026-08-25 17:10,ex-ruby,33,1,Dust II,13,7,ct,1,0,2397038
+Moscow Cyber Games/2026/Europe,C,2026-08-25 17:10,ex-ruby,33,2,Mirage,13,7,t,1,0,2397038
+Moscow Cyber Games/2026/Europe,C,2026-08-26 17:00,k27,hotu,1,Dust II,10,13,ct,2,0,2397042
+Moscow Cyber Games/2026/Europe,C,2026-08-26 17:00,k27,hotu,2,Cache,6,13,t,2,0,2397042
+Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,1,Dust II,13,11,ct,1,0,2397043
+Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,2,Inferno,7,12,t,2,0,2397043
+Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,3,Ancient,13,9,ct,1,0,2397043
+Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,1,Inferno,8,13,ct,2,0,2397045
+Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,2,Dust II,13,8,t,1,0,2397045
+Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,3,Ancient,11,13,ct,2,0,2397045
+Moscow Cyber Games/2026/Europe,C,2026-08-27 17:45,color,x-city,1,Cache,13,6,ct,1,0,2397046
+Moscow Cyber Games/2026/Europe,C,2026-08-27 17:45,color,x-city,2,Mirage,13,5,t,1,0,2397046
+Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,black phoenix,forze reload,1,Mirage,10,13,ct,2,0,2397047
+Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,black phoenix,forze reload,2,Dust II,10,13,t,2,0,2397047
+Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,1,Nuke,13,4,t,1,0,2397044
+Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,2,Dust II,6,13,ct,2,0,2397044
+Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,3,Ancient,8,13,t,2,0,2397044
+Moscow Cyber Games/2026/Europe,C,2026-08-26 14:00,33,nuclear tigeres,1,Dust II,14,16,ct,2,1,2397041
+Moscow Cyber Games/2026/Europe,C,2026-08-26 14:00,33,nuclear tigeres,2,Ancient,3,13,ct,2,0,2397041
+Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,1,Mirage,13,5,ct,1,0,2397048
+Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,2,Dust II,4,13,t,2,0,2397048
+Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,3,Ancient,13,4,ct,1,0,2397048
+Moscow Cyber Games/2026/Europe,C,2026-08-29 11:00,color,forze reload,1,Mirage,13,10,ct,1,0,2397053
+Moscow Cyber Games/2026/Europe,C,2026-08-29 11:00,color,forze reload,2,Dust II,13,10,t,1,0,2397053
+Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,1,Mirage,4,13,ct,2,0,2397052
+Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,2,Cache,13,11,t,1,0,2397052
+Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,3,Ancient,6,13,t,2,0,2397052
+Moscow Cyber Games/2026/Europe,C,2026-08-28 14:05,black phoenix,rune eaters,1,Dust II,13,7,t,1,0,2397049
+Moscow Cyber Games/2026/Europe,C,2026-08-28 14:05,black phoenix,rune eaters,2,Mirage,13,9,ct,1,0,2397049
+Moscow Cyber Games/2026/Europe,C,2026-08-28 17:00,nemiga,nuclear tigeres,1,Nuke,10,13,t,2,0,2397050
+Moscow Cyber Games/2026/Europe,C,2026-08-28 17:00,nemiga,nuclear tigeres,2,Ancient,14,16,ct,2,1,2397050
+Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,1,Ancient,11,13,ct,2,0,2397051
+Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,2,Dust II,13,5,t,1,0,2397051
+Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,3,Anubis,13,10,ct,1,0,2397051
+Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,1,Nuke,13,5,t,1,0,2397054
+Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,2,Anubis,7,13,ct,2,0,2397054
+Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,3,Dust II,14,16,t,2,1,2397054
+Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,1,Dust II,8,13,t,2,0,2397055
+Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,2,Inferno,13,4,ct,1,0,2397055
+Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,3,Nuke,6,13,t,2,0,2397055
+Moscow Cyber Games/2026/Europe,C,2026-08-30 17:30,k27,nuclear tigeres,1,Anubis,9,13,ct,2,0,2397056
+Moscow Cyber Games/2026/Europe,C,2026-08-30 17:30,k27,nuclear tigeres,2,Cache,11,13,t,2,0,2397056
+Moscow Cyber Games/2026/Europe,C,2026-08-31 11:00,hotu,sparta.ru,1,Dust II,13,5,ct,1,0,2397057
+Moscow Cyber Games/2026/Europe,C,2026-08-31 11:00,hotu,sparta.ru,2,Cache,13,8,t,1,0,2397057
+Moscow Cyber Games/2026/Europe,C,2026-08-31 20:25,color,upgrade team,1,Anubis,13,7,t,1,0,2397060
+Moscow Cyber Games/2026/Europe,C,2026-08-31 20:25,color,upgrade team,2,Dust II,13,11,ct,1,0,2397060
+Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,1,Ancient,10,8,ct,1,0,2397058
+Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,2,Dust II,13,5,ct,1,0,2397058
+Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,3,Inferno,7,13,t,2,0,2397058
+Moscow Cyber Games/2026/Europe,C,2026-08-31 18:25,1w,ex-ruby,1,Mirage,13,8,ct,1,0,2397059
+Moscow Cyber Games/2026/Europe,C,2026-08-31 18:25,1w,ex-ruby,2,Dust II,13,10,t,1,0,2397059
+Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,1,Dust II,10,13,ct,2,0,2397062
+Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,2,Cache,13,7,t,1,0,2397062
+Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,3,Anubis,25,22,t,1,4,2397062
+Moscow Cyber Games/2026/Europe,C,2026-09-01 11:10,nuclear tigeres,1w,1,Anubis,8,13,t,2,0,2397061
+Moscow Cyber Games/2026/Europe,C,2026-09-01 11:10,nuclear tigeres,1w,2,Mirage,16,19,ct,2,2,2397061
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:05,inox,baks,1,Dust II,6,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:05,33,aurora yb,1,Dust II,9,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 18:50,msklaners,cybershoke prospects,1,Inferno,1,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:50,bw,donstu,1,Anubis,13,16,t,2,1,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:30,spirit academy,borealis,1,Dust II,13,6,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:10,sparta.ru,kittadiena,1,Ancient,13,6,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:45,trafficpills,color,1,Dust II,10,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 18:35,butterfly.ru,forze reload,1,Ancient,1,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:05,baks,aurora yb,1,Dust II,12,16,ct,2,1,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:05,cybershoke prospects,donstu,1,Ancient,13,11,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:15,spirit academy,sparta.ru,1,Dust II,9,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:50,color,forze reload,1,Mirage,5,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 22:10,aurora yb,cybershoke prospects,1,Anubis,5,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 22:10,aurora yb,cybershoke prospects,2,Ancient,2,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,1,Dust II,13,11,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,2,Nuke,11,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,3,Ancient,7,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:30,baks,just players,1,Dust II,6,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:55,esport berg,rune eaters,1,Ancient,23,25,t,2,4,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:50,spirit academy,33,1,Nuke,2,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:40,lavked,butterfly,1,Nuke,4,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:35,inox,color,1,Dust II,11,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:45,trafficpills,jumbo team,1,Mirage,3,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:10,sparta.ru,partizan junior,1,Nuke,13,6,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:05,team wingman,donstu,1,Dust II,10,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 20:25,just players,rune eaters,1,Mirage,9,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:30,33,butterfly,1,Nuke,7,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:35,color,jumbo team,1,Dust II,13,10,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 20:10,sparta.ru,donstu,1,Ancient,11,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,1,Ancient,10,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,2,Mirage,13,6,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,3,Dust II,13,8,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:00,color,donstu,1,Dust II,13,0,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:00,color,donstu,2,Anubis,16,14,t,1,1,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:15,altay esports,33,1,Anubis,4,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:05,jumbo team,nasway team,1,Ancient,13,2,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 15:00,young sharks,gamesport,1,Anubis,10,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:55,swaga,aurora yb,1,Dust II,6,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,black phoenix,partizan esports,1,Inferno,8,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:05,nexora,atexy,1,Dust II,10,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,sparta.ru,donstu,1,Dust II,13,10,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,x-city,borealis,1,Inferno,13,4,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 20:00,33,jumbo team,1,Ancient,13,11,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 16:00,gamesport,aurora yb,1,Mirage,13,8,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 20:05,partizan esports,atexy,1,Cache,14,16,ct,2,1,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:50,sparta.ru,x-city,1,Ancient,10,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 17:05,33,gamesport,1,Mirage,7,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 17:05,33,gamesport,2,Dust II,13,3,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,1,Ancient,8,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,2,Dust II,13,8,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,3,Anubis,11,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,m33,anaba,1,Cache,13,10,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:10,vpp,donstu,1,Anubis,7,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:00,csgopositive,sparta.ru,1,Dust II,6,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:10,33,new vision,1,Nuke,13,11,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,black phoenix,atexy,1,Dust II,13,10,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:15,jumbo team,3nation,1,Ancient,13,8,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 17:40,goldrashers,ttg esports,1,Dust II,7,13,ct,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,just players,quazar,1,Anubis,13,9,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:35,m33,donstu,1,Anubis,4,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:20,sparta.ru,33,1,Mirage,13,7,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:45,black phoenix,jumbo team,1,Dust II,13,6,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:50,ttg esports,just players,1,Mirage,5,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,1,Dust II,13,8,ct,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,2,Ancient,4,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,3,Inferno,8,13,t,2,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:35,black phoenix,just players,1,Dust II,13,11,t,1,0,
+Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:35,black phoenix,just players,2,Mirage,13,7,ct,1,0,
+RESF/Sber Tournament/2026,C,2026-10-31 10:00,33,trafficpills,1,Inferno,16,12,t,1,1,
+RESF/Sber Tournament/2026,C,2026-10-31 10:00,33,trafficpills,2,Nuke,13,5,ct,1,0,
+RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,1,Dust II,13,11,ct,1,0,
+RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,2,Cache,7,13,ct,2,0,
+RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,3,Mirage,13,7,t,1,0,
+RESF/Sber Tournament/2026,C,2026-11-01 12:00,33,team aces,1,Dust II,8,13,ct,2,0,
+RESF/Sber Tournament/2026,C,2026-11-01 12:00,33,team aces,2,Nuke,2,13,t,2,0,
+RESF/Sber Tournament/2026,C,2026-10-31 16:00,trafficpills,quazar,1,Nuke,4,13,t,2,0,
+RESF/Sber Tournament/2026,C,2026-10-31 16:00,trafficpills,quazar,2,Cache,8,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,rune eaters,argos,1,Dust II,13,5,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,rune eaters,argos,2,Cache,13,6,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,notime,33,1,Dust II,3,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,notime,33,2,Nuke,7,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,33,rune eaters,1,Dust II,10,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,33,rune eaters,2,Inferno,13,7,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,argos,notime,1,Dust II,13,11,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,argos,notime,2,Nuke,13,3,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,argos,33,1,Dust II,5,13,t,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,argos,33,2,Nuke,4,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,notime,rune eaters,1,Dust II,3,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,notime,rune eaters,2,Inferno,13,7,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,nexora,younglings,1,Mirage,13,6,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,nexora,younglings,2,Dust II,13,8,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,black phoenix,ex-rustec,1,Nuke,13,9,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,black phoenix,ex-rustec,2,Mirage,13,5,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,ex-rustec,nexora,1,Dust II,13,0,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,ex-rustec,nexora,2,Nuke,13,7,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,younglings,black phoenix,1,Dust II,8,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,younglings,black phoenix,2,Mirage,13,7,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,black phoenix,nexora,1,Cache,13,6,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,ttg esports,hotu academy,1,Dust II,4,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,ttg esports,hotu academy,2,Cache,13,6,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,young27,1,Cache,13,7,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,young27,2,Dust II,13,2,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,young27,ttg esports,1,Ancient,5,13,t,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,young27,ttg esports,2,Cache,10,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,trafficpills,1,Nuke,4,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,trafficpills,2,Dust II,13,9,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,young27,1,Anubis,6,13,t,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,young27,2,Mirage,6,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,ttg esports,1,Nuke,13,11,t,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,ttg esports,2,Cache,13,8,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,team ct0m,donstu,1,Anubis,2,13,t,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,team ct0m,donstu,2,Dust II,0,13,t,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,inox,quazar,1,Anubis,13,3,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,inox,quazar,2,Nuke,6,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,quazar,team ct0m,1,Mirage,13,1,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,quazar,team ct0m,2,Anubis,13,2,ct,1,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,donstu,inox,1,Nuke,16,13,ct,1,1,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,donstu,inox,2,Anubis,16,14,t,1,1,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 16:00,donstu,quazar,1,Dust II,11,13,ct,2,0,
+RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 16:00,donstu,quazar,2,Inferno,11,13,ct,2,0,
+FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,1,Mirage,13,1,ct,1,0,2399962
+FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,2,Dust II,13,2,t,1,0,2399962
+FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,1,Cache,13,10,ct,1,0,2399963
+FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,2,Dust II,5,13,t,2,0,2399963
+FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,3,Ancient,11,13,t,2,0,2399963
+FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,100t,bounty.br,1,Ancient,13,11,ct,1,0,2399964
+FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,100t,bounty.br,2,Dust II,13,6,t,1,0,2399964
+FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,arena pro team,barca,1,Dust II,4,13,t,2,0,2399965
+FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,arena pro team,barca,2,Inferno,1,13,ct,2,0,2399965
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,1,Cache,6,13,t,2,0,2399978
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,2,Mirage,13,9,ct,1,0,2399978
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,3,Ancient,3,13,t,2,0,2399978
+FiReSPORTS/Last Chance/2026,B,2026-10-29 16:10,nrg,tactical chaos,1,Dust II,13,5,ct,1,0,2399966
+FiReSPORTS/Last Chance/2026,B,2026-10-29 16:10,nrg,tactical chaos,2,Ancient,13,4,t,1,0,2399966
+FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,1,Inferno,11,13,ct,2,0,2399967
+FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,2,Ancient,13,11,t,1,0,2399967
+FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,3,Dust II,17,19,ct,2,2,2399967
+FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,1,Inferno,4,13,ct,2,0,2399968
+FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,2,Dust II,13,7,t,1,0,2399968
+FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,3,Nuke,16,14,ct,1,1,2399968
+FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,1,Ancient,6,13,t,2,0,2399969
+FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,2,Nuke,2,13,ct,2,0,2399969
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,1,Inferno,16,14,t,1,1,2399979
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,2,Ancient,8,13,ct,2,0,2399979
+FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,3,Dust II,13,6,t,1,0,2399979
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,1,Dust II,13,0,ct,1,0,2399970
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,2,Cache,13,9,t,1,0,2399970
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,1,Cache,13,3,ct,1,0,2399971
+FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,2,Inferno,13,7,t,1,0,2399971
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,1,Inferno,10,13,ct,2,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,2,Mirage,13,7,t,1,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,3,Dust II,13,6,t,1,0,2399972
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,1,Ancient,8,13,t,2,0,2399973
+FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,2,Nuke,3,13,ct,2,0,2399973
+FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,1,Nuke,10,13,ct,2,0,2399980
+FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,2,Cache,13,5,t,1,0,2399980
+FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,3,Inferno,7,13,t,2,0,2399980
+FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,1,Nuke,13,6,ct,1,0,2399974
+FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,2,Inferno,13,10,t,1,0,2399974
+FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,1,Mirage,13,3,ct,1,0,2399975
+FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,2,Dust II,13,9,t,1,0,2399975
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,1,Inferno,8,13,ct,2,0,2399976
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,2,Nuke,13,6,t,1,0,2399976
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,3,Mirage,4,13,t,2,0,2399976
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,hacha,bth,1,Nuke,13,2,t,1,0,2399977
+FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,hacha,bth,2,Dust II,13,10,ct,1,0,2399977
+FiReSPORTS/Last Chance/2026,B,2026-10-31 13:40,wildcard,hacha,1,Mirage,13,3,ct,1,0,2399981
+FiReSPORTS/Last Chance/2026,B,2026-10-31 13:40,wildcard,hacha,2,Inferno,13,4,t,1,0,2399981
+FiReSPORTS/Last Chance/2026,B,2026-10-31 19:30,100t,isurus,1,Nuke,13,1,ct,1,0,2399984
+FiReSPORTS/Last Chance/2026,B,2026-10-31 19:30,100t,isurus,2,Dust II,13,11,t,1,0,2399984
+FiReSPORTS/Last Chance/2026,B,2026-10-31 16:45,procyon,bestia,1,Inferno,8,13,t,2,0,2399982
+FiReSPORTS/Last Chance/2026,B,2026-10-31 16:45,procyon,bestia,2,Dust II,11,13,ct,2,0,2399982
+FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,1,Nuke,9,13,ct,2,0,2399985
+FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,2,Dust II,13,8,t,1,0,2399985
+FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,3,Cache,14,16,t,2,1,2399985
+FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,1,Inferno,19,17,t,1,2,2399983
+FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,2,Mirage,13,8,ct,1,0,2399983
+FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,1,Mirage,13,10,ct,1,0,2399986
+FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,2,Dust II,13,8,t,1,0,2399986
+FiReSPORTS/Last Chance/2026,B,2026-11-01 13:35,wildcard,barca,1,Inferno,13,7,ct,1,0,2399987
+FiReSPORTS/Last Chance/2026,B,2026-11-01 13:35,wildcard,barca,2,Nuke,13,0,t,1,0,2399987
+FiReSPORTS/Last Chance/2026,B,2026-11-01 17:30,100t,wildcard,1,Cache,19,16,ct,1,2,2399989
+FiReSPORTS/Last Chance/2026,B,2026-11-01 17:30,100t,wildcard,2,Dust II,13,4,t,1,0,2399989
+FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,1,Cache,4,13,ct,2,0,2399988
+FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,2,Mirage,13,9,t,1,0,2399988
+FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,3,Ancient,13,3,ct,1,0,2399988
+DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,1,Dust II,8,13,ct,2,0,2399888
+DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,2,Anubis,7,13,ct,2,0,2399888
+DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,1,Inferno,11,13,t,2,0,2399892
+DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,2,Ancient,3,13,ct,2,0,2399892
+DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,1,Ancient,11,13,ct,2,0,2399894
+DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,2,Anubis,8,13,t,2,0,2399894
+DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,1,Cache,13,7,t,1,0,2399896
+DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,2,Inferno,8,13,ct,2,0,2399896
+DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,3,Nuke,6,13,ct,2,0,2399896
+DFRAG/Invitational/2026,B,2026-10-27 13:00,fq,staqued,1,Ancient,13,5,ct,1,0,2399890
+DFRAG/Invitational/2026,B,2026-10-27 13:00,fq,staqued,2,Inferno,13,7,t,1,0,2399890
+DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,1,Inferno,15,19,t,2,2,2399891
+DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,2,Mirage,13,10,t,1,0,2399891
+DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,3,Nuke,13,11,t,1,0,2399891
+DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,1,Anubis,13,5,ct,1,0,2399893
+DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,2,Inferno,11,13,ct,2,0,2399893
+DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,3,Dust II,13,8,t,1,0,2399893
+DFRAG/Invitational/2026,B,2026-10-27 17:35,staqued,abyssal,1,Inferno,2,13,t,2,0,2399895
+DFRAG/Invitational/2026,B,2026-10-27 17:35,staqued,abyssal,2,Cache,8,13,ct,2,0,2399895
+DFRAG/Invitational/2026,B,2026-10-28 16:10,rooster,abyssal,1,Inferno,12,16,ct,2,1,2399897
+DFRAG/Invitational/2026,B,2026-10-28 16:10,rooster,abyssal,2,Mirage,7,13,t,2,0,2399897
+DFRAG/Invitational/2026,B,2026-10-30 13:00,alter ego,abyssal,1,Inferno,13,7,ct,1,0,2399898
+DFRAG/Invitational/2026,B,2026-10-30 13:00,alter ego,abyssal,2,Dust II,13,6,t,1,0,2399898
+DFRAG/Invitational/2026,B,2026-10-30 13:00,nexvoid,fq,1,Dust II,8,13,ct,2,0,2399899
+DFRAG/Invitational/2026,B,2026-10-30 13:00,nexvoid,fq,2,Nuke,11,13,t,2,0,2399899
+DFRAG/Invitational/2026,B,2026-10-30 16:00,alter ego,fq,1,Ancient,10,13,t,2,0,2399900
+DFRAG/Invitational/2026,B,2026-10-30 16:00,alter ego,fq,2,Inferno,7,13,ct,2,0,2399900
+DFRAG/Invitational/2026,B,2026-10-31 13:00,abyssal,nexvoid,1,Cache,6,13,t,2,0,2399902
+DFRAG/Invitational/2026,B,2026-10-31 13:00,abyssal,nexvoid,2,Ancient,7,13,ct,2,0,2399902
+DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,1,Dust II,14,16,t,2,1,2399903
+DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,2,Inferno,13,9,ct,1,0,2399903
+DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,3,Ancient,16,14,t,1,1,2399903
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,1,Inferno,13,9,t,1,0,2399901
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,2,Ancient,16,14,ct,1,1,2399901
+DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,3,Anubis,13,8,ct,1,0,2399901
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,alter ego,bgns orange,1,Mirage,11,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,finishers,mglbros,1,Ancient,16,13,t,1,1,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,abyssal,sunday school,1,Mirage,13,9,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,lookingfororg (thai team),mindfreak,1,Inferno,5,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,1,Mirage,13,10,t,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,2,Dust II,12,16,ct,2,1,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,3,Inferno,6,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:00,abyssal,mindfreak,1,Cache,19,16,t,1,2,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:00,abyssal,mindfreak,2,Mirage,13,10,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,1,Inferno,7,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,2,Nuke,13,11,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,3,Dust II,5,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:15,alter ego,mglbros,1,Anubis,13,7,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 21:30,mindfreak,alter ego,1,Ancient,8,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 21:30,mindfreak,alter ego,2,Dust II,3,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,1,Mirage,13,9,t,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,2,Dust II,8,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,3,Inferno,6,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,1,Inferno,13,7,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,2,Mirage,11,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,3,Dust II,13,7,t,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,1,Mirage,14,16,t,2,1,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,2,Dust II,13,7,ct,1,0,
+DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,3,Inferno,13,11,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:05,off chops,devious.au,1,Dust II,13,4,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:55,ww team (australian team),staqued,1,Anubis,4,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:20,ex-arcade esports,russian men,1,Cache,13,5,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:20,team retirement,retirement too,1,Dust II,10,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 20:35,off chops,staqued,1,Inferno,13,6,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 20:15,ex-arcade esports,retirement too,1,Cache,13,6,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 21:20,off chops,ex-arcade esports,1,Cache,13,8,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 21:20,off chops,ex-arcade esports,2,Dust II,16,13,t,1,1,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:45,alter ego,bgns orange,1,Inferno,13,6,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:45,alter ego,bgns orange,2,Dust II,13,5,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:05,team abyssal,sunday school,1,Mirage,16,14,ct,1,1,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:05,team abyssal,sunday school,2,Inferno,13,8,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:55,mindfreak,lookingfororg (thai team),1,Anubis,13,11,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:55,mindfreak,lookingfororg (thai team),2,Mirage,13,11,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,1,Nuke,11,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,2,Ancient,13,8,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,3,Mirage,8,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,5dads,old cxnts gaming,1,Mirage,13,11,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,orgless.au,lightning on top,1,Inferno,13,9,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,team retirement,staqued,1,Mirage,16,13,t,1,1,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,mikey mcsnuggles,retirement too,1,Dust II,10,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,1,Ancient,13,11,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,2,Dust II,11,13,ct,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,3,Inferno,16,14,t,1,1,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,1,Cache,4,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,2,Anubis,13,3,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,3,Nuke,13,8,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:30,sunday school,team retirement,1,Inferno,13,7,ct,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:30,sunday school,team retirement,2,Dust II,16,13,t,1,1,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,1,Nuke,13,9,t,1,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,2,Anubis,6,13,t,2,0,
+DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,3,Mirage,13,8,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,four magic,ducks,1,Dust II,9,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,four magic,ducks,2,Mirage,10,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,aurora yb,hermine,1,Ancient,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,aurora yb,hermine,2,Cache,14,16,ct,2,1,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,1,Dust II,8,6,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,2,Ancient,3,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,3,Cache,6,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,x-city,sparx.ru,1,Mirage,13,7,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,x-city,sparx.ru,2,Anubis,13,7,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,esuba,nemesis academy,1,Ancient,10,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,esuba,nemesis academy,2,Inferno,9,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,1,Nuke,8,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,2,Dust II,13,2,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,3,Mirage,13,8,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,dinero,dimonix,1,Dust II,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,dinero,dimonix,2,Nuke,11,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,1,Cache,9,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,2,Ancient,13,3,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,3,Dust II,13,2,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,ducks,hermine,1,Inferno,13,7,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,ducks,hermine,2,Mirage,13,7,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,1,Inferno,16,19,ct,2,2,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,2,Mirage,13,7,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,3,Cache,13,11,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,1,Dust II,13,7,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,2,Nuke,3,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,3,Mirage,7,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,dimonix,monte,1,Nuke,7,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,dimonix,monte,2,Cache,11,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,ducks,prodigy.ru,2,Dust II,13,10,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,ducks,prodigy.ru,3,Ancient,6,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,spirit black,monte,1,Dust II,11,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,spirit black,monte,2,Mirage,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-31 17:30,prodigy.ru,monte,1,Nuke,9,13,ct,2,0,2400047
+CCT/2026/Europe/Contenders 10,C,2026-10-31 17:30,prodigy.ru,monte,2,Mirage,7,13,t,2,0,2400047
+CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,four magic,aurora yb,1,Mirage,6,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,four magic,aurora yb,2,Ancient,11,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,1,Nuke,8,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,2,Cache,13,5,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,3,Dust II,4,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,dinero,ttg,1,Nuke,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,dinero,ttg,2,Dust II,14,16,ct,2,1,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,1,Ancient,13,8,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,2,Cache,5,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,3,Nuke,9,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 20:15,nemesis academy,sparx.ru,1,Ancient,9,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 20:15,nemesis academy,sparx.ru,2,Nuke,4,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,1,Anubis,13,8,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,2,Dust II,10,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,3,Ancient,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,1,Dust II,13,7,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,2,Cache,9,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,3,Ancient,14,16,ct,2,1,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,1,Nuke,8,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,2,Mirage,13,6,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,3,Inferno,13,10,ct,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,1,Nuke,4,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,2,Dust II,5,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,1,Mirage,13,3,t,1,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,2,Ancient,11,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,3,Dust II,19,17,t,1,2,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 20:15,spirit black,ttg,1,Dust II,4,13,ct,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-30 20:15,spirit black,ttg,2,Nuke,2,13,t,2,0,
+CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,1,Mirage,13,8,t,1,0,2400048
+CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,2,Nuke,5,13,ct,2,0,2400048
+CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,3,Dust II,13,11,t,1,0,2400048
+CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,1,Mirage,11,13,t,2,0,2400054
+CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,2,Dust II,13,8,ct,1,0,2400054
+CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,3,Ancient,16,13,t,1,1,2400054
+CCT/2026/Europe/Contenders 10,C,2026-11-01 21:05,monte,prodigy.ru,1,Cache,13,7,ct,1,0,2400055
+CCT/2026/Europe/Contenders 10,C,2026-11-01 21:05,monte,prodigy.ru,2,Nuke,13,10,t,1,0,2400055
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:15,four magic,csgopositive,1,Ancient,13,5,t,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:20,dinero,x-city,1,Ancient,7,13,ct,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:10,prodigy (russian team),next up,1,Mirage,16,13,t,1,1,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:05,sparx.ru,aeron,1,Dust II,13,10,ct,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:40,yatorogod,dominion (bulgarian team),1,Nuke,13,11,ct,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:20,aurora yb,fc famalicao,1,Dust II,13,3,t,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:10,ttg esports,ducks,1,Dust II,11,13,t,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:25,dinero,a2ga,1,Nuke,13,4,t,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:50,esuba,tcf,1,Nuke,13,5,t,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,gold beasts,bhemanha,1,Mirage,6,13,ct,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:55,hermine,b8 academy,1,Mirage,13,10,t,1,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,chlopcy radarowcy,ttg esports,1,Cache,5,13,ct,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:35,team wp,dimonix,1,Ancient,2,13,ct,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 18:25,borealis,zotix,1,Dust II,7,13,ct,2,0,
+CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,monte,esprots,1,Nuke,13,3,ct,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,1,Mirage,6,13,t,2,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,2,Ancient,13,9,t,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,3,Anubis,13,6,t,1,0,
@@ -62825,6 +63320,9 @@ CCT/2026/North America/Challengers 1,C,2026-11-07 18:15,keep talking,detonate,2,
 CCT/2026/North America/Challengers 1,C,2026-11-08 15:30,marsborne,elusive (american team),1,Ancient,13,6,t,1,0,2400379
 CCT/2026/North America/Challengers 1,C,2026-11-08 15:30,marsborne,elusive (american team),2,Anubis,13,2,ct,1,0,2400379
 CCT/2026/North America/Challengers 1,C,2026-11-08 15:30,feistein,detonate,1,Nuke,13,9,ct,1,0,2400380
+CCT/2026/North America/Challengers 1,C,2026-11-08 15:30,feistein,detonate,2,Anubis,13,4,t,1,0,2400380
+CCT/2026/North America/Challengers 1,C,2026-11-08 18:15,marsborne,feistein,1,Anubis,13,2,ct,1,0,2400382
+CCT/2026/North America/Challengers 1,C,2026-11-08 18:15,marsborne,feistein,2,Ancient,13,10,t,1,0,2400382
 CCT/2026/North America/Challengers 1/Qualifier/1,C,2026-10-17 16:25,wanted goons,villainous,1,Mirage,4,13,ct,2,0,
 CCT/2026/North America/Challengers 1/Qualifier/1,C,2026-10-17 16:25,team boluo,marsborne,1,Mirage,2,13,t,2,0,
 CCT/2026/North America/Challengers 1/Qualifier/1,C,2026-10-17 16:10,club 333,elusive (american team),1,Inferno,10,13,t,2,0,
@@ -62981,6 +63479,8 @@ PLAYzone/MČR/2026,C,2026-11-06 21:10,eclot phoenix,b.line,2,Ancient,13,5,t,1,0,
 PLAYzone/MČR/2026,C,2026-11-07 20:30,brute side quest,eclot phoenix,1,Ancient,8,13,ct,2,0,
 PLAYzone/MČR/2026,C,2026-11-07 20:30,brute side quest,eclot phoenix,2,Inferno,13,10,t,1,0,
 PLAYzone/MČR/2026,C,2026-11-07 20:30,brute side quest,eclot phoenix,3,Anubis,13,7,ct,1,0,
+PLAYzone/MČR/2026,C,2026-11-08 21:35,unity.sk,brute side quest,1,Anubis,13,11,ct,1,0,
+PLAYzone/MČR/2026,C,2026-11-08 21:35,unity.sk,brute side quest,2,Ancient,13,7,t,1,0,
 PLAYzone/MČR/2026,C,2026-11-08 18:00,monkeys (czech team),esuba,1,Anubis,25,23,ct,1,4,
 PLAYzone/MČR/2026,C,2026-11-08 18:00,monkeys (czech team),esuba,2,Nuke,13,11,ct,1,0,
 CCT/2026/South America/Series 8,B,2026-11-03 16:00,quintessencia,red canids academy,1,Cache,13,6,t,1,0,2400074
@@ -63011,6 +63511,8 @@ CCT/2026/South America/Series 8,B,2026-11-05 19:00,gremio,underworld,1,Mirage,13
 CCT/2026/South America/Series 8,B,2026-11-05 19:00,gremio,underworld,2,Cache,13,6,t,1,0,2400083
 CCT/2026/South America/Series 8,B,2026-11-08 16:00,isurus,tao toma,1,Mirage,12,16,ct,2,1,2400094
 CCT/2026/South America/Series 8,B,2026-11-08 16:00,isurus,tao toma,2,Nuke,11,13,t,2,0,2400094
+CCT/2026/South America/Series 8,B,2026-11-08 19:00,low cortisol,rush gaming,1,Dust II,13,3,ct,1,0,2400095
+CCT/2026/South America/Series 8,B,2026-11-08 19:00,low cortisol,rush gaming,2,Nuke,13,6,t,1,0,2400095
 CCT/2026/South America/Series 8,B,2026-11-07 16:00,quintessencia,your end,1,Inferno,13,16,ct,2,1,2400090
 CCT/2026/South America/Series 8,B,2026-11-07 16:00,quintessencia,your end,2,Cache,13,5,t,1,0,2400090
 CCT/2026/South America/Series 8,B,2026-11-07 16:00,quintessencia,your end,3,Dust II,13,9,t,1,0,2400090
@@ -63281,285 +63783,6 @@ Intel Extreme Masters/2026/Beijing/Qualifier/Global/Open,B,2026-08-24 19:30,cybe
 Intel Extreme Masters/2026/Beijing/Qualifier/Global/Open,B,2026-08-24 19:15,color,eac,1,Ancient,13,8,t,1,0,2397081
 Intel Extreme Masters/2026/Beijing/Qualifier/Global/Open,B,2026-08-24 19:15,color,eac,2,Anubis,14,16,t,2,1,2397081
 Intel Extreme Masters/2026/Beijing/Qualifier/Global/Open,B,2026-08-24 19:15,color,eac,3,Mirage,13,11,t,1,0,2397081
-Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,1,Ancient,13,2,ct,1,0,2399437
-Moscow Cyber Games/2026,B,2026-10-31 12:00,hotu,huns,2,Cache,13,7,t,1,0,2399437
-Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,1,Inferno,13,9,ct,1,0,2399438
-Moscow Cyber Games/2026,B,2026-10-31 16:00,1w,5star,2,Mirage,13,4,ct,1,0,2399438
-Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,1,Anubis,9,13,t,2,0,2399440
-Moscow Cyber Games/2026,B,2026-11-01 16:00,hotu,1w,2,Dust II,11,13,t,2,0,2399440
-Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,1,Inferno,9,13,ct,2,0,2399439
-Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,2,Ancient,13,10,t,1,0,2399439
-Moscow Cyber Games/2026,B,2026-11-01 12:00,huns,5star,3,Nuke,13,5,ct,1,0,2399439
-Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,1,Cache,0,13,ct,2,0,2397012
-Moscow Cyber Games/2026/Asia,C,2026-08-22 11:25,huns,rare atom,2,Mirage,3,13,t,2,0,2397012
-Moscow Cyber Games/2026/Asia,C,2026-08-22 14:00,chinggis,vitalem aerem,1,Dust II,6,13,ct,2,0,2397013
-Moscow Cyber Games/2026/Asia,C,2026-08-22 14:00,chinggis,vitalem aerem,2,Inferno,8,13,t,2,0,2397013
-Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,1,Inferno,9,13,ct,2,0,2397016
-Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,2,Dust II,13,9,t,1,0,2397016
-Moscow Cyber Games/2026/Asia,C,2026-08-23 11:10,huns,chinggis,3,Nuke,13,11,ct,1,0,2397016
-Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,1,Inferno,13,3,t,1,0,2397017
-Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,2,Dust II,10,13,ct,2,0,2397017
-Moscow Cyber Games/2026/Asia,C,2026-08-23 14:20,rare atom,vitalem aerem,3,Ancient,13,11,t,1,0,2397017
-Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,1,Dust II,13,9,t,1,0,2397020
-Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,2,Nuke,4,13,ct,2,0,2397020
-Moscow Cyber Games/2026/Asia,C,2026-08-24 14:15,vitalem aerem,huns,3,Inferno,11,13,t,2,0,2397020
-Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,1,Ancient,7,13,ct,2,0,2397014
-Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,2,Cache,13,4,t,1,0,2397014
-Moscow Cyber Games/2026/Asia,C,2026-08-22 17:00,5star,kaleido,3,Inferno,13,9,ct,1,0,2397014
-Moscow Cyber Games/2026/Asia,C,2026-08-22 20:10,nexvoid,alter ego,1,Dust II,11,13,ct,2,0,2397015
-Moscow Cyber Games/2026/Asia,C,2026-08-22 20:10,nexvoid,alter ego,2,Inferno,11,13,t,2,0,2397015
-Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,1,Ancient,14,16,t,2,1,2397018
-Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,2,Inferno,13,9,ct,1,0,2397018
-Moscow Cyber Games/2026/Asia,C,2026-08-23 16:10,kaleido,nexvoid,3,Dust II,13,1,t,1,0,2397018
-Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,1,Mirage,1,13,ct,2,0,2397019
-Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,2,Nuke,13,6,t,1,0,2397019
-Moscow Cyber Games/2026/Asia,C,2026-08-23 22:15,5star,alter ego,3,Inferno,16,19,ct,2,2,2397019
-Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,1,Ancient,8,13,ct,2,0,2397021
-Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,2,Nuke,13,7,t,1,0,2397021
-Moscow Cyber Games/2026/Asia,C,2026-08-24 20:30,5star,kaleido,3,Inferno,13,10,t,1,0,2397021
-Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,1,Inferno,8,13,ct,2,0,2397022
-Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,2,Cache,13,10,t,1,0,2397022
-Moscow Cyber Games/2026/Asia,C,2026-08-25 17:10,rare atom,5star,3,Ancient,11,13,t,2,0,2397022
-Moscow Cyber Games/2026/Asia,C,2026-08-26 17:10,huns,alter ego,1,Nuke,10,13,t,2,0,2397023
-Moscow Cyber Games/2026/Asia,C,2026-08-26 17:10,huns,alter ego,2,Dust II,0,13,ct,2,0,2397023
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:30,rare atom,team xdm,1,Cache,13,8,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:50,vitalem aerem,orgless.au,1,Ancient,13,1,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:00,js.cn,nas esports,1,Nuke,6,13,ct,2,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:00,morningstar,oasis gaming,1,Mirage,11,13,ct,2,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:20,kaleido gaming,staqued,1,Mirage,13,1,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:45,nirun,team godson313,1,Dust II,13,16,ct,2,1,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:45,alter ego,wept xyloid melancholy,1,Dust II,13,4,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 18:50,hikari,cosmic serpents gaming,1,Mirage,13,4,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:25,rare atom,vitalem aerem,1,Ancient,9,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:40,nas esports,oasis gaming,1,Mirage,13,7,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:55,kaleido gaming,team godson313,1,Mirage,6,13,ct,2,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 19:25,alter ego,hikari,1,Anubis,13,2,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:25,vitalem aerem,nas esports,1,Anubis,13,11,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:25,vitalem aerem,nas esports,2,Dust II,13,9,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:35,team godson313,alter ego,1,Anubis,3,13,ct,2,0,
-Moscow Cyber Games/2026/Asia/Open/1,C,2026-08-12 20:35,team godson313,alter ego,2,Mirage,3,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:45,rare atom,restart gaming,1,Mirage,13,8,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:40,team zevs,bct squad,1,Anubis,13,5,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:20,js.cn,oasis gaming,1,Inferno,8,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:10,wept xyloid melancholy,chaos.pk,1,Ancient,13,2,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:40,rooster,lookingfororg (thai team),1,Mirage,4,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:00,nirun,needorc,1,Nuke,13,6,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 17:45,kaleido,bigfoot mercenary gaming,1,Ancient,13,3,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 18:25,dodep team,rebirth clan,1,Anubis,8,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:30,rare atom,team zevs,1,Cache,13,10,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:10,oasis gaming,wept xyloid melancholy,1,Mirage,13,7,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:40,lookingfororg (thai team),nirun,1,Nuke,6,13,t,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 19:15,kaleido,rebirth clan,1,Ancient,13,2,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:25,rare atom,oasis gaming,1,Dust II,13,8,t,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:25,rare atom,oasis gaming,2,Inferno,13,9,ct,1,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:20,nirun,kaleido,1,Ancient,10,13,ct,2,0,
-Moscow Cyber Games/2026/Asia/Open/2,C,2026-08-13 20:20,nirun,kaleido,2,Cache,9,13,t,2,0,
-Moscow Cyber Games/2026/Europe,C,2026-08-22 11:00,nemesis,color,1,Dust II,13,11,ct,1,0,2397024
-Moscow Cyber Games/2026/Europe,C,2026-08-22 11:00,nemesis,color,2,Inferno,13,4,ct,1,0,2397024
-Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,1,Inferno,7,13,ct,2,0,2397025
-Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,2,Dust II,13,3,t,1,0,2397025
-Moscow Cyber Games/2026/Europe,C,2026-08-22 14:00,1w,33,3,Ancient,16,14,t,1,1,2397025
-Moscow Cyber Games/2026/Europe,C,2026-08-22 17:30,nemiga,forze reload,1,Nuke,13,11,ct,1,0,2397026
-Moscow Cyber Games/2026/Europe,C,2026-08-22 17:30,nemiga,forze reload,2,Anubis,13,9,t,1,0,2397026
-Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,1,Cache,13,4,ct,1,0,2397027
-Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,2,Ancient,19,22,t,2,3,2397027
-Moscow Cyber Games/2026/Europe,C,2026-08-22 20:00,nuclear tigeres,sparta.ru,3,Nuke,10,13,ct,2,0,2397027
-Moscow Cyber Games/2026/Europe,C,2026-08-23 14:10,k27,rune eaters,1,Dust II,13,10,ct,1,0,2397029
-Moscow Cyber Games/2026/Europe,C,2026-08-23 14:10,k27,rune eaters,2,Ancient,13,5,t,1,0,2397029
-Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,1,Anubis,9,13,t,2,0,2397030
-Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,2,Nuke,13,8,t,1,0,2397030
-Moscow Cyber Games/2026/Europe,C,2026-08-23 17:00,hotu,cybershoke prospects,3,Dust II,13,9,ct,1,0,2397030
-Moscow Cyber Games/2026/Europe,C,2026-08-23 22:40,ex-ruby,black phoenix,2,Mirage,13,9,t,1,0,2397031
-Moscow Cyber Games/2026/Europe,C,2026-08-23 22:40,ex-ruby,black phoenix,3,Nuke,7,13,t,2,0,2397031
-Moscow Cyber Games/2026/Europe,C,2026-08-24 14:00,hotu,black phoenix,1,Dust II,13,6,ct,1,0,2397033
-Moscow Cyber Games/2026/Europe,C,2026-08-24 14:00,hotu,black phoenix,2,Anubis,13,9,t,1,0,2397033
-Moscow Cyber Games/2026/Europe,C,2026-08-24 17:00,nemesis,x-city,1,Ancient,13,4,ct,1,0,2397035
-Moscow Cyber Games/2026/Europe,C,2026-08-24 17:00,nemesis,x-city,2,Inferno,13,6,t,1,0,2397035
-Moscow Cyber Games/2026/Europe,C,2026-08-25 14:00,1w,nemiga,1,Anubis,16,14,ct,1,1,2397037
-Moscow Cyber Games/2026/Europe,C,2026-08-25 14:00,1w,nemiga,2,Dust II,13,6,t,1,0,2397037
-Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,1,Nuke,13,10,ct,1,0,2397039
-Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,2,Mirage,10,13,t,2,0,2397039
-Moscow Cyber Games/2026/Europe,C,2026-08-25 20:10,k27,sparta.ru,3,Ancient,13,9,t,1,0,2397039
-Moscow Cyber Games/2026/Europe,C,2026-08-24 11:10,nuclear tigeres,forze reload,1,Dust II,9,13,ct,2,0,2397032
-Moscow Cyber Games/2026/Europe,C,2026-08-24 11:10,nuclear tigeres,forze reload,2,Anubis,3,13,t,2,0,2397032
-Moscow Cyber Games/2026/Europe,C,2026-08-25 11:10,color,cybershoke prospects,1,Ancient,13,5,t,1,0,2397036
-Moscow Cyber Games/2026/Europe,C,2026-08-25 11:10,color,cybershoke prospects,2,Dust II,13,8,t,1,0,2397036
-Moscow Cyber Games/2026/Europe,C,2026-08-25 17:10,ex-ruby,33,1,Dust II,13,7,ct,1,0,2397038
-Moscow Cyber Games/2026/Europe,C,2026-08-25 17:10,ex-ruby,33,2,Mirage,13,7,t,1,0,2397038
-Moscow Cyber Games/2026/Europe,C,2026-08-26 17:00,k27,hotu,1,Dust II,10,13,ct,2,0,2397042
-Moscow Cyber Games/2026/Europe,C,2026-08-26 17:00,k27,hotu,2,Cache,6,13,t,2,0,2397042
-Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,1,Dust II,13,11,ct,1,0,2397043
-Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,2,Inferno,7,12,t,2,0,2397043
-Moscow Cyber Games/2026/Europe,C,2026-08-26 20:30,nemesis,1w,3,Ancient,13,9,ct,1,0,2397043
-Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,1,Inferno,8,13,ct,2,0,2397045
-Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,2,Dust II,13,8,t,1,0,2397045
-Moscow Cyber Games/2026/Europe,C,2026-08-27 14:00,rune eaters,sparta.ru,3,Ancient,11,13,ct,2,0,2397045
-Moscow Cyber Games/2026/Europe,C,2026-08-27 17:45,color,x-city,1,Cache,13,6,ct,1,0,2397046
-Moscow Cyber Games/2026/Europe,C,2026-08-27 17:45,color,x-city,2,Mirage,13,5,t,1,0,2397046
-Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,black phoenix,forze reload,1,Mirage,10,13,ct,2,0,2397047
-Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,black phoenix,forze reload,2,Dust II,10,13,t,2,0,2397047
-Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,1,Nuke,13,4,t,1,0,2397044
-Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,2,Dust II,6,13,ct,2,0,2397044
-Moscow Cyber Games/2026/Europe,C,2026-08-27 20:00,nemiga,ex-ruby,3,Ancient,8,13,t,2,0,2397044
-Moscow Cyber Games/2026/Europe,C,2026-08-26 14:00,33,nuclear tigeres,1,Dust II,14,16,ct,2,1,2397041
-Moscow Cyber Games/2026/Europe,C,2026-08-26 14:00,33,nuclear tigeres,2,Ancient,3,13,ct,2,0,2397041
-Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,1,Mirage,13,5,ct,1,0,2397048
-Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,2,Dust II,4,13,t,2,0,2397048
-Moscow Cyber Games/2026/Europe,C,2026-08-28 11:00,1w,sparta.ru,3,Ancient,13,4,ct,1,0,2397048
-Moscow Cyber Games/2026/Europe,C,2026-08-29 11:00,color,forze reload,1,Mirage,13,10,ct,1,0,2397053
-Moscow Cyber Games/2026/Europe,C,2026-08-29 11:00,color,forze reload,2,Dust II,13,10,t,1,0,2397053
-Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,1,Mirage,4,13,ct,2,0,2397052
-Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,2,Cache,13,11,t,1,0,2397052
-Moscow Cyber Games/2026/Europe,C,2026-08-29 20:00,k27,ex-ruby,3,Ancient,6,13,t,2,0,2397052
-Moscow Cyber Games/2026/Europe,C,2026-08-28 14:05,black phoenix,rune eaters,1,Dust II,13,7,t,1,0,2397049
-Moscow Cyber Games/2026/Europe,C,2026-08-28 14:05,black phoenix,rune eaters,2,Mirage,13,9,ct,1,0,2397049
-Moscow Cyber Games/2026/Europe,C,2026-08-28 17:00,nemiga,nuclear tigeres,1,Nuke,10,13,t,2,0,2397050
-Moscow Cyber Games/2026/Europe,C,2026-08-28 17:00,nemiga,nuclear tigeres,2,Ancient,14,16,ct,2,1,2397050
-Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,1,Ancient,11,13,ct,2,0,2397051
-Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,2,Dust II,13,5,t,1,0,2397051
-Moscow Cyber Games/2026/Europe,C,2026-08-29 14:00,upgrade team,x-city,3,Anubis,13,10,ct,1,0,2397051
-Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,1,Nuke,13,5,t,1,0,2397054
-Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,2,Anubis,7,13,ct,2,0,2397054
-Moscow Cyber Games/2026/Europe,C,2026-08-30 11:00,forze reload,upgrade team,3,Dust II,14,16,t,2,1,2397054
-Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,1,Dust II,8,13,t,2,0,2397055
-Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,2,Inferno,13,4,ct,1,0,2397055
-Moscow Cyber Games/2026/Europe,C,2026-08-30 14:20,black phoenix,sparta.ru,3,Nuke,6,13,t,2,0,2397055
-Moscow Cyber Games/2026/Europe,C,2026-08-30 17:30,k27,nuclear tigeres,1,Anubis,9,13,ct,2,0,2397056
-Moscow Cyber Games/2026/Europe,C,2026-08-30 17:30,k27,nuclear tigeres,2,Cache,11,13,t,2,0,2397056
-Moscow Cyber Games/2026/Europe,C,2026-08-31 11:00,hotu,sparta.ru,1,Dust II,13,5,ct,1,0,2397057
-Moscow Cyber Games/2026/Europe,C,2026-08-31 11:00,hotu,sparta.ru,2,Cache,13,8,t,1,0,2397057
-Moscow Cyber Games/2026/Europe,C,2026-08-31 20:25,color,upgrade team,1,Anubis,13,7,t,1,0,2397060
-Moscow Cyber Games/2026/Europe,C,2026-08-31 20:25,color,upgrade team,2,Dust II,13,11,ct,1,0,2397060
-Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,1,Ancient,10,8,ct,1,0,2397058
-Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,2,Dust II,13,5,ct,1,0,2397058
-Moscow Cyber Games/2026/Europe,C,2026-08-31 14:00,nemesis,nuclear tigeres,3,Inferno,7,13,t,2,0,2397058
-Moscow Cyber Games/2026/Europe,C,2026-08-31 18:25,1w,ex-ruby,1,Mirage,13,8,ct,1,0,2397059
-Moscow Cyber Games/2026/Europe,C,2026-08-31 18:25,1w,ex-ruby,2,Dust II,13,10,t,1,0,2397059
-Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,1,Dust II,10,13,ct,2,0,2397062
-Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,2,Cache,13,7,t,1,0,2397062
-Moscow Cyber Games/2026/Europe,C,2026-09-01 14:00,hotu,color,3,Anubis,25,22,t,1,4,2397062
-Moscow Cyber Games/2026/Europe,C,2026-09-01 11:10,nuclear tigeres,1w,1,Anubis,8,13,t,2,0,2397061
-Moscow Cyber Games/2026/Europe,C,2026-09-01 11:10,nuclear tigeres,1w,2,Mirage,16,19,ct,2,2,2397061
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:05,inox,baks,1,Dust II,6,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:05,33,aurora yb,1,Dust II,9,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 18:50,msklaners,cybershoke prospects,1,Inferno,1,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:50,bw,donstu,1,Anubis,13,16,t,2,1,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:30,spirit academy,borealis,1,Dust II,13,6,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:10,sparta.ru,kittadiena,1,Ancient,13,6,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 19:45,trafficpills,color,1,Dust II,10,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 18:35,butterfly.ru,forze reload,1,Ancient,1,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:05,baks,aurora yb,1,Dust II,12,16,ct,2,1,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:05,cybershoke prospects,donstu,1,Ancient,13,11,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:15,spirit academy,sparta.ru,1,Dust II,9,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 20:50,color,forze reload,1,Mirage,5,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 22:10,aurora yb,cybershoke prospects,1,Anubis,5,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 22:10,aurora yb,cybershoke prospects,2,Ancient,2,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,1,Dust II,13,11,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,2,Nuke,11,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/1,C,2026-08-12 21:50,sparta.ru,forze reload,3,Ancient,7,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:30,baks,just players,1,Dust II,6,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:55,esport berg,rune eaters,1,Ancient,23,25,t,2,4,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:50,spirit academy,33,1,Nuke,2,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:40,lavked,butterfly,1,Nuke,4,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:35,inox,color,1,Dust II,11,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:45,trafficpills,jumbo team,1,Mirage,3,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 18:10,sparta.ru,partizan junior,1,Nuke,13,6,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:05,team wingman,donstu,1,Dust II,10,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 20:25,just players,rune eaters,1,Mirage,9,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:30,33,butterfly,1,Nuke,7,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 19:35,color,jumbo team,1,Dust II,13,10,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 20:10,sparta.ru,donstu,1,Ancient,11,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,1,Ancient,10,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,2,Mirage,13,6,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:15,rune eaters,butterfly,3,Dust II,13,8,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:00,color,donstu,1,Dust II,13,0,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/2,C,2026-08-13 21:00,color,donstu,2,Anubis,16,14,t,1,1,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:15,altay esports,33,1,Anubis,4,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:05,jumbo team,nasway team,1,Ancient,13,2,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 15:00,young sharks,gamesport,1,Anubis,10,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:55,swaga,aurora yb,1,Dust II,6,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,black phoenix,partizan esports,1,Inferno,8,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:05,nexora,atexy,1,Dust II,10,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,sparta.ru,donstu,1,Dust II,13,10,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 18:50,x-city,borealis,1,Inferno,13,4,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 20:00,33,jumbo team,1,Ancient,13,11,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 16:00,gamesport,aurora yb,1,Mirage,13,8,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 20:05,partizan esports,atexy,1,Cache,14,16,ct,2,1,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 19:50,sparta.ru,x-city,1,Ancient,10,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 17:05,33,gamesport,1,Mirage,7,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-18 17:05,33,gamesport,2,Dust II,13,3,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,1,Ancient,8,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,2,Dust II,13,8,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/3,C,2026-08-14 21:10,atexy,x-city,3,Anubis,11,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,m33,anaba,1,Cache,13,10,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:10,vpp,donstu,1,Anubis,7,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:00,csgopositive,sparta.ru,1,Dust II,6,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:10,33,new vision,1,Nuke,13,11,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,black phoenix,atexy,1,Dust II,13,10,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:15,jumbo team,3nation,1,Ancient,13,8,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 17:40,goldrashers,ttg esports,1,Dust II,7,13,ct,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 18:50,just players,quazar,1,Anubis,13,9,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:35,m33,donstu,1,Anubis,4,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:20,sparta.ru,33,1,Mirage,13,7,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:45,black phoenix,jumbo team,1,Dust II,13,6,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 19:50,ttg esports,just players,1,Mirage,5,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,1,Dust II,13,8,ct,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,2,Ancient,4,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:10,donstu,sparta.ru,3,Inferno,8,13,t,2,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:35,black phoenix,just players,1,Dust II,13,11,t,1,0,
-Moscow Cyber Games/2026/Europe/Open/4,C,2026-08-15 20:35,black phoenix,just players,2,Mirage,13,7,ct,1,0,
-RESF/Sber Tournament/2026,C,2026-10-31 10:00,33,trafficpills,1,Inferno,16,12,t,1,1,
-RESF/Sber Tournament/2026,C,2026-10-31 10:00,33,trafficpills,2,Nuke,13,5,ct,1,0,
-RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,1,Dust II,13,11,ct,1,0,
-RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,2,Cache,7,13,ct,2,0,
-RESF/Sber Tournament/2026,C,2026-10-31 13:00,team aces,quazar,3,Mirage,13,7,t,1,0,
-RESF/Sber Tournament/2026,C,2026-11-01 12:00,33,team aces,1,Dust II,8,13,ct,2,0,
-RESF/Sber Tournament/2026,C,2026-11-01 12:00,33,team aces,2,Nuke,2,13,t,2,0,
-RESF/Sber Tournament/2026,C,2026-10-31 16:00,trafficpills,quazar,1,Nuke,4,13,t,2,0,
-RESF/Sber Tournament/2026,C,2026-10-31 16:00,trafficpills,quazar,2,Cache,8,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,rune eaters,argos,1,Dust II,13,5,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,rune eaters,argos,2,Cache,13,6,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,notime,33,1,Dust II,3,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,notime,33,2,Nuke,7,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,33,rune eaters,1,Dust II,10,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,33,rune eaters,2,Inferno,13,7,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,argos,notime,1,Dust II,13,11,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,argos,notime,2,Nuke,13,3,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,argos,33,1,Dust II,5,13,t,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,argos,33,2,Nuke,4,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,notime,rune eaters,1,Dust II,3,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,notime,rune eaters,2,Inferno,13,7,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,nexora,younglings,1,Mirage,13,6,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,nexora,younglings,2,Dust II,13,8,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,black phoenix,ex-rustec,1,Nuke,13,9,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 12:00,black phoenix,ex-rustec,2,Mirage,13,5,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,ex-rustec,nexora,1,Dust II,13,0,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,ex-rustec,nexora,2,Nuke,13,7,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,younglings,black phoenix,1,Dust II,8,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 14:00,younglings,black phoenix,2,Mirage,13,7,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-10 16:00,black phoenix,nexora,1,Cache,13,6,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,ttg esports,hotu academy,1,Dust II,4,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,ttg esports,hotu academy,2,Cache,13,6,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,young27,1,Cache,13,7,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,young27,2,Dust II,13,2,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,young27,ttg esports,1,Ancient,5,13,t,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,young27,ttg esports,2,Cache,10,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,trafficpills,1,Nuke,4,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,trafficpills,2,Dust II,13,9,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,young27,1,Anubis,6,13,t,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,hotu academy,young27,2,Mirage,6,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,ttg esports,1,Nuke,13,11,t,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,trafficpills,ttg esports,2,Cache,13,8,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,team ct0m,donstu,1,Anubis,2,13,t,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,team ct0m,donstu,2,Dust II,0,13,t,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,inox,quazar,1,Anubis,13,3,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 12:00,inox,quazar,2,Nuke,6,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,quazar,team ct0m,1,Mirage,13,1,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,quazar,team ct0m,2,Anubis,13,2,ct,1,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,donstu,inox,1,Nuke,16,13,ct,1,1,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 14:00,donstu,inox,2,Anubis,16,14,t,1,1,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 16:00,donstu,quazar,1,Dust II,11,13,ct,2,0,
-RESF/Sber Tournament/2026/Qualifier,C,2026-10-11 16:00,donstu,quazar,2,Inferno,11,13,ct,2,0,
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,1,Ancient,13,7,ct,1,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,2,Cache,6,13,t,2,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,3,Inferno,34,31,ct,1,7,2400012
@@ -63605,246 +63828,30 @@ CCT/2026/Europe/Series 13/Play-In,C,2026-11-03 19:00,donstu,megoshort,3,Cache,7,
 CCT/2026/Europe/Series 13/Play-In,C,2026-11-03 10:00,azuolas,maybe.ua,1,Inferno,13,10,t,1,0,2400068
 CCT/2026/Europe/Series 13/Play-In,C,2026-11-03 10:00,azuolas,maybe.ua,2,Mirage,4,13,ct,2,0,2400068
 CCT/2026/Europe/Series 13/Play-In,C,2026-11-03 10:00,azuolas,maybe.ua,3,Ancient,7,13,ct,2,0,2400068
-FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,1,Mirage,13,1,ct,1,0,2399962
-FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,100t,arena pro team,2,Dust II,13,2,t,1,0,2399962
-FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,1,Cache,13,10,ct,1,0,2399963
-FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,2,Dust II,5,13,t,2,0,2399963
-FiReSPORTS/Last Chance/2026,B,2026-10-29 10:00,barca,bounty.br,3,Ancient,11,13,t,2,0,2399963
-FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,100t,bounty.br,1,Ancient,13,11,ct,1,0,2399964
-FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,100t,bounty.br,2,Dust II,13,6,t,1,0,2399964
-FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,arena pro team,barca,1,Dust II,4,13,t,2,0,2399965
-FiReSPORTS/Last Chance/2026,B,2026-10-29 13:30,arena pro team,barca,2,Inferno,1,13,ct,2,0,2399965
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,1,Cache,6,13,t,2,0,2399978
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,2,Mirage,13,9,ct,1,0,2399978
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,bounty.br,barca,3,Ancient,3,13,t,2,0,2399978
-FiReSPORTS/Last Chance/2026,B,2026-10-29 16:10,nrg,tactical chaos,1,Dust II,13,5,ct,1,0,2399966
-FiReSPORTS/Last Chance/2026,B,2026-10-29 16:10,nrg,tactical chaos,2,Ancient,13,4,t,1,0,2399966
-FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,1,Inferno,11,13,ct,2,0,2399967
-FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,2,Ancient,13,11,t,1,0,2399967
-FiReSPORTS/Last Chance/2026,B,2026-10-29 16:25,galorys,procyon,3,Dust II,17,19,ct,2,2,2399967
-FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,1,Inferno,4,13,ct,2,0,2399968
-FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,2,Dust II,13,7,t,1,0,2399968
-FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,nrg,procyon,3,Nuke,16,14,ct,1,1,2399968
-FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,1,Ancient,6,13,t,2,0,2399969
-FiReSPORTS/Last Chance/2026,B,2026-10-29 20:40,tactical chaos,galorys,2,Nuke,2,13,ct,2,0,2399969
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,1,Inferno,16,14,t,1,1,2399979
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,2,Ancient,8,13,ct,2,0,2399979
-FiReSPORTS/Last Chance/2026,B,2026-10-31 10:00,procyon,galorys,3,Dust II,13,6,t,1,0,2399979
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,1,Dust II,13,0,ct,1,0,2399970
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:00,fluxo w7m,signatus,2,Cache,13,9,t,1,0,2399970
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,1,Cache,13,3,ct,1,0,2399971
-FiReSPORTS/Last Chance/2026,B,2026-10-30 10:35,shinden,isurus,2,Inferno,13,7,t,1,0,2399971
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,1,Inferno,10,13,ct,2,0,2399972
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,2,Mirage,13,7,t,1,0,2399972
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,fluxo w7m,shinden,3,Dust II,13,6,t,1,0,2399972
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,1,Ancient,8,13,t,2,0,2399973
-FiReSPORTS/Last Chance/2026,B,2026-10-30 12:35,signatus,isurus,2,Nuke,3,13,ct,2,0,2399973
-FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,1,Nuke,10,13,ct,2,0,2399980
-FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,2,Cache,13,5,t,1,0,2399980
-FiReSPORTS/Last Chance/2026,B,2026-10-31 13:15,shinden,isurus,3,Inferno,7,13,t,2,0,2399980
-FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,1,Nuke,13,6,ct,1,0,2399974
-FiReSPORTS/Last Chance/2026,B,2026-10-30 15:15,wildcard,hacha,2,Inferno,13,10,t,1,0,2399974
-FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,1,Mirage,13,3,ct,1,0,2399975
-FiReSPORTS/Last Chance/2026,B,2026-10-30 16:10,bestia,bth,2,Dust II,13,9,t,1,0,2399975
-FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,1,Inferno,8,13,ct,2,0,2399976
-FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,2,Nuke,13,6,t,1,0,2399976
-FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,wildcard,bestia,3,Mirage,4,13,t,2,0,2399976
-FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,hacha,bth,1,Nuke,13,2,t,1,0,2399977
-FiReSPORTS/Last Chance/2026,B,2026-10-30 18:25,hacha,bth,2,Dust II,13,10,ct,1,0,2399977
-FiReSPORTS/Last Chance/2026,B,2026-10-31 13:40,wildcard,hacha,1,Mirage,13,3,ct,1,0,2399981
-FiReSPORTS/Last Chance/2026,B,2026-10-31 13:40,wildcard,hacha,2,Inferno,13,4,t,1,0,2399981
-FiReSPORTS/Last Chance/2026,B,2026-10-31 19:30,100t,isurus,1,Nuke,13,1,ct,1,0,2399984
-FiReSPORTS/Last Chance/2026,B,2026-10-31 19:30,100t,isurus,2,Dust II,13,11,t,1,0,2399984
-FiReSPORTS/Last Chance/2026,B,2026-10-31 16:45,procyon,bestia,1,Inferno,8,13,t,2,0,2399982
-FiReSPORTS/Last Chance/2026,B,2026-10-31 16:45,procyon,bestia,2,Dust II,11,13,ct,2,0,2399982
-FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,1,Nuke,9,13,ct,2,0,2399985
-FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,2,Dust II,13,8,t,1,0,2399985
-FiReSPORTS/Last Chance/2026,B,2026-10-31 19:15,nrg,wildcard,3,Cache,14,16,t,2,1,2399985
-FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,1,Inferno,19,17,t,1,2,2399983
-FiReSPORTS/Last Chance/2026,B,2026-10-31 16:00,barca,fluxo w7m,2,Mirage,13,8,ct,1,0,2399983
-FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,1,Mirage,13,10,ct,1,0,2399986
-FiReSPORTS/Last Chance/2026,B,2026-11-01 11:00,100t,bestia,2,Dust II,13,8,t,1,0,2399986
-FiReSPORTS/Last Chance/2026,B,2026-11-01 13:35,wildcard,barca,1,Inferno,13,7,ct,1,0,2399987
-FiReSPORTS/Last Chance/2026,B,2026-11-01 13:35,wildcard,barca,2,Nuke,13,0,t,1,0,2399987
-FiReSPORTS/Last Chance/2026,B,2026-11-01 17:30,100t,wildcard,1,Cache,19,16,ct,1,2,2399989
-FiReSPORTS/Last Chance/2026,B,2026-11-01 17:30,100t,wildcard,2,Dust II,13,4,t,1,0,2399989
-FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,1,Cache,4,13,ct,2,0,2399988
-FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,2,Mirage,13,9,t,1,0,2399988
-FiReSPORTS/Last Chance/2026,B,2026-11-01 17:15,bestia,barca,3,Ancient,13,3,ct,1,0,2399988
-DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,1,Dust II,8,13,ct,2,0,2399888
-DFRAG/Invitational/2026,B,2026-10-26 13:00,gz,off chops,2,Anubis,7,13,ct,2,0,2399888
-DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,1,Inferno,11,13,t,2,0,2399892
-DFRAG/Invitational/2026,B,2026-10-26 16:00,off chops,alter ego,2,Ancient,3,13,ct,2,0,2399892
-DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,1,Ancient,11,13,ct,2,0,2399894
-DFRAG/Invitational/2026,B,2026-10-26 17:45,gz,nexvoid,2,Anubis,8,13,t,2,0,2399894
-DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,1,Cache,13,7,t,1,0,2399896
-DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,2,Inferno,8,13,ct,2,0,2399896
-DFRAG/Invitational/2026,B,2026-10-28 13:00,off chops,nexvoid,3,Nuke,6,13,ct,2,0,2399896
-DFRAG/Invitational/2026,B,2026-10-27 13:00,fq,staqued,1,Ancient,13,5,ct,1,0,2399890
-DFRAG/Invitational/2026,B,2026-10-27 13:00,fq,staqued,2,Inferno,13,7,t,1,0,2399890
-DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,1,Inferno,15,19,t,2,2,2399891
-DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,2,Mirage,13,10,t,1,0,2399891
-DFRAG/Invitational/2026,B,2026-10-27 13:00,rooster,abyssal,3,Nuke,13,11,t,1,0,2399891
-DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,1,Anubis,13,5,ct,1,0,2399893
-DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,2,Inferno,11,13,ct,2,0,2399893
-DFRAG/Invitational/2026,B,2026-10-27 17:35,fq,rooster,3,Dust II,13,8,t,1,0,2399893
-DFRAG/Invitational/2026,B,2026-10-27 17:35,staqued,abyssal,1,Inferno,2,13,t,2,0,2399895
-DFRAG/Invitational/2026,B,2026-10-27 17:35,staqued,abyssal,2,Cache,8,13,ct,2,0,2399895
-DFRAG/Invitational/2026,B,2026-10-28 16:10,rooster,abyssal,1,Inferno,12,16,ct,2,1,2399897
-DFRAG/Invitational/2026,B,2026-10-28 16:10,rooster,abyssal,2,Mirage,7,13,t,2,0,2399897
-DFRAG/Invitational/2026,B,2026-10-30 13:00,alter ego,abyssal,1,Inferno,13,7,ct,1,0,2399898
-DFRAG/Invitational/2026,B,2026-10-30 13:00,alter ego,abyssal,2,Dust II,13,6,t,1,0,2399898
-DFRAG/Invitational/2026,B,2026-10-30 13:00,nexvoid,fq,1,Dust II,8,13,ct,2,0,2399899
-DFRAG/Invitational/2026,B,2026-10-30 13:00,nexvoid,fq,2,Nuke,11,13,t,2,0,2399899
-DFRAG/Invitational/2026,B,2026-10-30 16:00,alter ego,fq,1,Ancient,10,13,t,2,0,2399900
-DFRAG/Invitational/2026,B,2026-10-30 16:00,alter ego,fq,2,Inferno,7,13,ct,2,0,2399900
-DFRAG/Invitational/2026,B,2026-10-31 13:00,abyssal,nexvoid,1,Cache,6,13,t,2,0,2399902
-DFRAG/Invitational/2026,B,2026-10-31 13:00,abyssal,nexvoid,2,Ancient,7,13,ct,2,0,2399902
-DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,1,Dust II,14,16,t,2,1,2399903
-DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,2,Inferno,13,9,ct,1,0,2399903
-DFRAG/Invitational/2026,B,2026-10-31 16:00,alter ego,nexvoid,3,Ancient,16,14,t,1,1,2399903
-DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,1,Inferno,13,9,t,1,0,2399901
-DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,2,Ancient,16,14,ct,1,1,2399901
-DFRAG/Invitational/2026,B,2026-11-01 13:00,fq,alter ego,3,Anubis,13,8,ct,1,0,2399901
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,alter ego,bgns orange,1,Mirage,11,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,finishers,mglbros,1,Ancient,16,13,t,1,1,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,abyssal,sunday school,1,Mirage,13,9,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 18:00,lookingfororg (thai team),mindfreak,1,Inferno,5,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,1,Mirage,13,10,t,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,2,Dust II,12,16,ct,2,1,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:20,bgns orange,finishers,3,Inferno,6,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:00,abyssal,mindfreak,1,Cache,19,16,t,1,2,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:00,abyssal,mindfreak,2,Mirage,13,10,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,1,Inferno,7,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,2,Nuke,13,11,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,finishers,abyssal,3,Dust II,5,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 19:15,alter ego,mglbros,1,Anubis,13,7,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 21:30,mindfreak,alter ego,1,Ancient,8,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 21:30,mindfreak,alter ego,2,Dust II,3,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,1,Mirage,13,9,t,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,2,Dust II,8,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-07 22:30,bgns orange,sunday school,3,Inferno,6,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,1,Inferno,13,7,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,2,Mirage,11,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 18:30,alter ego,sunday school,3,Dust II,13,7,t,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,1,Mirage,14,16,t,2,1,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,2,Dust II,13,7,ct,1,0,
-DFRAG/Invitational/2026/Qualifier,C,2026-09-08 21:15,finishers,alter ego,3,Inferno,13,11,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:05,off chops,devious.au,1,Dust II,13,4,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:55,ww team (australian team),staqued,1,Anubis,4,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:20,ex-arcade esports,russian men,1,Cache,13,5,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 19:20,team retirement,retirement too,1,Dust II,10,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 20:35,off chops,staqued,1,Inferno,13,6,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 20:15,ex-arcade esports,retirement too,1,Cache,13,6,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 21:20,off chops,ex-arcade esports,1,Cache,13,8,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Last Chance,C,2026-10-12 21:20,off chops,ex-arcade esports,2,Dust II,16,13,t,1,1,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:45,alter ego,bgns orange,1,Inferno,13,6,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:45,alter ego,bgns orange,2,Dust II,13,5,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:05,team abyssal,sunday school,1,Mirage,16,14,ct,1,1,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:05,team abyssal,sunday school,2,Inferno,13,8,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:55,mindfreak,lookingfororg (thai team),1,Anubis,13,11,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 20:55,mindfreak,lookingfororg (thai team),2,Mirage,13,11,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,1,Nuke,11,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,2,Ancient,13,8,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-08-31 21:00,finishers,mglbros,3,Mirage,8,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,5dads,old cxnts gaming,1,Mirage,13,11,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,orgless.au,lightning on top,1,Inferno,13,9,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,team retirement,staqued,1,Mirage,16,13,t,1,1,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 18:00,mikey mcsnuggles,retirement too,1,Dust II,10,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,1,Ancient,13,11,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,2,Dust II,11,13,ct,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:00,finishers,5dads,3,Inferno,16,14,t,1,1,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,1,Cache,4,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,2,Anubis,13,3,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:05,lookingfororg (thai team),orgless.au,3,Nuke,13,8,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:30,sunday school,team retirement,1,Inferno,13,7,ct,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:30,sunday school,team retirement,2,Dust II,16,13,t,1,1,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,1,Nuke,13,9,t,1,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,2,Anubis,6,13,t,2,0,
-DFRAG/Invitational/2026/Qualifier/Open,C,2026-09-01 19:15,bgns orange,retirement too,3,Mirage,13,8,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,four magic,ducks,1,Dust II,9,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,four magic,ducks,2,Mirage,10,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,aurora yb,hermine,1,Ancient,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 20:15,aurora yb,hermine,2,Cache,14,16,ct,2,1,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,1,Dust II,8,6,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,2,Ancient,3,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,zotix,prodigy.ru,3,Cache,6,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,x-city,sparx.ru,1,Mirage,13,7,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-24 17:30,x-city,sparx.ru,2,Anubis,13,7,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,esuba,nemesis academy,1,Ancient,10,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,esuba,nemesis academy,2,Inferno,9,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,1,Nuke,8,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,2,Dust II,13,2,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 20:15,spirit black,winx.ru,3,Mirage,13,8,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,dinero,dimonix,1,Dust II,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,dinero,dimonix,2,Nuke,11,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,1,Cache,9,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,2,Ancient,13,3,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-25 17:30,monte,ttg,3,Dust II,13,2,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,ducks,hermine,1,Inferno,13,7,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,ducks,hermine,2,Mirage,13,7,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,1,Inferno,16,19,ct,2,2,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,2,Mirage,13,7,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 20:15,prodigy.ru,x-city,3,Cache,13,11,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,1,Dust II,13,7,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,2,Nuke,3,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,nemesis academy,spirit black,3,Mirage,7,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,dimonix,monte,1,Nuke,7,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 20:15,dimonix,monte,2,Cache,11,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,ducks,prodigy.ru,2,Dust II,13,10,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,ducks,prodigy.ru,3,Ancient,6,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,spirit black,monte,1,Dust II,11,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 20:15,spirit black,monte,2,Mirage,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-31 17:30,prodigy.ru,monte,1,Nuke,9,13,ct,2,0,2400047
-CCT/2026/Europe/Contenders 10,C,2026-10-31 17:30,prodigy.ru,monte,2,Mirage,7,13,t,2,0,2400047
-CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,four magic,aurora yb,1,Mirage,6,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,four magic,aurora yb,2,Ancient,11,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,1,Nuke,8,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,2,Cache,13,5,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-27 17:30,esuba,winx.ru,3,Dust II,4,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,dinero,ttg,1,Nuke,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-26 17:30,dinero,ttg,2,Dust II,14,16,ct,2,1,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,1,Ancient,13,8,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,2,Cache,5,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,dimonix,aurora yb,3,Nuke,9,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 20:15,nemesis academy,sparx.ru,1,Ancient,9,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 20:15,nemesis academy,sparx.ru,2,Nuke,4,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,1,Anubis,13,8,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,2,Dust II,10,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 17:30,x-city,winx.ru,3,Ancient,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,1,Dust II,13,7,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,2,Cache,9,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-28 20:20,hermine,ttg,3,Ancient,14,16,ct,2,1,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,1,Nuke,8,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,2,Mirage,13,6,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,aurora yb,sparx.ru,3,Inferno,13,10,ct,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,1,Nuke,4,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-29 17:30,winx.ru,ttg,2,Dust II,5,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,1,Mirage,13,3,t,1,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,2,Ancient,11,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-30 17:30,ducks,aurora yb,3,Dust II,19,17,t,1,2,
-CCT/2026/Europe/Contenders 10,C,2026-10-30 20:15,spirit black,ttg,1,Dust II,4,13,ct,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-30 20:15,spirit black,ttg,2,Nuke,2,13,t,2,0,
-CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,1,Mirage,13,8,t,1,0,2400048
-CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,2,Nuke,5,13,ct,2,0,2400048
-CCT/2026/Europe/Contenders 10,C,2026-10-31 20:15,ducks,ttg,3,Dust II,13,11,t,1,0,2400048
-CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,1,Mirage,11,13,t,2,0,2400054
-CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,2,Dust II,13,8,ct,1,0,2400054
-CCT/2026/Europe/Contenders 10,C,2026-11-01 17:30,prodigy.ru,ducks,3,Ancient,16,13,t,1,1,2400054
-CCT/2026/Europe/Contenders 10,C,2026-11-01 21:05,monte,prodigy.ru,1,Cache,13,7,ct,1,0,2400055
-CCT/2026/Europe/Contenders 10,C,2026-11-01 21:05,monte,prodigy.ru,2,Nuke,13,10,t,1,0,2400055
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:15,four magic,csgopositive,1,Ancient,13,5,t,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:20,dinero,x-city,1,Ancient,7,13,ct,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:10,prodigy (russian team),next up,1,Mirage,16,13,t,1,1,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:05,sparx.ru,aeron,1,Dust II,13,10,ct,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:40,yatorogod,dominion (bulgarian team),1,Nuke,13,11,ct,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 17:20,aurora yb,fc famalicao,1,Dust II,13,3,t,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/1,C,2026-10-17 18:10,ttg esports,ducks,1,Dust II,11,13,t,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:25,dinero,a2ga,1,Nuke,13,4,t,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:50,esuba,tcf,1,Nuke,13,5,t,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,gold beasts,bhemanha,1,Mirage,6,13,ct,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:55,hermine,b8 academy,1,Mirage,13,10,t,1,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,chlopcy radarowcy,ttg esports,1,Cache,5,13,ct,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:35,team wp,dimonix,1,Ancient,2,13,ct,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 18:25,borealis,zotix,1,Dust II,7,13,ct,2,0,
-CCT/2026/Europe/Contenders 10/Qualifier/2,C,2026-10-18 17:30,monte,esprots,1,Nuke,13,3,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-04 16:00,red canids academy,underworld,1,Dust II,13,11,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-04 16:00,red canids academy,underworld,2,Ancient,13,10,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,1,Nuke,4,13,ct,2,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,2,Cache,16,14,t,1,1,
+Gamers Club/Liga Série A/2026/October,C,2026-11-05 18:30,rush gaming,meia noite,3,Dust II,13,7,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-05 16:00,quintessencia,gremio,1,Inferno,12,16,ct,2,1,
+Gamers Club/Liga Série A/2026/October,C,2026-11-05 16:00,quintessencia,gremio,2,Cache,10,13,t,2,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,1,Nuke,13,11,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,2,Ancient,5,13,t,2,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,3,Anubis,13,10,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,1,Nuke,13,8,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,2,Ancient,13,3,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,1,Mirage,13,1,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,2,Nuke,13,11,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,1,Inferno,13,9,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,2,Dust II,13,10,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,1,Ancient,13,11,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,2,Nuke,13,9,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-29 19:30,natverket,crown city,1,Cache,13,3,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-29 19:30,natverket,crown city,2,Nuke,16,14,t,1,1,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,1,Inferno,16,13,ct,1,1,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,2,Ancient,9,13,t,2,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-30 19:00,xept,minkens finest,3,Mirage,13,11,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,1,Cache,13,7,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,2,Ancient,13,8,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,1,Ancient,13,8,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,2,Dust II,13,4,t,1,0,
