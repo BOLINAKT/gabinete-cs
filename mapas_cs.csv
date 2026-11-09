@@ -63413,11 +63413,17 @@ CCT/2026/Europe/Series 13,B,2026-11-07 19:05,nexus,forze reload,1,Dust II,13,11,
 CCT/2026/Europe/Series 13,B,2026-11-07 19:05,nexus,forze reload,2,Anubis,13,10,ct,1,0,2400135
 CCT/2026/Europe/Series 13,B,2026-11-06 10:00,g2 ares,tlr,1,Cache,13,2,t,1,0,2400128
 CCT/2026/Europe/Series 13,B,2026-11-06 10:00,g2 ares,tlr,2,Ancient,13,9,ct,1,0,2400128
+CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,1,Dust II,13,6,t,1,0,2400142
+CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,2,Ancient,3,13,ct,2,0,2400142
+CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,3,Inferno,13,8,t,1,0,2400142
+CCT/2026/Europe/Series 13,B,2026-11-09 19:00,ex-z10,team aces,1,Cache,13,7,t,1,0,2400143
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,1,Cache,16,12,t,1,1,2400136
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,2,Dust II,12,16,ct,2,1,2400136
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,3,Ancient,1,13,ct,2,0,2400136
 CCT/2026/Europe/Series 13,B,2026-11-08 19:00,genone,psychoface,1,Nuke,13,4,ct,1,0,2400139
 CCT/2026/Europe/Series 13,B,2026-11-08 19:00,genone,psychoface,2,Inferno,13,5,t,1,0,2400139
+CCT/2026/Europe/Series 13,B,2026-11-09 13:00,baks,leo team,1,Nuke,13,3,ct,1,0,2400141
+CCT/2026/Europe/Series 13,B,2026-11-09 13:00,baks,leo team,2,Cache,13,7,t,1,0,2400141
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,1,Ancient,13,2,t,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,2,Dust II,13,10,ct,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 13:00,megoshort,honved,1,Mirage,5,13,ct,2,0,2400210
@@ -63450,18 +63456,26 @@ CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 10:00,four magic,masonic,1,Ancien
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 10:00,four magic,masonic,2,Cache,6,13,ct,2,0,2400223
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 16:00,saw youngsters,sokerorg,1,Mirage,6,13,ct,2,0,2400219
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 16:00,saw youngsters,sokerorg,2,Inferno,5,13,t,2,0,2400219
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:00,saw youngsters,masonic,1,Dust II,13,2,t,1,0,2400227
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:00,saw youngsters,masonic,2,Nuke,10,13,ct,2,0,2400227
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:00,saw youngsters,masonic,3,Mirage,10,13,t,2,0,2400227
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:15,saw youngsters,masonic,1,Dust II,13,2,t,1,0,2400227
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:15,saw youngsters,masonic,2,Nuke,10,13,ct,2,0,2400227
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 16:15,saw youngsters,masonic,3,Mirage,10,13,t,2,0,2400227
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 16:25,drama.rs,ryvex,1,Cache,13,7,t,1,0,2400215
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 16:25,drama.rs,ryvex,2,Ancient,19,22,ct,2,3,2400215
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-06 16:25,drama.rs,ryvex,3,Mirage,13,4,ct,1,0,2400215
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 19:00,drama.rs,phantom academy,1,Dust II,13,3,ct,1,0,2400220
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 19:00,drama.rs,phantom academy,2,Cache,8,13,t,2,0,2400220
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 19:00,drama.rs,phantom academy,3,Mirage,8,13,ct,2,0,2400220
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:05,drama.rs,ryvex,1,Cache,5,13,t,2,0,2400228
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:05,drama.rs,ryvex,2,Ancient,16,13,ct,1,1,2400228
-CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:05,drama.rs,ryvex,3,Mirage,10,13,t,2,0,2400228
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,1,Cache,5,13,t,2,0,2400228
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,2,Ancient,16,13,ct,1,1,2400228
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,3,Mirage,10,13,t,2,0,2400228
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,1,Nuke,6,13,ct,2,0,2400230
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,2,Ancient,13,9,t,1,0,2400230
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,3,Anubis,11,13,t,2,0,2400230
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 10:00,sokerorg,prestige.dk,1,Mirage,13,7,t,1,0,2400229
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 10:00,sokerorg,prestige.dk,2,Dust II,13,10,ct,1,0,2400229
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 16:00,phantom academy,illyrians,1,Dust II,13,10,t,1,0,2400231
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 16:00,phantom academy,illyrians,2,Cache,10,13,ct,2,0,2400231
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 16:00,phantom academy,illyrians,3,Mirage,9,13,ct,2,0,2400231
 PLAYzone/MČR/2026,C,2026-11-04 18:00,sinners legacy,monkeys (czech team),1,Dust II,9,13,ct,2,0,
 PLAYzone/MČR/2026,C,2026-11-04 19:00,unity.sk,thousand,1,Ancient,13,9,ct,1,0,
 PLAYzone/MČR/2026,C,2026-11-05 18:00,monkeys (czech team),unity.sk,1,Anubis,13,10,t,1,0,
@@ -63527,6 +63541,8 @@ CCT/2026/South America/Series 8,B,2026-11-08 10:00,meia noite,alianza lima espor
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,1,Mirage,13,3,t,1,0,2400093
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,2,Nuke,9,13,ct,2,0,2400093
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,3,Cache,13,7,ct,1,0,2400093
+CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,1,Ancient,13,10,ct,1,0,2400096
+CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,2,Inferno,13,11,t,1,0,2400096
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
@@ -63842,10 +63858,10 @@ Gamers Club/Liga Série A/2026/October,C,2026-11-05 16:00,quintessencia,gremio,2
 Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,1,Nuke,13,11,ct,1,0,
 Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,2,Ancient,5,13,t,2,0,
 Gamers Club/Liga Série A/2026/October,C,2026-11-04 18:30,borracheiros,alka gaming,3,Anubis,13,10,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,1,Nuke,13,8,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 16:00,red canids academy,rush gaming,2,Ancient,13,3,t,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,1,Mirage,13,1,ct,1,0,
-Gamers Club/Liga Série A/2026/October,C,2026-11-07 18:30,gremio,borracheiros,2,Nuke,13,11,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-06 16:00,red canids academy,rush gaming,1,Nuke,13,8,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-06 16:00,red canids academy,rush gaming,2,Ancient,13,3,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-06 18:30,gremio,borracheiros,1,Mirage,13,1,ct,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-06 18:30,gremio,borracheiros,2,Nuke,13,11,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,1,Inferno,13,9,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,2,Dust II,13,10,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,1,Ancient,13,11,ct,1,0,
@@ -63859,3 +63875,4 @@ Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,1,Cac
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,2,Ancient,13,8,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,1,Ancient,13,8,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,2,Dust II,13,4,t,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,1,Ancient,13,8,ct,1,0,

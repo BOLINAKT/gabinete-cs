@@ -1,69 +1,6 @@
 {
- "lido_em": "2026-11-09T07:09:07Z",
+ "lido_em": "2026-11-09T20:03:17Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T09:00:00Z",
-   "time1": "sokerorg",
-   "time2": "prestige.dk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T09:00:00Z",
-   "time1": "forze reload",
-   "time2": "maybe.ua",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T12:00:00Z",
-   "time1": "maybe.ua",
-   "time2": "masonic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T12:00:00Z",
-   "time1": "baks",
-   "time2": "leo team",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T15:00:00Z",
-   "time1": "phantom academy",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T15:00:00Z",
-   "time1": "butterfly.ru",
-   "time2": "nexus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T16:00:00Z",
-   "time1": "gremio",
-   "time2": "alianza lima esports",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14/Play-In",
    "tier": "B",
@@ -80,7 +17,7 @@
    "time1": "ex-z10",
    "time2": "team aces",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
@@ -89,7 +26,7 @@
    "time1": "crown city",
    "time2": "izzotrades",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "CCT/2026/South America/Series 8",
