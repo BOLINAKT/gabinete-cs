@@ -280,6 +280,27 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
                      and abs(_ts(j["inicio_utc"]) - ini) <= pd.Timedelta(hours=JANELA_CASAR_H)), None)
         info = {"p_a": p.get("p_a"), "p_b": p.get("p_b"), "time_a": p["time_a"], "time_b": p["time_b"],
                 "spread": p.get("spread"), "liquidez": p.get("liquidez")}
+        if dono is None:
+            # 10/11/2026: a Polymarket escreve "Toobisie" e a Liquipedia "Teletubisie" -- o jogo
+            # aparecia duas vezes. Um time nao joga duas partidas ao mesmo tempo: se UM lado bate
+            # exato e o horario e o mesmo (ate 1 h), e o mesmo jogo -- desde que so haja um.
+            ka, kb = _chave(p["time_a"]), _chave(p["time_b"])
+            cands = [j for j in fora if j.get("inicio_utc") and not j.get("poly")
+                     and abs(_ts(j["inicio_utc"]) - ini) <= pd.Timedelta(hours=1)
+                     and len({ka, kb} & {_chave(j["casa"]), _chave(j["fora"])}) == 1]
+            if len(cands) == 1:
+                dono = cands[0]
+                lado_a_casa = ka == _chave(dono["casa"]) or kb == _chave(dono["fora"])
+                dono["poly"] = dict(info, invertido=not lado_a_casa)
+                # o lado que o modelo nao conhece herda o nome que ele conhece (a Pinnacle diz
+                # "Toobisie", a Polymarket "Teletubisie"); as odds casam pelo id, nao pelo nome
+                pares = (("casa", p["time_a"]), ("fora", p["time_b"])) if lado_a_casa else \
+                        (("casa", p["time_b"]), ("fora", p["time_a"]))
+                for lado, nome_p in pares:
+                    conhecido = casar_estrito(est, nome_p, mapa)
+                    if conhecido and not casar_estrito(est, dono[lado], mapa):
+                        dono[lado] = conhecido
+                continue
         if dono is not None:
             # a orientacao: o time_a da Polymarket e a casa ou a fora deste jogo?
             dono.setdefault("poly", dict(info, invertido=_chave(p["time_a"]) != _chave(dono["casa"])))

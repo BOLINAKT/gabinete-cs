@@ -132,6 +132,43 @@ class TestMontarJogos(unittest.TestCase):
         self.assertEqual(pin["poly"]["p_a"], 0.55)                  # o preco da Polymarket pendura no jogo
 
 
+    def test_um_lado_exato_na_mesma_hora_e_o_mesmo_jogo(self):
+        # 10/11/2026: "Toobisie" (Polymarket) = "Teletubisie" (Liquipedia), contra o 9INE Academy
+        import pandas as pd
+
+        class E:
+            def casar(self, nome):
+                return ({"9INE Academy": "9INE Academy", "Teletubisie": "Teletubisie"}.get(nome), "exato")
+        odds = {"lido_em": "2026-11-11T08:00:00Z", "linhas": [], "jogos": [
+            {"id": 9, "casa": "9INE Academy", "fora": "Teletubisie", "liga": "X", "bo": 3,
+             "inicio_utc": "2026-11-11T09:00:00Z"}]}
+        poly = {"partidas": [
+            {"time_a": "Toobisie", "time_b": "9INE Academy", "p_a": 0.4, "p_b": 0.6, "bo": 3,
+             "torneio": "X", "inicio_utc": "2026-11-11T09:00:00Z", "evento": "e1"},
+            {"time_a": "9INE Academy", "time_b": "Outro", "p_a": 0.5, "p_b": 0.5, "bo": 3,
+             "torneio": "X", "inicio_utc": "2026-11-11T15:00:00Z", "evento": "e2"}]}
+        m = pc.montar_jogos(E(), {}, odds, agora=pd.Timestamp("2026-11-11 08:00"), poly=poly)
+        self.assertEqual(len(m["jogos"]), 2)                       # o das 15h e outro jogo
+        j = next(x for x in m["jogos"] if x["id"] == 9)
+        self.assertTrue(j["poly"]["invertido"])                    # time_a da Polymarket e a fora
+        self.assertEqual(j["poly"]["p_b"], 0.6)
+
+    def test_lado_desconhecido_herda_o_nome_conhecido(self):
+        import pandas as pd
+
+        class E:
+            def casar(self, nome):
+                return ({"9INE Academy": "9INE Academy", "Teletubisie": "Teletubisie"}.get(nome), "exato")
+        odds = {"lido_em": "2026-11-11T08:00:00Z", "linhas": [], "jogos": [
+            {"id": 9, "casa": "9INE Academy", "fora": "Toobisie", "liga": "X", "bo": 3,
+             "inicio_utc": "2026-11-11T09:00:00Z"}]}
+        poly = {"partidas": [{"time_a": "9INE Academy", "time_b": "Teletubisie", "p_a": 0.6, "p_b": 0.4,
+                              "bo": 3, "torneio": "X", "inicio_utc": "2026-11-11T09:30:00Z", "evento": "e1"}]}
+        m = pc.montar_jogos(E(), {}, odds, agora=pd.Timestamp("2026-11-11 08:00"), poly=poly)
+        self.assertEqual(len(m["jogos"]), 1)
+        self.assertEqual((m["jogos"][0]["casa"], m["jogos"][0]["fora"]), ("9INE Academy", "Teletubisie"))
+        self.assertFalse(m["jogos"][0]["poly"]["invertido"])
+
     def test_nome_parecido_nao_casa_na_polymarket(self):
         class E:
             def casar(self, nome):
