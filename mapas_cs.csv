@@ -62926,6 +62926,9 @@ CCT/2026/Europe/Series 14,B,2026-11-10 10:00,baks,azuolas,1,Inferno,13,2,ct,1,0,
 CCT/2026/Europe/Series 14,B,2026-11-10 10:00,baks,azuolas,2,Ancient,13,0,t,1,0,2400233
 CCT/2026/Europe/Series 14,B,2026-11-10 13:00,ex-z10,illyrians,1,Inferno,13,2,t,1,0,2400234
 CCT/2026/Europe/Series 14,B,2026-11-10 13:00,ex-z10,illyrians,2,Mirage,13,11,ct,1,0,2400234
+CCT/2026/Europe/Series 14,B,2026-11-10 16:00,butterfly,honved,1,Dust II,13,11,t,1,0,2400235
+CCT/2026/Europe/Series 14,B,2026-11-10 16:00,butterfly,honved,2,Cache,11,13,ct,2,0,2400235
+CCT/2026/Europe/Series 14,B,2026-11-10 16:00,butterfly,honved,3,Mirage,13,9,t,1,0,2400235
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,1,Mirage,6,13,t,2,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,2,Ancient,13,9,t,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,3,Anubis,13,6,t,1,0,
@@ -63301,6 +63304,31 @@ Esports Nations Cup/2026/Western Europe/Netherlands,C,2026-07-10 17:00,team neth
 Esports Nations Cup/2026/Western Europe/Netherlands,C,2026-07-10 17:00,team netherlands (dutch team),kan niet anders,2,Ancient,13,6,t,1,0,
 Esports Nations Cup/2026/Western Europe/United Kingdom,C,2026-07-14 20:00,team mightymax,deadlife,1,Anubis,13,1,ct,1,0,
 Esports Nations Cup/2026/Western Europe/United Kingdom,C,2026-07-14 20:00,team mightymax,deadlife,2,Ancient,13,2,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 20:05,yngods,johnny speeds,1,Mirage,13,10,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:00,team orda,basement boys,1,Nuke,7,13,ct,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:00,zotix,astral,1,Ancient,13,6,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:15,phantom troupe (polish team),33,1,Dust II,9,13,ct,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:35,bbl,saint sinners,1,Ancient,16,13,ct,1,1,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:25,infinite,rbls,1,Dust II,13,1,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 17:50,private,ww team,1,Ancient,7,13,ct,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:45,biga,aimclub.ro,1,Cache,11,13,t,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:40,nemesis,wraith pcific,1,Inferno,14,16,ct,2,1,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:10,quazar,glitch agency,1,Cache,13,8,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:25,iberian soul,insiders esport,1,Ancient,11,13,ct,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:10,trafficpills,gamesport,1,Cache,10,13,t,2,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:10,magic,fire flux,1,Dust II,13,11,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 18:05,acend,younglings,1,Ancient,16,14,t,1,1,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 17:45,fokus,wbt academy,1,Ancient,13,7,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 17:55,pure,inox,1,Inferno,13,6,t,1,0,
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 19:10,zotix,33,1,Dust II,4,13,t,2,0,2400452
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 20:10,bbl,infinite,1,Cache,13,6,ct,1,0,2400453
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 19:50,ww team,aimclub.ro,1,Mirage,13,7,t,1,0,2400454
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 20:40,wraith pcific,quazar,1,Anubis,13,11,ct,1,0,2400455
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 19:40,insiders esport,gamesport,1,Mirage,6,13,ct,2,0,2400456
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 19:30,magic,acend,1,Mirage,13,11,t,1,0,2400457
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 19:00,fokus,pure,1,Nuke,10,13,t,2,0,2400458
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 21:10,bbl,ww team,1,Mirage,8,13,ct,2,0,2400460
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-10 20:40,magic,pure,1,Inferno,13,8,ct,1,0,2400462
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:35,chaos enforcers,diamant,1,Anubis,7,13,ct,2,0,
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:15,notime,zu stark,1,Mirage,13,10,t,1,0,
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:40,raidboss,eac,1,Anubis,13,11,t,1,0,
@@ -63430,6 +63458,8 @@ CCT/2026/Europe/Series 13,B,2026-11-08 19:00,genone,psychoface,1,Nuke,13,4,ct,1,
 CCT/2026/Europe/Series 13,B,2026-11-08 19:00,genone,psychoface,2,Inferno,13,5,t,1,0,2400139
 CCT/2026/Europe/Series 13,B,2026-11-09 13:00,baks,leo team,1,Nuke,13,3,ct,1,0,2400141
 CCT/2026/Europe/Series 13,B,2026-11-09 13:00,baks,leo team,2,Cache,13,7,t,1,0,2400141
+CCT/2026/Europe/Series 13,B,2026-11-10 16:00,g2 ares,maybe.ua,1,Cache,11,13,t,2,0,2400145
+CCT/2026/Europe/Series 13,B,2026-11-10 16:00,g2 ares,maybe.ua,2,Mirage,7,13,ct,2,0,2400145
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,1,Ancient,13,2,t,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 10:00,illyrians,bebop,2,Dust II,13,10,ct,1,0,2400209
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-04 13:00,megoshort,honved,1,Mirage,5,13,ct,2,0,2400210
@@ -63549,6 +63579,10 @@ CCT/2026/South America/Series 8,B,2026-11-08 10:00,meia noite,alianza lima espor
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,1,Mirage,13,3,t,1,0,2400093
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,2,Nuke,9,13,ct,2,0,2400093
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,3,Cache,13,7,ct,1,0,2400093
+CCT/2026/South America/Series 8,B,2026-11-10 13:00,meia noite,borracheiros,1,Mirage,17,19,ct,2,2,2400099
+CCT/2026/South America/Series 8,B,2026-11-10 13:00,meia noite,borracheiros,2,Nuke,13,9,t,1,0,2400099
+CCT/2026/South America/Series 8,B,2026-11-10 13:00,meia noite,borracheiros,3,Dust II,13,9,ct,1,0,2400099
+CCT/2026/South America/Series 8,B,2026-11-10 16:20,isurus,red canids academy,1,Mirage,13,3,ct,1,0,2400100
 CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,1,Ancient,13,10,ct,1,0,2400096
 CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,2,Inferno,13,11,t,1,0,2400096
 CCT/2026/South America/Series 8,B,2026-11-09 16:00,bestia academy,underworld,1,Mirage,4,13,ct,2,0,2400097

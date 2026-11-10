@@ -1,58 +1,40 @@
 {
- "lido_em": "2026-11-10T15:15:16Z",
+ "lido_em": "2026-11-10T21:28:30Z",
  "jogos": [
   {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T15:00:00Z",
-   "time1": "butterfly",
-   "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T15:00:00Z",
-   "time1": "g2 ares",
-   "time2": "maybe.ua",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
-   "inicio_utc": "2026-11-10T16:00:00Z",
-   "time1": "meia noite",
-   "time2": "borracheiros",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T18:00:00Z",
-   "time1": "leo team",
-   "time2": "mint",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T18:00:00Z",
-   "time1": "tlr",
-   "time2": "megoshort",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T19:00:00Z",
+   "inicio_utc": "2026-11-10T19:20:00Z",
    "time1": "isurus",
    "time2": "red canids academy",
    "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier/Open/1",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T19:40:00Z",
+   "time1": "magic",
+   "time2": "pure",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier/Open/1",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T20:10:00Z",
+   "time1": "bbl",
+   "time2": "ww team",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier/Open/1",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T20:20:00Z",
+   "time1": "yngods",
+   "time2": "basement boys",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
