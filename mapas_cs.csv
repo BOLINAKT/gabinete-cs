@@ -63417,6 +63417,8 @@ CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,1,Dust II,13,6,t
 CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,2,Ancient,3,13,ct,2,0,2400142
 CCT/2026/Europe/Series 13,B,2026-11-09 16:00,butterfly.ru,nexus,3,Inferno,13,8,t,1,0,2400142
 CCT/2026/Europe/Series 13,B,2026-11-09 19:00,ex-z10,team aces,1,Cache,13,7,t,1,0,2400143
+CCT/2026/Europe/Series 13,B,2026-11-09 19:00,ex-z10,team aces,2,Dust II,7,13,ct,2,0,2400143
+CCT/2026/Europe/Series 13,B,2026-11-09 19:00,ex-z10,team aces,3,Inferno,13,10,t,1,0,2400143
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,1,Cache,16,12,t,1,1,2400136
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,2,Dust II,12,16,ct,2,1,2400136
 CCT/2026/Europe/Series 13,B,2026-11-08 10:00,g2 ares,ic academy,3,Ancient,1,13,ct,2,0,2400136
@@ -63468,6 +63470,8 @@ CCT/2026/Europe/Series 14/Play-In,C,2026-11-07 19:00,drama.rs,phantom academy,3,
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,1,Cache,5,13,t,2,0,2400228
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,2,Ancient,16,13,ct,1,1,2400228
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-08 19:30,drama.rs,ryvex,3,Mirage,10,13,t,2,0,2400228
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 19:00,honved,ryvex,1,Dust II,13,6,t,1,0,2400232
+CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 19:00,honved,ryvex,2,Ancient,13,0,ct,1,0,2400232
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,1,Nuke,6,13,ct,2,0,2400230
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,2,Ancient,13,9,t,1,0,2400230
 CCT/2026/Europe/Series 14/Play-In,C,2026-11-09 13:00,maybe.ua,masonic,3,Anubis,11,13,t,2,0,2400230
@@ -63543,6 +63547,12 @@ CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia aca
 CCT/2026/South America/Series 8,B,2026-11-08 13:00,red canids academy,bestia academy,3,Cache,13,7,ct,1,0,2400093
 CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,1,Ancient,13,10,ct,1,0,2400096
 CCT/2026/South America/Series 8,B,2026-11-09 13:00,gremio,alianza lima esports,2,Inferno,13,11,t,1,0,2400096
+CCT/2026/South America/Series 8,B,2026-11-09 16:00,bestia academy,underworld,1,Mirage,4,13,ct,2,0,2400097
+CCT/2026/South America/Series 8,B,2026-11-09 16:00,bestia academy,underworld,2,Inferno,13,6,t,1,0,2400097
+CCT/2026/South America/Series 8,B,2026-11-09 16:00,bestia academy,underworld,3,Dust II,6,13,ct,2,0,2400097
+CCT/2026/South America/Series 8,B,2026-11-09 19:00,your end,damajuana,1,Cache,11,13,ct,2,0,2400098
+CCT/2026/South America/Series 8,B,2026-11-09 19:00,your end,damajuana,2,Ancient,13,10,t,1,0,2400098
+CCT/2026/South America/Series 8,B,2026-11-09 19:00,your end,damajuana,3,Mirage,11,3,ct,1,0,2400098
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
@@ -63862,6 +63872,9 @@ Gamers Club/Liga Série A/2026/October,C,2026-11-06 16:00,red canids academy,rus
 Gamers Club/Liga Série A/2026/October,C,2026-11-06 16:00,red canids academy,rush gaming,2,Ancient,13,3,t,1,0,
 Gamers Club/Liga Série A/2026/October,C,2026-11-06 18:30,gremio,borracheiros,1,Mirage,13,1,ct,1,0,
 Gamers Club/Liga Série A/2026/October,C,2026-11-06 18:30,gremio,borracheiros,2,Nuke,13,11,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-09 16:00,red canids academy,gremio,1,Nuke,9,13,ct,2,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-09 16:00,red canids academy,gremio,2,Mirage,13,10,t,1,0,
+Gamers Club/Liga Série A/2026/October,C,2026-11-09 16:00,red canids academy,gremio,3,Ancient,11,13,t,2,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,1,Inferno,13,9,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-21 19:00,coinstep,vanir quick academy,2,Dust II,13,10,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-10-23 19:00,leo,izzotrades,1,Ancient,13,11,ct,1,0,
@@ -63876,3 +63889,5 @@ Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-02 19:00,leo,natverket,2,Anc
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,1,Ancient,13,8,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-04 19:00,coinstep,xept,2,Dust II,13,4,t,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,1,Ancient,13,8,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,2,Nuke,9,13,t,2,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,3,Inferno,13,11,ct,1,0,

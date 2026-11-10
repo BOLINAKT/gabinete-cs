@@ -1,57 +1,48 @@
 {
- "lido_em": "2026-11-09T20:03:17Z",
+ "lido_em": "2026-11-10T03:50:43Z",
  "jogos": [
   {
-   "pagina": "CCT/2026/Europe/Series 14/Play-In",
+   "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
-   "inicio_utc": "2026-11-09T18:00:00Z",
-   "time1": "honved",
-   "time2": "ryvex",
+   "inicio_utc": "2026-11-10T09:00:00Z",
+   "time1": "baks",
+   "time2": "azuolas",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T12:00:00Z",
+   "time1": "ex-z10",
+   "time2": "illyrians",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
    "pagina": "CCT/2026/Europe/Series 13",
    "tier": "B",
-   "inicio_utc": "2026-11-09T18:00:00Z",
-   "time1": "ex-z10",
-   "time2": "team aces",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
-   "tier": "C",
-   "inicio_utc": "2026-11-09T18:00:00Z",
-   "time1": "crown city",
-   "time2": "izzotrades",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-09T19:00:00Z",
-   "time1": "bestia academy",
-   "time2": "underworld",
+   "inicio_utc": "2026-11-10T12:00:00Z",
+   "time1": "leo team",
+   "time2": "psychoface",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Gamers Club/Liga Série A/2026/October",
-   "tier": "C",
-   "inicio_utc": "2026-11-09T19:00:00Z",
-   "time1": "red canids academy",
-   "time2": "gremio",
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T15:00:00Z",
+   "time1": "butterfly",
+   "time2": "honved",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "CCT/2026/South America/Series 8",
+   "pagina": "CCT/2026/Europe/Series 13",
    "tier": "B",
-   "inicio_utc": "2026-11-09T22:00:00Z",
-   "time1": "your end",
-   "time2": "damajuana",
+   "inicio_utc": "2026-11-10T15:00:00Z",
+   "time1": "maybe.ua",
+   "time2": "g2 ares",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -61,6 +52,24 @@
    "inicio_utc": "2026-11-10T16:00:00Z",
    "time1": "meia noite",
    "time2": "borracheiros",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T18:00:00Z",
+   "time1": "leo team",
+   "time2": "mint",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-10T18:00:00Z",
+   "time1": "tlr",
+   "time2": "megoshort",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -110,11 +119,74 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T09:00:00Z",
+   "time1": "ex-rustec",
+   "time2": "sökerorg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
    "inicio_utc": "2026-11-11T09:30:00Z",
    "time1": "mouz",
    "time2": "g2",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T12:00:00Z",
+   "time1": "nexus",
+   "time2": "mnxt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T12:00:00Z",
+   "time1": "genone",
+   "time2": "ic academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T15:00:00Z",
+   "time1": "forze reload",
+   "time2": "masonic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T15:00:00Z",
+   "time1": "nexus",
+   "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T18:00:00Z",
+   "time1": "walczaki",
+   "time2": "tlr",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-11T18:00:00Z",
+   "time1": "team aces",
+   "time2": "forze reload",
    "bo": 3,
    "mapas_jogados": 0
   },
