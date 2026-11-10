@@ -9157,6 +9157,16 @@
 "pendente": false,
 "tier": "C"
 },
+"RLG/RES/Showdown/2027/Winter/Europe": {
+"fim": "2027-01-03",
+"inicio": "2027-01-01",
+"tier": "B"
+},
+"RLG/RES/Showdown/2027/Winter/South America": {
+"fim": "2027-01-03",
+"inicio": "2027-01-01",
+"tier": "B"
+},
 "RLG/RES/Western European Masters/2024/Spring": {
 "fim": "2024-02-11",
 "inicio": "2024-02-09",
