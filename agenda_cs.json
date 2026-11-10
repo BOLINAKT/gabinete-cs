@@ -1,33 +1,6 @@
 {
- "lido_em": "2026-11-10T03:50:43Z",
+ "lido_em": "2026-11-10T15:15:16Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T09:00:00Z",
-   "time1": "baks",
-   "time2": "azuolas",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T12:00:00Z",
-   "time1": "ex-z10",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-10T12:00:00Z",
-   "time1": "leo team",
-   "time2": "psychoface",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
@@ -41,8 +14,8 @@
    "pagina": "CCT/2026/Europe/Series 13",
    "tier": "B",
    "inicio_utc": "2026-11-10T15:00:00Z",
-   "time1": "maybe.ua",
-   "time2": "g2 ares",
+   "time1": "g2 ares",
+   "time2": "maybe.ua",
    "bo": 3,
    "mapas_jogados": 0
   },
