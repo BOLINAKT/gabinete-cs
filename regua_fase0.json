@@ -1,0 +1,110 @@
+{
+ "medido_em": "2026-11-12T22:15:42Z",
+ "janela": [
+  "2026-10-27",
+  "2026-11-12"
+ ],
+ "serie": {
+  "n": 68,
+  "ll_modelo": 0.6822,
+  "ll_pinnacle": 0.6554,
+  "vantagem_modelo": -0.0267,
+  "acerto_modelo": 0.603,
+  "acerto_pinnacle": 0.559,
+  "ic95": [
+   -0.0837,
+   0.0282
+  ],
+  "inclinacao_modelo": 0.58,
+  "peso_modelo_na_mistura": 0.0,
+  "apostas_na_pinnacle": {
+   "n": 34,
+   "lucro": 3.99,
+   "roi": 0.117
+  }
+ },
+ "mapa": {
+  "n": 151,
+  "ll_modelo": 0.6763,
+  "ll_pinnacle": 0.6482,
+  "vantagem_modelo": -0.0281,
+  "acerto_modelo": 0.589,
+  "acerto_pinnacle": 0.576,
+  "ic95": [
+   -0.0569,
+   0.0018
+  ],
+  "inclinacao_modelo": 0.64,
+  "peso_modelo_na_mistura": 0.0,
+  "apostas_na_pinnacle": {
+   "n": 85,
+   "lucro": 3.15,
+   "roi": 0.037
+  }
+ },
+ "serie_por_tier": {
+  "B": {
+   "n": 20,
+   "ll_modelo": 0.7074,
+   "ll_pinnacle": 0.6322,
+   "vantagem_modelo": -0.0752,
+   "acerto_modelo": 0.6,
+   "acerto_pinnacle": 0.55,
+   "apostas_na_pinnacle": {
+    "n": 6,
+    "lucro": -1.95,
+    "roi": -0.326
+   }
+  },
+  "C": {
+   "n": 2,
+   "ll_modelo": 0.4945,
+   "ll_pinnacle": 0.5805,
+   "vantagem_modelo": 0.086,
+   "acerto_modelo": 1.0,
+   "acerto_pinnacle": 0.5,
+   "apostas_na_pinnacle": {
+    "n": 1,
+    "lucro": 1.0,
+    "roi": 1.0
+   }
+  },
+  "S": {
+   "n": 46,
+   "ll_modelo": 0.6793,
+   "ll_pinnacle": 0.6688,
+   "vantagem_modelo": -0.0106,
+   "acerto_modelo": 0.587,
+   "acerto_pinnacle": 0.565,
+   "ic95": [
+    -0.0689,
+    0.0448
+   ],
+   "inclinacao_modelo": 0.6,
+   "peso_modelo_na_mistura": 0.12,
+   "apostas_na_pinnacle": {
+    "n": 27,
+    "lucro": 4.95,
+    "roi": 0.183
+   }
+  }
+ },
+ "casas_dele": {
+  "series_com_odd_das_casas": 26,
+  "valor_contra_pinnacle": {
+   "n": 16,
+   "lucro": 6.13,
+   "roi": 0.383
+  },
+  "valor_contra_modelo": {
+   "n": 26,
+   "lucro": 13.81,
+   "roi": 0.531
+  },
+  "valor_contra_os_dois": {
+   "n": 7,
+   "lucro": 4.31,
+   "roi": 0.615
+  }
+ }
+}
