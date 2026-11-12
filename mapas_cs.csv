@@ -62944,6 +62944,8 @@ CCT/2026/Europe/Series 14,B,2026-11-11 13:00,nexus,mnxt,2,Mirage,13,7,ct,1,0,240
 CCT/2026/Europe/Series 14,B,2026-11-11 16:00,forze reload,masonic,1,Ancient,19,16,t,1,2,2400239
 CCT/2026/Europe/Series 14,B,2026-11-11 16:00,forze reload,masonic,2,Nuke,13,4,ct,1,0,2400239
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,1,Inferno,10,13,ct,2,0,2400240
+CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,2,Ancient,13,11,t,1,0,2400240
+CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,3,Nuke,13,11,t,1,0,2400240
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,1,Mirage,6,13,t,2,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,2,Ancient,13,9,t,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,3,Anubis,13,6,t,1,0,
@@ -63359,6 +63361,7 @@ PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-11 16:00,wraith pcific,magic,1,D
 PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-11 16:00,wraith pcific,magic,2,Mirage,2,13,ct,2,0,2400464
 PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-11 16:00,wraith pcific,magic,3,Inferno,5,13,t,2,0,2400464
 PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-11 19:30,bbl,magic,1,Cache,9,13,ct,2,0,2400465
+PGL/2027/Cluj-Napoca/Qualifier/Open/1,B,2026-11-11 19:30,bbl,magic,2,Inferno,11,13,t,2,0,2400465
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:35,chaos enforcers,diamant,1,Anubis,7,13,ct,2,0,
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:15,notime,zu stark,1,Mirage,13,10,t,1,0,
 CCT/2026/Europe/Contenders 11/Qualifier/2,C,2026-11-08 17:40,raidboss,eac,1,Anubis,13,11,t,1,0,
@@ -63494,6 +63497,8 @@ CCT/2026/Europe/Series 13,B,2026-11-11 16:00,nexus,baks,1,Cache,7,13,ct,2,0,2400
 CCT/2026/Europe/Series 13,B,2026-11-11 16:00,nexus,baks,2,Ancient,13,5,t,1,0,2400148
 CCT/2026/Europe/Series 13,B,2026-11-11 16:00,nexus,baks,3,Dust II,13,10,t,1,0,2400148
 CCT/2026/Europe/Series 13,B,2026-11-11 19:15,team aces,forze reload,1,Cache,3,13,ct,2,0,2400149
+CCT/2026/Europe/Series 13,B,2026-11-11 19:15,team aces,forze reload,2,Dust II,13,11,t,1,0,2400149
+CCT/2026/Europe/Series 13,B,2026-11-11 19:15,team aces,forze reload,3,Mirage,11,13,ct,2,0,2400149
 CCT/2026/Europe/Series 13,B,2026-11-10 16:00,g2 ares,maybe.ua,1,Cache,11,13,t,2,0,2400145
 CCT/2026/Europe/Series 13,B,2026-11-10 16:00,g2 ares,maybe.ua,2,Mirage,7,13,ct,2,0,2400145
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,1,Ancient,13,7,ct,1,0,2400012
@@ -63678,6 +63683,8 @@ CCT/2026/South America/Series 8,B,2026-11-09 19:00,your end,damajuana,3,Mirage,1
 CCT/2026/South America/Series 8,B,2026-11-11 13:00,quintessencia,underworld,1,Dust II,13,9,ct,1,0,2400102
 CCT/2026/South America/Series 8,B,2026-11-11 13:00,quintessencia,underworld,2,Inferno,13,16,t,2,1,2400102
 CCT/2026/South America/Series 8,B,2026-11-11 13:00,quintessencia,underworld,3,Ancient,13,3,t,1,0,2400102
+CCT/2026/South America/Series 8,B,2026-11-11 16:15,red canids academy,gremio,1,Nuke,13,4,ct,1,0,2400103
+CCT/2026/South America/Series 8,B,2026-11-11 16:15,red canids academy,gremio,2,Mirage,13,4,t,1,0,2400103
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
@@ -63972,3 +63979,5 @@ Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrad
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,2,Nuke,9,13,t,2,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-09 19:00,crown city,izzotrades,3,Inferno,13,11,ct,1,0,
 Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-11 19:00,minkens finest,vanir quick academy,1,Cache,13,8,ct,1,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-11 19:00,minkens finest,vanir quick academy,2,Inferno,8,13,t,2,0,
+Svenska Elitserien/2026/Fall/Online Stage,C,2026-11-11 19:00,minkens finest,vanir quick academy,3,Ancient,19,15,ct,1,2,
