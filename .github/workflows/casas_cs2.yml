@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "Robo GabineteCS"
           git config user.email "robo@gabinete.local"
-          git add odds_casas_cs2.json odds_casas_cs2_historico.jsonl
+          git add odds_casas_cs2.json odds_casas_cs2_historico.jsonl odds_casas_cs2_linhas_historico.jsonl catalogo_casas_cs2.json
           git diff --cached --quiet && exit 0
           git commit -m "Robô: odds de outras casas (CS2)"
           for i in 1 2 3; do
