@@ -1,84 +1,21 @@
 {
- "lido_em": "2026-11-12T11:48:47Z",
+ "lido_em": "2026-11-12T20:24:01Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T09:00:00Z",
-   "time1": "tlr",
-   "time2": "masonic",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-12T10:40:00Z",
-   "time1": "spirit",
-   "time2": "g2",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T12:00:00Z",
-   "time1": "genone",
-   "time2": "leo team",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T13:00:00Z",
-   "time1": "axorfy",
-   "time2": "meia noite",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T15:00:00Z",
-   "time1": "azuolas",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T15:00:00Z",
-   "time1": "baks",
-   "time2": "tlr",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T16:00:00Z",
-   "time1": "ex-yawara e-sports",
-   "time2": "isurus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T18:00:00Z",
-   "time1": "team aces",
-   "time2": "maybe.ua",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-12T19:00:00Z",
    "time1": "procyon",
    "time2": "tao toma",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T22:00:00Z",
+   "time1": "axorfy",
+   "time2": "meia noite",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -97,6 +34,15 @@
    "inicio_utc": "2026-11-13T09:00:00Z",
    "time1": "butterfly",
    "time2": "leo team",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "BLAST/Rivals/2026/Fall",
+   "tier": "S",
+   "inicio_utc": "2026-11-13T10:30:00Z",
+   "time1": "g2",
+   "time2": "falcons",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -205,6 +151,15 @@
    "inicio_utc": "2026-11-17T18:00:00Z",
    "time1": "xept",
    "time2": "crown city",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/MČR/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-22T12:00:00Z",
+   "time1": "unity.sk",
+   "time2": "monkeys (czech team)",
    "bo": 3,
    "mapas_jogados": 0
   }
