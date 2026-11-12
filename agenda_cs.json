@@ -1,39 +1,30 @@
 {
- "lido_em": "2026-11-12T02:32:33Z",
+ "lido_em": "2026-11-12T11:48:47Z",
  "jogos": [
   {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-12T02:00:00Z",
-   "time1": "legacy",
-   "time2": "falcons",
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T09:00:00Z",
+   "time1": "tlr",
+   "time2": "masonic",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 1
   },
   {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
-   "inicio_utc": "2026-11-12T04:30:00Z",
-   "time1": "furia",
-   "time2": "vit",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-12T07:00:00Z",
-   "time1": "fut",
-   "time2": "mouz",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-12T09:30:00Z",
+   "inicio_utc": "2026-11-12T10:40:00Z",
    "time1": "spirit",
    "time2": "g2",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T12:00:00Z",
+   "time1": "genone",
+   "time2": "leo team",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -47,11 +38,38 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T15:00:00Z",
+   "time1": "azuolas",
+   "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T15:00:00Z",
+   "time1": "baks",
+   "time2": "tlr",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-12T16:00:00Z",
    "time1": "ex-yawara e-sports",
    "time2": "isurus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-12T18:00:00Z",
+   "time1": "team aces",
+   "time2": "maybe.ua",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -65,11 +83,29 @@
    "mapas_jogados": 0
   },
   {
-   "pagina": "CCT/2026/South America/Series 8",
+   "pagina": "BLAST/Rivals/2026/Fall",
+   "tier": "S",
+   "inicio_utc": "2026-11-13T08:00:00Z",
+   "time1": "vit",
+   "time2": "mouz",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
-   "inicio_utc": "2026-11-12T22:00:00Z",
-   "time1": "ex-bounty hunters esports",
-   "time2": "quintessencia",
+   "inicio_utc": "2026-11-13T09:00:00Z",
+   "time1": "butterfly",
+   "time2": "leo team",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T12:00:00Z",
+   "time1": "ex-z10",
+   "time2": "baks",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -79,6 +115,15 @@
    "inicio_utc": "2026-11-13T13:00:00Z",
    "time1": "turma do pagode",
    "time2": "rush gaming",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T15:00:00Z",
+   "time1": "forze reload",
+   "time2": "walczaki",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -97,6 +142,15 @@
    "inicio_utc": "2026-11-13T17:00:00Z",
    "time1": "lilmix",
    "time2": "converge (swedish team)",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T18:00:00Z",
+   "time1": "ex-rustec",
+   "time2": "nexus",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -133,6 +187,24 @@
    "inicio_utc": "2026-11-15T14:00:00Z",
    "time1": "coinstep",
    "time2": "xept",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-16T18:00:00Z",
+   "time1": "natverket",
+   "time2": "minkens finest",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T18:00:00Z",
+   "time1": "xept",
+   "time2": "crown city",
    "bo": 3,
    "mapas_jogados": 0
   }

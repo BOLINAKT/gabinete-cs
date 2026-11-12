@@ -62926,12 +62926,20 @@ BLAST/Rivals/2026/Fall,S,2026-11-11 10:00,legacy,furia,1,Inferno,10,13,ct,2,0,23
 BLAST/Rivals/2026/Fall,S,2026-11-11 10:00,legacy,furia,2,Mirage,7,13,t,2,0,2399851
 BLAST/Rivals/2026/Fall,S,2026-11-11 12:15,vit,falcons,1,Anubis,13,10,ct,1,0,2399852
 BLAST/Rivals/2026/Fall,S,2026-11-11 12:15,vit,falcons,2,Dust II,13,10,t,1,0,2399852
+BLAST/Rivals/2026/Fall,S,2026-11-12 10:00,legacy,falcons,1,Dust II,8,13,ct,2,0,2400200
+BLAST/Rivals/2026/Fall,S,2026-11-12 10:00,legacy,falcons,2,Mirage,6,13,t,2,0,2400200
+BLAST/Rivals/2026/Fall,S,2026-11-12 12:00,furia,vit,1,Inferno,5,13,t,2,0,2400201
+BLAST/Rivals/2026/Fall,S,2026-11-12 12:00,furia,vit,2,Dust II,13,10,ct,1,0,2400201
+BLAST/Rivals/2026/Fall,S,2026-11-12 12:00,furia,vit,3,Mirage,13,0,ct,1,0,2400201
 BLAST/Rivals/2026/Fall,S,2026-11-11 14:30,spirit,fut,1,Cache,13,9,ct,1,0,2399853
 BLAST/Rivals/2026/Fall,S,2026-11-11 14:30,spirit,fut,2,Nuke,0,13,t,2,0,2399853
 BLAST/Rivals/2026/Fall,S,2026-11-11 14:30,spirit,fut,3,Ancient,13,5,t,1,0,2399853
 BLAST/Rivals/2026/Fall,S,2026-11-11 17:30,mouz,g2,1,Nuke,13,7,t,1,0,2399854
 BLAST/Rivals/2026/Fall,S,2026-11-11 17:30,mouz,g2,2,Ancient,14,16,ct,2,1,2399854
 BLAST/Rivals/2026/Fall,S,2026-11-11 17:30,mouz,g2,3,Inferno,7,13,ct,2,0,2399854
+BLAST/Rivals/2026/Fall,S,2026-11-12 14:55,fut,mouz,1,Cache,19,16,t,1,2,2400202
+BLAST/Rivals/2026/Fall,S,2026-11-12 14:55,fut,mouz,2,Mirage,14,16,ct,2,1,2400202
+BLAST/Rivals/2026/Fall,S,2026-11-12 14:55,fut,mouz,3,Nuke,4,13,ct,2,0,2400202
 CCT/2026/Europe/Series 14,B,2026-11-10 10:00,baks,azuolas,1,Inferno,13,2,ct,1,0,2400233
 CCT/2026/Europe/Series 14,B,2026-11-10 10:00,baks,azuolas,2,Ancient,13,0,t,1,0,2400233
 CCT/2026/Europe/Series 14,B,2026-11-10 13:00,ex-z10,illyrians,1,Inferno,13,2,t,1,0,2400234
@@ -62946,6 +62954,7 @@ CCT/2026/Europe/Series 14,B,2026-11-11 16:00,forze reload,masonic,2,Nuke,13,4,ct
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,1,Inferno,10,13,ct,2,0,2400240
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,2,Ancient,13,11,t,1,0,2400240
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,3,Nuke,13,11,t,1,0,2400240
+CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,1,Cache,16,12,ct,1,1,2400241
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,1,Mirage,6,13,t,2,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,2,Ancient,13,9,t,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,3,Anubis,13,6,t,1,0,
