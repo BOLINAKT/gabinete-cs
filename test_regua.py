@@ -38,8 +38,8 @@ class TestRegua(unittest.TestCase):
             p.write_text("\n".join(json.dumps(r) for r in regs), encoding="utf-8")
             casas = rg.ultima_das_casas(p)
         self.assertEqual(len(casas), 1)
-        # A (casa do placar) e o time2 da casa: odd 1,50. Pinnacle 70% -> valor +5%; modelo 60% -> sem valor
-        r = rg.casas_dele([_l(0.60, 0.70, 1)], casas)
+        # A (casa do placar) e o time2 da casa: odd 1,50. Pinnacle 70% -> valor +5%; modelo 62% -> sem valor nos dois lados
+        r = rg.casas_dele([_l(0.62, 0.70, 1)], casas)
         self.assertEqual(r["series_com_odd_das_casas"], 1)
         self.assertEqual(r["valor_contra_pinnacle"], {"n": 1, "lucro": 0.5, "roi": 0.5})
         self.assertEqual(r["valor_contra_modelo"]["n"], 0)

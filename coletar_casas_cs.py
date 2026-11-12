@@ -181,8 +181,14 @@ def main() -> int:
     try:
         fx = chamar("fixtures", chave, sportId=SPORT_ID, hasOdds="true",
                     **{"from": hoje.isoformat(), "to": (hoje + timedelta(days=3)).isoformat()})
-        time.sleep(1.0)
-        bruto = chamar("markets", chave, sportId=SPORT_ID)
+        # o catalogo e um extra: se a API barrar SO ele, a corrida segue com o vencedor, como antes
+        time.sleep(1.5)
+        try:
+            bruto = chamar("markets", chave, sportId=SPORT_ID)
+        except (urllib.error.URLError, OSError) as e:
+            print(f"[casas cs2] catalogo de mercados indisponivel ({getattr(e, 'code', type(e).__name__)}): sem linhas nesta corrida")
+            bruto = []
+            time.sleep(5.0)
         catalogo = catalogo_de_linhas(bruto)
         jogos, odds_brutas = [], []
         for f in (fx if isinstance(fx, list) else [])[:MAX_JOGOS]:
@@ -200,8 +206,9 @@ def main() -> int:
         print(f"[casas cs2] rede: {type(e).__name__}")
         return RC_BLOQUEIO
     try:
-        CATALOGO.write_text(json.dumps({"lido_em": agora, "mercados": resumo_do_catalogo(bruto, odds_brutas)},
-                                       ensure_ascii=False, indent=1), encoding="utf-8")
+        if bruto:
+            CATALOGO.write_text(json.dumps({"lido_em": agora, "mercados": resumo_do_catalogo(bruto, odds_brutas)},
+                                           ensure_ascii=False, indent=1), encoding="utf-8")
     except (OSError, TypeError, ValueError) as e:
         print(f"[casas cs2] resumo do catalogo falhou: {type(e).__name__}")
     anterior, ant_linhas = {}, {}
