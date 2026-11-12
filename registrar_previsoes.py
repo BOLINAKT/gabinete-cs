@@ -35,6 +35,20 @@ def linhas_da_leitura(jogos: list, lido_em: str) -> list:
                          "p_modelo_casa": round(a["p_modelo"], 4),
                          "p_pinnacle_casa": None if a["p_pinnacle"] is None else round(a["p_pinnacle"], 4),
                          "odd_casa": a["odd_pinnacle"], "odd_fora": b["odd_pinnacle"]})
+        # handicap/total de mapas (Fase 2, 12/11/2026): gravados a parte ("tipo": "serie_extra") para
+        # medir depois; o placar de vencedor (placar_pinnacle) ignora estas linhas
+        for m in j.get("mercados_serie") or []:
+            a, b = m["lados"]
+            if a["odd_pinnacle"] is None and b["odd_pinnacle"] is None:
+                continue
+            fora.append({"lido_em": lido_em, "jogo": j["id"], "inicio_utc": j["inicio_utc"], "bo": j["bo"],
+                         "liga": j["liga"], "casa": j["casa"], "fora": j["fora"],
+                         "time_casa": j["casou"][0][0], "time_fora": j["casou"][1][0],
+                         "tipo": "serie_extra", "mercado": f"{m['mercado']}: {a['rotulo']}", "periodo": 0,
+                         "rotulo_a": a["rotulo"], "rotulo_b": b["rotulo"],
+                         "p_modelo_a": round(a["p_modelo"], 4),
+                         "p_pinnacle_a": None if a["p_pinnacle"] is None else round(a["p_pinnacle"], 4),
+                         "odd_a": a["odd_pinnacle"], "odd_b": b["odd_pinnacle"]})
     return fora
 
 

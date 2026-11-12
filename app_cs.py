@@ -288,6 +288,8 @@ def main() -> None:
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+            if j.get("mercados_serie"):
+                components.html(tl.pagina(tl.html_serie(j)), height=tl.altura_serie(j), scrolling=False)
             _bloco_polymarket(j)
             _bloco_outras_casas(est, j)
             _bloco_rounds(j, odds)

@@ -27,6 +27,8 @@ def fechamento(regs: list) -> list:
     """Pura: por (jogo, mercado), a ultima previsao lida ANTES do inicio."""
     ult = {}
     for r in regs:
+        if r.get("tipo") == "serie_extra":      # handicap/total de mapas: medidos a parte
+            continue
         if not r.get("inicio_utc") or r["lido_em"] >= r["inicio_utc"].replace("Z", "+00:00"):
             continue
         k = (r["jogo"], r["mercado"])

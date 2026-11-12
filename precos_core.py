@@ -19,6 +19,7 @@ import pandas as pd
 
 import base_elo as be
 import calibra_movel as cm
+import serie_cs as sc
 import calibra_serie as cal
 import elo_jogador as ej
 import troca_elenco as te
@@ -51,6 +52,11 @@ class Estado:
         self.r, self.pr = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL, estado=True)
         _, series = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL)
         self.c_serie = cm.c_serie_atual(series, self.d.dt.max() + pd.Timedelta(days=1))
+        # a forma do dia (Fase 2, 12/11/2026): kappa movel, ver serie_cs.py
+        try:
+            self.kappa_serie = sc.kappa_atual(series, self.d.dt.max() + pd.Timedelta(days=1), self.c_serie)
+        except Exception:
+            self.kappa_serie = None
         self.ult = {}
         for x in self.d.itertuples(index=False):
             self.ult[x.time1] = x.dt
@@ -362,6 +368,9 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                                   "p_pinnacle": pp[chave][0] if pp else None, "odd_pinnacle": odd,
                                   "vantagem": (pmod * odd - 1) * 100 if odd else None})
                 jogo["mercados"].append({"mercado": nome, "periodo": per, "lados": lados})
+            # handicap/total de mapas e placar exato, coerentes com a serie (Fase 2, 12/11/2026)
+            jogo["mercados_serie"] = sc.mercados_da_serie(ps, jogo["bo"], getattr(est, "kappa_serie", None),
+                                                          odds["linhas"], j["id"], j["casa"], j["fora"])
         fora.append(jogo)
     return fora
 

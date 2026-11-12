@@ -172,6 +172,42 @@ def html_jogo(j) -> str:
     return html
 
 
+def html_serie(j) -> str:
+    """Handicap de mapas, total de mapas e placar exato: Modelo | Pinnacle, coerentes com a serie."""
+    ms = j.get("mercados_serie") or []
+    if not ms:
+        return ""
+    mod, pin = [], []
+    for m in ms:
+        mod.append('<div class="row"><div class="merc">{}</div>{}</div>'.format(escape(m["mercado"]), "".join(
+            '<div><span class="pct">{}</span> <span class="odd">{}</span><span class="pct">{}</span></div>'.format(
+                escape(l["rotulo"]), _odd(l["odd_modelo"]), _pct(l["p_modelo"])) for l in m["lados"])))
+        cel = []
+        for l in m["lados"]:
+            if l["odd_pinnacle"] is None:
+                cel.append('<div><span class="nada">sem linha</span></div>')
+                continue
+            v = l["vantagem"]
+            cel.append('<div class="{}"><span class="odd">{}</span><span class="v {}">{}</span></div>'.format(
+                "verde" if v > 0 else "", _odd(l["odd_pinnacle"]), "b" if v > 0 else "r",
+                f"{v:+.1f}%".replace(".", ",")))
+        pin.append('<div class="row"><div class="merc">{}</div>{}</div>'.format(escape(m["mercado"]), "".join(cel)))
+
+    def coluna(classe, nome, linhas):
+        return '<div class="coluna {}"><div class="nome-col">{}</div><div class="secao">{}</div></div>'.format(
+            classe, nome, "".join(linhas))
+    return ('<div class="colunas">' + coluna("c-mod", "Série — odd justa do modelo", mod)
+            + coluna("c-pin", "Pinnacle — odd paga", pin) + "</div>"
+            '<div class="nota">Tudo sai da mesma chance da série acima, com a forma do dia: os mapas de uma série '
+            'andam juntos (quem está bem no dia tende a varrer), então o −1,5 do favorito vale mais que '
+            'mapa × mapa.</div>')
+
+
+def altura_serie(j) -> int:
+    n = len(j.get("mercados_serie") or [])
+    return (40 + 46 * n + 60) if n else 0
+
+
 def html_fichas(j) -> str:
     out = []
     for f, nome in zip(j["fichas"], (j["casa"], j["fora"])):
