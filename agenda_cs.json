@@ -1,15 +1,6 @@
 {
- "lido_em": "2026-11-13T02:09:13Z",
+ "lido_em": "2026-11-13T11:32:18Z",
  "jogos": [
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-13T08:00:00Z",
-   "time1": "vit",
-   "time2": "mouz",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
@@ -20,9 +11,18 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T09:00:00Z",
+   "time1": "metizport",
+   "time2": "nexus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
-   "inicio_utc": "2026-11-13T10:30:00Z",
+   "inicio_utc": "2026-11-13T10:55:00Z",
    "time1": "g2",
    "time2": "falcons",
    "bo": 3,
@@ -34,6 +34,15 @@
    "inicio_utc": "2026-11-13T12:00:00Z",
    "time1": "ex-z10",
    "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T12:00:00Z",
+   "time1": "private",
+   "time2": "butterfly",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -74,6 +83,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T15:00:00Z",
+   "time1": "apogee",
+   "time2": "leo team",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-13T16:00:00Z",
@@ -101,6 +119,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T18:00:00Z",
+   "time1": "omega",
+   "time2": "ic academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Series 8",
    "tier": "B",
    "inicio_utc": "2026-11-13T19:00:00Z",
@@ -124,6 +151,51 @@
    "inicio_utc": "2026-11-13T22:00:00Z",
    "time1": "barca esports",
    "time2": "borracheiros",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "BLAST/Rivals/2026/Fall",
+   "tier": "S",
+   "inicio_utc": "2026-11-14T08:00:00Z",
+   "time1": "spirit",
+   "time2": "mouz",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T09:00:00Z",
+   "time1": "infinite",
+   "time2": "team aces",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T12:00:00Z",
+   "time1": "vp",
+   "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T15:00:00Z",
+   "time1": "iberian soul",
+   "time2": "forze reload",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T18:00:00Z",
+   "time1": "ww team",
+   "time2": "ex-z10",
    "bo": 3,
    "mapas_jogados": 0
   },
