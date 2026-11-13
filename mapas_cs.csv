@@ -62976,6 +62976,9 @@ BLAST/Rivals/2026/Fall,S,2026-11-12 14:55,fut,mouz,3,Nuke,4,13,ct,2,0,2400202
 BLAST/Rivals/2026/Fall,S,2026-11-12 18:40,spirit,g2,1,Mirage,9,13,ct,2,0,2400203
 BLAST/Rivals/2026/Fall,S,2026-11-12 18:40,spirit,g2,2,Nuke,13,6,t,1,0,2400203
 BLAST/Rivals/2026/Fall,S,2026-11-12 18:40,spirit,g2,3,Ancient,13,5,ct,1,0,2400203
+BLAST/Rivals/2026/Fall,S,2026-11-13 18:55,g2,falcons,1,Dust II,13,11,ct,1,0,2400205
+BLAST/Rivals/2026/Fall,S,2026-11-13 18:55,g2,falcons,2,Mirage,2,13,t,2,0,2400205
+BLAST/Rivals/2026/Fall,S,2026-11-13 18:55,g2,falcons,3,Anubis,8,13,t,2,0,2400205
 BLAST/Rivals/2026/Fall,S,2026-11-13 16:00,vit,mouz,1,Mirage,8,13,ct,2,0,2400204
 BLAST/Rivals/2026/Fall,S,2026-11-13 16:00,vit,mouz,2,Cache,14,16,t,2,1,2400204
 CCT/2026/Europe/Series 14,B,2026-11-10 10:00,baks,azuolas,1,Inferno,13,2,ct,1,0,2400233
@@ -62992,6 +62995,10 @@ CCT/2026/Europe/Series 14,B,2026-11-11 16:00,forze reload,masonic,2,Nuke,13,4,ct
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,1,Inferno,10,13,ct,2,0,2400240
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,2,Ancient,13,11,t,1,0,2400240
 CCT/2026/Europe/Series 14,B,2026-11-11 19:00,walczaki,tlr,3,Nuke,13,11,t,1,0,2400240
+CCT/2026/Europe/Series 14,B,2026-11-13 10:00,butterfly,leo team,1,Nuke,13,10,ct,1,0,2400245
+CCT/2026/Europe/Series 14,B,2026-11-13 10:00,butterfly,leo team,2,Dust II,16,13,t,1,1,2400245
+CCT/2026/Europe/Series 14,B,2026-11-13 13:00,ex-z10,baks,1,Mirage,17,19,ct,2,2,2400246
+CCT/2026/Europe/Series 14,B,2026-11-13 13:00,ex-z10,baks,2,Inferno,13,11,t,1,0,2400246
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,1,Cache,16,12,ct,1,1,2400241
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,2,Ancient,7,13,t,2,0,2400241
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,3,Nuke,13,5,ct,1,0,2400241
@@ -63557,6 +63564,12 @@ CCT/2026/Europe/Series 13,B,2026-11-12 13:00,genone,leo team,2,Anubis,16,13,t,1,
 CCT/2026/Europe/Series 13,B,2026-11-12 13:00,genone,leo team,3,Cache,3,13,ct,2,0,2400150
 CCT/2026/Europe/Series 13,B,2026-11-12 16:30,baks,tlr,1,Inferno,13,2,ct,1,0,2400151
 CCT/2026/Europe/Series 13,B,2026-11-12 16:30,baks,tlr,2,Cache,13,7,t,1,0,2400151
+CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,1,Ancient,13,7,t,1,0,2400154
+CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,2,Nuke,7,13,ct,2,0,2400154
+CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,3,Dust II,13,9,ct,1,0,2400154
+CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,1,Anubis,7,13,t,2,0,2400153
+CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,2,Inferno,16,13,t,1,1,2400153
+CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,3,Ancient,13,5,ct,1,0,2400153
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,1,Ancient,13,7,ct,1,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,2,Cache,6,13,t,2,0,2400012
 CCT/2026/Europe/Series 13/Play-In,C,2026-10-29 10:00,leo team,maybe.ua,3,Inferno,34,31,ct,1,7,2400012
@@ -63743,6 +63756,8 @@ CCT/2026/South America/Series 8,B,2026-11-11 16:15,red canids academy,gremio,1,N
 CCT/2026/South America/Series 8,B,2026-11-11 16:15,red canids academy,gremio,2,Mirage,13,4,t,1,0,2400103
 CCT/2026/South America/Series 8,B,2026-11-12 19:30,axorfy,meia noite,1,Ancient,13,8,t,1,0,2400105
 CCT/2026/South America/Series 8,B,2026-11-12 19:30,axorfy,meia noite,2,Nuke,13,7,ct,1,0,2400105
+CCT/2026/South America/Series 8,B,2026-11-13 10:00,turma do pagode,rush gaming,1,Nuke,13,6,t,1,0,2400109
+CCT/2026/South America/Series 8,B,2026-11-13 10:00,turma do pagode,rush gaming,2,Dust II,11,13,ct,2,0,2400109
 CCT/2026/South America/Series 8,B,2026-11-12 13:00,ex-yawara e-sports,isurus,1,Dust II,13,11,t,1,0,2400106
 CCT/2026/South America/Series 8,B,2026-11-12 13:00,ex-yawara e-sports,isurus,2,Nuke,5,13,ct,2,0,2400106
 CCT/2026/South America/Series 8,B,2026-11-12 13:00,ex-yawara e-sports,isurus,3,Mirage,13,10,t,1,0,2400106
