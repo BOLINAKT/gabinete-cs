@@ -1,24 +1,6 @@
 {
- "lido_em": "2026-11-12T20:24:01Z",
+ "lido_em": "2026-11-13T02:09:13Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T19:00:00Z",
-   "time1": "procyon",
-   "time2": "tao toma",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-12T22:00:00Z",
-   "time1": "axorfy",
-   "time2": "meia noite",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
@@ -61,6 +43,24 @@
    "inicio_utc": "2026-11-13T13:00:00Z",
    "time1": "turma do pagode",
    "time2": "rush gaming",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier/Open/2",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T15:00:00Z",
+   "time1": "wopa",
+   "time2": "bbl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier/Open/2",
+   "tier": "B",
+   "inicio_utc": "2026-11-13T15:00:00Z",
+   "time1": "luntiki",
+   "time2": "33",
    "bo": 3,
    "mapas_jogados": 0
   },
