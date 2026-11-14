@@ -1,69 +1,6 @@
 {
- "lido_em": "2026-11-14T18:31:17Z",
+ "lido_em": "2026-11-14T22:46:29Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T15:00:00Z",
-   "time1": "ex-rustec",
-   "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T15:00:00Z",
-   "time1": "iberian soul",
-   "time2": "forze reload",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T16:00:00Z",
-   "time1": "tao toma",
-   "time2": "barca esports",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Cupen/2026/Qualifier",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T16:30:00Z",
-   "time1": "lilmix",
-   "time2": "brandbergen shooters",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T18:00:00Z",
-   "time1": "baks",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T18:00:00Z",
-   "time1": "ww team",
-   "time2": "hype tech",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T19:00:00Z",
-   "time1": "quintessencia",
-   "time2": "ex-yawara e-sports",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/South America/Challengers 4",
    "tier": "C",
@@ -137,6 +74,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T09:00:00Z",
+   "time1": "vp",
+   "time2": "hype tech",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
    "tier": "B",
    "inicio_utc": "2026-11-15T12:00:00Z",
@@ -164,6 +110,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T12:00:00Z",
+   "time1": "omega",
+   "time2": "iberian soul",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Svenska Cupen/2026/Qualifier",
    "tier": "C",
    "inicio_utc": "2026-11-15T14:00:00Z",
@@ -182,11 +137,38 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T15:00:00Z",
+   "time1": "team aces",
+   "time2": "metizport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-15T16:30:00Z",
+   "time1": "lilmix",
+   "time2": "talent factory",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
    "inicio_utc": "2026-11-15T18:00:00Z",
    "time1": "butterfly",
    "time2": "hype tech",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T18:00:00Z",
+   "time1": "apogee",
+   "time2": "private",
    "bo": 3,
    "mapas_jogados": 0
   },

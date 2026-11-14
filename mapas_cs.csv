@@ -63019,6 +63019,11 @@ CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,2,Ancient,7,13,t,2,0,24
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,3,Nuke,13,5,ct,1,0,2400241
 CCT/2026/Europe/Series 14,B,2026-11-12 16:00,azuolas,illyrians,1,Mirage,2,13,t,2,0,2400243
 CCT/2026/Europe/Series 14,B,2026-11-12 16:00,azuolas,illyrians,2,Cache,1,13,ct,2,0,2400243
+CCT/2026/Europe/Series 14,B,2026-11-14 16:00,ex-rustec,honved,1,Nuke,13,7,t,1,0,2400251
+CCT/2026/Europe/Series 14,B,2026-11-14 16:00,ex-rustec,honved,2,Mirage,16,14,ct,1,1,2400251
+CCT/2026/Europe/Series 14,B,2026-11-14 19:00,baks,illyrians,1,Ancient,10,13,t,2,0,2400252
+CCT/2026/Europe/Series 14,B,2026-11-14 19:00,baks,illyrians,2,Dust II,13,9,ct,1,0,2400252
+CCT/2026/Europe/Series 14,B,2026-11-14 19:00,baks,illyrians,3,Mirage,10,13,t,2,0,2400252
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,1,Mirage,6,13,t,2,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,2,Ancient,13,9,t,1,0,
 Esports Nations Cup/2026/Eastern Europe,B,2026-07-17 17:00,kosovo,croatia,3,Anubis,13,6,t,1,0,
@@ -63495,6 +63500,7 @@ Svenska Cupen/2026/Qualifier,C,2026-11-14 15:00,converge (swedish team),talent f
 Svenska Cupen/2026/Qualifier,C,2026-11-14 15:00,converge (swedish team),talent factory,2,Anubis,11,13,ct,2,0,2400431
 Svenska Cupen/2026/Qualifier,C,2026-11-14 15:00,converge (swedish team),talent factory,3,Nuke,9,13,t,2,0,2400431
 Svenska Cupen/2026/Qualifier,C,2026-11-14 17:30,lilmix,brandbergen shooters,1,Mirage,7,13,ct,2,0,2400432
+Svenska Cupen/2026/Qualifier,C,2026-11-14 17:30,lilmix,brandbergen shooters,2,Ancient,2,13,t,2,0,2400432
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 17:35,fake nätverket kinda,brandbergen shooters,1,Cache,6,13,t,2,0,
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 17:45,lazer kittens,bakisochskakis,1,Cache,13,10,t,1,0,
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 18:45,brandbergen shooters,lazer kittens,1,Mirage,13,5,ct,1,0,
@@ -63595,8 +63601,13 @@ CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,3,Dust II,13,9,ct
 CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,1,Mirage,13,16,t,2,1,2400156
 CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,2,Ancient,13,3,t,1,0,2400156
 CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,3,Cache,13,11,t,1,0,2400156
+CCT/2026/Europe/Series 13,B,2026-11-14 16:00,iberian soul,forze reload,1,Cache,13,8,ct,1,0,2400159
+CCT/2026/Europe/Series 13,B,2026-11-14 16:00,iberian soul,forze reload,2,Nuke,10,13,t,2,0,2400159
+CCT/2026/Europe/Series 13,B,2026-11-14 16:00,iberian soul,forze reload,3,Ancient,13,7,ct,1,0,2400159
 CCT/2026/Europe/Series 13,B,2026-11-14 13:00,vp,baks,1,Cache,13,9,ct,1,0,2400158
 CCT/2026/Europe/Series 13,B,2026-11-14 13:00,vp,baks,2,Dust II,13,8,t,1,0,2400158
+CCT/2026/Europe/Series 13,B,2026-11-14 19:30,ww team,hype tech,1,Mirage,10,13,t,2,0,2400160
+CCT/2026/Europe/Series 13,B,2026-11-14 19:30,ww team,hype tech,2,Anubis,10,13,ct,2,0,2400160
 CCT/2026/Europe/Series 13,B,2026-11-14 10:00,infinite,team aces,1,Cache,11,13,t,2,0,2400157
 CCT/2026/Europe/Series 13,B,2026-11-14 10:00,infinite,team aces,2,Dust II,9,13,ct,2,0,2400157
 CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,1,Anubis,7,13,t,2,0,2400153
@@ -63804,6 +63815,11 @@ CCT/2026/South America/Series 8,B,2026-11-13 19:00,barca esports,borracheiros,1,
 CCT/2026/South America/Series 8,B,2026-11-13 19:00,barca esports,borracheiros,2,Mirage,13,8,ct,1,0,2400112
 CCT/2026/South America/Series 8,B,2026-11-14 10:00,axorfy,turma do pagode,1,Dust II,13,4,t,1,0,2400113
 CCT/2026/South America/Series 8,B,2026-11-14 10:00,axorfy,turma do pagode,2,Anubis,7,13,t,2,0,2400113
+CCT/2026/South America/Series 8,B,2026-11-14 10:00,axorfy,turma do pagode,3,Nuke,13,10,t,1,0,2400113
+CCT/2026/South America/Series 8,B,2026-11-14 16:00,quintessencia,ex-yawara e-sports,1,Mirage,11,13,ct,2,0,2400115
+CCT/2026/South America/Series 8,B,2026-11-14 16:00,quintessencia,ex-yawara e-sports,2,Cache,10,13,t,2,0,2400115
+CCT/2026/South America/Series 8,B,2026-11-14 13:00,tao toma,barca esports,1,Mirage,7,13,t,2,0,2400114
+CCT/2026/South America/Series 8,B,2026-11-14 13:00,tao toma,barca esports,2,Cache,9,13,ct,2,0,2400114
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
