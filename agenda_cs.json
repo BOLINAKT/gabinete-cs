@@ -1,69 +1,6 @@
 {
- "lido_em": "2026-11-14T10:56:08Z",
+ "lido_em": "2026-11-14T18:31:17Z",
  "jogos": [
-  {
-   "pagina": "EXTREMESLAND/2026/China",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T07:30:00Z",
-   "time1": "pressure monsters",
-   "time2": "岁半家族",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T09:00:00Z",
-   "time1": "infinite",
-   "time2": "team aces",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "EXTREMESLAND/2026/China",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T10:00:00Z",
-   "time1": "vitalem aerem",
-   "time2": "nora gaming",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-14T10:35:00Z",
-   "time1": "furia",
-   "time2": "falcons",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T12:00:00Z",
-   "time1": "vp",
-   "time2": "baks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "EXTREMESLAND/2026/China",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T12:30:00Z",
-   "time1": "lastdancegaming",
-   "time2": "chaos gaming",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T13:00:00Z",
-   "time1": "axorfy",
-   "time2": "turma do pagode",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
@@ -90,6 +27,15 @@
    "time2": "barca esports",
    "bo": 3,
    "mapas_jogados": 0
+  },
+  {
+   "pagina": "Svenska Cupen/2026/Qualifier",
+   "tier": "C",
+   "inicio_utc": "2026-11-14T16:30:00Z",
+   "time1": "lilmix",
+   "time2": "brandbergen shooters",
+   "bo": 3,
+   "mapas_jogados": 1
   },
   {
    "pagina": "CCT/2026/Europe/Series 14",
@@ -155,11 +101,56 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "BLAST/Rivals/2026/Fall",
+   "tier": "S",
+   "inicio_utc": "2026-11-15T08:00:00Z",
+   "time1": "furia",
+   "time2": "spirit",
+   "bo": 5,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T09:00:00Z",
+   "time1": "faze",
+   "time2": "fnc",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T09:00:00Z",
+   "time1": "magic",
+   "time2": "heroic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 14",
    "tier": "B",
    "inicio_utc": "2026-11-15T09:00:00Z",
    "time1": "walczaki",
    "time2": "mnxt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T12:00:00Z",
+   "time1": "pvision",
+   "time2": "33",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T12:00:00Z",
+   "time1": "100t",
+   "time2": "ef",
    "bo": 3,
    "mapas_jogados": 0
   },
