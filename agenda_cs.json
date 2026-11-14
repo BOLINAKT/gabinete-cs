@@ -1,30 +1,12 @@
 {
- "lido_em": "2026-11-14T01:45:09Z",
+ "lido_em": "2026-11-14T10:56:08Z",
  "jogos": [
-  {
-   "pagina": "EXTREMESLAND/2026/China",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T05:00:00Z",
-   "time1": "147",
-   "time2": "flash_1nstant",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "EXTREMESLAND/2026/China",
    "tier": "C",
    "inicio_utc": "2026-11-14T07:30:00Z",
    "time1": "pressure monsters",
    "time2": "岁半家族",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "BLAST/Rivals/2026/Fall",
-   "tier": "S",
-   "inicio_utc": "2026-11-14T08:00:00Z",
-   "time1": "spirit",
-   "time2": "mouz",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -49,7 +31,7 @@
   {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
-   "inicio_utc": "2026-11-14T10:30:00Z",
+   "inicio_utc": "2026-11-14T10:35:00Z",
    "time1": "furia",
    "time2": "falcons",
    "bo": 3,
@@ -74,6 +56,24 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T13:00:00Z",
+   "time1": "axorfy",
+   "time2": "turma do pagode",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T15:00:00Z",
+   "time1": "ex-rustec",
+   "time2": "honved",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 13",
    "tier": "B",
    "inicio_utc": "2026-11-14T15:00:00Z",
@@ -83,11 +83,38 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T16:00:00Z",
+   "time1": "tao toma",
+   "time2": "barca esports",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T18:00:00Z",
+   "time1": "baks",
+   "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 13",
    "tier": "B",
    "inicio_utc": "2026-11-14T18:00:00Z",
    "time1": "ww team",
-   "time2": "ex-z10",
+   "time2": "hype tech",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T19:00:00Z",
+   "time1": "quintessencia",
+   "time2": "ex-yawara e-sports",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -97,6 +124,15 @@
    "inicio_utc": "2026-11-14T21:00:00Z",
    "time1": "pain.a",
    "time2": "underworld",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-14T22:00:00Z",
+   "time1": "galorys",
+   "time2": "low cortisol",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -119,11 +155,47 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T09:00:00Z",
+   "time1": "walczaki",
+   "time2": "mnxt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T12:00:00Z",
+   "time1": "leo team",
+   "time2": "tlr",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Svenska Cupen/2026/Qualifier",
    "tier": "C",
    "inicio_utc": "2026-11-15T14:00:00Z",
    "time1": "coinstep",
    "time2": "xept",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T15:00:00Z",
+   "time1": "forze reload",
+   "time2": "nexus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T18:00:00Z",
+   "time1": "butterfly",
+   "time2": "hype tech",
    "bo": 3,
    "mapas_jogados": 0
   },
