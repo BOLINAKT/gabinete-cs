@@ -62961,6 +62961,8 @@ PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 16:00,luntiki,33,1,Nuke,10,13
 PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 16:00,luntiki,33,2,Ancient,13,11,t,1,0,2400516
 PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 16:00,luntiki,33,3,Dust II,13,16,ct,2,1,2400516
 PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 19:45,wopa,33,1,Nuke,5,13,ct,2,0,2400517
+PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 19:45,wopa,33,2,Anubis,16,14,t,1,1,2400517
+PGL/2027/Cluj-Napoca/Qualifier/Open/2,B,2026-11-13 19:45,wopa,33,3,Inferno,15,19,ct,2,2,2400517
 BLAST/Rivals/2026/Fall,S,2026-11-11 10:00,legacy,furia,1,Inferno,10,13,ct,2,0,2399851
 BLAST/Rivals/2026/Fall,S,2026-11-11 10:00,legacy,furia,2,Mirage,7,13,t,2,0,2399851
 BLAST/Rivals/2026/Fall,S,2026-11-11 12:15,vit,falcons,1,Anubis,13,10,ct,1,0,2399852
@@ -63007,6 +63009,7 @@ CCT/2026/Europe/Series 14,B,2026-11-13 13:00,ex-z10,baks,1,Mirage,17,19,ct,2,2,2
 CCT/2026/Europe/Series 14,B,2026-11-13 13:00,ex-z10,baks,2,Inferno,13,11,t,1,0,2400246
 CCT/2026/Europe/Series 14,B,2026-11-13 13:00,ex-z10,baks,3,Cache,19,16,ct,1,2,2400246
 CCT/2026/Europe/Series 14,B,2026-11-13 19:00,ex-rustec,nexus,1,Dust II,7,13,t,2,0,2400248
+CCT/2026/Europe/Series 14,B,2026-11-13 19:00,ex-rustec,nexus,2,Ancient,6,13,ct,2,0,2400248
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,1,Cache,16,12,ct,1,1,2400241
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,2,Ancient,7,13,t,2,0,2400241
 CCT/2026/Europe/Series 14,B,2026-11-12 10:00,tlr,masonic,3,Nuke,13,5,ct,1,0,2400241
@@ -63482,6 +63485,8 @@ Svenska Cupen/2026/Qualifier,C,2026-11-07 17:30,kappa bar,coinstep,2,Ancient,10,
 Svenska Cupen/2026/Qualifier,C,2026-11-07 17:30,kappa bar,coinstep,3,Mirage,13,10,t,1,0,2400429
 Svenska Cupen/2026/Qualifier,C,2026-11-13 18:00,lilmix,converge (swedish team),1,Cache,16,13,ct,1,1,2400426
 Svenska Cupen/2026/Qualifier,C,2026-11-13 18:00,lilmix,converge (swedish team),2,Dust II,13,11,t,1,0,2400426
+Svenska Cupen/2026/Qualifier,C,2026-11-13 20:45,brandbergen shooters,talent factory,1,Ancient,13,2,ct,1,0,2400427
+Svenska Cupen/2026/Qualifier,C,2026-11-13 20:45,brandbergen shooters,talent factory,2,Nuke,13,7,t,1,0,2400427
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 17:35,fake nätverket kinda,brandbergen shooters,1,Cache,6,13,t,2,0,
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 17:45,lazer kittens,bakisochskakis,1,Cache,13,10,t,1,0,
 Svenska Cupen/2026/Qualifier/Open/1,C,2026-10-10 18:45,brandbergen shooters,lazer kittens,1,Mirage,13,5,ct,1,0,
@@ -63580,6 +63585,8 @@ CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,1,Ancient,13,7,t,
 CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,2,Nuke,7,13,ct,2,0,2400154
 CCT/2026/Europe/Series 13,B,2026-11-13 13:25,private,butterfly,3,Dust II,13,9,ct,1,0,2400154
 CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,1,Mirage,13,16,t,2,1,2400156
+CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,2,Ancient,13,3,t,1,0,2400156
+CCT/2026/Europe/Series 13,B,2026-11-13 19:00,omega,ic academy,3,Cache,13,11,t,1,0,2400156
 CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,1,Anubis,7,13,t,2,0,2400153
 CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,2,Inferno,16,13,t,1,1,2400153
 CCT/2026/Europe/Series 13,B,2026-11-13 10:00,metizport,nexus,3,Ancient,13,5,ct,1,0,2400153
@@ -63781,6 +63788,8 @@ CCT/2026/South America/Series 8,B,2026-11-12 13:00,ex-yawara e-sports,isurus,3,M
 CCT/2026/South America/Series 8,B,2026-11-12 16:10,procyon,tao toma,1,Mirage,5,13,ct,2,0,2400107
 CCT/2026/South America/Series 8,B,2026-11-12 16:10,procyon,tao toma,2,Inferno,13,11,t,1,0,2400107
 CCT/2026/South America/Series 8,B,2026-11-12 16:10,procyon,tao toma,3,Cache,7,13,ct,2,0,2400107
+CCT/2026/South America/Series 8,B,2026-11-13 19:00,barca esports,borracheiros,1,Nuke,13,7,ct,1,0,2400112
+CCT/2026/South America/Series 8,B,2026-11-13 19:00,barca esports,borracheiros,2,Mirage,13,8,ct,1,0,2400112
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,1,Mirage,16,13,ct,1,1,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,2,Dust II,6,13,t,2,0,2399855
 Intel Extreme Masters/2026/Beijing,S,2026-11-02 10:00,legacy,mongolz,3,Ancient,8,13,ct,2,0,2399855
