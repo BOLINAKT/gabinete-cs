@@ -834,8 +834,8 @@
 "tier": "S"
 },
 "BLAST/Premier/2026/Frequent Flyers": {
-"fim": "2026-12-31",
-"inicio": "2026-01-01",
+"fim": "2026-11-15",
+"inicio": "2026-01-22",
 "tier": "S"
 },
 "BLAST/Rising/2020": {
@@ -8422,7 +8422,7 @@
 "tier": "S"
 },
 "PGL/2027/Cluj-Napoca/Qualifier": {
-"fim": "2026-11-18",
+"fim": "2026-11-17",
 "inicio": "2026-11-15",
 "tier": "B"
 },
