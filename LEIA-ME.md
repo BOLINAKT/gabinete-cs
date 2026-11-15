@@ -396,3 +396,20 @@ e qualificatórias que a Liquipedia classifica C) continua no treino, como sempr
 4. ✔ elenco: Elo por jogador (aceito) + calibração da série (aceita)
 5. ✔ robô de odds da Pinnacle coletando de 3 em 3 h
 6. ✘ calibração simétrica; seed/ordem = próximo candidato; comparar com a Pinnacle quando houver odds
+
+## PLANO DE NOVEMBRO/2026 (pedido dele: progressão como LoL e Dota; cada fase só entra se passar no cego)
+
+| Fase | O quê | Situação (15/11/2026) |
+|---|---|---|
+| 0 | Régua fixa (`regua_cs.py`, `regua_fase0.json`) | ✔ modelo 0,682 × Pinnacle 0,655 na série (IC [−0,084; +0,028]); inclinação 0,58; peso do modelo na mistura = 0 |
+| 1 | Odds das casas dele | ◐ robô da OddsPapi guarda linhas de série/mapa, mas a **cota grátis (250 chamadas/mês) acabou** e só volta dia 1º; Polymarket (robô próprio) já entra com ±1,5, total de mapas e rounds, pela odd de compra. Falta a tela das linhas da Stake (sem dado até 01/12) |
+| 2 | Série coerente (`serie_cs.py`) | ✔ forma do dia com κ móvel (12 meses): placar exato +0,0079 IC [+0,0042; +0,0115] |
+| 3 | Justa para times com pouco dado (`pouco_dado.py`) | ✔ deixam de ser recusados: ganho sobre a moeda +0,045 a +0,056 no cego, sem encolher; treino com tier C (régua S/A/B não piora). Agenda: 12/40 → 42/50 com preço |
+| 4 | Modelo + mercado (`apostas_cs.py`) | ✔ justa = Pinnacle sem margem quando existe; senão o modelo |
+| 5 | Método dele nos rounds (`sinais_rounds.py`) | ✘ NÃO passa: 4 passos sobre a frequência −0,0000 [−0,0005; +0,0004] (19.938 mapas). Total de rounds segue "média"; handicap segue validado |
+| 6 | Telas | ✔ "Melhores apostas nas suas casas" (★ = justa < 1,72); bloco da série; rounds da Polymarket |
+| 7 | Placar contínuo (`placar_apostas.py`) | ✔ robô grava as indicações a cada leitura; ROI por fonte da justa aparece no app conforme os jogos acontecem |
+
+Achados no caminho (15/11): Polymarket parada 3 dias (API passou a exigir gzip) — corrigido; nomes que só mudam a
+caixa casavam com time morto ("HEROIC" → "Heroic" de 2023) — corrigido; grafias alternativas unidas
+(`auditar_nomes.py`); `vigia.py` diário falha em vermelho quando uma fonte fica velha.
