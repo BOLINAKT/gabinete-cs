@@ -324,6 +324,31 @@ def main() -> None:
                 for (t, como), nome in zip(j["casou"], (j["casa"], j["fora"])):
                     st.write(f"**{nome}** → {t or 'nada'} ({como})")
     with aba_melhores:
+        # 15/11/2026 (Fases 4 e 6): primeiro o que da para apostar NAS CASAS DELE
+        st.markdown("##### Nas suas casas (Polymarket e Stake)")
+        try:
+            import apostas_cs as ap
+            try:
+                _casas = json.loads(CASAS.read_text(encoding="utf-8"))
+                _h = (pd.Timestamp.utcnow().tz_localize(None) - pd.Timestamp(_casas["lido_em"]).tz_localize(None)).total_seconds() / 3600
+                _casas_jogos = _casas.get("jogos", []) if _h <= 36 else []
+            except (OSError, ValueError, KeyError):
+                _casas_jogos = []
+            _tab = tabela_rounds()
+            _c = []
+            for _j in jogos:
+                if not _j.get("precificado"):
+                    continue
+                _c += ap.candidatos(_j, pc.rounds_da_polymarket(_j, _tab),
+                                    pc.outras_casas(_j, _casas_jogos, est) if _casas_jogos else None)
+            _m = ap.melhores_nas_casas(_c)
+            components.html(tl.pagina(tl.html_melhores_casas(_m)), height=tl.altura_melhores(min(len(_m), 25)) + 40,
+                            scrolling=True)
+            if not _casas_jogos:
+                st.caption("A Stake está fora desta lista: a leitura da OddsPapi está parada (a cota grátis volta no dia 1º).")
+        except Exception as _e:
+            st.caption(f"Lista das suas casas indisponível agora ({type(_e).__name__}).")
+        st.markdown("##### Na Pinnacle (modelo × Pinnacle)")
         components.html(tl.pagina(tl.html_melhores(melhores)), height=tl.altura_melhores(len(melhores)))
     with aba_pin:
         _aba_modelo_pinnacle()

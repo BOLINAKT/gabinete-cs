@@ -271,6 +271,34 @@ def html_melhores(lista, limite=15) -> str:
             'quase sempre é dado errado (elenco novo, time trocado), não presente. Jogo já começado também.</div>')
 
 
+def html_melhores_casas(lista, limite=25) -> str:
+    """As melhores apostas NAS CASAS DELE: justa (Pinnacle sem margem, ou modelo) x odd da casa."""
+    if not lista:
+        return ('<div class="nada">Nenhuma aposta nas suas casas com valor entre 1% e 20% agora. A Polymarket '
+                'entra pela odd de compra e só quando o livro tem preço.</div>')
+    cab = ('<div class="lcab"><div>Jogo</div><div>Mercado</div><div>Aposta</div><div class="c">Casa paga</div>'
+           '<div class="c">Justa</div><div class="c">Valor</div></div>')
+    corpo = []
+    for x in lista[:limite]:
+        j = x["jogo"]
+        vm = x.get("valor_modelo")
+        modelo = "" if x["fonte"] == "modelo" else (
+            ' · modelo {}'.format(f"{vm:+.0f}%") if vm is not None else "")
+        corpo.append(
+            ('<div class="lrow"><div><b>{} × {}</b><span class="sub">{} · {}{}</span></div><div class="fraco">{}</div>'
+             '<div class="aposta">{}{}</div><div class="c"><span class="odd o-pin">{}</span><span class="sub">{}</span></div>'
+             '<div class="c"><span class="odd o-mod">{}</span><span class="sub">{}{}</span></div>'
+             '<div class="c"><span class="badge">{}</span></div></div>').format(
+                escape(j["casa"]), escape(j["fora"]), escape(j["liga"]), escape(hora_br(j["inicio_utc"])),
+                " · pouco dado" if x["pouco_dado"] else "", escape(x["mercado"]),
+                "★ " if x["destaque"] else "", escape(x["aposta"]), _odd(x["odd"]), escape(x["casa"]),
+                _odd(x["odd_justa"]), escape(x["fonte"]), escape(modelo), f"{x['valor']:+.1f}%".replace(".", ",")))
+    return ('<div class="lista">' + cab + "".join(corpo) + '</div><div class="nota"><b>Justa</b>: a Pinnacle sem margem '
+            'quando ela tem o mercado (na medição o modelo não acrescentou nada a ela); sem Pinnacle, o modelo — essas '
+            'vêm depois, porque não têm régua. <b>★</b>: justa abaixo de 1,72. <b>Casa paga</b>: na Polymarket é a odd '
+            'de compra (meio do livro + meio spread). Valor acima de 20% fica de fora: quase sempre é dado errado.</div>')
+
+
 CSS_MAPAS = """
 <style>
   .mapas { background:var(--painel); border:1px solid var(--borda); border-top:3px solid var(--modelo);
