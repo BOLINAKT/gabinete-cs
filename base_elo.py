@@ -21,6 +21,7 @@ Fonte dos dados: Liquipedia (CC-BY-SA 3.0).
 from __future__ import annotations
 
 import json
+import os
 import math
 import sys
 from collections import defaultdict
@@ -72,6 +73,14 @@ def carregar(incluir_c: bool = False) -> pd.DataFrame:
         mapa = json.loads(arq.read_text(encoding="utf-8"))
         for col in ("time1", "time2"):
             d[col] = [canonico(str(n), mapa) for n in d[col]]
+    # 15/11/2026 (regra dele: historico de time nunca partido): grafias alternativas do MESMO time
+    # ("Heroic" em alguns torneios x "HEROIC") viram o nome atual. Lista auditada: auditar_nomes.py.
+    arq_u = RAIZ / "uniao_times_cs.json"
+    if arq_u.exists() and os.environ.get("CS_SEM_UNIAO") != "1":
+        unioes = json.loads(arq_u.read_text(encoding="utf-8")).get("unioes") or {}
+        if unioes:
+            for col in ("time1", "time2"):
+                d[col] = d[col].map(lambda n: unioes.get(n, n))
     d["dt"] = pd.to_datetime(d["data"], errors="coerce")
     d = d[d["dt"].notna() & ~d["mapa"].isin(["Default", "Unknown"])].copy()
     return d.sort_values(["dt", "pagina", "mapa_n"]).reset_index(drop=True)

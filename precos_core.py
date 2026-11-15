@@ -43,8 +43,12 @@ INICIO_CS2 = pd.Timestamp("2023-09-27")
 
 
 def _n(s) -> str:
-    s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]", "", s)
+    cru = str(s)
+    s = unicodedata.normalize("NFKD", cru).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"[^a-z0-9]", "", s)
+    # 15/11/2026: nome so em chines/cirilico virava a chave VAZIA e todos esses times colidiam
+    # (e um nome qualquer sem letra latina casava com o ultimo deles). Sem ASCII: o proprio nome.
+    return s if s else "~" + re.sub(r"\s+", "", cru.lower())
 
 
 class Estado:
