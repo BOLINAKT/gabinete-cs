@@ -443,6 +443,45 @@ def rounds_do_jogo(jogo: dict, linhas: list, tabela) -> list:
     return fora
 
 
+def rounds_da_polymarket(jogo: dict, tabela) -> list:
+    """As linhas de rounds da POLYMARKET (handicap e total por mapa) no mesmo formato de
+    rounds_do_jogo, com a odd de COMPRA (15/11/2026, Fase 1/5). Livro vazio fica de fora."""
+    pm = jogo.get("poly") or {}
+    if not jogo.get("precificado") or jogo.get("p_mapa") is None or not pm.get("mercados"):
+        return []
+    dist = tabela.dist(jogo["p_mapa"])
+    inv = bool(pm.get("invertido"))
+    fora = []
+    for m in pm["mercados"]:
+        tipo = str(m.get("tipo") or "")
+        od = sc.odds_de_compra(m)
+        if not od or m.get("linha") is None or len(m.get("lados") or []) != 2:
+            continue
+        try:
+            mapa = int(tipo.rsplit("_", 1)[1])
+        except (IndexError, ValueError):
+            continue
+        if tipo.startswith("round_handicap_game_"):
+            primeiro_e_casa = (str(m["lados"][0]) == str(pm.get("time_a"))) != inv
+            h_casa = float(m["linha"]) if primeiro_e_casa else -float(m["linha"])
+            pares = (("spread", "home", h_casa, od[0] if primeiro_e_casa else od[1]),
+                     ("spread", "away", -h_casa, od[1] if primeiro_e_casa else od[0]))
+        elif tipo.startswith("round_over_under_game_"):
+            over_primeiro = str(m["lados"][0]).lower() == "over"
+            pares = (("total", "over", float(m["linha"]), od[0] if over_primeiro else od[1]),
+                     ("total", "under", float(m["linha"]), od[1] if over_primeiro else od[0]))
+        else:
+            continue
+        for tp, lado, pontos, odd in pares:
+            p = p_linha_rounds(dist, tp, lado, pontos, None)
+            if p is None:
+                continue
+            fora.append({"mapa": mapa, "tipo": tp, "time": None, "lado": lado, "pontos": pontos,
+                         "alternativa": False, "odd": odd, "p_pinnacle": None, "p_modelo": p,
+                         "vantagem": (p * odd - 1) * 100, "validado": tp == "spread", "casa": "Polymarket"})
+    return fora
+
+
 def melhores(jogos, minimo=1.0, maximo=20.0) -> list:
     """Cada lado com vantagem entre minimo e maximo %, maior primeiro. Acima do
     maximo e quase sempre dado errado (time trocado, elenco novo), nao presente."""

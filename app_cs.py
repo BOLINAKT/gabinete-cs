@@ -183,6 +183,16 @@ def _bloco_outras_casas(est, j) -> None:
 
 
 def _bloco_rounds(j, odds) -> None:
+    # 15/11/2026: os rounds da Polymarket (handicap -3,5 e total 21,5 por mapa), pela odd de compra
+    try:
+        lp = pc.rounds_da_polymarket(j, tabela_rounds())
+    except Exception:
+        lp = []
+    if lp:
+        st.markdown("##### Rounds por mapa — Polymarket")
+        components.html(tl.pagina(tl.html_rounds(j, lp, "Polymarket")), height=tl.altura_rounds(lp) + 10, scrolling=False)
+        st.caption("Odd de compra na Polymarket (meio do livro + meio spread); mercados com o livro vazio não aparecem. "
+                   "Verde só no handicap, que é o que o modelo prevê; o total de rounds fica marcado \"média\".")
     linhas = pc.rounds_do_jogo(j, odds["linhas"], tabela_rounds())
     if not linhas:
         return

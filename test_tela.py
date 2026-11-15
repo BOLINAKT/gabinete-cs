@@ -183,6 +183,26 @@ class TestMontarJogos(unittest.TestCase):
         self.assertIsNone(pc.casar_estrito(E(), "Lumi"))          # curto demais
 
 
+class TestRoundsDaPolymarket(unittest.TestCase):
+    def test_handicap_e_total_na_orientacao_do_jogo(self):
+        import rondas as rd
+        j = {"precificado": True, "p_mapa": 0.6, "poly": {"time_a": "B", "time_b": "A", "invertido": True, "mercados": [
+            {"tipo": "round_handicap_game_1", "linha": -3.5, "lados": ["A", "B"], "p1": 0.40, "spread": 0.04},
+            {"tipo": "round_over_under_game_2", "linha": 21.5, "lados": ["Over", "Under"], "p1": 0.45, "spread": 0.06},
+            {"tipo": "round_handicap_game_3", "linha": -3.5, "lados": ["A", "B"], "p1": 0.5, "spread": 0.9},
+            {"tipo": "child_moneyline", "linha": None, "lados": ["A", "B"], "p1": 0.5, "spread": 0.02}]}}
+        ls = pc.rounds_da_polymarket(j, rd.Tabela(pc.KAPPA_ROUNDS))
+        self.assertEqual(len(ls), 4)                               # mapa 3 tem o livro vazio
+        casa = next(l for l in ls if l["tipo"] == "spread" and l["lado"] == "home")
+        self.assertEqual((casa["mapa"], casa["pontos"]), (1, -3.5))  # A e a casa e da 3,5 rounds
+        self.assertAlmostEqual(casa["odd"], 1 / 0.42, places=6)
+        self.assertTrue(casa["validado"])
+        tot = next(l for l in ls if l["tipo"] == "total" and l["lado"] == "under")
+        self.assertAlmostEqual(tot["odd"], 1 / 0.58, places=6)
+        self.assertFalse(tot["validado"])
+        self.assertEqual(pc.rounds_da_polymarket({"precificado": False}, None), [])
+
+
 class TestMelhorOddDasCasas(unittest.TestCase):
     def test_selo_melhor_na_maior_odd_de_cada_lado(self):
         import tela_cs as tl

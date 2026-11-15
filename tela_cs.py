@@ -415,8 +415,8 @@ def _par_rounds(linhas):
             sorted(pares.items(), key=lambda kv: (kv[0][0], ordem[kv[0][1]], kv[0][2], kv[0][3])) if len(v) == 2]
 
 
-def html_rounds(j, linhas) -> str:
-    """Mercados de rounds por mapa: Pinnacle x modelo, com a vantagem do modelo."""
+def html_rounds(j, linhas, casa_nome: str = "Pinnacle") -> str:
+    """Mercados de rounds por mapa: a casa x modelo, com a vantagem do modelo."""
     if not linhas:
         return '<div class="nada">Sem linhas de rounds da Pinnacle para este jogo (ou jogo sem preço do modelo).</div>'
     casa, fora = escape(j["casa"]), escape(j["fora"])
@@ -441,7 +441,7 @@ def html_rounds(j, linhas) -> str:
         corpo.append('<tr><td>{}</td><td class="mapa" style="text-align:left">{}{}</td><td>{}</td>{}<td>{}</td>{}</tr>'.format(
             a["mapa"], merc, aviso, ra, cel(a), rb, cel(b)))
     return (CSS_MAPAS + '<div class="mapas"><table class="mt"><tr><th>Mapa</th><th>Mercado</th><th>Lado</th>'
-            '<th>Pinnacle (modelo · vantagem)</th><th>Lado</th><th>Pinnacle (modelo · vantagem)</th></tr>'
+            '<th>{0} (modelo · vantagem)</th><th>Lado</th><th>{0} (modelo · vantagem)</th></tr>'.format(escape(casa_nome))
             + "".join(corpo) + '</table></div>')
 
 
