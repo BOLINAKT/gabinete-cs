@@ -1,42 +1,6 @@
 {
- "lido_em": "2026-11-14T22:46:29Z",
+ "lido_em": "2026-11-15T07:08:36Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T21:00:00Z",
-   "time1": "pain.a",
-   "time2": "underworld",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-14T22:00:00Z",
-   "time1": "galorys",
-   "time2": "low cortisol",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T23:45:00Z",
-   "time1": "streetdogs",
-   "time2": "meia noite",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-14T23:45:00Z",
-   "time1": "alka",
-   "time2": "arroba",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "BLAST/Rivals/2026/Fall",
    "tier": "S",
@@ -146,6 +110,42 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Austin LAN/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T16:15:00Z",
+   "time1": "voca",
+   "time2": "iowa stormboar",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Austin LAN/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T16:15:00Z",
+   "time1": "lag",
+   "time2": "detonate",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Austin LAN/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T16:15:00Z",
+   "time1": "nutorious",
+   "time2": "it's a secret",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Austin LAN/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T16:15:00Z",
+   "time1": "arnie's acolytes",
+   "time2": "celestial esports",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Svenska Cupen/2026/Qualifier",
    "tier": "C",
    "inicio_utc": "2026-11-15T16:30:00Z",
@@ -218,11 +218,47 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T10:00:00Z",
+   "time1": "sinners",
+   "time2": "nexus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T13:00:00Z",
+   "time1": "alliance",
+   "time2": "iberian soul",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T16:00:00Z",
+   "time1": "bbl",
+   "time2": "phantom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
    "tier": "C",
    "inicio_utc": "2026-11-17T18:00:00Z",
    "time1": "xept",
    "time2": "crown city",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T19:00:00Z",
+   "time1": "nv",
+   "time2": "metizport",
    "bo": 3,
    "mapas_jogados": 0
   },
