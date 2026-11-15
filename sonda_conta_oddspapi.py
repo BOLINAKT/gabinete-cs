@@ -10,7 +10,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-OCULTAR = ("key", "token", "email", "secret", "password", "name", "user")
+OCULTAR = ("key", "token", "email", "secret", "password", "name", "user", "bookmakers", "sports", "_id")
 
 
 def limpar(x):
