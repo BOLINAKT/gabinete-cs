@@ -1,0 +1,28 @@
+# VIGIA (15/11/2026): falha em vermelho quando um dado do robo fica velho -- os coletores saem
+# "sucesso" quando a rede falha, e em novembro duas fontes ficaram dias paradas sem ninguem ver.
+name: Vigia dos dados (CS2)
+
+on:
+  schedule:
+    - cron: "23 11 * * *"   # ~08:23 BRT
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Conferir a idade dos dados
+        run: >
+          python vigia.py
+          odds_cs2.json:lido_em:12
+          polymarket_cs.json:coletado_em:8
+          agenda_cs.json:lido_em:30
+          odds_casas_cs2.json:lido_em:48:opcional
