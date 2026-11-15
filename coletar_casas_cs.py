@@ -7,8 +7,8 @@ A Pinnacle vira a REGUA (preco justo); o valor esta nas casas moles. A OddsPapi
 (plano gratis, chave dele no secret ODDS_API_KEY) junta 369 casas, inclusive as
 dele: bet365, Superbet, Polymarket, Estrela Bet (e clones), Blaze -- e Betano/Stake.
 
-Por corrida: 1 chamada de jogos (CS2, proximos 3 dias, com odds) + 1 do catalogo de
-mercados + 1 de odds por jogo (no maximo MAX_JOGOS). Guarda:
+Por corrida (uma por dia): a conta (gratis) + 1 chamada de jogos + as odds que couberem na cota
+do mes (ver "A COTA" abaixo). Guarda:
   odds_casas_cs2.json            retrato: TODAS as casas, serie (171) e mapas 1-3
   odds_casas_cs2_historico.jsonl so as casas DELE, so o que mudou
 A chave nunca e impressa. 401/403/429 = para, sai 75, nao insiste.
@@ -170,6 +170,66 @@ def linha_principal(par) -> bool:
     return all(1.30 <= float(x) <= 4.00 for x in par)
 
 
+# ---- A COTA (15/11/2026) ---------------------------------------------------------------------
+# O plano gratis da OddsPapi da 250 chamadas POR MES (zera no dia 1o) para a chave inteira, e os
+# robos de LoL, Dota e CS gastavam ~90 por dia: a cota acabava no dia 5 e as casas ficavam o resto
+# do mes paradas. Agora cada corrida pergunta a conta (/account nao gasta) e so gasta a sua parte:
+#   por corrida = (o que resta - reserva) / dias que faltam no mes / esportes que dividem a chave
+# 1 chamada de jogos + o resto em odds. O catalogo de mercados vem de um arquivo versionado.
+N_ESPORTES = 3            # LoL, Dota e CS dividem a mesma chave
+RESERVA = 12              # folga para corrida manual / erro
+CASA_DO_LOTE = "stake"    # /odds-by-tournaments so aceita UMA casa; Pinnacle e Polymarket tem robo proprio
+MAX_TORNEIOS_POR_LOTE = 3
+CATALOGO_FIXO = RAIZ / "catalogo_mercados_cs2.json"
+
+
+def cota(conta: dict):
+    """Pura: (limite, usadas) da assinatura ativa; (None, None) se a resposta nao trouxer."""
+    for a in (conta or {}).get("subscriptions") or []:
+        if a.get("is_active") and a.get("request_limit") is not None:
+            return int(a["request_limit"]), int(a.get("request_count") or 0)
+    return None, None
+
+
+def orcamento(limite, usadas, hoje: date, n_esportes: int = N_ESPORTES, reserva: int = RESERVA) -> int:
+    """Pura: quantas chamadas ESTA corrida pode gastar (uma corrida por dia por esporte)."""
+    if limite is None:
+        return 2
+    prox = date(hoje.year + (hoje.month == 12), hoje.month % 12 + 1, 1)
+    dias = max(1, (prox - hoje).days)
+    return max(0, int((limite - usadas - reserva) / dias / max(1, n_esportes)))
+
+
+def plano_de_coleta(fixtures: list, chamadas: int):
+    """Pura: como gastar `chamadas` em odds. ("jogos", [fixture...]) = 1 chamada por jogo, todas as
+    casas; ("lotes", [[tournamentId...]...]) = 1 chamada por ate 3 torneios, so a CASA_DO_LOTE.
+    Jogo a jogo quando cabem todos; senao os torneios com jogo mais cedo primeiro."""
+    fx = sorted([f for f in fixtures if f.get("fixtureId")], key=lambda f: str(f.get("startTime") or ""))
+    if chamadas <= 0 or not fx:
+        return "nada", []
+    if len(fx) <= chamadas:
+        return "jogos", fx
+    ordem = []
+    for f in fx:
+        t = f.get("tournamentId")
+        if t is not None and t not in ordem:
+            ordem.append(t)
+    lotes = [ordem[i:i + MAX_TORNEIOS_POR_LOTE] for i in range(0, len(ordem), MAX_TORNEIOS_POR_LOTE)]
+    if not lotes:
+        return "jogos", fx[:chamadas]
+    return "lotes", lotes[:chamadas]
+
+
+def carregar_catalogo(caminho: Path = CATALOGO_FIXO) -> dict:
+    """O catalogo de linhas versionado (gerado de uma leitura de /markets; nao gasta cota)."""
+    try:
+        cru = json.loads(Path(caminho).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    tup = lambda c: (c[0], c[1], int(c[2]), float(c[3]), tuple(c[4]), c[5])
+    return {k: ([tup(c) for c in v] if v and isinstance(v[0], list) else tup(v)) for k, v in cru.items()}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     chave = os.environ.get("ODDS_API_KEY", "").strip()
@@ -179,21 +239,39 @@ def main() -> int:
     agora = datetime.now(timezone.utc).isoformat(timespec="seconds")
     hoje = date.today()
     try:
+        limite, usadas = cota(chamar("account", chave))
+    except (urllib.error.URLError, OSError, ValueError):
+        limite, usadas = None, None
+    pode = orcamento(limite, usadas, hoje)
+    print(f"[casas cs2] cota do mes: {usadas} de {limite} usadas; esta corrida pode gastar {pode}")
+    if pode < 2:
+        print("[casas cs2] sem cota para esta corrida (zera no dia 1o): nada escrito")
+        return RC_BLOQUEIO
+    catalogo = carregar_catalogo()
+    bruto, odds_brutas = [], []
+    try:
         fx = chamar("fixtures", chave, sportId=SPORT_ID, hasOdds="true",
-                    **{"from": hoje.isoformat(), "to": (hoje + timedelta(days=3)).isoformat()})
-        # o catalogo e um extra: se a API barrar SO ele, a corrida segue com o vencedor, como antes
-        time.sleep(1.5)
-        try:
-            bruto = chamar("markets", chave, sportId=SPORT_ID)
-        except (urllib.error.URLError, OSError) as e:
-            print(f"[casas cs2] catalogo de mercados indisponivel ({getattr(e, 'code', type(e).__name__)}): sem linhas nesta corrida")
-            bruto = []
-            time.sleep(5.0)
-        catalogo = catalogo_de_linhas(bruto)
-        jogos, odds_brutas = [], []
-        for f in (fx if isinstance(fx, list) else [])[:MAX_JOGOS]:
-            time.sleep(1.0)
-            od = chamar("odds", chave, fixtureId=f["fixtureId"])
+                    **{"from": hoje.isoformat(), "to": (hoje + timedelta(days=2)).isoformat()})
+        fx = fx if isinstance(fx, list) else []
+        por_id = {f["fixtureId"]: f for f in fx if f.get("fixtureId")}
+        modo, alvo = plano_de_coleta(fx, pode - 1)
+        lidos = []                                            # [(fixture, odds)]
+        if modo == "jogos":
+            for f in alvo:
+                time.sleep(1.2)
+                lidos.append((f, chamar("odds", chave, fixtureId=f["fixtureId"])))
+        elif modo == "lotes":
+            for lote in alvo:
+                time.sleep(1.2)
+                r = chamar("odds-by-tournaments", chave, tournamentIds=",".join(str(t) for t in lote),
+                           bookmaker=CASA_DO_LOTE)
+                for od in (r if isinstance(r, list) else [r] if isinstance(r, dict) else []):
+                    f = por_id.get(od.get("fixtureId"))
+                    if f:
+                        lidos.append((f, od))
+        print(f"[casas cs2] {len(fx)} jogos na agenda da API; coleta por {modo}: {len(lidos)} jogos lidos")
+        jogos = []
+        for f, od in lidos:
             odds_brutas.append(od)
             jogos.append({"fixtureId": f["fixtureId"], "time1": f.get("participant1Name"),
                           "time2": f.get("participant2Name"), "torneio": f.get("tournamentName"),
@@ -205,12 +283,9 @@ def main() -> int:
     except (urllib.error.URLError, OSError) as e:
         print(f"[casas cs2] rede: {type(e).__name__}")
         return RC_BLOQUEIO
-    try:
-        if bruto:
-            CATALOGO.write_text(json.dumps({"lido_em": agora, "mercados": resumo_do_catalogo(bruto, odds_brutas)},
-                                           ensure_ascii=False, indent=1), encoding="utf-8")
-    except (OSError, TypeError, ValueError) as e:
-        print(f"[casas cs2] resumo do catalogo falhou: {type(e).__name__}")
+    if not jogos:
+        print("[casas cs2] nenhum jogo lido: o retrato anterior fica")
+        return RC_BLOQUEIO
     anterior, ant_linhas = {}, {}
     if ATUAL.exists():
         try:

@@ -167,6 +167,17 @@ def _bloco_outras_casas(est, j) -> None:
     escolhidas = st.multiselect("Casas que você usa (a Pinnacle entra sempre, como régua)", nomes,
                                 default=["Stake", "Polymarket"], key="cs_casas_escolhidas")
     linhas = [l for l in linhas if l["casa"] == "Pinnacle" or l["casa"] in escolhidas]
+    # 15/11/2026: a OddsPapi da 250 leituras por mes -- 1 por dia. A idade da leitura fica a vista.
+    try:
+        _h = (pd.Timestamp.utcnow().tz_localize(None) - pd.Timestamp(casas["lido_em"]).tz_localize(None)).total_seconds() / 3600
+        _quando = (pd.Timestamp(casas["lido_em"]).tz_convert("America/Sao_Paulo")).strftime("%d/%m %H:%M")
+        if _h > 36:
+            st.warning(f"As odds das suas casas (OddsPapi) estão paradas desde {_quando} — a cota grátis do mês acabou "
+                       "e volta no dia 1º. A Polymarket acima e a Pinnacle seguem atualizadas pelos robôs próprios.")
+        else:
+            st.caption(f"Leitura das casas: {_quando} (Brasília), há {_h:.0f} h. Uma leitura por dia (cota grátis da OddsPapi).")
+    except Exception:
+        pass
     components.html(tl.pagina(tl.html_outras_casas(j, linhas)),
                     height=60 + 46 * max(1, len(linhas)) + 70, scrolling=False)
 

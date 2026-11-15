@@ -5,7 +5,7 @@ name: Casas CS2 (OddsPapi)
 
 on:
   schedule:
-    - cron: "47 */3 * * *"
+    - cron: "47 8 * * *"   # 1 corrida por dia (cota de 250 chamadas/mes dividida com LoL e Dota)
   workflow_dispatch: {}
 
 permissions:
