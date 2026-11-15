@@ -50,7 +50,9 @@ jobs:
       - name: Gravar as apostas indicadas
         if: steps.coleta.outputs.rc == '0'
         continue-on-error: true
-        run: python placar_apostas.py --registrar
+        run: |
+          pip install --quiet scipy
+          python placar_apostas.py --registrar
       - name: Commitar
         if: steps.coleta.outputs.rc == '0'
         run: |
