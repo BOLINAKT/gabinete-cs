@@ -50,9 +50,20 @@ _TITULO = re.compile(r"^Counter-Strike:\s*(?P<a>.+?)\s+vs\.?\s+(?P<b>.+?)\s*\(BO
 
 def _get(caminho: str, **params):
     url = f"{BASE}/{caminho}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 gabinete", "Accept": "application/json"})
+    # 15/11/2026: desde 12/11 a Gamma responde 406 "gzip_required" a paginas com limit > 50 sem este
+    # cabecalho -- os precos ficaram 3 dias parados sem ninguem ver. Pede comprimido e descomprime.
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 gabinete", "Accept": "application/json",
+                                               "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+        return json.loads(_corpo(r.read(), r.headers.get("Content-Encoding")).decode("utf-8"))
+
+
+def _corpo(dados: bytes, codificacao) -> bytes:
+    """Pura: o corpo da resposta, descomprimido se veio em gzip."""
+    if "gzip" in str(codificacao or "").lower() or dados[:2] == b"\x1f\x8b":
+        import gzip
+        return gzip.decompress(dados)
+    return dados
 
 
 def _lista(v):
@@ -116,7 +127,34 @@ def ler_partida(ev: dict, agora: datetime | None = None) -> dict | None:
         "bo": int(m.group("bo")), "torneio": (m.group("torneio") or "").strip(),
         "inicio_utc": ml.get("gameStartTime") or ev.get("startDate"),
         "evento": ev.get("slug"),
+        "mercados": outros_mercados(ev),
     }
+
+
+def outros_mercados(ev: dict) -> list:
+    """Pura: os mercados do evento alem do vencedor da serie (15/11/2026, Fase 1 do plano do CS):
+    vencedor de mapa, handicap e total de mapas... Cada um: tipo, pergunta, linha, os dois lados e
+    o preco do PRIMEIRO lado (meio do livro; sem livro, o ultimo preco), spread e liquidez."""
+    fora = []
+    for x in ev.get("markets") or []:
+        if x.get("sportsMarketType") == "moneyline" or x.get("closed"):
+            continue
+        lados = [str(t) for t in _lista(x.get("outcomes"))]
+        precos = [_f(p) for p in _lista(x.get("outcomePrices"))]
+        if len(lados) != 2:
+            continue
+        bid, ask = _f(x.get("bestBid")), _f(x.get("bestAsk"))
+        if bid is not None and ask is not None and 0 < bid <= ask < 1:
+            p1 = (bid + ask) / 2
+        elif len(precos) == 2 and precos[0] is not None and 0 < precos[0] < 1:
+            p1 = precos[0]
+        else:
+            continue
+        fora.append({"tipo": x.get("sportsMarketType"), "pergunta": str(x.get("question") or "")[:140],
+                     "grupo": x.get("groupItemTitle"), "linha": _f(x.get("line")), "lados": lados,
+                     "p1": round(p1, 4), "spread": None if bid is None or ask is None else round(ask - bid, 4),
+                     "liquidez": _f(x.get("liquidity"))})
+    return fora
 
 
 def main() -> int:
@@ -137,7 +175,8 @@ def main() -> int:
                                  "partidas": partidas}, ensure_ascii=False, indent=1), encoding="utf-8")
     with HISTORICO.open("a", encoding="utf-8") as f:
         for p in partidas:
-            f.write(json.dumps({"coletado_em": agora, **p}, ensure_ascii=False) + "\n")
+            f.write(json.dumps({"coletado_em": agora, **{k: v for k, v in p.items() if k != "mercados"}},
+                               ensure_ascii=False) + "\n")       # o historico guarda so o vencedor
     print(f"[polymarket] {len(partidas)} partida(s) de CS2 com preco de vencedor")
     return 0
 
