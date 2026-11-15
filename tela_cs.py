@@ -155,6 +155,9 @@ def html_jogo(j) -> str:
         + coluna("c-pin", "Pinnacle — odd paga", pin) + "</div>"
     # (26/10 a noite) o aviso "qualificatoria: modelo mais fraco" saiu: com os tiers
     # corrigidos, qualificatoria nao e pior (B: 0,639 x 0,653 no evento principal).
+    for txt in j.get("pouco_dado") or []:
+        html += ('<div class="aviso">{} — o preço sai mesmo assim: nesses jogos o modelo acerta tanto quanto '
+                 'nos outros (medido), mas a nota se apoia em menos mapas.</div>').format(escape(txt))
     for f, nome in zip(j["fichas"], (j["casa"], j["fora"])):
         novos = [x["jogador"] for x in f["jogadores"] if x["novo"]]
         if novos:

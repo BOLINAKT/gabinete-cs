@@ -294,7 +294,7 @@ def main() -> None:
                 jid = st.radio("Jogo", list(rot), format_func=rot.get, horizontal=True,
                                label_visibility="collapsed")
             j = next(x for x in do_dia if x["id"] == jid)
-            n_av = len(j["avisos"]) + sum(
+            n_av = len(j["avisos"]) + len(j.get("pouco_dado") or []) + sum(
                 bool([x for x in f["jogadores"] if x["novo"]]) + (not f["elenco_conhecido"])
                 + ((f["dias_parado"] or 0) > 30) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52

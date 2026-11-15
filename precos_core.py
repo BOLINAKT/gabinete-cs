@@ -47,7 +47,9 @@ class Estado:
     """Tudo o que o modelo sabe ate o ultimo mapa coletado (caro: treinar uma vez)."""
 
     def __init__(self):
-        self.d = be.carregar()
+        # FASE 3 (15/11/2026): treina com o tier C tambem. Medido: a regua S/A/B nao piora (mapa
+        # 2025+ +0,0012 [-0,0002; +0,0027], 2026 +0,0025) e os times de tier C passam a ter nota.
+        self.d = be.carregar(incluir_c=True)
         self.el = te.carregar_elencos()
         self.r, self.pr = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL, estado=True)
         _, series = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL)
@@ -225,6 +227,10 @@ def casar_estrito(est: Estado, nome: str, mapa: dict = None):
     t, modo = est.casar(nome)
     if t and modo == "exato":
         return t
+    # 15/11/2026: "Luminosity" = "Luminosity Gaming", "Prestige" = "Prestige Esport". Comeco do nome
+    # com UM unico time ativo e nome de 5+ letras e seguro (o erro de 29/10 era o "parecido").
+    if t and modo == "comeco do nome" and len(_n(nome)) >= 5:
+        return t
     if mapa:
         c = be.canonico(nome, mapa)
         if c:
@@ -336,18 +342,23 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             tf, mf = est.casar(j["fora"])
         ini = pd.Timestamp(j["inicio_utc"]).tz_localize(None) if j.get("inicio_utc") else None
         fc, ff = est.time(tc, hoje), est.time(tf, hoje)
-        avisos = []
+        # FASE 3 (15/11/2026): time com POUCO DADO deixa de ser recusado. Medido no cego 2025+
+        # (pouco_dado.py, todos os tiers): o modelo ganha da moeda nesses jogos tanto ou mais que
+        # nos outros (estreia +0,045, 1-9 mapas +0,050, 10-29 +0,056; 30+ +0,035) e sem precisar
+        # encolher a chance (c ~ 1,0). So "nao achei o time" continua sem preco.
+        avisos, pouco = [], []
         for nome, t, f in ((j["casa"], tc, fc), (j["fora"], tf, ff)):
             if not t:
                 avisos.append(f"{nome}: nao achei o time nos dados")
             elif f["mapas_ano"] < MIN_MAPAS_ANO or (f["dias_parado"] or 0) > MAX_DIAS_PARADO:
-                avisos.append(f"{nome}: sem dado recente ({f['mapas_ano']} mapas no ano, ultimo {f['ultimo']})")
+                pouco.append(f"{nome}: pouco dado recente ({f['mapas_ano']} mapas no ano, ultimo {f['ultimo']})")
         jogo = {"id": j["id"], "liga": (j.get("liga") or "").replace("CS2 - ", ""), "casa": j["casa"],
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
                 "situacao": situacao(j.get("inicio_utc"), agora),
                 "fonte": j.get("fonte", "pinnacle"), "poly": j.get("poly"),
-                "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "mercados": [],
+                "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "pouco_dado": pouco,
+                "mercados": [],
                 "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
                 "qualificatoria": e_qualificatoria(j.get("liga") or "")}
         jogo["veto"] = veto_provavel(*jogo["mapas"])
@@ -355,7 +366,8 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
             jogo["p_mapa"] = pm
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)
-            ps = be.p_serie(cal.ajusta(pm, est.c_serie), precisa) if precisa > 1 else pm
+            c_jogo = 1.0 if pouco else est.c_serie       # pouco dado: sem o encolhimento dos S/A/B
+            ps = be.p_serie(cal.ajusta(pm, c_jogo), precisa) if precisa > 1 else pm
             pin = justas(odds["linhas"], j["id"])
             merc = [("Série" if precisa > 1 else "Vencedor", 0, ps)]
             merc += [(f"Mapa {k}", k, pm) for k in (1, 2, 3) if k in pin]

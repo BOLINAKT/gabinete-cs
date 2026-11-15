@@ -175,6 +175,13 @@ class TestMontarJogos(unittest.TestCase):
                 return ("Diamant Esports", "parecido") if "dimonix" in nome.lower() else (None, "sem time")
         self.assertIsNone(pc.casar_estrito(E(), "DimoniX Esports"))
 
+    def test_comeco_do_nome_unico_casa_na_polymarket(self):
+        class E:
+            def casar(self, nome):
+                return ("Luminosity Gaming", "comeco do nome")
+        self.assertEqual(pc.casar_estrito(E(), "Luminosity"), "Luminosity Gaming")
+        self.assertIsNone(pc.casar_estrito(E(), "Lumi"))          # curto demais
+
 
 class TestMelhorOddDasCasas(unittest.TestCase):
     def test_selo_melhor_na_maior_odd_de_cada_lado(self):

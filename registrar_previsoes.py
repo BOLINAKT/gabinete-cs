@@ -32,6 +32,7 @@ def linhas_da_leitura(jogos: list, lido_em: str) -> list:
                          "liga": j["liga"], "casa": j["casa"], "fora": j["fora"],
                          "time_casa": j["casou"][0][0], "time_fora": j["casou"][1][0],
                          "mercado": m["mercado"], "periodo": m["periodo"],
+                         "pouco_dado": bool(j.get("pouco_dado")),
                          "p_modelo_casa": round(a["p_modelo"], 4),
                          "p_pinnacle_casa": None if a["p_pinnacle"] is None else round(a["p_pinnacle"], 4),
                          "odd_casa": a["odd_pinnacle"], "odd_fora": b["odd_pinnacle"]})
