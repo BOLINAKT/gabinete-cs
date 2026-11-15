@@ -45,6 +45,12 @@ jobs:
         run: |
           pip install --quiet pandas
           python registrar_previsoes.py
+      # FASE 7 (15/11/2026): o que a lista "melhores apostas nas suas casas" indicou NESTE instante,
+      # com a odd e a justa de entao -- para conferir depois nas odds reais (placar_apostas.py).
+      - name: Gravar as apostas indicadas
+        if: steps.coleta.outputs.rc == '0'
+        continue-on-error: true
+        run: python placar_apostas.py --registrar
       - name: Commitar
         if: steps.coleta.outputs.rc == '0'
         run: |
@@ -52,6 +58,7 @@ jobs:
           git config user.email "robo@gabinete.local"
           git add odds_cs2.json odds_cs2_historico.jsonl odds_cs2_partidas.jsonl
           [ -f previsoes_cs2.jsonl ] && git add previsoes_cs2.jsonl
+          [ -f apostas_cs2.jsonl ] && git add apostas_cs2.jsonl
           git diff --cached --quiet && exit 0
           git commit -m "Robô: odds de CS2 da Pinnacle (e a previsão do modelo)"
           for i in 1 2 3; do

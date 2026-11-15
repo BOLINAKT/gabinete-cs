@@ -26,11 +26,29 @@ def _justa(p_pinnacle, p_modelo):
     return (float(p_modelo), "modelo") if p_modelo is not None else (None, None)
 
 
-def _cand(j, mercado, aposta, casa, odd, p_pin, p_mod) -> Optional[Dict[str, Any]]:
+def _num_do_rotulo(rotulo: str) -> float:
+    """"BIG −1,5" -> -1.5; "Mais de 2,5 mapas" -> 2.5."""
+    import re
+    m = re.findall(r"[−+\-]?\d+(?:,\d+)?", rotulo)
+    return float(m[-1].replace("−", "-").replace(",", ".")) if m else 0.0
+
+
+def _chave_serie(m: dict, i: int) -> Dict[str, Any]:
+    """Como conferir depois um lado de mercados_serie (i = 0 ou 1)."""
+    rot = m["lados"][i]["rotulo"]
+    if m["mercado"].startswith("Mapas"):
+        return {"tipo": "hc_mapas", "lado": "casa" if i == 0 else "fora", "linha": _num_do_rotulo(rot)}
+    if m["mercado"] == "Total de mapas":
+        return {"tipo": "tot_mapas", "lado": "over" if i == 0 else "under", "linha": abs(_num_do_rotulo(rot))}
+    return {"tipo": "outro"}
+
+
+def _cand(j, mercado, aposta, casa, odd, p_pin, p_mod, chave=None) -> Optional[Dict[str, Any]]:
     p, fonte = _justa(p_pin, p_mod)
     if p is None or not odd or odd <= 1 or not (0 < p < 1):
         return None
-    return {"jogo": j, "mercado": mercado, "aposta": aposta, "casa": casa, "odd": float(odd), "p_justa": p,
+    return {"chave": chave or {"tipo": "outro"},
+            "jogo": j, "mercado": mercado, "aposta": aposta, "casa": casa, "odd": float(odd), "p_justa": p,
             "odd_justa": 1 / p, "fonte": fonte, "valor": (p * odd - 1) * 100,
             "valor_modelo": None if p_mod is None else (p_mod * odd - 1) * 100,
             "destaque": (1 / p) < DESTAQUE, "pouco_dado": bool(j.get("pouco_dado"))}
@@ -50,23 +68,28 @@ def candidatos(j: dict, rounds_poly: Optional[list] = None, stake: Optional[list
         ca, cb = pm["p_a"] + pm["spread"] / 2, pm["p_b"] + pm["spread"] / 2
         if pm.get("invertido"):
             ca, cb = cb, ca
-        for l, custo in zip(venc, (ca, cb)):
+        for l, custo, lado in zip(venc, (ca, cb), ("casa", "fora")):
             if 0.01 < custo < 0.99:
-                fora.append(_cand(j, nome_venc, l["lado"], "Polymarket", 1 / custo, l["p_pinnacle"], l["p_modelo"]))
+                fora.append(_cand(j, nome_venc, l["lado"], "Polymarket", 1 / custo, l["p_pinnacle"], l["p_modelo"],
+                                  {"tipo": "venc", "lado": lado}))
     for m in j.get("mercados_serie") or []:
-        for l in m["lados"]:
+        for i, l in enumerate(m["lados"]):
             if l.get("odd_poly"):
-                fora.append(_cand(j, m["mercado"], l["rotulo"], "Polymarket", l["odd_poly"], l.get("p_pinnacle"), l["p_modelo"]))
+                fora.append(_cand(j, m["mercado"], l["rotulo"], "Polymarket", l["odd_poly"], l.get("p_pinnacle"),
+                                  l["p_modelo"], _chave_serie(m, i)))
     for l in rounds_poly or []:
         if l["tipo"] == "spread" and l.get("validado"):
             quem = j["casa"] if l["lado"] == "home" else j["fora"]
             fora.append(_cand(j, f"Handicap de rounds · mapa {l['mapa']}", f"{quem} {l['pontos']:+.1f}".replace(".", ","),
-                              "Polymarket", l["odd"], l.get("p_pinnacle"), l["p_modelo"]))
+                              "Polymarket", l["odd"], l.get("p_pinnacle"), l["p_modelo"],
+                              {"tipo": "hc_rounds", "lado": "casa" if l["lado"] == "home" else "fora",
+                               "linha": float(l["pontos"]), "mapa": int(l["mapa"])}))
     for s in stake or []:
         if s.get("casa") != "Stake" or s.get("periodo") != 0:
             continue
-        for l, odd in zip(venc, (s.get("odd_casa"), s.get("odd_fora"))):
-            fora.append(_cand(j, nome_venc, l["lado"], "Stake", odd, l["p_pinnacle"], l["p_modelo"]))
+        for l, odd, lado in zip(venc, (s.get("odd_casa"), s.get("odd_fora")), ("casa", "fora")):
+            fora.append(_cand(j, nome_venc, l["lado"], "Stake", odd, l["p_pinnacle"], l["p_modelo"],
+                              {"tipo": "venc", "lado": lado}))
     return [c for c in fora if c]
 
 

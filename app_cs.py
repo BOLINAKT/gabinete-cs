@@ -348,6 +348,28 @@ def main() -> None:
                 st.caption("A Stake está fora desta lista: a leitura da OddsPapi está parada (a cota grátis volta no dia 1º).")
         except Exception as _e:
             st.caption(f"Lista das suas casas indisponível agora ({type(_e).__name__}).")
+        # FASE 7 (15/11/2026): o placar do que esta lista indicou, nas odds reais de entao
+        try:
+            import placar_apostas as pa
+            _regs = pa.carregar()
+            _pl = pa.placar(est.d, _regs)["resumo"] if _regs else None
+            if not _regs:
+                st.caption("Placar desta lista: o robô começa a gravar as indicações a cada leitura (de 3 em 3 h); "
+                           "os resultados aparecem aqui conforme os jogos acontecem.")
+            elif not _pl["todas"]["n"]:
+                st.caption(f"Placar desta lista: {len(_regs)} indicações gravadas, nenhuma com resultado ainda.")
+            else:
+                def _txt(nome, r):
+                    if not r.get("n"):
+                        return f"{nome}: —"
+                    return (f"{nome}: {r['n']} apostas, {r['acertos']} acertos, lucro {r['lucro']:+.2f} u, "
+                            f"ROI {100 * r['roi']:+.1f}% (IC95 {100 * r['ic95_roi'][0]:+.0f}% a {100 * r['ic95_roi'][1]:+.0f}%)")
+                st.caption("**Placar desta lista** (1 unidade por aposta, na odd que ela mostrou) — "
+                           + " · ".join(_txt(n, _pl[k]) for n, k in (("todas", "todas"), ("justa da Pinnacle", "justa_pinnacle"),
+                                                                    ("justa do modelo", "justa_modelo"), ("★", "destaque")))
+                           + ". Com poucas apostas é sorte: só vale quando o intervalo sair do zero.")
+        except Exception:
+            pass
         st.markdown("##### Na Pinnacle (modelo × Pinnacle)")
         components.html(tl.pagina(tl.html_melhores(melhores)), height=tl.altura_melhores(len(melhores)))
     with aba_pin:
@@ -364,7 +386,9 @@ média do elenco de hoje (Liquipedia). Série: chance do mapa encolhida por uma 
 jogos S/A/B (o universo com odd): mapa logloss 0,651, acerto 62%; série 0,632. Por tier: S 0,652, A 0,667
 (o mais difícil), B 0,647. Os dados se atualizam sozinhos todo dia (robô no GitHub, 06:41).
 
-**Não precificado** — time com menos de 30 mapas no último ano ou parado há mais de 120 dias.
+**Pouco dado** — time com menos de 30 mapas no último ano ou parado há mais de 120 dias: o preço sai
+com aviso (medido: nesses jogos o modelo acerta tanto quanto nos outros). **Não precificado** — só quando o
+time não existe nos dados.
 
 **Cuidado com vantagem grande** — elenco novo (o jogador traz a nota do time anterior), time sem jogo
 recente nos nossos dados (pode ter jogado torneio que não coletamos), ou mapa: a Pinnacle sabe o mapa
