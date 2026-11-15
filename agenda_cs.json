@@ -1,141 +1,6 @@
 {
- "lido_em": "2026-11-15T16:36:16Z",
+ "lido_em": "2026-11-15T23:10:36Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T15:00:00Z",
-   "time1": "forze reload",
-   "time2": "nexus",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T15:00:00Z",
-   "time1": "team aces",
-   "time2": "metizport",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T15:00:00Z",
-   "time1": "galorys",
-   "time2": "axorfy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T15:35:00Z",
-   "time1": "fnc",
-   "time2": "magic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T16:00:00Z",
-   "time1": "faze",
-   "time2": "heroic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Austin LAN/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T16:15:00Z",
-   "time1": "voca",
-   "time2": "iowa stormboar",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Austin LAN/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T16:15:00Z",
-   "time1": "lag",
-   "time2": "detonate",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Austin LAN/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T16:15:00Z",
-   "time1": "nutorious",
-   "time2": "it's a secret",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Austin LAN/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T16:15:00Z",
-   "time1": "arnie's acolytes",
-   "time2": "celestial esports",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Cupen/2026/Qualifier",
-   "tier": "C",
-   "inicio_utc": "2026-11-15T16:30:00Z",
-   "time1": "lilmix",
-   "time2": "talent factory",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T18:00:00Z",
-   "time1": "pvision",
-   "time2": "100t",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T18:00:00Z",
-   "time1": "33",
-   "time2": "ef",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T18:00:00Z",
-   "time1": "butterfly",
-   "time2": "hype tech",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T18:00:00Z",
-   "time1": "apogee",
-   "time2": "private",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Series 8",
-   "tier": "B",
-   "inicio_utc": "2026-11-15T18:00:00Z",
-   "time1": "ex-yawara e-sports",
-   "time2": "barca esports",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/South America/Challengers 4",
    "tier": "C",
@@ -155,6 +20,24 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/South America/Series 8",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T21:10:00Z",
+   "time1": "galorys",
+   "time2": "barca esports",
+   "bo": 3,
+   "mapas_jogados": 1
+  },
+  {
+   "pagina": "Austin LAN/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-15T23:15:00Z",
+   "time1": "voca",
+   "time2": "lag",
+   "bo": 5,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Challengers 4",
    "tier": "C",
    "inicio_utc": "2026-11-15T23:45:00Z",
@@ -169,6 +52,69 @@
    "inicio_utc": "2026-11-15T23:45:00Z",
    "time1": "quintessencia",
    "time2": "disfarcados",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T09:00:00Z",
+   "time1": "mnxt",
+   "time2": "azuolas",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T11:00:00Z",
+   "time1": "vp",
+   "time2": "team aces",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 13",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T14:00:00Z",
+   "time1": "private",
+   "time2": "omega",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T15:00:00Z",
+   "time1": "magic",
+   "time2": "ef",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T15:00:00Z",
+   "time1": "baks",
+   "time2": "masonic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T18:00:00Z",
+   "time1": "pvision",
+   "time2": "heroic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-16T18:00:00Z",
+   "time1": "leo team",
+   "time2": "honved",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -191,6 +137,24 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T12:00:00Z",
+   "time1": "100t",
+   "time2": "fnc",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T12:00:00Z",
+   "time1": "ex-rustec",
+   "time2": "illyrians",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "PLAYzone/RUSH Brno/2026",
    "tier": "B",
    "inicio_utc": "2026-11-17T13:00:00Z",
@@ -200,11 +164,29 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T15:00:00Z",
+   "time1": "hype tech",
+   "time2": "tlr",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "PLAYzone/RUSH Brno/2026",
    "tier": "B",
    "inicio_utc": "2026-11-17T16:00:00Z",
    "time1": "bbl",
    "time2": "phantom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 14",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T18:00:00Z",
+   "time1": "nexus",
+   "time2": "walczaki",
    "bo": 3,
    "mapas_jogados": 0
   },
