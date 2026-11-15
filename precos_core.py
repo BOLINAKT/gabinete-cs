@@ -285,7 +285,7 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
                      and frozenset((_chave(j["casa"]), _chave(j["fora"]))) == par
                      and abs(_ts(j["inicio_utc"]) - ini) <= pd.Timedelta(hours=JANELA_CASAR_H)), None)
         info = {"p_a": p.get("p_a"), "p_b": p.get("p_b"), "time_a": p["time_a"], "time_b": p["time_b"],
-                "spread": p.get("spread"), "liquidez": p.get("liquidez")}
+                "spread": p.get("spread"), "liquidez": p.get("liquidez"), "mercados": p.get("mercados") or []}
         if dono is None:
             # 10/11/2026: a Polymarket escreve "Toobisie" e a Liquipedia "Teletubisie" -- o jogo
             # aparecia duas vezes. Um time nao joga duas partidas ao mesmo tempo: se UM lado bate
@@ -371,6 +371,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             # handicap/total de mapas e placar exato, coerentes com a serie (Fase 2, 12/11/2026)
             jogo["mercados_serie"] = sc.mercados_da_serie(ps, jogo["bo"], getattr(est, "kappa_serie", None),
                                                           odds["linhas"], j["id"], j["casa"], j["fora"])
+            sc.anexar_polymarket(jogo["mercados_serie"], j.get("poly"))
         fora.append(jogo)
     return fora
 

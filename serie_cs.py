@@ -149,6 +149,62 @@ def mercados(p_serie_1: float, bo: int, kappa: Optional[float] = "padrao") -> Di
     return out
 
 
+# ---- POLYMARKET nos mercados da serie (15/11/2026, Fase 1) -----------------------------------
+# A Polymarket e bolsa: o preco de COMPRA de um lado e o "ask" dele. O robo guarda o meio do livro
+# do 1o lado (p1) e o spread; comprar o lado 1 custa p1 + spread/2, o lado 2 custa 1 - p1 + spread/2.
+# Livro vazio (spread grande) nao e preco: fica de fora.
+SPREAD_MAXIMO = 0.12
+
+
+def odds_de_compra(m: dict):
+    """Pura: (odd do lado 1, odd do lado 2) para COMPRAR na Polymarket, ou None se nao ha livro."""
+    sp, p1 = m.get("spread"), m.get("p1")
+    if sp is None or p1 is None or sp > SPREAD_MAXIMO:
+        return None
+    c1, c2 = p1 + sp / 2, 1 - p1 + sp / 2
+    if not (0.01 < c1 < 0.99 and 0.01 < c2 < 0.99):
+        return None
+    return 1 / c1, 1 / c2
+
+
+def anexar_polymarket(mercados_serie: list, poly: dict) -> list:
+    """Poe em cada lado dos mercados da serie a odd de compra da Polymarket ("odd_poly") e o valor
+    pelo modelo ("valor_poly"). `poly` = o que o robo guardou do jogo (time_a, time_b, invertido,
+    mercados). Devolve a mesma lista (alterada)."""
+    if not mercados_serie or not poly:
+        return mercados_serie
+    inv = bool(poly.get("invertido"))            # o time_a da Polymarket e a FORA deste jogo?
+    for m in poly.get("mercados") or []:
+        od = odds_de_compra(m)
+        if not od:
+            continue
+        alvo = None
+        if m.get("tipo") == "map_handicap" and m.get("linha") is not None and len(m.get("lados") or []) == 2:
+            h = abs(float(m["linha"]))
+            primeiro_e_a = str(m["lados"][0]) == str(poly.get("time_a"))
+            # o 1o lado leva a linha (negativa = da mapas). Em termos do jogo: e a casa ou a fora?
+            primeiro_e_casa = primeiro_e_a != inv
+            da = float(m["linha"]) < 0
+            casa_da = primeiro_e_casa == da      # a CASA esta com o handicap negativo?
+            f = f"{h:g}".replace(".", ",")
+            for ms in mercados_serie:
+                rot = ms["lados"][0]["rotulo"]
+                if ms["mercado"] == f"Mapas ±{f}" and rot.endswith(("−" if casa_da else "+") + f):
+                    alvo = (ms, od if primeiro_e_casa else od[::-1])
+        elif m.get("tipo") == "totals" and m.get("linha") is not None:
+            f = f"{float(m['linha']):g}".replace(".", ",")
+            for ms in mercados_serie:
+                if ms["mercado"] == "Total de mapas" and ms["lados"][0]["rotulo"] == f"Mais de {f} mapas":
+                    alvo = (ms, od if str(m["lados"][0]).lower() == "over" else od[::-1])
+        if alvo:
+            ms, (o1, o2) = alvo
+            for l, o in zip(ms["lados"], (o1, o2)):
+                l["odd_poly"] = o
+                l["valor_poly"] = (l["p_modelo"] * o - 1) * 100
+                l["valor_poly_pin"] = None if l.get("p_pinnacle") is None else (l["p_pinnacle"] * o - 1) * 100
+    return mercados_serie
+
+
 def _medir() -> int:
     import pandas as pd
 

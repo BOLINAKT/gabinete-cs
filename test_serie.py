@@ -44,5 +44,32 @@ class TestSerie(unittest.TestCase):
         self.assertEqual(sc.mercados_da_serie(0.6, 1, 6, linhas, 7, "A", "B"), [])
 
 
+    def test_polymarket_na_serie_orientacao_e_livro_vazio(self):
+        ms = sc.mercados_da_serie(0.6, 3, 6, [], 7, "BIG", "Sangal Esports")
+        poly = {"time_a": "Sangal", "time_b": "BIG", "invertido": True, "mercados": [
+            # o 1o lado (BIG) da 1,5 mapa: compra BIG -1,5 a 0,32 + 0,04 = 0,36 -> odd 2,78
+            {"tipo": "map_handicap", "linha": -1.5, "lados": ["BIG", "Sangal"], "p1": 0.32, "spread": 0.08},
+            {"tipo": "totals", "linha": 2.5, "lados": ["Over", "Under"], "p1": 0.4, "spread": 0.5}]}   # livro vazio
+        sc.anexar_polymarket(ms, poly)
+        a, b = ms[0]["lados"]                                   # BIG -1,5 | Sangal +1,5
+        self.assertEqual(a["rotulo"], "BIG −1,5")
+        self.assertAlmostEqual(a["odd_poly"], 1 / 0.36, places=6)
+        self.assertAlmostEqual(b["odd_poly"], 1 / 0.72, places=6)
+        self.assertAlmostEqual(a["valor_poly"], (a["p_modelo"] / 0.36 - 1) * 100, places=6)
+        self.assertNotIn("odd_poly", ms[1]["lados"][0])         # BIG +1,5: a Polymarket nao tem
+        self.assertNotIn("odd_poly", ms[2]["lados"][0])         # total: spread 0,5 nao e preco
+        self.assertIsNone(sc.odds_de_compra({"p1": 0.5, "spread": None}))
+
+    def test_polymarket_handicap_do_outro_lado(self):
+        ms = sc.mercados_da_serie(0.4, 3, 6, [], 7, "A", "B")
+        poly = {"time_a": "A", "time_b": "B", "invertido": False, "mercados": [
+            {"tipo": "map_handicap", "linha": -1.5, "lados": ["B", "A"], "p1": 0.40, "spread": 0.04}]}
+        sc.anexar_polymarket(ms, poly)
+        a, b = ms[1]["lados"]                                   # A +1,5 | B -1,5
+        self.assertEqual((a["rotulo"], b["rotulo"]), ("A +1,5", "B −1,5"))
+        self.assertAlmostEqual(b["odd_poly"], 1 / 0.42, places=6)
+        self.assertAlmostEqual(a["odd_poly"], 1 / 0.62, places=6)
+
+
 if __name__ == "__main__":
     unittest.main()

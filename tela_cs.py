@@ -177,7 +177,7 @@ def html_serie(j) -> str:
     ms = j.get("mercados_serie") or []
     if not ms:
         return ""
-    mod, pin = [], []
+    mod, pin, pol = [], [], []
     for m in ms:
         mod.append('<div class="row"><div class="merc">{}</div>{}</div>'.format(escape(m["mercado"]), "".join(
             '<div><span class="pct">{}</span> <span class="odd">{}</span><span class="pct">{}</span></div>'.format(
@@ -192,12 +192,24 @@ def html_serie(j) -> str:
                 "verde" if v > 0 else "", _odd(l["odd_pinnacle"]), "b" if v > 0 else "r",
                 f"{v:+.1f}%".replace(".", ",")))
         pin.append('<div class="row"><div class="merc">{}</div>{}</div>'.format(escape(m["mercado"]), "".join(cel)))
+        cel = []
+        for l in m["lados"]:
+            if l.get("odd_poly") is None:
+                cel.append('<div><span class="nada">—</span></div>')
+                continue
+            v = l["valor_poly"]
+            cel.append('<div class="{}"><span class="odd">{}</span><span class="v {}">{}</span></div>'.format(
+                "verde" if v > 0 else "", _odd(l["odd_poly"]), "b" if v > 0 else "r",
+                f"{v:+.1f}%".replace(".", ",")))
+        pol.append('<div class="row"><div class="merc">{}</div>{}</div>'.format(escape(m["mercado"]), "".join(cel)))
 
     def coluna(classe, nome, linhas):
         return '<div class="coluna {}"><div class="nome-col">{}</div><div class="secao">{}</div></div>'.format(
             classe, nome, "".join(linhas))
+    tem_poly = any(l.get("odd_poly") is not None for m in ms for l in m["lados"])
     return ('<div class="colunas">' + coluna("c-mod", "Série — odd justa do modelo", mod)
-            + coluna("c-pin", "Pinnacle — odd paga", pin) + "</div>"
+            + coluna("c-pin", "Pinnacle — odd paga", pin)
+            + (coluna("c-pin", "Polymarket — odd de compra", pol) if tem_poly else "") + "</div>"
             '<div class="nota">Tudo sai da mesma chance da série acima, com a forma do dia: os mapas de uma série '
             'andam juntos (quem está bem no dia tende a varrer), então o −1,5 do favorito vale mais que '
             'mapa × mapa.</div>')
