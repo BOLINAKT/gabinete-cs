@@ -183,6 +183,19 @@ class TestMontarJogos(unittest.TestCase):
         self.assertIsNone(pc.casar_estrito(E(), "Lumi"))          # curto demais
 
 
+class TestHomonimos(unittest.TestCase):
+    def test_nome_que_so_muda_a_caixa_casa_com_quem_jogou_por_ultimo(self):
+        import pandas as pd
+        e = pc.Estado.__new__(pc.Estado)                    # sem treinar: so o indice de nomes
+        e.ult = {"HEROIC": pd.Timestamp("2026-11-15"), "Heroic": pd.Timestamp("2023-02-15")}
+        e.desde = pd.Timestamp("2025-11-15")
+        e.idx = {}
+        for t in sorted(e.ult, key=lambda t: e.ult[t]):
+            e.idx[pc._n(t)] = t
+        self.assertEqual(e.casar("Heroic"), ("HEROIC", "exato"))
+        self.assertEqual(pc.APELIDOS["sinners"], "SINNERS Esports")
+
+
 class TestRoundsDaPolymarket(unittest.TestCase):
     def test_handicap_e_total_na_orientacao_do_jogo(self):
         import rondas as rd

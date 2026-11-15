@@ -25,7 +25,11 @@ import elo_jogador as ej
 import troca_elenco as te
 
 RAIZ = Path(__file__).resolve().parent
-APELIDOS = {"bb team": "BetBoom Team"}
+# "sinners" (15/11/2026): a Pinnacle escreve "SINNERS" e existe um "Sinners" parado desde 2020;
+# o time de hoje e o SINNERS Esports.
+APELIDOS = {"bb team": "BetBoom Team", "sinners": "SINNERS Esports"}
+# Time casado mas PARADO ha mais de um ano: quase sempre homonimo antigo, nao o time de hoje.
+MAX_DIAS_SEM_JOGO = 365
 # Sem isso o Elo de um time e o de 1500 da estreia (ou o de um elenco antigo de
 # mesmo nome): numero sem base. Abaixo disso o lado NAO e precificado.
 MIN_MAPAS_ANO, MAX_DIAS_PARADO = 30, 120
@@ -71,7 +75,10 @@ class Estado:
         self.idx = {}
         for cru in mapa:
             self.idx.setdefault(_n(cru), be.canonico(cru, mapa))
-        for t in self.ult:
+        # 15/11/2026: "Heroic" (americano, parado em 2023) e "HEROIC" (o de hoje) viram a mesma chave;
+        # ganhava o ultimo da lista e a Pinnacle "HEROIC" casava com o time morto. Agora, em nomes que
+        # so diferem por caixa/acento, ganha quem jogou por ultimo.
+        for t in sorted(self.ult, key=lambda t: self.ult[t]):
             self.idx[_n(t)] = t
         self.elencos = pd.read_csv(RAIZ / "elencos.csv", dtype=str).fillna("")
         # mapas: o POOL sai dos dados (>= 5% dos mapas dos ultimos 120 dias), nao
@@ -350,6 +357,9 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
         for nome, t, f in ((j["casa"], tc, fc), (j["fora"], tf, ff)):
             if not t:
                 avisos.append(f"{nome}: nao achei o time nos dados")
+            elif (f["dias_parado"] or 0) > MAX_DIAS_SEM_JOGO:
+                avisos.append(f"{nome}: o time com esse nome nos dados ({t}) nao joga desde {f['ultimo']} — "
+                              "provavel homonimo antigo, sem preco")
             elif f["mapas_ano"] < MIN_MAPAS_ANO or (f["dias_parado"] or 0) > MAX_DIAS_PARADO:
                 pouco.append(f"{nome}: pouco dado recente ({f['mapas_ano']} mapas no ano, ultimo {f['ultimo']})")
         jogo = {"id": j["id"], "liga": (j.get("liga") or "").replace("CS2 - ", ""), "casa": j["casa"],
