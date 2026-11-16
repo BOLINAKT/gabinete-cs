@@ -166,7 +166,7 @@ def html_jogo(j) -> str:
         if not f["elenco_conhecido"]:
             html += '<div class="aviso">{}: elenco desconhecido na Liquipedia — força = Elo do time.</div>'.format(
                 escape(nome))
-        if (f["dias_parado"] or 0) > 30:
+        if (f["dias_parado"] or 0) > 14:     # 16/11/2026: 30 dias escondia o buraco do Stake Ranked
             html += '<div class="aviso">{}: último mapa nos nossos dados em {} ({} dias) — pode ter jogado ' \
                     'torneio que não coletamos.</div>'.format(escape(nome), f["ultimo"], f["dias_parado"])
     html += ('<div class="nota">Modelo: a odd justa (1/chance) e a chance. Pinnacle: a odd que ela paga e a '

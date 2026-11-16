@@ -11,6 +11,14 @@ envelhece. Incremental e com ORCAMENTO de chamadas por corrida:
   3. nomes de time NOVOS -> {{Team|...}} (chamada pesada: 1 a cada 31 s);
   4. elencos dos times que jogaram e cujo elenco tem 7+ dias (50 por chamada).
 Para no primeiro 429 (liquipedia.Pausado) e sai com 75; o que ja leu fica salvo.
+
+TORNEIO SEM ANO NO NOME (16/11/2026; regra dele: "falta de jogos nao e aceitavel"). O filtro "2020+"
+lia o ano no NOME da pagina. Serie numerada nao tem ano: "Stake Ranked/Episode 6" (A-Tier, NIP,
+BIG, Inner Circle, Sangal...) e "ESEA/Season 58/Advanced/Europe" (C-Tier, dezenas de times) nunca
+entraram -- o NIP aparecia parado desde 15/10 jogando toda semana. Agora o titulo sem ano tem as
+DATAS lidas na propria pagina (infobox) e a decisao sai delas. E o tier C, que era listado UMA vez
+(27/10), entra na varredura diaria de torneios novos como S/A/B. O historico que ficou de fora
+(series sem ano de 2025+) entra como pendente e e coletado aos poucos (_listar_sem_ano).
 Indice dos torneios: torneios_cs.json (versionado, o robo nao tem o cache).
 
 Uso: python atualizar_dados.py [--orcamento 80] [--hoje AAAA-MM-DD] [--so-cache]
@@ -76,6 +84,18 @@ class Cliente:
         self.usadas += 1
         return lq.chamar(fresco=True, **params)
 
+    def cabecas(self, paginas: list) -> dict:
+        """{pagina: texto da secao 0 (onde fica o infobox)} de ate 50 paginas numa chamada so."""
+        d = self(action="query", prop="revisions", rvprop="content", rvslots="main", rvsection=0,
+                 titles="|".join(paginas[:50]))
+        ps = (d.get("query") or {}).get("pages") or []
+        ps = ps.values() if isinstance(ps, dict) else ps
+        fora = {}
+        for p in ps:
+            rev = (p.get("revisions") or [{}])[0]
+            fora[p.get("title")] = ((rev.get("slots") or {}).get("main") or {}).get("content", "") if rev else ""
+        return fora
+
     def texto(self, pagina: str) -> str:
         d = self(action="query", prop="revisions", rvprop="content", rvslots="main", titles=pagina)
         ps = (d.get("query") or {}).get("pages") or []
@@ -118,19 +138,74 @@ def substituir_paginas(antigas: pd.DataFrame, novas: list, paginas_relidas: set)
     return junto.drop_duplicates(subset=chave, keep="last")
 
 
-def _torneios_novos(cli, indice: dict) -> int:
+def anos_do_titulo(t: str) -> list:
+    """Pura: os anos (20xx) escritos no titulo da pagina."""
+    return [int(a) for a in re.findall(r"(?<!\d)(20\d\d)(?!\d)", str(t))]
+
+
+def decidir_novo(t: str, ano_min: int, ini, fim, hoje: date) -> dict | None:
+    """Pura: a entrada do indice para um torneio recem-visto, ou None se e antigo demais.
+    Data do infobox decide quando existe (o nome pode nao ter ano); sem data, o ano do nome.
+    Torneio que ja acabou (fim < hoje-7) nunca seria relido como ativo: entra PENDENTE para
+    ser coletado uma vez."""
+    ref = ini or fim
+    if ref:
+        if int(str(ref)[:4]) < ano_min:
+            return None
+    else:
+        anos = anos_do_titulo(t)
+        if not anos or max(anos) < ano_min:
+            return None
+    v = {"inicio": ini, "fim": fim}
+    acabou = fim and date.fromisoformat(fim) < hoje - timedelta(days=7)
+    if acabou:
+        v["pendente"] = True
+    return v
+
+
+def _torneios_novos(cli, indice: dict, hoje: date | None = None) -> int:
+    hoje = hoje or date.today()
     novos = 0
-    for tier, cat in TIERS:
+    for tier, cat, ano_min in [(t, c, ANO_MINIMO) for t, c in TIERS] + [("C", CAT_C, ANO_MINIMO_C)]:
         d = cli(action="query", list="categorymembers", cmtitle=cat, cmlimit=100, cmnamespace=0,
                 cmsort="timestamp", cmdir="desc")
         for x in (d.get("query") or {}).get("categorymembers", []):
             t = x["title"]
-            anos = [int(a) for a in re.findall(r"(?<!\d)(20\d\d)(?!\d)", t)]
-            if t in indice or not anos or max(anos) < ANO_MINIMO:
+            if t in indice:
+                continue
+            anos = anos_do_titulo(t)
+            if anos and max(anos) < ano_min:
                 continue
             ini, fim = datas_infobox(cli.texto(t))
-            indice[t] = {"tier": tier, "inicio": ini, "fim": fim}
+            v = decidir_novo(t, ano_min, ini, fim, hoje)
+            if v is None:
+                indice[t] = {"tier": tier, "inicio": ini, "fim": fim, "fora": True}   # nao reler amanha
+                continue
+            indice[t] = dict(v, tier=tier)
             novos += 1
+    return novos
+
+
+def _listar_sem_ano(cli, indice: dict) -> int:
+    """Uma vez: as paginas SEM ANO no nome das categorias S/A/B/C que nunca entraram no indice
+    viram pendentes; a coleta le as datas e descarta as antigas sem ler as subpaginas."""
+    if indice.get("_sem_ano_listado"):
+        return 0
+    novos = 0
+    for tier, cat in list(TIERS) + [("C", CAT_C)]:
+        cont = {}
+        while True:
+            d = cli(action="query", list="categorymembers", cmtitle=cat, cmlimit=500, cmnamespace=0, **cont)
+            for x in (d.get("query") or {}).get("categorymembers", []):
+                t = x["title"]
+                if t in indice or anos_do_titulo(t):
+                    continue
+                indice[t] = {"tier": tier, "inicio": None, "fim": None, "pendente": True, "sem_ano": True}
+                novos += 1
+            if "continue" not in d:
+                break
+            cont = dict(d["continue"])
+    indice["_sem_ano_listado"] = {"tier": "-", "inicio": None, "fim": None}
     return novos
 
 
@@ -206,14 +281,51 @@ def _listar_c(cli, indice: dict) -> int:
     return novos
 
 
+def ordem_pendente(indice: dict):
+    """A chave de ordem dos pendentes (do mais recente para o mais antigo): a data lida, senao o
+    ano do nome; serie sem ano e sem data ainda vai para o meio (2025), nao para o fim -- a maioria
+    das que faltam e de 2025-2026."""
+    def chave(t):
+        v = indice.get(t) or {}
+        if v.get("inicio") or v.get("fim"):
+            return str(v.get("inicio") or v.get("fim"))
+        anos = anos_do_titulo(t)
+        return f"{max(anos)}-06-30" if anos else "2025-06-30"
+    return chave
+
+
 def _coletar_pendentes(cli, indice: dict, linhas: list, relidas: set) -> tuple:
     """Torneios 'pendente' (tier C), do mais recente no nome para o mais antigo.
     linhas/relidas vem de fora e sao preenchidas no lugar: o que foi lido antes de
     acabar o orcamento NAO se perde."""
-    pend = sorted((t for t, v in indice.items() if v.get("pendente")),
-                  key=lambda t: max(re.findall(r"20\d\d", t) or ["0"]), reverse=True)
+    # 16/11/2026: as series sem ano no nome sao ~9 mil paginas, quase todas antigas. As DATAS saem em
+    # lote (50 paginas por chamada, so a secao do infobox): ~180 chamadas em vez de ~9 mil; as
+    # antigas saem da fila sem ler subpagina nenhuma.
+    sem_data = [t for t, v in indice.items() if isinstance(v, dict) and v.get("pendente")
+                and v.get("sem_ano") and not v.get("inicio") and not v.get("fim")]
+    for i in range(0, len(sem_data), 50):
+        for t, txt in cli.cabecas(sem_data[i:i + 50]).items():
+            if t not in indice:
+                continue
+            ini, fim = datas_infobox(txt)
+            indice[t].update(inicio=ini, fim=fim)
+            ref = ini or fim
+            tier = indice[t].get("tier") or "C"
+            if not ref or int(str(ref)[:4]) < (ANO_MINIMO_C if tier == "C" else ANO_MINIMO):
+                indice[t].update(pendente=False, fora=True)
+    pend = sorted((t for t, v in indice.items() if isinstance(v, dict) and v.get("pendente")),
+                  key=ordem_pendente(indice), reverse=True)
     feitos = 0
     for t in pend:
+        tier = indice[t].get("tier") or "C"
+        if indice[t].get("sem_ano") and not indice[t].get("inicio"):
+            # 16/11/2026: serie sem ano no nome -- primeiro as datas; antiga sai sem ler subpaginas
+            ini, fim = datas_infobox(cli.texto(t))
+            indice[t].update(inicio=ini, fim=fim)
+            ref = ini or fim
+            if not ref or int(str(ref)[:4]) < (ANO_MINIMO_C if tier == "C" else ANO_MINIMO):
+                indice[t].update(pendente=False, fora=True)
+                continue
         d = cli(action="query", list="allpages", apprefix=t + "/", aplimit=100, apnamespace=0)
         subs = [p["title"] for p in (d.get("query") or {}).get("allpages", [])]
         paginas = []
@@ -221,9 +333,9 @@ def _coletar_pendentes(cli, indice: dict, linhas: list, relidas: set) -> tuple:
             txt = cli.texto(pg)
             if pg == t:
                 ini, fim = datas_infobox(txt)
-                indice[t].update(inicio=ini, fim=fim)
+                indice[t].update(inicio=ini or indice[t].get("inicio"), fim=fim or indice[t].get("fim"))
             if "{{Match" in txt:
-                paginas.extend(ex.mapas_da_pagina(txt, pagina=pg, tier="C"))
+                paginas.extend(ex.mapas_da_pagina(txt, pagina=pg, tier=tier))
         linhas.extend(paginas)
         relidas.update([t, *subs])
         indice[t]["pendente"] = False
@@ -306,7 +418,7 @@ def main() -> int:
     rc, linhas, relidas, ativos, novos, agenda = 0, [], set(), [], 0, []
     try:
         if not a.so_cache:   # a lista "mais recentes" nunca esta no cache
-            novos = _torneios_novos(cli, indice)
+            novos = _torneios_novos(cli, indice, hoje)
         _reler_ativos(cli, indice, hoje, agenda, linhas, relidas, ativos)
     except (lq.Pausado, Orcamento) as e:
         print(f"[dados] parou: {type(e).__name__} {e}")
@@ -331,6 +443,7 @@ def main() -> int:
         cli.limite = max(cli.usadas, limite_total - RESERVA)
         try:
             print(f"[dados] torneios C listados: {_listar_c(cli, indice)}")
+            print(f"[dados] series sem ano no nome (pendentes novas): {_listar_sem_ano(cli, indice)}")
             lc, rc_c, feitos_c = _coletar_pendentes(cli, indice, lc, rc_c)
         except (lq.Pausado, Orcamento) as e:
             print(f"[dados] tier C parou: {type(e).__name__}")

@@ -24,6 +24,24 @@ class TestAtualizar(unittest.TestCase):
         self.assertFalse(ad.ativo({"inicio": "2026-11-11", "fim": "2026-11-15"}, hoje))
         self.assertFalse(ad.ativo({"inicio": None, "fim": None}, hoje))
 
+    def test_torneio_sem_ano_no_nome_decide_pela_data(self):
+        # 16/11/2026: "Stake Ranked/Episode 6" (A-Tier) nunca entrava: o filtro lia o ano no NOME
+        hoje = date(2026, 11, 16)
+        self.assertEqual(ad.anos_do_titulo("Stake Ranked/Episode 6"), [])
+        self.assertEqual(ad.anos_do_titulo("PGL/2027/Cluj-Napoca"), [2027])
+        v = ad.decidir_novo("Stake Ranked/Episode 6", 2020, "2026-11-17", "2026-11-20", hoje)
+        self.assertEqual(v, {"inicio": "2026-11-17", "fim": "2026-11-20"})
+        self.assertIsNone(ad.decidir_novo("ESEA/Season 33/Advanced/Europe", 2025, "2019-02-01", "2019-04-01", hoje))
+        self.assertIsNone(ad.decidir_novo("Copa Sem Data", 2020, None, None, hoje))
+        # ja acabou ha mais de 7 dias: nunca seria relido como ativo -> pendente (coleta uma vez)
+        self.assertTrue(ad.decidir_novo("Stake Ranked/Episode 5", 2020, "2026-10-27", "2026-10-30", hoje)["pendente"])
+
+    def test_ordem_dos_pendentes_mais_recente_primeiro(self):
+        idx = {"A/2026": {"pendente": True}, "Serie/Episode 3": {"pendente": True, "sem_ano": True},
+               "B/2025": {"pendente": True, "inicio": "2025-03-01"}, "C/2024": {"pendente": True}}
+        ordem = sorted(idx, key=ad.ordem_pendente(idx), reverse=True)
+        self.assertEqual(ordem, ["A/2026", "Serie/Episode 3", "B/2025", "C/2024"])
+
     def test_substitui_so_as_paginas_relidas(self):
         cols = ["pagina", "tier", "data", "time1", "time2", "mapa_n", "mapa", "rounds1", "rounds2",
                 "lado_inicial1", "vencedor", "prorrogacoes", "hltv"]
