@@ -306,7 +306,8 @@ def main() -> None:
             j = next(x for x in do_dia if x["id"] == jid)
             n_av = len(j["avisos"]) + len(j.get("pouco_dado") or []) + sum(
                 bool([x for x in f["jogadores"] if x["novo"]]) + (not f["elenco_conhecido"])
-                + ((f["dias_parado"] or 0) > 14) for f in j["fichas"] if f) + bool(j.get("qualificatoria"))
+                + ((f["dias_parado"] or 0) > 14) for f in j["fichas"] if f) + bool(j.get("qualificatoria")) \
+                + bool(j.get("fonte_sem_mapas"))
             alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
             components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
             if j.get("mercados_serie"):

@@ -124,6 +124,8 @@ def html_jogo(j) -> str:
                                         "encerrado": " · ENCERRADO"}.get(j.get("situacao"), ""))
     html = '<div class="topo"><span class="times">{} × {}</span><span class="meta">{}</span></div>'.format(
         escape(j["casa"]), escape(j["fora"]), escape(meta))
+    if j.get("fonte_sem_mapas"):
+        html += '<div class="aviso">Competição fora da base: {}.</div>'.format(escape(j["fonte_sem_mapas"]))
     if not j["precificado"]:
         return html + "".join('<div class="aviso">Não precificado — {}.</div>'.format(escape(a))
                               for a in j["avisos"]) + (

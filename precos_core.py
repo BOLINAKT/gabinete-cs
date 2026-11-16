@@ -27,7 +27,27 @@ import troca_elenco as te
 RAIZ = Path(__file__).resolve().parent
 # "sinners" (15/11/2026): a Pinnacle escreve "SINNERS" e existe um "Sinners" parado desde 2020;
 # o time de hoje e o SINNERS Esports.
-APELIDOS = {"bb team": "BetBoom Team", "sinners": "SINNERS Esports"}
+APELIDOS = {"bb team": "BetBoom Team", "sinners": "SINNERS Esports",
+            # 16/11/2026: com Imperial Female/Academy coletados, "Imperial" ficou ambiguo e parou de
+            # casar; na Polymarket (PGL Major Singapore, x Heroic) e o time principal.
+            "imperial": "Imperial Esports"}
+
+# FONTE SEM OS MAPAS (16/11/2026; regra dele: jogo que nao esta na base tem de ter o motivo dito).
+# Competicoes cujos jogos a Liquipedia NAO publica -- entao nao entram na base, e a tela diz isso.
+# Conferido na pagina: "ESEA/Season 59/Advanced/Europe" so tem a chave dos playoffs; a temporada
+# regular fica na FACEIT (link na propria pagina).
+FONTE_SEM_MAPAS = (("esea", "regular season",
+                    "a temporada regular da ESEA fica na FACEIT; a Liquipedia só publica os playoffs — "
+                    "os jogos dela não estão na base, e a forma recente destes times pode estar incompleta"),)
+
+
+def motivo_fonte_sem_mapas(liga: str) -> str:
+    """Pura: o motivo, se a competicao do jogo e uma das que a Liquipedia nao publica; senao ""."""
+    l = str(liga or "").lower()
+    for a, b, motivo in FONTE_SEM_MAPAS:
+        if a in l and b in l:
+            return motivo
+    return ""
 # Time casado mas PARADO ha mais de um ano: quase sempre homonimo antigo, nao o time de hoje.
 MAX_DIAS_SEM_JOGO = 365
 # Sem isso o Elo de um time e o de 1500 da estreia (ou o de um elenco antigo de
@@ -374,7 +394,8 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                 "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "pouco_dado": pouco,
                 "mercados": [],
                 "mapas": [mapas_do_time(est, tc, hoje), mapas_do_time(est, tf, hoje)],
-                "qualificatoria": e_qualificatoria(j.get("liga") or "")}
+                "qualificatoria": e_qualificatoria(j.get("liga") or ""),
+                "fonte_sem_mapas": motivo_fonte_sem_mapas(j.get("liga") or "")}
         jogo["veto"] = veto_provavel(*jogo["mapas"])
         if not avisos:
             pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
