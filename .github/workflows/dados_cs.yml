@@ -20,7 +20,7 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,7 +31,7 @@ jobs:
       - name: Atualizar mapas, nomes e elencos
         run: |
           set +e
-          python atualizar_dados.py --orcamento 300 --coletar-c
+          python atualizar_dados.py --orcamento 1200 --coletar-c   # 16/11/2026: fila de 1,7 mil torneios que faltavam (ritmo da Liquipedia: 1 chamada a cada 2,1 s)
           rc=$?
           set -e
           if [ "$rc" -eq 75 ]; then
