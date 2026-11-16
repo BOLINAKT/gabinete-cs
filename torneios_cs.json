@@ -32,7 +32,7 @@
 "18+ Energy Drink Cup/Nukus": {
 "fim": "2026-08-13",
 "inicio": "2026-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -73,7 +73,7 @@
 "1v1Me/Season 6": {
 "fim": "2026-07-19",
 "inicio": "2026-07-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -92,7 +92,7 @@
 "1win Private Club/1/Qualifier/Open": {
 "fim": "2026-09-05",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -497,21 +497,21 @@
 "5EPLAY/Growthvine League/Season 1": {
 "fim": "2026-04-26",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "5EPLAY/Growthvine League/Season 2": {
 "fim": "2026-07-12",
 "inicio": "2026-07-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "5EPLAY/Growthvine League/Season 2/Stage 1": {
 "fim": "2026-07-05",
 "inicio": "2026-07-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -590,7 +590,7 @@
 "5EPLAY/Pro League China vs Mongolia/Season 1": {
 "fim": "2026-07-31",
 "inicio": "2026-07-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -1772,7 +1772,7 @@
 "ACGL/Season 4": {
 "fim": "2026-07-05",
 "inicio": "2026-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -1904,7 +1904,7 @@
 "AMD Acer Regional Clutch": {
 "fim": "2026-06-28",
 "inicio": "2026-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3073,14 +3073,14 @@
 "Arrmy.gg/Masters League/Season 15": {
 "fim": "2026-05-10",
 "inicio": "2026-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Arrmy.gg/Masters League/Season 16": {
 "fim": "2026-08-16",
 "inicio": "2026-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3094,14 +3094,14 @@
 "Arrmy.gg/Open League/Season 15": {
 "fim": "2026-05-10",
 "inicio": "2026-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Arrmy.gg/Open League/Season 16": {
 "fim": "2026-08-16",
 "inicio": "2026-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3115,14 +3115,14 @@
 "Arrmy.gg/Rising League/Season 15": {
 "fim": "2026-05-10",
 "inicio": "2026-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Arrmy.gg/Rising League/Season 16": {
 "fim": "2026-08-16",
 "inicio": "2026-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3410,7 +3410,7 @@
 "Athena Cup/6": {
 "fim": "2026-08-09",
 "inicio": "2026-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3743,7 +3743,7 @@
 "BAZA x BETKING Cup": {
 "fim": "2026-08-01",
 "inicio": "2026-08-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3868,7 +3868,7 @@
 "BC.Game Masters Championship/1": {
 "fim": "2026-03-26",
 "inicio": "2026-03-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -3881,42 +3881,42 @@
 "BC.Game Masters/Female/Season 1/Europe": {
 "fim": "2026-07-26",
 "inicio": "2026-07-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BC.Game Masters/Female/Season 1/Europe/Qualifier/1": {
 "fim": "2026-06-28",
 "inicio": "2026-06-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BC.Game Masters/Female/Season 1/Europe/Qualifier/2": {
 "fim": "2026-07-05",
 "inicio": "2026-07-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BC.Game Masters/Female/Season 1/Europe/Qualifier/3": {
 "fim": "2026-07-12",
 "inicio": "2026-07-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BC.Game Masters/Female/Season 1/Europe/Qualifier/4": {
 "fim": "2026-07-19",
 "inicio": "2026-07-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BC.Game Masters/Season 1": {
 "fim": "2026-03-15",
 "inicio": "2026-03-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -4892,7 +4892,7 @@
 "BOTIRSHOT CUP/1": {
 "fim": "2026-07-26",
 "inicio": "2026-07-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -4913,28 +4913,28 @@
 "BRO CYBER LEAGUE/Season 1/AMATEURS Division": {
 "fim": "2026-08-22",
 "inicio": "2026-08-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BRO CYBER LEAGUE/Season 1/MEDIA Division": {
 "fim": "2026-08-26",
 "inicio": "2026-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BRO CYBER LEAGUE/Season 1/PRO Division": {
 "fim": "2026-08-30",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BRO CYBER LEAGUE/Season 1/SEMI-PRO Division": {
 "fim": "2026-08-23",
 "inicio": "2026-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5008,7 +5008,7 @@
 "Backforce Masters": {
 "fim": "2026-03-08",
 "inicio": "2026-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5669,21 +5669,21 @@
 "BestFive/Elite Competition/Seoul": {
 "fim": "2026-05-24",
 "inicio": "2026-05-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BestFive/Elite Competition/Tokyo": {
 "fim": "2026-05-31",
 "inicio": "2026-05-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BestFive/Masters/1": {
 "fim": "2026-08-16",
 "inicio": "2026-07-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5730,35 +5730,35 @@
 "BetBoom Storm/1": {
 "fim": "2026-03-13",
 "inicio": "2026-03-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BetBoom Storm/2": {
 "fim": "2026-04-09",
 "inicio": "2026-03-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BetBoom Storm/2/Qualifier": {
 "fim": "2026-03-22",
 "inicio": "2026-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BetBoom Storm/3": {
 "fim": "2026-05-24",
 "inicio": "2026-05-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BetBoom Storm/4": {
 "fim": "2026-08-16",
 "inicio": "2026-08-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -6612,7 +6612,7 @@
 "Bredband2 Cup/3": {
 "fim": "2026-04-25",
 "inicio": "2026-04-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -6708,21 +6708,21 @@
 "Burning Wings Rivals/Season 1": {
 "fim": "2026-04-21",
 "inicio": "2026-04-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Burning Wings Rivals/Season 2": {
 "fim": "2026-05-30",
 "inicio": "2026-05-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Burning Wings Rivals/Season 3": {
 "fim": "2026-06-30",
 "inicio": "2026-06-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -8976,14 +8976,14 @@
 "CCT/Season 3/Europe/Series 17": {
 "fim": "2026-03-13",
 "inicio": "2026-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 17/Play-In": {
 "fim": "2026-02-28",
 "inicio": "2026-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -8997,42 +8997,42 @@
 "CCT/Season 3/Europe/Series 18": {
 "fim": "2026-03-20",
 "inicio": "2026-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 18/Play-In": {
 "fim": "2026-03-07",
 "inicio": "2026-03-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 18/Play-In/Qualifier": {
 "fim": "2026-02-22",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 19": {
 "fim": "2026-04-03",
 "inicio": "2026-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 19/Play-In": {
 "fim": "2026-03-21",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 19/Play-In/Qualifier": {
 "fim": "2026-03-08",
 "inicio": "2026-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9053,21 +9053,21 @@
 "CCT/Season 3/Europe/Series 20": {
 "fim": "2026-04-10",
 "inicio": "2026-03-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 20/Play-In": {
 "fim": "2026-03-28",
 "inicio": "2026-03-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 20/Play-In/Qualifier": {
 "fim": "2026-03-15",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9205,14 +9205,14 @@
 "CCT/Season 3/North America/Series 4": {
 "fim": "2026-04-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/North America/Series 4/Qualifier": {
 "fim": "2026-03-22",
 "inicio": "2026-03-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9261,7 +9261,7 @@
 "CCT/Season 3/Oceania/Series 4": {
 "fim": "2026-02-28",
 "inicio": "2026-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9282,14 +9282,14 @@
 "CCT/Season 3/South America/Series 10": {
 "fim": "2026-03-25",
 "inicio": "2026-03-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/South America/Series 10/Qualifier": {
 "fim": "2026-03-01",
 "inicio": "2026-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9387,7 +9387,7 @@
 "CCT/Season 3/South America/Series 9": {
 "fim": "2026-03-05",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -9955,28 +9955,28 @@
 "CIS LAN Championship/3": {
 "fim": "2026-03-12",
 "inicio": "2026-03-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CIS LAN Championship/4": {
 "fim": "2026-04-05",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CIS LAN Championship/5": {
 "fim": "2026-05-28",
 "inicio": "2026-05-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CIS LAN Championship/6": {
 "fim": "2026-07-30",
 "inicio": "2026-07-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -10173,21 +10173,21 @@
 "CROSSFIRE/Season 4": {
 "fim": "2026-04-24",
 "inicio": "2026-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CROSSFIRE/Season 5": {
 "fim": "2026-07-09",
 "inicio": "2026-06-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CROSSFIRE/Season 6": {
 "fim": "2026-10-07",
 "inicio": "2026-08-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11127,7 +11127,7 @@
 "CTRLPOINT Asia/Season 1": {
 "fim": "2026-07-20",
 "inicio": "2026-07-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11520,7 +11520,7 @@
 "Circuit X/Base/Recife": {
 "fim": "2026-05-31",
 "inicio": "2026-05-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11541,14 +11541,14 @@
 "Circuit X/Mayhem/São Paulo": {
 "fim": "2026-04-05",
 "inicio": "2026-04-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Circuit X/Pantanal/Cuiabá": {
 "fim": "2026-03-08",
 "inicio": "2026-03-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -13269,35 +13269,35 @@
 "CyberClash/Open": {
 "fim": "2026-08-30",
 "inicio": "2026-08-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CyberClash/Open/Qualifier/1": {
 "fim": "2026-08-15",
 "inicio": "2026-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CyberClash/Open/Qualifier/2": {
 "fim": "2026-08-16",
 "inicio": "2026-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CyberClash/Open/Qualifier/3": {
 "fim": "2026-08-22",
 "inicio": "2026-08-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CyberClash/Open/Qualifier/4": {
 "fim": "2026-08-23",
 "inicio": "2026-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -13620,7 +13620,7 @@
 "CyberSpace Cup": {
 "fim": "2026-02-22",
 "inicio": "2026-02-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -14180,28 +14180,28 @@
 "DACH CS Masters/Season 5": {
 "fim": "2026-06-27",
 "inicio": "2026-03-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 5/Division 2": {
 "fim": "2026-05-24",
 "inicio": "2026-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 5/Division 3": {
 "fim": "2026-06-13",
 "inicio": "2026-03-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 5/Relegation": {
 "fim": "2026-06-15",
 "inicio": "2026-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -14215,42 +14215,42 @@
 "DACH CS Masters/Season 6/Division 2": {
 "fim": "2026-11-15",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 6/Division 2/Qualifier": {
 "fim": "2026-08-09",
 "inicio": "2026-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 6/Division 3": {
 "fim": "2026-11-28",
 "inicio": "2026-09-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 6/Qualifier": {
 "fim": "2026-08-10",
 "inicio": "2026-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 6/Qualifier/Open": {
 "fim": "2026-08-08",
 "inicio": "2026-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 6/Regular Season": {
 "fim": "2026-11-11",
 "inicio": "2026-08-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -14361,49 +14361,49 @@
 "DFRAG/Open Series/4": {
 "fim": "2026-04-19",
 "inicio": "2026-04-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Open Series/4/Qualifier": {
 "fim": "2026-03-31",
 "inicio": "2026-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Open Series/5": {
 "fim": "2026-06-18",
 "inicio": "2026-06-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Open Series/5/Qualifier": {
 "fim": "2026-06-02",
 "inicio": "2026-06-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Open Series/6": {
 "fim": "2026-08-13",
 "inicio": "2026-08-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Open Series/6/Qualifier": {
 "fim": "2026-07-22",
 "inicio": "2026-07-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DFRAG/Wildcard LAN/Season 1": {
 "fim": "2026-03-15",
 "inicio": "2026-03-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -15008,7 +15008,7 @@
 "Douyu x Bilibili Fight Wild Goddesses/Season 2": {
 "fim": "2026-06-28",
 "inicio": "2026-06-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -15203,14 +15203,14 @@
 "DraculaN/Season 5": {
 "fim": "2026-02-28",
 "inicio": "2026-02-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "DraculaN/Season 6": {
 "fim": "2026-04-02",
 "inicio": "2026-03-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -15284,7 +15284,7 @@
 "Dream League Portugal/Season 7": {
 "fim": "2026-05-10",
 "inicio": "2026-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16089,14 +16089,14 @@
 "Dust2.dk/Divisionerne/Season 31/Division 1": {
 "fim": "2026-03-19",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.dk/Divisionerne/Season 32/Division 1": {
 "fim": "2026-06-18",
 "inicio": "2026-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16439,7 +16439,7 @@
 "Dust2.dk/Ligaen/Season 31": {
 "fim": "2026-03-15",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16453,14 +16453,14 @@
 "Dust2.dk/Ligaen/Season 32": {
 "fim": "2026-06-13",
 "inicio": "2026-06-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.dk/Ligaen/Season 32/Online Stage": {
 "fim": "2026-06-09",
 "inicio": "2026-04-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16884,21 +16884,21 @@
 "Dust2.us/Eagle Masters Series/7": {
 "fim": "2026-04-19",
 "inicio": "2026-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.us/Eagle Masters Series/8": {
 "fim": "2026-06-19",
 "inicio": "2026-05-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.us/Eagle Masters Series/9": {
 "fim": "2026-08-28",
 "inicio": "2026-08-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17146,14 +17146,14 @@
 "E-spordi Meistriliiga/Season 4": {
 "fim": "2026-05-30",
 "inicio": "2026-05-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "E-spordi Meistriliiga/Season 4/Online Stage": {
 "fim": "2026-05-24",
 "inicio": "2026-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17244,14 +17244,14 @@
 "E-sporta Virslīga/Season 6": {
 "fim": "2026-05-10",
 "inicio": "2026-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "E-sporta Virslīga/Season 6/Online Stage": {
 "fim": "2026-05-03",
 "inicio": "2026-03-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17387,7 +17387,7 @@
 "EFC/Yerevan Duel Arena": {
 "fim": "2026-04-10",
 "inicio": "2026-04-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17920,14 +17920,14 @@
 "EPIC.LAN/47": {
 "fim": "2026-02-22",
 "inicio": "2026-02-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "EPIC.LAN/48": {
 "fim": "2026-07-19",
 "inicio": "2026-07-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -23551,14 +23551,14 @@
 "ESEA/Season 56/Finals/Europe": {
 "fim": "2026-03-29",
 "inicio": "2026-03-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 56/Finals/North America": {
 "fim": "2026-03-29",
 "inicio": "2026-03-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -23635,119 +23635,119 @@
 "ESEA/Season 57/Advanced/Europe": {
 "fim": "2026-06-15",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Advanced/North America": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Entry/Europe": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Finals/Europe": {
 "fim": "2026-06-21",
 "inicio": "2026-06-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Finals/North America": {
 "fim": "2026-06-21",
 "inicio": "2026-06-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Intermediate/Europe": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Intermediate/North America": {
 "fim": "2026-06-10",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Main/Europe": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Main/North America": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Open/Asia": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Open/Oceania": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Open/South America": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Open10/Europe": {
 "fim": "2026-06-14",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 57/Open10/North America": {
 "fim": "2026-06-12",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Advanced/Europe": {
 "fim": "2026-09-18",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Advanced/North America": {
 "fim": "2026-09-18",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Entry/Europe": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -23775,70 +23775,70 @@
 "ESEA/Season 58/Intermediate/Europe": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Intermediate/North America": {
 "fim": "2026-09-18",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Intermediate/Oceania": {
 "fim": "2026-09-17",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Main/Europe": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Main/North America": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Open/Asia": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Open/Oceania": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Open/South America": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Open10/Europe": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 58/Open10/North America": {
 "fim": "2026-09-20",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -25891,42 +25891,42 @@
 "ESL/Challenger League/Season 51/Asia-Pacific": {
 "fim": "2026-05-28",
 "inicio": "2026-05-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/Asia/Cup 1": {
 "fim": "2026-02-24",
 "inicio": "2026-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Asia/Cup 2": {
 "fim": "2026-03-27",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Asia/Cup 3": {
 "fim": "2026-04-09",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Asia/Cup 4": {
 "fim": "2026-05-03",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Europe": {
 "fim": "2026-05-28",
 "inicio": "2026-05-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -25940,119 +25940,119 @@
 "ESL/Challenger League/Season 51/Europe/Cup 2": {
 "fim": "2026-03-27",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/Europe/Cup 3": {
 "fim": "2026-04-09",
 "inicio": "2026-03-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/Europe/Cup 4": {
 "fim": "2026-05-03",
 "inicio": "2026-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/North America": {
 "fim": "2026-05-28",
 "inicio": "2026-05-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/North America/Cup 1": {
 "fim": "2026-02-24",
 "inicio": "2026-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/North America/Cup 2": {
 "fim": "2026-03-27",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/North America/Cup 3": {
 "fim": "2026-04-09",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/North America/Cup 4": {
 "fim": "2026-05-03",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/Oceania/Cup 1": {
 "fim": "2026-02-24",
 "inicio": "2026-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Oceania/Cup 2": {
 "fim": "2026-03-27",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Oceania/Cup 3": {
 "fim": "2026-04-09",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/Oceania/Cup 4": {
 "fim": "2026-05-03",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 51/South America": {
 "fim": "2026-05-28",
 "inicio": "2026-05-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/South America/Cup 1": {
 "fim": "2026-02-24",
 "inicio": "2026-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/South America/Cup 2": {
 "fim": "2026-03-27",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/South America/Cup 3": {
 "fim": "2026-04-09",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 51/South America/Cup 4": {
 "fim": "2026-05-03",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -26064,7 +26064,7 @@
 "ESL/Challenger League/Season 52/Asia/Cup 1": {
 "fim": "2026-09-01",
 "inicio": "2026-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -26097,7 +26097,7 @@
 "ESL/Challenger League/Season 52/Europe/Cup 1": {
 "fim": "2026-07-14",
 "inicio": "2026-07-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -26139,35 +26139,35 @@
 "ESL/Challenger League/Season 52/Europe/Cup 2": {
 "fim": "2026-08-04",
 "inicio": "2026-08-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 52/Europe/Cup 3": {
 "fim": "2026-08-16",
 "inicio": "2026-08-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 52/Europe/Cup 4": {
 "fim": "2026-08-20",
 "inicio": "2026-08-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 52/Europe/Cup 5": {
 "fim": "2026-09-01",
 "inicio": "2026-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 52/Europe/Cup 6": {
 "fim": "2026-09-08",
 "inicio": "2026-09-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -26230,7 +26230,7 @@
 "ESL/Challenger League/Season 52/Oceania/Cup 1": {
 "fim": "2026-09-01",
 "inicio": "2026-08-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -31984,14 +31984,14 @@
 "Eclipse Masters League/Season 1": {
 "fim": "2026-04-04",
 "inicio": "2026-03-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Eclipse Masters League/Season 2": {
 "fim": "2026-07-04",
 "inicio": "2026-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32182,7 +32182,7 @@
 "Elisa/BreakOut Series/1": {
 "fim": "2026-08-01",
 "inicio": "2026-07-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32345,7 +32345,7 @@
 "Elisa/Open Suomi/Season 12": {
 "fim": "2026-04-12",
 "inicio": "2026-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32373,21 +32373,21 @@
 "Elisa/Open Suomi/Season 13": {
 "fim": "2026-05-31",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 13/Qualifier/1": {
 "fim": "2026-04-18",
 "inicio": "2026-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 13/Qualifier/2": {
 "fim": "2026-04-19",
 "inicio": "2026-04-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32981,7 +32981,7 @@
 "Epicbet Open/1": {
 "fim": "2026-07-05",
 "inicio": "2026-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -33057,7 +33057,7 @@
 "Esplay/Elite Gaming/1": {
 "fim": "2026-05-02",
 "inicio": "2026-05-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -33690,14 +33690,14 @@
 "Esporto A Lyga/Season 3": {
 "fim": "2026-05-31",
 "inicio": "2026-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esporto A Lyga/Season 3/Online Stage": {
 "fim": "2026-05-17",
 "inicio": "2026-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -34564,42 +34564,42 @@
 "Esports League Super Cup": {
 "fim": "2026-03-22",
 "inicio": "2026-03-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esports League Super Cup/Media Division": {
 "fim": "2026-03-22",
 "inicio": "2026-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esports League Super Cup/Qualifier/1": {
 "fim": "2026-02-27",
 "inicio": "2026-02-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esports League Super Cup/Qualifier/2": {
 "fim": "2026-02-28",
 "inicio": "2026-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esports League Super Cup/Qualifier/3": {
 "fim": "2026-03-01",
 "inicio": "2026-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esports League Super Cup/Qualifier/4": {
 "fim": "2026-03-02",
 "inicio": "2026-03-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35362,21 +35362,21 @@
 "European Pro League/Regular/Season 4": {
 "fim": "2026-05-04",
 "inicio": "2026-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Regular/Season 5": {
 "fim": "2026-05-25",
 "inicio": "2026-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Regular/Season 6": {
 "fim": "2026-08-20",
 "inicio": "2026-08-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35856,7 +35856,7 @@
 "European Pro League/Series 5": {
 "fim": "2026-03-11",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35870,56 +35870,56 @@
 "European Pro League/Series 6": {
 "fim": "2026-04-16",
 "inicio": "2026-03-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 6/Play-In": {
 "fim": "2026-03-27",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 6/Play-In/Qualifier/1": {
 "fim": "2026-03-14",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 6/Play-In/Qualifier/2": {
 "fim": "2026-03-15",
 "inicio": "2026-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 7": {
 "fim": "2026-06-22",
 "inicio": "2026-06-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 7/Play-In": {
 "fim": "2026-06-03",
 "inicio": "2026-05-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 8": {
 "fim": "2026-07-24",
 "inicio": "2026-07-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 8/Play-In": {
 "fim": "2026-07-05",
 "inicio": "2026-06-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35933,7 +35933,7 @@
 "European Pro League/Series 9/Play-In": {
 "fim": "2026-09-11",
 "inicio": "2026-08-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36202,49 +36202,49 @@
 "Exort Series/23": {
 "fim": "2026-03-15",
 "inicio": "2026-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/24": {
 "fim": "2026-04-05",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/25": {
 "fim": "2026-04-26",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/26": {
 "fim": "2026-05-17",
 "inicio": "2026-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/27": {
 "fim": "2026-06-07",
 "inicio": "2026-05-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/28": {
 "fim": "2026-06-28",
 "inicio": "2026-06-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/29": {
 "fim": "2026-07-19",
 "inicio": "2026-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36259,21 +36259,21 @@
 "Exort Series/30": {
 "fim": "2026-08-09",
 "inicio": "2026-07-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/31": {
 "fim": "2026-08-30",
 "inicio": "2026-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/32": {
 "fim": "2026-09-20",
 "inicio": "2026-08-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36364,35 +36364,35 @@
 "Exort/Meteor/Season 2": {
 "fim": "2026-03-04",
 "inicio": "2026-02-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort/Meteor/Season 3": {
 "fim": "2026-03-20",
 "inicio": "2026-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort/Meteor/Season 4": {
 "fim": "2026-04-06",
 "inicio": "2026-03-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort/Meteor/Season 5": {
 "fim": "2026-04-20",
 "inicio": "2026-04-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort/Meteor/South America/Season 1": {
 "fim": "2026-04-06",
 "inicio": "2026-03-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -37531,7 +37531,7 @@
 "FASTCUP/Rising/South America/Season 1": {
 "fim": "2026-08-23",
 "inicio": "2026-08-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -37851,7 +37851,7 @@
 "FISSURE/Playground/3/Qualifier": {
 "fim": "2026-03-03",
 "inicio": "2026-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -38352,7 +38352,7 @@
 "FRAG.gg/Battle Cup/6": {
 "fim": "2026-08-09",
 "inicio": "2026-08-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -38813,7 +38813,7 @@
 "FRAG.gg/Season 17": {
 "fim": "2026-05-31",
 "inicio": "2026-05-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -38975,14 +38975,14 @@
 "FRAG.gg/UPGrade Masters Cup": {
 "fim": "2026-09-06",
 "inicio": "2026-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG/20": {
 "fim": "2026-04-26",
 "inicio": "2026-04-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -39281,56 +39281,56 @@
 "Fiesta Series/1": {
 "fim": "2026-08-30",
 "inicio": "2026-08-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/1/Qualifier": {
 "fim": "2026-08-17",
 "inicio": "2026-08-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/1/Qualifier/Open/1": {
 "fim": "2026-08-09",
 "inicio": "2026-08-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/1/Qualifier/Open/2": {
 "fim": "2026-08-11",
 "inicio": "2026-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/2": {
 "fim": "2026-09-23",
 "inicio": "2026-09-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/2/Qualifier": {
 "fim": "2026-09-10",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/2/Qualifier/Open/1": {
 "fim": "2026-09-02",
 "inicio": "2026-09-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fiesta Series/2/Qualifier/Open/2": {
 "fim": "2026-09-04",
 "inicio": "2026-09-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -40206,7 +40206,7 @@
 "Frag-o-Matic/27.1": {
 "fim": "2026-09-06",
 "inicio": "2026-09-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -41413,63 +41413,63 @@
 "Fragster Challenger/EU Arena/1/Weekly Cup/1": {
 "fim": "2026-02-22",
 "inicio": "2026-02-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/2": {
 "fim": "2026-03-01",
 "inicio": "2026-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/3": {
 "fim": "2026-03-08",
 "inicio": "2026-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/4": {
 "fim": "2026-03-15",
 "inicio": "2026-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/5": {
 "fim": "2026-03-22",
 "inicio": "2026-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/6": {
 "fim": "2026-03-29",
 "inicio": "2026-03-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/7": {
 "fim": "2026-04-05",
 "inicio": "2026-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/EU Arena/1/Weekly Cup/8": {
 "fim": "2026-04-12",
 "inicio": "2026-04-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Fragster Challenger/Masters/1": {
 "fim": "2026-04-19",
 "inicio": "2026-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -42353,28 +42353,28 @@
 "GGMEDIA/Challenger Series/Season 1/China": {
 "fim": "2026-07-08",
 "inicio": "2026-07-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GGMEDIA/Challenger Series/Season 1/Mongolia": {
 "fim": "2026-07-08",
 "inicio": "2026-07-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GGMEDIA/Challenger Series/Season 1/Oceania": {
 "fim": "2026-07-08",
 "inicio": "2026-07-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GGMEDIA/Challenger Series/Season 1/Rest of Asia": {
 "fim": "2026-07-08",
 "inicio": "2026-07-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -42387,21 +42387,21 @@
 "GGMEDIA/Challenger Series/Season 2/China": {
 "fim": "2026-08-30",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GGMEDIA/Challenger Series/Season 2/Oceania": {
 "fim": "2026-08-30",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GGMEDIA/Challenger Series/Season 2/Rest of Asia": {
 "fim": "2026-08-30",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -42440,7 +42440,7 @@
 "GLuck SixSeven/Season 1": {
 "fim": "2026-04-07",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -42454,7 +42454,7 @@
 "GLuck StarPearl/Season 2": {
 "fim": "2026-03-29",
 "inicio": "2026-03-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -42809,7 +42809,7 @@
 "GOMEL CYBER LEAGUE/1": {
 "fim": "2026-05-10",
 "inicio": "2026-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -43031,14 +43031,14 @@
 "Galaxy Battle/LAN-Station/1/Online Stage/Qualifier/Europe": {
 "fim": "2026-08-10",
 "inicio": "2026-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Galaxy Battle/LAN-Station/1/Online Stage/Qualifier/Ukraine": {
 "fim": "2026-08-08",
 "inicio": "2026-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -44277,7 +44277,7 @@
 "Gamers Club/Operação: Dia do Gamer": {
 "fim": "2026-08-30",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -44292,7 +44292,7 @@
 "Gamers Club/Retake Cup": {
 "fim": "2026-07-31",
 "inicio": "2026-07-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -44550,14 +44550,14 @@
 "GangKui Cup/Season 2": {
 "fim": "2026-04-05",
 "inicio": "2026-04-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GangKui Cup/Season 2/Qualifier": {
 "fim": "2026-03-29",
 "inicio": "2026-03-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -45199,7 +45199,7 @@
 "Generation NSTLGA/Washington Open": {
 "fim": "2026-03-22",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -46268,7 +46268,7 @@
 "Got Your 6 Gaming": {
 "fim": "2026-05-24",
 "inicio": "2026-05-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -46298,7 +46298,7 @@
 "Green Tree Esports/Xi'an Bounty": {
 "fim": "2026-06-21",
 "inicio": "2026-06-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -46452,7 +46452,7 @@
 "HLC Cyprus PRO": {
 "fim": "2026-04-05",
 "inicio": "2026-04-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -47284,28 +47284,28 @@
 "Hotspawn/10k Showdown/Qualifier/Open/1": {
 "fim": "2026-08-29",
 "inicio": "2026-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Hotspawn/10k Showdown/Qualifier/Open/2": {
 "fim": "2026-08-30",
 "inicio": "2026-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Hotspawn/10k Showdown/Qualifier/Open/3": {
 "fim": "2026-09-05",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Hotspawn/10k Showdown/Qualifier/Open/4": {
 "fim": "2026-09-06",
 "inicio": "2026-09-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -47926,7 +47926,7 @@
 "IKin Open Cup/1": {
 "fim": "2026-07-20",
 "inicio": "2026-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -48001,7 +48001,7 @@
 "IZI WEX/Season 1": {
 "fim": "2026-03-06",
 "inicio": "2026-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -48585,7 +48585,7 @@
 "InsaLan/XX": {
 "fim": "2026-03-08",
 "inicio": "2026-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51638,7 +51638,7 @@
 "Jomi Vahdati Milli": {
 "fim": "2026-06-21",
 "inicio": "2026-06-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51956,7 +51956,7 @@
 "Kaganat Cup": {
 "fim": "2026-04-26",
 "inicio": "2026-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -52063,7 +52063,7 @@
 "Kaysan x Betya Showdown": {
 "fim": "2026-07-15",
 "inicio": "2026-07-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -52165,105 +52165,105 @@
 "Kibertochka/Season 1": {
 "fim": "2026-04-26",
 "inicio": "2026-04-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 1/Qualifier/1": {
 "fim": "2026-04-14",
 "inicio": "2026-04-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 1/Qualifier/2": {
 "fim": "2026-04-15",
 "inicio": "2026-04-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 1/Qualifier/3": {
 "fim": "2026-04-16",
 "inicio": "2026-04-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 1/Qualifier/4": {
 "fim": "2026-04-17",
 "inicio": "2026-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2": {
 "fim": "2026-08-30",
 "inicio": "2026-08-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier": {
 "fim": "2026-07-28",
 "inicio": "2026-07-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/1": {
 "fim": "2026-07-15",
 "inicio": "2026-07-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/2": {
 "fim": "2026-07-16",
 "inicio": "2026-07-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/3": {
 "fim": "2026-07-17",
 "inicio": "2026-07-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/4": {
 "fim": "2026-07-18",
 "inicio": "2026-07-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/5": {
 "fim": "2026-07-19",
 "inicio": "2026-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/6": {
 "fim": "2026-07-20",
 "inicio": "2026-07-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/7": {
 "fim": "2026-07-21",
 "inicio": "2026-07-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kibertochka/Season 2/Qualifier/Open/8": {
 "fim": "2026-07-22",
 "inicio": "2026-07-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54236,7 +54236,7 @@
 "LANGAME Challenge/Season 2": {
 "fim": "2026-03-01",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54322,7 +54322,7 @@
 "LD Challengers/Series 1": {
 "fim": "2026-10-03",
 "inicio": "2026-09-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54385,14 +54385,14 @@
 "LOOP Cup/Season 1": {
 "fim": "2026-03-22",
 "inicio": "2026-03-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LOOP Cup/Season 1/Qualifier": {
 "fim": "2026-03-15",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54603,77 +54603,77 @@
 "LORGAR RANKINGS/Season 1": {
 "fim": "2026-04-26",
 "inicio": "2026-04-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "LORGAR RANKINGS/Season 1/Qualifier": {
 "fim": "2026-04-10",
 "inicio": "2026-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Balkan": {
 "fim": "2026-03-14",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Baltic": {
 "fim": "2026-03-14",
 "inicio": "2026-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Bulgaria": {
 "fim": "2026-03-12",
 "inicio": "2026-03-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Czech Republic": {
 "fim": "2026-03-13",
 "inicio": "2026-03-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Hungary": {
 "fim": "2026-03-12",
 "inicio": "2026-03-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Poland": {
 "fim": "2026-03-15",
 "inicio": "2026-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Romania": {
 "fim": "2026-03-13",
 "inicio": "2026-03-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Slovakia": {
 "fim": "2026-03-13",
 "inicio": "2026-03-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LORGAR RANKINGS/Season 1/Qualifier/Ukraine": {
 "fim": "2026-03-15",
 "inicio": "2026-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -56194,7 +56194,7 @@
 "Lock and Load/17": {
 "fim": "2026-02-21",
 "inicio": "2026-02-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -56839,7 +56839,7 @@
 "MESA/League/Season 5": {
 "fim": "2026-03-22",
 "inicio": "2026-03-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -57169,7 +57169,7 @@
 "META Esports Kazakhstan/Cup/Season 4": {
 "fim": "2026-02-22",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -57429,14 +57429,14 @@
 "MISS-CS/Sawasdee Series/1": {
 "fim": "2026-04-05",
 "inicio": "2026-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MISS-CS/Sawasdee Series/2": {
 "fim": "2026-06-28",
 "inicio": "2026-06-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -58074,7 +58074,7 @@
 "Master League Portugal/Season 18": {
 "fim": "2026-03-01",
 "inicio": "2026-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -59421,7 +59421,7 @@
 "MySkill/Pro League/Series 2": {
 "fim": "2026-02-27",
 "inicio": "2026-02-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60018,7 +60018,7 @@
 "NODWIN Gaming/Clutch Series/10/Play-In": {
 "fim": "2026-07-21",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60031,7 +60031,7 @@
 "NODWIN Gaming/Clutch Series/11/Play-In": {
 "fim": "2026-08-19",
 "inicio": "2026-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60044,7 +60044,7 @@
 "NODWIN Gaming/Clutch Series/12/Play-In": {
 "fim": "2026-09-13",
 "inicio": "2026-09-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60118,7 +60118,7 @@
 "NODWIN Gaming/Clutch Series/5": {
 "fim": "2026-03-05",
 "inicio": "2026-02-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -60132,56 +60132,56 @@
 "NODWIN Gaming/Clutch Series/6": {
 "fim": "2026-04-02",
 "inicio": "2026-03-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "NODWIN Gaming/Clutch Series/6/Play-In": {
 "fim": "2026-03-15",
 "inicio": "2026-03-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NODWIN Gaming/Clutch Series/7": {
 "fim": "2026-04-27",
 "inicio": "2026-04-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "NODWIN Gaming/Clutch Series/7/Play-In": {
 "fim": "2026-04-12",
 "inicio": "2026-04-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NODWIN Gaming/Clutch Series/8": {
 "fim": "2026-05-21",
 "inicio": "2026-05-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "NODWIN Gaming/Clutch Series/8/Play-In": {
 "fim": "2026-05-06",
 "inicio": "2026-04-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NODWIN Gaming/Clutch Series/9": {
 "fim": "2026-06-17",
 "inicio": "2026-06-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "NODWIN Gaming/Clutch Series/9/Play-In": {
 "fim": "2026-05-31",
 "inicio": "2026-05-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60194,14 +60194,14 @@
 "NSTLGA League/Season 1": {
 "fim": "2026-06-14",
 "inicio": "2026-05-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NSTLGA League/Season 2": {
 "fim": "2026-09-13",
 "inicio": "2026-08-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60215,7 +60215,7 @@
 "NUKE-Liiga/Season 2": {
 "fim": "2026-05-16",
 "inicio": "2026-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -60617,7 +60617,7 @@
 "Nazarbayev University Major": {
 "fim": "2026-04-18",
 "inicio": "2026-04-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -62551,7 +62551,7 @@
 "OneTab Tournament": {
 "fim": "2026-05-31",
 "inicio": "2026-05-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64164,7 +64164,7 @@
 "POLI E-FEST/4": {
 "fim": "2026-04-04",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64551,56 +64551,56 @@
 "Parken Challenger Championship/1": {
 "fim": "2026-02-24",
 "inicio": "2026-02-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/2": {
 "fim": "2026-03-10",
 "inicio": "2026-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/3": {
 "fim": "2026-04-02",
 "inicio": "2026-03-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/4": {
 "fim": "2026-04-12",
 "inicio": "2026-04-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/5": {
 "fim": "2026-04-20",
 "inicio": "2026-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/6": {
 "fim": "2026-05-11",
 "inicio": "2026-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/7": {
 "fim": "2026-05-17",
 "inicio": "2026-05-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Parken Challenger Championship/8": {
 "fim": "2026-05-24",
 "inicio": "2026-05-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -65227,7 +65227,7 @@
 "Perfect World/TOP League/Season 23": {
 "fim": "2026-05-31",
 "inicio": "2026-05-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -65470,7 +65470,7 @@
 "Pixel Palace/Community Cup/2": {
 "fim": "2026-08-03",
 "inicio": "2026-07-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -65517,7 +65517,7 @@
 "PlayCS.gg/Shavuot Tournament": {
 "fim": "2026-05-14",
 "inicio": "2026-05-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -66179,7 +66179,7 @@
 "PolyLAN/43": {
 "fim": "2026-05-17",
 "inicio": "2026-05-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -66297,7 +66297,7 @@
 "Premier League/Season 2": {
 "fim": "2026-03-03",
 "inicio": "2026-02-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -66694,7 +66694,7 @@
 "QG Liga Global/1": {
 "fim": "2026-04-26",
 "inicio": "2026-04-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -68099,7 +68099,7 @@
 "RCGD Cup/Season 1": {
 "fim": "2026-08-27",
 "inicio": "2026-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -68434,7 +68434,7 @@
 "RGG Invitational/Season 3": {
 "fim": "2026-05-11",
 "inicio": "2026-05-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -70202,7 +70202,7 @@
 "Rofl Streamers Battle": {
 "fim": "2026-03-17",
 "inicio": "2026-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -70237,7 +70237,7 @@
 "Roman Imperium Cup/5": {
 "fim": "2026-02-22",
 "inicio": "2026-02-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -70256,7 +70256,7 @@
 "Roman Imperium Cup/8": {
 "fim": "2026-09-13",
 "inicio": "2026-09-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -71244,7 +71244,7 @@
 "STROGO FONCUP 2x2": {
 "fim": "2026-07-18",
 "inicio": "2026-07-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -71331,7 +71331,7 @@
 "Sangal Rivals": {
 "fim": "2026-08-28",
 "inicio": "2026-08-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -71636,7 +71636,7 @@
 "Sinon Community Series": {
 "fim": "2026-06-21",
 "inicio": "2026-06-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -71837,7 +71837,7 @@
 "Slovenian Counter Strike League/Season 6": {
 "fim": "2026-05-07",
 "inicio": "2026-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -72182,14 +72182,14 @@
 "Stake Pulse/Beat I/Qualifier/1": {
 "fim": "2026-06-30",
 "inicio": "2026-06-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Stake Pulse/Beat I/Qualifier/2": {
 "fim": "2026-07-01",
 "inicio": "2026-07-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -72202,14 +72202,14 @@
 "Stake Pulse/Beat II/Qualifier/1": {
 "fim": "2026-08-20",
 "inicio": "2026-08-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Stake Pulse/Beat II/Qualifier/2": {
 "fim": "2026-08-21",
 "inicio": "2026-08-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -72242,14 +72242,14 @@
 "Stake Ranked/Episode 1/Qualifier": {
 "fim": "2026-03-08",
 "inicio": "2026-03-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Stake Ranked/Episode 1/Qualifier/Open": {
 "fim": "2026-02-22",
 "inicio": "2026-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -72262,7 +72262,7 @@
 "Stake Ranked/Episode 2/Qualifier": {
 "fim": "2026-05-03",
 "inicio": "2026-04-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -74753,7 +74753,7 @@
 "TESFED/League/Season 3": {
 "fim": "2026-07-05",
 "inicio": "2026-06-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -74829,7 +74829,7 @@
 "TWCS/Astral Global League/Pinnacle/Season 1": {
 "fim": "2026-07-26",
 "inicio": "2026-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -75926,7 +75926,7 @@
 "Tipsport Cup/Open/1": {
 "fim": "2026-08-09",
 "inicio": "2026-08-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -76548,84 +76548,84 @@
 "UKIC/League/Season 10/Challengers Division": {
 "fim": "2026-06-17",
 "inicio": "2026-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 10/Masters Division": {
 "fim": "2026-06-13",
 "inicio": "2026-04-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 10/Masters Division/Qualifier/1": {
 "fim": "2026-04-13",
 "inicio": "2026-04-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 10/Masters Division/Qualifier/2": {
 "fim": "2026-04-15",
 "inicio": "2026-04-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 10/Masters Division/Qualifier/3": {
 "fim": "2026-04-17",
 "inicio": "2026-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 10/Masters Division/Qualifier/4": {
 "fim": "2026-04-19",
 "inicio": "2026-04-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Challengers Division": {
 "fim": "2026-09-15",
 "inicio": "2026-07-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Masters Division": {
 "fim": "2026-09-19",
 "inicio": "2026-07-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Masters Division/Qualifier/1": {
 "fim": "2026-07-09",
 "inicio": "2026-07-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Masters Division/Qualifier/2": {
 "fim": "2026-07-10",
 "inicio": "2026-07-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Masters Division/Qualifier/3": {
 "fim": "2026-07-13",
 "inicio": "2026-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 11/Masters Division/Qualifier/4": {
 "fim": "2026-07-14",
 "inicio": "2026-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77567,35 +77567,35 @@
 "United21/Season 45": {
 "fim": "2026-03-07",
 "inicio": "2026-02-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 46": {
 "fim": "2026-03-27",
 "inicio": "2026-03-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 47": {
 "fim": "2026-04-16",
 "inicio": "2026-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 48": {
 "fim": "2026-05-08",
 "inicio": "2026-04-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 49": {
 "fim": "2026-05-27",
 "inicio": "2026-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77610,42 +77610,42 @@
 "United21/Season 50": {
 "fim": "2026-06-14",
 "inicio": "2026-05-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 51": {
 "fim": "2026-07-02",
 "inicio": "2026-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 52": {
 "fim": "2026-07-20",
 "inicio": "2026-07-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 53": {
 "fim": "2026-08-15",
 "inicio": "2026-07-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 54": {
 "fim": "2026-09-03",
 "inicio": "2026-08-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 55": {
 "fim": "2026-09-24",
 "inicio": "2026-09-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77718,21 +77718,21 @@
 "United21/Series 1": {
 "fim": "2026-08-14",
 "inicio": "2026-07-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Series 2": {
 "fim": "2026-09-03",
 "inicio": "2026-08-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Series 3": {
 "fim": "2026-09-22",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77992,28 +77992,28 @@
 "Urban Riga Open/3": {
 "fim": "2026-03-24",
 "inicio": "2026-03-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Riga Open/4": {
 "fim": "2026-04-05",
 "inicio": "2026-04-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Riga Open/5": {
 "fim": "2026-06-29",
 "inicio": "2026-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Riga Open/6": {
 "fim": "2026-07-28",
 "inicio": "2026-07-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79387,7 +79387,7 @@
 "Winline Star Series/Season 2": {
 "fim": "2026-03-08",
 "inicio": "2026-02-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -79663,14 +79663,14 @@
 "XPortal Series/1": {
 "fim": "2026-05-24",
 "inicio": "2026-05-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XPortal Series/1/Qualifier": {
 "fim": "2026-04-26",
 "inicio": "2026-04-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79890,7 +79890,7 @@
 "XSE Pro League/Season 8": {
 "fim": "2026-04-05",
 "inicio": "2026-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -80145,35 +80145,35 @@
 "YINXING Future Star Festival/China": {
 "fim": "2026-08-29",
 "inicio": "2026-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "YINXING Future Star Festival/Mongolia": {
 "fim": "2026-08-25",
 "inicio": "2026-08-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "YINXING Future Star Festival/Qualifier/1": {
 "fim": "2026-09-05",
 "inicio": "2026-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "YINXING Future Star Festival/Qualifier/2": {
 "fim": "2026-09-06",
 "inicio": "2026-09-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "YINXING Future Star Festival/Wildcard": {
 "fim": "2026-09-05",
 "inicio": "2026-08-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -80546,14 +80546,14 @@
 "Yuqilin/Pinnacle of Battle/Season 3": {
 "fim": "2026-04-05",
 "inicio": "2026-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Yuqilin/Pinnacle of Battle/Season 3/Qualifier": {
 "fim": "2026-03-27",
 "inicio": "2026-03-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -80708,14 +80708,14 @@
 "ZOWIE/Prodigy Series/Season 2": {
 "fim": "2026-07-19",
 "inicio": "2026-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ZOWIE/Prodigy Series/Season 2/Qualifier": {
 "fim": "2026-07-04",
 "inicio": "2026-07-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -80749,7 +80749,7 @@
 "ZOWIE/University Esports League/Season 3/China Spring": {
 "fim": "2026-06-20",
 "inicio": "2026-06-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
