@@ -327,6 +327,22 @@ def main() -> None:
             with st.container(key="gaveta_dia"):
                 dia = st.radio("Dia", dias, horizontal=True, label_visibility="collapsed")
             do_dia = [j for j in jogos if _dia(j) == dia]
+            # FILTRO POR CAMPEONATO (16/11/2026, ele: "para nao ficar assim [30 jogos soltos],
+            # gostaria que fosse possivel filtrar por campeonato"). Nada marcado = todos. A escolha
+            # vale para todos os dias (fica na sessao); campeonato sem jogo no dia nao aparece.
+            def _camp(x):
+                return x.get("liga") or "(sem campeonato)"
+            contagem = {}
+            for x in do_dia:
+                contagem[_camp(x)] = contagem.get(_camp(x), 0) + 1
+            camps = sorted(contagem, key=lambda c: (-contagem[c], c))
+            guardados = st.session_state.setdefault("_camps_escolhidos", set())
+            marcados = st.pills("Campeonato", camps, selection_mode="multi",
+                                default=[c for c in camps if c in guardados],
+                                format_func=lambda c: f"{c} ({contagem[c]})", key=f"camps_{dia}")
+            st.session_state["_camps_escolhidos"] = (guardados - set(camps)) | set(marcados or [])
+            if marcados:
+                do_dia = [x for x in do_dia if _camp(x) in marcados]
             rot = {j["id"]: "{} × {} · {}{}{}".format(
                 j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
                 {"ao vivo": " · AO VIVO", "encerrado": " · encerrado"}.get(j["situacao"], ""),

@@ -61,7 +61,7 @@ def carregar(incluir_c: bool = False) -> pd.DataFrame:
     marcadas B/A/S (ex.: "PGL/2025/Astana/Asia") -- 4.214 mapas viraram C e sairiam
     do treino em silencio. O C que fica dentro de um evento S/A/B continua no
     treino (sempre esteve, e foi assim que o modelo foi validado)."""
-    d = pd.read_csv(RAIZ / "mapas_cs.csv")
+    d = pd.read_csv(RAIZ / "mapas_cs.csv", low_memory=False)  # coluna 12 mista: le inteiro, sem aviso
     if not incluir_c:
         arq_idx = RAIZ / "torneios_cs.json"
         indice = json.loads(arq_idx.read_text(encoding="utf-8")) if arq_idx.exists() else {}
