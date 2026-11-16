@@ -115,7 +115,9 @@ def linhas_do_veto(est, jogo: dict, veto: dict) -> list:
     """Uma linha por mapa do veto: p base, p com mapa, odd da Pinnacle desse mapa."""
     ta, tb = jogo["casou"][0][0], jogo["casou"][1][0]
     base = next((m for m in jogo["mercados"] if m["periodo"] == 1), None)
-    p_base = base["lados"][0]["p_modelo"] if base else None
+    # Sem a linha de mapa da Pinnacle (jogo so da Polymarket, 16/11/2026) o p do mapa do modelo
+    # continua valendo: antes a tabela saia vazia e a tela dizia "mapas nao estao na Liquipedia".
+    p_base = base["lados"][0]["p_modelo"] if base else jogo.get("p_mapa")
     if p_base is None:
         return []
     por_periodo = {m["periodo"]: m for m in jogo["mercados"]}

@@ -206,11 +206,30 @@ def _bloco_rounds(j, odds) -> None:
             components.html(tl.pagina(tl.html_rounds(j, alt)), height=tl.altura_rounds(alt), scrolling=False)
 
 
+def _perto_do_jogo(j, agora=None) -> bool:
+    """De 60 min antes ate 4 h depois do inicio: a janela em que o veto sai e os mapas rolam."""
+    import pandas as pd
+    try:
+        ini = pd.Timestamp(str(j.get("inicio_utc") or "").replace(" ", "T"))
+        ini = ini.tz_localize("UTC") if ini.tzinfo is None else ini
+    except (ValueError, TypeError):
+        return False
+    agora = agora or pd.Timestamp.now(tz="UTC")
+    return ini - pd.Timedelta(minutes=60) <= agora <= ini + pd.Timedelta(hours=4)
+
+
 def _bloco_veto(est, j) -> None:
-    """Mapas do veto, sob demanda (botao): 1 a 4 leituras da Liquipedia sem cache."""
+    """Mapas do veto. SUPER-LIVE (16/11/2026, ele: "gostaria que pegasse sozinho... posso digitar
+    tranquilo"): perto do jogo (60 min antes a 4 h depois) a tela busca sozinha na Liquipedia, no
+    maximo 1 vez a cada 5 min por jogo (as mesmas 1 a 4 leituras do botao, no ritmo de 2,1 s);
+    se a Liquipedia ainda nao tiver, da para digitar os mapas."""
+    import time as _t
     st.markdown("##### Mapas do veto")
     chave = f"veto_{j['id']}"
     pausa = lq.pausa_restante()
+    ultimo = st.session_state.get(f"t_{chave}", 0.0)
+    auto = (pausa <= 0 and j["precificado"] and _perto_do_jogo(j) and _t.time() - ultimo > 300
+            and not (chave in st.session_state and st.session_state[chave][1] == "digitado"))
     c1, c2 = st.columns([1, 4])
     with c1:
         clicou = st.button("Buscar mapas do veto", key=f"b_{chave}", disabled=pausa > 0 or not j["precificado"],
@@ -221,8 +240,9 @@ def _bloco_veto(est, j) -> None:
         elif not j["precificado"]:
             st.caption("Jogo sem preço do modelo: nada para comparar mapa a mapa.")
         else:
-            st.caption("Clique perto do horário do jogo; de novo depois que acabar, para o placar.")
-    if clicou:
+            st.caption("Perto do jogo (1 h antes até 4 h depois) a busca é sozinha, a cada 5 min; o botão força agora.")
+    if clicou or auto:
+        st.session_state[f"t_{chave}"] = _t.time()
         try:
             with st.spinner("Lendo a Liquipedia..."):
                 v = vc.buscar_veto(est, j["casou"][0][0], j["casou"][1][0])
@@ -236,6 +256,19 @@ def _bloco_veto(est, j) -> None:
             st.warning(str(e))
         except Exception as e:  # rede: aviso, nunca derruba a tela
             st.warning(f"Não consegui ler a Liquipedia agora ({type(e).__name__}).")
+    if j["precificado"]:
+        with st.expander("Digitar os mapas (se a Liquipedia ainda não tiver)",
+                         expanded=chave in st.session_state and not st.session_state[chave][0]):
+            pool = sorted(getattr(est, "pool", []) or [])
+            escolhidos = st.multiselect("Mapas na ordem (mapa 1, mapa 2, ...)", pool, key=f"m_{chave}")
+            if st.button("Usar estes mapas", key=f"u_{chave}", disabled=not escolhidos):
+                v = {"pagina": "digitado", "mapas": [{"n": i + 1, "mapa": m, "terminado": False, "vencedor_a": None}
+                                                     for i, m in enumerate(escolhidos)]}
+                linhas = vc.linhas_do_veto(est, j, v)
+                novos = vc.registrar(j, linhas, "digitado") if linhas else 0
+                st.session_state[chave] = (linhas, "digitado")
+                if novos:
+                    st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
     if chave in st.session_state:
         linhas, pagina = st.session_state[chave]
         components.html(tl.pagina(tl.html_veto(j, linhas, pagina)),

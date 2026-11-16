@@ -55,6 +55,18 @@ class TestVeto(unittest.TestCase):
         self.assertIn("<b>Liquid</b>", h)
         self.assertIn("ainda não estão", tl.html_veto(j, [], None))
 
+    def test_jogo_sem_linha_da_pinnacle_usa_o_p_do_mapa(self):
+        """16/11/2026: jogo so da Polymarket nao tem mercado de mapa da Pinnacle; a tabela do veto
+        nao pode sair vazia (a tela diria que a Liquipedia nao tem os mapas)."""
+        class Est:
+            por_mapa = {}
+        j = {"casou": [("A", 1.0), ("B", 1.0)], "mercados": [{"periodo": 0, "lados": []}], "p_mapa": 0.6}
+        v = {"mapas": [{"n": 1, "mapa": "Mirage", "terminado": False, "vencedor_a": None}]}
+        lin = vc.linhas_do_veto(Est(), j, v)
+        self.assertEqual(len(lin), 1)
+        self.assertAlmostEqual(lin[0]["p_base"], 0.6)
+        self.assertIsNone(lin[0]["odd_a"])
+
 
 if __name__ == "__main__":
     unittest.main()
