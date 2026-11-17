@@ -1,177 +1,6 @@
 {
- "lido_em": "2026-11-16T06:02:34Z",
+ "lido_em": "2026-11-17T04:12:56Z",
  "jogos": [
-  {
-   "pagina": "NODWIN Gaming/Clutch Series/14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T09:00:00Z",
-   "time1": "ex-rustec",
-   "time2": "butterfly",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "United21/Season 58",
-   "tier": "C",
-   "inicio_utc": "2026-11-16T09:00:00Z",
-   "time1": "gothboiclique",
-   "time2": "brute sq",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T10:30:00Z",
-   "time1": "team leva2k",
-   "time2": "team recrent",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T11:00:00Z",
-   "time1": "vp",
-   "time2": "team aces",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "United21/Season 58",
-   "tier": "C",
-   "inicio_utc": "2026-11-16T11:30:00Z",
-   "time1": "eyeballers",
-   "time2": "teletubisie",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T12:00:00Z",
-   "time1": "mnxt",
-   "time2": "azuolas",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "NODWIN Gaming/Clutch Series/14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T12:00:00Z",
-   "time1": "brute",
-   "time2": "nice try",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 13",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T14:00:00Z",
-   "time1": "private",
-   "time2": "omega",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T15:00:00Z",
-   "time1": "magic",
-   "time2": "ef",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T15:00:00Z",
-   "time1": "team worldedit",
-   "time2": "team cutierover",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T15:00:00Z",
-   "time1": "baks",
-   "time2": "masonic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "NODWIN Gaming/Clutch Series/14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T15:00:00Z",
-   "time1": "spirit academy",
-   "time2": "illyrians",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "evo novo grotten",
-   "time2": "invicta.dk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "linx legacy",
-   "time2": "aab",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "pvision",
-   "time2": "heroic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "team bratishkin",
-   "time2": "team ns",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "leo team",
-   "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
-   "tier": "C",
-   "inicio_utc": "2026-11-16T18:00:00Z",
-   "time1": "natverket",
-   "time2": "minkens finest",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-16T19:00:00Z",
-   "time1": "team pch3lk1n",
-   "time2": "team korya mc",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "NODWIN Gaming/Clutch Series/14",
    "tier": "B",
@@ -205,6 +34,15 @@
    "inicio_utc": "2026-11-17T12:00:00Z",
    "time1": "100t",
    "time2": "fnc",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
+   "tier": "B",
+   "inicio_utc": "2026-11-17T12:00:00Z",
+   "time1": "magic",
+   "time2": "heroic",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -257,8 +95,8 @@
    "pagina": "NODWIN Gaming/Clutch Series/14",
    "tier": "B",
    "inicio_utc": "2026-11-17T15:00:00Z",
-   "time1": "forze reload",
-   "time2": "team aces",
+   "time1": "team aces",
+   "time2": "forze reload",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -277,6 +115,24 @@
    "inicio_utc": "2026-11-17T16:00:00Z",
    "time1": "nip",
    "time2": "unity.sk",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T18:00:00Z",
+   "time1": "evo novo grotten",
+   "time2": "linx legacy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T18:00:00Z",
+   "time1": "invicta.dk",
+   "time2": "aab",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -313,6 +169,42 @@
    "inicio_utc": "2026-11-17T19:00:00Z",
    "time1": "nv",
    "time2": "metizport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T21:00:00Z",
+   "time1": "arroba",
+   "time2": "red canids academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T21:00:00Z",
+   "time1": "quintessencia",
+   "time2": "underworld",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T23:45:00Z",
+   "time1": "alka",
+   "time2": "los ninos",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-17T23:45:00Z",
+   "time1": "disfarcados",
+   "time2": "pain.a",
    "bo": 3,
    "mapas_jogados": 0
   },
