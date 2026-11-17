@@ -187,7 +187,7 @@
 "3DMAX Scouting Tournament": {
 "fim": "2025-06-01",
 "inicio": "2025-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -343,7 +343,7 @@
 "5150 Spring Cup": {
 "fim": "2025-03-15",
 "inicio": "2025-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -748,7 +748,7 @@
 "7TV Streamer Invitational": {
 "fim": "2025-03-02",
 "inicio": "2025-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -1713,7 +1713,7 @@
 "A1 Gaming League/Season 10": {
 "fim": "2025-05-11",
 "inicio": "2025-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -1941,7 +1941,7 @@
 "AMKAL ESPORTS/Community Cup/Astana": {
 "fim": "2025-08-29",
 "inicio": "2025-08-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -2132,28 +2132,28 @@
 "Ace League/Season 1": {
 "fim": "2025-06-29",
 "inicio": "2025-06-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Ace League/Season 1/Split 1/Division 1": {
 "fim": "2025-04-03",
 "inicio": "2025-03-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Ace League/Season 1/Split 2/Division 1": {
 "fim": "2025-05-01",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Ace League/Season 1/Split 3/Division 1": {
 "fim": "2025-05-29",
 "inicio": "2025-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3375,14 +3375,14 @@
 "Athena Cup/1": {
 "fim": "2025-07-26",
 "inicio": "2025-07-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Athena Cup/2": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3583,7 +3583,7 @@
 "Aztec Arena/2": {
 "fim": "2025-03-31",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -3604,14 +3604,14 @@
 "Aztec Arena/2/Aztec Cup/15": {
 "fim": "2025-02-16",
 "inicio": "2025-02-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Aztec Arena/2/Aztec Cup/16": {
 "fim": "2025-02-23",
 "inicio": "2025-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5492,7 +5492,7 @@
 "BeNeLux Premier": {
 "fim": "2025-04-03",
 "inicio": "2025-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5835,7 +5835,7 @@
 "BetBoom/Aunkere Cup/2x2/2": {
 "fim": "2025-02-28",
 "inicio": "2025-02-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5894,14 +5894,14 @@
 "BetBoom/Streamers Battle/2": {
 "fim": "2025-05-04",
 "inicio": "2025-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "BetBoom/Streamers Battle/3": {
 "fim": "2025-08-19",
 "inicio": "2025-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -5941,7 +5941,7 @@
 "BetBoom/ct0m Cup": {
 "fim": "2025-08-06",
 "inicio": "2025-08-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -6022,14 +6022,14 @@
 "Betera Esports League/1": {
 "fim": "2025-06-21",
 "inicio": "2025-06-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Betera Esports League/1/Qualifier": {
 "fim": "2025-06-16",
 "inicio": "2025-06-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -6470,7 +6470,7 @@
 "Book of Counter-Strike Legacy Cup/2": {
 "fim": "2025-07-05",
 "inicio": "2025-07-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -6598,7 +6598,7 @@
 "Bredband2 Cup/1": {
 "fim": "2025-05-17",
 "inicio": "2025-05-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -8556,14 +8556,14 @@
 "CCT/Season 2/Europe/Series 19": {
 "fim": "2025-03-11",
 "inicio": "2025-02-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 2/Europe/Series 19/Play-In": {
 "fim": "2025-02-24",
 "inicio": "2025-02-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -8585,14 +8585,14 @@
 "CCT/Season 2/Europe/Series 20": {
 "fim": "2025-03-16",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 2/Europe/Series 20/Play-In": {
 "fim": "2025-03-01",
 "inicio": "2025-02-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -8704,7 +8704,7 @@
 "CCT/Season 2/Global Finals": {
 "fim": "2025-04-27",
 "inicio": "2025-04-24",
-"pendente": true,
+"pendente": false,
 "tier": "A"
 },
 "CCT/Season 2/North America": {
@@ -8801,7 +8801,7 @@
 "CCT/Season 2/South America/Series 8": {
 "fim": "2025-03-11",
 "inicio": "2025-02-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -8836,14 +8836,14 @@
 "CCT/Season 3/Europe/Series 1": {
 "fim": "2025-05-18",
 "inicio": "2025-05-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 1/Play-In": {
 "fim": "2025-05-05",
 "inicio": "2025-04-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9039,14 +9039,14 @@
 "CCT/Season 3/Europe/Series 2": {
 "fim": "2025-06-01",
 "inicio": "2025-05-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 2/Play-In": {
 "fim": "2025-05-19",
 "inicio": "2025-05-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9074,56 +9074,56 @@
 "CCT/Season 3/Europe/Series 3": {
 "fim": "2025-06-22",
 "inicio": "2025-06-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 3/Play-In": {
 "fim": "2025-06-09",
 "inicio": "2025-06-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 4": {
 "fim": "2025-08-10",
 "inicio": "2025-07-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 4/Play-In": {
 "fim": "2025-07-28",
 "inicio": "2025-07-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 5": {
 "fim": "2025-08-31",
 "inicio": "2025-08-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 5/Play-In": {
 "fim": "2025-08-18",
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Europe/Series 6": {
 "fim": "2025-09-21",
 "inicio": "2025-09-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/Europe/Series 6/Play-In": {
 "fim": "2025-09-08",
 "inicio": "2025-09-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9177,7 +9177,7 @@
 "CCT/Season 3/North America/Series 1": {
 "fim": "2025-08-15",
 "inicio": "2025-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9219,28 +9219,28 @@
 "CCT/Season 3/Oceania/Series 1": {
 "fim": "2025-07-18",
 "inicio": "2025-07-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Oceania/Series 1/Qualifier": {
 "fim": "2025-06-28",
 "inicio": "2025-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Oceania/Series 2": {
 "fim": "2025-09-12",
 "inicio": "2025-09-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/Oceania/Series 2/Qualifier": {
 "fim": "2025-08-17",
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -9275,7 +9275,7 @@
 "CCT/Season 3/South America/Series 1": {
 "fim": "2025-06-26",
 "inicio": "2025-06-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -9296,35 +9296,35 @@
 "CCT/Season 3/South America/Series 2": {
 "fim": "2025-08-05",
 "inicio": "2025-07-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/South America/Series 3": {
 "fim": "2025-08-19",
 "inicio": "2025-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/South America/Series 3/Qualifier": {
 "fim": "2025-07-20",
 "inicio": "2025-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CCT/Season 3/South America/Series 4": {
 "fim": "2025-09-16",
 "inicio": "2025-09-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "CCT/Season 3/South America/Series 4/Qualifier": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -10152,14 +10152,14 @@
 "CROSSFIRE/Season 1": {
 "fim": "2025-06-27",
 "inicio": "2025-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "CROSSFIRE/Season 2": {
 "fim": "2025-10-19",
 "inicio": "2025-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -10956,7 +10956,7 @@
 "CSGORUN WKND": {
 "fim": "2025-03-23",
 "inicio": "2025-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11140,7 +11140,7 @@
 "CTRLPOINT/Season 1": {
 "fim": "2025-08-31",
 "inicio": "2025-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11188,14 +11188,14 @@
 "CYBERLIFE/TEAM PLAY": {
 "fim": "2025-07-06",
 "inicio": "2025-07-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Ca$hgrab Cup": {
 "fim": "2025-05-03",
 "inicio": "2025-05-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -11800,42 +11800,42 @@
 "Circuito Retake/Season 10": {
 "fim": "2025-06-01",
 "inicio": "2025-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Circuito Retake/Season 10/Qualifier": {
 "fim": "2025-05-18",
 "inicio": "2025-05-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Circuito Retake/Season 10/Qualifier/Open/1": {
 "fim": "2025-04-19",
 "inicio": "2025-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Circuito Retake/Season 10/Qualifier/Open/2": {
 "fim": "2025-04-27",
 "inicio": "2025-04-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Circuito Retake/Season 10/Qualifier/Open/3": {
 "fim": "2025-05-04",
 "inicio": "2025-05-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Circuito Retake/Season 10/Qualifier/Open/4": {
 "fim": "2025-05-11",
 "inicio": "2025-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -12676,6 +12676,11 @@
 "sem_ano": true,
 "tier": "C"
 },
+"Constantine Numérique Tournament/2026": {
+"fim": "2026-11-21",
+"inicio": "2026-11-21",
+"tier": "C"
+},
 "Contest Pro League/Season 1": {
 "fim": "2023-02-12",
 "fora": true,
@@ -12711,7 +12716,7 @@
 "Contest Pro League/Season 5": {
 "fim": "2025-04-30",
 "inicio": "2025-04-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -14129,49 +14134,49 @@
 "DACH CS Masters/Season 3": {
 "fim": "2025-06-28",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 3/Division 2": {
 "fim": "2025-05-18",
 "inicio": "2025-03-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 3/Division 3": {
 "fim": "2025-05-18",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 3/Relegation": {
 "fim": "2025-06-01",
 "inicio": "2025-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 4": {
 "fim": "2025-11-22",
 "inicio": "2025-08-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 4/Division 2": {
 "fim": "2025-11-16",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "DACH CS Masters/Season 4/Division 3": {
 "fim": "2025-11-29",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -14575,14 +14580,14 @@
 "Defuse the Stigma": {
 "fim": "2025-06-01",
 "inicio": "2025-05-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Defuse the Stigma/Qualifier": {
 "fim": "2025-05-24",
 "inicio": "2025-05-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -15180,7 +15185,7 @@
 "DraculaN/Season 1": {
 "fim": "2025-08-31",
 "inicio": "2025-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -15688,7 +15693,7 @@
 "Dubai Police/Esports Tournament/5th Edition": {
 "fim": "2025-08-17",
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16408,14 +16413,14 @@
 "Dust2.dk/Ligaen/Season 29": {
 "fim": "2025-06-14",
 "inicio": "2025-04-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.dk/Ligaen/Season 29/Relegation": {
 "fim": "2025-06-17",
 "inicio": "2025-06-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16637,7 +16642,7 @@
 "Dust2.in/Masters/19": {
 "fim": "2025-02-23",
 "inicio": "2025-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16652,42 +16657,42 @@
 "Dust2.in/Masters/20": {
 "fim": "2025-03-23",
 "inicio": "2025-03-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.in/Masters/21": {
 "fim": "2025-04-20",
 "inicio": "2025-04-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.in/Masters/22": {
 "fim": "2025-05-25",
 "inicio": "2025-05-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.in/Masters/23": {
 "fim": "2025-06-29",
 "inicio": "2025-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.in/Masters/24": {
 "fim": "2025-07-27",
 "inicio": "2025-07-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.in/Masters/25": {
 "fim": "2025-08-24",
 "inicio": "2025-08-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16833,7 +16838,7 @@
 "Dust2.us/Eagle Masters Series/1": {
 "fim": "2025-04-30",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -16854,14 +16859,14 @@
 "Dust2.us/Eagle Masters Series/2": {
 "fim": "2025-06-30",
 "inicio": "2025-06-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Dust2.us/Eagle Masters Series/3": {
 "fim": "2025-09-02",
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17131,14 +17136,14 @@
 "E-spordi Meistriliiga/Season 2": {
 "fim": "2025-04-27",
 "inicio": "2025-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "E-spordi Meistriliiga/Season 2/Online Stage": {
 "fim": "2025-04-20",
 "inicio": "2025-03-02",
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "E-spordi Meistriliiga/Season 3": {
@@ -17223,14 +17228,14 @@
 "E-sporta Virslīga/Season 4": {
 "fim": "2025-05-04",
 "inicio": "2025-05-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "E-sporta Virslīga/Season 4/Online Stage": {
 "fim": "2025-04-27",
 "inicio": "2025-03-02",
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "E-sporta Virslīga/Season 5": {
@@ -17667,28 +17672,28 @@
 "ELITE FE/2": {
 "fim": "2025-02-23",
 "inicio": "2025-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ELITE FE/3": {
 "fim": "2025-04-27",
 "inicio": "2025-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ELITE FE/4": {
 "fim": "2025-06-29",
 "inicio": "2025-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ELITE FE/5": {
 "fim": "2025-08-10",
 "inicio": "2025-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17765,7 +17770,7 @@
 "ENJOY Challenge/Season 1": {
 "fim": "2025-08-03",
 "inicio": "2025-07-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -17904,14 +17909,14 @@
 "EPIC.LAN/44": {
 "fim": "2025-02-23",
 "inicio": "2025-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "EPIC.LAN/45": {
 "fim": "2025-07-20",
 "inicio": "2025-07-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -23122,273 +23127,273 @@
 "ESEA/Season 53/Advanced/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Advanced/Europe/Qualifier": {
 "fim": "2025-03-28",
 "inicio": "2025-03-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Advanced/North America": {
 "fim": "2025-06-16",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Entry/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Intermediate/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Intermediate/North America": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Main/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Main/North America": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open/Asia": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open/Middle East": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open/Oceania": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open/South Africa": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open/South America": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open10/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 53/Open10/North America": {
 "fim": "2025-06-15",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Advanced/Europe": {
 "fim": "2025-09-20",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Advanced/Europe/Qualifier": {
 "fim": "2025-07-04",
 "inicio": "2025-07-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Advanced/North America": {
 "fim": "2025-09-20",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/Europe/1": {
 "fim": "2025-08-17",
 "inicio": "2025-07-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/Europe/1/Qualifier/1": {
 "fim": "2025-07-22",
 "inicio": "2025-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/Europe/1/Qualifier/2": {
 "fim": "2025-07-24",
 "inicio": "2025-07-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/Europe/2": {
 "fim": "2025-09-21",
 "inicio": "2025-08-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/Europe/2/Qualifier": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/North America/1": {
 "fim": "2025-08-17",
 "inicio": "2025-07-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/North America/1/Qualifier": {
 "fim": "2025-07-23",
 "inicio": "2025-07-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/North America/2": {
 "fim": "2025-09-21",
 "inicio": "2025-08-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Elite/North America/2/Qualifier": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Entry/Europe": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Intermediate/Europe": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Intermediate/North America": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Main/Europe": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Main/North America": {
 "fim": "2025-09-22",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open/Asia": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open/Middle East": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open/Oceania": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open/South Africa": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open/South America": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open10/Europe": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESEA/Season 54/Open10/North America": {
 "fim": "2025-09-21",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -25728,14 +25733,14 @@
 "ESL/Challenger League/Season 50/Asia/Cup 1": {
 "fim": "2025-08-29",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 50/Asia/Cup 2": {
 "fim": "2025-09-20",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -25763,14 +25768,14 @@
 "ESL/Challenger League/Season 50/Europe/Cup 1": {
 "fim": "2025-09-01",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 50/Europe/Cup 2": {
 "fim": "2025-09-23",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -25798,14 +25803,14 @@
 "ESL/Challenger League/Season 50/North America/Cup 1": {
 "fim": "2025-08-31",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 50/North America/Cup 2": {
 "fim": "2025-09-22",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -25833,14 +25838,14 @@
 "ESL/Challenger League/Season 50/Oceania/Cup 1": {
 "fim": "2025-08-29",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Challenger League/Season 50/Oceania/Cup 2": {
 "fim": "2025-09-20",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -25868,14 +25873,14 @@
 "ESL/Challenger League/Season 50/South America/Cup 1": {
 "fim": "2025-08-31",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Challenger League/Season 50/South America/Cup 2": {
 "fim": "2025-09-22",
 "inicio": "2025-09-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -26632,7 +26637,7 @@
 "ESL/Grand Slam/VI": {
 "fim": "2026-04-19",
 "inicio": "2025-05-19",
-"pendente": true,
+"pendente": false,
 "tier": "S"
 },
 "ESL/Grand Slam/VII": {
@@ -27187,13 +27192,13 @@
 "ESL/Impact League/Season 7": {
 "fim": "2025-05-25",
 "inicio": "2025-05-22",
-"pendente": true,
+"pendente": false,
 "tier": "A"
 },
 "ESL/Impact League/Season 7/Europe": {
 "fim": "2025-04-13",
 "inicio": "2025-02-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -27214,7 +27219,7 @@
 "ESL/Impact League/Season 7/North America": {
 "fim": "2025-04-11",
 "inicio": "2025-02-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -27235,7 +27240,7 @@
 "ESL/Impact League/Season 7/South America": {
 "fim": "2025-04-11",
 "inicio": "2025-02-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -27269,14 +27274,14 @@
 "ESL/Impact League/Season 8/Europe/Qualifier/1": {
 "fim": "2025-08-17",
 "inicio": "2025-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Impact League/Season 8/Europe/Qualifier/2": {
 "fim": "2025-08-21",
 "inicio": "2025-08-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -27290,35 +27295,35 @@
 "ESL/Impact League/Season 8/North America/Qualifier/1": {
 "fim": "2025-08-17",
 "inicio": "2025-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Impact League/Season 8/North America/Qualifier/2": {
 "fim": "2025-08-21",
 "inicio": "2025-08-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Impact League/Season 8/South America": {
 "fim": "2025-10-24",
 "inicio": "2025-09-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Impact League/Season 8/South America/Qualifier/1": {
 "fim": "2025-08-17",
 "inicio": "2025-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Impact League/Season 8/South America/Qualifier/2": {
 "fim": "2025-08-21",
 "inicio": "2025-08-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -28693,7 +28698,7 @@
 "ESL/Pro League/Season 21": {
 "fim": "2025-03-16",
 "inicio": "2025-03-01",
-"pendente": true,
+"pendente": false,
 "tier": "S"
 },
 "ESL/Pro League/Season 22": {
@@ -28705,14 +28710,14 @@
 "ESL/Pro League/Season 22/Asia": {
 "fim": "2025-07-14",
 "inicio": "2025-07-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Pro League/Season 22/Asia/Open": {
 "fim": "2025-07-09",
 "inicio": "2025-07-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -28725,35 +28730,35 @@
 "ESL/Pro League/Season 22/Europe/Open": {
 "fim": "2025-07-09",
 "inicio": "2025-07-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Pro League/Season 22/North America": {
 "fim": "2025-07-14",
 "inicio": "2025-07-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Pro League/Season 22/North America/Open": {
 "fim": "2025-07-09",
 "inicio": "2025-07-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "ESL/Pro League/Season 22/South America": {
 "fim": "2025-07-19",
 "inicio": "2025-07-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/Pro League/Season 22/South America/Open": {
 "fim": "2025-07-09",
 "inicio": "2025-07-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -31597,9 +31602,9 @@
 "tier": "C"
 },
 "EUU/Winter Hunt/Europe": {
-"fim": null,
+"fim": "2025-02-01",
 "inicio": "2025-02-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32294,28 +32299,28 @@
 "Elisa/Open Suomi/Season 10": {
 "fim": "2025-09-21",
 "inicio": "2025-08-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 10/Qualifier/1": {
 "fim": "2025-08-08",
 "inicio": "2025-08-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 10/Qualifier/2": {
 "fim": "2025-08-09",
 "inicio": "2025-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 10/Qualifier/3": {
 "fim": "2025-08-10",
 "inicio": "2025-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32531,7 +32536,7 @@
 "Elisa/Open Suomi/Season 8": {
 "fim": "2025-02-22",
 "inicio": "2025-02-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -32566,28 +32571,28 @@
 "Elisa/Open Suomi/Season 9": {
 "fim": "2025-04-27",
 "inicio": "2025-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 9/Qualifier/1": {
 "fim": "2025-03-07",
 "inicio": "2025-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 9/Qualifier/2": {
 "fim": "2025-03-08",
 "inicio": "2025-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Elisa/Open Suomi/Season 9/Qualifier/3": {
 "fim": "2025-03-09",
 "inicio": "2025-03-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -33669,14 +33674,14 @@
 "Esporto A Lyga/Season 1": {
 "fim": "2025-05-10",
 "inicio": "2025-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Esporto A Lyga/Season 1/Online Stage": {
 "fim": "2025-05-04",
 "inicio": "2025-03-16",
-"pendente": true,
+"pendente": false,
 "tier": "C"
 },
 "Esporto A Lyga/Season 2": {
@@ -34842,7 +34847,7 @@
 "Esports Pro League/Cyber Clash": {
 "fim": "2025-06-29",
 "inicio": "2025-05-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35618,7 +35623,7 @@
 "European Pro League/Season 23": {
 "fim": "2025-03-18",
 "inicio": "2025-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35633,7 +35638,7 @@
 "European Pro League/Season 24": {
 "fim": "2025-04-25",
 "inicio": "2025-04-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35647,7 +35652,7 @@
 "European Pro League/Season 25": {
 "fim": "2025-06-08",
 "inicio": "2025-05-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35661,42 +35666,42 @@
 "European Pro League/Season 26": {
 "fim": "2025-07-17",
 "inicio": "2025-06-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Season 26/Division 2": {
 "fim": "2025-04-06",
 "inicio": "2025-03-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Season 27": {
 "fim": "2025-08-23",
 "inicio": "2025-08-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Season 27/Division 2": {
 "fim": "2025-05-16",
 "inicio": "2025-04-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Season 28/Division 2": {
 "fim": "2025-06-27",
 "inicio": "2025-06-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Season 29/Division 2": {
 "fim": "2025-08-05",
 "inicio": "2025-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35791,14 +35796,14 @@
 "European Pro League/Series 1": {
 "fim": "2025-05-29",
 "inicio": "2025-05-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 1/Play-In": {
 "fim": "2025-05-09",
 "inicio": "2025-04-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -35819,14 +35824,14 @@
 "European Pro League/Series 2": {
 "fim": "2025-09-25",
 "inicio": "2025-09-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "European Pro League/Series 2/Play-In": {
 "fim": "2025-09-05",
 "inicio": "2025-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36024,7 +36029,7 @@
 "European Pro League/World Series/Oceania/2": {
 "fim": "2025-04-01",
 "inicio": "2025-03-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36108,49 +36113,49 @@
 "Exort Series/10": {
 "fim": "2025-05-08",
 "inicio": "2025-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/11": {
 "fim": "2025-05-31",
 "inicio": "2025-05-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/12": {
 "fim": "2025-06-23",
 "inicio": "2025-06-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/13": {
 "fim": "2025-07-16",
 "inicio": "2025-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/14": {
 "fim": "2025-08-09",
 "inicio": "2025-07-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/15": {
 "fim": "2025-09-01",
 "inicio": "2025-08-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/16": {
 "fim": "2025-09-23",
 "inicio": "2025-09-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36334,14 +36339,14 @@
 "Exort Series/8": {
 "fim": "2025-03-16",
 "inicio": "2025-02-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Exort Series/9": {
 "fim": "2025-04-14",
 "inicio": "2025-03-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -36404,21 +36409,21 @@
 "Exort/Proving Grounds/Season 1": {
 "fim": "2025-06-22",
 "inicio": "2025-06-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Exort/Proving Grounds/Season 2": {
 "fim": "2025-07-13",
 "inicio": "2025-07-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Exort/Proving Grounds/Season 3": {
 "fim": "2025-08-22",
 "inicio": "2025-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -37310,7 +37315,7 @@
 "FASTCUP/Central Asia Сup": {
 "fim": "2025-04-08",
 "inicio": "2025-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -37468,14 +37473,14 @@
 "FASTCUP/Grind Asia Cup/1": {
 "fim": "2025-07-12",
 "inicio": "2025-07-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FASTCUP/Grind Asia Cup/2": {
 "fim": "2025-08-31",
 "inicio": "2025-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -37754,7 +37759,7 @@
 "FDZ Algeria/NOVAGO": {
 "fim": "2025-03-14",
 "inicio": "2025-03-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -38608,140 +38613,140 @@
 "FRAG.gg/Season 14": {
 "fim": "2025-04-06",
 "inicio": "2025-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier": {
 "fim": "2025-03-17",
 "inicio": "2025-03-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/1": {
 "fim": "2025-03-06",
 "inicio": "2025-03-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/2": {
 "fim": "2025-03-07",
 "inicio": "2025-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/3": {
 "fim": "2025-03-08",
 "inicio": "2025-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/4": {
 "fim": "2025-03-09",
 "inicio": "2025-03-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/5": {
 "fim": "2025-03-10",
 "inicio": "2025-03-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/6": {
 "fim": "2025-03-11",
 "inicio": "2025-03-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/7": {
 "fim": "2025-03-12",
 "inicio": "2025-03-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 14/Qualifier/Open/8": {
 "fim": "2025-03-13",
 "inicio": "2025-03-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15": {
 "fim": "2025-08-31",
 "inicio": "2025-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier": {
 "fim": "2025-08-17",
 "inicio": "2025-08-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/1": {
 "fim": "2025-08-06",
 "inicio": "2025-08-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/2": {
 "fim": "2025-08-07",
 "inicio": "2025-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/3": {
 "fim": "2025-08-08",
 "inicio": "2025-08-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/4": {
 "fim": "2025-08-09",
 "inicio": "2025-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/5": {
 "fim": "2025-08-10",
 "inicio": "2025-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/6": {
 "fim": "2025-08-11",
 "inicio": "2025-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/7": {
 "fim": "2025-08-12",
 "inicio": "2025-08-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "FRAG.gg/Season 15/Qualifier/Open/8": {
 "fim": "2025-08-13",
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -39678,7 +39683,7 @@
 "Firdavsi Cup/August": {
 "fim": "2025-08-24",
 "inicio": "2025-08-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -40154,7 +40159,7 @@
 "Formula55 Cup Sugd": {
 "fim": "2025-04-21",
 "inicio": "2025-04-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -40190,14 +40195,14 @@
 "Frag-o-Matic/26.0": {
 "fim": "2025-03-02",
 "inicio": "2025-02-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Frag-o-Matic/26.1": {
 "fim": "2025-09-07",
 "inicio": "2025-09-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -40548,7 +40553,7 @@
 "Fragadelphia/19": {
 "fim": "2025-07-20",
 "inicio": "2025-07-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -43076,7 +43081,7 @@
 "Galaxy Cup/Reborn Edition": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -43621,7 +43626,7 @@
 "GamePoint/Insta CS/Season 3": {
 "fim": "2025-05-04",
 "inicio": "2025-05-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -43635,21 +43640,21 @@
 "GamePoint/PRO League/Season 2": {
 "fim": "2025-03-08",
 "inicio": "2025-03-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GamePoint/PRO League/Season 3": {
 "fim": "2025-04-15",
 "inicio": "2025-04-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GamePoint/PRO League/Season 4": {
 "fim": "2025-05-24",
 "inicio": "2025-05-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -44534,21 +44539,21 @@
 "GangKui Cup/Season 1": {
 "fim": "2025-07-06",
 "inicio": "2025-07-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GangKui Cup/Season 1/Qualifier": {
 "fim": "2025-07-03",
 "inicio": "2025-06-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "GangKui Cup/Season 1/Qualifier/Open": {
 "fim": "2025-06-28",
 "inicio": "2025-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -45191,7 +45196,7 @@
 "Generation NSTLGA/Seattle Open": {
 "fim": "2025-08-17",
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -46332,7 +46337,7 @@
 "H.4.0.S/TEAMRUSH/1": {
 "fim": "2025-06-08",
 "inicio": "2025-06-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -47969,7 +47974,7 @@
 "INUI Gaming/Showdown/Series 1": {
 "fim": "2025-05-04",
 "inicio": "2025-05-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -48171,7 +48176,7 @@
 "Icon.X/First Blood": {
 "fim": "2025-06-29",
 "inicio": "2025-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51671,14 +51676,14 @@
 "Jubilant Cup/Season 1": {
 "fim": "2025-06-08",
 "inicio": "2025-06-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Jubilant Cup/Season 2": {
 "fim": "2025-08-26",
 "inicio": "2025-08-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51715,7 +51720,7 @@
 "Justice Cup/5": {
 "fim": "2025-03-07",
 "inicio": "2025-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51746,7 +51751,7 @@
 "KHL Star Strike/Season 2": {
 "fim": "2025-07-20",
 "inicio": "2025-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51761,7 +51766,7 @@
 "KIYARPEEK OPEN LAN": {
 "fim": "2025-07-13",
 "inicio": "2025-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51792,35 +51797,35 @@
 "KOKONISTER/Season 2": {
 "fim": "2025-03-16",
 "inicio": "2025-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "KOKONISTER/Season 2/Qualifier/1": {
 "fim": "2025-03-03",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "KOKONISTER/Season 2/Qualifier/2": {
 "fim": "2025-03-04",
 "inicio": "2025-03-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "KOKONISTER/Season 2/Qualifier/3": {
 "fim": "2025-03-05",
 "inicio": "2025-03-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "KOKONISTER/Season 2/Qualifier/4": {
 "fim": "2025-03-06",
 "inicio": "2025-03-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51834,14 +51839,14 @@
 "KOKONISTER/Season 3/Qualifier/1": {
 "fim": "2025-09-09",
 "inicio": "2025-09-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "KOKONISTER/Season 3/Qualifier/2": {
 "fim": "2025-09-10",
 "inicio": "2025-09-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51946,7 +51951,7 @@
 "KaBuM! Prime League": {
 "fim": "2025-07-22",
 "inicio": "2025-07-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -51992,14 +51997,14 @@
 "Kantoteens/All-Out Rambulan/1": {
 "fim": "2025-04-20",
 "inicio": "2025-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Kantoteens/All-Out Rambulan/2": {
 "fim": "2025-06-29",
 "inicio": "2025-06-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54798,21 +54803,21 @@
 "LanDaLan/2": {
 "fim": "2025-05-08",
 "inicio": "2025-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "LanDaLan/2/Qualifier": {
 "fim": "2025-04-04",
 "inicio": "2025-03-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LanDaLan/2/Qualifier/Open": {
 "fim": "2025-03-25",
 "inicio": "2025-03-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -54826,21 +54831,21 @@
 "LanDaLan/3/Qualifier": {
 "fim": "2025-09-01",
 "inicio": "2025-08-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LanDaLan/3/Qualifier/Open/1": {
 "fim": "2025-08-09",
 "inicio": "2025-08-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "LanDaLan/3/Qualifier/Open/2": {
 "fim": "2025-08-16",
 "inicio": "2025-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -55027,7 +55032,7 @@
 "LastOnline/Summer Showdown": {
 "fim": "2025-07-31",
 "inicio": "2025-07-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -55547,7 +55552,7 @@
 "Les Espoirs/4": {
 "fim": "2025-06-28",
 "inicio": "2025-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -56192,7 +56197,7 @@
 "Lock and Load/16": {
 "fim": "2025-03-08",
 "inicio": "2025-03-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -56837,7 +56842,7 @@
 "MESA/League/Season 4": {
 "fim": "2025-03-16",
 "inicio": "2025-03-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -57104,28 +57109,28 @@
 "META Esports Kazakhstan/Community Cup/Season 3": {
 "fim": "2025-04-02",
 "inicio": "2025-04-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "META Esports Kazakhstan/Community Cup/Season 4": {
 "fim": "2025-04-27",
 "inicio": "2025-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "META Esports Kazakhstan/Community Cup/Season 5": {
 "fim": "2025-05-04",
 "inicio": "2025-05-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "META Esports Kazakhstan/Community Cup/Season 6": {
 "fim": "2025-06-06",
 "inicio": "2025-06-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -57413,14 +57418,14 @@
 "MIRAI x Leandare Cup": {
 "fim": "2025-03-16",
 "inicio": "2025-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MISS-CS/Asia Champion/Season 1": {
 "fim": "2025-05-03",
 "inicio": "2025-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -58037,21 +58042,21 @@
 "Master League Portugal/Season 16": {
 "fim": "2025-05-11",
 "inicio": "2025-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Master League Portugal/Season 16/Qualifier/1": {
 "fim": "2025-05-01",
 "inicio": "2025-05-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Master League Portugal/Season 16/Qualifier/2": {
 "fim": "2025-05-03",
 "inicio": "2025-05-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -58402,7 +58407,7 @@
 "MelBet Media League/2": {
 "fim": "2025-09-28",
 "inicio": "2025-08-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -58760,7 +58765,7 @@
 "MistGames/Norwegian Championship/Season 2": {
 "fim": "2025-04-25",
 "inicio": "2025-04-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -59354,35 +59359,35 @@
 "MySkill/Pro League/Season 2": {
 "fim": "2025-08-23",
 "inicio": "2025-06-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MySkill/Pro League/Season 2/Qualifier/Central Asia/1": {
 "fim": "2025-06-14",
 "inicio": "2025-06-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MySkill/Pro League/Season 2/Qualifier/Central Asia/2": {
 "fim": "2025-06-15",
 "inicio": "2025-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MySkill/Pro League/Season 2/Qualifier/Open/1": {
 "fim": "2025-06-07",
 "inicio": "2025-06-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "MySkill/Pro League/Season 2/Qualifier/Open/2": {
 "fim": "2025-06-08",
 "inicio": "2025-06-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -59762,42 +59767,42 @@
 "NA Revival Series/6": {
 "fim": "2025-05-04",
 "inicio": "2025-05-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NA Revival Series/6/Qualifier": {
 "fim": "2025-05-02",
 "inicio": "2025-05-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NA Revival Series/7": {
 "fim": "2025-07-27",
 "inicio": "2025-07-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NA Revival Series/7/Qualifier": {
 "fim": "2025-07-25",
 "inicio": "2025-07-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NA Revival Series/8": {
 "fim": "2025-08-17",
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "NA Revival Series/8/Qualifier": {
 "fim": "2025-08-15",
 "inicio": "2025-08-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -59826,7 +59831,7 @@
 "NACS/Clutch or Kick/San Antonio": {
 "fim": "2025-08-17",
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -62063,14 +62068,14 @@
 "Off Season Shenanigans/Season 7": {
 "fim": "2025-04-22",
 "inicio": "2025-03-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Off Season Shenanigans/Season 8": {
 "fim": "2025-07-13",
 "inicio": "2025-06-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -62129,21 +62134,21 @@
 "OlyBet Tournament/3": {
 "fim": "2025-06-15",
 "inicio": "2025-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "OlyBet Tournament/3/Qualifier/1": {
 "fim": "2025-06-01",
 "inicio": "2025-06-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "OlyBet Tournament/3/Qualifier/2": {
 "fim": "2025-06-08",
 "inicio": "2025-06-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -62802,7 +62807,7 @@
 "PARI RIVALS": {
 "fim": "2025-07-02",
 "inicio": "2025-06-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -62824,7 +62829,7 @@
 "PCDIGA Showdown": {
 "fim": "2025-03-02",
 "inicio": "2025-02-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64167,7 +64172,7 @@
 "POLI E-FEST/3": {
 "fim": "2025-04-12",
 "inicio": "2025-04-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64189,7 +64194,7 @@
 "PXB Masters": {
 "fim": "2025-05-31",
 "inicio": "2025-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64532,14 +64537,14 @@
 "Paramigo Cup": {
 "fim": "2025-04-06",
 "inicio": "2025-04-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Paramigo Cup/2": {
 "fim": "2025-05-04",
 "inicio": "2025-04-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -64728,21 +64733,21 @@
 "Perfect World/CS Challenge/Series 1": {
 "fim": "2025-08-31",
 "inicio": "2025-08-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Perfect World/CS Challenge/Series 1/Qualifier": {
 "fim": "2025-08-28",
 "inicio": "2025-08-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Perfect World/CS Challenge/Series 1/Qualifier/Open": {
 "fim": "2025-08-17",
 "inicio": "2025-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -65194,7 +65199,7 @@
 "Perfect World/TOP League/Season 19": {
 "fim": "2025-04-14",
 "inicio": "2025-03-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -65209,14 +65214,14 @@
 "Perfect World/TOP League/Season 20": {
 "fim": "2025-07-28",
 "inicio": "2025-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Perfect World/TOP League/Season 20/2x2": {
 "fim": "2025-05-25",
 "inicio": "2025-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -66182,7 +66187,7 @@
 "PolyLAN/41": {
 "fim": "2025-06-01",
 "inicio": "2025-05-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -68156,7 +68161,7 @@
 "REJ/Tournament/4": {
 "fim": "2025-07-19",
 "inicio": "2025-07-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -69149,7 +69154,7 @@
 "Rainbet Cup": {
 "fim": "2025-05-19",
 "inicio": "2025-05-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -70219,7 +70224,7 @@
 "Roman Imperium Cup/1": {
 "fim": "2025-07-27",
 "inicio": "2025-07-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -70849,7 +70854,7 @@
 "SGL/Season 4/Starfire": {
 "fim": "2025-05-16",
 "inicio": "2025-04-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -74328,7 +74333,7 @@
 "T-esports Championship/Season 4/Qualifier/1": {
 "fim": "2025-09-09",
 "inicio": "2025-09-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -74749,7 +74754,7 @@
 "TESFED/League/Season 1": {
 "fim": "2025-08-22",
 "inicio": "2025-06-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -74946,35 +74951,35 @@
 "Team Liquid/Tidal Clash/11": {
 "fim": "2025-04-05",
 "inicio": "2025-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Team Liquid/Tidal Clash/13": {
 "fim": "2025-04-19",
 "inicio": "2025-04-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Team Liquid/Tidal Clash/15": {
 "fim": "2025-05-10",
 "inicio": "2025-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Team Liquid/Tidal Clash/17": {
 "fim": "2025-05-24",
 "inicio": "2025-05-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Team Liquid/Tidal Clash/19": {
 "fim": "2025-06-14",
 "inicio": "2025-06-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -74989,7 +74994,7 @@
 "Team Liquid/Tidal Clash/21": {
 "fim": "2025-06-28",
 "inicio": "2025-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -75010,14 +75015,14 @@
 "Team Liquid/Tidal Clash/7": {
 "fim": "2025-03-15",
 "inicio": "2025-03-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Team Liquid/Tidal Clash/9": {
 "fim": "2025-03-22",
 "inicio": "2025-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -75477,7 +75482,7 @@
 "The Last Resort/Pre-Season Invitational": {
 "fim": "2025-04-07",
 "inicio": "2025-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -75570,7 +75575,7 @@
 "The Spark Cup/2": {
 "fim": "2025-06-01",
 "inicio": "2025-05-31",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -76163,7 +76168,7 @@
 "Tradeit League/FE Masters/7": {
 "fim": "2025-06-15",
 "inicio": "2025-06-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -76748,70 +76753,70 @@
 "UKIC/League/Season 5/Division 2": {
 "fim": "2025-03-24",
 "inicio": "2025-03-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 6/Division 1": {
 "fim": "2025-06-17",
 "inicio": "2025-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 6/Division 2": {
 "fim": "2025-06-19",
 "inicio": "2025-06-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 6/Qualifier": {
 "fim": "2025-04-19",
 "inicio": "2025-04-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Challengers Division": {
 "fim": "2025-09-11",
 "inicio": "2025-09-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Masters Division": {
 "fim": "2025-09-13",
 "inicio": "2025-07-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Masters Division/Qualifier/1": {
 "fim": "2025-07-02",
 "inicio": "2025-07-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Masters Division/Qualifier/2": {
 "fim": "2025-07-03",
 "inicio": "2025-07-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Masters Division/Qualifier/3": {
 "fim": "2025-07-09",
 "inicio": "2025-07-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "UKIC/League/Season 7/Masters Division/Qualifier/4": {
 "fim": "2025-07-10",
 "inicio": "2025-07-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77442,14 +77447,14 @@
 "United21/Season 28": {
 "fim": "2025-03-20",
 "inicio": "2025-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 29": {
 "fim": "2025-04-08",
 "inicio": "2025-03-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77464,56 +77469,56 @@
 "United21/Season 30": {
 "fim": "2025-04-27",
 "inicio": "2025-04-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 31": {
 "fim": "2025-05-18",
 "inicio": "2025-04-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 32": {
 "fim": "2025-06-06",
 "inicio": "2025-05-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 33": {
 "fim": "2025-06-26",
 "inicio": "2025-06-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 34": {
 "fim": "2025-07-15",
 "inicio": "2025-06-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 35": {
 "fim": "2025-08-04",
 "inicio": "2025-07-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 36": {
 "fim": "2025-08-25",
 "inicio": "2025-08-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "United21/Season 37": {
 "fim": "2025-09-12",
 "inicio": "2025-08-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77908,7 +77913,7 @@
 "Urban Academies/1": {
 "fim": "2025-08-29",
 "inicio": "2025-08-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -77939,49 +77944,49 @@
 "Urban Contenders/4": {
 "fim": "2025-03-01",
 "inicio": "2025-02-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/5": {
 "fim": "2025-04-20",
 "inicio": "2025-04-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/6": {
 "fim": "2025-06-29",
 "inicio": "2025-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/6/Qualifier/Baltic": {
 "fim": "2025-06-17",
 "inicio": "2025-06-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/6/Qualifier/Europe": {
 "fim": "2025-06-15",
 "inicio": "2025-06-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/7": {
 "fim": "2025-07-27",
 "inicio": "2025-07-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Urban Contenders/7/Qualifier/Europe": {
 "fim": "2025-07-08",
 "inicio": "2025-07-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -78262,7 +78267,7 @@
 "Valutix Major/2": {
 "fim": "2025-07-06",
 "inicio": "2025-07-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -78964,7 +78969,7 @@
 "Whale.io Cup": {
 "fim": "2025-07-22",
 "inicio": "2025-07-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79273,28 +79278,28 @@
 "Winline Insight/Season 7": {
 "fim": "2025-07-22",
 "inicio": "2025-06-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Winline Insight/Season 7/Play-In": {
 "fim": "2025-06-05",
 "inicio": "2025-05-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Winline Insight/Season 7/Play-In/Qualifier/1": {
 "fim": "2025-05-04",
 "inicio": "2025-05-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Winline Insight/Season 7/Play-In/Qualifier/2": {
 "fim": "2025-05-11",
 "inicio": "2025-05-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79369,28 +79374,28 @@
 "Winline Pro League/Season 3": {
 "fim": "2025-09-21",
 "inicio": "2025-09-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Winline Pro League/Season 3/Qualifier/1": {
 "fim": "2025-08-28",
 "inicio": "2025-08-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Winline Pro League/Season 3/Qualifier/2": {
 "fim": "2025-08-31",
 "inicio": "2025-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Winline Star Series": {
 "fim": "2025-07-20",
 "inicio": "2025-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79709,21 +79714,21 @@
 "XSE Challenger League/Season 2/Australia": {
 "fim": null,
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Challenger League/Season 2/China": {
 "fim": "2025-08-15",
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Challenger League/Season 2/Mongolia": {
 "fim": null,
 "inicio": "2025-08-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79744,21 +79749,21 @@
 "XSE Challenger League/Season 3/Australia": {
 "fim": null,
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Challenger League/Season 3/China": {
 "fim": null,
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Challenger League/Season 3/Mongolia": {
 "fim": null,
 "inicio": "2025-08-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79830,21 +79835,21 @@
 "XSE Pro League/Season 4": {
 "fim": "2025-05-18",
 "inicio": "2025-05-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Pro League/Season 4/Qualifier": {
 "fim": "2025-05-13",
 "inicio": "2025-05-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Pro League/Season 4/Qualifier/Open": {
 "fim": "2025-04-27",
 "inicio": "2025-04-25",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79858,14 +79863,14 @@
 "XSE Pro League/Season 5/Asia": {
 "fim": "2025-07-06",
 "inicio": "2025-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "XSE Pro League/Season 5/China": {
 "fim": "2025-07-06",
 "inicio": "2025-06-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -79957,7 +79962,7 @@
 "Xiamen Future Star/Invitational/Season 1": {
 "fim": "2025-05-09",
 "inicio": "2025-03-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -80521,14 +80526,14 @@
 "Yuqilin/Pinnacle of Battle/Season 1/Qualifier": {
 "fim": "2025-08-24",
 "inicio": "2025-08-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Yuqilin/Pinnacle of Battle/Season 1/Qualifier/Open": {
 "fim": "2025-08-10",
 "inicio": "2025-08-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
@@ -80808,21 +80813,21 @@
 "Zhylyoi Cup/1": {
 "fim": "2025-02-23",
 "inicio": "2025-02-23",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Zhylyoi Cup/2": {
 "fim": "2025-03-30",
 "inicio": "2025-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
 "Zhylyoi Cup/6": {
 "fim": "2025-08-30",
 "inicio": "2025-08-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "C"
 },
