@@ -328,7 +328,7 @@ def main() -> None:
                 dia = st.radio("Dia", dias, horizontal=True, label_visibility="collapsed")
             do_dia = [j for j in jogos if _dia(j) == dia]
             # FILTRO POR CAMPEONATO (16/11/2026, ele: "para nao ficar assim [30 jogos soltos],
-            # gostaria que fosse possivel filtrar por campeonato"). Nada marcado = todos. A escolha
+            # gostaria que fosse possivel filtrar por campeonato"). A escolha
             # vale para todos os dias (fica na sessao); campeonato sem jogo no dia nao aparece.
             def _camp(x):
                 return x.get("liga") or "(sem campeonato)"
@@ -341,38 +341,42 @@ def main() -> None:
                                 default=[c for c in camps if c in guardados],
                                 format_func=lambda c: f"{c} ({contagem[c]})", key=f"camps_{dia}")
             st.session_state["_camps_escolhidos"] = (guardados - set(camps)) | set(marcados or [])
-            if marcados:
+            # 17/11/2026 (ele: "deixe mostrando so o campeonato"): sem campeonato marcado, so os
+            # botoes de campeonato; os jogos aparecem depois de escolher.
+            if not marcados:
+                st.caption("Escolha um ou mais campeonatos acima para ver os jogos.")
+            else:
                 do_dia = [x for x in do_dia if _camp(x) in marcados]
-            rot = {j["id"]: "{} × {} · {}{}{}".format(
-                j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
-                {"ao vivo": " · AO VIVO", "encerrado": " · encerrado"}.get(j["situacao"], ""),
-                "" if j["precificado"] else " · sem preço") + (
-                "" if _tem_odd(j) or not j["precificado"] else " · sem odd ainda")
-                   for j in do_dia}
-            with st.container(key="gaveta_jogo"):
-                jid = st.radio("Jogo", list(rot), format_func=rot.get, horizontal=True,
-                               label_visibility="collapsed")
-            j = next(x for x in do_dia if x["id"] == jid)
-            n_av = len(j["avisos"]) + len(j.get("pouco_dado") or []) + sum(
-                bool([x for x in f["jogadores"] if x["novo"]]) + (not f["elenco_conhecido"])
-                + ((f["dias_parado"] or 0) > 14) for f in j["fichas"] if f) + bool(j.get("qualificatoria")) \
-                + bool(j.get("fonte_sem_mapas"))
-            alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
-            components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
-            if j.get("mercados_serie"):
-                components.html(tl.pagina(tl.html_serie(j)), height=tl.altura_serie(j), scrolling=False)
-            _bloco_polymarket(j)
-            _bloco_outras_casas(est, j)
-            _bloco_rounds(j, odds)
-            _bloco_veto(est, j)
-            st.markdown("##### Mapas")
-            components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
-            n_j = max([len(f["jogadores"]) for f in j["fichas"] if f] or [1])
-            n_r = max([len(f.get("recentes") or []) for f in j["fichas"] if f] or [1])
-            components.html(tl.pagina(tl.html_fichas(j)), height=140 + 34 * n_j + 29 * n_r, scrolling=False)
-            with st.expander("Como o time foi achado nos dados"):
-                for (t, como), nome in zip(j["casou"], (j["casa"], j["fora"])):
-                    st.write(f"**{nome}** → {t or 'nada'} ({como})")
+                rot = {j["id"]: "{} × {} · {}{}{}".format(
+                    j["casa"], j["fora"], tl.hora_br(j["inicio_utc"])[6:],
+                    {"ao vivo": " · AO VIVO", "encerrado": " · encerrado"}.get(j["situacao"], ""),
+                    "" if j["precificado"] else " · sem preço") + (
+                    "" if _tem_odd(j) or not j["precificado"] else " · sem odd ainda")
+                       for j in do_dia}
+                with st.container(key="gaveta_jogo"):
+                    jid = st.radio("Jogo", list(rot), format_func=rot.get, horizontal=True,
+                                   label_visibility="collapsed")
+                j = next(x for x in do_dia if x["id"] == jid)
+                n_av = len(j["avisos"]) + len(j.get("pouco_dado") or []) + sum(
+                    bool([x for x in f["jogadores"] if x["novo"]]) + (not f["elenco_conhecido"])
+                    + ((f["dias_parado"] or 0) > 14) for f in j["fichas"] if f) + bool(j.get("qualificatoria")) \
+                    + bool(j.get("fonte_sem_mapas"))
+                alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
+                components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+                if j.get("mercados_serie"):
+                    components.html(tl.pagina(tl.html_serie(j)), height=tl.altura_serie(j), scrolling=False)
+                _bloco_polymarket(j)
+                _bloco_outras_casas(est, j)
+                _bloco_rounds(j, odds)
+                _bloco_veto(est, j)
+                st.markdown("##### Mapas")
+                components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
+                n_j = max([len(f["jogadores"]) for f in j["fichas"] if f] or [1])
+                n_r = max([len(f.get("recentes") or []) for f in j["fichas"] if f] or [1])
+                components.html(tl.pagina(tl.html_fichas(j)), height=140 + 34 * n_j + 29 * n_r, scrolling=False)
+                with st.expander("Como o time foi achado nos dados"):
+                    for (t, como), nome in zip(j["casou"], (j["casa"], j["fora"])):
+                        st.write(f"**{nome}** → {t or 'nada'} ({como})")
     with aba_melhores:
         # 15/11/2026 (Fases 4 e 6): primeiro o que da para apostar NAS CASAS DELE
         st.markdown("##### Nas suas casas (Polymarket e Stake)")
