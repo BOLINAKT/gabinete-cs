@@ -1,16 +1,16 @@
 {
- "coletado_em": "2026-11-17T22:38:19+00:00",
+ "coletado_em": "2026-11-18T03:51:55+00:00",
  "fonte": "https://gamma-api.polymarket.com/events?tag_id=100780",
  "partidas": [
   {
    "time_a": "aimers",
    "time_b": "PENSIONERS",
-   "p_a": 0.505,
-   "p_b": 0.495,
+   "p_a": 0.53,
+   "p_b": 0.47,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.29,
-   "liquidez": 312.9898,
-   "volume": 127.083325,
+   "spread": 0.02,
+   "liquidez": 1208.128,
+   "volume": 276.109398,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
    "inicio_utc": "2026-11-18 19:00:00+00",
@@ -24,7 +24,7 @@
    "p_b": 0.5,
    "fonte_preco": "meio_do_livro",
    "spread": 0.02,
-   "liquidez": 4526.6519,
+   "liquidez": 4527.6762,
    "volume": 48.875910000000005,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
@@ -55,18 +55,18 @@
      ],
      "p1": 0.505,
      "spread": 0.87,
-     "liquidez": 200.2305
+     "liquidez": 200.1028
     }
    ]
   },
   {
    "time_a": "The Chosen Few",
    "time_b": "Vitality Academy",
-   "p_a": 0.44,
-   "p_b": 0.56,
+   "p_a": 0.42,
+   "p_b": 0.58,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.18,
-   "liquidez": 329.2095,
+   "spread": 0.14,
+   "liquidez": 939.0406,
    "volume": null,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
@@ -91,12 +91,12 @@
   {
    "time_a": "Al Ahli",
    "time_b": "NoTime",
-   "p_a": 0.22,
-   "p_b": 0.78,
+   "p_a": 0.565,
+   "p_b": 0.435,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.04,
-   "liquidez": 82.1872,
-   "volume": 19.166667,
+   "spread": 0.03,
+   "liquidez": 940.2157,
+   "volume": 19.996667000000002,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
    "inicio_utc": "2026-11-18 19:30:00+00",
@@ -120,12 +120,12 @@
   {
    "time_a": "100 Thieves",
    "time_b": "Chinggis Warriors",
-   "p_a": 0.8,
-   "p_b": 0.2,
+   "p_a": 0.79,
+   "p_b": 0.21,
    "fonte_preco": "meio_do_livro",
    "spread": 0.12,
-   "liquidez": 2763.8383,
-   "volume": null,
+   "liquidez": 2768.9479,
+   "volume": 153.33500299999997,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
    "inicio_utc": "2026-11-24 05:00:00+00",
@@ -139,7 +139,7 @@
    "p_b": 0.375,
    "fonte_preco": "meio_do_livro",
    "spread": 0.05,
-   "liquidez": 2414.505,
+   "liquidez": 2412.5815,
    "volume": 376.119696,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -154,7 +154,7 @@
    "p_b": 0.445,
    "fonte_preco": "meio_do_livro",
    "spread": 0.01,
-   "liquidez": 24430.5391,
+   "liquidez": 24427.0271,
    "volume": 171.053799,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -169,7 +169,7 @@
    "p_b": 0.34,
    "fonte_preco": "meio_do_livro",
    "spread": 0.04,
-   "liquidez": 4695.5266,
+   "liquidez": 4685.6927,
    "volume": 4.327726999999999,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -184,7 +184,7 @@
    "p_b": 0.34,
    "fonte_preco": "meio_do_livro",
    "spread": 0.04,
-   "liquidez": 3390.5086,
+   "liquidez": 3350.8817,
    "volume": 501.26974699999994,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -199,7 +199,7 @@
    "p_b": 0.44,
    "fonte_preco": "meio_do_livro",
    "spread": 0.04,
-   "liquidez": 4269.3678,
+   "liquidez": 4271.3639,
    "volume": null,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -214,7 +214,7 @@
    "p_b": 0.365,
    "fonte_preco": "meio_do_livro",
    "spread": 0.05,
-   "liquidez": 5923.3298,
+   "liquidez": 5916.5246,
    "volume": 30.019213000000004,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -229,7 +229,7 @@
    "p_b": 0.425,
    "fonte_preco": "meio_do_livro",
    "spread": 0.03,
-   "liquidez": 22068.5818,
+   "liquidez": 22089.97,
    "volume": 20.838043,
    "bo": 1,
    "torneio": "PGL Major Singapore Stage 1",
@@ -244,7 +244,7 @@
    "p_b": 0.5,
    "fonte_preco": "meio_do_livro",
    "spread": 0.94,
-   "liquidez": 7.0595,
+   "liquidez": 6.0195,
    "volume": null,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
@@ -272,8 +272,8 @@
    "p_a": 0.76,
    "p_b": 0.24,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.22,
-   "liquidez": 752.1072,
+   "spread": 0.24,
+   "liquidez": 898.1303,
    "volume": 746.435936,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
@@ -317,8 +317,8 @@
    "p_b": 0.605,
    "fonte_preco": "meio_do_livro",
    "spread": 0.01,
-   "liquidez": 7985.4039,
-   "volume": 1931.697046,
+   "liquidez": 9008.0331,
+   "volume": 2597.5054059999998,
    "bo": 3,
    "torneio": "European Pro League Playoffs",
    "inicio_utc": "2026-11-18 09:00:00+00",
@@ -333,9 +333,9 @@
       "Balkan Outlaws",
       "WRAITH PCIFIC"
      ],
-     "p1": 0.405,
-     "spread": 0.03,
-     "liquidez": 1433.3361
+     "p1": 0.4,
+     "spread": 0.02,
+     "liquidez": 1290.5216
     },
     {
      "tipo": "child_moneyline",
@@ -346,9 +346,9 @@
       "Balkan Outlaws",
       "WRAITH PCIFIC"
      ],
-     "p1": 0.43,
-     "spread": 0.04,
-     "liquidez": 738.3329
+     "p1": 0.445,
+     "spread": 0.03,
+     "liquidez": 873.8125
     },
     {
      "tipo": "totals",
@@ -359,9 +359,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.445,
-     "spread": 0.01,
-     "liquidez": 1505.9289
+     "p1": 0.465,
+     "spread": 0.03,
+     "liquidez": 824.2245
     },
     {
      "tipo": "map_handicap",
@@ -372,21 +372,21 @@
       "WRAITH PCIFIC",
       "Balkan Outlaws"
      ],
-     "p1": 0.38,
-     "spread": 0.02,
-     "liquidez": 1464.2894
+     "p1": 0.365,
+     "spread": 0.01,
+     "liquidez": 972.3359
     }
    ]
   },
   {
    "time_a": "FORZE Reload",
    "time_b": "G2 Ares",
-   "p_a": 0.71,
-   "p_b": 0.29,
+   "p_a": 0.715,
+   "p_b": 0.285,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.02,
-   "liquidez": 2923.5561,
-   "volume": 1506.965572,
+   "spread": 0.01,
+   "liquidez": 3282.9939,
+   "volume": 2087.791071,
    "bo": 3,
    "torneio": "European Pro League Playoffs",
    "inicio_utc": "2026-11-18 11:30:00+00",
@@ -401,9 +401,9 @@
       "FORZE Reload",
       "G2 Ares"
      ],
-     "p1": 0.67,
-     "spread": 0.14,
-     "liquidez": 309.7985
+     "p1": 0.665,
+     "spread": 0.03,
+     "liquidez": 1196.7822
     },
     {
      "tipo": "child_moneyline",
@@ -415,8 +415,8 @@
       "G2 Ares"
      ],
      "p1": 0.695,
-     "spread": 0.17,
-     "liquidez": 281.1864
+     "spread": 0.03,
+     "liquidez": 675.8092
     },
     {
      "tipo": "totals",
@@ -427,9 +427,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.385,
-     "spread": 0.19,
-     "liquidez": 161.2995
+     "p1": 0.39,
+     "spread": 0.18,
+     "liquidez": 278.3084
     },
     {
      "tipo": "map_handicap",
@@ -440,9 +440,9 @@
       "FORZE Reload",
       "G2 Ares"
      ],
-     "p1": 0.485,
-     "spread": 0.19,
-     "liquidez": 409.0599
+     "p1": 0.48,
+     "spread": 0.16,
+     "liquidez": 917.6116
     }
    ]
   },
@@ -452,8 +452,8 @@
    "p_a": 0.165,
    "p_b": 0.835,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.17,
-   "liquidez": 856.1994,
+   "spread": 0.19,
+   "liquidez": 905.1907,
    "volume": null,
    "bo": 3,
    "torneio": "Gamers Club Liga Série A Group A",
@@ -469,9 +469,9 @@
       "Curralzinho",
       "underw0rld"
      ],
-     "p1": 0.495,
-     "spread": 0.91,
-     "liquidez": 92.4792
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 94.3194
     },
     {
      "tipo": "child_moneyline",
@@ -484,7 +484,7 @@
      ],
      "p1": 0.485,
      "spread": 0.89,
-     "liquidez": 120.739
+     "liquidez": 127.3896
     },
     {
      "tipo": "totals",
@@ -497,19 +497,19 @@
      ],
      "p1": 0.27,
      "spread": 0.46,
-     "liquidez": 11.9498
+     "liquidez": 9.5195
     }
    ]
   },
   {
    "time_a": "TROPA DO MICHA",
    "time_b": "QUINTESSÊNCIA",
-   "p_a": 0.41,
-   "p_b": 0.59,
+   "p_a": 0.4,
+   "p_b": 0.6,
    "fonte_preco": "meio_do_livro",
    "spread": 0.04,
-   "liquidez": 3033.351,
-   "volume": 879.8354029999999,
+   "liquidez": 2795.711,
+   "volume": 1093.054711,
    "bo": 3,
    "torneio": "Gamers Club Liga Série A Group C",
    "inicio_utc": "2026-11-18 18:00:00+00",
@@ -524,9 +524,9 @@
       "TROPA DO MICHA",
       "QUINTESSÊNCIA"
      ],
-     "p1": 0.385,
-     "spread": 0.19,
-     "liquidez": 131.4401
+     "p1": 0.39,
+     "spread": 0.18,
+     "liquidez": 127.7744
     },
     {
      "tipo": "child_moneyline",
@@ -537,9 +537,9 @@
       "TROPA DO MICHA",
       "QUINTESSÊNCIA"
      ],
-     "p1": 0.38,
-     "spread": 0.2,
-     "liquidez": 124.8984
+     "p1": 0.385,
+     "spread": 0.19,
+     "liquidez": 126.8395
     },
     {
      "tipo": "totals",
@@ -550,9 +550,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.285,
-     "spread": 0.43,
-     "liquidez": 17.7787
+     "p1": 0.29,
+     "spread": 0.42,
+     "liquidez": 17.5192
     }
    ]
   },
@@ -562,9 +562,9 @@
    "p_a": 0.175,
    "p_b": 0.825,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.03,
-   "liquidez": 3712.8815,
-   "volume": 1492.7575470000002,
+   "spread": 0.01,
+   "liquidez": 2943.0909,
+   "volume": 1544.3364950000002,
    "bo": 3,
    "torneio": "United21 Playoffs",
    "inicio_utc": "2026-11-18 09:00:00+00",
@@ -579,9 +579,9 @@
       "gothboiclique",
       "EYEBALLERS"
      ],
-     "p1": 0.255,
-     "spread": 0.03,
-     "liquidez": 1995.5711
+     "p1": 0.26,
+     "spread": 0.02,
+     "liquidez": 1657.7415
     },
     {
      "tipo": "child_moneyline",
@@ -592,9 +592,9 @@
       "gothboiclique",
       "EYEBALLERS"
      ],
-     "p1": 0.255,
-     "spread": 0.03,
-     "liquidez": 2001.1069
+     "p1": 0.26,
+     "spread": 0.02,
+     "liquidez": 1592.3536
     },
     {
      "tipo": "totals",
@@ -604,132 +604,22 @@
      "lados": [
       "Over",
       "Under"
-     ],
-     "p1": 0.355,
-     "spread": 0.03,
-     "liquidez": 1500.9084
-    }
-   ]
-  },
-  {
-   "time_a": "ALKA",
-   "time_b": "Los Niños",
-   "p_a": 0.605,
-   "p_b": 0.395,
-   "fonte_preco": "meio_do_livro",
-   "spread": 0.03,
-   "liquidez": 3047.6732,
-   "volume": 9146.411085000002,
-   "bo": 3,
-   "torneio": "CCT South America Challengers #4 Playoffs",
-   "inicio_utc": "2026-11-17 23:45:00+00",
-   "evento": "cs2-alkaa-ln-2026-11-17",
-   "mercados": [
-    {
-     "tipo": "child_moneyline",
-     "pergunta": "Counter-Strike: ALKA vs Los Niños - Map 1 Winner",
-     "grupo": "Map 1 Winner",
-     "linha": null,
-     "lados": [
-      "ALKA",
-      "Los Niños"
-     ],
-     "p1": 0.525,
-     "spread": 0.01,
-     "liquidez": 4306.8547
-    },
-    {
-     "tipo": "child_moneyline",
-     "pergunta": "Counter-Strike: ALKA vs Los Niños - Map 2 Winner",
-     "grupo": "Map 2 Winner",
-     "linha": null,
-     "lados": [
-      "ALKA",
-      "Los Niños"
-     ],
-     "p1": 0.62,
-     "spread": 0.16,
-     "liquidez": 1590.823
-    },
-    {
-     "tipo": "totals",
-     "pergunta": "Games Total: O/U 2.5",
-     "grupo": "O/U 2.5 Games",
-     "linha": 2.5,
-     "lados": [
-      "Over",
-      "Under"
-     ],
-     "p1": 0.29,
-     "spread": 0.42,
-     "liquidez": 9.9199
-    }
-   ]
-  },
-  {
-   "time_a": "DISFARÇADOS",
-   "time_b": "paiN Academy",
-   "p_a": 0.305,
-   "p_b": 0.695,
-   "fonte_preco": "meio_do_livro",
-   "spread": 0.01,
-   "liquidez": 2597.3693,
-   "volume": 209.228114,
-   "bo": 3,
-   "torneio": "CCT South America Challengers #4 Playoffs",
-   "inicio_utc": "2026-11-17 23:45:00+00",
-   "evento": "cs2-disfar-paina-2026-11-17",
-   "mercados": [
-    {
-     "tipo": "child_moneyline",
-     "pergunta": "Counter-Strike: DISFARÇADOS vs paiN Academy - Map 1 Winner",
-     "grupo": "Map 1 Winner",
-     "linha": null,
-     "lados": [
-      "DISFARÇADOS",
-      "paiN Academy"
      ],
      "p1": 0.36,
      "spread": 0.02,
-     "liquidez": 2304.0371
-    },
-    {
-     "tipo": "child_moneyline",
-     "pergunta": "Counter-Strike: DISFARÇADOS vs paiN Academy - Map 2 Winner",
-     "grupo": "Map 2 Winner",
-     "linha": null,
-     "lados": [
-      "DISFARÇADOS",
-      "paiN Academy"
-     ],
-     "p1": 0.375,
-     "spread": 0.07,
-     "liquidez": 1055.6429
-    },
-    {
-     "tipo": "totals",
-     "pergunta": "Games Total: O/U 2.5",
-     "grupo": "O/U 2.5 Games",
-     "linha": 2.5,
-     "lados": [
-      "Over",
-      "Under"
-     ],
-     "p1": 0.285,
-     "spread": 0.43,
-     "liquidez": 9.9194
+     "liquidez": 1172.5212
     }
    ]
   },
   {
    "time_a": "maybe",
    "time_b": "ex-INOX Division",
-   "p_a": 0.25,
-   "p_b": 0.75,
+   "p_a": 0.285,
+   "p_b": 0.715,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.04,
-   "liquidez": 1893.7998,
-   "volume": 36.066664,
+   "spread": 0.01,
+   "liquidez": 2258.4462,
+   "volume": 46.066664,
    "bo": 3,
    "torneio": "European Pro League Playoffs",
    "inicio_utc": "2026-11-19 09:00:00+00",
@@ -744,9 +634,9 @@
       "maybe",
       "ex-INOX Division"
      ],
-     "p1": 0.59,
-     "spread": 0.72,
-     "liquidez": 92.9197
+     "p1": 0.5,
+     "spread": 0.9,
+     "liquidez": 97.1598
     },
     {
      "tipo": "child_moneyline",
@@ -757,9 +647,9 @@
       "maybe",
       "ex-INOX Division"
      ],
-     "p1": 0.5,
-     "spread": 0.9,
-     "liquidez": 99.3189
+     "p1": 0.56,
+     "spread": 0.78,
+     "liquidez": 98.7193
     },
     {
      "tipo": "totals",
@@ -770,9 +660,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.39,
-     "spread": 0.22,
-     "liquidez": 31.9671
+     "p1": 0.385,
+     "spread": 0.23,
+     "liquidez": 29.0183
     },
     {
      "tipo": "map_handicap",
@@ -783,20 +673,20 @@
       "ex-INOX Division",
       "maybe"
      ],
-     "p1": 0.615,
-     "spread": 0.31,
-     "liquidez": 416.0394
+     "p1": 0.57,
+     "spread": 0.22,
+     "liquidez": 765.8733
     }
    ]
   },
   {
    "time_a": "Fire Flux Esports",
    "time_b": "Young TigeRES",
-   "p_a": 0.53,
-   "p_b": 0.47,
+   "p_a": 0.49,
+   "p_b": 0.51,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.14,
-   "liquidez": 795.1447,
+   "spread": 0.1,
+   "liquidez": 1364.4439,
    "volume": 87.490908,
    "bo": 1,
    "torneio": "ESEA Advanced Europe Regular Season",
@@ -807,12 +697,12 @@
   {
    "time_a": "KUUSAMO.gg",
    "time_b": "RoundsGG",
-   "p_a": 0.55,
-   "p_b": 0.45,
+   "p_a": 0.555,
+   "p_b": 0.445,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.04,
-   "liquidez": 1750.8166,
-   "volume": null,
+   "spread": 0.01,
+   "liquidez": 2936.1404,
+   "volume": 71.36842,
    "bo": 3,
    "torneio": "Elisa Open Suomi Group Stage",
    "inicio_utc": "2026-11-18 15:30:00+00",
@@ -829,7 +719,7 @@
      ],
      "p1": 0.515,
      "spread": 0.27,
-     "liquidez": 158.5435
+     "liquidez": 159.6962
     },
     {
      "tipo": "child_moneyline",
@@ -840,9 +730,9 @@
       "KUUSAMO.gg",
       "RoundsGG"
      ],
-     "p1": 0.52,
-     "spread": 0.28,
-     "liquidez": 158.279
+     "p1": 0.55,
+     "spread": 0.34,
+     "liquidez": 145.5553
     },
     {
      "tipo": "totals",
@@ -853,9 +743,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.285,
-     "spread": 0.43,
-     "liquidez": 13.2691
+     "p1": 0.32,
+     "spread": 0.36,
+     "liquidez": 34.8338
     },
     {
      "tipo": "map_handicap",
@@ -867,20 +757,20 @@
       "RoundsGG"
      ],
      "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 9.9198
+     "spread": 0.88,
+     "liquidez": 13.3694
     }
    ]
   },
   {
    "time_a": "Nordic Valor",
    "time_b": "BOJONG",
-   "p_a": 0.285,
-   "p_b": 0.715,
+   "p_a": 0.305,
+   "p_b": 0.695,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.03,
-   "liquidez": 1903.9558,
-   "volume": 152.704506,
+   "spread": 0.07,
+   "liquidez": 2091.4201,
+   "volume": 171.882586,
    "bo": 3,
    "torneio": "Elisa Open Suomi Group Stage",
    "inicio_utc": "2026-11-18 18:00:00+00",
@@ -895,9 +785,9 @@
       "Nordic Valor",
       "BOJONG"
      ],
-     "p1": 0.575,
-     "spread": 0.67,
-     "liquidez": 103.9496
+     "p1": 0.59,
+     "spread": 0.64,
+     "liquidez": 98.1382
     },
     {
      "tipo": "child_moneyline",
@@ -908,9 +798,9 @@
       "Nordic Valor",
       "BOJONG"
      ],
-     "p1": 0.565,
-     "spread": 0.65,
-     "liquidez": 100.8285
+     "p1": 0.61,
+     "spread": 0.68,
+     "liquidez": 95.7986
     },
     {
      "tipo": "totals",
@@ -921,9 +811,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.29,
-     "spread": 0.42,
-     "liquidez": 22.4994
+     "p1": 0.37,
+     "spread": 0.18,
+     "liquidez": 125.8543
     },
     {
      "tipo": "map_handicap",
@@ -936,18 +826,18 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 10.0398
+     "liquidez": 4.5198
     }
    ]
   },
   {
    "time_a": "SINQU",
    "time_b": "HAVU",
-   "p_a": 0.18,
-   "p_b": 0.82,
+   "p_a": 0.19,
+   "p_b": 0.81,
    "fonte_preco": "meio_do_livro",
    "spread": 0.08,
-   "liquidez": 1470.8778,
+   "liquidez": 1389.414,
    "volume": null,
    "bo": 3,
    "torneio": "Elisa Open Suomi Group Stage",
@@ -963,9 +853,9 @@
       "SINQU",
       "HAVU"
      ],
-     "p1": 0.515,
-     "spread": 0.87,
-     "liquidez": 98.4193
+     "p1": 0.51,
+     "spread": 0.88,
+     "liquidez": 112.1595
     },
     {
      "tipo": "child_moneyline",
@@ -977,8 +867,8 @@
       "HAVU"
      ],
      "p1": 0.5,
-     "spread": 0.84,
-     "liquidez": 101.4197
+     "spread": 0.78,
+     "liquidez": 104.2587
     },
     {
      "tipo": "totals",
@@ -989,9 +879,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.285,
-     "spread": 0.43,
-     "liquidez": 18.529
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 10.2694
     },
     {
      "tipo": "map_handicap",
@@ -1004,18 +894,18 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 10.0398
+     "liquidez": 4.5198
     }
    ]
   },
   {
    "time_a": "Prestige",
    "time_b": "BoyBand",
-   "p_a": 0.64,
-   "p_b": 0.36,
+   "p_a": 0.665,
+   "p_b": 0.335,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.2,
-   "liquidez": 1359.3676,
+   "spread": 0.15,
+   "liquidez": 1561.0811,
    "volume": null,
    "bo": 3,
    "torneio": "Elisa Open Suomi Group Stage",
@@ -1031,9 +921,9 @@
       "Prestige",
       "BoyBand"
      ],
-     "p1": 0.4,
-     "spread": 0.72,
-     "liquidez": 95.3186
+     "p1": 0.405,
+     "spread": 0.73,
+     "liquidez": 95.3173
     },
     {
      "tipo": "child_moneyline",
@@ -1044,9 +934,9 @@
       "Prestige",
       "BoyBand"
      ],
-     "p1": 0.4,
-     "spread": 0.72,
-     "liquidez": 95.3186
+     "p1": 0.405,
+     "spread": 0.73,
+     "liquidez": 95.3173
     },
     {
      "tipo": "totals",
@@ -1059,7 +949,7 @@
      ],
      "p1": 0.27,
      "spread": 0.46,
-     "liquidez": 9.779
+     "liquidez": 9.519
     },
     {
      "tipo": "map_handicap",
@@ -1072,18 +962,18 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 10.0398
+     "liquidez": 4.5198
     }
    ]
   },
   {
    "time_a": "MEIA NOITE",
    "time_b": "Rush",
-   "p_a": 0.555,
-   "p_b": 0.445,
+   "p_a": 0.56,
+   "p_b": 0.44,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.15,
-   "liquidez": 1461.5431,
+   "spread": 0.1,
+   "liquidez": 1842.3162,
    "volume": null,
    "bo": 3,
    "torneio": "CCT South America Challengers #4 Playoffs",
@@ -1099,9 +989,9 @@
       "MEIA NOITE",
       "Rush"
      ],
-     "p1": 0.505,
-     "spread": 0.89,
-     "liquidez": 101.9198
+     "p1": 0.545,
+     "spread": 0.27,
+     "liquidez": 115.866
     },
     {
      "tipo": "child_moneyline",
@@ -1112,9 +1002,9 @@
       "MEIA NOITE",
       "Rush"
      ],
-     "p1": 0.5,
-     "spread": 0.9,
-     "liquidez": 94.3193
+     "p1": 0.54,
+     "spread": 0.28,
+     "liquidez": 151.7977
     },
     {
      "tipo": "totals",
@@ -1125,9 +1015,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 8.519
+     "p1": 0.28,
+     "spread": 0.44,
+     "liquidez": 13.2694
     }
    ]
   },
@@ -1180,9 +1070,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 8.779
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 13.779
     },
     {
      "tipo": "map_handicap",
@@ -1195,7 +1085,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 14.0398
+     "liquidez": 8.5198
     }
    ]
   },
@@ -1206,7 +1096,7 @@
    "p_b": 0.5,
    "fonte_preco": "meio_do_livro",
    "spread": 0.9,
-   "liquidez": 237.3908,
+   "liquidez": 232.1108,
    "volume": null,
    "bo": 3,
    "torneio": "GLuck Yungstar Wildcard LAN Playoffs",
@@ -1224,7 +1114,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 103.5996
+     "liquidez": 98.3196
     },
     {
      "tipo": "child_moneyline",
@@ -1237,7 +1127,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 103.5996
+     "liquidez": 98.3196
     },
     {
      "tipo": "totals",
@@ -1248,9 +1138,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 8.5194
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 13.7794
     },
     {
      "tipo": "map_handicap",
@@ -1263,7 +1153,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 19.3184
+     "liquidez": 9.0398
     }
    ]
   },
@@ -1274,7 +1164,7 @@
    "p_b": 0.5,
    "fonte_preco": "meio_do_livro",
    "spread": 0.92,
-   "liquidez": 244.1556,
+   "liquidez": 238.8756,
    "volume": null,
    "bo": 3,
    "torneio": "GLuck Yungstar Wildcard LAN Playoffs",
@@ -1292,7 +1182,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 103.5996
+     "liquidez": 98.3196
     },
     {
      "tipo": "child_moneyline",
@@ -1305,7 +1195,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 103.5996
+     "liquidez": 98.3196
     },
     {
      "tipo": "totals",
@@ -1316,9 +1206,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 8.519
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 13.779
     },
     {
      "tipo": "map_handicap",
@@ -1331,19 +1221,19 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 19.3184
+     "liquidez": 8.7798
     }
    ]
   },
   {
    "time_a": "Teletubisie",
    "time_b": "STATE",
-   "p_a": 0.4,
-   "p_b": 0.6,
+   "p_a": 0.475,
+   "p_b": 0.525,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.14,
-   "liquidez": 346.7083,
-   "volume": null,
+   "spread": 0.03,
+   "liquidez": 1341.275,
+   "volume": 5.0,
    "bo": 3,
    "torneio": "United21 Playoffs",
    "inicio_utc": "2026-11-18 11:30:00+00",
@@ -1360,7 +1250,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 95.7488
+     "liquidez": 94.1194
     },
     {
      "tipo": "child_moneyline",
@@ -1373,7 +1263,7 @@
      ],
      "p1": 0.5,
      "spread": 0.92,
-     "liquidez": 94.6702
+     "liquidez": 94.0196
     },
     {
      "tipo": "totals",
@@ -1384,9 +1274,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.92,
-     "liquidez": 4.519
+     "p1": 0.28,
+     "spread": 0.44,
+     "liquidez": 13.269
     }
    ]
   },
@@ -1439,21 +1329,21 @@
       "Over",
       "Under"
      ],
-     "p1": 0.5,
-     "spread": 0.94,
-     "liquidez": 5.92
+     "p1": 0.265,
+     "spread": 0.47,
+     "liquidez": 10.9197
     }
    ]
   },
   {
    "time_a": "Nexus",
    "time_b": "Iberian Soul",
-   "p_a": 0.38,
-   "p_b": 0.62,
+   "p_a": 0.455,
+   "p_b": 0.545,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.02,
-   "liquidez": 3065.8299,
-   "volume": 690.252556,
+   "spread": 0.01,
+   "liquidez": 11434.9198,
+   "volume": 8914.518484,
    "bo": 3,
    "torneio": "RUSH Brno Group A",
    "inicio_utc": "2026-11-18 10:00:00+00",
@@ -1468,9 +1358,9 @@
       "Nexus",
       "Iberian Soul"
      ],
-     "p1": 0.39,
-     "spread": 0.16,
-     "liquidez": 215.6409
+     "p1": 0.475,
+     "spread": 0.01,
+     "liquidez": 6649.2072
     },
     {
      "tipo": "child_moneyline",
@@ -1481,9 +1371,9 @@
       "Nexus",
       "Iberian Soul"
      ],
-     "p1": 0.365,
-     "spread": 0.19,
-     "liquidez": 225.9923
+     "p1": 0.425,
+     "spread": 0.01,
+     "liquidez": 5735.1389
     },
     {
      "tipo": "totals",
@@ -1494,9 +1384,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.47,
-     "spread": 0.12,
-     "liquidez": 7493.1443
+     "p1": 0.465,
+     "spread": 0.03,
+     "liquidez": 8423.1286
     },
     {
      "tipo": "map_handicap",
@@ -1507,21 +1397,21 @@
       "Iberian Soul",
       "Nexus"
      ],
-     "p1": 0.5,
-     "spread": 0.48,
-     "liquidez": 182.4809
+     "p1": 0.325,
+     "spread": 0.03,
+     "liquidez": 1560.5374
     }
    ]
   },
   {
    "time_a": "Betclic Apogee Esports",
    "time_b": "BIG",
-   "p_a": 0.315,
-   "p_b": 0.685,
+   "p_a": 0.325,
+   "p_b": 0.675,
    "fonte_preco": "meio_do_livro",
    "spread": 0.01,
-   "liquidez": 7434.719,
-   "volume": 440.49802300000005,
+   "liquidez": 43203.8111,
+   "volume": 3456.115578,
    "bo": 3,
    "torneio": "Stake Ranked Episode 6 Playoffs",
    "inicio_utc": "2026-11-18 11:00:00+00",
@@ -1536,9 +1426,9 @@
       "Betclic Apogee Esports",
       "BIG"
      ],
-     "p1": 0.355,
-     "spread": 0.11,
-     "liquidez": 295.6657
+     "p1": 0.405,
+     "spread": 0.01,
+     "liquidez": 6411.9207
     },
     {
      "tipo": "child_moneyline",
@@ -1549,9 +1439,9 @@
       "Betclic Apogee Esports",
       "BIG"
      ],
-     "p1": 0.315,
-     "spread": 0.17,
-     "liquidez": 264.0706
+     "p1": 0.365,
+     "spread": 0.01,
+     "liquidez": 6500.2
     },
     {
      "tipo": "totals",
@@ -1562,9 +1452,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.505,
-     "spread": 0.01,
-     "liquidez": 8463.6456
+     "p1": 0.47,
+     "spread": 0.02,
+     "liquidez": 9355.911
     },
     {
      "tipo": "map_handicap",
@@ -1575,21 +1465,21 @@
       "BIG",
       "Betclic Apogee Esports"
      ],
-     "p1": 0.41,
-     "spread": 0.02,
-     "liquidez": 8724.5023
+     "p1": 0.405,
+     "spread": 0.01,
+     "liquidez": 18618.44
     }
    ]
   },
   {
    "time_a": "Inner Circle Esports",
    "time_b": "Sangal",
-   "p_a": 0.635,
-   "p_b": 0.365,
+   "p_a": 0.645,
+   "p_b": 0.355,
    "fonte_preco": "meio_do_livro",
    "spread": 0.01,
-   "liquidez": 34123.2097,
-   "volume": 1953.742946,
+   "liquidez": 78709.8893,
+   "volume": 83056.41055400002,
    "bo": 3,
    "torneio": "Stake Ranked Episode 6 Playoffs",
    "inicio_utc": "2026-11-18 16:00:00+00",
@@ -1604,9 +1494,9 @@
       "Inner Circle Esports",
       "Sangal"
      ],
-     "p1": 0.6,
-     "spread": 0.16,
-     "liquidez": 455.3978
+     "p1": 0.57,
+     "spread": 0.02,
+     "liquidez": 6225.7406
     },
     {
      "tipo": "child_moneyline",
@@ -1617,9 +1507,9 @@
       "Inner Circle Esports",
       "Sangal"
      ],
-     "p1": 0.67,
-     "spread": 0.14,
-     "liquidez": 243.676
+     "p1": 0.64,
+     "spread": 0.02,
+     "liquidez": 2524.5571
     },
     {
      "tipo": "totals",
@@ -1630,9 +1520,9 @@
       "Over",
       "Under"
      ],
-     "p1": 0.47,
+     "p1": 0.46,
      "spread": 0.08,
-     "liquidez": 7510.4818
+     "liquidez": 7887.0459
     },
     {
      "tipo": "map_handicap",
@@ -1645,7 +1535,7 @@
      ],
      "p1": 0.345,
      "spread": 0.03,
-     "liquidez": 3742.308
+     "liquidez": 5131.7938
     }
    ]
   },
@@ -1656,8 +1546,8 @@
    "p_b": 0.395,
    "fonte_preco": "meio_do_livro",
    "spread": 0.01,
-   "liquidez": 4137.0657,
-   "volume": 2086.036088,
+   "liquidez": 18277.463,
+   "volume": 4255.613332999999,
    "bo": 3,
    "torneio": "RUSH Brno Group A",
    "inicio_utc": "2026-11-18 16:00:00+00",
@@ -1672,9 +1562,9 @@
       "Sinners",
       "Alliance"
      ],
-     "p1": 0.625,
-     "spread": 0.17,
-     "liquidez": 227.3122
+     "p1": 0.59,
+     "spread": 0.1,
+     "liquidez": 351.1961
     },
     {
      "tipo": "child_moneyline",
@@ -1685,9 +1575,9 @@
       "Sinners",
       "Alliance"
      ],
-     "p1": 0.65,
-     "spread": 0.12,
-     "liquidez": 257.6585
+     "p1": 0.665,
+     "spread": 0.13,
+     "liquidez": 425.0563
     },
     {
      "tipo": "totals",
@@ -1699,8 +1589,8 @@
       "Under"
      ],
      "p1": 0.485,
-     "spread": 0.05,
-     "liquidez": 7602.2373
+     "spread": 0.03,
+     "liquidez": 8327.3959
     },
     {
      "tipo": "map_handicap",
@@ -1713,19 +1603,19 @@
      ],
      "p1": 0.35,
      "spread": 0.08,
-     "liquidez": 363.7389
+     "liquidez": 796.836
     }
    ]
   },
   {
    "time_a": "ILLYRIANS",
    "time_b": "INFURITY Gaming",
-   "p_a": 0.685,
-   "p_b": 0.315,
+   "p_a": 0.69,
+   "p_b": 0.31,
    "fonte_preco": "meio_do_livro",
-   "spread": 0.09,
-   "liquidez": 924.2787,
-   "volume": 29.880000000000003,
+   "spread": 0.04,
+   "liquidez": 1416.1559,
+   "volume": 36.948334,
    "bo": 3,
    "torneio": "Exort Fiesta Group Stage",
    "inicio_utc": "2026-11-18 12:00:00+00",
@@ -1740,9 +1630,9 @@
       "ILLYRIANS",
       "INFURITY Gaming"
      ],
-     "p1": 0.42,
-     "spread": 0.68,
-     "liquidez": 98.8381
+     "p1": 0.625,
+     "spread": 0.33,
+     "liquidez": 162.2342
     },
     {
      "tipo": "child_moneyline",
@@ -1753,9 +1643,9 @@
       "ILLYRIANS",
       "INFURITY Gaming"
      ],
-     "p1": 0.505,
-     "spread": 0.87,
-     "liquidez": 130.4052
+     "p1": 0.625,
+     "spread": 0.33,
+     "liquidez": 161.935
     },
     {
      "tipo": "totals",
@@ -1766,11 +1656,1242 @@
       "Over",
       "Under"
      ],
+     "p1": 0.28,
+     "spread": 0.44,
+     "liquidez": 12.8591
+    }
+   ]
+  },
+  {
+   "time_a": "LPH Gaming",
+   "time_b": "Honvéd",
+   "p_a": 0.415,
+   "p_b": 0.585,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.17,
+   "liquidez": 1326.6833,
+   "volume": 34.7125,
+   "bo": 3,
+   "torneio": "Exort Fiesta Group Stage",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-lph-hon1-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: LPH Gaming vs Honvéd - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "LPH Gaming",
+      "Honvéd"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 95.1168
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: LPH Gaming vs Honvéd - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "LPH Gaming",
+      "Honvéd"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 94.3196
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 9.8195
+    }
+   ]
+  },
+  {
+   "time_a": "DISFARÇADOS",
+   "time_b": "RED Canids Academy",
+   "p_a": 0.345,
+   "p_b": 0.655,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.19,
+   "liquidez": 313.9176,
+   "volume": null,
+   "bo": 3,
+   "torneio": "Gamers Club Liga Série A Group B",
+   "inicio_utc": "2026-11-20 17:00:00+00",
+   "evento": "cs2-disfar-reda-2026-11-20",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: DISFARÇADOS vs RED Canids Academy - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "DISFARÇADOS",
+      "RED Canids Academy"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 98.3196
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: DISFARÇADOS vs RED Canids Academy - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "DISFARÇADOS",
+      "RED Canids Academy"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 98.3196
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 13.779
+    }
+   ]
+  },
+  {
+   "time_a": "Walczaki",
+   "time_b": "KUUSAMO.gg",
+   "p_a": 0.73,
+   "p_b": 0.27,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.28,
+   "liquidez": 1478.4954,
+   "volume": null,
+   "bo": 3,
+   "torneio": "CCT Europe Closed Qualifier: Series #15 Group A",
+   "inicio_utc": "2026-11-19 09:00:00+00",
+   "evento": "cs2-wal2-ksm-2026-11-19",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Walczaki vs KUUSAMO.gg - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Walczaki",
+      "KUUSAMO.gg"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 94.3196
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Walczaki vs KUUSAMO.gg - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Walczaki",
+      "KUUSAMO.gg"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 94.3196
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.26,
+     "spread": 0.44,
+     "liquidez": 181.3403
+    }
+   ]
+  },
+  {
+   "time_a": "G2 Ares",
+   "time_b": "maybe",
+   "p_a": 0.555,
+   "p_b": 0.445,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.07,
+   "liquidez": 1242.8346,
+   "volume": null,
+   "bo": 3,
+   "torneio": "CCT Europe Closed Qualifier: Series #15 Group B",
+   "inicio_utc": "2026-11-19 15:00:00+00",
+   "evento": "cs2-g2a-maybe-2026-11-19",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: G2 Ares vs maybe - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "G2 Ares",
+      "maybe"
+     ],
+     "p1": 0.53,
+     "spread": 0.3,
+     "liquidez": 143.6888
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: G2 Ares vs maybe - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "G2 Ares",
+      "maybe"
+     ],
+     "p1": 0.54,
+     "spread": 0.32,
+     "liquidez": 137.6745
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.415,
+     "spread": 0.17,
+     "liquidez": 47.9843
+    }
+   ]
+  },
+  {
+   "time_a": "Drama eSports",
+   "time_b": "megoshort",
+   "p_a": 0.5,
+   "p_b": 0.5,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.12,
+   "liquidez": 1295.8448,
+   "volume": null,
+   "bo": 3,
+   "torneio": "CCT Europe Closed Qualifier: Series #15 Group B",
+   "inicio_utc": "2026-11-19 18:00:00+00",
+   "evento": "cs2-drama-meg1-2026-11-19",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Drama eSports vs megoshort - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Drama eSports",
+      "megoshort"
+     ],
+     "p1": 0.5,
+     "spread": 0.28,
+     "liquidez": 117.8336
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Drama eSports vs megoshort - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Drama eSports",
+      "megoshort"
+     ],
+     "p1": 0.5,
+     "spread": 0.28,
+     "liquidez": 138.2199
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.43,
+     "spread": 0.14,
+     "liquidez": 24.5163
+    }
+   ]
+  },
+  {
+   "time_a": "UNiTY esports",
+   "time_b": "GamerLegion",
+   "p_a": 0.265,
+   "p_b": 0.735,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.01,
+   "liquidez": 5057.5872,
+   "volume": 4674.319526000001,
+   "bo": 3,
+   "torneio": "Stake Ranked Episode 6 Playoffs",
+   "inicio_utc": "2026-11-18 13:30:00+00",
+   "evento": "cs2-unity-gl1-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: UNiTY esports vs GamerLegion - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "UNiTY esports",
+      "GamerLegion"
+     ],
+     "p1": 0.315,
+     "spread": 0.11,
+     "liquidez": 1185.8084
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: UNiTY esports vs GamerLegion - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "UNiTY esports",
+      "GamerLegion"
+     ],
+     "p1": 0.315,
+     "spread": 0.03,
+     "liquidez": 1077.8357
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.43,
+     "spread": 0.04,
+     "liquidez": 8087.2619
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: GL (-1.5) vs UNiTY esports (+1.5)",
+     "grupo": "Map Handicap: GL (-1.5) vs UNiTY esports (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "GamerLegion",
+      "UNiTY esports"
+     ],
+     "p1": 0.46,
+     "spread": 0.02,
+     "liquidez": 19604.8485
+    }
+   ]
+  },
+  {
+   "time_a": "NIP",
+   "time_b": "Luminosity",
+   "p_a": 0.655,
+   "p_b": 0.345,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.01,
+   "liquidez": 41883.3446,
+   "volume": 52721.027994000004,
+   "bo": 3,
+   "torneio": "Stake Ranked Episode 6 Playoffs",
+   "inicio_utc": "2026-11-18 18:30:00+00",
+   "evento": "cs2-nip-lg6-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: NIP vs Luminosity - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "NIP",
+      "Luminosity"
+     ],
+     "p1": 0.595,
+     "spread": 0.01,
+     "liquidez": 6751.1415
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: NIP vs Luminosity - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "NIP",
+      "Luminosity"
+     ],
+     "p1": 0.665,
+     "spread": 0.01,
+     "liquidez": 4320.6304
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.445,
+     "spread": 0.03,
+     "liquidez": 12457.7725
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: NIP (-1.5) vs Luminosity (+1.5)",
+     "grupo": "Map Handicap: NIP (-1.5) vs Luminosity (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "NIP",
+      "Luminosity"
+     ],
+     "p1": 0.365,
+     "spread": 0.01,
+     "liquidez": 37273.4067
+    }
+   ]
+  },
+  {
+   "time_a": "Team PCH3LK1N",
+   "time_b": "WorldEdit Club",
+   "p_a": 0.5,
+   "p_b": 0.5,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.28,
+   "liquidez": 797.4492,
+   "volume": null,
+   "bo": 3,
+   "torneio": "Winline Star Series Playoffs",
+   "inicio_utc": "2026-11-18 13:00:00+00",
+   "evento": "cs2-pch3lk-worlde-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team PCH3LK1N vs WorldEdit Club - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Team PCH3LK1N",
+      "WorldEdit Club"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 94.3196
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team PCH3LK1N vs WorldEdit Club - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Team PCH3LK1N",
+      "WorldEdit Club"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 95.9345
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.27,
+     "spread": 0.46,
+     "liquidez": 9.519
+    }
+   ]
+  },
+  {
+   "time_a": "Team Bratishkin",
+   "time_b": "Team leva2k",
+   "p_a": 0.465,
+   "p_b": 0.535,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.45,
+   "liquidez": 125.5694,
+   "volume": null,
+   "bo": 5,
+   "torneio": "Winline Star Series Playoffs",
+   "inicio_utc": "2026-11-18 16:00:00+00",
+   "evento": "cs2-bratis-leva2k-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team Bratishkin vs Team leva2k - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Team Bratishkin",
+      "Team leva2k"
+     ],
+     "p1": 0.51,
+     "spread": 0.3,
+     "liquidez": 158.7871
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team Bratishkin vs Team leva2k - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Team Bratishkin",
+      "Team leva2k"
+     ],
+     "p1": 0.52,
+     "spread": 0.32,
+     "liquidez": 151.128
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team Bratishkin vs Team leva2k - Map 3 Winner",
+     "grupo": "Map 3 Winner",
+     "linha": null,
+     "lados": [
+      "Team Bratishkin",
+      "Team leva2k"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 17.7594
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Team Bratishkin vs Team leva2k - Map 4 Winner",
+     "grupo": "Map 4 Winner",
+     "linha": null,
+     "lados": [
+      "Team Bratishkin",
+      "Team leva2k"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 17.7594
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 3.5",
+     "grupo": "O/U 3.5 Games",
+     "linha": 3.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.395,
+     "spread": 0.71,
+     "liquidez": 7.019
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 4.5",
+     "grupo": "O/U 4.5 Games",
+     "linha": 4.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
      "p1": 0.5,
      "spread": 0.92,
      "liquidez": 4.519
     }
    ]
+  },
+  {
+   "time_a": "Nice Try",
+   "time_b": "ex-RUSTEC",
+   "p_a": 0.44,
+   "p_b": 0.56,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.02,
+   "liquidez": 1670.8603,
+   "volume": 105.848671,
+   "bo": 3,
+   "torneio": "NODWIN Clutch Series Group Stage",
+   "inicio_utc": "2026-11-18 09:00:00+00",
+   "evento": "cs2-nicetr-rustec-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Nice Try vs ex-RUSTEC - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Nice Try",
+      "ex-RUSTEC"
+     ],
+     "p1": 0.59,
+     "spread": 0.66,
+     "liquidez": 91.9073
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Nice Try vs ex-RUSTEC - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Nice Try",
+      "ex-RUSTEC"
+     ],
+     "p1": 0.49,
+     "spread": 0.24,
+     "liquidez": 162.3453
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.47,
+     "spread": 0.06,
+     "liquidez": 238.9459
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: ex-RUSTEC (-1.5) vs Nice Try (+1.5)",
+     "grupo": "Map Handicap: ex-RUSTEC (-1.5) vs Nice Try (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "ex-RUSTEC",
+      "Nice Try"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 4.5194
+    }
+   ]
+  },
+  {
+   "time_a": "33",
+   "time_b": "Spirit Academy",
+   "p_a": 0.65,
+   "p_b": 0.35,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.02,
+   "liquidez": 3723.7117,
+   "volume": 488.695425,
+   "bo": 3,
+   "torneio": "NODWIN Clutch Series Group Stage",
+   "inicio_utc": "2026-11-18 12:00:00+00",
+   "evento": "cs2-331-tsa-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: 33 vs Spirit Academy - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "33",
+      "Spirit Academy"
+     ],
+     "p1": 0.63,
+     "spread": 0.16,
+     "liquidez": 195.0686
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: 33 vs Spirit Academy - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "33",
+      "Spirit Academy"
+     ],
+     "p1": 0.62,
+     "spread": 0.14,
+     "liquidez": 203.907
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.425,
+     "spread": 0.15,
+     "liquidez": 246.2285
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: 33 (-1.5) vs Spirit Academy (+1.5)",
+     "grupo": "Map Handicap: 33 (-1.5) vs Spirit Academy (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "33",
+      "Spirit Academy"
+     ],
+     "p1": 0.365,
+     "spread": 0.01,
+     "liquidez": 789.4318
+    }
+   ]
+  },
+  {
+   "time_a": "FORZE Reload",
+   "time_b": "ex-INOX Division",
+   "p_a": 0.615,
+   "p_b": 0.385,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.03,
+   "liquidez": 3145.5074,
+   "volume": 57.28359,
+   "bo": 3,
+   "torneio": "NODWIN Clutch Series Group Stage",
+   "inicio_utc": "2026-11-18 15:00:00+00",
+   "evento": "cs2-forzer-inox1-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: FORZE Reload vs ex-INOX Division - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "FORZE Reload",
+      "ex-INOX Division"
+     ],
+     "p1": 0.5,
+     "spread": 0.9,
+     "liquidez": 82.3596
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: FORZE Reload vs ex-INOX Division - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "FORZE Reload",
+      "ex-INOX Division"
+     ],
+     "p1": 0.55,
+     "spread": 0.7,
+     "liquidez": 118.4899
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.405,
+     "spread": 0.19,
+     "liquidez": 65.3928
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: FORZE.R (-1.5) vs ex-INOX Division (+1.5)",
+     "grupo": "Map Handicap: FORZE.R (-1.5) vs ex-INOX Division (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "FORZE Reload",
+      "ex-INOX Division"
+     ],
+     "p1": 0.5,
+     "spread": 0.92,
+     "liquidez": 4.9995
+    }
+   ]
+  },
+  {
+   "time_a": "ex-RUSTEC",
+   "time_b": "MOUZ NXT",
+   "p_a": 0.645,
+   "p_b": 0.355,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.01,
+   "liquidez": 2635.5004,
+   "volume": 17.149574,
+   "bo": 3,
+   "torneio": "CCT Europe Group Stage",
+   "inicio_utc": "2026-11-18 12:00:00+00",
+   "evento": "cs2-rustec-mouzn-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: ex-RUSTEC vs MOUZ NXT - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "ex-RUSTEC",
+      "MOUZ NXT"
+     ],
+     "p1": 0.385,
+     "spread": 0.67,
+     "liquidez": 106.7782
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: ex-RUSTEC vs MOUZ NXT - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "ex-RUSTEC",
+      "MOUZ NXT"
+     ],
+     "p1": 0.405,
+     "spread": 0.65,
+     "liquidez": 151.8408
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.445,
+     "spread": 0.09,
+     "liquidez": 183.3887
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: ex-RUSTEC (-1.5) vs MOUZ NXT (+1.5)",
+     "grupo": "Map Handicap: ex-RUSTEC (-1.5) vs MOUZ NXT (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "ex-RUSTEC",
+      "MOUZ NXT"
+     ],
+     "p1": 0.48,
+     "spread": 0.88,
+     "liquidez": 9.3796
+    }
+   ]
+  },
+  {
+   "time_a": "Phantom",
+   "time_b": "Metizport",
+   "p_a": 0.56,
+   "p_b": 0.44,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.02,
+   "liquidez": 5951.4729,
+   "volume": 15820.580684,
+   "bo": 3,
+   "torneio": "RUSH Brno Group B",
+   "inicio_utc": "2026-11-18 13:00:00+00",
+   "evento": "cs2-pha-mzp-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Phantom vs Metizport - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "Phantom",
+      "Metizport"
+     ],
+     "p1": 0.56,
+     "spread": 0.26,
+     "liquidez": 187.0075
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: Phantom vs Metizport - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "Phantom",
+      "Metizport"
+     ],
+     "p1": 0.47,
+     "spread": 0.06,
+     "liquidez": 2001.2336
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.485,
+     "spread": 0.03,
+     "liquidez": 7959.1292
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: PHA (-1.5) vs Metizport (+1.5)",
+     "grupo": "Map Handicap: PHA (-1.5) vs Metizport (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "Phantom",
+      "Metizport"
+     ],
+     "p1": 0.565,
+     "spread": 0.79,
+     "liquidez": 10.2894
+    }
+   ]
+  },
+  {
+   "time_a": "BakS eSports",
+   "time_b": "The Last Resort",
+   "p_a": 0.855,
+   "p_b": 0.145,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.03,
+   "liquidez": 3808.0527,
+   "volume": 5.0,
+   "bo": 3,
+   "torneio": "CCT Europe Group Stage",
+   "inicio_utc": "2026-11-18 15:00:00+00",
+   "evento": "cs2-baks-tlr-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: BakS eSports vs The Last Resort - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "BakS eSports",
+      "The Last Resort"
+     ],
+     "p1": 0.49,
+     "spread": 0.88,
+     "liquidez": 105.9713
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: BakS eSports vs The Last Resort - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "BakS eSports",
+      "The Last Resort"
+     ],
+     "p1": 0.475,
+     "spread": 0.79,
+     "liquidez": 112.4321
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.38,
+     "spread": 0.2,
+     "liquidez": 152.2399
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: BAKS (-1.5) vs The Last Resort (+1.5)",
+     "grupo": "Map Handicap: BAKS (-1.5) vs The Last Resort (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "BakS eSports",
+      "The Last Resort"
+     ],
+     "p1": 0.725,
+     "spread": 0.33,
+     "liquidez": 18.337
+    }
+   ]
+  },
+  {
+   "time_a": "BBL",
+   "time_b": "Envy",
+   "p_a": 0.475,
+   "p_b": 0.525,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.03,
+   "liquidez": 15721.796,
+   "volume": 413.93461700000006,
+   "bo": 3,
+   "torneio": "RUSH Brno Group B",
+   "inicio_utc": "2026-11-18 19:00:00+00",
+   "evento": "cs2-bbl1-envy-2026-11-18",
+   "mercados": [
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: BBL vs Envy - Map 1 Winner",
+     "grupo": "Map 1 Winner",
+     "linha": null,
+     "lados": [
+      "BBL",
+      "Envy"
+     ],
+     "p1": 0.4,
+     "spread": 0.14,
+     "liquidez": 194.4067
+    },
+    {
+     "tipo": "child_moneyline",
+     "pergunta": "Counter-Strike: BBL vs Envy - Map 2 Winner",
+     "grupo": "Map 2 Winner",
+     "linha": null,
+     "lados": [
+      "BBL",
+      "Envy"
+     ],
+     "p1": 0.555,
+     "spread": 0.11,
+     "liquidez": 207.3407
+    },
+    {
+     "tipo": "totals",
+     "pergunta": "Games Total: O/U 2.5",
+     "grupo": "O/U 2.5 Games",
+     "linha": 2.5,
+     "lados": [
+      "Over",
+      "Under"
+     ],
+     "p1": 0.485,
+     "spread": 0.03,
+     "liquidez": 7803.2949
+    },
+    {
+     "tipo": "map_handicap",
+     "pergunta": "Map Handicap: ENVY (-1.5) vs BBL (+1.5)",
+     "grupo": "Map Handicap: ENVY (-1.5) vs BBL (+1.5)",
+     "linha": -1.5,
+     "lados": [
+      "Envy",
+      "BBL"
+     ],
+     "p1": 0.27,
+     "spread": 0.12,
+     "liquidez": 2399.1337
+    }
+   ]
+  },
+  {
+   "time_a": "TTG Esports",
+   "time_b": " Phantom Academy",
+   "p_a": 0.505,
+   "p_b": 0.495,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.09,
+   "liquidez": 1050.6214,
+   "volume": 75.83,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 17:00:00+00",
+   "evento": "cs2-ttgesp-phanto-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "DNK",
+   "time_b": "Inner Circle Prospect",
+   "p_a": 0.5,
+   "p_b": 0.5,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.92,
+   "liquidez": 117.1196,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 17:00:00+00",
+   "evento": "cs2-dnk2-innerc2-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "LPH Gaming",
+   "time_b": "Rcave",
+   "p_a": 0.7,
+   "p_b": 0.3,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.14,
+   "liquidez": 698.2672,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 17:00:00+00",
+   "evento": "cs2-lph-rcave-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "OldBoys",
+   "time_b": "Rcave",
+   "p_a": 0.845,
+   "p_b": 0.155,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.13,
+   "liquidez": 695.802,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-old1-rcave-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "BANGARANGA",
+   "time_b": "NoTime",
+   "p_a": 0.61,
+   "p_b": 0.39,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.14,
+   "liquidez": 760.856,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-bangar-notime-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "B8 Academy",
+   "time_b": "Al Ahli",
+   "p_a": 0.62,
+   "p_b": 0.38,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.14,
+   "liquidez": 1017.2622,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-b8acad-alahli-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "Younglings",
+   "time_b": "Young TigeRES",
+   "p_a": 0.51,
+   "p_b": 0.49,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.88,
+   "liquidez": 126.9592,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-yl-ytigeres-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "SINQU",
+   "time_b": "eSuba",
+   "p_a": 0.41,
+   "p_b": 0.59,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.12,
+   "liquidez": 1109.2784,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:00:00+00",
+   "evento": "cs2-sinqu-esb-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "Fraternity",
+   "time_b": "ZOTIX",
+   "p_a": 0.335,
+   "p_b": 0.665,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.21,
+   "liquidez": 614.2321,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 18:30:00+00",
+   "evento": "cs2-frt-zotix-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "PARTIZAN",
+   "time_b": "Privateer Gaming",
+   "p_a": 0.49,
+   "p_b": 0.51,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.88,
+   "liquidez": 124.6208,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 19:00:00+00",
+   "evento": "cs2-prtzn-pg5-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "Inner Circle Prospect",
+   "time_b": "Regnum4Games",
+   "p_a": 0.465,
+   "p_b": 0.535,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.13,
+   "liquidez": 1141.8574,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 19:00:00+00",
+   "evento": "cs2-innerc2-r4g-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "Rcave",
+   "time_b": "DINERO",
+   "p_a": 0.5,
+   "p_b": 0.5,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.92,
+   "liquidez": 120.7676,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 19:00:00+00",
+   "evento": "cs2-rcave-dinero-2026-11-18",
+   "mercados": []
+  },
+  {
+   "time_a": "BANGARANGA",
+   "time_b": "Diamant Esports",
+   "p_a": 0.495,
+   "p_b": 0.505,
+   "fonte_preco": "meio_do_livro",
+   "spread": 0.91,
+   "liquidez": 119.4356,
+   "volume": null,
+   "bo": 1,
+   "torneio": "ESEA Advanced Europe Regular Season",
+   "inicio_utc": "2026-11-18 19:00:00+00",
+   "evento": "cs2-bangar-dia-2026-11-18",
+   "mercados": []
   }
  ]
 }
