@@ -1,138 +1,129 @@
 {
- "lido_em": "2026-11-18T12:13:51Z",
+ "lido_em": "2026-11-18T20:56:06Z",
  "jogos": [
   {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T09:00:00Z",
-   "time1": "vexar",
-   "time2": "astron",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T10:00:00Z",
-   "time1": "nexus",
-   "time2": "iberian soul",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-18T11:00:00Z",
-   "time1": "big",
-   "time2": "apogee",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T12:00:00Z",
-   "time1": "illyrians",
-   "time2": "infurity",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T13:00:00Z",
-   "time1": "phantom",
-   "time2": "metizport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "Winline Star Series/Season 4",
    "tier": "B",
-   "inicio_utc": "2026-11-18T13:00:00Z",
-   "time1": "team worldedit",
-   "time2": "team pch3lk1n",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-18T13:30:00Z",
-   "time1": "unity.sk",
-   "time2": "gl",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T15:00:00Z",
-   "time1": "drama.rs",
-   "time2": "los kogutos",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T16:00:00Z",
-   "time1": "sinners",
-   "time2": "alliance",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-18T16:00:00Z",
-   "time1": "sangal",
-   "time2": "ic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T16:00:00Z",
+   "inicio_utc": "2026-11-18T17:00:00Z",
    "time1": "team leva2k",
    "time2": "team bratishkin",
    "bo": 5,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T18:00:00Z",
-   "time1": "lph",
-   "time2": "honved",
-   "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
    "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
    "tier": "C",
-   "inicio_utc": "2026-11-18T18:00:00Z",
+   "inicio_utc": "2026-11-18T19:00:00Z",
    "time1": "linx legacy",
    "time2": "invicta.dk",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-18T18:30:00Z",
-   "time1": "nip",
-   "time2": "lg",
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-18T19:25:00Z",
+   "time1": "bbl",
+   "time2": "nv",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T19:00:00Z",
-   "time1": "bbl",
-   "time2": "nv",
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-18T21:00:00Z",
+   "time1": "los ninos",
+   "time2": "borracheiros",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-18T21:00:00Z",
+   "time1": "mira",
+   "time2": "arroba",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-18T23:45:00Z",
+   "time1": "disfarcados",
+   "time2": "9z.a",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-18T23:45:00Z",
+   "time1": "axorfy",
+   "time2": "underworld",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T09:00:00Z",
+   "time1": "walczaki",
+   "time2": "kuusamo",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-19T11:00:00Z",
+   "time1": "ic",
+   "time2": "gl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T12:00:00Z",
+   "time1": "noir verse",
+   "time2": "sokerorg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-19T13:30:00Z",
+   "time1": "nip",
+   "time2": "big",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T15:00:00Z",
+   "time1": "g2 ares",
+   "time2": "maybe.ua",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-19T16:00:00Z",
+   "time1": "lg",
+   "time2": "sangal",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T18:00:00Z",
+   "time1": "drama.rs",
+   "time2": "megoshort",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -142,6 +133,15 @@
    "inicio_utc": "2026-11-19T23:45:00Z",
    "time1": "meia noite",
    "time2": "rush gaming",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T23:45:00Z",
+   "time1": "alka",
+   "time2": "pain.a",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -209,11 +209,56 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-20T18:00:00Z",
+   "time1": "sinners",
+   "time2": "metizport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Dust2.dk/Ligaen/Season 33",
    "tier": "C",
    "inicio_utc": "2026-11-20T19:30:00Z",
    "time1": "eac",
    "time2": "xi esport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T09:00:00Z",
+   "time1": "azuolas",
+   "time2": "phantom academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T12:00:00Z",
+   "time1": "mnxt",
+   "time2": "infurity",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T15:00:00Z",
+   "time1": "lunacy team",
+   "time2": "los kogutos",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T18:00:00Z",
+   "time1": "illyrians",
+   "time2": "lilmix",
    "bo": 3,
    "mapas_jogados": 0
   },
