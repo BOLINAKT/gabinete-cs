@@ -1,159 +1,6 @@
 {
- "lido_em": "2026-11-17T16:29:24Z",
+ "lido_em": "2026-11-18T01:17:55Z",
  "jogos": [
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T14:00:00Z",
-   "time1": "team pch3lk1n",
-   "time2": "team bratishkin",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T15:00:00Z",
-   "time1": "wraith pcific",
-   "time2": "revise",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "NODWIN Gaming/Clutch Series/14",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T15:00:00Z",
-   "time1": "team aces",
-   "time2": "forze reload",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-17T15:20:00Z",
-   "time1": "nip",
-   "time2": "unity.sk",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T15:25:00Z",
-   "time1": "bbl",
-   "time2": "phantom",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T15:25:00Z",
-   "time1": "hype tech",
-   "time2": "tlr",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "PGL/2027/Cluj-Napoca/Qualifier",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T15:30:00Z",
-   "time1": "fnc",
-   "time2": "magic",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T17:00:00Z",
-   "time1": "team worldedit",
-   "time2": "team leva2k",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T18:00:00Z",
-   "time1": "azuolas",
-   "time2": "kamui",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T18:00:00Z",
-   "time1": "evo novo grotten",
-   "time2": "linx legacy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T18:00:00Z",
-   "time1": "invicta.dk",
-   "time2": "aab",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T18:00:00Z",
-   "time1": "nexus",
-   "time2": "walczaki",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Svenska Elitserien/2026/Fall/Online Stage",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T18:00:00Z",
-   "time1": "xept",
-   "time2": "crown city",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-17T18:30:00Z",
-   "time1": "lg",
-   "time2": "gl",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-17T19:00:00Z",
-   "time1": "nv",
-   "time2": "metizport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T21:00:00Z",
-   "time1": "arroba",
-   "time2": "red canids academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-17T21:00:00Z",
-   "time1": "quintessencia",
-   "time2": "underworld",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/South America/Challengers 4",
    "tier": "C",
@@ -209,6 +56,33 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-18T13:00:00Z",
+   "time1": "phantom",
+   "time2": "metizport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Winline Star Series/Season 4",
+   "tier": "B",
+   "inicio_utc": "2026-11-18T13:00:00Z",
+   "time1": "team worldedit",
+   "time2": "team pch3lk1n",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-18T13:30:00Z",
+   "time1": "unity.sk",
+   "time2": "gl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Fiesta Series/4",
    "tier": "C",
    "inicio_utc": "2026-11-18T15:00:00Z",
@@ -236,6 +110,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Winline Star Series/Season 4",
+   "tier": "B",
+   "inicio_utc": "2026-11-18T16:00:00Z",
+   "time1": "team leva2k",
+   "time2": "team bratishkin",
+   "bo": 5,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Fiesta Series/4",
    "tier": "C",
    "inicio_utc": "2026-11-18T18:00:00Z",
@@ -245,11 +128,110 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
+   "tier": "C",
+   "inicio_utc": "2026-11-18T18:00:00Z",
+   "time1": "linx legacy",
+   "time2": "invicta.dk",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-18T18:30:00Z",
+   "time1": "nip",
+   "time2": "lg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-18T19:00:00Z",
+   "time1": "bbl",
+   "time2": "nv",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/South America/Challengers 4",
    "tier": "C",
    "inicio_utc": "2026-11-19T23:45:00Z",
    "time1": "meia noite",
    "time2": "rush gaming",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T07:00:00Z",
+   "time1": "private",
+   "time2": "enjoy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T07:00:00Z",
+   "time1": "team aces",
+   "time2": "butterfly",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Master League Portugal/Season 19",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T11:30:00Z",
+   "time1": "sega-dll",
+   "time2": "abt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T13:00:00Z",
+   "time1": "luntiki",
+   "time2": "just players",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T13:00:00Z",
+   "time1": "forze reload",
+   "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Master League Portugal/Season 19",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T16:00:00Z",
+   "time1": "fuzos",
+   "time2": "famalicao",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Dust2.dk/Ligaen/Season 33",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T17:00:00Z",
+   "time1": "wopa",
+   "time2": "masonic",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Dust2.dk/Ligaen/Season 33",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T19:30:00Z",
+   "time1": "eac",
+   "time2": "xi esport",
    "bo": 3,
    "mapas_jogados": 0
   },
