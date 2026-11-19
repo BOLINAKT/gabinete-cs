@@ -1143,7 +1143,7 @@
 "99Damage/Liga/Season 14/Division 1": {
 "fim": "2020-05-09",
 "inicio": "2020-02-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -1174,7 +1174,7 @@
 "99Damage/Liga/Season 15/Division 1": {
 "fim": "2020-08-15",
 "inicio": "2020-06-01",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -3827,7 +3827,7 @@
 "BBL Esports/CLUTCH/Season 2": {
 "fim": "2020-05-17",
 "inicio": "2020-02-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -3850,7 +3850,7 @@
 "BBL Esports/CLUTCH/Season 3": {
 "fim": "2020-10-21",
 "inicio": "2020-08-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -10032,7 +10032,7 @@
 "CMD368 Championship": {
 "fim": "2020-01-28",
 "inicio": "2020-01-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -13029,28 +13029,28 @@
 "Cs summit/6/Europe": {
 "fim": "2020-07-05",
 "inicio": "2020-06-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
 "Cs summit/6/Europe/Qualifier": {
 "fim": "2020-06-23",
 "inicio": "2020-06-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
 "Cs summit/6/Europe/Qualifier/Open": {
 "fim": "2020-06-14",
 "inicio": "2020-06-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Cs summit/6/North America": {
 "fim": "2020-07-05",
 "inicio": "2020-06-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
@@ -20701,7 +20701,7 @@
 "ESEA/Season 33/Global Challenge": {
 "fim": "2020-04-09",
 "inicio": "2020-04-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
@@ -20772,7 +20772,7 @@
 "ESEA/Season 33/Premier/Australia": {
 "fim": "2020-03-22",
 "inicio": "2020-01-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -20787,14 +20787,14 @@
 "ESEA/Season 33/Premier/Europe": {
 "fim": "2020-03-19",
 "inicio": "2020-02-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESEA/Season 33/Premier/Europe/Final": {
 "fim": "2020-08-17",
 "inicio": "2020-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -20809,14 +20809,14 @@
 "ESEA/Season 33/Premier/North America": {
 "fim": "2020-03-19",
 "inicio": "2020-02-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESEA/Season 33/Premier/North America/Final": {
 "fim": "2020-08-07",
 "inicio": "2020-08-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -20935,7 +20935,7 @@
 "ESEA/Season 34/Premier/Australia": {
 "fim": "2020-09-07",
 "inicio": "2020-04-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -20950,7 +20950,7 @@
 "ESEA/Season 34/Premier/Europe": {
 "fim": "2020-07-01",
 "inicio": "2020-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -20973,14 +20973,14 @@
 "ESEA/Season 34/Premier/North America": {
 "fim": "2020-07-01",
 "inicio": "2020-04-27",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESEA/Season 34/Premier/North America/All-Stars": {
 "fim": "2020-07-03",
 "inicio": "2020-07-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -24518,7 +24518,7 @@
 "ESL/ANZ Champs/Season 10": {
 "fim": "2020-04-05",
 "inicio": "2020-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -24549,7 +24549,7 @@
 "ESL/ANZ Champs/Season 11": {
 "fim": "2020-08-22",
 "inicio": "2020-05-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -27725,7 +27725,7 @@
 "ESL/Masters España/Season 7": {
 "fim": "2020-05-31",
 "inicio": "2020-03-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28181,7 +28181,7 @@
 "ESL/One/Road to Rio/Asia": {
 "fim": "2020-05-10",
 "inicio": "2020-05-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28196,7 +28196,7 @@
 "ESL/One/Road to Rio/CIS": {
 "fim": "2020-05-17",
 "inicio": "2020-04-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
@@ -28211,28 +28211,28 @@
 "ESL/One/Road to Rio/Europe": {
 "fim": "2020-05-17",
 "inicio": "2020-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
 "ESL/One/Road to Rio/North America": {
 "fim": "2020-05-10",
 "inicio": "2020-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
 "ESL/One/Road to Rio/Oceania": {
 "fim": "2020-05-10",
 "inicio": "2020-05-06",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "ESL/One/Road to Rio/South America": {
 "fim": "2020-04-26",
 "inicio": "2020-04-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28335,7 +28335,7 @@
 "ESL/Pro League/Season 10/Americas/Relegation/North America": {
 "fim": "2020-01-24",
 "inicio": "2020-01-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28358,7 +28358,7 @@
 "ESL/Pro League/Season 10/Europe/Relegation": {
 "fim": "2020-01-24",
 "inicio": "2020-01-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28404,14 +28404,14 @@
 "ESL/Pro League/Season 11/Europe": {
 "fim": "2020-04-12",
 "inicio": "2020-03-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "S"
 },
 "ESL/Pro League/Season 11/North America": {
 "fim": "2020-04-12",
 "inicio": "2020-03-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "S"
 },
@@ -28447,7 +28447,7 @@
 "ESL/Pro League/Season 12/Europe/Qualifier": {
 "fim": "2020-06-19",
 "inicio": "2020-06-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -28461,7 +28461,7 @@
 "ESL/Pro League/Season 12/North America/Qualifier": {
 "fim": "2020-06-10",
 "inicio": "2020-06-08",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -32079,7 +32079,7 @@
 "Eden Esports/Malta Vibes/Week 1": {
 "fim": "2020-07-05",
 "inicio": "2020-06-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -32093,49 +32093,49 @@
 "Eden Esports/Malta Vibes/Week 2": {
 "fim": "2020-07-13",
 "inicio": "2020-07-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 3": {
 "fim": "2020-07-19",
 "inicio": "2020-07-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 4": {
 "fim": "2020-07-26",
 "inicio": "2020-07-21",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 5": {
 "fim": "2020-08-03",
 "inicio": "2020-07-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 6": {
 "fim": "2020-08-09",
 "inicio": "2020-08-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 7": {
 "fim": "2020-08-16",
 "inicio": "2020-08-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Eden Esports/Malta Vibes/Week 8": {
 "fim": "2020-08-24",
 "inicio": "2020-08-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -39641,7 +39641,7 @@
 "Finnish Esports League/Season 8": {
 "fim": "2020-07-05",
 "inicio": "2020-04-15",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -39830,27 +39830,27 @@
 "Flashpoint": {
 "fim": "2020-03-28",
 "inicio": "2020-03-28",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "S"
 },
 "Flashpoint/Season 1": {
 "fim": "2020-04-19",
 "inicio": "2020-03-13",
-"pendente": true,
+"pendente": false,
 "tier": "S"
 },
 "Flashpoint/Season 1/Qualifier": {
 "fim": "2020-03-05",
 "inicio": "2020-03-03",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Flashpoint/Season 1/Qualifier/Europe": {
 "fim": "2020-02-17",
 "inicio": "2020-02-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -39889,7 +39889,7 @@
 "Flashpoint/Season 1/Qualifier/North America": {
 "fim": "2020-02-17",
 "inicio": "2020-02-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -39928,7 +39928,7 @@
 "Flashpoint/Season 1/Qualifier/South America": {
 "fim": "2020-02-17",
 "inicio": "2020-02-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -44234,7 +44234,7 @@
 "Gamers Club/Masters/V": {
 "fim": "2020-08-02",
 "inicio": "2020-07-30",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -46820,7 +46820,7 @@
 "Hellcase Cup/8": {
 "fim": "2020-07-05",
 "inicio": "2020-05-18",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47127,21 +47127,21 @@
 "HomeSweetHome/Week 1": {
 "fim": "2020-04-12",
 "inicio": "2020-04-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "HomeSweetHome/Week 2": {
 "fim": "2020-04-19",
 "inicio": "2020-04-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "HomeSweetHome/Week 3": {
 "fim": "2020-05-10",
 "inicio": "2020-05-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47156,7 +47156,7 @@
 "HomeSweetHome/Week 4": {
 "fim": "2020-05-17",
 "inicio": "2020-05-12",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47171,7 +47171,7 @@
 "HomeSweetHome/Week 5": {
 "fim": "2020-05-24",
 "inicio": "2020-05-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47186,7 +47186,7 @@
 "HomeSweetHome/Week 6": {
 "fim": "2020-05-31",
 "inicio": "2020-05-26",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47201,7 +47201,7 @@
 "HomeSweetHome/Week 7": {
 "fim": "2020-06-07",
 "inicio": "2020-06-02",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47216,7 +47216,7 @@
 "HomeSweetHome/Week 8": {
 "fim": "2020-06-14",
 "inicio": "2020-06-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -47936,6 +47936,16 @@
 "inicio": "2023-12-17",
 "pendente": false,
 "sem_ano": true,
+"tier": "C"
+},
+"IKIN Master/2026": {
+"fim": "2026-12-17",
+"inicio": "2026-12-14",
+"tier": "C"
+},
+"IKIN Master/2026/Qualifier": {
+"fim": "2026-12-09",
+"inicio": "2026-12-07",
 "tier": "C"
 },
 "IKin Open Cup/1": {
@@ -50620,14 +50630,14 @@
 "Intel Extreme Masters/Season XIV/World Championship": {
 "fim": "2020-03-01",
 "inicio": "2020-02-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "S"
 },
 "Intel Extreme Masters/Season XIV/World Championship/Asia": {
 "fim": "2020-01-09",
 "inicio": "2020-01-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -50650,7 +50660,7 @@
 "Intel Extreme Masters/Season XIV/World Championship/Europe": {
 "fim": "2020-01-10",
 "inicio": "2020-01-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
@@ -50665,14 +50675,14 @@
 "Intel Extreme Masters/Season XIV/World Championship/Europe/Open/2": {
 "fim": "2020-01-08",
 "inicio": "2020-01-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Intel Extreme Masters/Season XIV/World Championship/North America": {
 "fim": "2020-01-09",
 "inicio": "2020-01-07",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -50695,7 +50705,7 @@
 "Intel Extreme Masters/Season XIV/World Championship/Oceania": {
 "fim": "2020-01-16",
 "inicio": "2020-01-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -50822,7 +50832,7 @@
 "Intel Extreme Masters/Season XV/Melbourne": {
 "fim": "2020-08-23",
 "inicio": "2020-08-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "S"
 },
@@ -50867,14 +50877,14 @@
 "Intel Extreme Masters/Season XV/New York/Europe/Qualifier": {
 "fim": "2020-08-16",
 "inicio": "2020-08-14",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
 "Intel Extreme Masters/Season XV/New York/Europe/Qualifier/Open": {
 "fim": "2020-08-12",
 "inicio": "2020-08-11",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -54550,7 +54560,7 @@
 "LOOT.BET/CS/Season 6": {
 "fim": "2020-06-13",
 "inicio": "2020-04-05",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -54565,7 +54575,7 @@
 "LOOT.BET/CS/Season 7": {
 "fim": "2020-09-11",
 "inicio": "2020-06-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -58199,7 +58209,7 @@
 "Master League Portugal/Season 5": {
 "fim": "2020-06-14",
 "inicio": "2020-04-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -58435,7 +58445,7 @@
 "Merkur Masters/Season 1": {
 "fim": "2020-05-24",
 "inicio": "2020-05-22",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -59535,7 +59545,7 @@
 "Mythic Cup/5": {
 "fim": "2020-01-05",
 "inicio": "2020-01-04",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -59603,7 +59613,7 @@
 "Mythic League/Invite/Season 1": {
 "fim": "2020-07-09",
 "inicio": "2020-05-24",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -62221,7 +62231,7 @@
 "One Game Agency/Counter PIT/Season 5": {
 "fim": "2020-02-23",
 "inicio": "2020-02-17",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -62789,7 +62799,7 @@
 "PACTit Challenge/8": {
 "fim": "2020-02-29",
 "inicio": "2020-02-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -64556,7 +64566,7 @@
 "Parimatch League": {
 "fim": "2020-05-03",
 "inicio": "2020-04-13",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
@@ -69166,7 +69176,7 @@
 "Rainmaker Open/Season 1": {
 "fim": "2020-06-13",
 "inicio": "2020-05-09",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -69522,21 +69532,21 @@
 "Relog Media/Nine to Five/1": {
 "fim": "2020-07-15",
 "inicio": "2020-06-29",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Relog Media/Nine to Five/2": {
 "fim": "2020-08-05",
 "inicio": "2020-07-20",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
 "Relog Media/Nine to Five/3": {
 "fim": "2020-08-26",
 "inicio": "2020-08-10",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -74172,7 +74182,7 @@
 "tier": "B"
 },
 "Svenska Elitserien/2026/Fall/Online Stage": {
-"fim": "2026-11-17",
+"fim": "2026-11-18",
 "inicio": "2026-09-16",
 "pendente": false,
 "tier": "C"
@@ -75177,7 +75187,7 @@
 "Telia Esports Series/Season 3": {
 "fim": "2020-05-07",
 "inicio": "2020-03-19",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "B"
 },
@@ -78866,7 +78876,7 @@
 "WePlay!/Clutch Island": {
 "fim": "2020-06-28",
 "inicio": "2020-06-16",
-"pendente": true,
+"pendente": false,
 "sem_ano": true,
 "tier": "A"
 },
