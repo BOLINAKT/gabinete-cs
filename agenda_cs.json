@@ -1,69 +1,6 @@
 {
- "lido_em": "2026-11-18T20:56:06Z",
+ "lido_em": "2026-11-19T02:49:52Z",
  "jogos": [
-  {
-   "pagina": "Winline Star Series/Season 4",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T17:00:00Z",
-   "time1": "team leva2k",
-   "time2": "team bratishkin",
-   "bo": 5,
-   "mapas_jogados": 2
-  },
-  {
-   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T19:00:00Z",
-   "time1": "linx legacy",
-   "time2": "invicta.dk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-18T19:25:00Z",
-   "time1": "bbl",
-   "time2": "nv",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T21:00:00Z",
-   "time1": "los ninos",
-   "time2": "borracheiros",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T21:00:00Z",
-   "time1": "mira",
-   "time2": "arroba",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T23:45:00Z",
-   "time1": "disfarcados",
-   "time2": "9z.a",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-18T23:45:00Z",
-   "time1": "axorfy",
-   "time2": "underworld",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Series 15/Play-In",
    "tier": "C",
@@ -124,6 +61,33 @@
    "inicio_utc": "2026-11-19T18:00:00Z",
    "time1": "drama.rs",
    "time2": "megoshort",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Dust2.dk/Divisionerne/Season 33/Division 1",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T18:00:00Z",
+   "time1": "evo novo grotten",
+   "time2": "linx legacy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T21:00:00Z",
+   "time1": "9z.a",
+   "time2": "los ninos",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-19T21:00:00Z",
+   "time1": "mira",
+   "time2": "underworld",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -191,6 +155,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PLAYzone/RUSH Brno/2026",
+   "tier": "B",
+   "inicio_utc": "2026-11-20T15:00:00Z",
+   "time1": "nv",
+   "time2": "nexus",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Master League Portugal/Season 19",
    "tier": "C",
    "inicio_utc": "2026-11-20T16:00:00Z",
@@ -227,11 +200,74 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Arrmy.gg/Masters League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T09:00:00Z",
+   "time1": "team mce",
+   "time2": "overtime",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T09:00:00Z",
+   "time1": "hexagone",
+   "time2": "noname (polish team)",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T09:00:00Z",
+   "time1": "disbandovicie",
+   "time2": "izako boars",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Constantine Numérique Tournament/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T09:00:00Z",
+   "time1": "al ahli",
+   "time2": "mca esports",
+   "bo": 5,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 15/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-21T09:00:00Z",
    "time1": "azuolas",
    "time2": "phantom academy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Masters League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T12:00:00Z",
+   "time1": "los kogutos",
+   "time2": "fang esport",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T12:00:00Z",
+   "time1": "polteam red",
+   "time2": "energolek",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T12:00:00Z",
+   "time1": "great",
+   "time2": "total esport",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -245,6 +281,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Arrmy.gg/Open League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T15:00:00Z",
+   "time1": "pewność$iebie",
+   "time2": "klakiery czesia",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 15/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-21T15:00:00Z",
@@ -254,11 +299,38 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Arrmy.gg/Open League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T18:00:00Z",
+   "time1": "lewygol",
+   "time2": "parad0x",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 15/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-21T18:00:00Z",
    "time1": "illyrians",
    "time2": "lilmix",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Open League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-22T09:00:00Z",
+   "time1": "masuria esport",
+   "time2": "adversa pro",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Arrmy.gg/Open League/Season 17",
+   "tier": "C",
+   "inicio_utc": "2026-11-22T12:00:00Z",
+   "time1": "nexora (polish team)",
+   "time2": "rzufodtylu",
    "bo": 3,
    "mapas_jogados": 0
   },
