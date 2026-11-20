@@ -1,60 +1,6 @@
 {
- "lido_em": "2026-11-20T02:37:02Z",
+ "lido_em": "2026-11-20T12:11:09Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-19T23:45:00Z",
-   "time1": "meia noite",
-   "time2": "rush gaming",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-19T23:45:00Z",
-   "time1": "alka",
-   "time2": "pain.a",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T07:00:00Z",
-   "time1": "private",
-   "time2": "enjoy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T07:00:00Z",
-   "time1": "team aces",
-   "time2": "butterfly",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T09:00:00Z",
-   "time1": "walczaki",
-   "time2": "noir verse",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T09:00:00Z",
-   "time1": "nice try",
-   "time2": "baks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "Master League Portugal/Season 19",
    "tier": "C",
@@ -85,6 +31,15 @@
   {
    "pagina": "GLuck Yungstar/2026/Wildcard LAN",
    "tier": "C",
+   "inicio_utc": "2026-11-20T12:10:00Z",
+   "time1": "enjoy",
+   "time2": "team aces",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
+   "tier": "C",
    "inicio_utc": "2026-11-20T13:00:00Z",
    "time1": "luntiki",
    "time2": "just players",
@@ -97,6 +52,15 @@
    "inicio_utc": "2026-11-20T13:00:00Z",
    "time1": "forze reload",
    "time2": "baks",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Stake Ranked/Episode 6",
+   "tier": "A",
+   "inicio_utc": "2026-11-20T13:00:00Z",
+   "time1": "lg",
+   "time2": "big",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -155,6 +119,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T18:00:00Z",
+   "time1": "maybe.ua",
+   "time2": "drama.rs",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "Fiesta Series/4",
    "tier": "C",
    "inicio_utc": "2026-11-20T18:00:00Z",
@@ -209,6 +182,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T21:00:00Z",
+   "time1": "los ninos",
+   "time2": "rush gaming",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
    "inicio_utc": "2026-11-20T21:45:00Z",
@@ -224,6 +206,24 @@
    "time1": "axe.ua",
    "time2": "zotix",
    "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-20T23:45:00Z",
+   "time1": "mira",
+   "time2": "pain.a",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Hikari4ever Arrival Open/Season 1",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T03:00:00Z",
+   "time1": "potato gaming",
+   "time2": "future star gaming",
+   "bo": 1,
    "mapas_jogados": 0
   },
   {
@@ -376,6 +376,15 @@
    "inicio_utc": "2026-11-21T18:00:00Z",
    "time1": "illyrians",
    "time2": "lilmix",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/South America/Challengers 4",
+   "tier": "C",
+   "inicio_utc": "2026-11-21T21:00:00Z",
+   "time1": "meia noite",
+   "time2": "alka",
    "bo": 3,
    "mapas_jogados": 0
   },
