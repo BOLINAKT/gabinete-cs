@@ -4958,6 +4958,11 @@
 "inicio": "2026-12-20",
 "tier": "C"
 },
+"BRO CYBER LEAGUE/Season 3/WINTER CUP": {
+"fim": "2026-12-08",
+"inicio": "2026-12-07",
+"tier": "C"
+},
 "BRO SPRING CUP/2026": {
 "fim": "2026-04-26",
 "inicio": "2026-04-25",
@@ -13331,6 +13336,46 @@
 "pendente": false,
 "tier": "C"
 },
+"CyberClash/Season 3": {
+"fim": "2026-12-27",
+"inicio": "2026-12-25",
+"tier": "C"
+},
+"CyberClash/Season 3/Qualifier/1": {
+"fim": "2026-11-29",
+"inicio": "2026-11-29",
+"tier": "C"
+},
+"CyberClash/Season 3/Qualifier/2": {
+"fim": "2026-11-30",
+"inicio": "2026-11-30",
+"tier": "C"
+},
+"CyberClash/Season 3/Qualifier/3": {
+"fim": "2026-12-01",
+"inicio": "2026-12-01",
+"tier": "C"
+},
+"CyberClash/Season 3/Qualifier/4": {
+"fim": "2026-12-06",
+"inicio": "2026-12-06",
+"tier": "C"
+},
+"CyberClash/Women": {
+"fim": "2026-11-29",
+"inicio": "2026-11-23",
+"tier": "C"
+},
+"CyberClash/Women/Qualifier/1": {
+"fim": "2026-11-21",
+"inicio": "2026-11-21",
+"tier": "C"
+},
+"CyberClash/Women/Qualifier/2": {
+"fim": "2026-11-22",
+"inicio": "2026-11-22",
+"tier": "C"
+},
 "CyberGamer Pro League III": {
 "fim": "2014-04-06",
 "fora": true,
@@ -14065,6 +14110,11 @@
 "inicio": null,
 "pendente": false,
 "sem_ano": true,
+"tier": "C"
+},
+"DACH CS Masters/Community LAN/2026": {
+"fim": "2026-12-12",
+"inicio": "2026-12-11",
 "tier": "C"
 },
 "DACH CS Masters/LAN by Corsair": {
@@ -23867,6 +23917,11 @@
 "inicio": "2026-10-05",
 "tier": "C"
 },
+"ESEA/Season 59/Entry/Europe": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
 "ESEA/Season 59/Finals/Asia": {
 "fim": "2026-12-20",
 "inicio": "2026-12-19",
@@ -23897,12 +23952,57 @@
 "inicio": "2026-10-05",
 "tier": "C"
 },
+"ESEA/Season 59/Intermediate/Europe": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Intermediate/North America": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
 "ESEA/Season 59/Intermediate/Oceania": {
 "fim": "2026-12-13",
 "inicio": "2026-10-05",
 "tier": "C"
 },
 "ESEA/Season 59/Intermediate/South America": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Main/Europe": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Main/North America": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Open/Asia": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Open/Oceania": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Open/South America": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Open10/Europe": {
+"fim": "2026-12-13",
+"inicio": "2026-10-05",
+"tier": "C"
+},
+"ESEA/Season 59/Open10/North America": {
 "fim": "2026-12-13",
 "inicio": "2026-10-05",
 "tier": "C"
@@ -35824,6 +35924,16 @@
 "inicio": "2026-10-23",
 "pendente": false,
 "sem_ano": true,
+"tier": "C"
+},
+"European Pro League/Series 11": {
+"fim": "2026-12-22",
+"inicio": "2026-12-05",
+"tier": "C"
+},
+"European Pro League/Series 11/Play-In": {
+"fim": "2026-12-02",
+"inicio": "2026-11-23",
 "tier": "C"
 },
 "European Pro League/Series 2": {
@@ -47953,6 +48063,16 @@
 "inicio": "2026-12-07",
 "tier": "C"
 },
+"IKIN Masters/2026": {
+"fim": "2026-12-17",
+"inicio": "2026-12-14",
+"tier": "C"
+},
+"IKIN Masters/2026/Qualifier": {
+"fim": "2026-12-09",
+"inicio": "2026-12-07",
+"tier": "C"
+},
 "IKin Open Cup/1": {
 "fim": "2026-07-20",
 "inicio": "2026-07-14",
@@ -51425,6 +51545,12 @@
 "sem_ano": true,
 "tier": "B"
 },
+"Invictus Game Station LAN/2026/Fall": {
+"fim": "2026-11-15",
+"inicio": "2026-11-15",
+"pendente": false,
+"tier": "C"
+},
 "Invictus Game Station LAN/2026/Summer": {
 "fim": "2026-08-09",
 "inicio": "2026-08-09",
@@ -54354,6 +54480,11 @@
 "inicio": "2026-09-10",
 "pendente": false,
 "sem_ano": true,
+"tier": "C"
+},
+"LD Championship/Season 1": {
+"fim": "2026-11-21",
+"inicio": "2026-11-21",
 "tier": "C"
 },
 "LDPR/Russia/2025": {
@@ -68640,6 +68771,11 @@
 "sem_ano": true,
 "tier": "C"
 },
+"RIVALS LEAGUE/Season 2": {
+"fim": "2027-01-30",
+"inicio": "2027-01-30",
+"tier": "C"
+},
 "RLG/RES/Adriatic League/Season 3": {
 "fim": "2023-11-26",
 "fora": true,
@@ -70247,6 +70383,11 @@
 "pendente": false,
 "sem_ano": true,
 "tier": "C"
+},
+"Roman Imperium Cup/10": {
+"fim": "2026-12-19",
+"inicio": "2026-12-16",
+"tier": "B"
 },
 "Roman Imperium Cup/2": {
 "fim": "2025-09-14",
@@ -77700,6 +77841,11 @@
 "United21/Season 58": {
 "fim": "2026-11-20",
 "inicio": "2026-11-03",
+"tier": "C"
+},
+"United21/Season 59": {
+"fim": "2026-12-10",
+"inicio": "2026-11-23",
 "tier": "C"
 },
 "United21/Season 6": {
