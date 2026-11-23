@@ -28,7 +28,7 @@ from pathlib import Path
 
 API = "https://liquipedia.net/counterstrike/api.php"
 UA = ("GabineteCS/0.1 (modelo pessoal de previsao de CS2; dados citados como Liquipedia CC-BY-SA; "
-      "contato: gptconta401@gmail.com)")
+      "contato: https://github.com/BOLINAKT/gabinete-cs)")
 INTERVALO_S = 2.1
 CACHE = Path(__file__).resolve().parent / "cache" / "liquipedia"
 _ultima = [0.0]

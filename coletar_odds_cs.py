@@ -34,7 +34,7 @@ from pathlib import Path
 BASE = "https://guest.api.arcadia.pinnacle.com/0.1/"
 ESPORTE = 12
 AGENTE = ("GabineteCS/0.1 (modelo pessoal de previsao de CS2; 2 chamadas a cada 3 h; "
-          "contato: gptconta401@gmail.com)")
+          "contato: https://github.com/BOLINAKT/gabinete-cs)")
 RAIZ = Path(__file__).resolve().parent
 ATUAL, HIST, PARTIDAS = RAIZ / "odds_cs2.json", RAIZ / "odds_cs2_historico.jsonl", RAIZ / "odds_cs2_partidas.jsonl"
 RC_BLOQUEIO = 75

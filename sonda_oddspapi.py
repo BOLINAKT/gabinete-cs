@@ -20,7 +20,7 @@ from pathlib import Path
 
 BASE = "https://api.oddspapi.io/v4/"
 ESPORTES = {"CS2": 17, "LoL": 18, "Dota2": 16}
-UA = "GabineteCS/0.1 (modelo pessoal; contato: gptconta401@gmail.com)"
+UA = "GabineteCS/0.1 (modelo pessoal; contato: https://github.com/BOLINAKT/gabinete-cs)"
 
 
 def chamar(caminho: str, chave: str, **params):

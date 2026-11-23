@@ -20,7 +20,7 @@ RAIZ = Path(__file__).resolve().parent
 CACHE = RAIZ / "cache" / "vrs"
 API = "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/contents/live/"
 RAW = "https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/main/live/"
-UA = {"User-Agent": "GabineteCS/0.1 (modelo pessoal; contato: gptconta401@gmail.com)"}
+UA = {"User-Agent": "GabineteCS/0.1 (modelo pessoal; contato: https://github.com/BOLINAKT/gabinete-cs)"}
 _ARQ = re.compile(r"standings_global_(\d{4})_(\d{2})_(\d{2})\.md$")
 
 

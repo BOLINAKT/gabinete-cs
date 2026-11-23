@@ -27,7 +27,7 @@ from pathlib import Path
 
 BASE = "https://api.oddspapi.io/v4/"
 SPORT_ID = 17
-UA = "GabineteCS/0.1 (modelo pessoal; contato: gptconta401@gmail.com)"
+UA = "GabineteCS/0.1 (modelo pessoal; contato: https://github.com/BOLINAKT/gabinete-cs)"
 RAIZ = Path(__file__).resolve().parent
 ATUAL = RAIZ / "odds_casas_cs2.json"
 HIST = RAIZ / "odds_casas_cs2_historico.jsonl"
