@@ -52,3 +52,19 @@ jobs:
             git pull --rebase --autostash || exit 1
           done
           git push
+
+      # STATUS DA COLETA (24/11/2026): roda SEMPRE (sucesso, falha, corte) e grava status_coleta_cs.json;
+      # a faixa do topo do app le. So este arquivo sobe.
+      - name: Registrar o resultado da coleta (sempre)
+        if: always()
+        run: |
+          python status_coleta.py --esporte cs --resultado "${{ job.status }}" || true
+          git config user.name "Robo GabineteCS"
+          git config user.email "robo@gabinete.local"
+          git add status_coleta_cs.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Robo: status da coleta do CS2 (${{ job.status }})" --only status_coleta_cs.json
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase --autostash || true
+          done

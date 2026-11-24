@@ -315,6 +315,13 @@ def _clicar_mapas(est, j, chave) -> None:
 
 def main() -> None:
     st.title("Gabinete CS2")
+    # FAIXA DE CONFIANCA (24/11/2026): ate que jogo a base vai e se a ultima coleta deu certo
+    # (confianca_base_core.py, o mesmo do LoL/Dota; o robo grava status_coleta_cs.json em toda rodada).
+    try:
+        import confianca_base_core as _cb
+        _cb.render_faixa(st, RAIZ, "cs")
+    except Exception as _e:  # noqa: BLE001
+        st.warning(f"A faixa de confiança da base não abriu ({type(_e).__name__}).")
     c1, c2 = st.columns([5, 1])
     with c2:
         if st.button("Atualizar odds", help="Lê a Pinnacle agora (2 chamadas) e puxa o histórico do robô"):
