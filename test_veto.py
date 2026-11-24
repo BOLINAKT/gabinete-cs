@@ -68,5 +68,21 @@ class TestVeto(unittest.TestCase):
         self.assertIsNone(lin[0]["odd_a"])
 
 
+class TestMapasClicados(unittest.TestCase):
+    """24/11/2026: ele marca os mapas clicando (pick de cada time, ban, decisivo)."""
+
+    def test_ordem_picks_na_ordem_do_clique_decisivo_no_fim(self):
+        marcas = {"Mirage": "B", "Inferno": "A", "Nuke": "ban", "Ancient": "decisivo", "Dust2": None}
+        ordem = {"Inferno": 1, "Mirage": 2}
+        self.assertEqual(vc.ordem_dos_mapas(marcas, ordem), [("Inferno", "A"), ("Mirage", "B"), ("Ancient", None)])
+
+    def test_serie(self):
+        self.assertAlmostEqual(vc.p_serie([0.5, 0.5, 0.5], 3), 0.5)
+        self.assertAlmostEqual(vc.p_serie([0.8, 0.2, 0.5], 3), 0.8 * 0.2 + 0.8 * 0.8 * 0.5 + 0.2 * 0.2 * 0.5)
+        self.assertAlmostEqual(vc.p_serie([0.6], 1), 0.6)
+        self.assertGreater(vc.p_serie([0.6] * 5, 5), vc.p_serie([0.6] * 3, 3))   # serie longa favorece o melhor
+
+
+
 if __name__ == "__main__":
     unittest.main()

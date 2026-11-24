@@ -215,3 +215,29 @@ def placar(d: pd.DataFrame) -> dict:
             "ll_base": sum(l["ll_base"] for l in linhas) / n, "ll_mapa": sum(l["ll_mapa"] for l in linhas) / n,
             "acerto_base": sum((l["p_base"] >= 0.5) == bool(l["venceu_a"]) for l in linhas) / n,
             "acerto_mapa": sum((l["p_mapa"] >= 0.5) == bool(l["venceu_a"]) for l in linhas) / n}
+
+
+def p_serie(ps: list, bo: int) -> float:
+    """Pura (24/11/2026). P(time A vence a serie MD`bo`) com a chance de A em cada mapa, NA ORDEM
+    (M1, M2, ...); mapa que ainda nao se sabe usa o ultimo valor da lista. Ele: "quanto essa odd vai
+    descer no m1 para o time A, e quanto para o time B no mapa 2, e como a odd vai ficar no m3"."""
+    alvo = bo // 2 + 1
+    ps = list(ps) or [0.5]
+
+    def rec(i, a, b):
+        if a == alvo:
+            return 1.0
+        if b == alvo:
+            return 0.0
+        p = ps[i] if i < len(ps) else ps[-1]
+        return p * rec(i + 1, a + 1, b) + (1 - p) * rec(i + 1, a, b + 1)
+    return rec(0, 0, 0)
+
+
+def ordem_dos_mapas(marcas: dict, ordem_clique: dict) -> list:
+    """Pura (24/11/2026). marcas {mapa: 'A'|'B'|'ban'|'decisivo'|None}, ordem_clique {mapa: n} ->
+    [(mapa, quem_pickou)] na ordem M1, M2, ...: os picks na ordem em que foram marcados, o decisivo
+    por ultimo (ban fica de fora)."""
+    picks = sorted([m for m, v in marcas.items() if v in ("A", "B")], key=lambda m: ordem_clique.get(m, 0))
+    dec = [m for m, v in marcas.items() if v == "decisivo"]
+    return [(m, marcas[m]) for m in picks] + [(m, None) for m in dec]

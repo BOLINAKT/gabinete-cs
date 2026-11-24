@@ -257,22 +257,60 @@ def _bloco_veto(est, j) -> None:
         except Exception as e:  # rede: aviso, nunca derruba a tela
             st.warning(f"Não consegui ler a Liquipedia agora ({type(e).__name__}).")
     if j["precificado"]:
-        with st.expander("Digitar os mapas (se a Liquipedia ainda não tiver)",
-                         expanded=chave in st.session_state and not st.session_state[chave][0]):
-            pool = sorted(getattr(est, "pool", []) or [])
-            escolhidos = st.multiselect("Mapas na ordem (mapa 1, mapa 2, ...)", pool, key=f"m_{chave}")
-            if st.button("Usar estes mapas", key=f"u_{chave}", disabled=not escolhidos):
-                v = {"pagina": "digitado", "mapas": [{"n": i + 1, "mapa": m, "terminado": False, "vencedor_a": None}
-                                                     for i, m in enumerate(escolhidos)]}
-                linhas = vc.linhas_do_veto(est, j, v)
-                novos = vc.registrar(j, linhas, "digitado") if linhas else 0
-                st.session_state[chave] = (linhas, "digitado")
-                if novos:
-                    st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
+        _clicar_mapas(est, j, chave)
     if chave in st.session_state:
         linhas, pagina = st.session_state[chave]
         components.html(tl.pagina(tl.html_veto(j, linhas, pagina)),
                         height=110 + 46 * max(1, len(linhas)) + 70, scrolling=False)
+        if linhas:
+            bo = int(j.get("bo") or 3)
+            pb = float(linhas[0]["p_base"])
+            ps = [float(l["p_mapa"]) for l in linhas]
+            s0, s1 = vc.p_serie([pb], bo), vc.p_serie(ps, bo)
+            st.markdown(f"**Série MD{bo}** — {j['casa']}: antes do veto **{100 * s0:.0f}%** ({1 / s0:.2f}) → "
+                        f"com estes mapas **{100 * s1:.0f}%** ({1 / s1:.2f}) · {j['fora']}: {1 / (1 - s1):.2f}"
+                        + ("" if len(ps) >= bo else f" · mapas que faltam contam como o último conhecido"))
+
+
+def _clicar_mapas(est, j, chave) -> None:
+    """MAPAS POR CLIQUE (24/11/2026). Ele: "talvez eu clicar numa tela, onde tem o mapa, e selecionar o que
+    foi pick e voce fazer o resto". Cada mapa da pool vira um cartao: pick de um time, pick do outro, ban ou
+    decisivo. A ordem M1, M2... e a ordem em que os picks foram marcados; o decisivo vai por ultimo."""
+    pool = sorted(getattr(est, "pool", []) or [])
+    if not pool:
+        return
+    ss = st.session_state
+    ordem = ss.setdefault(f"ord_{chave}", {})
+    a_curto, b_curto = str(j["casa"])[:14], str(j["fora"])[:14]
+    rot = {"—": "—", "A": f"Pick {a_curto}", "B": f"Pick {b_curto}", "ban": "Ban", "decisivo": "Decisivo"}
+
+    def marcou(m):
+        v = ss.get(f"mc_{chave}_{m}")
+        if v in ("A", "B"):
+            ordem[m] = max(ordem.values(), default=0) + 1
+        else:
+            ordem.pop(m, None)
+
+    with st.expander("Marcar os mapas (clique: pick de cada time, ban ou decisivo)", expanded=True):
+        for m in pool:
+            c1, c2 = st.columns([1, 5], vertical_alignment="center")
+            c1.markdown(f"**{m}**")
+            c2.segmented_control(m, list(rot), format_func=lambda x: rot[x], key=f"mc_{chave}_{m}",
+                                 label_visibility="collapsed", on_change=marcou, args=(m,))
+        marcas = {m: ss.get(f"mc_{chave}_{m}") for m in pool}
+        seq = vc.ordem_dos_mapas(marcas, ordem)
+        if seq:
+            st.caption("Ordem: " + " · ".join(f"M{n + 1} {m}" + (f" (pick {a_curto if q == 'A' else b_curto})" if q else
+                                                                  " (decisivo)") for n, (m, q) in enumerate(seq)))
+        if st.button("Usar estes mapas", key=f"u_{chave}", disabled=not seq):
+            v = {"pagina": "digitado", "mapas": [{"n": n + 1, "mapa": m, "terminado": False, "vencedor_a": None}
+                                                 for n, (m, _q) in enumerate(seq)]}
+            linhas = vc.linhas_do_veto(est, j, v)
+            novos = vc.registrar(j, linhas, "digitado") if linhas else 0
+            ss[chave] = (linhas, "digitado")
+            if novos:
+                st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
+            st.rerun()
 
 
 def main() -> None:
