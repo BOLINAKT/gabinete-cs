@@ -68,6 +68,16 @@ def ultimo_jogo(raiz: Path, esporte: str) -> Optional[Dict[str, Any]]:
     return out
 
 
+def ler_completude(raiz: Path, esporte: str) -> Optional[Dict[str, Any]]:
+    """evidence/completude_<esporte>.json: series que a fonte oficial diz que TERMINARAM e nao estao na
+    base (tools/completude_<esporte>.py, no robo). Achado de 24/11/2026: a final do Mundial fora da base
+    do LoL com a faixa dizendo "ok"."""
+    try:
+        return json.loads((Path(raiz) / "evidence" / f"completude_{esporte}.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
 def ler_status(raiz: Path, esporte: str) -> Optional[Dict[str, Any]]:
     try:
         return json.loads((Path(raiz) / f"status_coleta_{esporte}.json").read_text(encoding="utf-8"))
@@ -95,8 +105,21 @@ def _ha(agora: datetime, d: Optional[datetime]) -> str:
 
 
 def veredito(esporte: str, ultimo: Optional[Dict[str, Any]], status: Optional[Dict[str, Any]],
-             agora: Optional[datetime] = None) -> Tuple[str, str]:
-    """Pura: (nivel 'ok'|'atencao'|'erro', texto da faixa)."""
+             agora: Optional[datetime] = None, completude: Optional[Dict[str, Any]] = None) -> Tuple[str, str]:
+    """Pura: (nivel 'ok'|'atencao'|'erro', texto da faixa). Serie terminada fora da base sobe para atencao."""
+    nivel, texto = _veredito_coleta(esporte, ultimo, status, agora)
+    falt = list((completude or {}).get("faltando") or [])
+    if falt:
+        ex = falt[-1]
+        texto += (f" · **faltam {len(falt)} série(s) que já terminaram** (fonte oficial, últimos "
+                  f"{(completude or {}).get('janela_dias', 21)} dias), ex.: {ex.get('a')} x {ex.get('b')} "
+                  f"({ex.get('liga')}, {str(ex.get('inicio'))[8:10]}/{str(ex.get('inicio'))[5:7]}) — veja os detalhes.")
+        nivel = "erro" if nivel == "erro" else "atencao"
+    return nivel, texto
+
+
+def _veredito_coleta(esporte: str, ultimo: Optional[Dict[str, Any]], status: Optional[Dict[str, Any]],
+                     agora: Optional[datetime] = None) -> Tuple[str, str]:
     agora = agora or datetime.now(timezone.utc)
     nome = NOME.get(esporte, esporte)
     if not ultimo:
@@ -119,12 +142,18 @@ def veredito(esporte: str, ultimo: Optional[Dict[str, Any]], status: Optional[Di
 
 def render_faixa(st: Any, raiz: Path, esporte: str) -> None:
     try:
-        ult, stt = ultimo_jogo(raiz, esporte), ler_status(raiz, esporte)
-        nivel, texto = veredito(esporte, ult, stt)
+        ult, stt, cpl = ultimo_jogo(raiz, esporte), ler_status(raiz, esporte), ler_completude(raiz, esporte)
+        nivel, texto = veredito(esporte, ult, stt, completude=cpl)
     except Exception as e:  # noqa: BLE001 -- a faixa nunca derruba o app, mas nunca some calada
         st.warning(f"A faixa de confiança da base não abriu ({type(e).__name__}).")
         return
     {"ok": st.success, "atencao": st.warning, "erro": st.error}[nivel](texto)
+    falt = list((cpl or {}).get("faltando") or [])
+    if falt:
+        with st.expander(f"Séries que já terminaram e não estão na base ({len(falt)})"):
+            st.dataframe([{"Data": str(f.get("inicio"))[:10], "Série": f"{f.get('a')} x {f.get('b')}",
+                           "Placar": f.get("placar"), "Liga": f.get("liga"), "Motivo": f.get("motivo")}
+                          for f in falt], hide_index=True, use_container_width=True)
     if nivel != "ok" and stt and (stt.get("diagnostico") or stt.get("rodada")):
         with st.expander("Detalhes da coleta"):
             if stt.get("rodada"):
