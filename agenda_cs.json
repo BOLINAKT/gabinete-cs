@@ -1,417 +1,282 @@
 {
- "lido_em": "2026-11-20T12:11:09Z",
+ "lido_em": "2026-11-24T02:35:30Z",
  "jogos": [
   {
-   "pagina": "Master League Portugal/Season 19",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T11:30:00Z",
-   "time1": "sega-dll",
-   "time2": "abt",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T12:00:00Z",
-   "time1": "honved",
-   "time2": "revise",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T12:00:00Z",
-   "time1": "lazer cats",
-   "time2": "hype tech",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T12:10:00Z",
-   "time1": "enjoy",
-   "time2": "team aces",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T13:00:00Z",
-   "time1": "luntiki",
-   "time2": "just players",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "GLuck Yungstar/2026/Wildcard LAN",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T13:00:00Z",
-   "time1": "forze reload",
-   "time2": "baks",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Stake Ranked/Episode 6",
-   "tier": "A",
-   "inicio_utc": "2026-11-20T13:00:00Z",
-   "time1": "lg",
-   "time2": "big",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T15:00:00Z",
-   "time1": "kuusamo",
-   "time2": "sokerorg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T15:00:00Z",
-   "time1": "misa",
-   "time2": "prestige.dk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T15:00:00Z",
-   "time1": "nv",
-   "time2": "nexus",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T15:00:00Z",
-   "time1": "rune eaters",
-   "time2": "butterfly",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Master League Portugal/Season 19",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T16:00:00Z",
-   "time1": "fuzos",
-   "time2": "famalicao",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Ligaen/Season 33",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T17:00:00Z",
-   "time1": "wopa",
-   "time2": "masonic",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T18:00:00Z",
-   "time1": "maybe.ua",
-   "time2": "drama.rs",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T18:00:00Z",
-   "time1": "vexar",
-   "time2": "azuolas",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PLAYzone/RUSH Brno/2026",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T18:00:00Z",
-   "time1": "sinners",
-   "time2": "metizport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 14",
-   "tier": "B",
-   "inicio_utc": "2026-11-20T18:00:00Z",
-   "time1": "genone",
-   "time2": "leo team",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 11",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T19:00:00Z",
-   "time1": "hermine",
-   "time2": "encelade",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 11",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T19:00:00Z",
-   "time1": "ttg esports",
-   "time2": "notime",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Dust2.dk/Ligaen/Season 33",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T19:30:00Z",
-   "time1": "eac",
-   "time2": "xi esport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T21:00:00Z",
-   "time1": "los ninos",
-   "time2": "rush gaming",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 11",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T21:45:00Z",
-   "time1": "diamant",
-   "time2": "sharadictator",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 11",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T21:45:00Z",
-   "time1": "axe.ua",
-   "time2": "zotix",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/South America/Challengers 4",
-   "tier": "C",
-   "inicio_utc": "2026-11-20T23:45:00Z",
-   "time1": "mira",
-   "time2": "pain.a",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Hikari4ever Arrival Open/Season 1",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T03:00:00Z",
-   "time1": "potato gaming",
-   "time2": "future star gaming",
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T04:00:00Z",
+   "time1": "heroic",
+   "time2": "imp",
    "bo": 1,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Masters League/Season 17",
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T04:00:00Z",
+   "time1": "9z",
+   "time2": "lvg",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T05:00:00Z",
+   "time1": "nip",
+   "time2": "m80",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T05:00:00Z",
+   "time1": "100t",
+   "time2": "chinggis",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T06:00:00Z",
+   "time1": "pvision",
+   "time2": "dendele",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T06:00:00Z",
+   "time1": "tl",
+   "time2": "gosh",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T07:00:00Z",
+   "time1": "faze",
+   "time2": "wildcard",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-24T07:00:00Z",
+   "time1": "ef",
+   "time2": "fq",
+   "bo": 1,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
-   "inicio_utc": "2026-11-21T09:00:00Z",
-   "time1": "team mce",
-   "time2": "dimonix esports",
+   "inicio_utc": "2026-11-24T09:00:00Z",
+   "time1": "masonic",
+   "time2": "ex-sashi academy",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "pagina": "United21/Season 59",
    "tier": "C",
-   "inicio_utc": "2026-11-21T09:00:00Z",
-   "time1": "hexagone",
-   "time2": "noname (polish team)",
+   "inicio_utc": "2026-11-24T09:00:00Z",
+   "time1": "infinite talent",
+   "time2": "tcgg",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Rising League/Season 17",
+   "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
-   "inicio_utc": "2026-11-21T09:00:00Z",
-   "time1": "disbandovicie",
-   "time2": "izako boars",
+   "inicio_utc": "2026-11-24T11:30:00Z",
+   "time1": "donstu",
+   "time2": "fortress",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Constantine Numérique Tournament/2026",
+   "pagina": "United21/Season 59",
    "tier": "C",
-   "inicio_utc": "2026-11-21T09:00:00Z",
-   "time1": "al ahli",
-   "time2": "mca esports",
-   "bo": 5,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T09:00:00Z",
-   "time1": "azuolas",
-   "time2": "phantom academy",
+   "inicio_utc": "2026-11-24T11:30:00Z",
+   "time1": "ic academy",
+   "time2": "passion academy",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Masters League/Season 17",
+   "pagina": "Fiesta Series/4",
    "tier": "C",
-   "inicio_utc": "2026-11-21T12:00:00Z",
-   "time1": "los kogutos",
-   "time2": "fang esport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Arrmy.gg/Rising League/Season 17",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T12:00:00Z",
-   "time1": "polteam red",
-   "time2": "rrisk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Arrmy.gg/Rising League/Season 17",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T12:00:00Z",
-   "time1": "tmn e-sport",
-   "time2": "total esport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T12:00:00Z",
-   "time1": "mnxt",
-   "time2": "infurity",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "ARRMY CUP/2026",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T15:00:00Z",
-   "time1": "izako boars",
-   "time2": "hexagone",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "ARRMY CUP/2026",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T15:00:00Z",
-   "time1": "tmn e-sport",
-   "time2": "vofoxen esport",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Arrmy.gg/Open League/Season 17",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T15:00:00Z",
-   "time1": "pewność$iebie",
-   "time2": "klakiery czesia",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-21T15:00:00Z",
-   "time1": "lunacy team",
+   "inicio_utc": "2026-11-24T12:00:00Z",
+   "time1": "vexar",
    "time2": "los kogutos",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "ARRMY CUP/2026",
+   "pagina": "CyberClash/Women",
    "tier": "C",
-   "inicio_utc": "2026-11-21T18:00:00Z",
-   "time1": "los kogutos",
-   "time2": "team mce",
+   "inicio_utc": "2026-11-24T15:00:00Z",
+   "time1": "ec2-dw",
+   "time2": "desperategirls",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "ARRMY CUP/2026",
+   "pagina": "Fiesta Series/4",
    "tier": "C",
-   "inicio_utc": "2026-11-21T18:00:00Z",
-   "time1": "dimonix esports",
-   "time2": "fang esport",
+   "inicio_utc": "2026-11-24T15:00:00Z",
+   "time1": "misa",
+   "time2": "astron",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Open League/Season 17",
+   "pagina": "CyberClash/Women",
    "tier": "C",
-   "inicio_utc": "2026-11-21T18:00:00Z",
-   "time1": "lewygol",
-   "time2": "parad0x",
+   "inicio_utc": "2026-11-24T18:00:00Z",
+   "time1": "el macaron",
+   "time2": "idk (female team)",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
+   "pagina": "Fiesta Series/4",
    "tier": "C",
-   "inicio_utc": "2026-11-21T18:00:00Z",
-   "time1": "illyrians",
-   "time2": "lilmix",
+   "inicio_utc": "2026-11-24T18:00:00Z",
+   "time1": "azuolas",
+   "time2": "prestige.dk",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "CCT/2026/South America/Challengers 4",
+   "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
-   "inicio_utc": "2026-11-21T21:00:00Z",
-   "time1": "meia noite",
-   "time2": "alka",
+   "inicio_utc": "2026-11-24T21:45:00Z",
+   "time1": "encelade",
+   "time2": "ex-copenhagen wolves",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Open League/Season 17",
+   "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
-   "inicio_utc": "2026-11-22T09:00:00Z",
-   "time1": "masuria esport",
-   "time2": "adversa pro",
+   "inicio_utc": "2026-11-24T21:45:00Z",
+   "time1": "ttg esports",
+   "time2": "zotix",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "Arrmy.gg/Open League/Season 17",
+   "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
-   "inicio_utc": "2026-11-22T12:00:00Z",
-   "time1": "nexora (polish team)",
-   "time2": "rzufodtylu",
+   "inicio_utc": "2026-11-25T09:00:00Z",
+   "time1": "maybe.ua",
+   "time2": "glitch agency",
    "bo": 3,
    "mapas_jogados": 0
   },
   {
-   "pagina": "PLAYzone/MČR/2026",
+   "pagina": "United21/Season 59",
    "tier": "C",
-   "inicio_utc": "2026-11-22T12:00:00Z",
-   "time1": "unity.sk",
-   "time2": "monkeys (czech team)",
+   "inicio_utc": "2026-11-25T09:00:00Z",
+   "time1": "prodigies",
+   "time2": "eac",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T11:30:00Z",
+   "time1": "ryvex",
+   "time2": "lvlt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T11:30:00Z",
+   "time1": "fire flux",
+   "time2": "fortress",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T09:00:00Z",
+   "time1": "kamui",
+   "time2": "tulpar.kz",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T09:00:00Z",
+   "time1": "navi jr",
+   "time2": "wopa",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T11:30:00Z",
+   "time1": "young tigeres",
+   "time2": "abt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T11:30:00Z",
+   "time1": "wraith pcific",
+   "time2": "bad beavers",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T09:00:00Z",
+   "time1": "sokerorg",
+   "time2": "revise",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T09:00:00Z",
+   "time1": "spray'n'pray",
+   "time2": "teletubisie",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T11:30:00Z",
+   "time1": "bebop",
+   "time2": "spirit green",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T11:30:00Z",
+   "time1": "ex-cw",
+   "time2": "tcf",
    "bo": 3,
    "mapas_jogados": 0
   }
