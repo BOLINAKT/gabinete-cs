@@ -38,11 +38,16 @@ jobs:
             exit 0
           fi
           exit "$rc"
+      # COMPLETUDE (24/11/2026): toda serie que a Liquipedia da como terminada esta na base? (1 chamada pesada)
+      - name: Conferir a base contra a Liquipedia:Matches
+        continue-on-error: true
+        run: python completude_cs.py
       - name: Commitar
         run: |
           git config user.name "Robo GabineteCS"
           git config user.email "robo@gabinete.local"
-          for f in agenda_cs.json mapas_cs.csv torneios_cs.json; do [ -f "$f" ] && git add "$f"; done
+          for f in agenda_cs.json mapas_cs.csv torneios_cs.json agenda_cs_terminados.json; do [ -f "$f" ] && git add "$f"; done
+          [ -f evidence/completude_cs.json ] && git add -f evidence/completude_cs.json
           git diff --cached --quiet && exit 0
           git commit -m "Robô: agenda de CS2 (Liquipedia)"
           for i in 1 2 3; do
