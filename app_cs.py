@@ -448,7 +448,11 @@ def main() -> None:
         else:
             dias = list(dict.fromkeys(_dia(j) for j in jogos))
             with st.container(key="gaveta_dia"):
-                dia = st.radio("Dia", dias, horizontal=True, label_visibility="collapsed")
+                # 25/11/2026: jogo da madrugada (ex.: Major as 03:00) cai no dia SEGUINTE -- o numero de jogos de
+                # cada dia fica a vista para nada parecer sumido
+                _n_dia = {x: sum(1 for y in jogos if _dia(y) == x) for x in dias}
+                dia = st.radio("Dia", dias, horizontal=True, label_visibility="collapsed",
+                               format_func=lambda x: f"{x} ({_n_dia[x]} jogos)")
             do_dia = [j for j in jogos if _dia(j) == dia]
             # FILTRO POR CAMPEONATO (16/11/2026, ele: "para nao ficar assim [30 jogos soltos],
             # gostaria que fosse possivel filtrar por campeonato"). A escolha
