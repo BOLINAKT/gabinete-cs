@@ -1,78 +1,6 @@
 {
- "lido_em": "2026-11-24T14:16:13Z",
+ "lido_em": "2026-11-25T00:09:00Z",
  "jogos": [
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-24T12:00:00Z",
-   "time1": "sokerorg",
-   "time2": "lunacy team",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "United21/Season 59",
-   "tier": "C",
-   "inicio_utc": "2026-11-24T14:00:00Z",
-   "time1": "infinite talent",
-   "time2": "tcgg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-24T15:00:00Z",
-   "time1": "drama.rs",
-   "time2": "phantom academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CyberClash/Women",
-   "tier": "C",
-   "inicio_utc": "2026-11-24T15:00:00Z",
-   "time1": "ec2-dw",
-   "time2": "desperategirls",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-24T15:00:00Z",
-   "time1": "misa",
-   "time2": "astron",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15/Play-In",
-   "tier": "B",
-   "inicio_utc": "2026-11-24T18:00:00Z",
-   "time1": "mnxt",
-   "time2": "noir verse",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CyberClash/Women",
-   "tier": "C",
-   "inicio_utc": "2026-11-24T18:00:00Z",
-   "time1": "el macaron",
-   "time2": "idk (female team)",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-24T18:00:00Z",
-   "time1": "azuolas",
-   "time2": "prestige.dk",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
   {
    "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
@@ -227,11 +155,29 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CyberClash/Women",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T15:00:00Z",
+   "time1": "needachance",
+   "time2": "desperategirls",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 16/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-25T18:00:00Z",
    "time1": "drama.rs",
    "time2": "sokerorg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CyberClash/Women",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T18:00:00Z",
+   "time1": "k27 female",
+   "time2": "el macaron",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -268,6 +214,24 @@
    "inicio_utc": "2026-11-26T11:30:00Z",
    "time1": "wraith pcific",
    "time2": "bad beavers",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CyberClash/Women",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T15:00:00Z",
+   "time1": "ozempeek",
+   "time2": "ec2-dw",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CyberClash/Women",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T18:00:00Z",
+   "time1": "overpeek",
+   "time2": "idk (female team)",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -335,11 +299,29 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-28T09:00:00Z",
+   "time1": "ic academy",
+   "time2": "tcgg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-28T11:30:00Z",
    "time1": "masonic",
    "time2": "donstu",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-28T11:30:00Z",
+   "time1": "passion academy",
+   "time2": "infinite talent",
    "bo": 3,
    "mapas_jogados": 0
   }
