@@ -1,120 +1,12 @@
 {
- "lido_em": "2026-11-25T09:07:06Z",
+ "lido_em": "2026-11-25T19:37:09Z",
  "jogos": [
   {
-   "pagina": "PGL/2026/Singapore/Stage 1",
-   "tier": "S",
-   "inicio_utc": "2026-11-25T08:05:00Z",
-   "time1": "9z",
-   "time2": "dendele",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "PGL/2026/Singapore/Stage 1",
-   "tier": "S",
-   "inicio_utc": "2026-11-25T08:30:00Z",
-   "time1": "imp",
-   "time2": "fq",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T09:00:00Z",
-   "time1": "spirit academy",
-   "time2": "quintessence",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "European Pro League/Series 11/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T09:00:00Z",
-   "time1": "maybe.ua",
-   "time2": "glitch agency",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "United21/Season 59",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T09:00:00Z",
-   "time1": "prodigies",
-   "time2": "eac",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Singapore/Stage 1",
-   "tier": "S",
-   "inicio_utc": "2026-11-25T10:30:00Z",
-   "time1": "nip",
-   "time2": "tl",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "PGL/2026/Singapore/Stage 1",
-   "tier": "S",
-   "inicio_utc": "2026-11-25T10:30:00Z",
-   "time1": "gosh",
-   "time2": "chinggis",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "European Pro League/Series 11/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T11:30:00Z",
-   "time1": "ryvex",
-   "time2": "lvlt",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "United21/Season 59",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T11:30:00Z",
-   "time1": "fire flux",
-   "time2": "fortress",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T12:00:00Z",
-   "time1": "saw youngsters",
-   "time2": "noir verse",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T15:00:00Z",
-   "time1": "npg",
-   "time2": "donstu",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CyberClash/Women",
-   "tier": "C",
-   "inicio_utc": "2026-11-25T15:00:00Z",
-   "time1": "needachance",
-   "time2": "desperategirls",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
    "inicio_utc": "2026-11-25T18:00:00Z",
-   "time1": "drama.rs",
-   "time2": "sokerorg",
+   "time1": "aimclub.ro",
+   "time2": "noir verse",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -128,10 +20,28 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "Fiesta Series/4",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T18:00:00Z",
+   "time1": "misa",
+   "time2": "kamui",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-25T18:20:00Z",
+   "time1": "drama.rs",
+   "time2": "sokerorg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
    "inicio_utc": "2026-11-25T19:00:00Z",
-   "time1": "ttg esports",
+   "time1": "encelade",
    "time2": "young27",
    "bo": 3,
    "mapas_jogados": 0
@@ -140,8 +50,62 @@
    "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
    "inicio_utc": "2026-11-25T21:45:00Z",
-   "time1": "encelade",
+   "time1": "ttg esports",
    "time2": "axe.ua",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T06:00:00Z",
+   "time1": "m80",
+   "time2": "ef",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T06:00:00Z",
+   "time1": "heroic",
+   "time2": "faze",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T08:30:00Z",
+   "time1": "lvg",
+   "time2": "pvision",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T08:30:00Z",
+   "time1": "100t",
+   "time2": "9z",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-26T09:00:00Z",
+   "time1": "forze reload",
+   "time2": "drama.rs",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T09:00:00Z",
+   "time1": "quintessence",
+   "time2": "saw youngsters",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -164,6 +128,24 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T11:00:00Z",
+   "time1": "imp",
+   "time2": "tl",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "PGL/2026/Singapore/Stage 1",
+   "tier": "S",
+   "inicio_utc": "2026-11-26T11:00:00Z",
+   "time1": "wildcard",
+   "time2": "chinggis",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-26T11:30:00Z",
@@ -182,11 +164,47 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-26T12:00:00Z",
+   "time1": "hype tech",
+   "time2": "xmeta",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-26T15:00:00Z",
+   "time1": "baks",
+   "time2": "npg",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-26T15:00:00Z",
+   "time1": "spirit academy",
+   "time2": "noir verse",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CyberClash/Women",
    "tier": "C",
    "inicio_utc": "2026-11-26T15:00:00Z",
    "time1": "ozempeek",
    "time2": "ec2-dw",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-26T18:00:00Z",
+   "time1": "lir",
+   "time2": "spirit academy",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -331,6 +349,42 @@
    "inicio_utc": "2026-11-28T11:30:00Z",
    "time1": "passion academy",
    "time2": "infinite talent",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T09:00:00Z",
+   "time1": "maybe.ua",
+   "time2": "lvlt",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T09:00:00Z",
+   "time1": "the prodigies",
+   "time2": "fire flux",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "European Pro League/Series 11/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T11:30:00Z",
+   "time1": "glitch agency",
+   "time2": "ryvex",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "United21/Season 59",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T11:30:00Z",
+   "time1": "eac",
+   "time2": "fortress",
    "bo": 3,
    "mapas_jogados": 0
   }
