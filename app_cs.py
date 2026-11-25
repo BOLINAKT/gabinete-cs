@@ -435,8 +435,8 @@ def main() -> None:
             jogos=len(jogos), precificados=sum(j["precificado"] for j in jogos), com_valor=len(melhores),
             idade_odds=idade, dados_ate=est.fim.strftime("%d/%m %H:%M"), odds_velhas=velha)), height=34)
 
-    aba_pesq, aba_jogos, aba_melhores, aba_pin, aba_placar, aba_como = st.tabs(
-        ["Pesquisar", "Jogos", "Melhores apostas", "Modelo × Pinnacle", "Placar dos mapas", "Como ler"])
+    # 25/11/2026, ele: "no de CS nao precisa" de Melhores apostas / Modelo x Pinnacle / Placar / Como ler
+    aba_pesq, aba_jogos = st.tabs(["Pesquisar", "Jogos"])
     with aba_pesq:
         _aba_pesquisar(est)
     with aba_jogos:
@@ -506,80 +506,6 @@ def main() -> None:
                 with st.expander("Como o time foi achado nos dados"):
                     for (t, como), nome in zip(j["casou"], (j["casa"], j["fora"])):
                         st.write(f"**{nome}** → {t or 'nada'} ({como})")
-    with aba_melhores:
-        # 15/11/2026 (Fases 4 e 6): primeiro o que da para apostar NAS CASAS DELE
-        st.markdown("##### Nas suas casas (Polymarket e Stake)")
-        try:
-            import apostas_cs as ap
-            try:
-                _casas = json.loads(CASAS.read_text(encoding="utf-8"))
-                _h = (pd.Timestamp.utcnow().tz_localize(None) - pd.Timestamp(_casas["lido_em"]).tz_localize(None)).total_seconds() / 3600
-                _casas_jogos = _casas.get("jogos", []) if _h <= 36 else []
-            except (OSError, ValueError, KeyError):
-                _casas_jogos = []
-            _tab = tabela_rounds()
-            _c = []
-            for _j in jogos:
-                if not _j.get("precificado"):
-                    continue
-                # so ML (25/11/2026): sem rounds e sem handicap/total/placar de mapas
-                _c += [c for c in ap.candidatos(_j, None, pc.outras_casas(_j, _casas_jogos, est) if _casas_jogos else None)
-                       if (c.get("chave") or {}).get("tipo") == "venc"]
-            _m = ap.melhores_nas_casas(_c)
-            components.html(tl.pagina(tl.html_melhores_casas(_m)), height=tl.altura_melhores(min(len(_m), 25)) + 40,
-                            scrolling=True)
-            if not _casas_jogos:
-                st.caption("A Stake está fora desta lista: a leitura da OddsPapi está parada (a cota grátis volta no dia 1º).")
-        except Exception as _e:
-            st.caption(f"Lista das suas casas indisponível agora ({type(_e).__name__}).")
-        # FASE 7 (15/11/2026): o placar do que esta lista indicou, nas odds reais de entao
-        try:
-            import placar_apostas as pa
-            _regs = pa.carregar()
-            _pl = pa.placar(est.d, _regs)["resumo"] if _regs else None
-            if not _regs:
-                st.caption("Placar desta lista: o robô começa a gravar as indicações a cada leitura (de 3 em 3 h); "
-                           "os resultados aparecem aqui conforme os jogos acontecem.")
-            elif not _pl["todas"]["n"]:
-                st.caption(f"Placar desta lista: {len(_regs)} indicações gravadas, nenhuma com resultado ainda.")
-            else:
-                def _txt(nome, r):
-                    if not r.get("n"):
-                        return f"{nome}: —"
-                    return (f"{nome}: {r['n']} apostas, {r['acertos']} acertos, lucro {r['lucro']:+.2f} u, "
-                            f"ROI {100 * r['roi']:+.1f}% (IC95 {100 * r['ic95_roi'][0]:+.0f}% a {100 * r['ic95_roi'][1]:+.0f}%)")
-                st.caption("**Placar desta lista** (1 unidade por aposta, na odd que ela mostrou) — "
-                           + " · ".join(_txt(n, _pl[k]) for n, k in (("todas", "todas"), ("justa da Pinnacle", "justa_pinnacle"),
-                                                                    ("justa do modelo", "justa_modelo"), ("★", "destaque")))
-                           + ". Com poucas apostas é sorte: só vale quando o intervalo sair do zero.")
-        except Exception:
-            pass
-        st.markdown("##### Na Pinnacle (modelo × Pinnacle)")
-        components.html(tl.pagina(tl.html_melhores(melhores)), height=tl.altura_melhores(len(melhores)))
-    with aba_pin:
-        _aba_modelo_pinnacle()
-    with aba_placar:
-        pl = vc.placar(est.d)
-        n = min(len(pl.get("linhas", [])), 40)
-        components.html(tl.pagina(tl.html_placar(pl)), height=150 + 45 * n + (40 if n else 0))
-    with aba_como:
-        st.markdown("""
-**Modelo** — Elo por jogador: cada jogador tem uma nota que leva de time em time; a força do time é a
-média do elenco de hoje (Liquipedia). Desde 25/11/2026 a nota também leva em conta a MARGEM (um 13-2 vale mais
-que um 16-14, além do esperado pela diferença de força) e o jogador/time novo anda mais rápido nos primeiros 20
-mapas — afinado como o LoL, teste 2024+ +0,0042 de logloss no mapa. Série: chance do mapa encolhida por uma calibração MÓVEL (o c dos
-últimos 12 meses — hoje o modelo pede bastante encolhimento), combinada em BO3/BO5. Teste honesto 2024+,
-jogos S/A/B (o universo com odd): mapa logloss 0,651, acerto 62%; série 0,632. Por tier: S 0,652, A 0,667
-(o mais difícil), B 0,647. Os dados se atualizam sozinhos todo dia (robô no GitHub, 06:41).
-
-**Pouco dado** — time com menos de 30 mapas no último ano ou parado há mais de 120 dias: o preço sai
-com aviso (medido: nesses jogos o modelo acerta tanto quanto nos outros). **Não precificado** — só quando o
-time não existe nos dados.
-
-**Cuidado com vantagem grande** — elenco novo (o jogador traz a nota do time anterior), time sem jogo
-recente nos nossos dados (pode ter jogado torneio que não coletamos), ou mapa: a Pinnacle sabe o mapa
-depois do veto, o modelo não. A conferência de verdade vem com os resultados, que o robô vai acumulando.
-""")
 
 
 main()
