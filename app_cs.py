@@ -565,7 +565,9 @@ def main() -> None:
     with aba_como:
         st.markdown("""
 **Modelo** — Elo por jogador: cada jogador tem uma nota que leva de time em time; a força do time é a
-média do elenco de hoje (Liquipedia). Série: chance do mapa encolhida por uma calibração MÓVEL (o c dos
+média do elenco de hoje (Liquipedia). Desde 25/11/2026 a nota também leva em conta a MARGEM (um 13-2 vale mais
+que um 16-14, além do esperado pela diferença de força) e o jogador/time novo anda mais rápido nos primeiros 20
+mapas — afinado como o LoL, teste 2024+ +0,0042 de logloss no mapa. Série: chance do mapa encolhida por uma calibração MÓVEL (o c dos
 últimos 12 meses — hoje o modelo pede bastante encolhimento), combinada em BO3/BO5. Teste honesto 2024+,
 jogos S/A/B (o universo com odd): mapa logloss 0,651, acerto 62%; série 0,632. Por tier: S 0,652, A 0,667
 (o mais difícil), B 0,647. Os dados se atualizam sozinhos todo dia (robô no GitHub, 06:41).
