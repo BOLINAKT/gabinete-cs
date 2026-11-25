@@ -29,6 +29,20 @@ def c_movel(pares, ini, meses=12):
     return min(GRADE, key=lambda c: va.media([be.ll(cal.ajusta(p, c), y) for p, y in j])) if j else 1.0
 
 
+def c_mapa_atual(mapas: dict, hoje, meses: int = 12) -> float:
+    """O c do MAPA para usar HOJE (25/11/2026): o melhor nos mapas S/A/B dos `meses` anteriores.
+    mapas = o 1o retorno de elo_jogador.rodar ({chave: (dt, tier, p, y)}). Medido as cegas em 2026 (13.986 mapas,
+    a base do app com tier C): o preco de mapa estava confiante demais (inclinacao 0,77); com este c movel
+    (0,75-0,80 em todos os meses) o logloss melhora +0,0024 IC95 [+0,0012; +0,0037] e a inclinacao vai a 0,97.
+    Aprovado por ele (24-25/11/2026). A SERIE continua com o c_serie dela (nao encolhe duas vezes)."""
+    ini = pd.Timestamp(hoje)
+    j = [(p, y) for (dt, tier, p, y) in mapas.values()
+         if tier in T and ini - pd.DateOffset(months=meses) <= pd.Timestamp(dt) < ini]
+    if not j:
+        return 1.0
+    return min(GRADE, key=lambda c: va.media([be.ll(cal.ajusta(p, c), y) for p, y in j]))
+
+
 def c_serie_atual(series: list, hoje, meses: int = 12) -> float:
     """O c da SERIE para usar HOJE: o melhor nas series S/A/B dos `meses` anteriores.
     Aceito 26/10/2026 (teste 2024+: +0,0021, p=0,005)."""

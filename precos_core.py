@@ -80,8 +80,10 @@ class Estado:
         self.d = be.carregar(incluir_c=True)
         self.el = te.carregar_elencos()
         self.r, self.pr = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL, estado=True)
-        _, series = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL)
+        mapas_prev, series = ej.rodar(self.d, self.el, ej.W_OFICIAL, ej.KJ_OFICIAL)
         self.c_serie = cm.c_serie_atual(series, self.d.dt.max() + pd.Timedelta(days=1))
+        # MAPA (25/11/2026, aprovado): o preco de mapa ganha o c movel dele (calibra_movel.c_mapa_atual)
+        self.c_mapa = cm.c_mapa_atual(mapas_prev, self.d.dt.max() + pd.Timedelta(days=1))
         # a forma do dia (Fase 2, 12/11/2026): kappa movel, ver serie_cs.py
         try:
             self.kappa_serie = sc.kappa_atual(series, self.d.dt.max() + pd.Timedelta(days=1), self.c_serie)
@@ -398,11 +400,14 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
                 "fonte_sem_mapas": motivo_fonte_sem_mapas(j.get("liga") or "")}
         jogo["veto"] = veto_provavel(*jogo["mapas"])
         if not avisos:
-            pm = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
+            pm_cru = 1 / (1 + 10 ** (-(fc["forca"] - ff["forca"]) / 400))
+            # o MAPA mostrado leva o c movel do mapa (25/11/2026); pouco dado: sem encolhimento
+            pm = pm_cru if pouco else cal.ajusta(pm_cru, getattr(est, "c_mapa", 1.0))
             jogo["p_mapa"] = pm
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)
             c_jogo = 1.0 if pouco else est.c_serie       # pouco dado: sem o encolhimento dos S/A/B
-            ps = be.p_serie(cal.ajusta(pm, c_jogo), precisa) if precisa > 1 else pm
+            # a SERIE segue do mapa CRU com o c dela (como foi medida em 26/10) -- nao encolhe duas vezes
+            ps = be.p_serie(cal.ajusta(pm_cru, c_jogo), precisa) if precisa > 1 else pm
             pin = justas(odds["linhas"], j["id"])
             merc = [("Série" if precisa > 1 else "Vencedor", 0, ps)]
             merc += [(f"Mapa {k}", k, pm) for k in (1, 2, 3) if k in pin]
