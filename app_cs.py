@@ -499,6 +499,18 @@ def main() -> None:
                     if _j3.get("precificado"):
                         components.html(tl.pagina(tm.html_confronto(_j3, _j5)), height=250, scrolling=False)
                 components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
+                # 25/11/2026: o modelo discorda 10+ pontos (por mapa) da Pinnacle -> ali a Pinnacle acerta mais
+                try:
+                    import discorda_pinnacle_core as dp
+                    for _m in j.get("mercados") or []:
+                        _la = _m["lados"][0]
+                        _txt = dp.aviso(_la.get("p_modelo"), _la.get("p_pinnacle"), time_a=j["casa"], time_b=j["fora"],
+                                        bo=int(j.get("bo") or 3) if _m.get("periodo") == 0 else 1)
+                        if _txt:
+                            st.warning(_txt)
+                            break
+                except Exception:  # noqa: BLE001
+                    pass
                 _bloco_polymarket(j)
                 _bloco_outras_casas(est, j)
                 _bloco_veto(est, j)
