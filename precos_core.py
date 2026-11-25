@@ -404,6 +404,9 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             # o MAPA mostrado leva o c movel do mapa (25/11/2026); pouco dado: sem encolhimento
             pm = pm_cru if pouco else cal.ajusta(pm_cru, getattr(est, "c_mapa", 1.0))
             jogo["p_mapa"] = pm
+            # a base da SERIE (25/11/2026): o mapa cru com o c da serie. O veto parte daqui para a serie
+            # com os mapas bater com a serie sem mapas (antes eram duas bases e dois MD3 diferentes)
+            jogo["p_mapa_serie"] = pm_cru if pouco else cal.ajusta(pm_cru, est.c_serie)
             precisa = {1: 1, 3: 2, 5: 3}.get(jogo["bo"], 2)
             c_jogo = 1.0 if pouco else est.c_serie       # pouco dado: sem o encolhimento dos S/A/B
             # a SERIE segue do mapa CRU com o c dela (como foi medida em 26/10) -- nao encolhe duas vezes

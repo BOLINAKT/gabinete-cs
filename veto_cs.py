@@ -241,3 +241,14 @@ def ordem_dos_mapas(marcas: dict, ordem_clique: dict) -> list:
     picks = sorted([m for m, v in marcas.items() if v in ("A", "B")], key=lambda m: ordem_clique.get(m, 0))
     dec = [m for m, v in marcas.items() if v == "decisivo"]
     return [(m, marcas[m]) for m in picks] + [(m, None) for m in dec]
+
+
+def serie_com_mapas(est, jogo: dict, mapas: list, bo: int) -> float:
+    """P(time A vence a serie) sabendo os mapas, na MESMA base da serie sem mapas (jogo['p_mapa_serie'], o mapa
+    cru com o c da serie, como a serie foi medida). Sem mapa nenhum, da exatamente o MD`bo` do topo; cada mapa
+    conhecido entra com o ajuste p_com_mapa. Mapas que faltam contam como o ultimo conhecido."""
+    (ta, _), (tb, _) = jogo["casou"]
+    base = jogo.get("p_mapa_serie", jogo.get("p_mapa"))
+    ps = [p_com_mapa(est, ta, tb, m, base) for m in mapas] or [base]
+    return p_serie(ps, bo)
+

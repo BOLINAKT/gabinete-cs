@@ -264,44 +264,66 @@ def _bloco_veto(est, j) -> None:
                         height=110 + 46 * max(1, len(linhas)) + 70, scrolling=False)
         if linhas:
             bo = int(j.get("bo") or 3)
-            pb = float(linhas[0]["p_base"])
             ps = [float(l["p_mapa"]) for l in linhas]
-            s0, s1 = vc.p_serie([pb], bo), vc.p_serie(ps, bo)
+            s0, s1 = vc.serie_com_mapas(est, j, [], bo), vc.serie_com_mapas(est, j, [l["mapa"] for l in linhas], bo)
             st.markdown(f"**Série MD{bo}** — {j['casa']}: antes do veto **{100 * s0:.0f}%** ({1 / s0:.2f}) → "
                         f"com estes mapas **{100 * s1:.0f}%** ({1 / s1:.2f}) · {j['fora']}: {1 / (1 - s1):.2f}"
                         + ("" if len(ps) >= bo else f" · mapas que faltam contam como o último conhecido"))
 
 
-def _clicar_mapas(est, j, chave) -> None:
-    """MAPAS POR CLIQUE (24/11/2026). Ele: "talvez eu clicar numa tela, onde tem o mapa, e selecionar o que
-    foi pick e voce fazer o resto". Cada mapa da pool vira um cartao: pick de um time, pick do outro, ban ou
-    decisivo. A ordem M1, M2... e a ordem em que os picks foram marcados; o decisivo vai por ultimo."""
+def _clicar_mapas(est, j, chave, dentro_de_expander: bool = True) -> list:
+    """MAPAS POR CLIQUE NA IMAGEM (25/11/2026). Ele: "clicar no mapa em vez de clicar num nome". Cada mapa da
+    pool e um cartao com a capa do mapa; cada clique anda: pick do time da esquerda -> pick do da direita ->
+    ban -> decisivo -> nada. A borda tem a cor do time que pickou. A ordem M1, M2... e a ordem em que os picks
+    foram marcados; o decisivo vai por ultimo. Devolve a sequencia [(mapa, quem)]."""
+    import hashlib
+    import tela_ml_cs as tm
     pool = sorted(getattr(est, "pool", []) or [])
     if not pool:
-        return
+        return []
     ss = st.session_state
+    h = hashlib.md5(str(chave).encode()).hexdigest()[:8]
     ordem = ss.setdefault(f"ord_{chave}", {})
     a_curto, b_curto = str(j["casa"])[:14], str(j["fora"])[:14]
-    rot = {"—": "—", "A": f"Pick {a_curto}", "B": f"Pick {b_curto}", "ban": "Ban", "decisivo": "Decisivo"}
+    rot = {None: "", "A": f"Pick {tm.curto(j['casa'])}", "B": f"Pick {tm.curto(j['fora'])}", "ban": "Ban",
+           "decisivo": "Decisivo"}
+    cor = {None: "rgba(255,255,255,0.15)", "A": tm.COR_A, "B": tm.COR_B, "ban": "#6e7681", "decisivo": "#a371f7"}
 
-    def marcou(m):
-        v = ss.get(f"mc_{chave}_{m}")
-        if v in ("A", "B"):
+    def clicou(m):
+        k = f"mc_{chave}_{m}"
+        ss[k] = tm.proximo_estado(ss.get(k))
+        if ss[k] in ("A", "B"):
             ordem[m] = max(ordem.values(), default=0) + 1
         else:
             ordem.pop(m, None)
 
-    with st.expander("Marcar os mapas (clique: pick de cada time, ban ou decisivo)", expanded=True):
-        for m in pool:
-            c1, c2 = st.columns([1, 5], vertical_alignment="center")
-            c1.markdown(f"**{m}**")
-            c2.segmented_control(m, list(rot), format_func=lambda x: rot[x], key=f"mc_{chave}_{m}",
-                                 label_visibility="collapsed", on_change=marcou, args=(m,))
+    css = []
+    for m in pool:
+        v = ss.get(f"mc_{chave}_{m}")
+        img = tm.imagem_mapa(m)
+        escuro = "0.78" if v == "ban" else "0.35"
+        css.append(
+            f'.st-key-mcard_{h}_{tm.slug(m)} button {{ height:96px; width:100%; border:3px solid {cor[v]} !important;'
+            f' border-radius:12px; color:#fff; font-weight:800; text-shadow:0 1px 3px #000;'
+            f' background:linear-gradient(rgba(0,0,0,{escuro}),rgba(0,0,0,{escuro})), url("{img}") center/cover; }}'
+            f' .st-key-mcard_{h}_{tm.slug(m)} button:hover {{ filter:brightness(1.15); }}')
+    st.markdown("<style>" + "".join(css) + "</style>", unsafe_allow_html=True)
+    caixa = st.expander("Marcar os mapas — clique na imagem: pick da esquerda → pick da direita → ban → decisivo",
+                        expanded=True) if dentro_de_expander else st.container()
+    with caixa:
+        colunas = st.columns(min(len(pool), 7))
+        for i, m in enumerate(pool):
+            v = ss.get(f"mc_{chave}_{m}")
+            with colunas[i % len(colunas)]:
+                st.button(f"{m}  \n{rot[v]}" if v else m, key=f"mcard_{h}_{tm.slug(m)}", on_click=clicou, args=(m,),
+                          width="stretch")
         marcas = {m: ss.get(f"mc_{chave}_{m}") for m in pool}
         seq = vc.ordem_dos_mapas(marcas, ordem)
         if seq:
             st.caption("Ordem: " + " · ".join(f"M{n + 1} {m}" + (f" (pick {a_curto if q == 'A' else b_curto})" if q else
                                                                   " (decisivo)") for n, (m, q) in enumerate(seq)))
+        if not dentro_de_expander:
+            return seq
         if st.button("Usar estes mapas", key=f"u_{chave}", disabled=not seq):
             v = {"pagina": "digitado", "mapas": [{"n": n + 1, "mapa": m, "terminado": False, "vencedor_a": None}
                                                  for n, (m, _q) in enumerate(seq)]}
@@ -311,6 +333,60 @@ def _clicar_mapas(est, j, chave) -> None:
             if novos:
                 st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
             st.rerun()
+    return seq
+
+
+@st.fragment
+def _veto_pesquisa(est, j3, ta, tb) -> None:
+    """Fragmento: o clique num mapa recarrega so este bloco (o app inteiro levava segundos)."""
+    st.markdown("##### Veto")
+    c1, _c2 = st.columns([2, 5])
+    with c1:
+        bo = st.segmented_control("Formato", [1, 3, 5], default=3, format_func=lambda b: f"MD{b}", key="pq_bo")
+    seq = _clicar_mapas(est, j3, f"pq_{ta}_{tb}", dentro_de_expander=False) or []
+    (ca, _), (cb, _) = j3["casou"]
+    if seq:
+        ps = [vc.p_com_mapa(est, ca, cb, m, j3["p_mapa"]) for m, _q in seq]
+        s = vc.serie_com_mapas(est, j3, [m for m, _q in seq], int(bo or 3))
+        st.markdown(" · ".join(f"**M{n + 1} {m}**: {ta} {1 / p:.2f} / {tb} {1 / (1 - p):.2f}"
+                               for n, ((m, _q), p) in enumerate(zip(seq, ps))))
+        st.markdown(f"**Série MD{bo} com estes mapas** — {ta} **{1 / s:.2f}** ({100 * s:.0f}%) · "
+                    f"{tb} **{1 / (1 - s):.2f}** ({100 * (1 - s):.0f}%)"
+                    + ("" if len(ps) >= int(bo or 3) else " · mapas que faltam contam como o último marcado"))
+
+
+def _aba_pesquisar(est) -> None:
+    """PESQUISA LIVRE (25/11/2026), como no LoL e no Dota: ele escolhe os dois times e ve o ML -- mapa, MD3, MD5,
+    a odd justa em cada mapa da pool e, clicando nos mapas do veto, a serie com aqueles mapas. Os numeros saem
+    do mesmo precos_core.calcular dos jogos da agenda (jogo montado na hora, sem odd de casa)."""
+    import tela_ml_cs as tm
+    ativos = sorted([t for t, dt in est.ult.items() if dt >= est.desde], key=lambda t: str(t).lower())
+    c1, c2 = st.columns(2)
+    ta = c1.selectbox("Time da esquerda", ativos, index=None, placeholder="Digite o nome do time...", key="pq_a")
+    tb = c2.selectbox("Time da direita", ativos, index=None, placeholder="Digite o nome do time...", key="pq_b")
+    if not ta or not tb:
+        st.caption(f"Escolha os dois times ({len(ativos)} com jogo no último ano).")
+        return
+    if ta == tb:
+        st.warning("Escolha dois times diferentes.")
+        return
+    agora = pd.Timestamp.utcnow().tz_localize(None)
+    jogos = [{"id": f"pq{bo}", "casa": ta, "fora": tb, "bo": bo, "liga": "Pesquisa"} for bo in (3, 5)]
+    j3, j5 = pc.calcular(est, {"lido_em": agora.isoformat(), "jogos": jogos, "linhas": []})
+    components.html(tl.pagina(tm.html_confronto(j3, j5)), height=250 if j3.get("precificado") else 160,
+                    scrolling=False)
+    if not j3.get("precificado"):
+        return
+    linhas = tm.linhas_por_mapa(est, j3)
+    components.html(tl.pagina(tm.html_mapas_justos(j3, linhas)), height=tm.altura_mapas_justos(linhas),
+                    scrolling=False)
+    _veto_pesquisa(est, j3, ta, tb)
+    with st.expander("Elenco e rating de cada jogador"):
+        n_j = max([len(f["jogadores"]) for f in j3["fichas"] if f] or [1])
+        n_r = max([len(f.get("recentes") or []) for f in j3["fichas"] if f] or [1])
+        components.html(tl.pagina(tl.html_fichas(j3)), height=140 + 34 * n_j + 29 * n_r, scrolling=False)
+    with st.expander("Retrospecto de cada time em cada mapa"):
+        components.html(tl.pagina(tl.html_mapas(j3)), height=tl.altura_mapas(j3), scrolling=False)
 
 
 def main() -> None:
@@ -359,8 +435,10 @@ def main() -> None:
             jogos=len(jogos), precificados=sum(j["precificado"] for j in jogos), com_valor=len(melhores),
             idade_odds=idade, dados_ate=est.fim.strftime("%d/%m %H:%M"), odds_velhas=velha)), height=34)
 
-    aba_jogos, aba_melhores, aba_pin, aba_placar, aba_como = st.tabs(
-        ["Jogos", "Melhores apostas", "Modelo × Pinnacle", "Placar dos mapas", "Como ler"])
+    aba_pesq, aba_jogos, aba_melhores, aba_pin, aba_placar, aba_como = st.tabs(
+        ["Pesquisar", "Jogos", "Melhores apostas", "Modelo × Pinnacle", "Placar dos mapas", "Como ler"])
+    with aba_pesq:
+        _aba_pesquisar(est)
     with aba_jogos:
         encerrados = [j for j in jogos if j["situacao"] == "encerrado"]
         if encerrados and not st.toggle(f"Mostrar {len(encerrados)} jogo(s) já encerrado(s)", value=False):
@@ -407,12 +485,18 @@ def main() -> None:
                     + ((f["dias_parado"] or 0) > 14) for f in j["fichas"] if f) + bool(j.get("qualificatoria")) \
                     + bool(j.get("fonte_sem_mapas"))
                 alt = 44 + (36 + 46 * len(j["mercados"]) + 26 if j["precificado"] else 0) + 46 * n_av + 52
+                if j["precificado"]:
+                    # 25/11/2026: o mesmo cartao da Pesquisa (logos, rating, justo do mapa/MD3/MD5) no topo
+                    import tela_ml_cs as tm
+                    _jj = [{"id": f"cf{bo}", "casa": j["casa"], "fora": j["fora"], "bo": bo, "liga": j["liga"]}
+                           for bo in (3, 5)]
+                    _j3, _j5 = pc.calcular(est, {"lido_em": pd.Timestamp.utcnow().tz_localize(None).isoformat(),
+                                                 "jogos": _jj, "linhas": []})
+                    if _j3.get("precificado"):
+                        components.html(tl.pagina(tm.html_confronto(_j3, _j5)), height=250, scrolling=False)
                 components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
-                if j.get("mercados_serie"):
-                    components.html(tl.pagina(tl.html_serie(j)), height=tl.altura_serie(j), scrolling=False)
                 _bloco_polymarket(j)
                 _bloco_outras_casas(est, j)
-                _bloco_rounds(j, odds)
                 _bloco_veto(est, j)
                 st.markdown("##### Mapas")
                 components.html(tl.pagina(tl.html_mapas(j)), height=tl.altura_mapas(j), scrolling=False)
@@ -438,8 +522,9 @@ def main() -> None:
             for _j in jogos:
                 if not _j.get("precificado"):
                     continue
-                _c += ap.candidatos(_j, pc.rounds_da_polymarket(_j, _tab),
-                                    pc.outras_casas(_j, _casas_jogos, est) if _casas_jogos else None)
+                # so ML (25/11/2026): sem rounds e sem handicap/total/placar de mapas
+                _c += [c for c in ap.candidatos(_j, None, pc.outras_casas(_j, _casas_jogos, est) if _casas_jogos else None)
+                       if (c.get("chave") or {}).get("tipo") == "venc"]
             _m = ap.melhores_nas_casas(_c)
             components.html(tl.pagina(tl.html_melhores_casas(_m)), height=tl.altura_melhores(min(len(_m), 25)) + 40,
                             scrolling=True)
