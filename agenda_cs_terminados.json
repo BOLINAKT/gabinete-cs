@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-25T19:37:10+00:00",
+ "atualizado_em": "2026-11-26T17:20:16+00:00",
  "fonte": "Liquipedia (CC-BY-SA): Liquipedia:Matches",
  "series": [
   {
@@ -407,6 +407,55 @@
    "inicio_utc": "2026-11-25T11:00:00+00:00",
    "placar": "2-0",
    "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "HEROIC",
+   "time_b": "FaZe Clan",
+   "inicio_utc": "2026-11-26T06:00:00+00:00",
+   "placar": "2-1",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "M80",
+   "time_b": "Eternal Fire",
+   "inicio_utc": "2026-11-26T06:00:00+00:00",
+   "placar": "1-2",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Lynn Vision Gaming",
+   "time_b": "PVISION",
+   "inicio_utc": "2026-11-26T08:50:00+00:00",
+   "placar": "0-2",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "100 Thieves",
+   "time_b": "9z Team",
+   "inicio_utc": "2026-11-26T09:00:00+00:00",
+   "placar": "2-1",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Imperial Esports",
+   "time_b": "Team Liquid",
+   "inicio_utc": "2026-11-26T11:20:00+00:00",
+   "placar": "0-2",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Wildcard",
+   "time_b": "Chinggis Warriors",
+   "inicio_utc": "2026-11-26T12:05:00+00:00",
+   "placar": "2-1",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Natus Vincere Junior",
+   "time_b": "WOPA Esport",
+   "inicio_utc": "2026-11-26T14:00:00+00:00",
+   "placar": "1-2",
+   "torneio": "United21 Season 59"
   }
  ]
 }
