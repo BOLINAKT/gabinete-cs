@@ -73,7 +73,7 @@ def _na_nuvem() -> bool:
 def _versao_dados() -> tuple:
     # precos_core.py entra: codigo novo do Estado com cache velho = atributo faltando
     return tuple((RAIZ / n).stat().st_mtime
-                 for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py"))
+                 for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py", "mapa_jogador.py"))
 
 
 @st.cache_resource

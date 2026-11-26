@@ -102,8 +102,19 @@ def _logit(p):
     return math.log(p / (1 - p))
 
 
-def p_com_mapa(est, ta: str, tb: str, mapa: str, p_base: float) -> float:
-    """p do mapa ajustado pela taxa de cada time NAQUELE mapa (encolhida, m=M_WR)."""
+def p_com_mapa(est, ta: str, tb: str, mapa: str, p_base: float, hoje=None) -> float:
+    """p do mapa SABENDO o mapa. Desde 26/11/2026: a nota de cada jogador naquele mapa, ajustada pelo adversario
+    (mapa_jogador.py; ganho 2024+ +0,0022, 2026 +0,0025 sobre o motor; o ajuste antigo, abaixo, dava +0,0007).
+    Estado sem a nota (cache velho): cai no ajuste antigo."""
+    if getattr(est, "mapa_dj", None) is not None:
+        import mapa_jogador as mj
+        hoje = hoje if hoje is not None else getattr(est, "fim", None)
+        return mj.p_mapa(p_base, est.mapa_dj, est.mapa_dt, est.el, ta, tb, mapa, hoje)
+    return _p_com_mapa_winrate(est, ta, tb, mapa, p_base)
+
+
+def _p_com_mapa_winrate(est, ta: str, tb: str, mapa: str, p_base: float) -> float:
+    """O ajuste ANTIGO: p do mapa ajustado pela taxa de cada time NAQUELE mapa (encolhida, m=M_WR)."""
     def wr(t):
         h = est.por_mapa.get((t, mapa), [])
         return (sum(v for _, v, _ in h) + 0.5 * M_WR) / (len(h) + M_WR)

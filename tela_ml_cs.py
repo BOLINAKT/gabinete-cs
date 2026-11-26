@@ -188,8 +188,8 @@ def html_mapas_justos(j: dict, linhas: list) -> str:
             f'<span class="o cb">{_odd(1 - p)}</span></div></div>')
     return (CSS_ML + f'<div class="nome-col">Odd justa por mapa — <span class="ca">{escape(j["casa"])}</span> × '
             f'<span class="cb">{escape(j["fora"])}</span></div><div class="mj">' + "".join(rows) + "</div>"
-            '<div class="nota">Chance do mapa com o ajuste pela taxa de cada time NAQUELE mapa (o mesmo do veto: '
-            'encolhida, peso pequeno — medido 26/10). Do mapa mais a favor do time da esquerda para o mais a favor '
+            '<div class="nota">Chance do mapa com a nota de cada jogador NAQUELE mapa, ajustada por contra quem '
+            'ele jogou (o mesmo do veto; medido 26/11: +0,0025 de logloss no preço final). Do mapa mais a favor do time da esquerda para o mais a favor '
             'do da direita.</div>')
 
 

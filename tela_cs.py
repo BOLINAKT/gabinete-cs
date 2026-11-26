@@ -403,9 +403,9 @@ def html_veto(j, linhas, pagina) -> str:
             + pin(l["odd_a"], l["vant_mapa_a"]) + pin(l["odd_b"], l["vant_mapa_b"])
             + '<td>{}</td></tr>'.format(f"<b>{res}</b>" if res else '<span class="q">a jogar</span>'))
     return (CSS_MAPAS + '<div class="mapas"><table class="mt">' + cab + "".join(corpo) + '</table></div>'
-            '<div class="nota">Fonte: Liquipedia ({}). <b>Sabendo o mapa</b>: a chance base ajustada pela taxa de cada '
-            'time NAQUELE mapa (ajuste da validação, fraco de propósito). Na média ele quase não muda o número, '
-            'mas com vantagem clara de mapa o base subestimou o time em ~3 pp no teste. Cada previsão é gravada '
+            '<div class="nota">Fonte: Liquipedia ({}). <b>Sabendo o mapa</b>: a chance base somada à nota de cada '
+            'jogador NAQUELE mapa, ajustada por contra quem ele jogou (desde 26/11/2026; medido: +0,0025 de logloss '
+            'no preço final 2024+, contra +0,0007 do ajuste antigo pela taxa de vitória). Cada previsão é gravada '
             'antes do mapa e vai para o <b>Placar dos mapas</b>.</div>'.format(escape(pagina or "")))
 
 

@@ -84,6 +84,9 @@ class Estado:
         self.c_serie = cm.c_serie_atual(series, self.d.dt.max() + pd.Timedelta(days=1))
         # MAPA (25/11/2026, aprovado): o preco de mapa ganha o c movel dele (calibra_movel.c_mapa_atual)
         self.c_mapa = cm.c_mapa_atual(mapas_prev, self.d.dt.max() + pd.Timedelta(days=1))
+        # NOTA DE MAPA POR JOGADOR (26/11/2026, mapa_jogador.py): o "sabendo o mapa" do veto e da Pesquisa
+        import mapa_jogador as mj
+        self.mapa_dj, self.mapa_dt = mj.aprender(self.d, self.el, mapas_prev)
         # a forma do dia (Fase 2, 12/11/2026): kappa movel, ver serie_cs.py
         try:
             self.kappa_serie = sc.kappa_atual(series, self.d.dt.max() + pd.Timedelta(days=1), self.c_serie)
