@@ -40,6 +40,11 @@ SALDO_ESPERADO = (10.67, 0.002, 0.37, 6.97)   # a, b, c, desvio -- mapas < 2021
 NOVATO_MAPAS = 20
 
 
+def _nota_inicial() -> float:
+    """Nota de quem aparece pela 1a vez (funcao, e nao lambda, para o modelo treinado poder ir para o disco)."""
+    return 1500.0
+
+
 def forca(t, dt, r, pr, el, w=W_OFICIAL):
     """Forca do time na data: Elo do time misturado com a media do elenco."""
     e = te.elenco(el, t, dt)
@@ -52,7 +57,7 @@ def rodar(d, el, w=1.0, kj=None, estado=False, k=K_OFICIAL, lam=LAM_OFICIAL, fol
           kn=KN_OFICIAL):
     """k=24, lam=0, folga=0, kn=0 da EXATAMENTE o motor de antes de 25/11/2026."""
     kj = K if kj is None else kj
-    r, pr = defaultdict(lambda: 1500.0), {}
+    r, pr = defaultdict(_nota_inicial), {}
     n_t, n_j = defaultdict(int), defaultdict(int)
     a_m, b_m, c_m, s_m = SALDO_ESPERADO
     fora, series = {}, {}

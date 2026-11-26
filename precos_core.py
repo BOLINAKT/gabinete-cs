@@ -8,6 +8,7 @@ proporcao. Lado sem dado recente NAO e precificado.
 """
 from __future__ import annotations
 
+import copy
 import difflib
 import json
 import re
@@ -125,12 +126,26 @@ class Estado:
                 alvo[(x.time1, x.mapa)].append((x.dt, v1, x.rounds1 - x.rounds2))
                 alvo[(x.time2, x.mapa)].append((x.dt, 1 - v1, x.rounds2 - x.rounds1))
 
+    # VELOCIDADE (26/11/2026, ele: "quando dou F5 demora muito"): cada F5 casava ~4.600 nomes refazendo do zero a
+    # lista de milhares de times (19 s). O Estado nao muda depois de treinado: a lista e os casamentos ficam
+    # guardados nele. Resultado identico (conferido com a saida inteira de calcular()).
     def casar(self, nome):
+        memo = self.__dict__.setdefault("_memo_casar", {})
+        if nome not in memo:
+            memo[nome] = self._casar(nome)
+        return memo[nome]
+
+    def _ativos(self):
+        if "_ativos_n" not in self.__dict__:
+            self._ativos_n = {_n(t): t for t, dt in self.ult.items() if dt >= self.desde}
+        return self._ativos_n
+
+    def _casar(self, nome):
         nome = APELIDOS.get(str(nome).lower(), nome)
         for chave in (_n(nome), _n("Team " + str(nome))):
             if chave in self.idx and self.idx[chave] in self.ult:
                 return self.idx[chave], "exato"
-        ativos = {_n(t): t for t, dt in self.ult.items() if dt >= self.desde}
+        ativos = self._ativos()
         pref = [t for k, t in ativos.items() if k.startswith(_n(nome))]
         if len(pref) == 1:
             return pref[0], "comeco do nome"
@@ -141,6 +156,13 @@ class Estado:
         """Ficha do time: forca, elenco de hoje com a nota de cada um, trocas recentes."""
         if not t:
             return None
+        memo = self.__dict__.setdefault("_memo_time", {})
+        ch = (t, pd.Timestamp(hoje))
+        if ch not in memo:
+            memo[ch] = self._time(t, hoje)
+        return copy.deepcopy(memo[ch])     # quem usa pode mexer na ficha sem estragar a guardada
+
+    def _time(self, t, hoje):
         e = te.elenco(self.el, t, hoje) or frozenset()
         g = self.elencos[self.elencos.time == t]
         jogs = []
@@ -314,8 +336,12 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
                          "inicio_utc": a["inicio_utc"], "fonte": "liquipedia"})
     fora += [{**pg, "fonte": "pinnacle"} for pg in pin if pg["id"] not in usados]
 
+    _memo_chave = {}
+
     def _chave(nome):
-        return casar_estrito(est, nome, mapa) or be.canonico(nome, mapa) or str(nome).strip().lower()
+        if nome not in _memo_chave:
+            _memo_chave[nome] = casar_estrito(est, nome, mapa) or be.canonico(nome, mapa) or str(nome).strip().lower()
+        return _memo_chave[nome]
 
     def _ts(x):
         t = pd.Timestamp(x)

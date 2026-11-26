@@ -73,7 +73,8 @@ def _na_nuvem() -> bool:
 def _versao_dados() -> tuple:
     # precos_core.py entra: codigo novo do Estado com cache velho = atributo faltando
     return tuple((RAIZ / n).stat().st_mtime
-                 for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py", "mapa_jogador.py"))
+                 for n in ("mapas_cs.csv", "elencos.csv", "times_canonicos.json", "precos_core.py", "mapa_jogador.py",
+                           "elo_jogador.py", "calibra_movel.py"))
 
 
 @st.cache_resource
@@ -81,9 +82,29 @@ def tabela_rounds() -> rd.Tabela:
     return rd.Tabela(pc.KAPPA_ROUNDS)
 
 
-@st.cache_resource(show_spinner="Treinando o modelo nos mapas coletados...")
-def estado(_versao: tuple) -> pc.Estado:
-    return pc.Estado()
+@st.cache_resource(show_spinner="Treinando o modelo nos mapas coletados...", max_entries=2)
+def estado(versao: tuple) -> pc.Estado:
+    """26/11/2026: (1) o parametro era '_versao' -- o Streamlit IGNORA argumentos com '_' no cache, entao dado novo
+    do robo nao retreinava ate o processo reiniciar; (2) o modelo treinado fica em disco (cache/estado_<versao>.pkl):
+    a 1a abertura depois de um reinicio nao treina de novo (~24 s) se os dados nao mudaram."""
+    import hashlib
+    import pickle
+    arq = RAIZ / "cache" / ("estado_" + hashlib.sha1(repr(versao).encode()).hexdigest()[:16] + ".pkl")
+    try:
+        with open(arq, "rb") as f:
+            return pickle.load(f)
+    except Exception:  # noqa: BLE001 -- sem arquivo ou arquivo de outra versao: treina
+        pass
+    est = pc.Estado()
+    try:
+        arq.parent.mkdir(parents=True, exist_ok=True)
+        for velho in arq.parent.glob("estado_*.pkl"):
+            velho.unlink(missing_ok=True)
+        with open(arq, "wb") as f:
+            pickle.dump(est, f, protocol=pickle.HIGHEST_PROTOCOL)
+    except Exception:  # noqa: BLE001 -- disco cheio/sem permissao: segue so na memoria
+        pass
+    return est
 
 
 def _idade(iso: str) -> tuple:
