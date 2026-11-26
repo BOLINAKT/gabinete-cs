@@ -305,39 +305,54 @@ def _clicar_mapas(est, j, chave, dentro_de_expander: bool = True) -> list:
            "decisivo": "Decisivo"}
     cor = {None: "rgba(255,255,255,0.15)", "A": tm.COR_A, "B": tm.COR_B, "ban": "#6e7681", "decisivo": "#a371f7"}
 
+    # 26/11/2026 (ele: "a Lynn esta picando todos os mapas"): o ciclo pick esquerda/direita/ban confundia, e quem
+    # pickou NAO entra na conta (so quais mapas e em que ordem). Agora: clique = entra na sequencia (M1, M2, M3...),
+    # clique de novo = sai. A sequencia se refaz sem buracos.
     def clicou(m):
         k = f"mc_{chave}_{m}"
-        ss[k] = tm.proximo_estado(ss.get(k))
-        if ss[k] in ("A", "B"):
-            ordem[m] = max(ordem.values(), default=0) + 1
-        else:
+        if ss.get(k):
+            ss[k] = None
             ordem.pop(m, None)
+        else:
+            ss[k] = "A"
+            ordem[m] = max(ordem.values(), default=0) + 1
+
+    _seq = sorted((x for x in pool if ss.get(f"mc_{chave}_{x}")), key=lambda x: ordem.get(x, 0))
+    _pos = {x: i + 1 for i, x in enumerate(_seq)}
+    _bo = int(j.get("bo") or 3)
+    _cores_m = [tm.COR_A, tm.COR_B, "#a371f7", "#3fb950", "#c9736a"]
+
+    def _rotulo(x):
+        n = _pos.get(x)
+        if not n:
+            return ""
+        return f"M{n}" + (" · decisivo" if n == _bo and _bo > 1 else "")
 
     css = []
     for m in pool:
         v = ss.get(f"mc_{chave}_{m}")
         img = tm.imagem_mapa(m)
-        escuro = "0.78" if v == "ban" else "0.35"
+        escuro = "0.35" if v else "0.6"
+        cor[v] = _cores_m[(_pos.get(m, 1) - 1) % len(_cores_m)] if v else cor[None]
         css.append(
             f'.st-key-mcard_{h}_{tm.slug(m)} button {{ height:96px; width:100%; border:3px solid {cor[v]} !important;'
             f' border-radius:12px; color:#fff; font-weight:800; text-shadow:0 1px 3px #000;'
             f' background:linear-gradient(rgba(0,0,0,{escuro}),rgba(0,0,0,{escuro})), url("{img}") center/cover; }}'
             f' .st-key-mcard_{h}_{tm.slug(m)} button:hover {{ filter:brightness(1.15); }}')
     st.markdown("<style>" + "".join(css) + "</style>", unsafe_allow_html=True)
-    caixa = st.expander("Marcar os mapas — clique na imagem: pick da esquerda → pick da direita → ban → decisivo",
+    caixa = st.expander("Marcar os mapas — clique na imagem na ordem em que serão jogados (M1, M2, M3); clique de novo para tirar",
                         expanded=True) if dentro_de_expander else st.container()
     with caixa:
         colunas = st.columns(min(len(pool), 7))
         for i, m in enumerate(pool):
             v = ss.get(f"mc_{chave}_{m}")
             with colunas[i % len(colunas)]:
-                st.button(f"{m}  \n{rot[v]}" if v else m, key=f"mcard_{h}_{tm.slug(m)}", on_click=clicou, args=(m,),
+                st.button(f"{m}  \n{_rotulo(m)}" if v else m, key=f"mcard_{h}_{tm.slug(m)}", on_click=clicou, args=(m,),
                           width="stretch")
         marcas = {m: ss.get(f"mc_{chave}_{m}") for m in pool}
         seq = vc.ordem_dos_mapas(marcas, ordem)
         if seq:
-            st.caption("Ordem: " + " · ".join(f"M{n + 1} {m}" + (f" (pick {a_curto if q == 'A' else b_curto})" if q else
-                                                                  " (decisivo)") for n, (m, q) in enumerate(seq)))
+            st.caption("Ordem: " + " · ".join(f"M{n + 1} {m}" for n, (m, q) in enumerate(seq)))
         if not dentro_de_expander:
             return seq
         if st.button("Usar estes mapas", key=f"u_{chave}", disabled=not seq):
