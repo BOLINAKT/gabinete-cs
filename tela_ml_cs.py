@@ -195,3 +195,37 @@ def html_mapas_justos(j: dict, linhas: list) -> str:
 
 def altura_mapas_justos(linhas: list) -> int:
     return 70 + 62 * len(linhas) + 50 if linhas else 0
+
+
+def avisos_identidade(j: dict, so_casamento: bool = False) -> list:
+    """Pura (26/11/2026; ele: "garantir que o time e aquele time"). [(nivel, texto)]: 'atencao' vira aviso amarelo,
+    'ok' vira legenda. No CS a forca e a media do ELENCO (o jogador leva a nota quando troca de time ou o time troca
+    de nome), entao o risco e outro: nome casado por aproximacao e elenco novo/desconhecido."""
+    out = []
+    for (t, como), nome in zip(j.get("casou") or [], (j.get("casa"), j.get("fora"))):
+        if t and como not in ("exato",):
+            out.append(("atencao", f"**{nome}** foi casado por aproximação com **{t}** ({como}) — confira se é o "
+                                   "mesmo time antes de usar o preço."))
+    if so_casamento:
+        return out
+    for f, nome in zip(j.get("fichas") or [], (j.get("casa"), j.get("fora"))):
+        if not f:
+            continue
+        novos = [x for x in f.get("jogadores") or [] if x.get("novo")]
+        if not f.get("elenco_conhecido"):
+            out.append(("atencao", f"**{nome}**: elenco desconhecido na Liquipedia — a força sai só do Elo do time."))
+        elif novos:
+            qs = ", ".join(f"{x['jogador']} (desde {pd_data(x.get('entrou'))})" for x in novos)
+            out.append(("atencao", f"**{nome}**: ⚠ {len(novos)} jogador(es) novo(s) — {qs}. A nota deles vem do time "
+                                   "anterior e pode não valer aqui."))
+        else:
+            out.append(("ok", f"**{nome}**: ✅ elenco estável ({len(f.get('jogadores') or [])} jogadores conhecidos)."))
+        if (f.get("dias_parado") or 0) > 14:
+            out.append(("atencao", f"**{nome}**: último mapa nos nossos dados em {f.get('ultimo')} ({f['dias_parado']} dias) "
+                                   "— pode ter jogado torneio que não coletamos."))
+    return out
+
+
+def pd_data(iso) -> str:
+    s = str(iso or "")
+    return f"{s[8:10]}/{s[5:7]}" if len(s) >= 10 else "?"

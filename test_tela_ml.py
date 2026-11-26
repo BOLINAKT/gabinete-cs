@@ -77,5 +77,21 @@ class TestHtml(unittest.TestCase):
         self.assertIn("nao achei", tm.html_confronto(j, j))
 
 
+class TestIdentidade(unittest.TestCase):
+    def test_casamento_aproximado_avisa(self):
+        j = {"casa": "PVISION", "fora": "FaZe", "casou": [("PARIVISION", "parecido"), ("FaZe Clan", "exato")],
+             "fichas": [None, None]}
+        av = tm.avisos_identidade(j, so_casamento=True)
+        self.assertEqual(len(av), 1)
+        self.assertIn("PARIVISION", av[0][1])
+
+    def test_jogador_novo(self):
+        f = {"jogadores": [{"jogador": "x", "novo": True, "entrou": "2026-11-10"}, {"jogador": "y", "novo": False}],
+             "elenco_conhecido": True, "dias_parado": 2, "ultimo": "25/11/26"}
+        av = tm.avisos_identidade({"casa": "A", "fora": "B", "casou": [("A", "exato"), ("B", "exato")],
+                                   "fichas": [f, None]})
+        self.assertTrue(any("x (desde 10/11)" in t for _n, t in av))
+
+
 if __name__ == "__main__":
     unittest.main()

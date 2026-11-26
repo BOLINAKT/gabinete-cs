@@ -406,6 +406,8 @@ def _aba_pesquisar(est) -> None:
     j3, j5 = pc.calcular(est, {"lido_em": agora.isoformat(), "jogos": jogos, "linhas": []})
     components.html(tl.pagina(tm.html_confronto(j3, j5)), height=250 if j3.get("precificado") else 160,
                     scrolling=False)
+    for _niv, _txt in tm.avisos_identidade(j3):    # 26/11/2026: elenco novo/desconhecido, time parado
+        (st.warning if _niv == "atencao" else st.caption)(_txt)
     if not j3.get("precificado"):
         return
     linhas = tm.linhas_por_mapa(est, j3)
@@ -533,6 +535,9 @@ def main() -> None:
                                                  "jogos": _jj, "linhas": []})
                     if _j3.get("precificado"):
                         components.html(tl.pagina(tm.html_confronto(_j3, _j5)), height=250, scrolling=False)
+                import tela_ml_cs as _tm   # 26/11/2026: nome casado por aproximacao fica a vista
+                for _niv, _txt in _tm.avisos_identidade(j, so_casamento=True):
+                    st.warning(_txt)
                 components.html(tl.pagina(tl.html_jogo(j)), height=alt, scrolling=False)
                 # 25/11/2026: o modelo discorda 10+ pontos (por mapa) da Pinnacle -> ali a Pinnacle acerta mais
                 try:
