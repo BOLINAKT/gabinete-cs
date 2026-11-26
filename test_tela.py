@@ -74,6 +74,10 @@ class TestMapas(unittest.TestCase):
         self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 14:00")), "a jogar")
         self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 15:00")), "ao vivo")
         self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 17:30")), "encerrado")
+        # 26/11/2026: MD3 do Major segue "ao vivo" ate 5 h; MD1 encerra em 2 h
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 18:15"), bo=3), "ao vivo")
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 19:30"), bo=3), "encerrado")
+        self.assertEqual(pc.situacao(ini, pd.Timestamp("2026-10-26 16:30"), bo=1), "encerrado")
 
     def test_melhores_ignora_jogo_ao_vivo(self):
         j = _jogo()

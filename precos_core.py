@@ -233,9 +233,12 @@ def justas(linhas, jogo):
 
 
 HORAS_DE_JOGO = 3    # depois disso o jogo conta como encerrado (BO3 longo ~2h30)
+# 26/11/2026 (ele: no Major "foi de 4 jogos para 2"): MD3 do Major com atraso passa de 3 h -- os jogos das 05:30
+# sumiram as 08:30 ainda rolando. O prazo agora depende do formato.
+HORAS_POR_BO = {1: 2, 2: 4, 3: 5, 5: 7}
 
 
-def situacao(inicio_utc, agora=None) -> str:
+def situacao(inicio_utc, agora=None, bo=None) -> str:
     """'a jogar' | 'ao vivo' | 'encerrado', pelo relogio de AGORA (nao o da leitura)."""
     if not inicio_utc:
         return "a jogar"
@@ -243,7 +246,8 @@ def situacao(inicio_utc, agora=None) -> str:
     ini = pd.Timestamp(inicio_utc).tz_localize(None)
     if agora < ini:
         return "a jogar"
-    return "ao vivo" if agora < ini + pd.Timedelta(hours=HORAS_DE_JOGO) else "encerrado"
+    horas = HORAS_POR_BO.get(int(bo), HORAS_DE_JOGO) if bo else HORAS_DE_JOGO
+    return "ao vivo" if agora < ini + pd.Timedelta(hours=horas) else "encerrado"
 
 
 JANELA_CASAR_H = 8   # Pinnacle x Liquipedia: mesma dupla, inicio a ate 8 h (fuso/atraso)
@@ -291,7 +295,7 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
     usados, fora = set(), []
     for a in (agenda or {}).get("jogos", []):
         ini = pd.Timestamp(a["inicio_utc"]).tz_localize(None)
-        if not (agora - pd.Timedelta(hours=4) <= ini <= agora + pd.Timedelta(days=dias)):
+        if not (agora - pd.Timedelta(hours=8) <= ini <= agora + pd.Timedelta(days=dias)):
             continue
         ta, tb = be.canonico(a["time1"], mapa), be.canonico(a["time2"], mapa)
         par = frozenset((ta, tb))
@@ -317,7 +321,7 @@ def montar_jogos(est: Estado, agenda: dict, odds: dict, agora=None, dias: int = 
         if not p.get("inicio_utc"):
             continue
         ini = _ts(p["inicio_utc"])
-        if not (agora - pd.Timedelta(hours=4) <= ini <= agora + pd.Timedelta(days=dias)):
+        if not (agora - pd.Timedelta(hours=8) <= ini <= agora + pd.Timedelta(days=dias)):
             continue
         par = frozenset((_chave(p["time_a"]), _chave(p["time_b"])))
         dono = next((j for j in fora if j.get("inicio_utc")
@@ -391,7 +395,7 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
         jogo = {"id": j["id"], "liga": (j.get("liga") or "").replace("CS2 - ", ""), "casa": j["casa"],
                 "fora": j["fora"], "bo": j.get("bo") or 3, "inicio_utc": j.get("inicio_utc"),
                 "ja_comecou": bool(ini is not None and ini < lido), "casou": [(tc, mc), (tf, mf)],
-                "situacao": situacao(j.get("inicio_utc"), agora),
+                "situacao": situacao(j.get("inicio_utc"), agora, j.get("bo") or 3),
                 "fonte": j.get("fonte", "pinnacle"), "poly": j.get("poly"),
                 "fichas": [fc, ff], "precificado": not avisos, "avisos": avisos, "pouco_dado": pouco,
                 "mercados": [],

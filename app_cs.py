@@ -42,6 +42,10 @@ st.markdown("""
 <style>
   .block-container { padding-top: 1.6rem; }
   .st-key-gaveta_dia div[role="radiogroup"], .st-key-gaveta_jogo div[role="radiogroup"] { gap: 6px; }
+  .st-key-gaveta_tela div[role="radiogroup"] { gap: 4px; border-bottom: 1px solid rgba(255,255,255,0.12); margin-bottom: 8px; }
+  .st-key-gaveta_tela div[role="radiogroup"] > label { padding: 6px 16px; margin: 0; border-bottom: 2px solid transparent; }
+  .st-key-gaveta_tela div[role="radiogroup"] > label:has(input:checked) { border-bottom-color: #2daac4; font-weight: 700; }
+  .st-key-gaveta_tela div[role="radiogroup"] > label > div:first-child { display: none; }
   .st-key-gaveta_dia div[role="radiogroup"] > label, .st-key-gaveta_jogo div[role="radiogroup"] > label {
       background: rgba(255,255,255,0.035); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px;
       padding: 6px 12px; margin: 0; }
@@ -449,10 +453,13 @@ def main() -> None:
             idade_odds=idade, dados_ate=est.fim.strftime("%d/%m %H:%M"), odds_velhas=velha)), height=34)
 
     # 25/11/2026, ele: "no de CS nao precisa" de Melhores apostas / Modelo x Pinnacle / Placar / Como ler
-    aba_pesq, aba_jogos = st.tabs(["Pesquisar", "Jogos"])
-    with aba_pesq:
+    # 26/11/2026: st.tabs voltava para a 1a aba a cada clique (ele: "me jogou para a tela inicial") -- a tela
+    # escolhida agora fica guardada na sessao
+    with st.container(key="gaveta_tela"):
+        aba = st.radio("Tela", ["Pesquisar", "Jogos"], horizontal=True, label_visibility="collapsed", key="cs_tela")
+    if aba == "Pesquisar":
         _aba_pesquisar(est)
-    with aba_jogos:
+    if aba == "Jogos":
         encerrados = [j for j in jogos if j["situacao"] == "encerrado"]
         if encerrados and not st.toggle(f"Mostrar {len(encerrados)} jogo(s) já encerrado(s)", value=False):
             jogos = [j for j in jogos if j["situacao"] != "encerrado"]
