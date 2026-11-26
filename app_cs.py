@@ -265,7 +265,9 @@ def _bloco_veto(est, j) -> None:
             linhas = vc.linhas_do_veto(est, j, v)
             novos = vc.registrar(j, linhas, v["pagina"]) if linhas else 0
             vc.registrar_resultados(j, linhas)
-            st.session_state[chave] = (linhas, v["pagina"])
+            # 26/11/2026: guarda o VETO (quais mapas), nao a tabela pronta -- a tabela se refaz com o modelo atual
+            # (antes, mudar o modelo deixava a tabela velha na sessao)
+            st.session_state[chave] = (v, v["pagina"])
             if novos:
                 st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
         except lq.Pausado as e:
@@ -275,7 +277,8 @@ def _bloco_veto(est, j) -> None:
     if j["precificado"]:
         _clicar_mapas(est, j, chave)
     if chave in st.session_state:
-        linhas, pagina = st.session_state[chave]
+        v_salvo, pagina = st.session_state[chave]
+        linhas = vc.linhas_do_veto(est, j, v_salvo) if isinstance(v_salvo, dict) else []
         components.html(tl.pagina(tl.html_veto(j, linhas, pagina)),
                         height=110 + 46 * max(1, len(linhas)) + 70, scrolling=False)
         if linhas:
@@ -360,7 +363,7 @@ def _clicar_mapas(est, j, chave, dentro_de_expander: bool = True) -> list:
                                                  for n, (m, _q) in enumerate(seq)]}
             linhas = vc.linhas_do_veto(est, j, v)
             novos = vc.registrar(j, linhas, "digitado") if linhas else 0
-            ss[chave] = (linhas, "digitado")
+            ss[chave] = (v, "digitado")
             if novos:
                 st.toast(f"{novos} previsão(ões) de mapa gravada(s) para o placar")
             st.rerun()
