@@ -54,6 +54,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+def _na_nuvem() -> bool:
+    """Streamlit Cloud (secret GABINETE_VIEWER = "1", como no LoL/Dota): sem git pull e sem ler a Pinnacle do
+    servidor -- os dados chegam pelos robos do GitHub, e a nuvem atualiza o app a cada commit."""
+    import os
+    if str(os.environ.get("GABINETE_VIEWER", "")).strip() in ("1", "true", "sim"):
+        return True
+    try:
+        return str(st.secrets.get("GABINETE_VIEWER", "") or "").strip() in ("1", "true", "sim")
+    except Exception:  # noqa: BLE001 -- sem secrets.toml o Streamlit levanta
+        return False
+
+
 def _versao_dados() -> tuple:
     # precos_core.py entra: codigo novo do Estado com cache velho = atributo faltando
     return tuple((RAIZ / n).stat().st_mtime
@@ -398,24 +410,25 @@ def main() -> None:
         _cb.render_faixa(st, RAIZ, "cs")
     except Exception as _e:  # noqa: BLE001
         st.warning(f"A faixa de confiança da base não abriu ({type(_e).__name__}).")
+    nuvem = _na_nuvem()
     c1, c2 = st.columns([5, 1])
     with c2:
-        if st.button("Atualizar odds", help="Lê a Pinnacle agora (2 chamadas) e puxa o histórico do robô"):
+        if not nuvem and st.button("Atualizar odds", help="Lê a Pinnacle agora (2 chamadas) e puxa o histórico do robô"):
             subprocess.run(["git", "pull", "--ff-only", "-q"], cwd=RAIZ, capture_output=True, text=True)
             st.toast("Odds lidas agora" if _ler_pinnacle_agora() else
                      "A Pinnacle recusou o seu PC (pausa de 6 h, sem insistir) — usando a leitura do robô")
     odds = _odds_mais_nova()
     # Jogo que acabou SOME da Pinnacle: com leitura fresca, encerrado nao aparece.
     # Ao abrir com leitura velha, le sozinho -- uma vez por MIN_RELER, nao a cada clique.
-    if odds is None or _idade(odds["lido_em"])[2] > MIN_RELER / 60:
+    if not nuvem and (odds is None or _idade(odds["lido_em"])[2] > MIN_RELER / 60):
         if st.session_state.get("_releu_em", 0) < datetime.now().timestamp() - MIN_RELER * 60:
             st.session_state["_releu_em"] = datetime.now().timestamp()
             with st.spinner("Lendo a Pinnacle..."):
                 if _ler_pinnacle_agora():
                     odds = _odds_mais_nova()
-    if odds is None:
-        st.warning("Ainda não há odds coletadas. Clique em Atualizar odds.")
-        return
+    if odds is None:   # sem leitura da Pinnacle: a Pesquisa e os jogos da agenda funcionam do mesmo jeito
+        st.caption("Ainda não há leitura da Pinnacle — os preços do modelo saem normalmente.")
+        odds = {"lido_em": datetime.now(timezone.utc).isoformat(), "jogos": [], "linhas": []}
     est = estado(_versao_dados())
     # Jogos da LIQUIPEDIA; odds da Pinnacle penduradas em quem ja tem mercado (27/10/2026)
     try:
