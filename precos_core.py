@@ -415,7 +415,9 @@ def calcular(est: Estado, odds: dict, hoje=None, agora=None) -> list:
             c_jogo = 1.0 if pouco else est.c_serie       # pouco dado: sem o encolhimento dos S/A/B
             # a SERIE segue do mapa CRU com o c dela (como foi medida em 26/10) -- nao encolhe duas vezes
             ps = be.p_serie(cal.ajusta(pm_cru, c_jogo), precisa) if precisa > 1 else pm
-            pin = justas(odds["linhas"], j["id"])
+            # 26/11/2026: leitura da Pinnacle DEPOIS do inicio = odd AO VIVO (ex.: Lynn x PVISION, mapa 1 a 3,53 com a
+            # PVISION ganhando, "+69%" em verde). Comparar com a chance de antes do jogo da vantagem falsa: fica de fora.
+            pin = {} if jogo["ja_comecou"] else justas(odds["linhas"], j["id"])
             merc = [("Série" if precisa > 1 else "Vencedor", 0, ps)]
             merc += [(f"Mapa {k}", k, pm) for k in (1, 2, 3) if k in pin]
             for nome, per, p in merc:

@@ -142,7 +142,8 @@ def html_jogo(j) -> str:
         cel = []
         for l in (a, b):
             if l["odd_pinnacle"] is None:
-                cel.append('<div><span class="nada">sem linha</span></div>')
+                cel.append('<div><span class="nada">{}</span></div>'.format(
+                    "já começou (odd ao vivo fora)" if j.get("ja_comecou") else "sem linha"))
                 continue
             v = l["vantagem"]
             cel.append('<div class="{}"><span class="odd">{}</span><span class="v {}">{}</span></div>'.format(
