@@ -1,68 +1,14 @@
 {
- "lido_em": "2026-11-26T17:20:15Z",
+ "lido_em": "2026-11-27T01:58:29Z",
  "jogos": [
   {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-26T15:00:00Z",
-   "time1": "spirit academy",
-   "time2": "noir verse",
-   "bo": 3,
-   "mapas_jogados": 1
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 15",
-   "tier": "B",
-   "inicio_utc": "2026-11-26T18:00:00Z",
-   "time1": "lir",
-   "time2": "spirit academy",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Series 16/Play-In",
-   "tier": "C",
-   "inicio_utc": "2026-11-26T18:00:00Z",
-   "time1": "donstu",
-   "time2": "sokerorg",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CyberClash/Women",
-   "tier": "C",
-   "inicio_utc": "2026-11-26T18:00:00Z",
-   "time1": "overpeek",
-   "time2": "idk (female team)",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "Fiesta Series/4",
-   "tier": "C",
-   "inicio_utc": "2026-11-26T18:00:00Z",
-   "time1": "aimclub.ro",
-   "time2": "kamui",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
    "pagina": "CCT/2026/Europe/Contenders 11",
    "tier": "C",
-   "inicio_utc": "2026-11-26T19:00:00Z",
-   "time1": "ex-copenhagen wolves",
-   "time2": "zotix",
-   "bo": 3,
-   "mapas_jogados": 0
-  },
-  {
-   "pagina": "CCT/2026/Europe/Contenders 11",
-   "tier": "C",
-   "inicio_utc": "2026-11-26T21:45:00Z",
+   "inicio_utc": "2026-11-26T22:00:00Z",
    "time1": "encelade",
    "time2": "axe.ua",
    "bo": 3,
-   "mapas_jogados": 0
+   "mapas_jogados": 2
   },
   {
    "pagina": "PGL/2026/Singapore/Stage 1",
@@ -155,6 +101,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-27T12:00:00Z",
+   "time1": "lir",
+   "time2": "drama.rs",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "CCT/2026/Europe/Series 16/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-27T12:00:00Z",
@@ -176,8 +131,26 @@
    "pagina": "XPrime/Championship Series/2",
    "tier": "C",
    "inicio_utc": "2026-11-27T14:00:00Z",
-   "time1": "svinjokolj",
-   "time2": "fraternity (latvian team)",
+   "time1": "eyeforeye",
+   "time2": "checkmom",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-27T15:00:00Z",
+   "time1": "npg",
+   "time2": "xmeta",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T15:00:00Z",
+   "time1": "walczaki",
+   "time2": "maybe.ua",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -203,8 +176,35 @@
    "pagina": "XPrime/Championship Series/2",
    "tier": "C",
    "inicio_utc": "2026-11-27T17:00:00Z",
-   "time1": "eyeforeye",
-   "time2": "checkmom",
+   "time1": "svinjokolj",
+   "time2": "fraternity (latvian team)",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 15",
+   "tier": "B",
+   "inicio_utc": "2026-11-27T18:00:00Z",
+   "time1": "butterfly",
+   "time2": "maybe.ua",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T18:00:00Z",
+   "time1": "lunacy team",
+   "time2": "megoshort",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CyberClash/Women",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T18:00:00Z",
+   "time1": "overpeek",
+   "time2": "el macaron",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -223,6 +223,24 @@
    "inicio_utc": "2026-11-27T19:00:00Z",
    "time1": "bangaranga",
    "time2": "goatyyy",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Esports Mediterranean Games/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T19:00:00Z",
+   "time1": "kosovo",
+   "time2": "lebanon",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "Esports Mediterranean Games/2026",
+   "tier": "C",
+   "inicio_utc": "2026-11-27T21:30:00Z",
+   "time1": "serbia",
+   "time2": "portugal",
    "bo": 3,
    "mapas_jogados": 0
   },
@@ -290,6 +308,15 @@
    "mapas_jogados": 0
   },
   {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T09:00:00Z",
+   "time1": "noir verse",
+   "time2": "saw youngsters",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
    "pagina": "European Pro League/Series 11/Play-In",
    "tier": "C",
    "inicio_utc": "2026-11-29T09:00:00Z",
@@ -322,6 +349,15 @@
    "inicio_utc": "2026-11-29T11:30:00Z",
    "time1": "eac",
    "time2": "fortress",
+   "bo": 3,
+   "mapas_jogados": 0
+  },
+  {
+   "pagina": "CCT/2026/Europe/Series 16/Play-In",
+   "tier": "C",
+   "inicio_utc": "2026-11-29T12:00:00Z",
+   "time1": "sokerorg",
+   "time2": "drama.rs",
    "bo": 3,
    "mapas_jogados": 0
   },
