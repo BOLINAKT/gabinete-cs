@@ -15064,6 +15064,11 @@
 "sem_ano": true,
 "tier": "C"
 },
+"Douyu Fei Chang Go Go Go": {
+"fim": "2026-11-29",
+"inicio": "2026-11-29",
+"tier": "C"
+},
 "Douyu Platform Cup Machine Challenge": {
 "fim": "2026-10-23",
 "inicio": "2026-10-23",
@@ -63971,6 +63976,11 @@
 "inicio": "2027-01-06",
 "tier": "B"
 },
+"PGL/2028/April": {
+"fim": "2028-05-01",
+"inicio": "2028-04-19",
+"tier": "S"
+},
 "PGL/2028/February": {
 "fim": "2028-02-21",
 "inicio": "2028-02-09",
@@ -63984,6 +63994,16 @@
 "PGL/2028/March": {
 "fim": "2028-04-03",
 "inicio": "2028-03-23",
+"tier": "S"
+},
+"PGL/2028/October": {
+"fim": "2028-10-16",
+"inicio": "2028-10-04",
+"tier": "S"
+},
+"PGL/2028/September": {
+"fim": "2028-09-11",
+"inicio": "2028-08-31",
 "tier": "S"
 },
 "PGL/Championship Series": {

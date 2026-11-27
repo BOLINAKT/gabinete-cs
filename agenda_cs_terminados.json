@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-27T01:58:30+00:00",
+ "atualizado_em": "2026-11-27T13:05:20+00:00",
  "fonte": "Liquipedia (CC-BY-SA): Liquipedia:Matches",
  "series": [
   {
@@ -456,6 +456,20 @@
    "inicio_utc": "2026-11-26T14:00:00+00:00",
    "placar": "1-2",
    "torneio": "United21 Season 59"
+  },
+  {
+   "time_a": "Lynn Vision Gaming",
+   "time_b": "HEROIC",
+   "inicio_utc": "2026-11-27T06:00:00+00:00",
+   "placar": "2-0",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Imperial Esports",
+   "time_b": "Wildcard",
+   "inicio_utc": "2026-11-27T08:30:00+00:00",
+   "placar": "2-1",
+   "torneio": "PGL Major Singapore 2026"
   }
  ]
 }
