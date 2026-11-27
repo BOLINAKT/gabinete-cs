@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-27T13:05:20+00:00",
+ "atualizado_em": "2026-11-27T23:45:03+00:00",
  "fonte": "Liquipedia (CC-BY-SA): Liquipedia:Matches",
  "series": [
   {
@@ -469,6 +469,13 @@
    "time_b": "Wildcard",
    "inicio_utc": "2026-11-27T08:30:00+00:00",
    "placar": "2-1",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "M80",
+   "time_b": "100 Thieves",
+   "inicio_utc": "2026-11-27T12:00:00+00:00",
+   "placar": "1-2",
    "torneio": "PGL Major Singapore 2026"
   }
  ]
