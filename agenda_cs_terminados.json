@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-27T23:45:03+00:00",
+ "atualizado_em": "2026-11-28T08:25:44+00:00",
  "fonte": "Liquipedia (CC-BY-SA): Liquipedia:Matches",
  "series": [
   {
@@ -476,6 +476,62 @@
    "time_b": "100 Thieves",
    "inicio_utc": "2026-11-27T12:00:00+00:00",
    "placar": "1-2",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "FUT Esports",
+   "time_b": "FlyQuest",
+   "inicio_utc": "2026-11-28T04:00:00+00:00",
+   "placar": "13-10",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "The MongolZ",
+   "time_b": "Lynn Vision Gaming",
+   "inicio_utc": "2026-11-28T04:00:00+00:00",
+   "placar": "13-9",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Nemiga Gaming",
+   "time_b": "Ninjas in Pyjamas",
+   "inicio_utc": "2026-11-28T05:10:00+00:00",
+   "placar": "7-13",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Astralis",
+   "time_b": "Imperial Esports",
+   "inicio_utc": "2026-11-28T05:10:00+00:00",
+   "placar": "13-9",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "G2 Esports",
+   "time_b": "Team Liquid",
+   "inicio_utc": "2026-11-28T06:15:00+00:00",
+   "placar": "13-8",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "The One",
+   "time_b": "Eternal Fire",
+   "inicio_utc": "2026-11-28T06:15:00+00:00",
+   "placar": "13-10",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "Natus Vincere",
+   "time_b": "PVISION",
+   "inicio_utc": "2026-11-28T07:20:00+00:00",
+   "placar": "13-10",
+   "torneio": "PGL Major Singapore 2026"
+  },
+  {
+   "time_a": "MIBR",
+   "time_b": "100 Thieves",
+   "inicio_utc": "2026-11-28T07:25:00+00:00",
+   "placar": "11-13",
    "torneio": "PGL Major Singapore 2026"
   }
  ]
